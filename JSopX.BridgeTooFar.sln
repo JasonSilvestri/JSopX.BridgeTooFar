@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSopX.BridgeTooFar", "JSopX.BridgeTooFar\JSopX.BridgeTooFar.csproj", "{F24A8956-4C77-4D2E-A1AA-4E5F4ABB76FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSopX.BridgeTooFar", "JSopX.BridgeTooFar\JSopX.BridgeTooFar.csproj", "{F24A8956-4C77-4D2E-A1AA-4E5F4ABB76FF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSopX.ClassLibrary", "JSopX.ClassLibrary\JSopX.ClassLibrary\JSopX.ClassLibrary.csproj", "{EEA3F13D-DEBD-4F78-8375-8F5FFAFC442A}"
 EndProject
