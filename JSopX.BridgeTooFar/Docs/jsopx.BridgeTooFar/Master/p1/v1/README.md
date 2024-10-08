@@ -34,20 +34,26 @@ This suite of projects, uses some of the most advanced client-side and server-si
 > Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p1.md) for more details.
 
 
-## Table of Contents
+# Table of Contents
+- [JSopX™ Open Project EXperiences : Bridge Too Far (Draft)](#jsopx-open-project-experiences--bridge-too-far-draft)
+          - [From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects (Draft)](#from-the-jsilvestricom-beta-v-2024-jsopx-open-project-experiences-collection-of-projects-draft)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Alerts](#alerts)
+    - [Current Alerts](#current-alerts)
+  - [Prerequisites](#prerequisites)
+  - [Corequisites](#corequisites)
+  - [Postrequisites](#postrequisites)
+  - [Concomitants](#concomitants)
+  - [Getting Started](#getting-started)
+  - [Step-by-Step Instructions](#step-by-step-instructions)
+    - [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
+    - [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-child-basic-markdown-page-template-content-includes)
+    - [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
+  - [Usage](#usage)
+      - [Adding the JSopX™ Bridge Too Far Docs to Other Projects](#adding-the-jsopx-bridge-too-far-docs-to-other-projects)
+  - [In Conclusion](#in-conclusion)
 
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Corequisites](#corequisites)
-4. [Postrequisites](#postrequisites)
-5. [Concomitants](#concomitants)
-6. [Getting Started](#getting-started)
-7. [Step-by-Step Instructions](#step-by-step-instructions)
-   1. [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
-   2. [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-parent-basic-markdown-page-template-content-includes)
-   3. [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
-7. [Usage](#usage)
-8. [In Conclusion](#in-conclusion)
 
 ## Alerts
 
