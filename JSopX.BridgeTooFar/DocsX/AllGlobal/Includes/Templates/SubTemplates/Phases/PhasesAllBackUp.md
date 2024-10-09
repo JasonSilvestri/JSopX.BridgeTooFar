@@ -1,29 +1,16 @@
 ﻿
+# ﻿JSopX™ Open Project EXperiences : Project Development Phases
 
-
-# ﻿JSopX™ Open Project EXperiences : Project Development Phases (Draft)
 From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects
 
-
-
-
-
-
-
-  
 > [!CAUTION]
 > **This is a Static DRAFT:**
 > 
 > The content before you is a draft version of the document. It **should not** be considered **accurate**. In fact, drafts will often times be for different reasons, such as testing styles, content, etc. The content itself may have only been used as a placeholder, making sections, or even the entire document contain information not relative to this project.
 
-
 ## Overview
 
-﻿
-
 I will be following a basic set of phases as I develop all JSopX Projects, so we can ensure unique documentation to each project for each phase that outlines at least a basic outline. Conversely, you do not need to use Phases in your approach to development and if you do, I am sure they are different. This is totally fine. In the case of Phases, think more about the importance of each phase, and less about a step-by-step phase lifecycle you need to follow in order.
-
-
   
 > [!CAUTION]
 > **Phase 1:**
@@ -31,7 +18,6 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 > This project is currently in **Phase 1** of Development. It **should not** be considered **accurate** or a **release candidate**. In fact, it should be treated as simply reference material for the time being, due to the absolute bare minimum resources created, to satisfy a minimum viable product requirement in Phase 1 (by design). Conversely, Phase 2 is days away, and Phase 3 is only a week after that. Phase 3 Projects will be mature, and action-packed with features, assets, documentation and more!
 > 
 > Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p1.md) for more details.
-
 
 ## Table of Contents
 
