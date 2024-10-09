@@ -38,6 +38,25 @@ function processIncludes(content) {
     });
 }
 
+// Function to handle draft notice based on isDraft property
+function handleDraftNotice(content, isDraft) {
+    const draftNoticeIncludePath = path.join(__dirname, 'Draft-Notice.md');
+    const draftNotice = fs.existsSync(draftNoticeIncludePath)
+        ? fs.readFileSync(draftNoticeIncludePath, 'utf8')
+        : `> [!CAUTION]\n> **This is a DRAFT:**\n> \n> The content before you is a draft version of the document. It **should not** be considered **accurate**.`;
+
+    if (isDraft === 'true') {
+        // Insert draft notice at the top if it's not already present
+        if (!content.includes(draftNotice)) {
+            content = `${draftNotice}\n\n${content}`;
+        }
+    } else {
+        // Remove draft notice if it exists
+        content = content.replace(draftNotice, '');
+    }
+    return content;
+}
+
 // Function to generate a Table of Contents, while ignoring footer sections
 function generateTOC(content) {
     const toc = [];
@@ -90,7 +109,10 @@ function insertNavigationLinks(content, parentPath = null, isSubTemplate = false
 // Function to create standalone sub-template with parent navigation
 function createSubTemplate(subTemplatePath, parentPathLink) {
     let content = fs.readFileSync(subTemplatePath, 'utf8');
+    const properties = extractCommentProperties(content);
+    content = handleDraftNotice(content, properties.isDraft);
     content = insertNavigationLinks(content, parentPathLink, true);
+
     const finalSubPath = subTemplatePath.replace('DocsX', 'Docs')
         .replace('AllGlobal', 'JSopX')
         .replace('Includes\\Templates\\SubTemplates', 'Master');
@@ -102,6 +124,9 @@ function createSubTemplate(subTemplatePath, parentPathLink) {
 // Function to process the parent template and generate TOC with links to sub-templates
 function processParentTemplate(parentTemplatePath, subTemplatesDir) {
     let parentContent = fs.readFileSync(parentTemplatePath, 'utf8');
+    const properties = extractCommentProperties(parentContent);
+    parentContent = handleDraftNotice(parentContent, properties.isDraft);
+
     const subTemplates = fs.readdirSync(subTemplatesDir).filter(file => file.endsWith('.md'));
 
     // Generate TOC for parent template

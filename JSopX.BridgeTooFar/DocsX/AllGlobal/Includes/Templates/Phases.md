@@ -6,6 +6,7 @@ workflowState: Is Production Ready
 group: Phases
 toc: true
 isProductionReady: true
+isDraft: false
 
 should be removed in final render document
 
