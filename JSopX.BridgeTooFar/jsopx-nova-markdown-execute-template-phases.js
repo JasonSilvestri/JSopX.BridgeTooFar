@@ -1,5 +1,3 @@
-
-
 const fs = require('fs');
 const path = require('path');
 
@@ -49,6 +47,9 @@ function generateParentTOC(subTemplates) {
 
 // Function to insert or replace the TOC after the first heading
 function insertTOCAfterFirstHeading(content, toc) {
+    // Remove any existing "Table of Contents" headings to avoid duplicates
+    content = content.replace(/# Table of Contents\n/g, '');
+
     if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
         return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
     }
@@ -60,6 +61,7 @@ function insertTOCAfterFirstHeading(content, toc) {
 
     return `# Table of Contents\n${toc}\n\n${content}`;
 }
+
 
 // Function to insert navigation links
 function insertNavigationLinks(content, parentPath = null, isSubTemplate = false) {
@@ -129,7 +131,6 @@ const parentTemplatePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
 const subTemplatesDir = 'DocsX/AllGlobal/Includes/Templates/SubTemplates/Phases';
 const childIncludesDir = 'DocsX/AllGlobal/Includes/Content/Template/Phases';
 processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir);
-
 
 
 
