@@ -1,3 +1,5 @@
+
+
 const fs = require('fs');
 const path = require('path');
 
@@ -38,21 +40,25 @@ function processIncludes(content) {
 // Function to generate Table of Contents for parent template
 function generateParentTOC(subTemplates) {
     const toc = subTemplates.map((subTemplate) => {
-        const subTemplateName = subTemplate.replace('.md', '');
+        const subTemplateName = subTemplate.replace('.md', '').replace(/-/g, ' ');
         const anchorLink = subTemplateName.toLowerCase().replace(/\s+/g, '-');
         return `- [${subTemplateName}](#${anchorLink})`;
     }).join('\n');
     return `# Table of Contents\n${toc}\n\n`;
 }
 
-// Function to insert the Table of Contents after the first heading
+// Function to insert or replace the TOC after the first heading
 function insertTOCAfterFirstHeading(content, toc) {
-    const firstHeadingMatch = content.match(/^(#\s+.+)$/m);
-    if (firstHeadingMatch) {
-        const index = content.indexOf(firstHeadingMatch[0]) + firstHeadingMatch[0].length;
-        return content.slice(0, index) + '\n\n' + toc + content.slice(index);
+    if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
+        return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
     }
-    return toc + content; // Fallback: add TOC at the top if no heading is found
+
+    const overviewMatch = content.match(/(#{1,2} Overview)/);
+    if (overviewMatch) {
+        return content.replace(overviewMatch[0], `${overviewMatch[0]}\n\n# Table of Contents\n${toc}`);
+    }
+
+    return `# Table of Contents\n${toc}\n\n${content}`;
 }
 
 // Function to insert navigation links
@@ -71,7 +77,6 @@ function createSubTemplate(subTemplatePath, parentPathLink) {
     const finalSubPath = subTemplatePath.replace('DocsX', 'Docs')
         .replace('AllGlobal', 'JSopX')
         .replace('Includes\\Templates\\SubTemplates', 'Master');
-      /*  .replace('.md', '-final.md');*/
 
     fs.writeFileSync(finalSubPath, content);
     console.log(`Processed sub-template saved to: ${finalSubPath}`);
@@ -93,7 +98,7 @@ function processParentTemplate(parentTemplatePath, subTemplatesDir) {
     const finalParentPath = parentTemplatePath.replace('DocsX', 'Docs')
         .replace('AllGlobal', 'JSopX')
         .replace('Includes/Templates', 'Master');
-       /* .replace('.md', '-final.md');*/
+
     fs.writeFileSync(finalParentPath, parentContent);
     console.log(`Processed parent template saved to: ${finalParentPath}`);
 
