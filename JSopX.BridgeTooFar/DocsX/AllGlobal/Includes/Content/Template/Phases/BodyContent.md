@@ -1,4 +1,5 @@
-﻿I will be following a basic set of phases as I develop all JSopX Projects. 
+﻿
+I will be following a basic set of phases as I develop all JSopX Projects. 
 
 ## Phase 1 (Current Phase): Minimum Viable Product (MVP)
 
@@ -26,8 +27,6 @@ Please see [Phase 3: Advanced User Interface Connectivity and Re-Usability](http
 The purpose of Project Development Steps in Phase 4 is to Implement Final Security Protocols, Deployment Strategies and any other major aspects of the applications you have not yet handled. This isn't a little pat on the back and lets do a good job. If you yet implemented or close to finishing Final Security Protocols you should be worried, along with any other related security design patterns and best practices you may have missed. I cannot stress enough about the importance of taking care of these things before your first release candidate.
 
 Please see [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p4.md) for more details.
-
-
 
 
 

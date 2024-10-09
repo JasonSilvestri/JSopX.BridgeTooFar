@@ -19,6 +19,19 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collect
 
 ## Overview
 
+# Table of Contents
+  - [Overview](#overview)
+  - [Prerequisites](#prerequisites)
+  - [Corequisites](#corequisites)
+  - [Postrequisites](#postrequisites)
+  - [Concomitants](#concomitants)
+- [All Project Development Phases](#all-project-development-phases)
+  - [In Conclusion](#in-conclusion)
+- [Phase 1 Minimum Viable Product MVP](#phase-1-minimum-viable-product-mvp)
+- [Phase 2 Minimum Viable Refactor Product MVRP](#phase-2-minimum-viable-refactor-product-mvrp)
+- [Phase 3 Advanced User Interface Connectivity and Re Usability](#phase-3-advanced-user-interface-connectivity-and-re-usability)
+- [Phase 4 Implement Final Security Protocols Deployment Strategies and More](#phase-4-implement-final-security-protocols-deployment-strategies-and-more)
+
 ﻿
 I will be following a basic set of phases as I develop all JSopX Projects, so we can ensure unique documentation to each project for each phase that outlines at least a basic outline. Conversely, you do not need to use Phases in your approach to development and if you do, I am sure they are different. This is totally fine. In the case of Phases, think more about the importance of each phase, and less about a step-by-step phase lifecycle you need to follow in order.
 
@@ -33,14 +46,12 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 > Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p1.md) for more details.
 
 
-# Table of Contents
-# Table of Contents
-- [Phase 1 Minimum Viable Product MVP](#phase-1-minimum-viable-product-mvp)
-- [Phase 2 Minimum Viable Refactor Product MVRP](#phase-2-minimum-viable-refactor-product-mvrp)
-- [Phase 3 Advanced User Interface Connectivity and Re Usability](#phase-3-advanced-user-interface-connectivity-and-re-usability)
-- [Phase 4 Implement Final Security Protocols Deployment Strategies and More](#phase-4-implement-final-security-protocols-deployment-strategies-and-more)
 
 
+### Current Alerts
+
+> [!IMPORTANT]
+> This document is for **advanced users only**, and this Include outlines a sample `Current Alert`.
 
 
 ## Prerequisites
@@ -79,9 +90,10 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 
 [Back to Top](#table-of-contents)
 
-# Project Development Phases
+# All Project Development Phases
 
-﻿I will be following a basic set of phases as I develop all JSopX Projects. 
+﻿
+I will be following a basic set of phases as I develop all JSopX Projects. 
 
 ## Phase 1 (Current Phase): Minimum Viable Product (MVP)
 
@@ -109,8 +121,6 @@ Please see [Phase 3: Advanced User Interface Connectivity and Re-Usability](http
 The purpose of Project Development Steps in Phase 4 is to Implement Final Security Protocols, Deployment Strategies and any other major aspects of the applications you have not yet handled. This isn't a little pat on the back and lets do a good job. If you yet implemented or close to finishing Final Security Protocols you should be worried, along with any other related security design patterns and best practices you may have missed. I cannot stress enough about the importance of taking care of these things before your first release candidate.
 
 Please see [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p4.md) for more details.
-
-
 
 
 
