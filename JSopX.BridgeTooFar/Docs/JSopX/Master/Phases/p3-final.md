@@ -1,7 +1,17 @@
-﻿
-# ﻿JSopX™ Open Project EXperiences : Phase 3: Advanced User Interface Connectivity and Re-Usability
+[Back to Top](#table-of-contents)
 
+﻿
+
+
+# ﻿JSopX™ Open Project EXperiences : Phase 3: Advanced User Interface Connectivity and Re-Usability (Draft)
 From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects
+
+
+
+
+
+
+
   
 > [!CAUTION]
 > **This is a DRAFT:**
@@ -11,7 +21,10 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection
 
 ## Overview
 
+﻿
+
 The purpose of Project Development Steps in Phase 3 is to dig in hard with some of the most advanced aspects of all parts of each project, across the entire project suite. Whatever base assets should be included. Primary Web API should be included. All Project Referenced should be configured. Even the start of Security Protocols should be developed hand-and-hand with areas of the projects that require it.
+
 
 
 ## Table of Contents
@@ -119,3 +132,5 @@ The `Phase 3: Advanced User Interface Connectivity and Re-Usability` Phase is an
 ##### [JSopX.com](https://www.jsopx.com/) | [Jason's Official Website](https://www.jsilvestri.com/) | [X](https://www.x.com/JasonSilvestri) | [LinkedIn](http://www.linkedin.com/in/JasonSilvestri) | [GitHub](https://github.com/JasonSilvestri) | [Gmail](mailto:therealjasonsilvestri@gmail.com) | [Phone : 508-851-9445](phoneto:508-851-9445)
 
 ###### Copyright © 2024 - All Rights Reserved by Jason Silvestri
+
+[Back to Parent](Docs/JSopX/Master/Phases-final)

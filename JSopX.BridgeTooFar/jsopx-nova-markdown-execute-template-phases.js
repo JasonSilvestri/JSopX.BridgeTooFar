@@ -1,14 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-// Define the regex to match the comment block
-const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
-
 // Function to scan for properties in the comment block
 function extractCommentProperties(content) {
     const properties = {};
+    const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
     const match = content.match(commentBlockRegex);
-
     if (match) {
         const block = match[0];
         const propertyRegex = /(\w+):\s*(\w+)/g;
@@ -20,16 +17,9 @@ function extractCommentProperties(content) {
     return properties;
 }
 
-// Function to handle properties
-function handleProperties(properties, filePath) {
-    if (properties.isDraft === 'true') {
-        console.log(`Skipping production tasks for ${filePath} (Draft mode).`);
-    }
-    if (properties.toc === 'true') {
-        console.log(`Generating Table of Contents for ${filePath}`);
-        return true; // Flag to generate TOC
-    }
-    return false;
+// Function to clean hidden characters and remove comments
+function cleanAndRemoveComments(content) {
+    return content.replace(/^\uFEFF/, '').replace(/\s+$/, '').replace(/<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g, '');
 }
 
 // Function to process includes in markdown
@@ -45,135 +35,267 @@ function processIncludes(content) {
     });
 }
 
-// Function to remove comments from markdown
-function removeComments(content) {
-    return content.replace(commentBlockRegex, '');
+// Function to generate Table of Contents for parent template
+function generateParentTOC(subTemplates) {
+    const toc = subTemplates.map((subTemplate) => {
+        const subTemplateName = subTemplate.replace('.md', '');
+        const anchorLink = subTemplateName.toLowerCase().replace(/\s+/g, '-');
+        return `- [${subTemplateName}](#${anchorLink})`;
+    }).join('\n');
+    return `# Table of Contents\n${toc}\n\n`;
 }
 
-// Function to generate Table of Contents
-function generateTOC(content) {
-    const toc = [];
-    const lines = content.split('\n');
-    let footerDetected = false;
-
-    lines.forEach(line => {
-        if (line.match(/^---/) || line.includes('##### [JSopX.com]')) {
-            footerDetected = true;
-        }
-
-        const headerMatch = line.match(/^(#{1,6})\s+(.*)/);
-        if (headerMatch) {
-            const level = headerMatch[1].length;
-            const headerText = headerMatch[2].trim();
-            const anchor = headerText.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
-
-            if (!footerDetected && !headerText.toLowerCase().includes('from the jsilvestri.com beta')) {
-                toc.push(`${' '.repeat((level - 1) * 2)}- [${headerText}](#${anchor})`);
-            }
-        }
-    });
-
-    return toc.join('\n');
-}
-
-// Function to insert or replace the TOC
-function insertTOC(content, toc) {
-    if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
-        return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
-    }
-
-    const overviewMatch = content.match(/(#{1,2} Overview)/);
-    if (overviewMatch) {
-        return content.replace(overviewMatch[0], `${overviewMatch[0]}\n\n# Table of Contents\n${toc}`);
-    }
-
-    return `# Table of Contents\n${toc}\n\n${content}`;
-}
-
-// Function to clean hidden characters
-function cleanHiddenCharacters(content) {
-    return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
-}
-
-// Function to insert "Back to Top" and "Back to Parent" links only for sub-templates
-function insertNavigationLinks(content, isSubTemplate) {
+// Function to insert navigation links
+function insertNavigationLinks(content, parentPath = null) {
     const backToTop = '[Back to Top](#table-of-contents)';
-    const backToParent = '[Back to Parent](#)';
-    if (isSubTemplate) {
-        return `${backToTop}\n\n${content}\n\n${backToParent}`;
-    }
-    return content;
+    const backToParent = parentPath ? `[Back to Parent](${parentPath})` : '';
+    return `${backToTop}\n\n${content}\n\n${backToParent}`;
 }
 
-// Function to process Phases by combining Parent Templates, Sub Templates, and Child Includes
-function processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir) {
-    let combinedContent = fs.readFileSync(parentTemplatePath, 'utf8');
+// Function to create standalone sub-template with parent navigation
+function createSubTemplate(subTemplatePath, parentPathLink) {
+    let content = fs.readFileSync(subTemplatePath, 'utf8');
+    content = insertNavigationLinks(content, parentPathLink);
+    //const finalSubPath = subTemplatePath.replace('DocsX', 'Docs').replace('.md', '-final.md');
+    console.log(`To process sub-template saved to: ${subTemplatePath}`);
+    const finalSubPath = subTemplatePath.replace('DocsX', 'Docs')
+        .replace('AllGlobal', 'JSopX')
+        .replace('Includes\\Templates\\SubTemplates', 'Master')
+        .replace('.md', '-final.md');
+    console.log(`To process sub-template saved to: ${finalSubPath}`);
 
-    // Process sub templates
+    fs.writeFileSync(finalSubPath, content);
+    console.log(`Processed sub-template saved to: ${finalSubPath}`);
+}
+
+// Function to process the parent template and generate TOC with links to sub-templates
+function processParentTemplate(parentTemplatePath, subTemplatesDir) {
+    let parentContent = fs.readFileSync(parentTemplatePath, 'utf8');
     const subTemplates = fs.readdirSync(subTemplatesDir).filter(file => file.endsWith('.md'));
+
+    // Generate TOC for parent template
+    const toc = generateParentTOC(subTemplates);
+    parentContent = `${toc}${parentContent}`;
+
+    // Clean up and process includes for parent
+    parentContent = processIncludes(parentContent);
+    parentContent = cleanAndRemoveComments(parentContent);
+
+
+   /* const finalParentPath = parentTemplatePath.replace('DocsX', 'Docs').replace('.md', '-final.md');*/
+    const finalParentPath = parentTemplatePath.replace('DocsX', 'Docs')
+        .replace('AllGlobal', 'JSopX')
+        .replace('Includes/Templates', 'Master')
+        .replace('.md', '-final.md');
+    fs.writeFileSync(finalParentPath, parentContent);
+    console.log(`Processed parent template saved to: ${finalParentPath}`);
+
+    // Create sub-template files with links back to the parent
+    const parentPathLink = finalParentPath.replace('.md', '');
     subTemplates.forEach(subTemplate => {
         const subTemplatePath = path.join(subTemplatesDir, subTemplate);
-        let subTemplateContent = fs.readFileSync(subTemplatePath, 'utf8');
-        subTemplateContent = insertNavigationLinks(subTemplateContent, true); // Add navigation links for sub templates
-        combinedContent += `\n\n${subTemplateContent}`;
+        createSubTemplate(subTemplatePath, parentPathLink);
     });
-
-    // Process child includes in the parent template
-    combinedContent = processIncludes(combinedContent);
-
-    // Save the final content to the Docs directory with the proper path structure
-    const finalPath = parentTemplatePath
-        .replace('DocsX', 'Docs')
-        .replace('Includes/Templates', 'Master')
-        .replace('AllGlobal', 'JSopX');
-    fs.writeFileSync(finalPath, combinedContent);
-    console.log(`Processed Phases saved to: ${finalPath}`);
 }
 
-// Function to process markdown files (universal operations for all phases and templates)
-function processMarkdownFile(filePath) {
-    let markdownContent = fs.readFileSync(filePath, 'utf8');
-    const properties = extractCommentProperties(markdownContent);
+// Function to handle Phases generation
+function processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir) {
+    const content = fs.readFileSync(parentTemplatePath, 'utf8');
+    const properties = extractCommentProperties(content);
 
-    console.log(`Processing file ${filePath}`);
-
-    // Handle file based on extracted properties
-    const generateTOCFlag = handleProperties(properties, filePath);
-
-    // Clean Hidden Characters
-    markdownContent = cleanHiddenCharacters(markdownContent);
-
-    // Process includes
-    markdownContent = processIncludes(markdownContent);
-
-    // Remove comments
-    markdownContent = removeComments(markdownContent);
-
-    // Generate TOC if enabled
-    if (generateTOCFlag) {
-        const toc = generateTOC(markdownContent);
-        markdownContent = insertTOC(markdownContent, toc);
+    if (properties.isProductionReady !== 'true') {
+        console.log(`Skipping ${parentTemplatePath} as it is not marked for production.`);
+        return;
     }
 
-    // Save the processed file to the Docs directory with the right path
-    const processedFilePath = filePath
-        .replace('DocsX', 'Docs')
-        .replace('AllGlobal', 'JSopX')
-        .replace('Includes/Templates', 'Master');
-
-    fs.writeFileSync(processedFilePath, markdownContent);
-    console.log(`Processed markdown saved to: ${processedFilePath}`);
+    // Process the parent template and generate individual sub-templates
+    processParentTemplate(parentTemplatePath, subTemplatesDir);
 }
 
-// Example usage for Phases
+// Example usage
 const parentTemplatePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
 const subTemplatesDir = 'DocsX/AllGlobal/Includes/Templates/SubTemplates/Phases';
 const childIncludesDir = 'DocsX/AllGlobal/Includes/Content/Template/Phases';
 processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir);
 
-// Example usage for processing a markdown file
-const markdownFilePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
-processMarkdownFile(markdownFilePath);
+
+
+//const fs = require('fs');
+//const path = require('path');
+
+//// Define the regex to match the comment block
+//const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
+
+//// Function to scan for properties in the comment block
+//function extractCommentProperties(content) {
+//    const properties = {};
+//    const match = content.match(commentBlockRegex);
+
+//    if (match) {
+//        const block = match[0];
+//        const propertyRegex = /(\w+):\s*(\w+)/g;
+//        let propMatch;
+//        while ((propMatch = propertyRegex.exec(block)) !== null) {
+//            properties[propMatch[1]] = propMatch[2];
+//        }
+//    }
+//    return properties;
+//}
+
+//// Function to handle properties
+//function handleProperties(properties, filePath) {
+//    if (properties.isDraft === 'true') {
+//        console.log(`Skipping production tasks for ${filePath} (Draft mode).`);
+//    }
+//    if (properties.toc === 'true') {
+//        console.log(`Generating Table of Contents for ${filePath}`);
+//        return true; // Flag to generate TOC
+//    }
+//    return false;
+//}
+
+//// Function to process includes in markdown
+//function processIncludes(content) {
+//    return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
+//        const absolutePath = path.join(__dirname, includePath);
+//        try {
+//            return fs.readFileSync(absolutePath, 'utf8');
+//        } catch (err) {
+//            console.error(`Error including file: ${absolutePath}`);
+//            return '<!-- Error including file -->';
+//        }
+//    });
+//}
+
+//// Function to remove comments from markdown
+//function removeComments(content) {
+//    return content.replace(commentBlockRegex, '');
+//}
+
+//// Function to generate Table of Contents
+//function generateTOC(content) {
+//    const toc = [];
+//    const lines = content.split('\n');
+//    let footerDetected = false;
+
+//    lines.forEach(line => {
+//        if (line.match(/^---/) || line.includes('##### [JSopX.com]')) {
+//            footerDetected = true;
+//        }
+
+//        const headerMatch = line.match(/^(#{1,6})\s+(.*)/);
+//        if (headerMatch) {
+//            const level = headerMatch[1].length;
+//            const headerText = headerMatch[2].trim();
+//            const anchor = headerText.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+
+//            if (!footerDetected && !headerText.toLowerCase().includes('from the jsilvestri.com beta')) {
+//                toc.push(`${' '.repeat((level - 1) * 2)}- [${headerText}](#${anchor})`);
+//            }
+//        }
+//    });
+
+//    return toc.join('\n');
+//}
+
+//// Function to insert or replace the TOC
+//function insertTOC(content, toc) {
+//    if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
+//        return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
+//    }
+
+//    const overviewMatch = content.match(/(#{1,2} Overview)/);
+//    if (overviewMatch) {
+//        return content.replace(overviewMatch[0], `${overviewMatch[0]}\n\n# Table of Contents\n${toc}`);
+//    }
+
+//    return `# Table of Contents\n${toc}\n\n${content}`;
+//}
+
+//// Function to clean hidden characters
+//function cleanHiddenCharacters(content) {
+//    return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
+//}
+
+//// Function to insert "Back to Top" and "Back to Parent" links only for sub-templates
+//function insertNavigationLinks(content, isSubTemplate) {
+//    const backToTop = '[Back to Top](#table-of-contents)';
+//    const backToParent = '[Back to Parent](#)';
+//    if (isSubTemplate) {
+//        return `${backToTop}\n\n${content}\n\n${backToParent}`;
+//    }
+//    return content;
+//}
+
+//// Function to process Phases by combining Parent Templates, Sub Templates, and Child Includes
+//function processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir) {
+//    let combinedContent = fs.readFileSync(parentTemplatePath, 'utf8');
+
+//    // Process sub templates
+//    const subTemplates = fs.readdirSync(subTemplatesDir).filter(file => file.endsWith('.md'));
+//    subTemplates.forEach(subTemplate => {
+//        const subTemplatePath = path.join(subTemplatesDir, subTemplate);
+//        let subTemplateContent = fs.readFileSync(subTemplatePath, 'utf8');
+//        subTemplateContent = insertNavigationLinks(subTemplateContent, true); // Add navigation links for sub templates
+//        combinedContent += `\n\n${subTemplateContent}`;
+//    });
+
+//    // Process child includes in the parent template
+//    combinedContent = processIncludes(combinedContent);
+
+//    // Save the final content to the Docs directory with the proper path structure
+//    const finalPath = parentTemplatePath
+//        .replace('DocsX', 'Docs')
+//        .replace('Includes/Templates', 'Master')
+//        .replace('AllGlobal', 'JSopX');
+//    fs.writeFileSync(finalPath, combinedContent);
+//    console.log(`Processed Phases saved to: ${finalPath}`);
+//}
+
+//// Function to process markdown files (universal operations for all phases and templates)
+//function processMarkdownFile(filePath) {
+//    let markdownContent = fs.readFileSync(filePath, 'utf8');
+//    const properties = extractCommentProperties(markdownContent);
+
+//    console.log(`Processing file ${filePath}`);
+
+//    // Handle file based on extracted properties
+//    const generateTOCFlag = handleProperties(properties, filePath);
+
+//    // Clean Hidden Characters
+//    markdownContent = cleanHiddenCharacters(markdownContent);
+
+//    // Process includes
+//    markdownContent = processIncludes(markdownContent);
+
+//    // Remove comments
+//    markdownContent = removeComments(markdownContent);
+
+//    // Generate TOC if enabled
+//    if (generateTOCFlag) {
+//        const toc = generateTOC(markdownContent);
+//        markdownContent = insertTOC(markdownContent, toc);
+//    }
+
+//    // Save the processed file to the Docs directory with the right path
+//    const processedFilePath = filePath
+//        .replace('DocsX', 'Docs')
+//        .replace('AllGlobal', 'JSopX')
+//        .replace('Includes/Templates', 'Master');
+
+//    fs.writeFileSync(processedFilePath, markdownContent);
+//    console.log(`Processed markdown saved to: ${processedFilePath}`);
+//}
+
+//// Example usage for Phases
+//const parentTemplatePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
+//const subTemplatesDir = 'DocsX/AllGlobal/Includes/Templates/SubTemplates/Phases';
+//const childIncludesDir = 'DocsX/AllGlobal/Includes/Content/Template/Phases';
+//processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir);
+
+//// Example usage for processing a markdown file
+//const markdownFilePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
+//processMarkdownFile(markdownFilePath);
 
 
 //const fs = require('fs');
