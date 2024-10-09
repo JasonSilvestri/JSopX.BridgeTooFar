@@ -1,29 +1,16 @@
 ﻿
-
-
 # ﻿JSopX™ Open Project EXperiences : Project Development Phases (Draft)
+
 From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects
-
-
-
-
-
-
-
   
 > [!CAUTION]
 > **This is a Static DRAFT:**
 > 
 > The content before you is a draft version of the document. It **should not** be considered **accurate**. In fact, drafts will often times be for different reasons, such as testing styles, content, etc. The content itself may have only been used as a placeholder, making sections, or even the entire document contain information not relative to this project.
 
-
 ## Overview
 
-﻿
-
 I will be following a basic set of phases as I develop all JSopX Projects, so we can ensure unique documentation to each project for each phase that outlines at least a basic outline. Conversely, you do not need to use Phases in your approach to development and if you do, I am sure they are different. This is totally fine. In the case of Phases, think more about the importance of each phase, and less about a step-by-step phase lifecycle you need to follow in order.
-
-
   
 > [!CAUTION]
 > **Phase 1:**
@@ -31,7 +18,6 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 > This project is currently in **Phase 1** of Development. It **should not** be considered **accurate** or a **release candidate**. In fact, it should be treated as simply reference material for the time being, due to the absolute bare minimum resources created, to satisfy a minimum viable product requirement in Phase 1 (by design). Conversely, Phase 2 is days away, and Phase 3 is only a week after that. Phase 3 Projects will be mature, and action-packed with features, assets, documentation and more!
 > 
 > Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p1.md) for more details.
-
 
 ## Table of Contents
 
@@ -52,10 +38,7 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 > [!IMPORTANT]
 > This document is for **advanced users only**, and this Include outlines a sample `Current Alert`.
 
-
 ## Prerequisites
-
-﻿
 
 - Visual Studio 2022 or higher installed.
 - Basic understanding of `.csproj` and `.targets` file structures.
@@ -68,35 +51,24 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 
 ## Corequisites
 
-﻿
-
 - Ensure you are pro-active in at least your own checklist of action items if you do not plan to follow the phases of development. Even setting up Jira, DevOps, or some basic ticket system is better than nothing.
-
-
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-﻿
-
 - Clean and rebuild each project after making changes to ensure all changes are working as expected before starting a new phase.
-
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-﻿
-
 - You may need to update Git configurations to handle dependencies between projects. As they app grows, there will be updates to repositories and projects over all that require certain configurations you may or may not be familar with, such as using Git submodules or Git subtree, to ensure all projects can be cloned in an all-in-one project (e.g., `JSopX.OpenProjectX`) or by independent project isolation for a unique educational user experience not common in most projects.
-
 
 [Back to Top](#table-of-contents)
 
 # Project Development Phases
 ﻿
-
 I will be following a basic set of phases as I develop all JSopX Projects. 
 
 ## Phase 1 (Current Phase): Minimum Viable Product (MVP)
@@ -249,13 +221,9 @@ The basic steps I am taking for this Phase is as follows:
 
 ## In Conclusion
 
-﻿
-
 These Phases will undoutably grow, include better breakdowns of business requirements, etc.
 
-
 [Back to Top](#table-of-contents)
-
 
 ---
 
