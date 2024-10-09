@@ -2,13 +2,11 @@
 
 <!-- START JSOPX NOVA DOCX HEADER
 
-includeType: {{Template}}
-workflowState: {{In-Work}}
-
-title: {{JSopX™ Open Project EXperiences : Basic Mark down Page Template and Template Content (Draft)}}
-description: {{Description}}
-group: {{Group}}
+includeType: Templates
+workflowState: Is Production Ready
+group: README
 toc: true
+isProductionReady: true
 
 should be removed in final render document
 

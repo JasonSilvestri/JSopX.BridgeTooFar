@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const markdownlint = require('markdownlint');
 
 // Define the regex to match the comment block
 const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
@@ -51,7 +50,6 @@ function removeComments(content) {
     return content.replace(commentBlockRegex, '');
 }
 
-
 // Function to generate Table of Contents
 function generateTOC(content) {
     const toc = [];
@@ -97,6 +95,40 @@ function cleanHiddenCharacters(content) {
     return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
 }
 
+// Function to insert "Back to Top" and "Back to Parent" links
+function insertNavigationLinks(content) {
+    const backToTop = '[Back to Top](#table-of-contents)';
+    const backToParent = '[Back to Parent](#)';
+    return `${backToTop}\n\n${content}\n\n${backToParent}`;
+}
+
+// Function to process Phases by combining Parent Templates, Sub Templates, and Child Includes
+function processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir) {
+    let combinedContent = fs.readFileSync(parentTemplatePath, 'utf8');
+
+    // Process sub templates
+    const subTemplates = fs.readdirSync(subTemplatesDir).filter(file => file.endsWith('.md'));
+    subTemplates.forEach(subTemplate => {
+        const subTemplatePath = path.join(subTemplatesDir, subTemplate);
+        const subTemplateContent = fs.readFileSync(subTemplatePath, 'utf8');
+        combinedContent += `\n\n${subTemplateContent}`;
+    });
+
+    // Process child includes
+    combinedContent = processIncludes(combinedContent);
+
+    // Add navigation links
+    combinedContent = insertNavigationLinks(combinedContent);
+
+    // Save the final content to the Docs directory with the proper path structure
+    const finalPath = parentTemplatePath
+        .replace('DocsX', 'Docs')
+        .replace('Includes/Templates', 'Master')
+        .replace('AllGlobal', 'JSopX');
+    fs.writeFileSync(finalPath, combinedContent);
+    console.log(`Processed Phases saved to: ${finalPath}`);
+}
+
 // Function to process markdown files (universal operations for all phases and templates)
 function processMarkdownFile(filePath) {
     let markdownContent = fs.readFileSync(filePath, 'utf8');
@@ -116,41 +148,41 @@ function processMarkdownFile(filePath) {
     // Remove comments
     markdownContent = removeComments(markdownContent);
 
-    //// Validate markdown with markdownlint
-    //const lintResults = markdownlint.sync({
-    //    strings: {
-    //        content: markdownContent
-    //    },
-    //    config: {
-    //        default: true
-    //    }
-    //});
-
-    //if (Object.keys(lintResults.content).length > 0) {
-    //    console.log('Markdown lint issues found:', lintResults.content);
-    //    // Optionally, you can stop the process if there are linting errors
-    //    // return;
-    //}
-
     // Generate TOC if enabled
-        if (generateTOCFlag) {
-            const toc = generateTOC(markdownContent);
-            markdownContent = insertTOC(markdownContent, toc);
-        }
+    if (generateTOCFlag) {
+        const toc = generateTOC(markdownContent);
+        markdownContent = insertTOC(markdownContent, toc);
+    }
 
+    // Add navigation links
+    markdownContent = insertNavigationLinks(markdownContent);
 
     // Save the processed file to the Docs directory with the right path
     const processedFilePath = filePath
         .replace('DocsX', 'Docs')
-        .replace('Includes/Templates/', '');
-
+        .replace('AllGlobal', 'JSopX')
+        .replace('Includes/Templates', 'Master');
     fs.writeFileSync(processedFilePath, markdownContent);
     console.log(`Processed markdown saved to: ${processedFilePath}`);
 }
 
-// Example usage
-const markdownFilePath = 'DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Templates/README.md'; // Example path for p1/v1/
+// Example usage for Phases
+const parentTemplatePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
+const subTemplatesDir = 'DocsX/AllGlobal/Includes/Templates/SubTemplates/Phases';
+const childIncludesDir = 'DocsX/AllGlobal/Includes/Content/Template/Phases';
+processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir);
+
+// Example usage for processing a markdown file
+const markdownFilePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
 processMarkdownFile(markdownFilePath);
+
+
+
+//// Example usage
+//const parentTemplatePath = 'DocsX/AllGlobal/Includes/Templates/Phases.md';
+//const subTemplatesDir = 'DocsX/AllGlobal/Includes/Content/Template/Phases';
+//processPhases(parentTemplatePath, subTemplatesDir);
+
 
 
 

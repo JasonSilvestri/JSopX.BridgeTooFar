@@ -5,13 +5,11 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collect
 
 <!-- START JSOPX NOVA DOCX HEADER
 
-includeType: {{Template}}
-workflowState: {{In-Work}}
-
-title: {{JSopX Open Project EXperiences : Basic Mark down Page Template and Template Content (Draft)}}
-description: {{Description}}
-group: {{Group}}
+includeType: Template
+workflowState: Is Production Ready
+group: README
 toc: true
+isProductionReady: true
 
 should be removed in final render document
 

@@ -1,15 +1,18 @@
+[Back to Top](#table-of-contents)
+
+
+
+
 ﻿
+# JSopX™ Open Project EXperiences : Project Development Phases
 
-# ﻿JSopX™ Open Project EXperiences : Project Development Phases (Draft)
-From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects
-
-
+From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
 
 
 
 
-  
+
 > [!CAUTION]
 > **This is a DRAFT:**
 > 
@@ -19,11 +22,11 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection
 ## Overview
 
 ﻿
-
 I will be following a basic set of phases as I develop all JSopX Projects, so we can ensure unique documentation to each project for each phase that outlines at least a basic outline. Conversely, you do not need to use Phases in your approach to development and if you do, I am sure they are different. This is totally fine. In the case of Phases, think more about the importance of each phase, and less about a step-by-step phase lifecycle you need to follow in order.
 
 
-  
+
+
 > [!CAUTION]
 > **Phase 1: Minimum Viable Product (MVP)**
 > 
@@ -32,19 +35,22 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 > Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p1.md) for more details.
 
 
-## Table of Contents
+# Table of Contents
+- [JSopX™ Open Project EXperiences : Project Development Phases](#jsopx-open-project-experiences--project-development-phases)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+    - [Current Alerts](#current-alerts)
+  - [Prerequisites](#prerequisites)
+  - [Corequisites](#corequisites)
+  - [Postrequisites](#postrequisites)
+  - [Concomitants](#concomitants)
+- [Project Development Phases](#project-development-phases)
+  - [Phase 1 (Current Phase): Minimum Viable Product (MVP)](#phase-1-current-phase-minimum-viable-product-mvp)
+  - [Phase 2: Minimum Viable Refactor Product (MVRP)](#phase-2-minimum-viable-refactor-product-mvrp)
+  - [Phase 3: Advanced User Interface Connectivity and Re-Usability](#phase-3-advanced-user-interface-connectivity-and-re-usability)
+  - [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](#phase-4-implement-final-security-protocols-deployment-strategies-and-more)
+  - [In Conclusion](#in-conclusion)
 
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Corequisites](#corequisites)
-4. [Postrequisites](#postrequisites)
-5. [Concomitants](#concomitants)
-6. [Project Development Phases](#project-development-phases)
-   1. [Phase 1: (Current Phase): Minimum Viable Product (MVP)](#phase-1-current-phase-minimum-viable-product-mvp)
-   2. [Phase 2: Minimum Viable Refactor Product (MVRP)](#phase-2-minimum-viable-refactor-product-mvrp)
-   3. [Phase 3: Advanced User Interface Connectivity and Re-Usability](#phase-3-advanced-user-interface-connectivity-and-re-usability)
-   4. [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](#phase-4-implement-final-security-protocols-deployment-strategies-and-more)
-8. [In Conclusion](#in-conclusion)
 
 ### Current Alerts
 
@@ -55,7 +61,6 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 ## Prerequisites
 
 ﻿
-
 - Visual Studio 2022 or higher installed.
 - Basic understanding of `.csproj` and `.targets` file structures.
 - Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ClassLibrary`, `JSopX.WebAPI`, etc.).
@@ -68,9 +73,7 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 ## Corequisites
 
 ﻿
-
 - Ensure you are pro-active in at least your own checklist of action items if you do not plan to follow the phases of development. Even setting up Jira, DevOps, or some basic ticket system is better than nothing.
-
 
 
 [Back to Top](#table-of-contents)
@@ -78,7 +81,6 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 ## Postrequisites
 
 ﻿
-
 - Clean and rebuild each project after making changes to ensure all changes are working as expected before starting a new phase.
 
 
@@ -87,7 +89,6 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 ## Concomitants
 
 ﻿
-
 - You may need to update Git configurations to handle dependencies between projects. As they app grows, there will be updates to repositories and projects over all that require certain configurations you may or may not be familar with, such as using Git submodules or Git subtree, to ensure all projects can be cloned in an all-in-one project (e.g., `JSopX.OpenProjectX`) or by independent project isolation for a unique educational user experience not common in most projects.
 
 
@@ -95,11 +96,7 @@ I will be following a basic set of phases as I develop all JSopX Projects, so we
 
 # Project Development Phases
 
-﻿
-
-
-
-I will be following a basic set of phases as I develop all JSopX Projects. 
+﻿I will be following a basic set of phases as I develop all JSopX Projects. 
 
 ## Phase 1 (Current Phase): Minimum Viable Product (MVP)
 
@@ -139,7 +136,6 @@ Please see [Phase 4: Implement Final Security Protocols, Deployment Strategies a
 ## In Conclusion
 
 ﻿
-
 These Phases will undoutably grow, include better breakdowns of business requirements, etc.
 
 
@@ -151,3 +147,5 @@ These Phases will undoutably grow, include better breakdowns of business require
 ##### [JSopX.com](https://www.jsopx.com/) | [Jason's Official Website](https://www.jsilvestri.com/) | [X](https://www.x.com/JasonSilvestri) | [LinkedIn](http://www.linkedin.com/in/JasonSilvestri) | [GitHub](https://github.com/JasonSilvestri) | [Gmail](mailto:therealjasonsilvestri@gmail.com) | [Phone : 508-851-9445](phoneto:508-851-9445)
 
 ###### Copyright © 2024 - All Rights Reserved by Jason Silvestri
+
+[Back to Parent](#)

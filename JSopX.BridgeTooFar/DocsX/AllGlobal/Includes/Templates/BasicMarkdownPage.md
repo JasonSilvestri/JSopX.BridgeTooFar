@@ -1,19 +1,17 @@
 ﻿
+{{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Template/BasicMarkdownPage/Header.md)}}
+
 <!-- START JSOPX NOVA DOCX HEADER
 
-includeType: {{Template}}
-workflowState: {{In-Work}}
-
-title: {{JSopX™ Open Project EXperiences : Basic Mark down Page Template and Template Content (Draft)}}
-description: {{Description}}
-group: {{Group}}
+includeType: Templates
+workflowState: Is Production Ready
+group: BasicMarkdownPage
 toc: true
+isProductionReady: true
 
 should be removed in final render document
 
 END JSOPX NOVA DOCX HEADER -->
-
-# {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Template/BasicMarkdownPage/Header.md)}}
 
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Draft-Notice.md)}}
 
