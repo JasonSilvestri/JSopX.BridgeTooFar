@@ -56,6 +56,7 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Docs\jsopx.BridgeTooFar\Master\p1\v1\" />
+    <Folder Include="Docs\JSopX\Master\Phases\" />
   </ItemGroup>
   <ItemGroup>
     <EditorConfigFiles Remove="C:\All\Repos\jSilvestri2024WebApiDemoCollection\JSopX.BridgeTooFar\JSopX.BridgeTooFar\.editorconfig" />
