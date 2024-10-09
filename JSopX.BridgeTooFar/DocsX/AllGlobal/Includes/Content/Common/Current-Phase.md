@@ -1,4 +1,4 @@
-  
+
 > [!CAUTION]
 > **Phase 1: Minimum Viable Product (MVP)**
 > 

@@ -1,5 +1,4 @@
 ﻿
-
 #### Adding the JSopX™ Bridge Too Far Docs to Other Projects
 
 This is another one of those steps that I did for you, but you never know.
@@ -13,4 +12,3 @@ This is another one of those steps that I did for you, but you never know.
 2. **Use the Common Code**:
 
     - You can now use the JSopX™ Bridge Too Far Docs from the `JSopX.BridgeTooFar` project in your other projects.
-

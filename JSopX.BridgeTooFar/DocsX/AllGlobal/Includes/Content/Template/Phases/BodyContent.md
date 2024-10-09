@@ -1,8 +1,4 @@
-﻿
-
-
-
-I will be following a basic set of phases as I develop all JSopX Projects. 
+﻿I will be following a basic set of phases as I develop all JSopX Projects. 
 
 ## Phase 1 (Current Phase): Minimum Viable Product (MVP)
 

@@ -21,7 +21,6 @@ END JSOPX NOVA DOCX HEADER -->
 
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Template/BasicMarkdownPage/Overview.md)}}
 
-
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Current-Phase.md)}}
 
 ## Table of Contents

@@ -2,7 +2,7 @@
 
 
 # ﻿JSopX™ Open Project EXperiences : Project Development Phases (Draft)
-###### From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects (Draft)
+^From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects^
 
 
 

@@ -1,4 +1,6 @@
-﻿<!-- START JSOPX NOVA DOCX HEADER
+﻿{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
+
+<!-- START JSOPX NOVA DOCX HEADER
 
 includeType: {{Template}}
 workflowState: {{In-Work}}
@@ -11,14 +13,12 @@ toc: true
 should be removed in final render document
 
 END JSOPX NOVA DOCX HEADER -->
-# {{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
 
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Draft-Notice.md)}}
 
 ## Overview
 
 {{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
-
 
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Current-Phase.md)}}
 

@@ -2,7 +2,7 @@
 
 
 # ﻿JSopX™ Open Project EXperiences : Basic Mark down Page Template and Template Content (Draft)
-###### From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects (Draft)
+^From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects^
 
 
 

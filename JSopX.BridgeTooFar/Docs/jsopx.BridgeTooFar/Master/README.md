@@ -1,14 +1,13 @@
 ﻿
-# ﻿JSopX™ Open Project EXperiences : Bridge Too Far (Draft)
-###### From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects (Draft)
+# JSopX™ Open Project EXperiences : Bridge Too Far
+
+From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
 
 
 
 
 
-
-  
 > [!CAUTION]
 > **This is a DRAFT:**
 > 
@@ -18,14 +17,12 @@
 ## Overview
 
 ﻿
-
-The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application. 
+The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 This suite of projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web design for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
 
 
 
-  
 > [!CAUTION]
 > **Phase 1: Minimum Viable Product (MVP)**
 > 
@@ -34,20 +31,25 @@ This suite of projects, uses some of the most advanced client-side and server-si
 > Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/p1.md) for more details.
 
 
-## Table of Contents
+# Table of Contents
+- [JSopX™ Open Project EXperiences : Bridge Too Far](#jsopx-open-project-experiences--bridge-too-far)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Alerts](#alerts)
+    - [Current Alerts](#current-alerts)
+  - [Prerequisites](#prerequisites)
+  - [Corequisites](#corequisites)
+  - [Postrequisites](#postrequisites)
+  - [Concomitants](#concomitants)
+  - [Getting Started](#getting-started)
+  - [Step-by-Step Instructions](#step-by-step-instructions)
+    - [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
+    - [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-child-basic-markdown-page-template-content-includes)
+    - [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
+  - [Usage](#usage)
+      - [Adding the JSopX™ Bridge Too Far Docs to Other Projects](#adding-the-jsopx-bridge-too-far-docs-to-other-projects)
+  - [In Conclusion](#in-conclusion)
 
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Corequisites](#corequisites)
-4. [Postrequisites](#postrequisites)
-5. [Concomitants](#concomitants)
-6. [Getting Started](#getting-started)
-7. [Step-by-Step Instructions](#step-by-step-instructions)
-   1. [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
-   2. [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-parent-basic-markdown-page-template-content-includes)
-   3. [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
-7. [Usage](#usage)
-8. [In Conclusion](#in-conclusion)
 
 ## Alerts
 
@@ -80,13 +82,12 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Prerequisites
 
 ﻿
-
 - Visual Studio 2022 or higher installed.
 - Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ClassLibrary`, `JSopX.WebAPI`, etc.).
 - Installed .NET 8.0 SDK.
 - Installed Node.js 20.14.0
 - Basic understanding of `.csproj` and `.sln` file structures.
-- Basic understanding of `.md` and markdown files.
+- Basic understanding of `.md` and markdown files
 
 
 [Back to Top](#table-of-contents)
@@ -94,9 +95,7 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Corequisites
 
 ﻿
-
 - Ensure we can have a markdown readme like the parent markdown we are in now, and add markdown includes from the child, to see if GitHub supports includes in a way that we need them to.
-
 
 
 [Back to Top](#table-of-contents)
@@ -104,7 +103,6 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Postrequisites
 
 ﻿
-
 - Clean and rebuild each project markdown after making changes to ensure includes are properly configured.
 
 
@@ -113,8 +111,7 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Concomitants
 
 ﻿
-
-- You do not need to install technologies mentioned in the [Prerequisites](#prerequisites) section just to review the markdown files under `Docs`. However, you will need to if you plan to work with the project in modifying and creating new markdown documents. 
+- You do not need to install technologies mentioned in the [Prerequisites](#prerequisites) section just to review the markdown files under `Docs`. However, you will need to if you plan to work with the project in modifying and creating new markdown documents.
 
 
 
@@ -123,7 +120,6 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Getting Started
 
 ﻿
-
 > [!WARNING]
 > This section is just a test. However, it is generally more advanced content.
 > 
@@ -135,18 +131,19 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Step-by-Step Instructions
 
 ﻿
-
 ### Step 1: Create the Parent Basic Markdown Page Template
-1. **Create a `BasicMarkdownPage` markdown file**, save it to `Templates`, so we can use it to embed include test markdowns into it.
+
+1. 1. **Create a `BasicMarkdownPage` markdown file**, save it to `Templates`, so we can use it to embed include test markdowns into it.
 
 ### Step 2: Create the Child Basic Markdown Page Template Content Includes
+
 2. **Create a `BasicMarkdownPage` directory**, under `Includes/Content/Template`, and create as many static markdown sections needed for this sample.
 
 ### Step 3: Double Check the Parent Basic Markdown Page Template for all Includes
+
 1. After adding all `include` blocks in the template, double-check all resources and be sure they exist. 
    
 2. If this was done correctly, you should see content added to the live Docs folder.
-
 
 
 [Back to Top](#table-of-contents)
@@ -154,7 +151,6 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Usage
 
 ﻿
-
 #### Adding the JSopX™ Bridge Too Far Docs to Other Projects
 
 This is another one of those steps that I did for you, but you never know.
@@ -170,14 +166,12 @@ This is another one of those steps that I did for you, but you never know.
     - You can now use the JSopX™ Bridge Too Far Docs from the `JSopX.BridgeTooFar` project in your other projects.
 
 
-
 ## In Conclusion
 
 ﻿
+The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
-The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application. 
-
-By centralizing project documents with this approach to mark down will be very helpful, especially with referencing the `JSopX.BridgeTooFar` Read Me docs across projects. 
+By centralizing project documents with this approach to mark down will be very helpful, especially with referencing the `JSopX.BridgeTooFar` Read Me docs across projects.
 
 
 [Back to Top](#table-of-contents)

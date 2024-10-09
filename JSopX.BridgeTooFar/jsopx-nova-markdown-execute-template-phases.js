@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const markdownlint = require('markdownlint');
 
 // Define the regex to match the comment block
 const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
@@ -50,21 +51,16 @@ function removeComments(content) {
     return content.replace(commentBlockRegex, '');
 }
 
-// Function to generate Table of Contents, excluding unwanted headings
+
+// Function to generate Table of Contents
 function generateTOC(content) {
     const toc = [];
     const lines = content.split('\n');
     let footerDetected = false;
 
     lines.forEach(line => {
-        // Detect if we've hit the footer or a specific sub-heading to exclude
         if (line.match(/^---/) || line.includes('##### [JSopX.com]')) {
-            footerDetected = true; // Stop including after this point
-        }
-
-        // Exclude specific sub-headings, like "From the jSilvestri.com BETA"
-        if (footerDetected || line.match(/^\s*######\s*From the jSilvestri\.com BETA/)) {
-            return; // Skip adding these lines to the TOC
+            footerDetected = true;
         }
 
         const headerMatch = line.match(/^(#{1,6})\s+(.*)/);
@@ -73,8 +69,7 @@ function generateTOC(content) {
             const headerText = headerMatch[2].trim();
             const anchor = headerText.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
 
-            // Skip the footer and specific subheadings
-            if (!footerDetected && !headerText.toLowerCase().includes('footer')) {
+            if (!footerDetected && !headerText.toLowerCase().includes('from the jsilvestri.com beta')) {
                 toc.push(`${' '.repeat((level - 1) * 2)}- [${headerText}](#${anchor})`);
             }
         }
@@ -83,23 +78,23 @@ function generateTOC(content) {
     return toc.join('\n');
 }
 
-
-
-// Function to check for existing TOC and replace it, or add after Overview section
+// Function to insert or replace the TOC
 function insertTOC(content, toc) {
-    // Check for existing "Table of Contents"
     if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
         return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
     }
 
-    // Check for "Overview" section to insert TOC after
     const overviewMatch = content.match(/(#{1,2} Overview)/);
     if (overviewMatch) {
         return content.replace(overviewMatch[0], `${overviewMatch[0]}\n\n# Table of Contents\n${toc}`);
     }
 
-    // Default: place TOC at the top of the content
     return `# Table of Contents\n${toc}\n\n${content}`;
+}
+
+// Function to clean hidden characters
+function cleanHiddenCharacters(content) {
+    return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
 }
 
 // Function to process markdown files (universal operations for all phases and templates)
@@ -112,17 +107,37 @@ function processMarkdownFile(filePath) {
     // Handle file based on extracted properties
     const generateTOCFlag = handleProperties(properties, filePath);
 
+    // Clean Hidden Characters
+    markdownContent = cleanHiddenCharacters(markdownContent);
+
     // Process includes
     markdownContent = processIncludes(markdownContent);
 
     // Remove comments
     markdownContent = removeComments(markdownContent);
 
-    // Generate TOC if enabled and place appropriately
-    if (generateTOCFlag) {
-        const toc = generateTOC(markdownContent);
-        markdownContent = insertTOC(markdownContent, toc);
-    }
+    //// Validate markdown with markdownlint
+    //const lintResults = markdownlint.sync({
+    //    strings: {
+    //        content: markdownContent
+    //    },
+    //    config: {
+    //        default: true
+    //    }
+    //});
+
+    //if (Object.keys(lintResults.content).length > 0) {
+    //    console.log('Markdown lint issues found:', lintResults.content);
+    //    // Optionally, you can stop the process if there are linting errors
+    //    // return;
+    //}
+
+    // Generate TOC if enabled
+        if (generateTOCFlag) {
+            const toc = generateTOC(markdownContent);
+            markdownContent = insertTOC(markdownContent, toc);
+        }
+
 
     // Save the processed file to the Docs directory with the right path
     const processedFilePath = filePath
@@ -136,6 +151,199 @@ function processMarkdownFile(filePath) {
 // Example usage
 const markdownFilePath = 'DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Templates/README.md'; // Example path for p1/v1/
 processMarkdownFile(markdownFilePath);
+
+
+
+//const fs = require('fs');
+//const path = require('path');
+//const MarkdownIt = require('markdown-it');
+//const markdownIt = new MarkdownIt();
+//const markdownlint = require('markdownlint');
+
+//// Define the regex to match the comment block
+//const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
+
+//// Function to scan for properties in the comment block
+//function extractCommentProperties(content) {
+//    const properties = {};
+//    const match = content.match(commentBlockRegex);
+
+//    if (match) {
+//        const block = match[0];
+//        const propertyRegex = /(\w+):\s*(\w+)/g;
+//        let propMatch;
+//        while ((propMatch = propertyRegex.exec(block)) !== null) {
+//            properties[propMatch[1]] = propMatch[2];
+//        }
+//    }
+//    return properties;
+//}
+
+//// Function to handle properties
+//function handleProperties(properties, filePath) {
+//    if (properties.isDraft === 'true') {
+//        console.log(`Skipping production tasks for ${filePath} (Draft mode).`);
+//    }
+//    if (properties.toc === 'true') {
+//        console.log(`Generating Table of Contents for ${filePath}`);
+//        return true; // Flag to generate TOC
+//    }
+//    return false;
+//}
+
+//// Function to validate markdown content using markdownlint
+//function validateMarkdown(content) {
+//    let isValid = true;
+//    const options = {
+//        strings: {
+//            content: content
+//        },
+//        config: {
+//            "default": true
+//        }
+//    };
+
+//    const result = markdownlint.sync(options);
+//    const lintErrors = result.content;
+
+//    if (lintErrors.length > 0) {
+//        console.warn('Markdown lint issues found:', lintErrors);
+//        isValid = false;
+//    }
+//    return isValid;
+//}
+
+//// Function to process includes in markdown
+//function processIncludes(content) {
+//    return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
+//        const absolutePath = path.join(__dirname, includePath);
+//        try {
+//            return fs.readFileSync(absolutePath, 'utf8');
+//        } catch (err) {
+//            console.error(`Error including file: ${absolutePath}`);
+//            return '<!-- Error including file -->';
+//        }
+//    });
+//}
+
+//// Function to remove comments from markdown
+//function removeComments(content) {
+//    return content.replace(commentBlockRegex, '');
+//}
+
+//// Function to generate Table of Contents
+//function generateTOC(content) {
+//    const toc = [];
+//    const lines = content.split('\n');
+//    let footerDetected = false;
+
+//    lines.forEach(line => {
+//        if (line.match(/^---/) || line.includes('##### [JSopX.com]')) {
+//            footerDetected = true;
+//        }
+
+//        const headerMatch = line.match(/^(#{1,6})\s+(.*)/);
+//        if (headerMatch) {
+//            const level = headerMatch[1].length;
+//            const headerText = headerMatch[2].trim();
+//            const anchor = headerText.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+
+//            if (!footerDetected && !headerText.toLowerCase().includes('from the jsilvestri.com beta')) {
+//                toc.push(`${' '.repeat((level - 1) * 2)}- [${headerText}](#${anchor})`);
+//            }
+//        }
+//    });
+
+//    return toc.join('\n');
+//}
+
+//// Function to insert or replace the TOC
+//function insertTOC(content, toc) {
+//    if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
+//        return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
+//    }
+
+//    const overviewMatch = content.match(/(#{1,2} Overview)/);
+//    if (overviewMatch) {
+//        return content.replace(overviewMatch[0], `${overviewMatch[0]}\n\n# Table of Contents\n${toc}`);
+//    }
+
+//    return `# Table of Contents\n${toc}\n\n${content}`;
+//}
+
+//// Function to clean hidden characters
+//function cleanHiddenCharacters(content) {
+//    return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
+//}
+
+//// Function to process markdown files with validation
+//function processMarkdownFileWithValidation(filePath) {
+//    let markdownContent = fs.readFileSync(filePath, 'utf8');
+//    markdownContent = cleanHiddenCharacters(markdownContent);
+
+//    const properties = extractCommentProperties(markdownContent);
+//    console.log(`Processing file ${filePath}`);
+
+//    const generateTOCFlag = handleProperties(properties, filePath);
+
+//    markdownContent = processIncludes(markdownContent);
+//    markdownContent = removeComments(markdownContent);
+
+//    if (!validateMarkdown(markdownContent)) {
+//        console.error(`Validation failed for ${filePath}`);
+//        return;
+//    }
+
+//    if (generateTOCFlag) {
+//        const toc = generateTOC(markdownContent);
+//        markdownContent = insertTOC(markdownContent, toc);
+//    }
+
+//    const processedFilePath = filePath
+//        .replace('DocsX', 'Docs')
+//        .replace('Includes/Templates/', '');
+
+//    fs.writeFileSync(processedFilePath, markdownContent);
+//    console.log(`Processed and validated markdown saved to: ${processedFilePath}`);
+//}
+
+//// Example usage
+//const markdownFilePath = 'DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Templates/README.md';
+//processMarkdownFileWithValidation(markdownFilePath);
+
+
+
+
+//// Function to process markdown files (universal operations for all phases and templates)
+//function processMarkdownFile(filePath) {
+//    let markdownContent = fs.readFileSync(filePath, 'utf8');
+//    const properties = extractCommentProperties(markdownContent);
+
+//    console.log(`Processing file ${filePath}`);
+
+//    const generateTOCFlag = handleProperties(properties, filePath);
+
+//    markdownContent = processIncludes(markdownContent);
+
+//    markdownContent = removeComments(markdownContent);
+
+//    if (generateTOCFlag) {
+//        const toc = generateTOC(markdownContent);
+//        markdownContent = insertTOC(markdownContent, toc);
+//    }
+
+//    const processedFilePath = filePath
+//        .replace('DocsX', 'Docs')
+//        .replace('Includes/Templates/', '');
+
+//    fs.writeFileSync(processedFilePath, markdownContent);
+//    console.log(`Processed markdown saved to: ${processedFilePath}`);
+//}
+
+// Example usage
+//const markdownFilePath = 'DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Templates/README.md'; // Example path for p1/v1/
+//processMarkdownFile(markdownFilePath);
+
 
 
 // Before Reqs

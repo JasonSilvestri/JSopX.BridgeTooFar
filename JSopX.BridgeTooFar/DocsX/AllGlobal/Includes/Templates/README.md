@@ -12,5 +12,7 @@ should be removed in final render document
 
 END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Includes-Test.md)}}
+
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Alerts.md)}}
+
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Layout/Footer.md)}}
