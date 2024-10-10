@@ -1,7 +1,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const markdownlint = require('markdownlint');
 
 // Define the regex to match the comment block
 const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
@@ -25,12 +24,16 @@ function extractCommentProperties(content) {
 // Function to handle properties
 function handleProperties(properties, filePath) {
     if (properties.isDraft === 'true') {
-        console.log(`Skipping production tasks for ${filePath} (Draft mode).`);
+        console.log(`Processing draft version for ${filePath}.`);
+    } else {
+        console.log(`Not a draft version: ${filePath}`);
     }
+
     if (properties.toc === 'true') {
         console.log(`Generating Table of Contents for ${filePath}`);
         return true; // Flag to generate TOC
     }
+
     if (properties.isProductionReady === 'false') {
         console.log(`File ${filePath} is not marked as production-ready.`);
         return false; // Skip processing if not production-ready
@@ -56,7 +59,7 @@ function removeComments(content) {
     return content.replace(commentBlockRegex, '');
 }
 
-// Function to generate Table of Contents
+// Function to generate Table of Contents, while ignoring footer sections
 function generateTOC(content) {
     const toc = [];
     const lines = content.split('\n');
@@ -101,6 +104,31 @@ function cleanHiddenCharacters(content) {
     return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
 }
 
+// Function to handle draft notices
+//function handleDraftNotice(content, isDraft) {
+//    const draftRegex = />\s*\[!\s*CAUTION\s*\]\s*>\s*\*\*\s*This\s+is\s+a\s+DRAFT\s*:\s*\*\*/g;
+//    if (isDraft === 'true') {
+//        return content;
+//    } else {
+//        return content.replace(draftRegex, '').replace(/>\s*The\s+content\s+before\s+you[\s\S]*?relative\s+to\s+this\s+project\./g, '');
+//    }
+//}
+// Function to handle draft notices
+function handleDraftNotice(content, isDraft) {
+    // Regex to match the entire draft block including all lines, handling varying whitespace
+    const draftRegex = />\s*\[!\s*CAUTION\s*\]\s*>\s*\*\*\s*This\s+is\s+a\s+DRAFT\s*:\s*\*\*[\s\S]*?>[\s\S]*?\n{0,2}/g;
+
+    if (isDraft === 'true') {
+        // If it's a draft, keep the content as is
+        return content;
+    } else {
+        // If it's not a draft, remove the entire draft block
+        return content.replace(draftRegex, '').trim();
+    }
+}
+
+
+
 // Function to process markdown files (universal operations for all phases and templates)
 function processMarkdownFile(filePath) {
     let markdownContent = fs.readFileSync(filePath, 'utf8');
@@ -120,24 +148,11 @@ function processMarkdownFile(filePath) {
     // Process includes
     markdownContent = processIncludes(markdownContent);
 
+    // Handle draft notices
+    markdownContent = handleDraftNotice(markdownContent, properties.isDraft);
+
     // Remove comments
     markdownContent = removeComments(markdownContent);
-
-    //// Validate markdown with markdownlint
-    //const lintResults = markdownlint.sync({
-    //    strings: {
-    //        content: markdownContent
-    //    },
-    //    config: {
-    //        default: true
-    //    }
-    //});
-
-    //if (Object.keys(lintResults.content).length > 0) {
-    //    console.log('Markdown lint issues found:', lintResults.content);
-    //    // Optionally, you can stop the process if there are linting errors
-    //    // return;
-    //}
 
     // Generate TOC if enabled
     if (properties.toc === 'true') {
@@ -157,42 +172,3 @@ function processMarkdownFile(filePath) {
 // Example usage
 const markdownFilePath = 'DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Templates/README.md'; // Example path for p1/v1/
 processMarkdownFile(markdownFilePath);
-
-
-//const fs = require('fs');
-//const path = require('path');
-
-//// Define the regex to match the comment block
-//const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
-
-
-//// Read the main README.md file
-//let mainMarkdown = fs.readFileSync('./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Templates/README.md', 'utf8');
-
-
-//// Manually replace {{[jsopx-includes](path)}} with the file content
-//mainMarkdown = mainMarkdown.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
-//    const absolutePath = path.join(__dirname, includePath);
-//    try {
-//        return fs.readFileSync(absolutePath, 'utf8');
-//    } catch (err) {
-//        console.error(`Error including file: ${absolutePath}`);
-//        return '<!-- Error including file -->';
-//    }
-//});
-
-//// Remove the comment block if it exists after includes
-//mainMarkdown = mainMarkdown.replace(commentBlockRegex, '');
-
-//// Save the processed README.md markdown to official public documentation 
-//// 'Docs/jsopx.BridgeTooFar/Master/p1/v1' (no HTML conversion involved)
-//fs.writeFileSync('./Docs/jsopx.BridgeTooFar/Master/p1/v1/README.md', mainMarkdown);
-
-//console.log('Markdown processing complete for ReadMe.md for Bridge Too Far. Output saved locally to official v1 in Docs as README.md.');
-
-//// Save the processed README.md markdown to official public documentation
-//// 'Docs/jsopx.BridgeTooFar/Master' as official root ReadMe.md 
-//// (no HTML conversion involved)
-//fs.writeFileSync('./Docs/jsopx.BridgeTooFar/Master/README.md', mainMarkdown);
-
-//console.log('Markdown processing complete for ReadMe.md for Bridge Too Far. Output saved locally to official absolue root in Docs as README.md.');
