@@ -1,10 +1,9 @@
-
-
-
 ﻿
 # JSopX™ Open Project EXperiences : Project Development Phases
 
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
+
+
 
 
 

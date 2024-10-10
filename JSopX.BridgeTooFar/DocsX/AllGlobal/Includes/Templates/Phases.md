@@ -1,18 +1,11 @@
-﻿
+﻿{{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Template/Phases/Header.md)}}
+
 <!-- START JSOPX NOVA DOCX HEADER
-
-includeType: Templates
-workflowState: Is Production Ready
-group: Phases
-toc: true
-isProductionReady: true
+group: 'Phases'
 isDraft: false
-
-should be removed in final render document
-
+isProductionReady: true
+toc: true
 END JSOPX NOVA DOCX HEADER -->
-
-{{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Template/Phases/Header.md)}}
 
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Draft-Notice.md)}}
 

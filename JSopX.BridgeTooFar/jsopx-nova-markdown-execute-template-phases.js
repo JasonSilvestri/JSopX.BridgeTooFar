@@ -1,3 +1,5 @@
+
+
 const fs = require('fs');
 const path = require('path');
 
@@ -85,7 +87,7 @@ function generateTOC(content) {
 
 // Function to insert or replace the TOC
 function insertTOC(content, toc) {
-    if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
+    if (content.includes('# Table of Contents') || content.includes('## Table of Contents') || content.includes('### Table of Contents')) {
         return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
     }
 
@@ -168,8 +170,19 @@ function processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir) {
 
     if (properties.isProductionReady !== 'true') {
         console.log(`Skipping ${parentTemplatePath} as it is not marked for production.`);
+    
+        console.log('Is Production Ready is false');
         return;
+    } else {
+        console.log('Is Production Ready is true');
     }
+
+    if (properties.isDraft !== 'true') {
+            console.log('IsDraft is false');
+        } else{
+            console.log('IsDraft is true');
+    }
+    
 
     // Process the parent template and generate individual sub-templates
     processParentTemplate(parentTemplatePath, subTemplatesDir);

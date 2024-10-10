@@ -1,16 +1,12 @@
 ﻿{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
 
 <!-- START JSOPX NOVA DOCX HEADER
-
-includeType: Templates
-workflowState: Is Production Ready
-group: README
-toc: true
+group: 'BridgeTooFar'
+isDraft: false
 isProductionReady: true
-
-should be removed in final render document
-
+toc: true
 END JSOPX NOVA DOCX HEADER -->
+
 
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Draft-Notice.md)}}
 

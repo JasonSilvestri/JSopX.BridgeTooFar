@@ -1,13 +1,8 @@
 <!-- START JSOPX NOVA DOCX HEADER
-
-includeType: Templates
-workflowState: Is Production Ready
-group: README
-toc: true
+group: 'README'
+isDraft: false
 isProductionReady: true
-
-should be removed in final render document
-
+toc: true
 END JSOPX NOVA DOCX HEADER -->
 
 {{[jsopx-includes](./DocsX/AllGlobal/Includes/Content/Common/Includes-Test.md)}}

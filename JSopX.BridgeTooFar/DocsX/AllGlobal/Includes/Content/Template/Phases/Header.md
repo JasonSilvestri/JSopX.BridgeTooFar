@@ -4,14 +4,9 @@
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
 <!-- START JSOPX NOVA DOCX HEADER
-
-includeType: Template
-workflowState: Is Production Ready
-group: Phases
-toc: true
+group: 'Phases'
+isDraft: false
 isProductionReady: true
-
-should be removed in final render document
-
+toc: true
 END JSOPX NOVA DOCX HEADER -->
 
