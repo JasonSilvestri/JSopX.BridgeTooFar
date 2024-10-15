@@ -11,11 +11,9 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collect
 
 ## Overview
 
-﻿
 The `JSopX.ClassLibrary` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Class Library Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
-This suite of projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web design for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
-
+This homogeneous suite of JSopX™ projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web designs for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
 
 
 > [!CAUTION]
@@ -26,24 +24,20 @@ This suite of projects, uses some of the most advanced client-side and server-si
 > Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/Phase-1-Minimum-Viable-Product-MVP.md) for more details.
 
 
-# Table of Contents
-- [JSopX™ Open Project EXperiences : Bridge Too Far](#jsopx-open-project-experiences--bridge-too-far)
-  - [Overview](#overview)
+## Table of Contents
+
+- [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Alerts](#alerts)
     - [Current Alerts](#current-alerts)
-  - [Prerequisites](#prerequisites)
-  - [Corequisites](#corequisites)
-  - [Postrequisites](#postrequisites)
-  - [Concomitants](#concomitants)
-  - [Getting Started](#getting-started)
-  - [Step-by-Step Instructions](#step-by-step-instructions)
-    - [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
-    - [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-child-basic-markdown-page-template-content-includes)
-    - [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
-  - [Usage](#usage)
-      - [Adding the JSopX™ Bridge Too Far Docs to Other Projects](#adding-the-jsopx-bridge-too-far-docs-to-other-projects)
-  - [In Conclusion](#in-conclusion)
+- [Prerequisites](#prerequisites)
+- [Corequisites](#corequisites)
+- [Postrequisites](#postrequisites)
+- [Concomitants](#concomitants)
+- [JSopX™ Class Library Structure](#jsopx-class-library-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [In Conclusion](#in-conclusion)
 
 
 ## Alerts
@@ -76,13 +70,12 @@ This suite of projects, uses some of the most advanced client-side and server-si
 
 ## Prerequisites
 
-﻿
-- Visual Studio 2022 or higher installed.
+
+- Visual Studio 2022 (17.11.5) or higher installed.
 - Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ClassLibrary`, `JSopX.WebAPI`, etc.).
-- Installed .NET 8.0 SDK.
+- Installed .NET 8.0.7 SDK.
 - Installed Node.js 20.14.0
 - Basic understanding of `.csproj` and `.sln` file structures.
-- Basic understanding of `.md` and markdown files
 
 
 [Back to Top](#table-of-contents)
@@ -90,7 +83,7 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Corequisites
 
 ﻿
-- Ensure we can have a markdown readme like the parent markdown we are in now, and add markdown includes from the child, to see if GitHub supports includes in a way that we need them to.
+- Ensure the latest Class Library constants, enums, and other settings are up-to-date
 
 
 [Back to Top](#table-of-contents)
@@ -98,7 +91,7 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Postrequisites
 
 ﻿
-- Clean and rebuild each project markdown after making changes to ensure includes are properly configured.
+- Clean and rebuild each project after making changes to ensure includes are properly configured.
 
 
 [Back to Top](#table-of-contents)
@@ -106,68 +99,92 @@ This suite of projects, uses some of the most advanced client-side and server-si
 ## Concomitants
 
 ﻿
-- You do not need to install technologies mentioned in the [Prerequisites](#prerequisites) section just to review the markdown files under `Docs`. However, you will need to if you plan to work with the project in modifying and creating new markdown documents.
-
+- You do not need to install technologies mentioned in the [Prerequisites](#prerequisites) section just to review the markdown files under `Docs`.
 
 
 [Back to Top](#table-of-contents)
+
+## JSopX™ Class Library Structure
+
+The project is organized into the following structure:
+
+### Constants
+
+- **JsopxConstants.cs**: Contains constant values used across the application, such as JWT settings.
+
+### Enums
+
+- **JsopxEnums.cs**: Defines enums for user roles within the application.
+
+### Helpers
+
+- **JwtHelper.cs**: Provides methods for generating and validating JWT tokens.
+
 
 ## Getting Started
 
 ﻿
 > [!WARNING]
-> This section is just a test. However, it is generally more advanced content.
+> This section describes a typical cloning operaton. Conversely, to mimic the collective JSopX project architecture takes some extra effort to fully implement "AS-IS".
 > 
 > **Please ensure that all test all includes on this page before release.**
 
+### Installation
 
-[Back to Top](#table-of-contents)
+1. **Clone the repository**:
 
-## Step-by-Step Instructions
+    ```bash
+    git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
+    ```
 
-﻿
-### Step 1: Create the Parent Basic Markdown Page Template
+2. **Open the solution in Visual Studio**:
 
-1. 1. **Create a `BasicMarkdownPage` markdown file**, save it to `Templates`, so we can use it to embed include test markdowns into it.
+    - Open `JSopX.ClassLibrary.sln` in Visual Studio.
 
-### Step 2: Create the Child Basic Markdown Page Template Content Includes
+3. **Build the project**:
 
-2. **Create a `BasicMarkdownPage` directory**, under `Includes/Content/Template`, and create as many static markdown sections needed for this sample.
-
-### Step 3: Double Check the Parent Basic Markdown Page Template for all Includes
-
-1. After adding all `include` blocks in the template, double-check all resources and be sure they exist. 
-   
-2. If this was done correctly, you should see content added to the live Docs folder.
+    - Right-click on the solution in Solution Explorer and select `Build Solution`.
 
 
 [Back to Top](#table-of-contents)
+
 
 ## Usage
 
-﻿
-#### Adding the JSopX™ Bridge Too Far Docs to Other Projects
-
-This is another one of those steps that I did for you, but you never know.
+#### Adding the JSopX™ Class Library to Other Projects
 
 1. **Add Project Reference**:
 
     - In the solution that requires the common library, right-click on the project in Solution Explorer.
     - Select `Add` > `Reference`.
-    - Check the box for `JSopX.BridgeTooFar` and click `OK`.
+    - Check the box for `JSopX.ClassLibrary` and click `OK`.
 
 2. **Use the Common Code**:
 
-    - You can now use the JSopX™ Bridge Too Far Docs from the `JSopX.BridgeTooFar` project in your other projects.
+    - You can now use the constants, enums, and helpers from the `JSopX.ClassLibrary` in your other projects.
+
+#### Example Usage
+
+**Using Constants**:
+
+```csharp
+using JSopX.ClassLibrary.JsopxConstants;
+
+public class ExampleService
+{
+    public void PrintJwtSettings()
+    {
+        Console.WriteLine($"Issuer: {JsopxConstants.WebAppDemoSettings.JwtIssuer}");
+        Console.WriteLine($"Audience: {JsopxConstants.WebAppDemoSettings.JwtAudience}");
+        Console.WriteLine($"Key: {JsopxConstants.WebAppDemoSettings.JwtKey}");
+    }
+}
+```
 
 
-## In Conclusion
+The `JSopX.ClassLibrary` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Class Library Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
-﻿
-The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
-
-By centralizing project documents with this approach to mark down will be very helpful, especially with referencing the `JSopX.BridgeTooFar` Read Me docs across projects.
-
+By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.ClassLibrary` across projects.
 
 [Back to Top](#table-of-contents)
 
