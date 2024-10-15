@@ -12,7 +12,13 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Overview
 
+![JSopX™ Open Project EXperiences Collection of Projects](../../doc-assets/JsopX-Splash-Screen.png)
+
+
 {{[jsopx-includes](./DocsX/jsopx.ClassLibrary/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
+
+![JSopX™ Open Project EXperiences Assets Projects](../../doc-assets/bootstrap-themes.png)
+
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
 
