@@ -13,7 +13,7 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collect
 ## Overview
 
 
-![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
+![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.svg)
 
 ﻿
 The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
