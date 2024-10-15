@@ -1,0 +1,12 @@
+{
+  "DocsXRoot": "DocsX",
+  "DocsRoot": "Docs",
+  "templatesDir": "Includes/Templates",
+  "subTemplatesDir": "Includes/Templates/SubTemplates",
+  "includeDirs": [ "Content", "Common" ],
+  "outputPathRules": {
+    "jsopx.BridgeTooFar": "Docs/jsopx.BridgeTooFar",
+    "jsopx.ClassLibrary": "Docs/jsopx.ClassLibrary",
+    "jsopx.WebAPI": "Docs/jsopx.WebAPI"
+  }
+}

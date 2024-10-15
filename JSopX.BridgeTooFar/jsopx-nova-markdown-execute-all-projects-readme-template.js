@@ -1,12 +1,53 @@
 const fs = require('fs');
 const path = require('path');
 
-// Define the regex to match the comment block
-const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
+// Load configuration from pathConfig.json
+const config = JSON.parse(fs.readFileSync('pathConfig.json', 'utf8'));
 
-// Function to scan for properties in the comment block
+// Helper function to check if a file is in an 'Includes' directory
+function isIncludeFile(filePath) {
+    return config.includeDirs.some(dir => filePath.includes(dir));
+}
+
+// Function to generate the final output path for a markdown file
+function getFinalPath(filePath) {
+    let outputPath = filePath
+        .replace(config.DocsXRoot, config.DocsRoot) // Replace DocsX with Docs
+        .replace(config.templatesDir, '') // Remove Templates path
+        .replace(config.subTemplatesDir, ''); // Remove SubTemplates path
+    
+    for (const [project, outputDir] of Object.entries(config.outputPathRules)) {
+        if (filePath.includes(project)) {
+            outputPath = outputPath.replace(config.DocsRoot, outputDir);
+        }
+    }
+    
+    return outputPath;
+}
+
+// Function to scan for markdown files in a directory (ignoring includes)
+function findMarkdownFiles(dir) {
+    let markdownFiles = [];
+    const files = fs.readdirSync(dir);
+
+    files.forEach(file => {
+        const filePath = path.join(dir, file);
+        const stat = fs.statSync(filePath);
+
+        if (stat.isDirectory()) {
+            markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath));
+        } else if (file.endsWith('.md') && !isIncludeFile(filePath)) {
+            markdownFiles.push(filePath); // Only add markdown files not in 'Includes' directories
+        }
+    });
+
+    return markdownFiles;
+}
+
+// Helper function to extract properties from comment blocks
 function extractCommentProperties(content) {
     const properties = {};
+    const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
     const match = content.match(commentBlockRegex);
 
     if (match) {
@@ -17,50 +58,11 @@ function extractCommentProperties(content) {
             properties[propMatch[1]] = propMatch[2];
         }
     }
+
     return properties;
 }
 
-// Function to handle properties
-function handleProperties(properties, filePath) {
-    if (properties.isDraft === 'true') {
-        console.log(`Processing draft version for ${filePath}.`);
-    } else {
-        console.log(`Not a draft version: ${filePath}`);
-    }
-
-    if (properties.toc === 'true') {
-        console.log(`Generating Table of Contents for ${filePath}`);
-        return true; // Flag to generate TOC
-    }
-
-    if (properties.isProductionReady === 'false') {
-        console.log(`File ${filePath} is not marked as production-ready.`);
-        return false; // Skip processing if not production-ready
-    }
-    return true;
-}
-
-// Function to scan directories recursively for markdown files, limiting to Templates and SubTemplates
-function findMarkdownFiles(dir) {
-    let markdownFiles = [];
-    const files = fs.readdirSync(dir);
-
-    files.forEach(file => {
-        const filePath = path.join(dir, file);
-        const stat = fs.statSync(filePath);
-
-        // Only process files in Templates or SubTemplates directories, and exclude others like Content
-        if (stat.isDirectory() && (file.includes('Templates') || file.includes('SubTemplates'))) {
-            markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath)); // Recursive call for subdirectories
-        } else if (file.endsWith('.md') && (filePath.includes('Templates') || filePath.includes('SubTemplates'))) {
-            markdownFiles.push(filePath); // Only include markdown files in Templates/SubTemplates
-        }
-    });
-
-    return markdownFiles;
-}
-
-// Function to process includes in markdown files
+// Function to process includes in a markdown file
 function processIncludes(content) {
     return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
         const absolutePath = path.join(__dirname, includePath);
@@ -73,12 +75,7 @@ function processIncludes(content) {
     });
 }
 
-// Function to remove comments from markdown files
-function removeComments(content) {
-    return content.replace(commentBlockRegex, '');
-}
-
-// Function to generate a Table of Contents, while ignoring footer sections
+// Function to generate Table of Contents
 function generateTOC(content) {
     const toc = [];
     const lines = content.split('\n');
@@ -104,7 +101,7 @@ function generateTOC(content) {
     return toc.join('\n');
 }
 
-// Function to insert or replace the TOC
+// Function to insert TOC into content
 function insertTOC(content, toc) {
     if (content.includes('# Table of Contents') || content.includes('## Table of Contents')) {
         return content.replace(/(#{1,2} Table of Contents[\s\S]*?)(\n#{1,6}\s+)/, `# Table of Contents\n${toc}\n\n$2`);
@@ -118,12 +115,7 @@ function insertTOC(content, toc) {
     return `# Table of Contents\n${toc}\n\n${content}`;
 }
 
-// Function to clean hidden characters from markdown files
-function cleanHiddenCharacters(content) {
-    return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
-}
-
-// Function to handle draft notices in markdown files
+// Function to handle draft notices
 function handleDraftNotice(content, isDraft) {
     const draftRegex = />\s*\[!\s*CAUTION\s*\]\s*>\s*\*\*\s*This\s+is\s+a\s+DRAFT\s*:\s*\*\*[\s\S]*?>[\s\S]*?\n{0,2}/g;
 
@@ -134,51 +126,53 @@ function handleDraftNotice(content, isDraft) {
     }
 }
 
-// Function to process markdown files (only Templates and SubTemplates)
+// Function to clean hidden characters
+function cleanHiddenCharacters(content) {
+    return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
+}
+
+// Function to process a markdown file
 function processMarkdownFile(filePath) {
-    let markdownContent = fs.readFileSync(filePath, 'utf8');
-    const properties = extractCommentProperties(markdownContent);
+    let content = fs.readFileSync(filePath, 'utf8');
+    console.log(`Processing file: ${filePath}`);
 
-    console.log(`Processing file ${filePath}`);
+    const properties = extractCommentProperties(content);
 
-    // Handle file based on extracted properties
-    const isProductionReady = handleProperties(properties, filePath);
-    if (!isProductionReady) {
+    // Check production readiness
+    if (properties.isProductionReady !== 'true') {
+        console.log(`Skipping ${filePath} as it is not marked as production-ready.`);
         return;
     }
 
-    // Clean hidden characters
-    markdownContent = cleanHiddenCharacters(markdownContent);
-
-    // Process includes
-    markdownContent = processIncludes(markdownContent);
+    // Process includes within the file
+    content = processIncludes(content);
 
     // Handle draft notices
-    markdownContent = handleDraftNotice(markdownContent, properties.isDraft);
+    content = handleDraftNotice(content, properties.isDraft);
 
-    // Remove comments
-    markdownContent = removeComments(markdownContent);
+    // Clean hidden characters
+    content = cleanHiddenCharacters(content);
 
-    // Generate TOC if enabled
+    // Generate and insert Table of Contents
     if (properties.toc === 'true') {
-        const toc = generateTOC(markdownContent);
-        markdownContent = insertTOC(markdownContent, toc);
+        const toc = generateTOC(content);
+        content = insertTOC(content, toc);
     }
 
-    // Adjust file path for final Docs directory output
-    const processedFilePath = filePath
-        .replace('DocsX', 'Docs') // Adjust to Docs directory
-        .replace(/Includes\/Templates\//, '') // Exclude Includes/Templates from final path
+    // Generate final output path
+    const finalPath = getFinalPath(filePath);
 
-    fs.writeFileSync(processedFilePath, markdownContent);
-    console.log(`Processed markdown saved to: ${processedFilePath}`);
+    // Save the processed markdown to the final path
+    fs.writeFileSync(finalPath, content);
+    console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Example usage
-const projects = ['jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.WebAPI']; // Example list of projects
+// Example usage: Processing all markdown files for the listed projects
+const projects = ['jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.WebAPI'];
+
 projects.forEach(project => {
-    const projectMarkdownFiles = findMarkdownFiles(`DocsX/${project}`);
-    projectMarkdownFiles.forEach(filePath => {
+    const markdownFiles = findMarkdownFiles(`${config.DocsXRoot}/${project}`);
+    markdownFiles.forEach(filePath => {
         processMarkdownFile(filePath);
     });
 });
