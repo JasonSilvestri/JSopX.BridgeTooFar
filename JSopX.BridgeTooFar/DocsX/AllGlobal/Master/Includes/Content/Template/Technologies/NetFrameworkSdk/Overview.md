@@ -1,4 +1,7 @@
 ﻿
+
+**.NET Framework SDK v `8.0.3` (_or higher_) Required**
+
 Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`8.0.3`** (_or higher_), and is is essential for developing JSopX™ projects. This SDK provides the tools and libraries necessary for building, running, and managing .NET applications.
 
 Make sure you have this version or later to take full advantage of the features and improvements in the .NET ecosystem.
