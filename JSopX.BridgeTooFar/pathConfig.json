@@ -1,10 +1,12 @@
 {
   "DocsXRoot": "DocsX",
   "DocsRoot": "Docs",
+  "allGlobalDir": "AllGlobal",
+  "globalDocsDir": "JSopX",
   "templatesDir": "Includes/Templates",
-  "subTemplatesDir": "Includes/Templates/SubTemplates",
-  "includeDirs": [ "Content", "Common" ],
+  "includeDirs": [ "Includes/Content", "Includes/Layout" ],
   "outputPathRules": {
+    "AllGlobal": "Docs/JSopX",
     "jsopx.BridgeTooFar": "Docs/jsopx.BridgeTooFar",
     "jsopx.ClassLibrary": "Docs/jsopx.ClassLibrary",
     "jsopx.WebAPI": "Docs/jsopx.WebAPI"

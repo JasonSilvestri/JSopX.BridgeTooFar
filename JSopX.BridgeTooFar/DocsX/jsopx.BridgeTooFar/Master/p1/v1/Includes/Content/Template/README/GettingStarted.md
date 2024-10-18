@@ -1,5 +1,23 @@
 ﻿
+﻿
 > [!WARNING]
-> This section is just a test. However, it is generally more advanced content.
+> This section describes a typical cloning operaton. Conversely, to mimic the collective JSopX project architecture takes some extra effort to fully implement "AS-IS".
 > 
 > **Please ensure that all test all includes on this page before release.**
+
+### Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
+    ```
+
+2. **Open the solution in Visual Studio**:
+
+    - Open `JSopX.BridgeTooFar.sln` in Visual Studio.
+
+3. **Build the project**:
+
+    - Right-click on the solution in Solution Explorer and select `Build Solution`.
+

@@ -13,15 +13,20 @@ function isIncludeFile(filePath) {
 function getFinalPath(filePath) {
     let outputPath = filePath
         .replace(config.DocsXRoot, config.DocsRoot) // Replace DocsX with Docs
-        .replace(config.templatesDir, '') // Remove Templates path
-        .replace(config.subTemplatesDir, ''); // Remove SubTemplates path
-    
-    for (const [project, outputDir] of Object.entries(config.outputPathRules)) {
-        if (filePath.includes(project)) {
+        .replace(config.templatesDir, ''); // Remove Templates path
+
+    // Special handling for AllGlobal files
+    if (filePath.includes(config.allGlobalDir)) {
+        outputPath = outputPath.replace(config.allGlobalDir, config.globalDocsDir);
+    }
+
+    // Apply output path rules for specific projects
+    for (const [projectKey, outputDir] of Object.entries(config.outputPathRules)) {
+        if (filePath.includes(projectKey)) {
             outputPath = outputPath.replace(config.DocsRoot, outputDir);
         }
     }
-    
+
     return outputPath;
 }
 
@@ -63,11 +68,14 @@ function extractCommentProperties(content) {
 }
 
 // Function to process includes in a markdown file
-function processIncludes(content) {
+function processIncludes(content, currentDir) {
     return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
-        const absolutePath = path.join(__dirname, includePath);
+        const absolutePath = path.resolve(currentDir, includePath);
         try {
-            return fs.readFileSync(absolutePath, 'utf8');
+            let includeContent = fs.readFileSync(absolutePath, 'utf8');
+            // Recursively process includes in the included content
+            includeContent = processIncludes(includeContent, path.dirname(absolutePath));
+            return includeContent;
         } catch (err) {
             console.error(`Error including file: ${absolutePath}`);
             return '<!-- Error including file -->';
@@ -117,7 +125,7 @@ function insertTOC(content, toc) {
 
 // Function to handle draft notices
 function handleDraftNotice(content, isDraft) {
-    const draftRegex = />\s*\[!\s*CAUTION\s*\]\s*>\s*\*\*\s*This\s+is\s+a\s+DRAFT\s*:\s*\*\*[\s\S]*?>[\s\S]*?\n{0,2}/g;
+    const draftRegex = />\s*\[!\s*CAUTION\s*\]\s*>\s*\*\*This\s+is\s+a\s+DRAFT\s*:\s*\*\*[\s\S]*?>[\s\S]*?\n{0,2}/g;
 
     if (isDraft === 'true') {
         return content; // Keep draft content
@@ -145,7 +153,7 @@ function processMarkdownFile(filePath) {
     }
 
     // Process includes within the file
-    content = processIncludes(content);
+    content = processIncludes(content, path.dirname(filePath));
 
     // Handle draft notices
     content = handleDraftNotice(content, properties.isDraft);
@@ -162,16 +170,23 @@ function processMarkdownFile(filePath) {
     // Generate final output path
     const finalPath = getFinalPath(filePath);
 
+    // Ensure the directory exists
+    const finalDir = path.dirname(finalPath);
+    if (!fs.existsSync(finalDir)) {
+        fs.mkdirSync(finalDir, { recursive: true });
+    }
+
     // Save the processed markdown to the final path
     fs.writeFileSync(finalPath, content);
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
 // Example usage: Processing all markdown files for the listed projects
-const projects = ['jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.WebAPI'];
+const projects = ['AllGlobal', 'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.WebAPI'];
 
 projects.forEach(project => {
-    const markdownFiles = findMarkdownFiles(`${config.DocsXRoot}/${project}`);
+    const projectPath = path.join(config.DocsXRoot, project);
+    const markdownFiles = findMarkdownFiles(projectPath);
     markdownFiles.forEach(filePath => {
         processMarkdownFile(filePath);
     });

@@ -21,6 +21,17 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
     <AssemblyName>JSopX.BridgeTooFarOpX</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Compile Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Content Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Content Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <EmbeddedResource Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <EmbeddedResource Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <None Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <None Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
@@ -36,10 +47,21 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
   </ItemGroup>-->
 
   <ItemGroup>
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\GitHubRepositories\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\CommonTechnologiesIncluded\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\NetFrameworkSdk\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\AspNetCore\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\NetCoreBlazor\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\NetCoreMauiHybrid\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\AngularCli\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\Vite\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\Vue\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\React\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\npm\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\Node\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\VisualStudio\" />
     <Folder Include="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
-    <Folder Include="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\" />
     <Folder Include="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
-    <Folder Include="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\" />
     <Folder Include="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
     <Folder Include="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Templates\SubTemplates\" />
     <Folder Include="Docs\jsopx.BridgeTooFar\Master\p1\v1\" />
