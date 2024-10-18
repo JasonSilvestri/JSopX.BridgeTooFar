@@ -1,16 +1,16 @@
 ﻿
-# JSopX™ Open Project EXperiences : Bridge Too Far
+# JSopX™ Bridge Too Far
 
-From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
+**From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects**
 
 <!-- START JSOPX NOVA DOCX HEADER
 
-includeType: Template
 workflowState: Is Production Ready
-group: README
-toc: true
+group: "JSopX™ Bridge Too Far"
+subGroup: "README"
+isDraft: false
 isProductionReady: true
-
-should be removed in final render document
-
+toc: true
 END JSOPX NOVA DOCX HEADER -->
+
+**`JSopX.BridgeTooFar.sln`**: The `JSopX.BridgeTooFar` Project (_JSopX™ Bridge Too Far Project_) is a new project being developed, containing base static reusable assets often derived by the primary Shared Resources, Class Libraries and Razor Class Libraries.
