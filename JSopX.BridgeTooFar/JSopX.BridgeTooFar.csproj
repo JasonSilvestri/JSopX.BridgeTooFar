@@ -47,8 +47,6 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
   </ItemGroup>-->
 
   <ItemGroup>
-    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\Vite\" />
-    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\Vue\" />
     <Folder Include="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
     <Folder Include="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
     <Folder Include="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
