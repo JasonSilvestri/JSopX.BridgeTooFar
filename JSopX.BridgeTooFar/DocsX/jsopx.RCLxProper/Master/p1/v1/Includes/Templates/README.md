@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
+﻿{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
 
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'BridgeTooFar'
@@ -15,7 +15,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
 
 ![JSopX™ Open Project EXperiences Assets Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/bootstrap-themes.png)
 
@@ -24,7 +24,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Table of Contents
 
-- [JSopX™ Open Project EXperiences : Bridge Too Far](#jsopx-open-project-experiences--open-project-x)
+- [JSopX™ Open Project EXperiences : Bridge Too Far](#jsopx-open-project-experiences--bridge-too-far)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Alerts](#alerts)
@@ -34,9 +34,9 @@ END JSOPX NOVA DOCX HEADER -->
   - [Postrequisites](#postrequisites)
   - [Concomitants](#concomitants)
   - [Getting Started](#getting-started)
-    - [Installation](#openprojectx--installation)
-    - [Project References](#openprojectx--project-references)  
-    - [Technology Requirements](#openprojectx--technology-requirements)  
+    - [Installation](#jsopxbridgetoofar--installation)
+    - [Project References](#jsopxbridgetoofar--project-references)  
+    - [Technology Requirements](#jsopxbridgetoofar--technology-requirements)  
   - [Usage](#usage)
   - [In Conclusion](#in-conclusion)
 
@@ -49,41 +49,41 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Prerequisites
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/Prerequisites.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Prerequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/Corequisites.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Corequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/Postrequisites.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Postrequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/Concomitants.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Concomitants.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Getting Started
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/GettingStarted.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/GettingStarted.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Usage
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/Usage.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/Usage.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](./DocsX/jsopx.OpenProjectX/Master/p1/v1/Includes/Content/Template/README/InConclusion.md)}}
+{{[jsopx-includes](./DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Content/Template/README/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

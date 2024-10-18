@@ -4,7 +4,7 @@
 > 
 > **Please ensure that all test all includes on this page before release.**
 
-### Installation
+## Installation
 
 1. **_Clone_ the `JSopX.OpenProjectX` repository**:
 
