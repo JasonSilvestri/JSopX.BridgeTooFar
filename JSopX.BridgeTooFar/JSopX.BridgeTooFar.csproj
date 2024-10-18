@@ -22,13 +22,29 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
+    <Compile Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Compile Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <Compile Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Compile Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <Compile Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Content Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
+    <Content Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Content Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <Content Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <Content Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <Content Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <EmbeddedResource Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
+    <EmbeddedResource Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <EmbeddedResource Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <EmbeddedResource Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <EmbeddedResource Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <EmbeddedResource Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <None Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
+    <None Remove="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <None Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <None Remove="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Templates\SubTemplates\**" />
+    <None Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\**" />
     <None Remove="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Templates\SubTemplates\**" />
   </ItemGroup>
 
@@ -47,10 +63,6 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
   </ItemGroup>-->
 
   <ItemGroup>
-    <Folder Include="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
-    <Folder Include="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
-    <Folder Include="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
-    <Folder Include="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Templates\SubTemplates\" />
     <Folder Include="Docs\jsopx.BridgeTooFar\Master\p1\v1\" />
     <Folder Include="Docs\JSopX\Master\Phases\" />
   </ItemGroup>
