@@ -1,12 +1,11 @@
 ﻿
+The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`8.0.3`** (_or higher_) for projects that use `.NET Core Blazor`. This version supports building interactive web UIs with C# instead of JavaScript, enabling full-stack development with a unified technology stack. 
 
-**Visual Studio or Visual Studio Code v `17.11.5` (_or higher_) Required**
+Ensure your `.NET Core Blazor` environment is updated to this version for optimal performance and compatibility.
 
-Almost all JSopX™ Open Project EXperiences _require_ `Visual Studio` or `Visual Studio Code` v **`17.11.5`** (_or higher_), to develop and run JSopX™ projects. Installing this version ensures compatibility with the latest .NET Core frameworks and modern web development tools. 
-
-In addition, the IDE needs to be up-to-date to also leverage advanced debugging, code analysis, and project management features.
-
-This section is dedicated to helping you ensure you have the correct `Visual Studio` or `Visual Studio Code` setup, by describing how to check versions, perform installations if necessary, check JSopX™ dependencies, get links to official documentation, and more!
+This section is dedicated to helping you ensure you have the correct `.NET Core Blazor` setup, by describing how to check versions, perform installations if necessary, check JSopX™ dependencies, get links to official documentation, and more!
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Visual Studio**](#visual-studio)  »  [Back to Top](#table-of-contents)
+
+
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**.NET Core Blazor**](#net-core-blazor)  »  [Back to Top](#table-of-contents)
