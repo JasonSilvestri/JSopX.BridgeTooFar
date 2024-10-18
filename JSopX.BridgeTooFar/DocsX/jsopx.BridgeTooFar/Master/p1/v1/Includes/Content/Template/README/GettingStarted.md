@@ -44,7 +44,7 @@ The _Project References_ included in the **`JSopX.BridgeTooFar`** Project are as
 1. [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/):
     - A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
    
-## JSopX.BridgeTooFar : Technology Requirements
+### JSopX.BridgeTooFar : Technology Requirements
 
 Don't forget that the **`JSopX.BridgeTooFar`** Project requires certain technologies installed to work as expected.
 
