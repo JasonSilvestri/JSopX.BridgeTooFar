@@ -3,23 +3,19 @@
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
 
-
-
-
-
-
-
- 
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
 > The content before you is a draft version of the document. It **should not** be considered **accurate**. In fact, drafts will often times be for different reasons, such as testing styles, content, etc. The content itself may have only been used as a placeholder, making sections, or even the entire document contain information not relative to this project.
 
 
 ## Overview
+﻿
+The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 
 ![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
 
-﻿
-The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 This homogeneous suite of JSopX™ projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web design for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
 
@@ -46,12 +42,7 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
   - [Postrequisites](#postrequisites)
   - [Concomitants](#concomitants)
   - [Getting Started](#getting-started)
-  - [Step-by-Step Instructions](#step-by-step-instructions)
-    - [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
-    - [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-child-basic-markdown-page-template-content-includes)
-    - [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
   - [Usage](#usage)
-      - [Adding the JSopX™ Bridge Too Far Docs to Other Projects](#adding-the-jsopx-bridge-too-far-docs-to-other-projects)
   - [In Conclusion](#in-conclusion)
 
 
