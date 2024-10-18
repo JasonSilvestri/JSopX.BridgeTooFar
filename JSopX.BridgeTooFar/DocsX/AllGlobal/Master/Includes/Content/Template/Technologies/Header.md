@@ -4,7 +4,7 @@
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
 <!-- START JSOPX NOVA DOCX HEADER
-group: 'Phases'
+group: 'JSopX™ Project Technology Requirements'
 isDraft: false
 isProductionReady: true
 toc: true

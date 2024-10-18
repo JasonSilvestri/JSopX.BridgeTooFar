@@ -1,9 +1,9 @@
 ﻿
-# Common Technologies Included:
+# Visual Studio:
 
-**Common Technologies Included Require No Further Action**
+**Visual Studio or Visual Studio Code v `17.11.5` (_or higher_) Required** 
 
-It is assumed that all JSopX™ Open Project EXperiences _require_ some common technologies that are included in all projects by default.
+Almost all JSopX™ Open Project EXperiences _require_ `Visual Studio` or `Visual Studio Code` v **`17.11.5`** (_or higher_).
 
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'Technologies'
