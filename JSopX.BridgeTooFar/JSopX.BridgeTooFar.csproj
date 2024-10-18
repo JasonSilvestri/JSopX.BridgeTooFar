@@ -47,8 +47,6 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
   </ItemGroup>-->
 
   <ItemGroup>
-    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\GitHubRepositories\" />
-    <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\CommonTechnologiesIncluded\" />
     <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\NetFrameworkSdk\" />
     <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\AspNetCore\" />
     <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\NetCoreBlazor\" />
@@ -60,6 +58,7 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
     <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\npm\" />
     <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\Node\" />
     <Folder Include="DocsX\AllGlobal\Master\Includes\Content\Template\Technologies\VisualStudio\" />
+    <Folder Include="DocsX\AllGlobal\Master\Includes\Templates\Technologies\" />
     <Folder Include="DocsX\jsopx.WebAPI\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
     <Folder Include="DocsX\jsopx.ClassLibrary\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
     <Folder Include="DocsX\jsopx.BridgeTooFar\Master\p1\v1\Includes\Content\Template\SubTemplate\" />
