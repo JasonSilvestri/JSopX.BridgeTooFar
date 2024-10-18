@@ -1,12 +1,15 @@
-﻿
-# JSopX™ Open Project EXperiences : Bridge Too Far
+﻿# JSopX™ Open Project EXperiences : Bridge Too Far
 
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
 
-> [!CAUTION]
-> **This is a DRAFT:**
-> 
+
+
+
+
+
+
+ 
 > The content before you is a draft version of the document. It **should not** be considered **accurate**. In fact, drafts will often times be for different reasons, such as testing styles, content, etc. The content itself may have only been used as a placeholder, making sections, or even the entire document contain information not relative to this project.
 
 
@@ -144,28 +147,6 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
     - Right-click on the solution in Solution Explorer and select `Build Solution`.
 
 
-
-
-[Back to Top](#table-of-contents)
-
-## Step-by-Step Instructions
-
-﻿
-### Step 1: Create the Parent Basic Markdown Page Template
-
-1. 1. **Create a `BasicMarkdownPage` markdown file**, save it to `Templates`, so we can use it to embed include test markdowns into it.
-
-### Step 2: Create the Child Basic Markdown Page Template Content Includes
-
-2. **Create a `BasicMarkdownPage` directory**, under `Includes/Content/Template`, and create as many static markdown sections needed for this sample.
-
-### Step 3: Double Check the Parent Basic Markdown Page Template for all Includes
-
-1. After adding all `include` blocks in the template, double-check all resources and be sure they exist. 
-   
-2. If this was done correctly, you should see content added to the live Docs folder.
-
-
 [Back to Top](#table-of-contents)
 
 ## Usage
@@ -173,17 +154,17 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 
 ### Reference the Shared Resources Project
 
-1. **Add a project reference** to `JsopX.SharedResources` in each client project:
+1. **Add a project reference** to `JsopX.BridgeTooFar` in each client project:
     - Right-click on the client project (e.g., `JsopX.AngularCore`, `JsopX.ReactCore`, `JsopX.VueCore`, `JsopX.BlazorServerCore`).
     - Select **Add** > **Project Reference**.
-    - Check `JsopX.SharedResources` and click **OK**.
+    - Check `JsopX.BridgeTooFar` and click **OK**.
 
 ### Example: Blazor Project
 
 **In `JsopX.BlazorServerCore`**:
 
 1. **Reference the Shared Resources Project**:
-    - Add a reference to `JsopX.SharedResources` in `JsopX.BlazorServerCore`.
+    - Add a reference to `JsopX.BridgeTooFar` in `JsopX.BlazorServerCore`.
 
 2. **Use Static Files in Razor Components**:
     - Create a Razor component that uses the shared static files.
@@ -204,13 +185,13 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 **In `JsopX.AngularCore`**:
 
 1. **Copy Files Using a Build Script**:
-    - Create a script to copy the shared resources from `JsopX.SharedResources` to the `assets` folder of the Angular project during the build process.
+    - Create a script to copy the shared resources from `JsopX.BridgeTooFar` to the `assets` folder of the Angular project during the build process.
 
     ```json
     
     "scripts": {
-        "postinstall": "npm run copy-shared-resources",
-        "copy-shared-resources": "cp -r ../JsopX.SharedResources/* ./src/full-assets/"
+        "postinstall": "npm run copy-bridge-too-far",
+        "copy-bridge-too-far": "cp -r ../JsopX.BridgeTooFar/* ./src/assets/"
     }
     ```
 
@@ -229,13 +210,13 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 **In `JsopX.VueCore`**:
 
 1. **Copy Files Using a Build Script**:
-    - Create a script to copy the shared resources from `JsopX.SharedResources` to the `assets` folder of the Vue project during the build process.
+    - Create a script to copy the shared resources from `JsopX.BridgeTooFar` to the `assets` folder of the Vue project during the build process.
 
     ```json
     
     "scripts": {
-        "postinstall": "npm run copy-shared-resources",
-        "copy-shared-resources": "cp -r ../JsopX.SharedResources/* ./public/full-assets/"
+        "postinstall": "npm run copy-bridge-too-far",
+        "copy-bridge-too-far": "cp -r ../JsopX.BridgeTooFar/* ./public/assets/"
     }
     ```
 
@@ -258,13 +239,13 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 **In `JsopX.ReactCore`**:
 
 1. **Copy Files Using a Build Script**:
-    - Create a script to copy the shared resources from `JsopX.SharedResources` to the `public` folder of the React project during the build process.
+    - Create a script to copy the shared resources from `JsopX.BridgeTooFar` to the `public` folder of the React project during the build process.
 
     ```json
     // package.json
     "scripts": {
-        "postinstall": "npm run copy-shared-resources",
-        "copy-shared-resources": "cp -r ../JsopX.SharedResources/* ./public/full-assets/"
+        "postinstall": "npm run copy-bridge-too-far",
+        "copy-bridge-too-far": "cp -r ../JsopX.BridgeTooFar/* ./public/assets/"
     }
     ```
 
