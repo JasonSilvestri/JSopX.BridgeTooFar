@@ -70,7 +70,7 @@ This homogeneous suite of **JSopX™** projects leverages cutting-edge client-si
 ### Current Alerts
 
 > [!IMPORTANT]
-> This document is for **advanced users only**, and this Include outlines a sample `Current Alert`.
+> This document is still  **regularly being updated**. It is important to regularly check back for updates until this `Current Alert` is no longer visible.
 
 
 [Back to Top](#table-of-contents)
