@@ -24,14 +24,22 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Corequisites](#corequisites)
-4. [Postrequisites](#postrequisites)
-5. [Concomitants](#concomitants)
-6. [Getting Started](#getting-started)
-7. [Usage](#usage)
-8. [In Conclusion](#in-conclusion)
+- [JSopX™ Open Project EXperiences : Bridge Too Far](#jsopx-open-project-experiences--bridge-too-far)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Alerts](#alerts)
+    - [Current Alerts](#current-alerts)
+  - [Prerequisites](#prerequisites)
+  - [Corequisites](#corequisites)
+  - [Postrequisites](#postrequisites)
+  - [Concomitants](#concomitants)
+  - [Getting Started](#getting-started)
+    - [Installation](#jsopxbridgetoofar--installation)
+    - [Project References](#jsopxbridgetoofar--project-references)  
+    - [Technology Requirements](#jsopxbridgetoofar--technology-requirements)  
+  - [Usage](#usage)
+  - [In Conclusion](#in-conclusion)
+
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Alerts.md)}}
 

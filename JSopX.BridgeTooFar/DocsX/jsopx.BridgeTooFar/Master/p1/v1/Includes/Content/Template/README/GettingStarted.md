@@ -4,7 +4,7 @@
 > 
 > **Please ensure that all test all includes on this page before release.**
 
-### JSopX.BridgeTooFar : Installation
+## JSopX.BridgeTooFar : Installation
 
 You can install the **`JSopX.BridgeTooFar`** Project **independently** by cloning the Git Repository.
 
@@ -35,7 +35,7 @@ You can install the **`JSopX.BridgeTooFar`** Project **independently** by clonin
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
 
-### JSopX.BridgeTooFar : Project References
+## JSopX.BridgeTooFar : Project References
 
 What makes the **`JSopX.BridgeTooFar`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
 
@@ -44,7 +44,7 @@ The _Project References_ included in the **`JSopX.BridgeTooFar`** Project are as
 1. [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/):
     - A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
    
-### JSopX.BridgeTooFar : Technology Requirements
+## JSopX.BridgeTooFar : Technology Requirements
 
 Don't forget that the **`JSopX.BridgeTooFar`** Project requires certain technologies installed to work as expected.
 
