@@ -1,13 +1,13 @@
 ﻿
-# Visual Studio:
+# Vite:
 
-**Visual Studio or Visual Studio Code v `17.11.5` (_or higher_) Required** 
+**Vite v `5.2.8` (_or higher_) Required**
 
-Almost all JSopX™ Open Project EXperiences _require_ `Visual Studio` or `Visual Studio Code` v **`17.11.5`** (_or higher_).
+The JSopX™ Open Project EXperiences _require_ `Vite` v **`5.2.8`** (_or higher_). 
 
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'Technologies'
-subGroup: 'Visual Studio'
+subGroup: 'Vite'
 isDraft: false
 isProductionReady: true
 toc: true

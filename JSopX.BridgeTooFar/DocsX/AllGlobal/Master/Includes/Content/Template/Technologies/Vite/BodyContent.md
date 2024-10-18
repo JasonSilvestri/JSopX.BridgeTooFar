@@ -2,10 +2,10 @@
 ## Table of Contents
 
 - [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)
-  - [Visual Studio](#visual-studio--overview)
-    - [Overview](#visual-studio--overview)
-    - [JSopX™ Dependencies](#visual-studio-jsopx-dependencies)
-    - [Check Versions](#visual-studio-checking-versions)
-    - [Installation](#visual-studio-installation)
-    - [Documentation](#visual-studio-documentation)
-  - [In Conclusion](#visual-studio--in-conclusion)
+  - [Vite](#vite--overview)
+	- [Overview](#vite--overview)
+	- [JSopX™ Dependencies](#vite-jsopx-dependencies)
+	- [Check Versions](#vite-checking-versions)
+	- [Installation](#vite-installation)
+	- [Documentation](#vite-documentation)
+  - [In Conclusion](#vite--in-conclusion)

@@ -1,12 +1,13 @@
 ﻿
 
-**Visual Studio or Visual Studio Code v `17.11.5` (_or higher_) Required**
+**Vite v `5.2.8` (_or higher_) Required**
 
-Almost all JSopX™ Open Project EXperiences _require_ `Visual Studio` or `Visual Studio Code` v **`17.11.5`** (_or higher_), to develop and run JSopX™ projects. Installing this version ensures compatibility with the latest .NET Core frameworks and modern web development tools. 
+The JSopX™ Open Project EXperiences _require_ `Vite` v **`5.2.8`** (_or higher_), particularly when using modern JavaScript frameworks like React, Vue, or Svelte. Vite is a fast and lightweight build tool that enhances the development experience with features like instant hot module replacement. 
 
-In addition, the IDE needs to be up-to-date to also leverage advanced debugging, code analysis, and project management features.
+Ensure you have this version installed to maximize development efficiency.
 
-This section is dedicated to helping you ensure you have the correct `Visual Studio` or `Visual Studio Code` setup, by describing how to check versions, perform installations if necessary, check JSopX™ dependencies, get links to official documentation, and more!
+This section is dedicated to helping you ensure you have the correct `Vite` setup, by describing how to check versions, perform installations if necessary, check JSopX™ dependencies, get links to official documentation, and more!
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Visual Studio**](#visual-studio)  »  [Back to Top](#table-of-contents)
+
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Vite**](#vite)  »  [Back to Top](#table-of-contents)
