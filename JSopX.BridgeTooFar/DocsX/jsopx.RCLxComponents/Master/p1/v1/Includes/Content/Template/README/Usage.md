@@ -1,25 +1,25 @@
 ﻿
-#### Adding the JSopX™ RCL Assets Razor Class Library Projects
+#### Adding the JSopX™ RCL Components Razor Class Library Projects
 
 This is another one of those steps that I did for you, but you never know. You may need to re-create these steps in custom situations.
 
 
-### Reference the RCL Assets Razor Class Library Project
+### Reference the RCL Components Razor Class Library Project
 
-1. **Add a project reference** to `JsopX.RCLxAssets` in each client project:
+1. **Add a project reference** to `JsopX.RCLxComponents` in each client project:
     - Right-click on the client project (e.g., `JsopX.AngularCore`, `JsopX.ReactCore`, `JsopX.VueCore`, `JsopX.BlazorServerCore`).
     - Select **Add** > **Project Reference**.
-    - Check `JsopX.RCLxAssets` and click **OK**.
+    - Check `JsopX.RCLxComponents` and click **OK**.
 
 2. **Use the Common Code**:
-   - You can now use the JSopX™ RCL Assets Razor Class Library from the `JSopX.RCLxAssets` project in your other projects.
+   - You can now use the JSopX™ RCL Components Razor Class Library from the `JSopX.RCLxComponents` project in your other projects.
 
 ### Example: Blazor Project
 
 **In `JsopX.BlazorServerCore`**:
 
-1. **Reference the RCL Assets Razor Class Library Project**:
-    - Add a reference to `JsopX.RCLxAssets` in `JsopX.BlazorServerCore`.
+1. **Reference the RCL Components Razor Class Library Project**:
+    - Add a reference to `JsopX.RCLxComponents` in `JsopX.BlazorServerCore`.
 
 2. **Use Static Files in Razor Components**:
     - Create a Razor component that uses the shared static files.
@@ -40,13 +40,13 @@ This is another one of those steps that I did for you, but you never know. You m
 **In `JsopX.AngularCore`**:
 
 1. **Copy Files Using a Build Script**:
-    - Create a script to copy the shared resources from `JsopX.RCLxAssets` to the `assets` folder of the Angular project during the build process.
+    - Create a script to copy the shared resources from `JsopX.RCLxComponents` to the `assets` folder of the Angular project during the build process.
 
     ```json
     
     "scripts": {
-        "postinstall": "npm run copy-rcl-x-assets",
-        "copy-rcl-x-assets": "cp -r ../JsopX.RCLxAssets/* ./src/full-assets/"
+        "postinstall": "npm run copy-rcl-x-components",
+        "copy-rcl-x-components": "cp -r ../JsopX.RCLxComponents/* ./src/full-assets/"
     }
     ```
 
@@ -65,13 +65,13 @@ This is another one of those steps that I did for you, but you never know. You m
 **In `JsopX.VueCore`**:
 
 1. **Copy Files Using a Build Script**:
-    - Create a script to copy the shared resources from `JsopX.RCLxAssets` to the `assets` folder of the Vue project during the build process.
+    - Create a script to copy the shared resources from `JsopX.RCLxComponents` to the `assets` folder of the Vue project during the build process.
 
     ```json
     
     "scripts": {
-        "postinstall": "npm run copy-rcl-x-assets",
-        "copy-rcl-x-assets": "cp -r ../JsopX.RCLxAssets/* ./public/full-assets/"
+        "postinstall": "npm run copy-rcl-x-components",
+        "copy-rcl-x-components": "cp -r ../JsopX.RCLxComponents/* ./public/full-assets/"
     }
     ```
 
@@ -94,13 +94,13 @@ This is another one of those steps that I did for you, but you never know. You m
 **In `JsopX.ReactCore`**:
 
 1. **Copy Files Using a Build Script**:
-    - Create a script to copy the shared resources from `JsopX.RCLxAssets` to the `public` folder of the React project during the build process.
+    - Create a script to copy the shared resources from `JsopX.RCLxComponents` to the `public` folder of the React project during the build process.
 
     ```json
     // package.json
     "scripts": {
-        "postinstall": "npm run copy-rcl-x-assets",
-        "copy-rcl-x-assets": "cp -r ../JsopX.RCLxAssets/* ./public/full-assets/"
+        "postinstall": "npm run copy-rcl-x-components",
+        "copy-rcl-x-components": "cp -r ../JsopX.RCLxComponents/* ./public/full-assets/"
     }
     ```
 

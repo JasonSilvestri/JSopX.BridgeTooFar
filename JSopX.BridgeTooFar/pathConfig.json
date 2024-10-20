@@ -9,6 +9,11 @@
     "AllGlobal": "Docs/JSopX",
     "jsopx.BridgeTooFar": "Docs/jsopx.BridgeTooFar",
     "jsopx.ClassLibrary": "Docs/jsopx.ClassLibrary",
-    "jsopx.WebAPI": "Docs/jsopx.WebAPI"
+    "jsopx.WebAPI": "Docs/jsopx.WebAPI",
+    "jsopx.SharedResources": "Docs/jsopx.SharedResources",
+    "jsopx.RCLxAssets": "Docs/jsopx.RCLxAssets",
+    "jsopx.RCLxProper": "Docs/jsopx.RCLxProper",
+    "jsopx.RCLxComponents": "Docs/jsopx.RCLxComponents",
+    "jsopx.OpenProjectX": "Docs/jsopx.OpenProjectX"
   }
 }
