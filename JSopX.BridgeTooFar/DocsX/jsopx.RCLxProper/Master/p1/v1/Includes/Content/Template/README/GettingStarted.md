@@ -2,7 +2,7 @@
 > [!WARNING]
 > This section describes a typical cloning operaton. Conversely, to mimic the collective JSopX project architecture takes some extra effort to fully implement "AS-IS".
 > 
-> **Please ensure that all test all includes on this page before release.**
+> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite, please see, [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.OpenProjectX) for details.**
 
 ## JSopX.RCLxProper : Installation
 

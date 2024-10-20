@@ -124,7 +124,7 @@ This guide is an attempt at adding some clarity to reusing Markdown using includ
 > [!WARNING]
 > This section is just a test. However, it is generally more advanced content.
 > 
-> **Please ensure that all test all includes on this page before release.**
+> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite, please see, [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.OpenProjectX) for details.**
 
 
 [Back to Top](#table-of-contents)
@@ -155,7 +155,7 @@ This guide is an attempt at adding some clarity to reusing Markdown using includ
 > [!WARNING]
 > This section is just a test. However, it is generally more advanced content.
 > 
-> **Please ensure that all test all includes on this page before release.**
+> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite, please see, [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.OpenProjectX) for details.**
 
 
 ## In Conclusion
