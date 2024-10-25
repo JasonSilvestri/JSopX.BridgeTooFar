@@ -25,7 +25,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Table of Contents
 
-- [JSopX™ Open Project EXperiences : Bridge Too Far](#jsopx-open-project-experiences--bridge-too-far)
+- [JSopX™ Open Project EXperiences : RCL x Components](#jsopx-open-project-experiences--rcl-x-components)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Alerts](#alerts)

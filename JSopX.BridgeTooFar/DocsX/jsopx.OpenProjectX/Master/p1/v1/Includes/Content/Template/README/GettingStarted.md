@@ -48,7 +48,7 @@ The _Project References_ included in the **`JSopX.OpenProjectX`** Project are th
 7.  **[`JSopX.RCLxAssets`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxAssets/Master/p1/v1/)**: 
     The successor to `JSopX.SharedResources`, incorporating more modern approaches as a Razor Class Library dedicated to managing static assets like CSS, JavaScript, and other resources. It efficiently bundles and serves these assets across projects.
       
-8.  **[`JSopX.RCLxProper`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxProper/Master/p1/v1/)**: 
+8.  **[`JSopX.RCLxProper`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxComponents/Master/p1/v1/)**: 
     Another Razor Class Library focused on reusable UI components. These components can be utilized in various Blazor and ASP.NET Core applications to maintain consistency in the UI.
       
 9.  **[`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/)**: 

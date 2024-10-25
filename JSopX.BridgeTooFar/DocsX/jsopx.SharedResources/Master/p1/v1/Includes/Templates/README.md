@@ -25,7 +25,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Table of Contents
 
-- [JSopX™ Open Project EXperiences : Bridge Too Far](#jsopx-open-project-experiences--bridge-too-far)
+- [JSopX™ Open Project EXperiences : Shared Resources](#jsopx-open-project-experiences--shared-resources)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Alerts](#alerts)
