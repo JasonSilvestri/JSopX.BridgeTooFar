@@ -6,7 +6,7 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
   - [`JSopX.RCLxComponents`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxComponents/Master/p1/v1/README.md)
   - [`JSopX.AspNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.AspNetCore/Master/p1/v1/README.md)
   - [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.BlazorServerCore/Master/p1/v1/README.md)
-  - [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.MauiHybridNetCore/Master/p1/v1/README.md)
+  - [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX.MauiHybridNetCore/Master/p1/v1/README.md)
 
 
 

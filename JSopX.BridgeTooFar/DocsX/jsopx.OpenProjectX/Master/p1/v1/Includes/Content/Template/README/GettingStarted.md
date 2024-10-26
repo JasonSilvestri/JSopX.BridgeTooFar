@@ -66,7 +66,7 @@ The _Project References_ included in the **`JSopX.OpenProjectX`** Project are th
 13. **[`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BlazorServerCore/Master/p1/v1/)**: 
     A project for creating server-side Blazor applications. This project could be focused on building interactive web UIs with Blazor's server-side rendering capabilities.
       
-14. **[`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.NetCoreMauiHybrid/Master/p1/v1/)**:  
+14. **[`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX.MauiHybridNetCore/Master/p1/v1/)**:  
     A project for building cross-platform applications using .NET MAUI with a hybrid approach, possibly combining native and web-based technologies for a flexible, cross-platform experience.
 
 

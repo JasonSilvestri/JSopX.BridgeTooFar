@@ -2,7 +2,7 @@
 
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'Technologies'
-subGroup: '.Net Core MAUI Hybrid'
+subGroup: '.Net Core Maui Hybrid'
 isDraft: true
 isProductionReady: true
 toc: true
@@ -10,7 +10,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
-### .Net Core MAUI Hybrid : Overview
+### .Net Core Maui Hybrid : Overview
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Overview.md)}}
 
@@ -21,21 +21,21 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
 
 
-## .Net Core MAUI Hybrid: `JSopX.` Dependencies
+## .Net Core Maui Hybrid: `JSopX.` Dependencies
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/JsopxDependencies.md)}}
 
 
-## .Net Core MAUI Hybrid: Checking Versions
+## .Net Core Maui Hybrid: Checking Versions
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/CheckingVersions.md)}}
 
 
-## .Net Core MAUI Hybrid: Installation
+## .Net Core Maui Hybrid: Installation
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Installation.md)}}
 
-## .Net Core MAUI Hybrid: Documentation
+## .Net Core Maui Hybrid: Documentation
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Documentation.md)}}
 
