@@ -31,12 +31,9 @@ This section is dedicated to helping you ensure you have the correct `Angular CL
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Angular CLI` **`18.0.3`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](#jsopxopenprojectx)
-  - [`JSopX.RCLxProper`](#jsopxrclxproper)
-  - [`JSopX.AngularCore`](#jsopxangularcore)
-    - [`JSopX.AngularCore.Server`](#jsopxangularcore) 
-    - [`JSopX.angularcore.client`](#jsopxangularcore)
-
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
+- [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/)  
+- [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/) 
 
 
 [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Angular CLI**](#angular-cli)   »   [Back to Top](#table-of-contents)

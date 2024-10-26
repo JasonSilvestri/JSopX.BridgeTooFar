@@ -31,11 +31,12 @@ This section is dedicated to helping you ensure you have the correct `React` set
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `React` **`18.2.0`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](#jsopxopenprojectx)
-  - [`JSopX.RCLxProper`](#jsopxrclxproper)
-  - [`JSopX.ReactCore`](#jsopxreactcore)
-    - [`JSopX.ReactCore.Server`](#jsopxreactcore)
-    - [`JSopX.reactcore.client`](#jsopxreactcore)
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
+- [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/)  
+- [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/) 
+- [`JSopX.ReactCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/)  
+- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/)  
+
 
 
 

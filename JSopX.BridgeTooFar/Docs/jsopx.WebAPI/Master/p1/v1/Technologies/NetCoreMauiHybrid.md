@@ -30,10 +30,10 @@ This section is dedicated to helping you ensure you have the correct `.NET Core 
 
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core MAUI Hybrid` **`8.0.3`** (_or higher_) are as follows:
 
-- [`JSopX.OpenProjectX`](#jsopxopenprojectx)
-  - [`JSopX.AspNetCore`](#jsopxaspnetcore)
-  - [`JSopX.BlazorServerCore`](#jsopxblazorservercore)
-  - [`JSopX.MauiHybridNetCore`](#jsopxmauihybridnetcore)
+
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
+- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX.MauiHybridNetCore/Master/p1/v1/)  
+
 
 
 

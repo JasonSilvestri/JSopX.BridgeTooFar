@@ -136,7 +136,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
 Visit the offical **`JSopX™ GitHub Repositories`** _site_ and/or _documentation_ if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`JSopX™ GitHub Repositories`** or **`JSopX™ GitHub Repositories Code`** v **`17.10.3`**
+2. You would rather manually install **`JSopX™ GitHub Repositories`**
 3. You prefer some documentation first
    
 #### Step-by-Step Instructions:
@@ -152,7 +152,7 @@ Visit [JSopX™ GitHub Repositories v 1.0 Documentation](https://github.com/Jaso
 
 
 ## JSopX™ GitHub Repositories : In Conclusion
-It would not be under selling it by saying that installing `JSopX™ GitHub Repositories` v **`17.10.3`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
+It would not be under selling it by saying that installing `JSopX™ GitHub Repositories` is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 
 [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [Back to Top](#table-of-contents)

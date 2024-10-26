@@ -31,11 +31,8 @@ This section is dedicated to helping you ensure you have the correct `Vue` setup
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Vue` **`3.4.21`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](#jsopxopenprojectx)
-  - [`JSopX.RCLxProper`](#jsopxrclxproper)
-  - [`JSopX.VueCore`](#jsopxvuecore)
-    - [`JSopX.VueCore.Server`](#jsopxvuecore)
-    - [`JSopX.vuecore.client`](#jsopxvuecore)
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
+- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/)  
 
 
 

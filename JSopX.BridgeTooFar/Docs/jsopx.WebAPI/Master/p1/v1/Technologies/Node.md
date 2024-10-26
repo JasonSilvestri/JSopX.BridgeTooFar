@@ -31,17 +31,15 @@ This section is dedicated to helping you ensure you have the correct `Node` setu
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Node` **`20.14.0`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](#jsopxopenprojectx)
-  - [`JSopX.RCLxProper`](#jsopxrclxproper)
-  - [`JSopX.AngularCore`](#jsopxangularcore)
-    - [`JSopX.AngularCore.Server`](#jsopxangularcore) 
-    - [`JSopX.angularcore.client`](#jsopxangularcore)
-  - [`JSopX.ReactCore`](#jsopxreactcore)
-    - [`JSopX.ReactCore.Server`](#jsopxreactcore)
-    - [`JSopX.reactcore.client`](#jsopxreactcore)
-  - [`JSopX.VueCore`](#jsopxvuecore)
-    - [`JSopX.VueCore.Server`](#jsopxvuecore)
-    - [`JSopX.vuecore.client`](#jsopxvuecore)
+
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
+- [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/)  
+- [`JSopX.WebAPI`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.WebAPI/Master/p1/v1/)
+- [`JSopX.RCLxProper`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxProper/Master/p1/v1/)
+- [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/) 
+- [`JSopX.ReactCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/)  
+- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/)  
+
 
 
 

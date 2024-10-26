@@ -34,26 +34,22 @@ This section is dedicated to helping you ensure you have the correct `.NET Frame
 
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Framework SDK` **`8.0.3`** (_or higher_) are as follows:
 
-- [`JSopX.OpenProjectX`](#jsopxopenprojectx)
-  - [`JSopX.BridgeTooFar`](#jsopxbridgetoofar)
-  - [`JSopX.ClassLibrary`](#jsopxclasslibrary)
-  - [`JSopX.WebAPI`](#jsopxwebapi)
-  - [`JSopX.SharedResources`](#jsopxsharedresources)
-  - [`JSopX.RCLxProper`](#jsopxrclxproper)
-  - [`JSopX.RCLxAssets`](#jsopxrclxassets)
-  - [`JSopX.RCLxComponents`](#jsopxrclxcomponents)
-  - [`JSopX.AngularCore`](#jsopxangularcore)
-    - [`JSopX.AngularCore.Server`](#jsopxangularcore) 
-    - [`JSopX.angularcore.client`](#jsopxangularcore)
-  - [`JSopX.ReactCore`](#jsopxreactcore)
-    - [`JSopX.ReactCore.Server`](#jsopxreactcore)
-    - [`JSopX.reactcore.client`](#jsopxreactcore)
-  - [`JSopX.VueCore`](#jsopxvuecore)
-    - [`JSopX.VueCore.Server`](#jsopxvuecore)
-    - [`JSopX.vuecore.client`](#jsopxvuecore)
-  - [`JSopX.AspNetCore`](#jsopxaspnetcore)
-  - [`JSopX.BlazorServerCore`](#jsopxblazorservercore)
-  - [`JSopX.MauiHybridNetCore`](#jsopxmauihybridnetcore)
+
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
+- [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/)    
+- [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/)  
+- [`JSopX.WebAPI`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.WebAPI/Master/p1/v1/)
+- [`JSopX.SharedResources`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.SharedResources/Master/p1/v1/)
+- [`JSopX.RCLxProper`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxProper/Master/p1/v1/)
+- [`JSopX.RCLxAssets`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxAssets/Master/p1/v1/) 
+- [`JSopX.RCLxProper`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxComponents/Master/p1/v1/) 
+- [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/) 
+- [`JSopX.ReactCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/)  
+- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/)  
+- [`JSopX.AspNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AspNetCore/Master/p1/v1/)   
+- [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BlazorServerCore/Master/p1/v1/) 
+- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX.MauiHybridNetCore/Master/p1/v1/)  
+
 
 
 
