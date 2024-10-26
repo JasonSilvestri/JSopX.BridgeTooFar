@@ -97,7 +97,7 @@ Don't forget that the **`JSopX.OpenProjectX`** Project requires several technolo
 ## In Conclusion
 
 ﻿
-This Technology Requirement List may grow, including better breakdowns of business requirements, documentation, etc.
+As you can see, there is quite a big technology payload for this solution. Be sure to check, install, and implement the correct technology requirements in order to run all JSopX™ Open Project EXperiences as expected.
 
 
 ---
