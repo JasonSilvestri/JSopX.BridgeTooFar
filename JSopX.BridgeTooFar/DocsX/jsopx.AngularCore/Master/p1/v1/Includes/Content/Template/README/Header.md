@@ -1,5 +1,5 @@
 ﻿
-# JSopX™ Angular Core Razor Class Library
+# JSopX™ Angular Core
 
 **From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects**
 

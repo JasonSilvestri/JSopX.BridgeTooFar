@@ -1,5 +1,5 @@
 ﻿
-# JSopX™ React Core Razor Class Library
+# JSopX™ React Core
 
 **From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects**
 

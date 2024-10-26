@@ -42,7 +42,7 @@ What makes the **`JSopX.AngularCore`** Project—and the entire JSopX™ Open Pr
 The _Project References_ included in the **`JSopX.AngularCore`** Project are as follows:
 
 1. **[`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/)**: 
-    - A new project being developed, containing base static reusable assets often derived by the primary Angular Core Razor Class Library, Class Libraries and Razor Class Libraries.
+    - A new project being developed, containing base static reusable assets often derived by the primary Angular Core, Class Libraries and Razor Class Libraries.
    
 
 2. **[`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/)**

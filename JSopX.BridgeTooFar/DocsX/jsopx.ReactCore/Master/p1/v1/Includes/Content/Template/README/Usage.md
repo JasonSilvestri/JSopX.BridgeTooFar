@@ -4,7 +4,7 @@
 This is another one of those steps that I did for you, but you never know. You may need to re-create these steps in custom situations.
 
 
-### Reference the React Core Razor Class Library Project
+### Reference the React Core Project
 
 1. **Add a project reference** to `JsopX.ReactCore` in each client project:
     - Right-click on the client project (e.g., `JsopX.ReactCore`, `JsopX.ReactCore`, `JsopX.VueCore`, `JsopX.BlazorServerCore`).
@@ -12,13 +12,13 @@ This is another one of those steps that I did for you, but you never know. You m
     - Check `JsopX.ReactCore` and click **OK**.
 
 2. **Use the Common Code**:
-   - You can now use the JSopX™ React Core Razor Class Library from the `JSopX.ReactCore` project in your other projects.
+   - You can now use the JSopX™ React Core from the `JSopX.ReactCore` project in your other projects.
 
 ### Example: Blazor Project
 
 **In `JsopX.BlazorServerCore`**:
 
-1. **Reference the React Core Razor Class Library Project**:
+1. **Reference the React Core Project**:
     - Add a reference to `JsopX.ReactCore` in `JsopX.BlazorServerCore`.
 
 2. **Use Static Files in Razor Components**:

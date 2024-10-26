@@ -2,7 +2,7 @@
 
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'JSopX Git Hub Repositories'
-subGroup: 'JSopX React Core Razor Class Library'
+subGroup: 'JSopX React Core'
 isDraft: false
 isProductionReady: true
 toc: true

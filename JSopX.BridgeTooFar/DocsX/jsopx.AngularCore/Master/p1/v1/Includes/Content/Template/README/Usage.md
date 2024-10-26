@@ -4,7 +4,7 @@
 This is another one of those steps that I did for you, but you never know. You may need to re-create these steps in custom situations.
 
 
-### Reference the Angular Core Razor Class Library Project
+### Reference the Angular Core Project
 
 1. **Add a project reference** to `JsopX.AngularCore` in each client project:
     - Right-click on the client project (e.g., `JsopX.AngularCore`, `JsopX.ReactCore`, `JsopX.VueCore`, `JsopX.BlazorServerCore`).
@@ -12,13 +12,13 @@ This is another one of those steps that I did for you, but you never know. You m
     - Check `JsopX.AngularCore` and click **OK**.
 
 2. **Use the Common Code**:
-   - You can now use the JSopX™ Angular Core Razor Class Library from the `JSopX.AngularCore` project in your other projects.
+   - You can now use the JSopX™ Angular Core from the `JSopX.AngularCore` project in your other projects.
 
 ### Example: Blazor Project
 
 **In `JsopX.BlazorServerCore`**:
 
-1. **Reference the Angular Core Razor Class Library Project**:
+1. **Reference the Angular Core Project**:
     - Add a reference to `JsopX.AngularCore` in `JsopX.BlazorServerCore`.
 
 2. **Use Static Files in Razor Components**:
