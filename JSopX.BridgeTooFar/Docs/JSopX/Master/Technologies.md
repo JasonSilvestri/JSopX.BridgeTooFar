@@ -66,8 +66,12 @@ This section is to help in that area.
 ﻿
 ## Table of Contents
 
-
-- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md#jsopx-open-project-experiences-technology-requirements)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Corequisites](#corequisites)
+- [Postrequisites](#postrequisites)
+- [Concomitants](#concomitants)
+- [All Technology Requirements](#jsopx-open-project-experiences-technology-requirements)
   - [JSopX™ GitHub Repositories (p 1.0, v 1.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/GitHubRepositories.md)
   - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
   - [Visual Studio (v 17.11.5)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
@@ -81,7 +85,7 @@ This section is to help in that area.
   - [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/React.md)
   - [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
   - [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
-
+- [In Conclusion](#in-conclusion)
 
 
 ## JSopX™ Open Project EXperiences

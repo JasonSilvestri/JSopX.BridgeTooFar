@@ -66,7 +66,12 @@ This section is to help in that area.
 ﻿
 ## Table of Contents
 
-
+  - [Overview](#overview)
+  - [Prerequisites](#prerequisites)
+  - [Corequisites](#corequisites)
+  - [Postrequisites](#postrequisites)
+  - [Concomitants](#concomitants)
+  
 1.  **[`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)**:
     The central or parent project that oversees and coordinates the various subprojects within the JSopX™ suite. It could serve as the main entry point or orchestration layer for the entire solution.
       
@@ -109,21 +114,19 @@ This section is to help in that area.
 14. **[`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX.MauiHybridNetCore/Master/p1/v1/)**:  
     A project for building cross-platform applications using .NET MAUI with a hybrid approach, possibly combining native and web-based technologies for a flexible, cross-platform experience.
 
+- [In Conclusion](#in-conclusion)
 
 ## JSopX™ Open Project EXperiences Technology Requirements
 
 Don't forget that the **`JSopX.OpenProjectX`** Project requires several technologies installed to work as expected.
 
-[`JSopX™ Open Project EXperiences Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/Technologies.md)  »  [`JSopX™ Open Project EXperiences`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/OpenProjects.md#jsopx-open-project-experiences-technology-requirements)  »  [`Back to Top`](#table-of-contents)
+[`JSopX™ Open Project EXperiences Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [`JSopX™ Open Project EXperiences`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/OpenProjects.md)  »  [`Back to Top`](#table-of-contents)
 
 
 ## In Conclusion
 
 ﻿
 This Technology Requirement List may grow, including better breakdowns of business requirements, documentation, etc.
-
-
-[Back to Top](#table-of-contents)
 
 
 ---
