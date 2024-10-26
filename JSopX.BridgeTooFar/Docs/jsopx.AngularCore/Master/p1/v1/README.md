@@ -87,7 +87,7 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 ## Corequisites
 
 ﻿
-- Ensure the latest Angular Core constants, enums, and other settings are up-to-date
+- Ensure the latest Angular Core `JSopX.AngularCore` project stays update to date, by [pulling the latest from its repository](#getting-started).
 
 
 [Back to Top](#table-of-contents)
@@ -148,10 +148,14 @@ You can install the **`JSopX.AngularCore`** Project **independently** by cloning
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
 ## JSopX.AngularCore : Project References
-﻿
-> [!IMPORTANT]
-> This section describes the references this project uses. However, it is currently being updated.
 
+What makes the **`JSopX.AngularCore`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
+
+The _Project References_ included in the **`JSopX.AngularCore`** Project are as follows:
+
+
+1. [`JSopX.BridgeTooFar`](#jsopxbridgetoofar):
+    - A new project being developed, containing base static reusable assets often derived by the primary Shared Resources, Class Libraries and Razor Class Libraries.
 
 
 ## JSopX.AngularCore : Technology Requirements
