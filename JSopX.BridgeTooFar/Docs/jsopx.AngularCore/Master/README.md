@@ -1,4 +1,4 @@
-# JSopX™ Open Project EXperiences : Class Library
+# JSopX™ Open Project EXperiences : Angular Core
 
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
@@ -13,7 +13,7 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collect
 
 ![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
 
-The `JSopX.ClassLibrary` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Class Library Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
+The `JSopX.AngularCore` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Angular Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 This homogeneous suite of JSopX™ projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web designs for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
 
@@ -39,7 +39,6 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 - [Corequisites](#corequisites)
 - [Postrequisites](#postrequisites)
 - [Concomitants](#concomitants)
-- [JSopX™ Class Library Structure](#jsopx-class-library-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [In Conclusion](#in-conclusion)
@@ -77,7 +76,7 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 
 
 - Visual Studio 2022 (17.11.5) or higher installed.
-- Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ClassLibrary`, `JSopX.WebAPI`, etc.).
+- Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.AngularCore`, `JSopX.WebAPI`, etc.).
 - Installed .NET 8.0.7 SDK.
 - Installed Node.js 20.14.0
 - Basic understanding of `.csproj` and `.sln` file structures.
@@ -88,7 +87,7 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 ## Corequisites
 
 ﻿
-- Ensure the latest Class Library constants, enums, and other settings are up-to-date
+- Ensure the latest Angular Core `JSopX.AngularCore` project stays update to date, by [pulling the latest from its repository](#getting-started).
 
 
 [Back to Top](#table-of-contents)
@@ -109,22 +108,6 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 
 [Back to Top](#table-of-contents)
 
-## JSopX™ Class Library Structure
-
-The project is organized into the following structure:
-
-### Constants
-
-- **JsopxConstants.cs**: Contains constant values used across the application, such as JWT settings.
-
-### Enums
-
-- **JsopxEnums.cs**: Defines enums for user roles within the application.
-
-### Helpers
-
-- **JwtHelper.cs**: Provides methods for generating and validating JWT tokens.
-
 
 ## Getting Started
 
@@ -134,27 +117,27 @@ The project is organized into the following structure:
 > 
 > **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite, please see, [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.OpenProjectX) for details.**
 
-## JSopX.ClassLibrary : Installation
+## JSopX.AngularCore : Installation
 
-You can install the **`JSopX.ClassLibrary`** Project **independently** by cloning the Git Repository.
+You can install the **`JSopX.AngularCore`** Project **independently** by cloning the Git Repository.
 
 #### Step by Step Instructions:
 
-1. _Clone_ **`JSopX.ClassLibrary`** Git Repository:
+1. _Clone_ **`JSopX.AngularCore`** Git Repository:
     ```powershell
-       # Using PowerShell: Clone JSopX.ClassLibrary Git Repository
+       # Using PowerShell: Clone JSopX.AngularCore Git Repository
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.ClassLibrary
+       cd path\to\local\repo\JSopX.AngularCore
     
-       # 2. Clone JSopX.ClassLibrary Git Repository       
-       git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
+       # 2. Clone JSopX.AngularCore Git Repository       
+       git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
     ```
     
 2. _Open_ the solution in `Visual Studio`:
 
-    - **Open** **`JSopX.ClassLibrary.sln`** in Visual Studio 2022 or higher.
+    - **Open** **`JSopX.AngularCore.sln`** in Visual Studio 2022 or higher.
 
 3. _Build_ the `Project`:
 
@@ -164,24 +147,24 @@ You can install the **`JSopX.ClassLibrary`** Project **independently** by clonin
 
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
-## JSopX.ClassLibrary : Project References
+## JSopX.AngularCore : Project References
 
-What makes the **`JSopX.ClassLibrary`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
+What makes the **`JSopX.AngularCore`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
 
-The _Project References_ included in the **`JSopX.ClassLibrary`** Project are as follows:
+The _Project References_ included in the **`JSopX.AngularCore`** Project are as follows:
 
 
 1. [`JSopX.BridgeTooFar`](#jsopxbridgetoofar):
     - A new project being developed, containing base static reusable assets often derived by the primary Shared Resources, Class Libraries and Razor Class Libraries.
-   
-
-## JSopX.ClassLibrary : Technology Requirements
-
-Don't forget that the **`JSopX.ClassLibrary`** Project requires certain technologies installed to work as expected.
 
 
-[`JSopX`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  [`Visual Studio`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/Technologies/VisualStudio.md) [`Asp.NET Core`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/Technologies/AspNetCore.md) [`.NET Framework SDK`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/Technologies/NetFrameworkSdk.md) [`C#`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/Technologies/AspNetCore.md)  » 
-[`All Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/Technologies.md)  »  [`All Project Repositories`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  »  [`Back to Top`](#table-of-contents)
+## JSopX.AngularCore : Technology Requirements
+
+Don't forget that the **`JSopX.AngularCore`** Project requires certain technologies installed to work as expected.
+
+
+[`JSopX`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  [`Visual Studio`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/Technologies/VisualStudio.md) [`Asp.NET Core`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/Technologies/AspNetCore.md) [`.NET Framework SDK`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/Technologies/NetFrameworkSdk.md) [`C#`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/Technologies/AspNetCore.md)  » 
+[`All Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/Technologies.md)  »  [`All Project Repositories`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  »  [`Back to Top`](#table-of-contents)
 
 
 [Back to Top](#table-of-contents)
@@ -189,40 +172,23 @@ Don't forget that the **`JSopX.ClassLibrary`** Project requires certain technolo
 
 ## Usage
 
-#### Adding the JSopX™ Class Library to Other Projects
+#### Adding the JSopX™ Angular Core to Other Projects
 
 1. **Add Project Reference**:
 
     - In the solution that requires the common library, right-click on the project in Solution Explorer.
     - Select `Add` > `Reference`.
-    - Check the box for `JSopX.ClassLibrary` and click `OK`.
+    - Check the box for `JSopX.AngularCore` and click `OK`.
 
 2. **Use the Common Code**:
 
-    - You can now use the constants, enums, and helpers from the `JSopX.ClassLibrary` in your other projects.
+    - You can now use the constants, enums, and helpers from the `JSopX.AngularCore` in your other projects.
 
-#### Example Usage
+## In Conclusion
 
-**Using Constants**:
+The `JSopX.AngularCore` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Angular Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
-```csharp
-using JSopX.ClassLibrary.JsopxConstants;
-
-public class ExampleService
-{
-    public void PrintJwtSettings()
-    {
-        Console.WriteLine($"Issuer: {JsopxConstants.WebAppDemoSettings.JwtIssuer}");
-        Console.WriteLine($"Audience: {JsopxConstants.WebAppDemoSettings.JwtAudience}");
-        Console.WriteLine($"Key: {JsopxConstants.WebAppDemoSettings.JwtKey}");
-    }
-}
-```
-
-
-The `JSopX.ClassLibrary` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Class Library Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
-
-By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.ClassLibrary` across projects.
+By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.AngularCore` across projects.
 
 [Back to Top](#table-of-contents)
 
