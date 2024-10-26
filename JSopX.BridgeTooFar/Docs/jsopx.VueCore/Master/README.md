@@ -1,4 +1,4 @@
-# JSopX™ Open Project EXperiences : React Core
+# JSopX™ Open Project EXperiences : Vue Core
 
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
@@ -13,7 +13,7 @@ From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collect
 
 ![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
 
-The `JSopX.ReactCore` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ React Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
+The `JSopX.VueCore` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Vue Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 This homogeneous suite of JSopX™ projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web designs for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
 
@@ -76,7 +76,7 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 
 
 - Visual Studio 2022 (17.11.5) or higher installed.
-- Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ReactCore`, `JSopX.WebAPI`, etc.).
+- Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.VueCore`, `JSopX.WebAPI`, etc.).
 - Installed .NET 8.0.7 SDK.
 - Installed Node.js 20.14.0
 - Basic understanding of `.csproj` and `.sln` file structures.
@@ -87,7 +87,7 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 ## Corequisites
 
 ﻿
-- Ensure the latest React Core `JSopX.ReactCore` project stays update to date, by [pulling the latest from its repository](#getting-started).
+- Ensure the latest Vue Core `JSopX.VueCore` project stays update to date, by [pulling the latest from its repository](#getting-started).
 
 
 [Back to Top](#table-of-contents)
@@ -117,27 +117,27 @@ This homogeneous suite of JSopX™ projects, uses some of the most advanced clie
 > 
 > **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite, please see, [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.OpenProjectX) for details.**
 
-## JSopX.ReactCore : Installation
+## JSopX.VueCore : Installation
 
-You can install the **`JSopX.ReactCore`** Project **independently** by cloning the Git Repository.
+You can install the **`JSopX.VueCore`** Project **independently** by cloning the Git Repository.
 
 #### Step by Step Instructions:
 
-1. _Clone_ **`JSopX.ReactCore`** Git Repository:
+1. _Clone_ **`JSopX.VueCore`** Git Repository:
     ```powershell
-       # Using PowerShell: Clone JSopX.ReactCore Git Repository
+       # Using PowerShell: Clone JSopX.VueCore Git Repository
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.ReactCore
+       cd path\to\local\repo\JSopX.VueCore
     
-       # 2. Clone JSopX.ReactCore Git Repository       
-       git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
+       # 2. Clone JSopX.VueCore Git Repository       
+       git clone https://github.com/JasonSilvestri/JSopX.VueCore.git
     ```
     
 2. _Open_ the solution in `Visual Studio`:
 
-    - **Open** **`JSopX.ReactCore.sln`** in Visual Studio 2022 or higher.
+    - **Open** **`JSopX.VueCore.sln`** in Visual Studio 2022 or higher.
 
 3. _Build_ the `Project`:
 
@@ -147,24 +147,24 @@ You can install the **`JSopX.ReactCore`** Project **independently** by cloning t
 
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
-## JSopX.ReactCore : Project References
+## JSopX.VueCore : Project References
 
-What makes the **`JSopX.ReactCore`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
+What makes the **`JSopX.VueCore`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
 
-The _Project References_ included in the **`JSopX.ReactCore`** Project are as follows:
+The _Project References_ included in the **`JSopX.VueCore`** Project are as follows:
 
 
 1. [`JSopX.BridgeTooFar`](#jsopxbridgetoofar):
     - A new project being developed, containing base static reusable assets often derived by the primary Shared Resources, Class Libraries and Razor Class Libraries.
 
 
-## JSopX.ReactCore : Technology Requirements
+## JSopX.VueCore : Technology Requirements
 
-Don't forget that the **`JSopX.ReactCore`** Project requires certain technologies installed to work as expected.
+Don't forget that the **`JSopX.VueCore`** Project requires certain technologies installed to work as expected.
 
 
-[`JSopX`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  [`Visual Studio`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/Technologies/VisualStudio.md) [`Asp.NET Core`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/Technologies/AspNetCore.md) [`.NET Framework SDK`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/Technologies/NetFrameworkSdk.md) [`C#`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/Technologies/AspNetCore.md)  » 
-[`All Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/Technologies.md)  »  [`All Project Repositories`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  »  [`Back to Top`](#table-of-contents)
+[`JSopX`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  [`Visual Studio`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/Technologies/VisualStudio.md) [`Asp.NET Core`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/Technologies/AspNetCore.md) [`.NET Framework SDK`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/Technologies/NetFrameworkSdk.md) [`C#`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/Technologies/AspNetCore.md)  » 
+[`All Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/Technologies.md)  »  [`All Project Repositories`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  »  [`Back to Top`](#table-of-contents)
 
 
 [Back to Top](#table-of-contents)
@@ -172,23 +172,23 @@ Don't forget that the **`JSopX.ReactCore`** Project requires certain technologie
 
 ## Usage
 
-#### Adding the JSopX™ React Core to Other Projects
+#### Adding the JSopX™ Vue Core to Other Projects
 
 1. **Add Project Reference**:
 
     - In the solution that requires the common library, right-click on the project in Solution Explorer.
     - Select `Add` > `Reference`.
-    - Check the box for `JSopX.ReactCore` and click `OK`.
+    - Check the box for `JSopX.VueCore` and click `OK`.
 
 2. **Use the Common Code**:
 
-    - You can now use the constants, enums, and helpers from the `JSopX.ReactCore` in your other projects.
+    - You can now use the constants, enums, and helpers from the `JSopX.VueCore` in your other projects.
 
 ## In Conclusion
 
-The `JSopX.ReactCore` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ React Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
+The `JSopX.VueCore` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Vue Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
-By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.ReactCore` across projects.
+By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.VueCore` across projects.
 
 [Back to Top](#table-of-contents)
 
