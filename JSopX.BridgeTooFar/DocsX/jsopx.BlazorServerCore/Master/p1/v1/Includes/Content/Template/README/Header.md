@@ -14,5 +14,5 @@ toc: true
 END JSOPX NOVA DOCX HEADER -->
 
 
-**`JSopX.BlazorServerCore.sln`**: The `JSopX.BlazorServerCore` Project (_JSopX™ Blazor Server Core Open Project EXperiences Project_) is a demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. It highlights the integration of Angular for the client-side with ASP.NET Core for the server-side, providing a comprehensive example of a modern web application stack.
+**`JSopX.BlazorServerCore.sln`**: The `JSopX.BlazorServerCore` Project (_JSopX™ Blazor Server Core Open Project EXperiences Project_) is a demonstration project showcasing how to build a web application using Blazor and ASP.NET Core Web API. It highlights the integration of Blazor for the client-side and server-side ASP.NET Core application is exciting, providing a comprehensive example of a modern web application stack, that statistics show is beating several client-side and server-side frameworks in one or more areas (i.e., Angular, Node, Java, etc.).
 
