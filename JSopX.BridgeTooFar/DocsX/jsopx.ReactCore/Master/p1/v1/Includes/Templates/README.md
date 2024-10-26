@@ -1,8 +1,8 @@
-﻿{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
+﻿{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
 
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'JSopX Git Hub Repositories'
-subGroup: 'JSopX Angular Core Razor Class Library'
+subGroup: 'JSopX React Core Razor Class Library'
 isDraft: false
 isProductionReady: true
 toc: true
@@ -16,7 +16,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
 
 ![JSopX™ Open Project EXperiences Assets Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/bootstrap-themes.png)
 
@@ -25,7 +25,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Table of Contents
 
-- [JSopX™ Open Project EXperiences : Angular Core](#jsopx-open-project-experiences--angular-core)
+- [JSopX™ Open Project EXperiences : React Core](#jsopx-open-project-experiences--react-core)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Alerts](#alerts)
@@ -50,41 +50,41 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Prerequisites
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/Prerequisites.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/Prerequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/Corequisites.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/Corequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/Postrequisites.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/Postrequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/Concomitants.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/Concomitants.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Getting Started
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/GettingStarted.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/GettingStarted.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Usage
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/Usage.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/Usage.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](./DocsX/jsopx.AngularCore/Master/p1/v1/Includes/Content/Template/README/InConclusion.md)}}
+{{[jsopx-includes](./DocsX/jsopx.ReactCore/Master/p1/v1/Includes/Content/Template/README/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 
