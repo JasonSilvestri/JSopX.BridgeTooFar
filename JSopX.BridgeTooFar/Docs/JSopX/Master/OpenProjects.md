@@ -67,7 +67,7 @@ This section is to help in that area.
 ## Table of Contents
 
 
-1.  **[`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
+1.  **[`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)**:
     The central or parent project that oversees and coordinates the various subprojects within the JSopX™ suite. It could serve as the main entry point or orchestration layer for the entire solution.
       
 2.  **[`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/)**:    
@@ -114,7 +114,7 @@ This section is to help in that area.
 
 Don't forget that the **`JSopX.OpenProjectX`** Project requires several technologies installed to work as expected.
 
-[`JSopX™ Open Project EXperiences Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/Technologies.md)  »  [`JSopX™ Open Project EXperiences`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/OpenProjects.md)  »  [`Back to Top`](#table-of-contents)
+[`JSopX™ Open Project EXperiences Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/Technologies.md)  »  [`JSopX™ Open Project EXperiences`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/OpenProjects.md#jsopx-open-project-experiences-technology-requirements)  »  [`Back to Top`](#table-of-contents)
 
 
 ## In Conclusion

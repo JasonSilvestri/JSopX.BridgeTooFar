@@ -67,7 +67,7 @@ This section is to help in that area.
 ## Table of Contents
 
 
-- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)
+- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md#jsopx-open-project-experiences-technology-requirements)
   - [JSopX™ GitHub Repositories (p 1.0, v 1.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/GitHubRepositories.md)
   - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
   - [Visual Studio (v 17.11.5)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
@@ -88,7 +88,7 @@ This section is to help in that area.
 
 Don't forget that the **`JSopX.OpenProjectX`** Project requires several technologies installed to work as expected. Be sure to check each project as neccessary.
 
-[`JSopX™ Open Project EXperiences Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/Technologies.md)  »  [`JSopX™ Open Project EXperiences`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/OpenProjects.md)  »  [`Back to Top`](#table-of-contents)
+[`JSopX™ Open Project EXperiences Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [`JSopX™ Open Project EXperiences`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/OpenProjects.md)  »  [`Back to Top`](#table-of-contents)
 
 ## In Conclusion
 
