@@ -7,13 +7,20 @@
   "includeDirs": [ "Includes/Content", "Includes/Layout" ],
   "outputPathRules": {
     "AllGlobal": "Docs/JSopX",
+    "jsopx.AngularCore": "Docs/jsopx.AngularCore",
+    "jsopx.AspNetCore": "Docs/jsopx.AspNetCore",
+    "jsopx.BlazorServerCore": "Docs/jsopx.BlazorServerCore",
     "jsopx.BridgeTooFar": "Docs/jsopx.BridgeTooFar",
     "jsopx.ClassLibrary": "Docs/jsopx.ClassLibrary",
-    "jsopx.WebAPI": "Docs/jsopx.WebAPI",
-    "jsopx.SharedResources": "Docs/jsopx.SharedResources",
+    "jsopx.MauiHybridNetCore": "Docs/jsopx.MauiHybridNetCore",
+    "jsopx.OpenProjectX": "Docs/jsopx.OpenProjectX",
     "jsopx.RCLxAssets": "Docs/jsopx.RCLxAssets",
-    "jsopx.RCLxProper": "Docs/jsopx.RCLxProper",
     "jsopx.RCLxComponents": "Docs/jsopx.RCLxComponents",
-    "jsopx.OpenProjectX": "Docs/jsopx.OpenProjectX"
+    "jsopx.RCLxProper": "Docs/jsopx.RCLxProper",
+    "jsopx.ReactCore": "Docs/jsopx.ReactCore",
+    "jsopx.SharedResources": "Docs/jsopx.SharedResources",
+    "jsopx.VueCore": "Docs/jsopx.VueCore",
+    "jsopx.WebAPI": "Docs/jsopx.WebAPI"
+
   }
 }

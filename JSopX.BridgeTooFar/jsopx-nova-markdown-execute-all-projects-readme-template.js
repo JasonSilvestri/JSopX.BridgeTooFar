@@ -182,7 +182,7 @@ function processMarkdownFile(filePath) {
 }
 
 // Example usage: Processing all markdown files for the listed projects
-const projects = ['AllGlobal', 'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.WebAPI', 'jsopx.SharedResources', 'jsopx.RCLxAssets', 'jsopx.RCLxProper', 'jsopx.RCLxComponents'];
+const projects = ['AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore', 'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore', 'jsopx.OpenProjectX', 'jsopx.RCLxAssets', 'jsopx.RCLxComponents', 'jsopx.RCLxProper', 'jsopx.ReactCore', 'jsopx.SharedResources','jsopx.VueCore', 'jsopx.WebAPI'];
 
 projects.forEach(project => {
     const projectPath = path.join(config.DocsXRoot, project);
