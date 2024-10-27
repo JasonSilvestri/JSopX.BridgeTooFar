@@ -18,6 +18,31 @@ function ensureDirectoryExists(dirPath) {
 
 // Function to create or update ReadMe.md in the Master directory based on the latest phase/version
 function createMasterReadMe(projectPath) {
+
+    function createMasterReadMe(projectName) {
+        const projectConfig = config.outputPathRules[projectName];
+
+        if (!projectConfig) {
+            console.error(`Error: Project configuration for '${projectName}' not found in pathConfig.json.`);
+            return;
+        }
+
+        const latestPhaseDir = getLatestPhaseDir(projectConfig);
+        const latestVersionDir = getLatestVersionDir(latestPhaseDir);
+
+        // Check for undefined paths
+        console.log('DocsRoot:', config.DocsRoot);
+        console.log('projectName:', projectName);
+        console.log('latestPhaseDir:', latestPhaseDir);
+        console.log('latestVersionDir:', latestVersionDir);
+
+        const finalPath = path.join(config.DocsRoot, projectName, 'Master', 'ReadMe.md');
+        console.log('finalPath:', finalPath); // Check if this is defined
+        if (!finalPath) {
+            console.error('Error: finalPath is undefined');
+            return;
+        }
+
     const phases = fs.readdirSync(projectPath).filter(phase => phase.startsWith('p'));
     const latestPhase = phases.sort().pop(); // Get latest phase
     const latestPhasePath = path.join(projectPath, latestPhase);
