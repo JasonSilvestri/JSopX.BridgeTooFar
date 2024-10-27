@@ -1,13 +1,15 @@
 ﻿
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Header.md)}}
 
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
-group: 'BasicMarkdownPage'
-isDraft: false
+group: 'Technologies'
+subGroup: 'Asp.Net Core'
+isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-
+{{- end:comment -}}
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 

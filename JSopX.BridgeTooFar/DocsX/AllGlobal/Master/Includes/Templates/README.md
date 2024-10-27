@@ -1,9 +1,13 @@
+
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
-group: 'README'
-isDraft: false
-isProductionReady: true
+group: 'JSopX Global'
+subGroup: 'Read Me'
+IsProductionReady: true
+IsDraft: false
 toc: true
 END JSOPX NOVA DOCX HEADER -->
+{{- end:comment -}}
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Includes-Test.md)}}
 

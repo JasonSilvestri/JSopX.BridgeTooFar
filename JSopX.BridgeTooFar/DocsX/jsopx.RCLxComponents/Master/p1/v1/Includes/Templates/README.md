@@ -1,5 +1,6 @@
 ﻿{{[jsopx-includes](./DocsX/jsopx.RCLxComponents/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
 
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'JSopX Git Hub Repositories'
 subGroup: 'JSopX RCL Components Razor Class Library'
@@ -7,9 +8,7 @@ isDraft: false
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-
-
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{- end:comment -}}{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
 ## Overview
 

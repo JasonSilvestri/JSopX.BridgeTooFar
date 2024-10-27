@@ -1,10 +1,13 @@
 ﻿
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
-group: 'Phases'
-isDraft: false
-isProductionReady: true
+group: 'JSopX Global'
+subGroup: 'Phases'
+IsProductionReady: true
+IsDraft: false
 toc: true
 END JSOPX NOVA DOCX HEADER -->
+{{- end:comment -}}
 
 # ﻿JSopX™ Open Project EXperiences : Project Development Phases
 

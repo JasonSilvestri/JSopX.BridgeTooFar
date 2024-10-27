@@ -3,6 +3,7 @@
 
 **From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects**
 
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
 
 workflowState: Is Production Ready
@@ -12,8 +13,7 @@ isDraft: false
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-
-- **`JSopX.OpenProjectX.sln`**: 
+{{- end:comment -}}- **`JSopX.OpenProjectX.sln`**: 
 The `JSopX.OpenProjectX` Project specifically, is a _first-of-its-kind_, totally _FREE_, open-source, Enterprise-Level, Multi-Platform, Multi-Stack flagship Solution, used to house the complete suite of JSopX™ Open Project EXperience Projects, and built to address a plethora of real-world business concerns.
 
 

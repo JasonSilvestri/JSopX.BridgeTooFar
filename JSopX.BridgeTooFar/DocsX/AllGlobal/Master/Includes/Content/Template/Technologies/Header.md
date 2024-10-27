@@ -3,12 +3,16 @@
 
 From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
 
+
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'JSopX™ Project Technology Requirements'
-isDraft: false
-isProductionReady: true
+subGroup: 'Read Me'
+IsProductionReady: true
+IsDraft: false
 toc: true
 END JSOPX NOVA DOCX HEADER -->
+{{- end:comment -}}
 
 
 > [!WARNING]

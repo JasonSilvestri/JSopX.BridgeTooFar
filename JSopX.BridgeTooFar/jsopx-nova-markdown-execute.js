@@ -3,7 +3,8 @@ const path = require('path');
 
 
 // Define the regex to match the comment block
-const commentBlockRegex = /<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
+const commentBlockRegex = /{{- start:comment -}}
+<!-- START JSOPX NOVA DOCX HEADER[\s\S]*?END JSOPX NOVA DOCX HEADER -->/g;
 
 
 // Read the main README.md file

@@ -1,13 +1,13 @@
 ﻿{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/Header.md)}}
 
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'Technologies'
 isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{- end:comment -}}{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
 ## Overview
 

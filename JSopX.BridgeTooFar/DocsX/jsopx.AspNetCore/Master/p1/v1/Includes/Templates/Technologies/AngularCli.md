@@ -1,12 +1,15 @@
 ﻿{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/AngularCli/Header.md)}}
 
+
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'Technologies'
 subGroup: 'Angular CLI'
-isDraft: true
-isProductionReady: true
+IsProductionReady: true
+IsDraft: false
 toc: true
 END JSOPX NOVA DOCX HEADER -->
+{{- end:comment -}}
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 

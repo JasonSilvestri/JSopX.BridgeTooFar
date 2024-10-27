@@ -1,5 +1,6 @@
 ﻿{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Header.md)}}
 
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'Technologies'
 subGroup: '.Net Core Maui Hybrid'
@@ -7,8 +8,7 @@ isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{- end:comment -}}{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
 ### .Net Core Maui Hybrid : Overview
 

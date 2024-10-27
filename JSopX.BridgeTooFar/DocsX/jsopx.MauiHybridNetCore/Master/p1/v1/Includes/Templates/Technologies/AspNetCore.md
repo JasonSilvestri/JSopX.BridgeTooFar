@@ -1,5 +1,6 @@
 ﻿{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/AspNetCore/Header.md)}}
 
+{{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
 group: 'Technologies'
 subGroup: 'Asp.Net Core'
@@ -7,6 +8,7 @@ isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
+{{- end:comment -}}
 
 {{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
