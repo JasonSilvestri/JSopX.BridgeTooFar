@@ -2,71 +2,33 @@ const fs = require('fs');
 const path = require('path');
 
 // Load configuration from pathConfig.json
-const config = JSON.parse(fs.readFileSync('pathConfig.json', 'utf8'));
+const configPath = path.join(__dirname, 'pathConfig.json');
+let config;
+
+try {
+    config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+} catch (error) {
+    console.error("Error loading pathConfig.json:", error);
+    process.exit(1);
+}
 
 // Helper function to check if a file is in an 'Includes' directory
 function isIncludeFile(filePath) {
     return config.includeDirs.some(dir => filePath.includes(dir));
 }
 
-// Helper function to check if a directory exists and avoid recreating it
-function ensureDirectoryExists(dirPath) {
-    if (!fs.existsSync(dirPath)) {
-        fs.mkdirSync(dirPath, { recursive: true });
-    }
-}
-
-// Function to create or update ReadMe.md in the Master directory based on the latest phase/version
-function createMasterReadMe(projectPath) {
-
-    function createMasterReadMe(projectName) {
-        const projectConfig = config.outputPathRules[projectName];
-
-        if (!projectConfig) {
-            console.error(`Error: Project configuration for '${projectName}' not found in pathConfig.json.`);
-            return;
-        }
-
-        const latestPhaseDir = getLatestPhaseDir(projectConfig);
-        const latestVersionDir = getLatestVersionDir(latestPhaseDir);
-
-        // Check for undefined paths
-        console.log('DocsRoot:', config.DocsRoot);
-        console.log('projectName:', projectName);
-        console.log('latestPhaseDir:', latestPhaseDir);
-        console.log('latestVersionDir:', latestVersionDir);
-
-        const finalPath = path.join(config.DocsRoot, projectName, 'Master', 'ReadMe.md');
-        console.log('finalPath:', finalPath); // Check if this is defined
-        if (!finalPath) {
-            console.error('Error: finalPath is undefined');
-            return;
-        }
-
-    const phases = fs.readdirSync(projectPath).filter(phase => phase.startsWith('p'));
-    const latestPhase = phases.sort().pop(); // Get latest phase
-    const latestPhasePath = path.join(projectPath, latestPhase);
-    const versions = fs.readdirSync(latestPhasePath).filter(version => version.startsWith('v'));
-    const latestVersion = versions.sort().pop(); // Get latest version
-    const latestReadMePath = path.join(latestPhasePath, latestVersion, 'README.md');
-
-    const masterReadMePath = path.join(projectPath, 'Master', 'README.md');
-    if (fs.existsSync(latestReadMePath)) {
-        fs.copyFileSync(latestReadMePath, masterReadMePath);
-        console.log(`Copied latest README to Master: ${masterReadMePath}`);
-    }
-}
-
 // Function to generate the final output path for a markdown file
 function getFinalPath(filePath) {
     let outputPath = filePath
-        .replace(config.DocsXRoot, config.DocsRoot)
-        .replace(config.templatesDir, '');
+        .replace(config.DocsXRoot, config.DocsRoot) // Replace DocsX with Docs
+        .replace(config.templatesDir, ''); // Remove Templates path
 
+    // Special handling for AllGlobal files
     if (filePath.includes(config.allGlobalDir)) {
         outputPath = outputPath.replace(config.allGlobalDir, config.globalDocsDir);
     }
 
+    // Apply output path rules for specific projects
     for (const [projectKey, outputDir] of Object.entries(config.outputPathRules)) {
         if (filePath.includes(projectKey)) {
             outputPath = outputPath.replace(config.DocsRoot, outputDir);
@@ -88,17 +50,22 @@ function findMarkdownFiles(dir) {
         if (stat.isDirectory()) {
             markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath));
         } else if (file.endsWith('.md') && !isIncludeFile(filePath)) {
-            markdownFiles.push(filePath);
+            markdownFiles.push(filePath); // Only add markdown files not in 'Includes' directories
         }
     });
 
     return markdownFiles;
 }
 
-// Helper function to extract properties from comment blocks with open/close tags
+// Helper function to extract properties from comment blocks
 function extractCommentProperties(content) {
-    const properties = {};
-    const commentBlockRegex = /\{\{\- start:comments \-\}\}[\s\S]*?\{\{\- end:comments \-\}\}/g;
+    const properties = {
+        isProductionReady: 'true', // Default to true if not found
+        toc: 'true',               // Default to true if not found
+        isDraft: 'false'           // Default to false if not found
+    };
+
+    const commentBlockRegex = /{{- start:comment -}}[\s\S]*?{{- end:comment -}}/g;
     const match = content.match(commentBlockRegex);
 
     if (match) {
@@ -108,23 +75,19 @@ function extractCommentProperties(content) {
         while ((propMatch = propertyRegex.exec(block)) !== null) {
             properties[propMatch[1]] = propMatch[2];
         }
-    } else {
-        properties.isProductionReady = 'true';
-        properties.toc = 'true';
-        properties.isDraft = 'false';
     }
 
     return properties;
 }
 
-// Function to process includes in a markdown file with newlines
+// Function to process includes in a markdown file
 function processIncludes(content, currentDir) {
     return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
         const absolutePath = path.resolve(currentDir, includePath);
         try {
             let includeContent = fs.readFileSync(absolutePath, 'utf8');
             includeContent = processIncludes(includeContent, path.dirname(absolutePath));
-            return includeContent + '\n';
+            return includeContent;
         } catch (err) {
             console.error(`Error including file: ${absolutePath}`);
             return '<!-- Error including file -->';
@@ -174,7 +137,7 @@ function insertTOC(content, toc) {
 
 // Function to handle draft notices
 function handleDraftNotice(content, isDraft) {
-    const draftRegex = /\{\{\- start:draft \-\}\}[\s\S]*?\{\{\- end:draft \-\}\}/g;
+    const draftRegex = /{{- start:draft -}}[\s\S]*?{{- end:draft -}}/g;
 
     if (isDraft === 'true') {
         return content;
@@ -195,31 +158,52 @@ function processMarkdownFile(filePath) {
 
     const properties = extractCommentProperties(content);
 
+    // Check production readiness
     if (properties.isProductionReady !== 'true') {
         console.log(`Skipping ${filePath} as it is not marked as production-ready.`);
         return;
     }
 
+    // Process includes within the file
     content = processIncludes(content, path.dirname(filePath));
+
+    // Handle draft notices
     content = handleDraftNotice(content, properties.isDraft);
+
+    // Clean hidden characters
     content = cleanHiddenCharacters(content);
 
+    // Generate and insert Table of Contents
     if (properties.toc === 'true') {
         const toc = generateTOC(content);
         content = insertTOC(content, toc);
     }
 
+    // Remove the comment block after processing
+    const commentBlockRegex = /{{- start:comment -}}[\s\S]*?{{- end:comment -}}/g;
+    content = content.replace(commentBlockRegex, '').trim();
+
+    // Generate final output path
     const finalPath = getFinalPath(filePath);
-    ensureDirectoryExists(path.dirname(finalPath));
+
+    // Ensure the directory exists
+    const finalDir = path.dirname(finalPath);
+    if (!fs.existsSync(finalDir)) {
+        fs.mkdirSync(finalDir, { recursive: true });
+    }
+
+    // Save the processed markdown to the final path
     fs.writeFileSync(finalPath, content);
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Process markdown files for all listed projects
+// Example usage: Processing all markdown files for the listed projects
 const projects = ['AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore', 'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore', 'jsopx.OpenProjectX', 'jsopx.RCLxAssets', 'jsopx.RCLxComponents', 'jsopx.RCLxProper', 'jsopx.ReactCore', 'jsopx.SharedResources', 'jsopx.VueCore', 'jsopx.WebAPI'];
 
 projects.forEach(project => {
     const projectPath = path.join(config.DocsXRoot, project);
-    createMasterReadMe(projectPath);
-    findMarkdownFiles(projectPath).forEach(processMarkdownFile);
+    const markdownFiles = findMarkdownFiles(projectPath);
+    markdownFiles.forEach(filePath => {
+        processMarkdownFile(filePath);
+    });
 });
