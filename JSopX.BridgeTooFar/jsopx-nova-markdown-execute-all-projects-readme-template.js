@@ -1,12 +1,12 @@
+
+
 const fs = require('fs');
 const path = require('path');
 
 // Load configuration from pathConfig.json
-const configPath = path.join(__dirname, 'pathConfig.json');
 let config;
-
 try {
-    config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+    config = JSON.parse(fs.readFileSync(path.join(__dirname, 'pathConfig.json'), 'utf8'));
 } catch (error) {
     console.error("Error loading pathConfig.json:", error);
     process.exit(1);
@@ -17,6 +17,14 @@ function isIncludeFile(filePath) {
     return config.includeDirs.some(dir => filePath.includes(dir));
 }
 
+// Helper function to ensure a directory exists
+function ensureDirectoryExists(dirPath) {
+    if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true });
+    }
+}
+
+
 // Helper function to ensure directory exists
 function ensureDirectoryExists(dirPath) {
     if (!fs.existsSync(dirPath)) {
@@ -26,20 +34,47 @@ function ensureDirectoryExists(dirPath) {
 
 // Function to create or update ReadMe.md in the Master directory based on the latest phase/version
 function createMasterReadMe(projectPath) {
+    if (!projectPath) {
+        console.error("Error: projectPath is undefined in createMasterReadMe");
+        return;
+    }
+
+    console.log(`Creating Master README for project path: ${projectPath}`);
+
     const phases = fs.readdirSync(projectPath).filter(phase => phase.startsWith('p'));
-    const latestPhase = phases.sort().pop(); // Get latest phase
+    if (phases.length === 0) {
+        console.warn(`No phases found in ${projectPath}`);
+        return;
+    }
+
+    const latestPhase = phases.sort().pop();
     const latestPhasePath = path.join(projectPath, latestPhase);
+
+    if (!fs.existsSync(latestPhasePath)) {
+        console.warn(`Phase directory ${latestPhasePath} does not exist`);
+        return;
+    }
+
     const versions = fs.readdirSync(latestPhasePath).filter(version => version.startsWith('v'));
-    const latestVersion = versions.sort().pop(); // Get latest version
+    if (versions.length === 0) {
+        console.warn(`No versions found in ${latestPhasePath}`);
+        return;
+    }
+
+    const latestVersion = versions.sort().pop();
     const latestReadMePath = path.join(latestPhasePath, latestVersion, 'README.md');
 
-    const masterReadMePath = path.join(projectPath, 'Master', 'README.md');
-    if (fs.existsSync(latestReadMePath)) {
-        ensureDirectoryExists(path.dirname(masterReadMePath));
-        fs.copyFileSync(latestReadMePath, masterReadMePath);
-        console.log(`Copied latest README to Master: ${masterReadMePath}`);
+    if (!fs.existsSync(latestReadMePath)) {
+        console.warn(`README.md not found in ${latestReadMePath}`);
+        return;
     }
+
+    const masterReadMePath = path.join(projectPath, 'Master', 'README.md');
+    ensureDirectoryExists(path.dirname(masterReadMePath));
+    fs.copyFileSync(latestReadMePath, masterReadMePath);
+    console.log(`Copied latest README to Master: ${masterReadMePath}`);
 }
+
 
 // Function to generate the final output path for a markdown file
 function getFinalPath(filePath) {
@@ -206,11 +241,15 @@ function processMarkdownFile(filePath) {
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Process markdown files for all listed projects
+// Example usage: Process markdown files for each project and create Master README
 const projects = ['AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore', 'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore', 'jsopx.OpenProjectX', 'jsopx.RCLxAssets', 'jsopx.RCLxComponents', 'jsopx.RCLxProper', 'jsopx.ReactCore', 'jsopx.SharedResources', 'jsopx.VueCore', 'jsopx.WebAPI'];
 
 projects.forEach(project => {
     const projectPath = path.join(config.DocsXRoot, project);
     createMasterReadMe(projectPath);
-    findMarkdownFiles(projectPath).forEach(processMarkdownFile);
+
+    const markdownFiles = findMarkdownFiles(projectPath);
+    markdownFiles.forEach(filePath => {
+        processMarkdownFile(filePath);
+    });
 });
