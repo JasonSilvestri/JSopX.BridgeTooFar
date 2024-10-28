@@ -159,4 +159,4 @@ Let's work together to fix the current crisis and change the world, one app at a
 
 
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Layout/Footer.md)}}
+{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Layout/Footer.md)}}

@@ -161,4 +161,4 @@ console.log('Files visible.');
 
 You can use these scripts to toggle the visibility of the files when needed.
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Layout/Footer.md)}}
+{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Layout/Footer.md)}}

@@ -82,4 +82,4 @@ END JSOPX NOVA DOCX HEADER -->
 
 [Back to Top](#table-of-contents)
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Layout/Footer.md)}}
+{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Layout/Footer.md)}}

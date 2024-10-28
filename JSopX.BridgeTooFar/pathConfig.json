@@ -4,7 +4,7 @@
   "allGlobalDir": "AllGlobal",
   "globalDocsDir": "JSopX",
   "templatesDir": "Includes/Templates",
-  "includeDirs": [ "Includes/Content", "Includes/Layout" ],
+  "includeDirs": [ "Includes/Content"],
   "excludeDirs": [ "Includes", "Templates", "SubTemplates", "Content", "Layout" ],
   "outputPathRules": {
     "AllGlobal": "Docs/JSopX",
