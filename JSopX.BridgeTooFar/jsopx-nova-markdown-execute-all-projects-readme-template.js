@@ -48,26 +48,31 @@ function createMasterReadMe(projectPath) {
 // Function to generate the final output path for a markdown file
 function getFinalPath(filePath) {
     let outputPath = filePath
-        .replace(config.DocsXRoot, config.DocsRoot)
-        .replace(config.templatesDir, '');
+        .replace(config.DocsXRoot, config.DocsRoot) // Replace DocsX with Docs
+        .replace(config.templatesDir, ''); // Remove Templates path
 
+    // Special handling for AllGlobal files
     if (filePath.includes(config.allGlobalDir)) {
         outputPath = outputPath.replace(config.allGlobalDir, config.globalDocsDir);
     }
 
+    // Apply output path rules for specific projects
     for (const [projectKey, outputDir] of Object.entries(config.outputPathRules)) {
         if (filePath.includes(projectKey)) {
             outputPath = outputPath.replace(config.DocsRoot, outputDir);
         }
     }
 
-    // Exclude specified directories (e.g., Includes, Content, Layout)
+    // Refine exclude logic to target directories only, not parts of file names
     config.excludeDirs.forEach(dir => {
-        outputPath = outputPath.replace(new RegExp(`\\b${dir}(\\/|\\\\)?`, 'g'), '');
+        // Ensure we're replacing "dir/" or "dir\" to avoid partial matches in filenames
+        const dirPattern = new RegExp(`[/\\\\]${dir}[/\\\\]`, 'g');
+        outputPath = outputPath.replace(dirPattern, path.sep); // Replace with correct path separator
     });
 
     return outputPath;
 }
+
 
 // Function to scan for markdown files in a directory (ignoring includes)
 function findMarkdownFiles(dir) {
