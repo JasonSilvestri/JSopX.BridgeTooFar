@@ -5,6 +5,7 @@
   "globalDocsDir": "JSopX",
   "templatesDir": "Includes/Templates",
   "includeDirs": [ "Includes/Content", "Includes/Layout" ],
+  "excludeDirs": [ "Includes", "Templates", "SubTemplates", "Content", "Layout" ],
   "outputPathRules": {
     "AllGlobal": "Docs/JSopX",
     "jsopx.AngularCore": "Docs/jsopx.AngularCore",

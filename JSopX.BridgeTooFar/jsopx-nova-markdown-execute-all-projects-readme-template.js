@@ -35,6 +35,11 @@ function getFinalPath(filePath) {
         }
     }
 
+    // Exclude specified directories (e.g., Includes, Content, Layout)
+    config.excludeDirs.forEach(dir => {
+        outputPath = outputPath.replace(new RegExp(`\\b${dir}\\b`, 'g'), '');
+    });
+
     return outputPath;
 }
 
