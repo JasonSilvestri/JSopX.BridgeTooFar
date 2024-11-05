@@ -12,8 +12,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Overview
 
-
-![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
+![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen-v-0.png)
 
 {{[jsopx-includes](./DocsX/jsopx.AspNetCore/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
 
