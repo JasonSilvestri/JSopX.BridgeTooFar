@@ -246,10 +246,13 @@ projects.forEach(project => {
 
         if (markdownFiles.length === 0) {
             console.log(`No markdown files found in project: ${project}`);
+        } else {
+            console.log(`The markdown files found in project: ${project} are able to be processed.`);
         }
 
         markdownFiles.forEach(filePath => {
             processMarkdownFile(filePath);
+            console.log(`The markdown file found in ${filePath} was processed successfully.`);
         });
     } else {
         console.log(`Master directory not found for project: ${project}`);
