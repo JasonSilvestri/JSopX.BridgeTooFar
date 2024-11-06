@@ -12,16 +12,6 @@ try {
     process.exit(1);
 }
 
-// Helper function to check if a file is in an 'Includes' directory
-function isIncludeFile(filePath) {
-    return config.includeDirs.some(dir => filePath.includes(dir));
-}
-
-// Helper function to check if a file is from the Templates directory
-function isTemplateFile(filePath) {
-    return filePath.includes(config.templatesDir);
-}
-
 // Helper function to ensure directory exists
 function ensureDirectoryExists(dirPath) {
     if (!fs.existsSync(dirPath)) {
@@ -60,17 +50,29 @@ function createMasterReadMe(projectPath) {
     }
 }
 
+// Updated function to generate the correct project paths for different project and global structures
+function getProjectTemplatesDir(project) {
+    if (project === 'AllGlobal') {
+        return path.join(config.DocsXRoot, project, 'Master', 'Templates');
+    } else {
+        const projectPath = path.join(config.DocsXRoot, project, 'Master');
+        const phases = fs.readdirSync(projectPath).filter(phase => phase.startsWith('p'));
+        if (phases.length === 0) return null;
+
+        const latestPhase = phases.sort().pop();
+        const versionsPath = path.join(projectPath, latestPhase);
+        const versions = fs.readdirSync(versionsPath).filter(version => version.startsWith('v'));
+        if (versions.length === 0) return null;
+
+        const latestVersion = versions.sort().pop();
+        return path.join(versionsPath, latestVersion, 'Templates');
+    }
+}
+
 // Function to generate the final output path for a markdown file
 function getFinalPath(filePath) {
     let outputPath = filePath.replace(config.DocsXRoot, config.DocsRoot);
 
-    // Skip non-template files for final path creation
-    if (!isTemplateFile(filePath)) {
-        console.log(`Skipping non-template file: ${filePath}`);
-        return null;
-    }
-
-    // Avoid adding redundant paths and remove unwanted directories
     if (filePath.includes(config.allGlobalDir)) {
         outputPath = outputPath.replace(config.allGlobalDir, config.globalDocsDir);
     }
@@ -88,7 +90,7 @@ function getFinalPath(filePath) {
     return outputPath;
 }
 
-// Updated function to find markdown files within nested directories like Master
+// Updated function to find markdown files within specified directories
 function findMarkdownFiles(dir) {
     let markdownFiles = [];
     const files = fs.readdirSync(dir);
@@ -98,9 +100,8 @@ function findMarkdownFiles(dir) {
         const stat = fs.statSync(filePath);
 
         if (stat.isDirectory()) {
-            // Recursively search for markdown files, including within Master directories
             markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath));
-        } else if (file.endsWith('.md') && isTemplateFile(filePath)) {
+        } else if (file.endsWith('.md')) {
             markdownFiles.push(filePath);
         }
     });
@@ -231,7 +232,7 @@ function processMarkdownFile(filePath) {
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Start processing and look within Master directories for markdown files
+// Start processing
 const projects = [
     'AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore',
     'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore',
@@ -240,9 +241,9 @@ const projects = [
 ];
 
 projects.forEach(project => {
-    const projectPath = path.join(config.DocsXRoot, project, 'Master'); // Look within Master
-    if (fs.existsSync(projectPath)) {
-        const markdownFiles = findMarkdownFiles(projectPath);
+    const templatesDir = getProjectTemplatesDir(project);
+    if (templatesDir && fs.existsSync(templatesDir)) {
+        const markdownFiles = findMarkdownFiles(templatesDir);
 
         if (markdownFiles.length === 0) {
             console.log(`No markdown files found in project: ${project}`);
@@ -252,6 +253,6 @@ projects.forEach(project => {
             processMarkdownFile(filePath);
         });
     } else {
-        console.log(`Master directory not found for project: ${project}`);
+        console.log(`Templates directory not found for project: ${project}`);
     }
 });
