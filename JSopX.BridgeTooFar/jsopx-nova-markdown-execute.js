@@ -8,7 +8,7 @@ const commentBlockRegex = /{{- start:comment -}}
 
 
 // Read the main README.md file
-let mainMarkdown = fs.readFileSync('./DocsX/AllGlobal/Master/Includes/Templates/README.md', 'utf8');
+let mainMarkdown = fs.readFileSync('./DocsX/AllGlobal/Master/Templates/README.md', 'utf8');
 
 // Remove the comment block if it exists before includes
 //mainMarkdown = mainMarkdown.replace(commentBlockRegex, '');
@@ -28,7 +28,7 @@ mainMarkdown = mainMarkdown.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (mat
 mainMarkdown = mainMarkdown.replace(commentBlockRegex, '');
 
 // Save the processed markdown (no HTML conversion involved)
-fs.writeFileSync('./DocsX/AllGlobal/Master/Includes/Templates/README-processed.md', mainMarkdown);
+fs.writeFileSync('./DocsX/AllGlobal/Master/Templates/README-processed.md', mainMarkdown);
 
 console.log('Markdown processing complete. Output saved locally to AllGlobal in DocsX as README-processed.md for testing purposes');
 
@@ -40,7 +40,7 @@ console.log('Markdown processing complete. Output saved to JSopX in Docs as offi
 
 //// Version before comments header check
 //// Read the main README.md file
-//let mainMarkdown = fs.readFileSync('./DocsX/AllGlobal/Master/Includes/Templates/README.md', 'utf8');
+//let mainMarkdown = fs.readFileSync('./DocsX/AllGlobal/Master/Templates/README.md', 'utf8');
 
 //// Manually replace {{[jsopx-includes](path)}} with the file content
 //mainMarkdown = mainMarkdown.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
@@ -54,6 +54,6 @@ console.log('Markdown processing complete. Output saved to JSopX in Docs as offi
 //});
 
 //// Save the processed markdown (no HTML conversion involved)
-//fs.writeFileSync('./DocsX/AllGlobal/Master/Includes/Templates/README-processed.md', mainMarkdown);
+//fs.writeFileSync('./DocsX/AllGlobal/Master/Templates/README-processed.md', mainMarkdown);
 
 //console.log('Markdown processing complete. Output saved to README-processed.md');
