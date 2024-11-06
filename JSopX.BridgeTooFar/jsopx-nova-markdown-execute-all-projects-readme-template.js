@@ -12,6 +12,16 @@ try {
     process.exit(1);
 }
 
+// Helper function to check if a file is in an 'Includes' directory
+function isIncludeFile(filePath) {
+    return config.includeDirs.some(dir => filePath.includes(dir));
+}
+
+// Helper function to check if a file is from the Templates directory
+function isTemplateFile(filePath) {
+    return filePath.includes(config.templatesDir);
+}
+
 // Helper function to ensure directory exists
 function ensureDirectoryExists(dirPath) {
     if (!fs.existsSync(dirPath)) {
@@ -24,8 +34,8 @@ function readFileSafe(filePath) {
     try {
         return fs.readFileSync(filePath, 'utf8');
     } catch (error) {
-        console.error(`Error reading file: ${filePath}`, error);
-        return null;
+        console.warn(`Warning: tried to embed an include that did not exist: ${filePath}. Skipping.`);
+        return '';  // Skip missing includes or provide a fallback message
     }
 }
 
@@ -50,29 +60,17 @@ function createMasterReadMe(projectPath) {
     }
 }
 
-// Updated function to generate the correct project paths for different project and global structures
-function getProjectTemplatesDir(project) {
-    if (project === 'AllGlobal') {
-        return path.join(config.DocsXRoot, project, 'Master', 'Templates');
-    } else {
-        const projectPath = path.join(config.DocsXRoot, project, 'Master');
-        const phases = fs.readdirSync(projectPath).filter(phase => phase.startsWith('p'));
-        if (phases.length === 0) return null;
-
-        const latestPhase = phases.sort().pop();
-        const versionsPath = path.join(projectPath, latestPhase);
-        const versions = fs.readdirSync(versionsPath).filter(version => version.startsWith('v'));
-        if (versions.length === 0) return null;
-
-        const latestVersion = versions.sort().pop();
-        return path.join(versionsPath, latestVersion, 'Templates');
-    }
-}
-
 // Function to generate the final output path for a markdown file
 function getFinalPath(filePath) {
     let outputPath = filePath.replace(config.DocsXRoot, config.DocsRoot);
 
+    // Skip non-template files for final path creation
+    if (!isTemplateFile(filePath)) {
+        console.log(`Skipping non-template file: ${filePath}`);
+        return null;
+    }
+
+    // Avoid adding redundant paths and remove unwanted directories
     if (filePath.includes(config.allGlobalDir)) {
         outputPath = outputPath.replace(config.allGlobalDir, config.globalDocsDir);
     }
@@ -90,7 +88,7 @@ function getFinalPath(filePath) {
     return outputPath;
 }
 
-// Updated function to find markdown files within specified directories
+// Function to find markdown files within nested directories like Master
 function findMarkdownFiles(dir) {
     let markdownFiles = [];
     const files = fs.readdirSync(dir);
@@ -100,8 +98,9 @@ function findMarkdownFiles(dir) {
         const stat = fs.statSync(filePath);
 
         if (stat.isDirectory()) {
+            // Recursively search for markdown files, including within Master directories
             markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath));
-        } else if (file.endsWith('.md')) {
+        } else if (file.endsWith('.md') && isTemplateFile(filePath)) {
             markdownFiles.push(filePath);
         }
     });
@@ -135,18 +134,12 @@ function extractCommentProperties(content) {
 // Function to process includes in a markdown file
 function processIncludes(content, currentDir) {
     return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
-        // Remove any leading './' or './DocsX/' to standardize path resolution
-        includePath = includePath.replace(/^(\.\/)?DocsX\//, '');
-
-        // Construct an absolute path to the include file within DocsX
-        const absolutePath = path.resolve(config.DocsXRoot, includePath);
-
+        const absolutePath = path.resolve(currentDir, includePath);
         const includeContent = readFileSafe(absolutePath);
         if (includeContent) {
-            // Recursively process includes within the included content
             return processIncludes(includeContent, path.dirname(absolutePath));
         }
-        return '<!-- Error including file -->';
+        return '';  // Skip if the file is missing
     });
 }
 
@@ -238,7 +231,7 @@ function processMarkdownFile(filePath) {
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Start processing
+// Start processing and look within Master directories for markdown files
 const projects = [
     'AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore',
     'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore',
@@ -247,9 +240,9 @@ const projects = [
 ];
 
 projects.forEach(project => {
-    const templatesDir = getProjectTemplatesDir(project);
-    if (templatesDir && fs.existsSync(templatesDir)) {
-        const markdownFiles = findMarkdownFiles(templatesDir);
+    const projectPath = path.join(config.DocsXRoot, project, 'Master'); // Look within Master
+    if (fs.existsSync(projectPath)) {
+        const markdownFiles = findMarkdownFiles(projectPath);
 
         if (markdownFiles.length === 0) {
             console.log(`No markdown files found in project: ${project}`);
@@ -259,6 +252,6 @@ projects.forEach(project => {
             processMarkdownFile(filePath);
         });
     } else {
-        console.log(`Templates directory not found for project: ${project}`);
+        console.log(`Master directory not found for project: ${project}`);
     }
 });
