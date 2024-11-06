@@ -1,6 +1,3 @@
-
-
-
 const fs = require('fs');
 const path = require('path');
 
@@ -41,7 +38,6 @@ function readFileSafe(filePath) {
         return null;
     }
 }
-
 
 // Function to create or update ReadMe.md in the Master directory based on the latest phase/version
 function createMasterReadMe(projectPath) {
@@ -91,7 +87,8 @@ function getFinalPath(filePath) {
 
     return outputPath;
 }
-// Function to find markdown files within Templates only
+
+// Updated function to find markdown files within nested directories like Master
 function findMarkdownFiles(dir) {
     let markdownFiles = [];
     const files = fs.readdirSync(dir);
@@ -101,6 +98,7 @@ function findMarkdownFiles(dir) {
         const stat = fs.statSync(filePath);
 
         if (stat.isDirectory()) {
+            // Recursively search for markdown files, including within Master directories
             markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath));
         } else if (file.endsWith('.md') && isTemplateFile(filePath)) {
             markdownFiles.push(filePath);
@@ -144,7 +142,6 @@ function processIncludes(content, currentDir) {
         return '<!-- Error including file -->';
     });
 }
-
 
 // Function to generate Table of Contents
 function generateTOC(content) {
@@ -234,7 +231,7 @@ function processMarkdownFile(filePath) {
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Start processing
+// Start processing and look within Master directories for markdown files
 const projects = [
     'AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore',
     'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore',
@@ -243,14 +240,18 @@ const projects = [
 ];
 
 projects.forEach(project => {
-    const projectPath = path.join(config.DocsXRoot, project);
-    const markdownFiles = findMarkdownFiles(projectPath);
+    const projectPath = path.join(config.DocsXRoot, project, 'Master'); // Look within Master
+    if (fs.existsSync(projectPath)) {
+        const markdownFiles = findMarkdownFiles(projectPath);
 
-    if (markdownFiles.length === 0) {
-        console.log(`No markdown files found in project: ${project}`);
+        if (markdownFiles.length === 0) {
+            console.log(`No markdown files found in project: ${project}`);
+        }
+
+        markdownFiles.forEach(filePath => {
+            processMarkdownFile(filePath);
+        });
+    } else {
+        console.log(`Master directory not found for project: ${project}`);
     }
-
-    markdownFiles.forEach(filePath => {
-        processMarkdownFile(filePath);
-    });
 });
