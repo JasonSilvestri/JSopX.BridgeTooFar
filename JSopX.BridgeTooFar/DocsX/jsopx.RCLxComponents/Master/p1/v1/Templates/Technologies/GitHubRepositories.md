@@ -28,7 +28,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## JSopX™ GitHub Repositories Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/GitHubRepositories/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/GitHubRepositories/JsopxGitHubRepositoriesDocumentation.md)}}
 
 ## In Conclusion
 
