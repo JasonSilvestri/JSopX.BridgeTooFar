@@ -17,6 +17,11 @@ function isIncludeFile(filePath) {
     return config.includeDirs.some(dir => filePath.includes(dir));
 }
 
+// Helper function to check if a file is from the Templates directory
+function isTemplateFile(filePath) {
+    return filePath.includes(config.templatesDir);
+}
+
 // Helper function to check if a directory exists and avoid recreating it
 function ensureDirectoryExists(dirPath) {
     if (!fs.existsSync(dirPath)) {
@@ -47,21 +52,28 @@ function createMasterReadMe(projectPath) {
 
 // Function to generate the final output path for a markdown file
 function getFinalPath(filePath) {
-    let outputPath = filePath
-        .replace(config.DocsXRoot, config.DocsRoot)
-        .replace(config.templatesDir, '');
+    // Start with the base Docs output path and adjust based on input path
+    let outputPath = filePath.replace(config.DocsXRoot, config.DocsRoot);
 
+    // Only keep Templates as output documents, exclude all others like Includes
+    if (!isTemplateFile(filePath)) {
+        console.log(`Skipping non-template file from output structure: ${filePath}`);
+        return null; // Skip non-template files
+    }
+
+    // Apply specific global replacement for AllGlobal directory
     if (filePath.includes(config.allGlobalDir)) {
         outputPath = outputPath.replace(config.allGlobalDir, config.globalDocsDir);
     }
 
+    // Apply project-specific path replacements as per outputPathRules
     for (const [projectKey, outputDir] of Object.entries(config.outputPathRules)) {
         if (filePath.includes(projectKey)) {
             outputPath = outputPath.replace(config.DocsRoot, outputDir);
         }
     }
 
-    // Exclude specified directories (e.g., Includes, Content, Layout)
+    // Exclude specified directories like Includes, Content, Layout from final output
     config.excludeDirs.forEach(dir => {
         outputPath = outputPath.replace(new RegExp(`\\b${dir}(\\/|\\\\)?`, 'g'), '');
     });
@@ -80,8 +92,9 @@ function findMarkdownFiles(dir) {
 
         if (stat.isDirectory()) {
             markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath));
-        } else if (file.endsWith('.md') && !isIncludeFile(filePath)) {
-            markdownFiles.push(filePath); // Only add markdown files not in 'Includes' directories
+        } else if (file.endsWith('.md') && isTemplateFile(filePath)) {
+            // Only include markdown files from Templates, not Includes or other directories
+            markdownFiles.push(filePath);
         }
     });
 
@@ -216,12 +229,13 @@ function processMarkdownFile(filePath) {
 
     // Generate final output path
     const finalPath = getFinalPath(filePath);
+    if (!finalPath) {
+        return; // Skip non-template files
+    }
 
     // Ensure the directory exists
     const finalDir = path.dirname(finalPath);
-    if (!fs.existsSync(finalDir)) {
-        fs.mkdirSync(finalDir, { recursive: true });
-    }
+    ensureDirectoryExists(finalDir);
 
     // Save the processed markdown to the final path
     fs.writeFileSync(finalPath, content);
