@@ -1,3 +1,6 @@
+
+
+
 const fs = require('fs');
 const path = require('path');
 
@@ -22,12 +25,23 @@ function isTemplateFile(filePath) {
     return filePath.includes(config.templatesDir);
 }
 
-// Helper function to check if a directory exists and avoid recreating it
+// Helper function to ensure directory exists
 function ensureDirectoryExists(dirPath) {
     if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath, { recursive: true });
     }
 }
+
+// Enhanced error-handling wrapper for safe file reading
+function readFileSafe(filePath) {
+    try {
+        return fs.readFileSync(filePath, 'utf8');
+    } catch (error) {
+        console.error(`Error reading file: ${filePath}`, error);
+        return null;
+    }
+}
+
 
 // Function to create or update ReadMe.md in the Master directory based on the latest phase/version
 function createMasterReadMe(projectPath) {
@@ -52,36 +66,32 @@ function createMasterReadMe(projectPath) {
 
 // Function to generate the final output path for a markdown file
 function getFinalPath(filePath) {
-    // Start with the base Docs output path and adjust based on input path
     let outputPath = filePath.replace(config.DocsXRoot, config.DocsRoot);
 
-    // Only keep Templates as output documents, exclude all others like Includes
+    // Skip non-template files for final path creation
     if (!isTemplateFile(filePath)) {
-        console.log(`Skipping non-template file from output structure: ${filePath}`);
-        return null; // Skip non-template files
+        console.log(`Skipping non-template file: ${filePath}`);
+        return null;
     }
 
-    // Apply specific global replacement for AllGlobal directory
+    // Avoid adding redundant paths and remove unwanted directories
     if (filePath.includes(config.allGlobalDir)) {
         outputPath = outputPath.replace(config.allGlobalDir, config.globalDocsDir);
     }
 
-    // Apply project-specific path replacements as per outputPathRules
     for (const [projectKey, outputDir] of Object.entries(config.outputPathRules)) {
         if (filePath.includes(projectKey)) {
             outputPath = outputPath.replace(config.DocsRoot, outputDir);
         }
     }
 
-    // Exclude specified directories like Includes, Content, Layout from final output
     config.excludeDirs.forEach(dir => {
         outputPath = outputPath.replace(new RegExp(`\\b${dir}(\\/|\\\\)?`, 'g'), '');
     });
 
     return outputPath;
 }
-
-// Function to scan for markdown files in a directory (ignoring includes)
+// Function to find markdown files within Templates only
 function findMarkdownFiles(dir) {
     let markdownFiles = [];
     const files = fs.readdirSync(dir);
@@ -93,7 +103,6 @@ function findMarkdownFiles(dir) {
         if (stat.isDirectory()) {
             markdownFiles = markdownFiles.concat(findMarkdownFiles(filePath));
         } else if (file.endsWith('.md') && isTemplateFile(filePath)) {
-            // Only include markdown files from Templates, not Includes or other directories
             markdownFiles.push(filePath);
         }
     });
@@ -128,16 +137,14 @@ function extractCommentProperties(content) {
 function processIncludes(content, currentDir) {
     return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
         const absolutePath = path.resolve(currentDir, includePath);
-        try {
-            let includeContent = fs.readFileSync(absolutePath, 'utf8');
-            includeContent = processIncludes(includeContent, path.dirname(absolutePath));
-            return includeContent;
-        } catch (err) {
-            console.error(`Error including file: ${absolutePath}`);
-            return '<!-- Error including file -->';
+        const includeContent = readFileSafe(absolutePath);
+        if (includeContent) {
+            return processIncludes(includeContent, path.dirname(absolutePath));
         }
+        return '<!-- Error including file -->';
     });
 }
+
 
 // Function to generate Table of Contents
 function generateTOC(content) {
@@ -195,54 +202,39 @@ function cleanHiddenCharacters(content) {
     return content.replace(/^\uFEFF/, '').replace(/\s+$/, '');
 }
 
-// Function to process a markdown file
+// Function to process markdown file
 function processMarkdownFile(filePath) {
-    let content = fs.readFileSync(filePath, 'utf8');
+    let content = readFileSafe(filePath);
+    if (!content) return;
+
     console.log(`Processing file: ${filePath}`);
 
     const properties = extractCommentProperties(content);
-
-    // Check production readiness
     if (properties.isProductionReady !== 'true') {
-        console.log(`Skipping ${filePath} as it is not marked as production-ready.`);
+        console.log(`Skipping ${filePath} as it is not production-ready.`);
         return;
     }
 
-    // Process includes within the file
     content = processIncludes(content, path.dirname(filePath));
-
-    // Handle draft notices
     content = handleDraftNotice(content, properties.isDraft);
-
-    // Clean hidden characters
     content = cleanHiddenCharacters(content);
 
-    // Generate and insert Table of Contents
     if (properties.toc === 'true') {
         const toc = generateTOC(content);
         content = insertTOC(content, toc);
     }
 
-    // Remove the comment block after processing
-    const commentBlockRegex = /{{- start:comment -}}[\s\S]*?{{- end:comment -}}/g;
-    content = content.replace(commentBlockRegex, '').trim();
+    content = content.replace(/{{- start:comment -}}[\s\S]*?{{- end:comment -}}/g, '').trim();
 
-    // Generate final output path
     const finalPath = getFinalPath(filePath);
-    if (!finalPath) {
-        return; // Skip non-template files
-    }
+    if (!finalPath) return;
 
-    // Ensure the directory exists
-    const finalDir = path.dirname(finalPath);
-    ensureDirectoryExists(finalDir);
-
-    // Save the processed markdown to the final path
+    ensureDirectoryExists(path.dirname(finalPath));
     fs.writeFileSync(finalPath, content);
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Example usage: Process markdown files for each project and filter out unwanted directories
+// Start processing
 const projects = [
     'AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore',
     'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore',
@@ -253,6 +245,11 @@ const projects = [
 projects.forEach(project => {
     const projectPath = path.join(config.DocsXRoot, project);
     const markdownFiles = findMarkdownFiles(projectPath);
+
+    if (markdownFiles.length === 0) {
+        console.log(`No markdown files found in project: ${project}`);
+    }
+
     markdownFiles.forEach(filePath => {
         processMarkdownFile(filePath);
     });
