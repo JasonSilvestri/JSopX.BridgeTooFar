@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -8,41 +8,41 @@ isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-{{- end:comment -}}{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{- end:comment -}}{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
 ### .Net Core Blazor : Overview
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Overview.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/BodyContent.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
 
 
 ## .Net Core Blazor: `JSopX.` Dependencies
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/JsopxDependencies.md)}}
 
 
 ## .Net Core Blazor: Checking Versions
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/CheckingVersions.md)}}
 
 
 ## .Net Core Blazor: Installation
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Installation.md)}}
 
 ## .Net Core Blazor: Documentation
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreBlazor/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Layout/Footer.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Layout/Footer.md)}}

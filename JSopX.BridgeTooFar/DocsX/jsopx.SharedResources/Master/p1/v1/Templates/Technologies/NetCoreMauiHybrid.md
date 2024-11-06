@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -8,41 +8,41 @@ isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-{{- end:comment -}}{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{- end:comment -}}{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
 ### .Net Core Maui Hybrid : Overview
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Overview.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/BodyContent.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
 
 
 ## .Net Core Maui Hybrid: `JSopX.` Dependencies
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/JsopxDependencies.md)}}
 
 
 ## .Net Core Maui Hybrid: Checking Versions
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/CheckingVersions.md)}}
 
 
 ## .Net Core Maui Hybrid: Installation
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Installation.md)}}
 
 ## .Net Core Maui Hybrid: Documentation
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetCoreMauiHybrid/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Layout/Footer.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Layout/Footer.md)}}

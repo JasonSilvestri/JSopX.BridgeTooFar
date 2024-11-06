@@ -135,9 +135,15 @@ function extractCommentProperties(content) {
 // Function to process includes in a markdown file
 function processIncludes(content, currentDir) {
     return content.replace(/\{\{\[jsopx-includes\]\((.*?)\)\}\}/g, (match, includePath) => {
-        const absolutePath = path.resolve(currentDir, includePath);
+        // Remove any leading './' or './DocsX/' to standardize path resolution
+        includePath = includePath.replace(/^(\.\/)?DocsX\//, '');
+
+        // Construct an absolute path to the include file within DocsX
+        const absolutePath = path.resolve(config.DocsXRoot, includePath);
+
         const includeContent = readFileSafe(absolutePath);
         if (includeContent) {
+            // Recursively process includes within the included content
             return processIncludes(includeContent, path.dirname(absolutePath));
         }
         return '<!-- Error including file -->';

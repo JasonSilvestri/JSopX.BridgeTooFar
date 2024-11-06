@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
+﻿{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -7,13 +7,13 @@ isDraft: false
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-{{- end:comment -}}{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{- end:comment -}}{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
 
 ## Overview
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Overview.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
 
 ## Table of Contents
 
@@ -30,56 +30,56 @@ END JSOPX NOVA DOCX HEADER -->
 7. [Usage](#usage)
 8. [In Conclusion](#in-conclusion)
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Alerts.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts.md)}}
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Prerequisites
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Prerequisites.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Prerequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Corequisites.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Corequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Postrequisites.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Postrequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Concomitants.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Concomitants.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Getting Started
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/GettingStarted.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/GettingStarted.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Step-by-Step Instructions
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/StepByStepInstructions.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/StepByStepInstructions.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Usage
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Usage.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/Usage.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](./DocsX/jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/InConclusion.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Content/Template/README/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 
-{{[jsopx-includes](./DocsX/AllGlobal/Master/Includes/Content/Layout/Footer.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Content/Layout/Footer.md)}}
