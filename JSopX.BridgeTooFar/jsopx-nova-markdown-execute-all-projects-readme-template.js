@@ -34,8 +34,8 @@ function readFileSafe(filePath) {
     try {
         return fs.readFileSync(filePath, 'utf8');
     } catch (error) {
-        console.warn(`Warning: tried to embed an include that did not exist: ${filePath}. Skipping.`);
-        return '';  // Skip missing includes or provide a fallback message
+        console.error(`Error reading file: ${filePath}`, error);
+        return null;
     }
 }
 
@@ -88,7 +88,7 @@ function getFinalPath(filePath) {
     return outputPath;
 }
 
-// Function to find markdown files within nested directories like Master
+// Updated function to find markdown files within nested directories like Master
 function findMarkdownFiles(dir) {
     let markdownFiles = [];
     const files = fs.readdirSync(dir);
@@ -139,7 +139,7 @@ function processIncludes(content, currentDir) {
         if (includeContent) {
             return processIncludes(includeContent, path.dirname(absolutePath));
         }
-        return '';  // Skip if the file is missing
+        return '<!-- Error including file -->';
     });
 }
 
@@ -231,7 +231,7 @@ function processMarkdownFile(filePath) {
     console.log(`Saved processed file to: ${finalPath}`);
 }
 
-// Start processing and look within Master directories for markdown files
+// Start processing
 const projects = [
     'AllGlobal', 'jsopx.AngularCore', 'jsopx.AspNetCore', 'jsopx.BlazorServerCore',
     'jsopx.BridgeTooFar', 'jsopx.ClassLibrary', 'jsopx.MauiHybridNetCore',
@@ -246,15 +246,18 @@ projects.forEach(project => {
 
         if (markdownFiles.length === 0) {
             console.log(`No markdown files found in project: ${project}`);
-        } else {
-            console.log(`The markdown files found in project: ${project} are able to be processed.`);
         }
 
         markdownFiles.forEach(filePath => {
             processMarkdownFile(filePath);
-            console.log(`The markdown file found in ${filePath} was processed successfully.`);
         });
     } else {
         console.log(`Master directory not found for project: ${project}`);
+    }
+
+    // Create Master README for projects with phases and versions
+    const phaseVersionPath = path.join(config.DocsXRoot, project);
+    if (fs.existsSync(phaseVersionPath)) {
+        createMasterReadMe(phaseVersionPath);
     }
 });
