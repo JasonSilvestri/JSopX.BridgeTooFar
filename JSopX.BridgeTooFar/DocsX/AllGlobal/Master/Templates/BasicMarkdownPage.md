@@ -1,5 +1,5 @@
 ﻿
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Header.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -11,13 +11,13 @@ toc: true
 END JSOPX NOVA DOCX HEADER -->
 {{- end:comment -}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
 
 ## Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/Overview.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
 ## Table of Contents
 
@@ -34,55 +34,55 @@ END JSOPX NOVA DOCX HEADER -->
 7. [Usage](#usage)
 8. [In Conclusion](#in-conclusion)
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Prerequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Prerequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/Prerequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Corequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/Corequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Postrequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/Postrequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Concomitants.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/Concomitants.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Getting Started
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/GettingStarted.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/GettingStarted.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Step-by-Step Instructions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/StepByStepInstructions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/StepByStepInstructions.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Usage
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/Usage.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/Usage.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/BasicMarkdownPage/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/BasicMarkdownPage/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 
@@ -161,4 +161,4 @@ console.log('Files visible.');
 
 You can use these scripts to toggle the visibility of the files when needed.
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Layout/Footer.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Layout/Footer.md)}}

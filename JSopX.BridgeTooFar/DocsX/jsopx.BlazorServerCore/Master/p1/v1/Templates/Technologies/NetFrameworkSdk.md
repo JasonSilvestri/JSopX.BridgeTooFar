@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -8,41 +8,41 @@ isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-{{- end:comment -}}{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Draft-Notice.md)}}
+{{- end:comment -}}{{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
 
 ### .Net Framework SDK : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/Overview.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/BodyContent.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts-Current.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## .Net Framework SDK: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/JsopxDependencies.md)}}
 
 
 ## .Net Framework SDK: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/CheckingVersions.md)}}
 
 
 ## .Net Framework SDK: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/Installation.md)}}
 
 ## .Net Framework SDK: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Template/Technologies/NetFrameworkSdk/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetFrameworkSdk/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Layout/Footer.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Layout/Footer.md)}}

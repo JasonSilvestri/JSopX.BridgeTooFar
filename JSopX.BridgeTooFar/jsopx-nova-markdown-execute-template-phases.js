@@ -168,5 +168,5 @@ function processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir) {
 // Example usage
 const parentTemplatePath = 'DocsX/AllGlobal/Master/Includes/Templates/Phases.md';
 const subTemplatesDir = 'DocsX/AllGlobal/Master/Includes/Templates/SubTemplates/Phases';
-const childIncludesDir = 'DocsX/AllGlobal/Master/Includes/Content/Template/Phases';
+const childIncludesDir = 'DocsX/AllGlobal/Master/Includes/Template/Phases';
 processPhases(parentTemplatePath, subTemplatesDir, childIncludesDir);

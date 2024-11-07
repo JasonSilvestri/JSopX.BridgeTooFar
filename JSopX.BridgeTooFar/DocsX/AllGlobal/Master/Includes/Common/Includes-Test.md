@@ -13,7 +13,7 @@
 
 This guide is an attempt at adding some clarity to reusing Markdown using includes. 
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Current-Phase.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
 ### Problem Addressed
 

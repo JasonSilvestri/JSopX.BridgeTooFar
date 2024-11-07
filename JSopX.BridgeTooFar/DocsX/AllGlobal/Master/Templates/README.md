@@ -9,9 +9,9 @@ toc: true
 END JSOPX NOVA DOCX HEADER -->
 {{- end:comment -}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Includes-Test.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Includes-Test.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Common/Alerts.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts.md)}}
 
 
 
@@ -85,4 +85,4 @@ Let's work together to fix the current crisis and change the world, one app at a
 [Back to Top](#table-of-contents)
 
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Content/Layout/Footer.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Layout/Footer.md)}}
