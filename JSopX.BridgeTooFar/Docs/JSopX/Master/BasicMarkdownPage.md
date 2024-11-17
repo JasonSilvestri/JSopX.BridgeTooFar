@@ -2,7 +2,7 @@
 
 
 # ﻿JSopX™ Open Project EXperiences : Basic Jason down Page Template and Template Content (Draft)
-From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects
+From the ﻿jSilvestri.com BETA v 2025 JSopX Open Project EXperiences Collection of Projects
 
 
 

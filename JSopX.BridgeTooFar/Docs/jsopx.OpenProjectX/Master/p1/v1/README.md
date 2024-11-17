@@ -1,5 +1,5 @@
 # JSopX™ Open Project EXperiences Collection Project <a name="jsopx-open-x-top" id="jsopx-open-x-top"/>
-From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects
+From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
 > [!CAUTION]
 > **This is a DRAFT:**
 > 
@@ -2196,7 +2196,7 @@ Don't forget that the **`JSopX.BridgeTooFar`** Project requires certain technolo
 
 # JSopX.ClassLibrary
 
-**`JSopX.ClassLibrary.sln`**: The `JSopX.ClassLibrary` Project (_JSopX™ Class Library Project_) is a project containing reusable .NET class libraries that provide common functionalities and utilities used across different web applications within the jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection. This project aims to promote code reuse and maintainability by centralizing shared logic in a single location.
+**`JSopX.ClassLibrary.sln`**: The `JSopX.ClassLibrary` Project (_JSopX™ Class Library Project_) is a project containing reusable .NET class libraries that provide common functionalities and utilities used across different web applications within the jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection. This project aims to promote code reuse and maintainability by centralizing shared logic in a single location.
 
 ## JSopX.ClassLibrary : Installation
 
@@ -2958,7 +2958,7 @@ Ensure that all necessary repositories are created and accessible, such as `JSop
 > 
 > One of the only times you will hear me encourage MVPs is in the initial stages of a development. I get it. You have stake holders to please, superiors to prove your worth to, etc. At some point, however, the design approach outlives its use, and begins to become toxic to keeping a sound product.
 > 
-> This version of the `JSopX.OpenProjectX` Project (e.g., jSilvestri.com BETA v 2024 the JSopX™ Open Project EXperiences Collection Project) is in `Phase 1`. It is the absolute bare minimum business requirement (_by Design_).
+> This version of the `JSopX.OpenProjectX` Project (e.g., jSilvestri.com BETA v 2025 the JSopX™ Open Project EXperiences Collection Project) is in `Phase 1`. It is the absolute bare minimum business requirement (_by Design_).
 >
 > All that should be done in **Phase 1** is:
 > - Create the initial `JSopX.OpenProjectX` Project for basic consumption. Moreover, it **should not** be considered a `Production Ready` implementation.

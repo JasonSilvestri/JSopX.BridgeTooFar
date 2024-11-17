@@ -2,7 +2,7 @@
 
 
 # ﻿JSopX™ Open Project EXperiences : Phase 2: Minimum Viable Refactor Product (MVRP) (Draft)
-From the ﻿jSilvestri.com BETA v 2024 JSopX Open Project EXperiences Collection of Projects
+From the ﻿jSilvestri.com BETA v 2025 JSopX Open Project EXperiences Collection of Projects
 
 
 
