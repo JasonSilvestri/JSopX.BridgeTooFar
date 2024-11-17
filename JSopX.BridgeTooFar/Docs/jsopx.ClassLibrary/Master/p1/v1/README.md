@@ -43,7 +43,7 @@ All access the same server-side Web API, while using the same client-side, look-
 - [Corequisites](#corequisites)
 - [Postrequisites](#postrequisites)
 - [Concomitants](#concomitants)
-- [JSopX™ Class Library Structure](#jsopx-class-library-structure)
+- [JSopX™ Class Library Project Structure](#jsopx-class-library-project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [In Conclusion](#in-conclusion)
@@ -79,28 +79,28 @@ All access the same server-side Web API, while using the same client-side, look-
 
 ## Prerequisites
 
+The one-to-one equivalent between the purpose for this project existing and the primary technology for which the project relies on.
 
-- Visual Studio 2022 (17.11.5) or higher installed.
-- Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ClassLibrary`, `JSopX.WebAPI`, etc.).
-- Installed .NET 8.0.7 SDK.
-- Installed Node.js 20.14.0
-- Basic understanding of `.csproj` and `.sln` file structures.
-
+- `.NET 8.0.7 SDK` or higher installed.
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-﻿
-- Ensure the latest Class Library constants, enums, and other settings are up-to-date
+﻿The supporting technologies required for all features to work as expected.
 
-
+- `Visual Studio 2022 (17.12.0)` or higher installed.
+- `.NET 8.0.7 SDK` or higher installed..
+- `Node.js 20.14.0` or higher installed.
+- Basic understanding of `.csproj` and `.sln` file structures.
+  
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
 ﻿
 - Clean and rebuild each project after making changes to ensure includes are properly configured.
+- Ensure the latest Class Library constants, enums, and other settings are up-to-date.
 
 
 [Back to Top](#table-of-contents)
@@ -113,9 +113,34 @@ All access the same server-side Web API, while using the same client-side, look-
 
 [Back to Top](#table-of-contents)
 
-## JSopX™ Class Library Structure
+## JSopX™ Class Library Project Structure
 
-The project is organized into the following structure:
+### Basic Project Structure:
+
+```plaintext
+
+JSopX.ClassLibrary (Visual Studio Solution Directory)
+│   .gitattributes
+│   .gitignore
+│   JSopX.ClassLibrary.sln
+│   LICENSE.txt
+│   PathConfig.targets
+│   README.md
+│
+└───JSopX.ClassLibrary  (Visual Studio Project Directory)
+    │   JSopX.ClassLibrary.csproj
+    │   JsopxConstants.cs
+    │   JsopxEnums.cs
+    │   LICENSE.txt
+    │   README.md
+    ├───JsopxHelpers
+    │       JsopxRootUrlHelper.cs
+    │       JwtHelper.cs
+
+
+```
+
+### Project Structure Breakdown:
 
 ### Constants
 
@@ -223,7 +248,7 @@ public class ExampleService
 }
 ```
 
-
+## In Conclusion
 The `JSopX.ClassLibrary` Project (i.e., _jSilvestri.com BETA v 2025 JSopX™ Class Library Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.ClassLibrary` across projects.
