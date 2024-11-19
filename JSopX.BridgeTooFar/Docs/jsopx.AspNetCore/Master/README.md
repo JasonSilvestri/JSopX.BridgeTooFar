@@ -1,4 +1,4 @@
-# JSopX™ Open Project EXperiences : Asp.NET Core
+# JSopX™ Asp.NET Core
 
 From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
 

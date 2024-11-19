@@ -1,4 +1,4 @@
-# JSopX™ Open Project EXperiences : Vue Core
+# JSopX™ Vue Core
 
 From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
 

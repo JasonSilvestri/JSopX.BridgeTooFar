@@ -1,5 +1,5 @@
 ﻿
-# JSopX™ Open Project EXperiences : Project Development Phases
+# JSopX™ Project Development Phases
 
 From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
 

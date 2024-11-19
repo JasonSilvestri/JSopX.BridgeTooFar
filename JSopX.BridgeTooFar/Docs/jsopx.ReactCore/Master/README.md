@@ -1,4 +1,4 @@
-# JSopX™ Open Project EXperiences : React Core
+# JSopX™ React Core
 
 From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
 

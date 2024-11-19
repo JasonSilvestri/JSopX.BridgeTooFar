@@ -1,5 +1,5 @@
 
-# JSopX™ Open Project EXperiences : Bridge Too Far
+# JSopX™ Bridge Too Far
 
 From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
 

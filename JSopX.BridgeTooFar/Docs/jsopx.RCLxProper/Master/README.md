@@ -1,4 +1,4 @@
-# JSopX™ Open Project EXperiences : RCL x Proper
+# JSopX™ RCL x Proper
 
 From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
 
