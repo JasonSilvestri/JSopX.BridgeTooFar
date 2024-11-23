@@ -62,7 +62,8 @@ To address these challenges, we have developed the JSopX™ Open Project EXperienc
 
 3. **Raising Awareness**: One of our primary goals is to raise awareness about the importance of balancing client-side and server-side concerns. We emphasize the need for developers to go beyond their comfort zones and adopt practices that ensure the security and integrity of their applications.
 
-4. **Practical Solutions**: Through these projects, we offer practical solutions for common issues. For instance, avoiding unnecessary overhead by not creating databases, application licenses, or local storage unless absolutely necessary. We also demonstrate how to handle redundancy effectively, which is crucial for managing resources across multiple frameworks.
+4. **Practical Solutions**: Through these projects, we offer practical solutions for common issues. For instance, avoiding unnecessary overhead by not creating databases, application licenses, or local storage until the end, untl absolutely necessary. Even though these would be common features that is best done early on, the original business requirement assumes the Developer(s) do not have access to these things right away, across the board. Allowing apps to break with no database, and/or having to modify apps before they can run?\
+We also demonstrate how to handle redundancy effectively, which is crucial for managing resources across multiple frameworks, but then another business requirement was to simulate have several existing applications, even the taking to time to creating quote on quote, "existing" app itself is redundamt. At the end of the day, adding support for such features is quite common. Remember, though, the business requirements for the suite favors the developer.
 
 ## Compromise and Collaboration
 
