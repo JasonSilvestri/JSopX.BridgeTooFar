@@ -27,13 +27,13 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Overview
 
-In a world where client-side frameworks like Angular, React, and Vue dominate, our Demo Collection Projects are your essential guide to bridging the critical gap between front-end dynamism and back-end security. By showcasing seamless integration with ASP.NET Core, these projects not only highlight best practices but also foster a collaborative environment for developers to elevate their skills and secure their applications. Together, let's redefine web development, ensuring our apps are as robust and secure as they are innovative. Join us in transforming the landscape of digital security, one project at a time.
+In a world where client-side frameworks like Angular, React, and Vue dominate, our JSopX™ Open Project EXperiences Collection is your essential guide to bridging the critical gap between front-end dynamism and back-end security. By showcasing seamless integration with ASP.NET Core, these projects not only highlight best practices but also foster a collaborative environment for developers to elevate their skills and secure their applications. Together, let's redefine web development, ensuring our apps are as robust and secure as they are innovative. Join us in transforming the landscape of digital security, one project at a time.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Core Concerns](#core-concerns)
-3. [The Solution: Demo Collection Projects](#the-solution-demo-collection-projects)
+3. [The Solution: JSopX™ Open Project EXperiences Collection](#the-solution-demo-collection-projects)
    - [Key Objectives](#key-objectives)
 4. [Compromise and Collaboration](#compromise-and-collaboration)
 5. [Conclusion](#conclusion)
@@ -50,9 +50,9 @@ Balancing client-side and server-side operations has become increasingly challen
 
 3. **Security Implications**: The rise of major public hacks, such as the Target breach, coincides with the advent of these client-side frameworks. Additionally, the adoption of No-SQL databases has introduced vulnerabilities, such as exposing whole document nodes and reducing encryption for sensitive data. This trend underscores the need for better security practices across the board.
 
-## The Solution: Demo Collection Projects
+## The Solution: JSopX™ Open Project EXperiences Collection
 
-To address these challenges, we have developed the Demo Collection Projects. These projects aim to demonstrate how to effectively integrate client-side frameworks with robust server-side operations, following industry standards and best practices.
+To address these challenges, we have developed the JSopX™ Open Project EXperiences Collection. These projects aim to demonstrate how to effectively integrate client-side frameworks with robust server-side operations, following industry standards and best practices.
 
 ### Key Objectives
 
@@ -78,7 +78,7 @@ To ensure we do the right thing, we must engage in regular peer reviews. By shar
 
 ## Conclusion
 
-The Demo Collection Projects are more than just a set of examples. They are a call to action for developers to bridge the gap between client-side and server-side operations. By following best practices, collaborating with peers, and staying aware of the ever-evolving security landscape, we can create applications that are not only functional and efficient but also secure and resilient.
+The JSopX™ Open Project EXperiences Collection is more than just a set of examples. They are a call to action for developers to bridge the gap between client-side and server-side operations. By following best practices, collaborating with peers, and staying aware of the ever-evolving security landscape, we can create applications that are not only functional and efficient but also secure and resilient.
 
 Let's work together to fix the current crisis and change the world, one app at a time.
 
