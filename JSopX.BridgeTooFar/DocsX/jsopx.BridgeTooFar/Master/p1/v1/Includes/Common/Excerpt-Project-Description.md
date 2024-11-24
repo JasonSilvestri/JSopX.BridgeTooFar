@@ -1,0 +1,1 @@
+A server-side project that resembles the client-side apps, serving as the backend infrastructure for the JSopX™ ecosystem, likely handling routing, authentication, and serving APIs or pages.

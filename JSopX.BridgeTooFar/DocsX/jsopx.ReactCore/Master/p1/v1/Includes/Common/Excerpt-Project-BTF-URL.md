@@ -1,0 +1,1 @@
+https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/README.md
