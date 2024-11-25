@@ -8,7 +8,10 @@ isDraft: true
 isProductionReady: true
 toc: true
 END JSOPX NOVA DOCX HEADER -->
-{{- end:comment -}}{{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
+{{- end:comment -}}
+
+{{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
+
 
 ### npm : Overview
 

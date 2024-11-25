@@ -1,1 +1,1 @@
-JSopX.BlazorServerCore.Server
+JSopX.ClassLibrary.Server

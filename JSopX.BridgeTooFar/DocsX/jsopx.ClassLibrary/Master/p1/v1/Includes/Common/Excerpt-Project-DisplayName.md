@@ -1,1 +1,1 @@
-JSopX™ Blazor Server Core
+JSopX™ Class Library

@@ -1,1 +1,1 @@
-https://github.com/JasonSilvestri/JSopX.BlazorServerCore
+https://github.com/JasonSilvestri/JSopX.ClassLibrary

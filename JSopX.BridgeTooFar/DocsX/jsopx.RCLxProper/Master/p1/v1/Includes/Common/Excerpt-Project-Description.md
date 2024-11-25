@@ -1,1 +1,1 @@
-A server-side project that resembles the client-side apps, serving as the backend infrastructure for the JSopX™ ecosystem, likely handling routing, authentication, and serving APIs or pages.
+A production-ready, lightweight Razor Class Library project that includes properly structured Razor components, pages, views, and more! These elements can be shared across different Blazor and Razor-based applications.

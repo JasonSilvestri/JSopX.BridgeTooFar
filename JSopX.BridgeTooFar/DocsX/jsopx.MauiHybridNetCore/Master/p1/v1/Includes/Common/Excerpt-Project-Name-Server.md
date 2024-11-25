@@ -1,1 +1,1 @@
-JSopX.BlazorServerCore.Server
+JSopX.MauiHybridNetCore.Server

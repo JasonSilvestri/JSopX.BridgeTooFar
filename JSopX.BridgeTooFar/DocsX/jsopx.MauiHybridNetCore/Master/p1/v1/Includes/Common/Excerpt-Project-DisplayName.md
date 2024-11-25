@@ -1,1 +1,1 @@
-JSopX™ Blazor Server Core
+JSopX™ Maui Hybrid .Net Core

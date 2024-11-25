@@ -1,1 +1,1 @@
-A server-side project that resembles the client-side apps, serving as the backend infrastructure for the JSopX™ ecosystem, likely handling routing, authentication, and serving APIs or pages.
+The JSopX™ Open ProjectX Solution, is a first-of-its-kind, totally FREE, open-source, Enterprise-Level, Multi-Platform, Multi-Stack flagship Solution, used to house the complete suite of JSopX™ Open Project EXperience Projects. 

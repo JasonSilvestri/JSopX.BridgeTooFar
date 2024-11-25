@@ -1,11 +1,7 @@
 
 # JSopX™ Bridge Too Far
 
-From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
-
-
-
-
+**From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects**
 
 
 > [!CAUTION]
@@ -15,12 +11,21 @@ From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collect
 
 
 ## Overview
-
 ﻿
 The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2025 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
-This suite of projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web design for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
 
+![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen-v-0.png)
+
+
+This homogeneous suite of **JSopX™** projects leverages cutting-edge client-side and server-side technologies, including **ASP.NET Core**, **Blazor**, **.NET MAUI**, **Angular**, **React**, **Node.js**, and **Vue**, among others. 
+
+![JSopX™ Open Project EXperiences Collection of Projects All Brands](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
+
+All projects share a common **Web API** backend and utilize the same centralized resources and assets, ensuring a consistent look and feel across all platforms. Designed as an enterprise-level solution, it provides a responsive web experience on mobile, tablet, laptop, and desktop browsers, while also being available as a desktop application for **Windows**, **Linux**, and **Mac**, and as a native mobile app for **iPhone**, **Android**, **Samsung Galaxy**, and **Windows Phone**.
+
+
+![JSopX™ Open Project EXperiences Assets Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/bootstrap-themes.png)
 
 
 > [!CAUTION]
@@ -42,12 +47,10 @@ This suite of projects, uses some of the most advanced client-side and server-si
   - [Postrequisites](#postrequisites)
   - [Concomitants](#concomitants)
   - [Getting Started](#getting-started)
-  - [Step-by-Step Instructions](#step-by-step-instructions)
-    - [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
-    - [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-child-basic-markdown-page-template-content-includes)
-    - [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
+    - [Installation](#jsopxbridgetoofar--installation)
+    - [Project References](#jsopxbridgetoofar--project-references)  
+    - [Technology Requirements](#jsopxbridgetoofar--technology-requirements)  
   - [Usage](#usage)
-      - [Adding the JSopX™ Bridge Too Far Docs to Other Projects](#adding-the-jsopx-bridge-too-far-docs-to-other-projects)
   - [In Conclusion](#in-conclusion)
 
 
@@ -117,53 +120,186 @@ This suite of projects, uses some of the most advanced client-side and server-si
 
 [Back to Top](#table-of-contents)
 
+
 ## Getting Started
 
 ﻿
+﻿
 > [!WARNING]
-> This section is just a test. However, it is generally more advanced content.
+> This section describes a typical cloning operaton. Conversely, to mimic the collective JSopX project architecture takes some extra effort to fully implement "AS-IS".
 > 
 > **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite, please see, [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.OpenProjectX) for details.**
 
+### JSopX.BridgeTooFar : Installation
 
-[Back to Top](#table-of-contents)
+You can install the **`JSopX.BridgeTooFar`** Project **independently** by cloning the Git Repository.
 
-## Step-by-Step Instructions
+#### Step by Step Instructions:
 
-﻿
-### Step 1: Create the Parent Basic Markdown Page Template
+1. _Clone_ **`JSopX.BridgeTooFar`** Git Repository:
+    ```powershell
+       # Using PowerShell: Clone JSopX.BridgeTooFar Git Repository
+    
+       # 1. Navigate to the desired local directory you plan to clone the repository
+       # to on your computer
+       cd path\to\local\repo\JSopX.BridgeTooFar
+    
+       # 2. Clone JSopX.BridgeTooFar Git Repository       
+       git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
+    ```
+    
+2. _Open_ the solution in `Visual Studio`:
 
-1. 1. **Create a `BasicMarkdownPage` markdown file**, save it to `Templates`, so we can use it to embed include test markdowns into it.
+    - **Open** **`JSopX.BridgeTooFar.sln`** in Visual Studio 2022 or higher.
 
-### Step 2: Create the Child Basic Markdown Page Template Content Includes
+3. _Build_ the `Project`:
 
-2. **Create a `BasicMarkdownPage` directory**, under `Includes/Content/Template`, and create as many static markdown sections needed for this sample.
+    - **Right-click** on the solution in `Solution Explorer` and select `Build Solution`.
+      
+4. _Run_ the `Project`:
 
-### Step 3: Double Check the Parent Basic Markdown Page Template for all Includes
+    - **Click** on the `Run` button in `Visual Studio` to run the project.
 
-1. After adding all `include` blocks in the template, double-check all resources and be sure they exist. 
+
+### JSopX.BridgeTooFar : Project References
+
+What makes the **`JSopX.BridgeTooFar`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
+
+The _Project References_ included in the **`JSopX.BridgeTooFar`** Project are as follows:
+
+1. [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/):
+    - A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
    
-2. If this was done correctly, you should see content added to the live Docs folder.
+## JSopX.BridgeTooFar : Technology Requirements
+
+Don't forget that the **`JSopX.BridgeTooFar`** Project requires certain technologies installed to work as expected.
+
+[`JSopX`](https://github.com/JasonSilvestri/JSopX.OpenProjectX) [`Bootstrap`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/CommonTechnologiesIncluded.md) [`HTML`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/CommonTechnologiesIncluded.md) [`CSS`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/CommonTechnologiesIncluded.md) [`JS`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/CommonTechnologiesIncluded.md) [`TypeScript`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/CommonTechnologiesIncluded.md) [`Visual Studio`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/VisualStudios.md) [`Asp.NET Core`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/AspNetCore.md) [`.NET Framework SDK`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/NetFrameworkSdk.md) [`C#`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies/AspNetCore.md)  » 
+[`All Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/Technologies.md)  »  [`All Project Repositories`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  »  [`Back to Top`](#table-of-contents)
 
 
 [Back to Top](#table-of-contents)
 
 ## Usage
 
-﻿
-#### Adding the JSopX™ Bridge Too Far Docs to Other Projects
 
-This is another one of those steps that I did for you, but you never know.
+### Reference the Shared Resources Project
 
-1. **Add Project Reference**:
+1. **Add a project reference** to `JsopX.BridgeTooFar` in each client project:
+    - Right-click on the client project (e.g., `JsopX.AngularCore`, `JsopX.ReactCore`, `JsopX.VueCore`, `JsopX.BlazorServerCore`).
+    - Select **Add** > **Project Reference**.
+    - Check `JsopX.BridgeTooFar` and click **OK**.
 
-    - In the solution that requires the common library, right-click on the project in Solution Explorer.
-    - Select `Add` > `Reference`.
-    - Check the box for `JSopX.BridgeTooFar` and click `OK`.
+### Example: Blazor Project
 
-2. **Use the Common Code**:
+**In `JsopX.BlazorServerCore`**:
 
-    - You can now use the JSopX™ Bridge Too Far Docs from the `JSopX.BridgeTooFar` project in your other projects.
+1. **Reference the Shared Resources Project**:
+    - Add a reference to `JsopX.BridgeTooFar` in `JsopX.BlazorServerCore`.
+
+2. **Use Static Files in Razor Components**:
+    - Create a Razor component that uses the shared static files.
+
+    ```razor
+    @page "/example"
+    @inject IWebHostEnvironment env
+
+    <h3>Example Page</h3>
+
+    <img src="@($"{env.WebRootPath}/images/logo.png")" alt="Logo">
+    <script src="@($"{env.WebRootPath}/JavaScript/script.js")"></script>
+    <link rel="stylesheet" href="@($"{env.WebRootPath}/CSS/style.css")">
+    ```
+
+### Example: Angular Project
+
+**In `JsopX.AngularCore`**:
+
+1. **Copy Files Using a Build Script**:
+    - Create a script to copy the shared resources from `JsopX.BridgeTooFar` to the `assets` folder of the Angular project during the build process.
+
+    ```json
+    
+    "scripts": {
+        "postinstall": "npm run copy-bridge-too-far",
+        "copy-bridge-too-far": "cp -r ../JsopX.BridgeTooFar/* ./src/assets/"
+    }
+    ```
+
+2. **Use Static Files in Angular Components**:
+    - Reference the static files in your Angular components.
+
+    ```html
+    <!-- app.component.html -->
+    <img src="assets/images/logo.png" alt="Logo">
+    <script src="assets/JavaScript/script.js"></script>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    ```
+
+### Example: Vue Project
+
+**In `JsopX.VueCore`**:
+
+1. **Copy Files Using a Build Script**:
+    - Create a script to copy the shared resources from `JsopX.BridgeTooFar` to the `assets` folder of the Vue project during the build process.
+
+    ```json
+    
+    "scripts": {
+        "postinstall": "npm run copy-bridge-too-far",
+        "copy-bridge-too-far": "cp -r ../JsopX.BridgeTooFar/* ./public/assets/"
+    }
+    ```
+
+2. **Use Static Files in Vue Components**:
+    - Reference the static files in your Vue components.
+
+    ```html
+    <!-- App.vue -->
+    <template>
+        <div>
+            <img src="assets/images/logo.png" alt="Logo">
+            <script src="assets/JavaScript/script.js"></script>
+            <link rel="stylesheet" href="assets/CSS/style.css">
+        </div>
+    </template>
+    ```
+
+### Example: React Project
+
+**In `JsopX.ReactCore`**:
+
+1. **Copy Files Using a Build Script**:
+    - Create a script to copy the shared resources from `JsopX.BridgeTooFar` to the `public` folder of the React project during the build process.
+
+    ```json
+    // package.json
+    "scripts": {
+        "postinstall": "npm run copy-bridge-too-far",
+        "copy-bridge-too-far": "cp -r ../JsopX.BridgeTooFar/* ./public/assets/"
+    }
+    ```
+
+2. **Use Static Files in React Components**:
+    - Reference the static files in your React components.
+
+    ```javascript
+    // App.js
+    import React from 'react';
+
+    function App() {
+        return (
+            <div>
+                <img src="assets/images/logo.png" alt="Logo" />
+                <script src="assets/JavaScript/script.js"></script>
+                <link rel="stylesheet" href="assets/CSS/style.css" />
+            </div>
+        );
+    }
+
+    export default App;
+    ```
+
 
 
 ## In Conclusion
@@ -245,7 +381,6 @@ The JSopX™ Open Project EXperiences Collection is more than just a set of exam
 Let's work together to fix the current crisis and change the world, one app at a time.
 
 [Back to Top](#table-of-contents)
-
 
 
 ---
