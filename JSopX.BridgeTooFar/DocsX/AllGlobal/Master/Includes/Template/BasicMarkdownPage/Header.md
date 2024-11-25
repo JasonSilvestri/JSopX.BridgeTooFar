@@ -1,7 +1,7 @@
 ﻿
 # JSopX™ Project Development Phases
 
-From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
+**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER

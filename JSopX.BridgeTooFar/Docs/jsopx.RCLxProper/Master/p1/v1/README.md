@@ -1,7 +1,6 @@
 # JSopX™ RCL x Proper
 
-From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
-
+**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
 > [!CAUTION]
 > **This is a DRAFT:**

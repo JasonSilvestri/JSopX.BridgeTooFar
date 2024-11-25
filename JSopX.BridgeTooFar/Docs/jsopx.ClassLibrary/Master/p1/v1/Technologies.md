@@ -1,8 +1,7 @@
 ﻿
 # JSopX™ Open Project EXperiences Technology Requirements
 
-From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects
-
+**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
 > [!WARNING]
 > The **`JSopX.OpenProjectX`** (_JSopX™ Open Project EXperiences Collection_) Project requires **over a dozen** technologies in order for all projects and features currently available to work as expected. Please try your best to do your do-dillagence in ensuring your technologies stacks are installed and up-to-date.
