@@ -1,1 +1,1 @@
-This project focuses on managing static assets and their distribution across the different client-side and server-side applications. It ensures a clean separation of concerns, particularly around asset management.
+This project focuses on managing static assets and their distribution across the different client-side and server-side applications. It ensures a clean separation of concerns, particularly around documentation & asset management.

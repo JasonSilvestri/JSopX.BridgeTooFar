@@ -1,1 +1,1 @@
-A server-side project that resembles the client-side apps, serving as the backend infrastructure for the JSopX™ ecosystem, likely handling routing, authentication, and serving APIs or pages.
+As you may have guessed by now, Asp.NET Core serves as the backend infrastructure for the JSopX™ ecosystem, handling routing, security, authentication, and serving APIs to pages. This particular project, however, is just a server-side project that resembles the client-side SPAs.

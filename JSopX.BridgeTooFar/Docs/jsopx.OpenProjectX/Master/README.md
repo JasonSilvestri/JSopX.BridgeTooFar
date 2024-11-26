@@ -2081,19 +2081,19 @@ The `JSopX.OpenProjectX` Project specifically, is a _first-of-its-kind_, totally
     The following _JSopX™ Open Project EXperiences Collection_ Projects are included:
       
       1. **JSopX.OpenProjectX**:  
-         Likely the central or parent project that oversees and coordinates the various subprojects within the JSopX™ suite. It could serve as the main entry point or orchestration layer for the entire solution.
+         Jason Silvestri's Open Project EXperiences (JSopX™) is a total FREE, open-source, first-of-its-kind, multi-platform, multi-stack, enterprise-level application. This flagship, homogeneous suite of JSopX™ projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue & more, serving as the main orchestration layer for the entire enterprise-level solution.
       
       2. **JSopX.BridgeTooFar**:  
-         This project focuses on managing static assets and their distribution across the different client-side and server-side applications. It ensures a clean separation of concerns, particularly around asset management.
+         This project focuses on managing static assets and their distribution across the different client-side and server-side applications. It ensures a clean separation of concerns, particularly around documentation & asset management.
       
       3. **JSopX.ClassLibrary**:  
          A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
       
       4. **JSopX.WebAPI**:  
-         A project dedicated to building RESTful APIs for the JSopX™ ecosystem. It provides endpoints for various data services and might serve as the backend for client applications.
+         A project dedicated to building RESTful APIs for the JSopX™ ecosystem. It provides endpoints for various data services and serves as the end-game Web API backend for all  the server-side & client-side applications.
       
       5. **JSopX.SharedResources**:  
-         A traditional central repository for shared resources such as images, fonts, scripts, and localized strings. This project ensures that all other projects have consistent access to these resources in the initial phases of development, supporting both client-side applications and the server-side.
+         A traditional central Class Library repository for shared resources such as images, fonts, scripts, and localized strings. This project ensures that all other projects have consistent access to these resources in the initial phases of development you'll follow here, supporting both client-side applications and the server-side.
       
       6. **JSopX.RCLxProper**:  
          A production-ready, lightweight Razor Class Library project that includes properly structured Razor components, pages, views, and more! These elements can be shared across different Blazor and Razor-based applications.
@@ -2105,22 +2105,22 @@ The `JSopX.OpenProjectX` Project specifically, is a _first-of-its-kind_, totally
          Another Razor Class Library focused on reusable UI components. These components can be utilized in various Blazor and ASP.NET Core applications to maintain consistency in the UI.
       
       9. **JSopX.AngularCore**:  
-         A client-side project built with Angular. This project likely focuses on creating dynamic, single-page applications with Angular, integrating seamlessly with the server-side and shared resources.
+         A client-side project built with Angular. This project focuses on creating dynamic, single-page applications with Angular, integrating seamlessly with Asp.NET Core server-side, Web API and shared resources.
       
       10. **JSopX.ReactCore**:  
-          A client-side project built with React. Similar to AngularCore, it is used to create dynamic, component-based single-page applications.
+          A client-side project built with React. Similar to `JSopX.AngularCore`, it is used to create dynamic, component-based single-page applications, also integrating seamlessly with Asp.NET Core server-side, Web API and shared resources.
       
       11. **JSopX.VueCore**:  
-          A client-side project built with Vue.js, used for creating reactive, component-driven single-page applications.
+          A client-side project built with Vue.js, used for creating reactive, component-driven single-page applications, and integrated seamlessly with Asp.NET Core server-side, Web API and shared resources.
       
       12. **JSopX.AspNetCore**:  
-          A server-side project that resembles the client-side apps, serving as the backend infrastructure for the JSopX™ ecosystem, likely handling routing, authentication, and serving APIs or pages.
+          As you may have guessed by now, Asp.NET Core serves as the backend infrastructure for the JSopX™ ecosystem, handling routing, security, authentication, and serving APIs to pages. This particular project, however, is just a server-side project that resembles the client-side SPAs.
       
       13. **JSopX.BlazorServerCore**:  
-          A project for creating server-side Blazor applications. This project could be focused on building interactive web UIs with Blazor's server-side rendering capabilities.
+          A project for creating server-side Blazor applications. Similar to `JSopX.AspNetCore`, but only in look and function. Blazor is a game-changer. This project is focused on building interactive web UIs with Blazor's server-side rendering capabilities.
       
       14. **JSopX.MauiHybridNetCore**:  
-          A project for building cross-platform applications using .NET MAUI with a hybrid approach, possibly combining native and web-based technologies for a flexible, cross-platform experience.
+          A cross-platform hybrid application using Asp.NET Core, Blazor & .NET MAUI. When razor components are done right, you are given the ultimate desktop, native and web-based technology cross-platform experience distributor.
 
 
 ## JSopX™ Open Project EXperience: Option 2: _Each Project Independently_
