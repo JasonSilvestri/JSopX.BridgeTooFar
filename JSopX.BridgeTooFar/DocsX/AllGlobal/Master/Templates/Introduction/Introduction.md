@@ -1,6 +1,6 @@
 # JSopX™ Introduction
 
-Should be an excerpt from [Overview](#overview) section. 
+JSopX™ acts as a blueprint for consistent, scalable, and maintainable development across multiple technologies, as outlined in the [Overview](#overview) section.
 
 ---
 
@@ -8,9 +8,9 @@ Should be an excerpt from [Overview](#overview) section.
 
 ---
 
-## **Overview**  
+## **Overview**
 
-- Please add some content. 
+JSopX™ provides a unified framework of guidelines, organizational structures, and best practices designed to streamline project setup, enhance collaboration, and improve maintainability. By adopting these conventions, developers can more easily navigate diverse technologies, ensure consistent quality standards, and quickly understand the logic and layout of each component within the broader ecosystem. As you progress through the documentation, you’ll gain insights into how to structure projects, leverage existing patterns, and adapt them for both current and future needs.
 
 ---
 
@@ -18,10 +18,11 @@ Should be an excerpt from [Overview](#overview) section.
 
 - [Overview](#overview)
 - [Alerts](./Alerts.md)
+- [JSopX™ Documentation Sections and Structure](./JSopxDocumentationSectionsandStructure.md)
 - [Jason Silvestri’s Open Project EXperiences (JSopX™)](./JasonSilvestriOpenProjectExperiences.md)
-- [JSopX™ Visual Studio Projects](./JSopxProjects.md)
-- [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md)
-- [JSopX™ Visual Studio Project Checks and Balances](./JSopxProjectChecksBalances.md) 
+- [JSopX™ Visual Studio Projects](./JsopxProjects.md)
+- [JSopX™ Visual Studio Project Families](./JsopxProjectsFamilies.md)
+- [JSopX™ Visual Studio Project Checks and Balances](./JsopxProjectChecksBalances.md)
 
 ---
 
