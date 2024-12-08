@@ -1,6 +1,6 @@
 # JSopX™ Introduction
 
-Should be an excerpt from **Overview**. 
+Should be an excerpt from [Overview](#overview) section. 
 
 ---
 
@@ -16,6 +16,7 @@ Should be an excerpt from **Overview**.
 
 ### Table of Contents
 
+- [Overview](#overview)
 - [Alerts](./Alerts.md)
 - [Jason Silvestri’s Open Project EXperiences (JSopX™)](./JasonSilvestriOpenProjectExperiences.md)
 - [JSopX™ Visual Studio Projects](./JSopxProjects.md)

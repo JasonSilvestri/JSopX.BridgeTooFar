@@ -1,6 +1,6 @@
 # JSopX™ Visual Studio Project Checks and Balances
 
-Should be an excerpt from **Overview**. 
+Should be an excerpt from [Overview](#overview) section. 
 
 ---
 

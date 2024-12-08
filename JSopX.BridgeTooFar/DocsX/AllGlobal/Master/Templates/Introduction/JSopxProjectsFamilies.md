@@ -1,6 +1,6 @@
 # JSopX™ Visual Studio Project Families  
 
-Should be an excerpt from **Overview**. 
+Should be an excerpt from [Overview](#overview) section. 
 
 ---
 
