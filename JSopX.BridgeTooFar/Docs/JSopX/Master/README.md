@@ -1,6 +1,7 @@
 
 # JSopX™ Bridge Too Far
 
+
 **From the ﻿jSilvestri.com BETA v 2025 JSopX™ Open Project EXperiences Collection of Projects**
 
 
@@ -8,6 +9,9 @@
 > **This is a DRAFT:**
 > 
 > The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+
+
+
 
 
 ## Overview
