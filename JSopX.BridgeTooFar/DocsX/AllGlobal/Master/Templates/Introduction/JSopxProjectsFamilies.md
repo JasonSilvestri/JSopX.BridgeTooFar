@@ -13,6 +13,11 @@ By examining the [Overview](#overview), you’ll see how the concept of “Proje
 - [Prerequisites](#prerequisites)
 - [Corequisites](#corequisites)
 - [Knowing JSopX™ Visual Studio Project Families](#knowing-jsopx-visual-studio-project-families)
+    - [1. Flagship Projects](./JSopxProjectsFamilies.md#1-flagship-projects)
+    - [2. Shared Assets & Resources Projects](./JSopxProjectsFamilies.md#2-shared-assets--resources-projects)
+    - [3. Shared Data, Service & Function Projects](./JSopxProjectsFamilies.md#3-shared-data-service--function-projects)
+    - [4. Server-Side “Existing” Apps Examples](./JSopxProjectsFamilies.md#4-server-side-existing-apps-examples)
+    - [5. Client-Side “Existing” Apps Examples](./JSopxProjectsFamilies.md#5-client-side-existing-apps-examples)
 - [Postrequisites](#postrequisites) 
 - [Concomitants](#concomitants)
 - [In Conclusion](#in-conclusion)
@@ -51,20 +56,38 @@ To maximize the value of this document:
 
 One unique aspect of JSopX™ is the way its projects and solutions are categorized into unofficial **Project Families**. These categories guide the design and organization of projects before their physical creation in Visual Studio, using official Visual Studio Project Templates:  
 
+---
+
 ### **1. Flagship Projects:**  
-These official “flagship” or parent solutions (*e.g.*, `JSopX.OpenProjectX`) define the enterprise-level backbone, setting standards for the rest of the suite.
+These official “flagship” or parent solutions (*e.g.*, [`JSopX.OpenProjectX`](./JSopxProjects.md#jsopxopenprojectx)) define the enterprise-level backbone, setting standards for the rest of the suite.
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ### **2. Shared Assets & Resources Projects:**  
-Projects like `JSopX.SharedResources` and `JSopX.RCLxAssets` unify cross-cutting assets—CSS, JavaScript, HTML, images, and Razor components—ensuring a consistent look and feel across the ecosystem.
+Projects like [`JSopX.SharedResources`](./JSopxProjects.md#jsopxsharedresources) and [`JSopX.RCLxAssets`](./JSopxProjects.md#jsopxrclxassets) unify cross-cutting assets—CSS, JavaScript, HTML, images, and Razor components—ensuring a consistent look and feel across the ecosystem.
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ### **3. Shared Data, Service & Function Projects:**  
-These handle server-side logic, data services, and common functionalities (*e.g.*, `JSopX.ClassLibrary`, `JSopX.WebAPI`) to promote reuse and reduce duplication.
+These handle server-side logic, data services, and common functionalities (*e.g.*, [`JSopX.ClassLibrary`](./JSopxProjects.md#jsopxclasslibrary), [`JSopX.WebAPI`](./JSopxProjects.md#jsopxwebapi)) to promote reuse and reduce duplication.
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ### **4. Server-Side “Existing” Apps Examples:**  
-Projects like `JSopX.AspNetCore` and `JSopX.BlazorServerCore` simulate existing server-side applications brought into the enterprise fold. They integrate with shared resources and APIs, demonstrating how older or isolated solutions can align with modern standards.
+Projects like [`JSopX.AspNetCore`](./JSopxProjects.md#jsopxaspnetcore) and [`JSopX.BlazorServerCore`](JSopxProjects.md#jsopxblazorservercore) simulate existing server-side applications brought into the enterprise fold. They integrate with shared resources and APIs, demonstrating how older or isolated solutions can align with modern standards.
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ### **5. Client-Side “Existing” Apps Examples:**  
-Whether `JSopX.AngularCore`, `JSopX.ReactCore`, or `JSopX.VueCore`, these SPAs show how diverse client-side stacks can coexist in one environment, all benefiting from centralized logic and consistent asset management.
+Whether [`JSopX.AngularCore`](JSopxProjects.md#jsopxangularcore), [`JSopX.ReactCore`](./JSopxProjects.md#jsopxreactcore), or [`JSopX.VueCore`](./JSopxProjects.md#jsopxvuecore), these SPAs show how diverse client-side stacks can coexist in one environment, all benefiting from centralized logic and consistent asset management.
 
 [`Back to Top`](#table-of-contents)
 
