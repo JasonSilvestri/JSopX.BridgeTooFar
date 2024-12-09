@@ -4,7 +4,7 @@ By exploring the [Overview](#overview), you’ll understand how standardized nam
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](./JsopxProjectsFamilies.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./Introduction.md)
 
 ---
 
@@ -32,8 +32,8 @@ Checks and balances within JSopX™ ensure that every project, regardless of its
 
 ## **Prerequisites**  
 Before applying JSopX™ checks and balances:
-- Familiarize yourself with the [Introduction](./Introduction.md) and [JSopX™ Visual Studio Project Families](./JsopxProjectsFamilies.md) to understand the ecosystem’s organizing principles.
-- Have a working knowledge of the JSopX™ Visual Studio Projects from the [JSopX™ Visual Studio Projects](./JsopxProjects.md) document to appreciate how each project fits into the broader suite.
+- Familiarize yourself with the [Introduction](./Introduction.md) and [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md) to understand the ecosystem’s organizing principles.
+- Have a working knowledge of the JSopX™ Visual Studio Projects from the [JSopX™ Visual Studio Projects](./JSopxProjects.md) document to appreciate how each project fits into the broader suite.
 - Understand the significance of centralized resources, APIs, and shared libraries, as defined in previous JSopX™ documents, to see how naming conventions help unify these elements.
 
 [`Back to Top`](#table-of-contents)
@@ -44,7 +44,7 @@ Before applying JSopX™ checks and balances:
 To get the most out of these checks and balances:
 - Keep the [Alerts](./Alerts.md) document accessible to interpret crucial warnings or notes that may appear as you implement naming conventions.
 - Refer back to the [Jason Silvestri’s Open Project EXperiences (JSopX™)](./JasonSilvestriOpenProjectExperiences.md) for a high-level understanding of why stability and consistency are critical to long-term success.
-- Consider how these naming standards reinforce the concepts found in [JSopX™ Project Families](./JsopxProjectsFamilies.md), ensuring that even as the family tree grows, each branch remains recognizable and manageable.
+- Consider how these naming standards reinforce the concepts found in [JSopX™ Project Families](./JSopxProjectsFamilies.md), ensuring that even as the family tree grows, each branch remains recognizable and manageable.
 
 [`Back to Top`](#table-of-contents)
 
@@ -144,7 +144,7 @@ After implementing these checks and balances:
 
 ## **Concomitants**  
 Alongside adopting checks and balances:
-- Cross-reference the [JSopX™ Project Families](./JsopxProjectsFamilies.md) to see how naming conventions fit into the bigger picture of categorizing projects.
+- Cross-reference the [JSopX™ Project Families](./JSopxProjectsFamilies.md) to see how naming conventions fit into the bigger picture of categorizing projects.
 - Review [Alerts](./Alerts.md) and other documents to ensure you’ve integrated best practices for communicating critical information to your team.
 - Consider additional governance measures, such as linting, automated testing, or CI/CD integrations, to reinforce the foundations these naming conventions provide.
 
@@ -163,7 +163,7 @@ JSopX™ Visual Studio Project Checks and Balances represent the guardrails that
 1. Return to the [Introduction](./Introduction.md) to reassess the entire documentation ecosystem with fresh eyes, noting how these checks and balances enhance overall coherence.
 2. Explore opportunities to integrate automated enforcement of these conventions (e.g., through build scripts or repository policies) to maintain their benefits as the ecosystem continues to evolve.
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JsopxProjectsFamilies.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./Introduction.md)
 
 ---
 

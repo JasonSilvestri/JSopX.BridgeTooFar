@@ -20,9 +20,9 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 - [Alerts](./Alerts.md)
 - [JSopX™ Documentation Sections and Structure](./JSopxDocumentationSectionsandStructure.md)
 - [Jason Silvestri’s Open Project EXperiences (JSopX™)](./JasonSilvestriOpenProjectExperiences.md)
-- [JSopX™ Visual Studio Projects](./JsopxProjects.md)
-- [JSopX™ Visual Studio Project Families](./JsopxProjectsFamilies.md)
-- [JSopX™ Visual Studio Project Checks and Balances](./JsopxProjectChecksBalances.md)
+- [JSopX™ Visual Studio Projects](./JSopxProjects.md)
+- [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md)
+- [JSopX™ Visual Studio Project Checks and Balances](./JSopxProjectChecksBalances.md)
 
 ---
 

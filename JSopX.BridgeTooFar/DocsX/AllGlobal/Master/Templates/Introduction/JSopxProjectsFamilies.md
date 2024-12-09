@@ -4,7 +4,7 @@ By examining the [Overview](#overview), you’ll see how the concept of “Proje
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Project Families`**  · · · [`« Previous`](./Introduction.md) [`Next »`](./JsopxProjectChecksBalances.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Project Families`**  · · · [`« Previous`](./Introduction.md) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 
@@ -30,7 +30,7 @@ The JSopX™ Project Families concept tackles the complexity of integrating mult
 ## **Prerequisites**  
 Before delving into Project Families, it’s helpful to:
 - Review the [Introduction](./Introduction.md) and the overarching goals of JSopX™ to understand why such categorization is vital.
-- Familiarize yourself with the [JSopX™ Visual Studio Projects](./JsopxProjects.md) to grasp the range of technologies and approaches these families encapsulate.
+- Familiarize yourself with the [JSopX™ Visual Studio Projects](./JSopxProjects.md) to grasp the range of technologies and approaches these families encapsulate.
 - Ensure you’re comfortable with core version control and build concepts, as organizational structure often intersects with repository layouts and CI/CD workflows.
 
 [`Back to Top`](#table-of-contents)
@@ -41,7 +41,7 @@ Before delving into Project Families, it’s helpful to:
 To maximize the value of this document:
 - Keep the [Alerts](./Alerts.md) and [Jason Silvestri’s Open Project EXperiences (JSopX™)](./JasonSilvestriOpenProjectExperiences.md) documents nearby to reference broader context and best practices.
 - Consider how these Project Families relate to the unique requirements detailed in previous documents—each family reflects strategic decisions made early on to handle complexity gracefully.
-- Look ahead to the [JSopX™ Project Checks & Balances](./JsopxProjectChecksBalances.md) to see how these families tie into quality assurance and stability.
+- Look ahead to the [JSopX™ Project Checks & Balances](./JSopxProjectChecksBalances.md) to see how these families tie into quality assurance and stability.
 
 [`Back to Top`](#table-of-contents)
 
@@ -82,7 +82,7 @@ After understanding Project Families:
 
 ## **Concomitants**  
 As you explore Project Families:
-- Look back to the [JSopX™ Visual Studio Projects](./JsopxProjects.md) to see how individual projects benefit from this organizational schema.
+- Look back to the [JSopX™ Visual Studio Projects](./JSopxProjects.md) to see how individual projects benefit from this organizational schema.
 - Engage with other JSopX™ documents to understand how each family’s approach dovetails with shared resources, alerts, and best practices, ensuring you grasp the bigger picture.
 - Experiment with mapping your own existing projects into these categories, noting improvements in clarity and maintainability.
 
@@ -98,10 +98,10 @@ JSopX™ Project Families turn what could be a tangled web of solutions into a s
 ---
 
 ## **Next Steps**  
-1. Move on to [JSopX™ Project Checks & Balances](./JsopxProjectChecksBalances.md) to understand how quality control and governance ensure that Project Families remain aligned with enterprise goals.
+1. Move on to [JSopX™ Project Checks & Balances](./JSopxProjectChecksBalances.md) to understand how quality control and governance ensure that Project Families remain aligned with enterprise goals.
 2. Revisit earlier documents to see how these families fit into the grander tapestry of JSopX™, reinforcing the connections between strategy, structure, and execution.
 
-[`Introduction`](./Introduction.md) » `JSopX™ Project Families` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Introduction.md) [`Next »`](./JsopxProjectChecksBalances.md)
+[`Introduction`](./Introduction.md) » `JSopX™ Project Families` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Introduction.md) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 

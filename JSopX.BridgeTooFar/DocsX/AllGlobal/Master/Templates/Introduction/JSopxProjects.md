@@ -4,7 +4,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Visual Studio Projects`**  · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JsopxProjectsFamilies.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Visual Studio Projects`**  · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxProjectsFamilies.md)
 
 ---
 
@@ -41,7 +41,7 @@ Before diving into the specifics of each project, it’s beneficial to:
 ## **Corequisites**  
 To get the most out of this document:
 - Keep the [Introduction](./Introduction.md), [Alerts](./Alerts.md), and [Jason Silvestri’s Open Project EXperiences (JSopX™)](./JasonSilvestriOpenProjectExperiences.md) handy. They provide context and clarify design decisions.
-- Consider reading about the [JSopX™ Visual Studio Project Families](./JsopxProjectsFamilies.md) next, as it builds upon the understanding you’ll gain here.
+- Consider reading about the [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md) next, as it builds upon the understanding you’ll gain here.
 - Refer back to these project details as you navigate subsequent topics to see how each piece fits into the overall puzzle.
 
 [`Back to Top`](#table-of-contents)
@@ -110,7 +110,7 @@ After reviewing these projects:
 
 ## **Concomitants**  
 Alongside this document:
-- Consult the [JSopX™ Visual Studio Project Families](./JsopxProjectsFamilies.md) to learn how these projects cluster into logical groupings.
+- Consult the [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md) to learn how these projects cluster into logical groupings.
 - Reference the [Alerts](./Alerts.md) or [Introduction](./Introduction.md) documents when clarity or guidance is needed.
 - Experiment with combining features from multiple projects to enhance your overall architecture.
 
@@ -126,10 +126,10 @@ The JSopX™ Visual Studio Projects form the essential building blocks of a unif
 ---
 
 ## **Next Steps**  
-1. Move on to the [JSopX™ Visual Studio Project Families](./JsopxProjectsFamilies.md) to see how these individual projects group together into logical patterns.
+1. Move on to the [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md) to see how these individual projects group together into logical patterns.
 2. Begin experimenting with the configurations, testing how these projects interoperate to solidify your understanding and drive meaningful refinements to your own workflows.
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Visual Studio Projects`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JsopxProjectsFamilies.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Visual Studio Projects`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxProjectsFamilies.md)
 
 ---
 

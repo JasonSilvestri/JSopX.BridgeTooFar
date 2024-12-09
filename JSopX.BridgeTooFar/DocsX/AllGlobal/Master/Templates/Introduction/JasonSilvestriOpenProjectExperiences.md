@@ -44,7 +44,7 @@ Before diving deeper into JSopX™, you should have:
 As you explore JSopX™, keep these additional documents and concepts in mind:
 - Refer back to the [Introduction](./Introduction.md) for overarching goals and context.
 - Review the [Alerts](./Alerts.md) documentation to understand how key messages and warnings are communicated across projects.
-- Begin considering the upcoming [JSopX™ Visual Studio Projects](./JsopxProjects.md) and related files, which detail the structural patterns that will guide your integration efforts.
+- Begin considering the upcoming [JSopX™ Visual Studio Projects](./JSopxProjects.md) and related files, which detail the structural patterns that will guide your integration efforts.
 
 [`Back to Top`](#table-of-contents)
 
@@ -91,7 +91,7 @@ After learning about JSopX™’s overarching goals and business requirements, c
 
 ## **Concomitants**  
 While exploring JSopX™, you may find it helpful to:
-- Develop in parallel with other documents like [JSopX™ Alerts](./Alerts.md) and [JSopX™ Visual Studio Projects](./JsopxProjects.md), gaining a holistic view of the ecosystem.
+- Develop in parallel with other documents like [JSopX™ Alerts](./Alerts.md) and [JSopX™ Visual Studio Projects](./JSopxProjects.md), gaining a holistic view of the ecosystem.
 - Engage with other team members to gather feedback, share insights, and ensure everyone understands the rationale behind these conventions.
 - Consider adopting related tooling or frameworks that complement JSopX™ principles, enhancing your environment’s consistency and efficiency.
 
@@ -107,7 +107,7 @@ JSopX™ is about embracing complexity and transforming it into a cohesive, ente
 ---
 
 ## **Next Steps**  
-1. Dive into the [JSopX™ Visual Studio Projects](./JsopxProjects.md) document to understand how project structures come together in practical scenarios.
+1. Dive into the [JSopX™ Visual Studio Projects](./JSopxProjects.md) document to understand how project structures come together in practical scenarios.
 2. Begin exploring specific solution files and testing the integration points that bridge client-side and server-side codebases, ensuring that the theory meets reality.
 
 [`Introduction`](./Introduction.md) » **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxProjects.md)
