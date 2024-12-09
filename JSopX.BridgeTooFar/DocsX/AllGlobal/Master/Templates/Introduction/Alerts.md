@@ -4,7 +4,7 @@ JSopX™ documentation is constructed using `markdown` and leverages GitHub-styl
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Alerts`** · · · [`« Previous`](./Introduction.md) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Alerts`** · · · [`« Previous`](./Introduction.md) [`Next »`](./JSopxDocumentationSectionsandStructure.md)
 
 ---
 
@@ -103,7 +103,7 @@ JSopX™ Alerts play a vital role in ensuring that important information doesn�
 1. Proceed to [Jason Silvestri’s Open Project Experiences (JSopX™)](./JasonSilvestriOpenProjectExperiences.md) to see these structural principles applied in a real-world, enterprise-level example.
 2. Integrate the alert types you’ve learned into your own workflow, refining your documentation as you move forward through the JSopX™ ecosystem.
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Alerts`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Introduction.md) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Alerts`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Introduction.md) [`Next »`](./JSopxDocumentationSectionsandStructure.md)
 
 ---
 
