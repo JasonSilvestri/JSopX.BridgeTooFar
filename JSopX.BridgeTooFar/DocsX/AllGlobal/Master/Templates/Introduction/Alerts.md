@@ -13,7 +13,8 @@ JSopX™ documentation is constructed using `markdown` and leverages GitHub-styl
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Corequisites](#corequisites)
-- [JSopX™ Alerts Available](#jsopx-alerts-available)
+- [General JSopX™ Alert Types Available](#general-jsopx-alert-types-available)
+- [Commonly Seen JSopX™ Alerts](#commonly-seen-jsopx-alerts)
 - [Postrequisites](#postrequisites) 
 - [Concomitants](#concomitants)
 - [In Conclusion](#in-conclusion)
@@ -22,7 +23,11 @@ JSopX™ documentation is constructed using `markdown` and leverages GitHub-styl
 ---
 
 ## **Overview**  
-JSopX™ Alerts provide a standardized, visually distinct way to convey crucial information, best practices, warnings, and helpful tips to readers. By using these alert blocks, the documentation ensures that important messages stand out, making it easier for both newcomers and experienced team members to quickly grasp the most significant details. As you encounter different alert types across the JSopX™ documentation, you’ll gain a clear understanding of when and why to use each style, ensuring a more consistent and user-friendly documentation experience.
+JSopX™ Alerts provide a standardized, visually distinct way to convey crucial information, best practices, warnings, and helpful tips to readers. 
+
+By using these alert blocks, the documentation ensures that important messages stand out, making it easier for both newcomers and experienced team members to quickly grasp the most significant details. 
+
+As you encounter different alert types across the JSopX™ documentation, you’ll gain a clear understanding of when and why to use each style, ensuring a more consistent and user-friendly documentation experience.
 
 [`Back to Top`](#table-of-contents)
 
@@ -48,8 +53,8 @@ To maximize the value of JSopX™ Alerts:
 
 ---
 
-## **JSopX™ Alerts Available**  
-**Please pay close attention to the `alerts` that appear in all documentation:**
+## **General JSopX™ Alert Types Available**  
+**Please pay close attention to the `General JSopX™ Alert Types` that appear in all documentation:**
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -69,6 +74,84 @@ To maximize the value of JSopX™ Alerts:
 These alerts help create a clear hierarchy of significance, making it simpler to find and understand critical details. They encourage best practices, warn about potential issues, and keep developers informed in a concise, visually recognizable manner.
 
 [`Back to Top`](#table-of-contents) 
+
+
+---
+
+
+## **Commonly Seen JSopX™ Alerts**  
+
+Even though _General JSopX™ Alert Types_ are common across-the-board, there are some important **`Commonly Seen JSopX™ Alerts` you should pay closer attention to:**
+
+### **`This is a Draft` Alerts**  
+
+The `This is a DRAFT` _Alert_, is commonly seen near the **top** of new documentation.
+
+**For Example:**
+
+
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
+> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+
+ 
+Given the nature of `markdown` documentation - especially when created specifically for optimal viewing via `GitHub` - there is some documentation that needs to be tested live via GitHub, first, before the final release of the document can be published.
+
+Conversely, this variant of the document is temporary, and often times **removed** on next commit.
+
+### **`Current Phase` Alerts**  
+
+The `Current Phase Alert`, is another important _Alert_, and commonly seen on all documentation, seen near the **top** of new documentation, but below alerts, like, `This is a DRAFT` _Alerts_.
+
+Based on the `Current Phase`, the content of the alert may often be different, with more details on the Phase and hyperlinks to said details.
+
+#### **For Example:**
+
+**The `Current Phase` being "_Phase 1: Minimum Viable Product (MVP) Alerts_" may result in an _Alert_ that looks something like:**
+
+
+> [!CAUTION]
+> **CURRENT PHASE: Phase 1: Minimum Viable Product (MVP)**
+> 
+> This project is currently in **Phase 1** of Development. It **should not** be considered **accurate** or a **release candidate**. In fact, it should be treated as simply reference material for the time being (_and this is by design_). No other **Phases** are treated this way.
+> 
+> Please see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/Phase-1-Minimum-Viable-Product-MVP.md) for more details.
+
+
+Future variants of the document **will** also include other details, such as showing the current phase across projects as it does now, as well sharing as the phase(s) this document being reviewed currently supports.
+
+
+### **`Rabbit Hole` Alerts**  
+
+The `Rabbit Hole` _Alert_, is a "Hats' Off" alert I created for my fellow developers, which alerts them when it doesn't matter what color pill you take, or the pronouns you prefer, because you are asking for trouble if you continue down this path my friend.
+
+
+Although rarely seen, a `Rabbit Hole` _Alert_, is significant. You must be... prepared.
+
+#### **For Example:**
+
+
+> [!CRITICAL]
+> **Rabbit Hole Detected: Documentation Generation**
+> 
+> You don't have to do this. Live to fight another day. I already made the developer sacrifice so you don't have to.
+>
+> **Just walk away... Just walk away...**
+> 
+> Otherwise, you know, that I know, everything you do from this point forward while following this document's suggestions (or lack thereof) is at your own risk.
+> 
+> See, [Rabbit Hole](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/Phase-1-Minimum-Viable-Product-MVP.md) for more details.
+
+
+It's true, you know... The struggle will be real. You should have a good reason to want to change the implementation, installation and/or design patterns used with the technology or feature marked with this alert. Otherwise, I'm telling you my dear developer, you are asking to be opened up to much greater chance for potential project release failures, unexpected results, and/or personal pride defeats, and well after there is anything you could do about it. 
+
+You don't have to do this. Live to fight another day. I already made the developer sacrifice so you don't have to. **In fact, you know what? Just walk away... Just walk away...**
+
+Unfortunately, I know, that you know, that sometimes, the gods need fresh developer sacrifices. What's more? Today is your lucky day, for that day is today, on a day you can't just walk away. 
+
+I understand... Still, you also know, that I know, everything you do from this point forward while following this document's suggestions (or lack thereof) is at your own risk. 
+
 
 ---
 
