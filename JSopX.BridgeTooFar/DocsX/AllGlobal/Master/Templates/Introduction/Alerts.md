@@ -132,7 +132,7 @@ Although rarely seen, a `Rabbit Hole` _Alert_, is significant. You must be... pr
 #### **For Example:**
 
 
-> [!CRITICAL]
+> [!CAUTION]
 > **Rabbit Hole Detected: Documentation Generation**
 > 
 > You don't have to do this. Live to fight another day. I already made the developer sacrifice so you don't have to.
