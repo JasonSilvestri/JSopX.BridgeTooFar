@@ -5,7 +5,7 @@ By exploring the [Overview](#overview), you’ll gain a clear understanding of h
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectChecksBalances.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxTechnologyRequirements.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
 
 ---
 
@@ -165,7 +165,7 @@ After cloning, simply open `RCLxComponents.sln` in Visual Studio and build the s
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectChecksBalances.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxTechnologyRequirements.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
 
 ---
 
@@ -210,7 +210,7 @@ Mastering GitHub basics for JSopX™ projects ensures that you can confidently c
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectChecksBalances.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxTechnologyRequirements.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
 
 ---
 

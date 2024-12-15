@@ -4,7 +4,7 @@ By exploring the [Overview](#overview), you’ll understand how standardized nam
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./JSopxTechnologyRequirements.md)
 
 ---
 
@@ -203,7 +203,7 @@ JSopX.OpenProjectX (Solution Directory)
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./JSopxTechnologyRequirements.md)
 
 ---
 
@@ -242,7 +242,7 @@ JSopX™ Visual Studio Project Checks and Balances ensure a scalable and maintai
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](./JSopxTechnologyRequirements.md)
 
 ---
 
