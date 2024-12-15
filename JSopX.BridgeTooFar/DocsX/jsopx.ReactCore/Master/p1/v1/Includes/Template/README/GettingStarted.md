@@ -1,8 +1,12 @@
 ﻿﻿
+
 > [!WARNING]
 > This section describes a typical cloning operaton. Conversely, to mimic the collective JSopX project architecture takes some extra effort to fully implement "AS-IS".
 > 
-> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite, please see, [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.OpenProjectX) for details.**
+> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite (how it is possible to have `all-projects-in-one` and `independent-projects` installations), please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
+>
+
+
 
 ## JSopX.ReactCore : Installation
 
