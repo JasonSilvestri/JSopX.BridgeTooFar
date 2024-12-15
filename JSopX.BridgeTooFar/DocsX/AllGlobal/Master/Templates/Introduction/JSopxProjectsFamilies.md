@@ -89,7 +89,10 @@ Projects like [`JSopX.AspNetCore`](./JSopxProjects.md#jsopxaspnetcore) and [`JSo
 ### **5. Client-Side “Existing” Apps Examples:**  
 Whether [`JSopX.AngularCore`](JSopxProjects.md#jsopxangularcore), [`JSopX.ReactCore`](./JSopxProjects.md#jsopxreactcore), or [`JSopX.VueCore`](./JSopxProjects.md#jsopxvuecore), these SPAs show how diverse client-side stacks can coexist in one environment, all benefiting from centralized logic and consistent asset management.
 
-[`Back to Top`](#table-of-contents)
+
+---
+
+[`Introduction`](./Introduction.md) » `JSopX™ Project Families` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjects.md) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 
@@ -123,6 +126,9 @@ JSopX™ Project Families turn what could be a tangled web of solutions into a s
 ## **Next Steps**  
 1. Move on to [JSopX™ Project Checks & Balances](./JSopxProjectChecksBalances.md) to understand how quality control and governance ensure that Project Families remain aligned with enterprise goals.
 2. Revisit earlier documents to see how these families fit into the grander tapestry of JSopX™, reinforcing the connections between strategy, structure, and execution.
+
+
+---
 
 [`Introduction`](./Introduction.md) » `JSopX™ Project Families` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjects.md) [`Next »`](./JSopxProjectChecksBalances.md)
 

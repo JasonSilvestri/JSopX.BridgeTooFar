@@ -14,6 +14,20 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 - [Prerequisites](#prerequisites)
 - [Corequisites](#corequisites)
 - [JSopX™ Visual Studio Projects Available](#jsopx-visual-studio-projects-available)
+    - [`JSopX.`OpenProjectX](./JSopxProjects.md#jsopxopenprojectx)
+    - [`JSopX.`AngularCore](#jsopxangularcore)
+    - [`JSopX.`ReactCore](#jsopxreactcore)
+    - [`JSopX.`VueCore](#jsopxvuecore)
+    - [`JSopX.`AspNetCore](#jsopxaspnetcore)
+    - [`JSopX.`BlazorServerCore](#jsopxblazorservercore)
+    - [`JSopX.`MauiHybridNetCore](#jsopxmauihybridnetcore)
+    - [`JSopX.`BridgeTooFar](#jsopxbridgetoofar)
+    - [`JSopX.`ClassLibrary](#jsopxclasslibrary)
+    - [`JSopX.`WebAPI](#jsopxwebapi)
+    - [`JSopX.`SharedResources](#jsopxsharedresources)
+    - [`JSopX.`RCLxAssets](#jsopxrclxassets)
+    - [`JSopX.`RCLxProper](#jsopxrclxproper)
+    - [`JSopX.`RCLxComponents](#jsopxrclxcomponents)
 - [Postrequisites](#postrequisites) 
 - [Concomitants](#concomitants)
 - [In Conclusion](#in-conclusion)
@@ -56,51 +70,55 @@ To get the most out of this document:
 
 There are over a dozen Visual Studio Projects that make up Jason Silvestri's Open Project EXperiences (JSopX™) Enterprise-Level Application.
 
-### JSopX.OpenProjectX
+### `JSopX.`OpenProjectX
 This unified, enterprise-level solution orchestrates a broad range of technologies—Asp.NET Core, Blazor, .NET MAUI, Angular, React, Vue, and more—into a cohesive experience. It provides a blueprint for integrating multiple stacks, fostering synergy among client-side and server-side projects.
 
-### JSopX.AngularCore
+### `JSopX.`AngularCore
 A client-side Angular project aimed at building dynamic single-page applications. It aligns seamlessly with ASP.NET Core backends and shared resources, illustrating how Angular fits into the JSopX™ architectural strategy.
 
-### JSopX.ReactCore
+### `JSopX.`ReactCore
 A React-based client-side project that demonstrates the flexibility and component-driven approach of React, working in harmony with ASP.NET Core services and shared assets.
 
-### JSopX.VueCore
+### `JSopX.`VueCore
 A Vue.js client-side project crafted for reactive, component-focused development. Its seamless integration with ASP.NET Core and shared libraries exemplifies the framework-agnostic nature of JSopX™.
 
-### JSopX.AspNetCore
+### `JSopX.`AspNetCore
 The server-side backbone for much of the ecosystem. While this ASP.NET Core project often looks and feels like a standard server-side solution, it underpins the security, routing, and scalability principles that define the JSopX™ environment.
 
-### JSopX.BlazorServerCore
+### `JSopX.`BlazorServerCore
 A server-side Blazor project showcasing how interactive web UIs can be built efficiently under the JSopX™ umbrella. By integrating with shared APIs and resources, it highlights the power and flexibility of Blazor’s real-time server-side model.
 
-### JSopX.MauiHybridNetCore
+### `JSopX.`MauiHybridNetCore
 A cross-platform hybrid application blending ASP.NET Core, Blazor, and .NET MAUI. This project reveals how Razor components can unify desktop, native, and web experiences, reinforcing JSopX™’s commitment to versatility.
 
-### JSopX.BridgeTooFar
+### `JSopX.`BridgeTooFar
 Focused on static asset management, this project ensures a consistent distribution of documentation, CSS, JavaScript, images, and other shared files. By centralizing and streamlining asset handling, it prevents fragmentation and encourages better maintainability.
 
-### JSopX.ClassLibrary
+### `JSopX.`ClassLibrary
 A shared logic and utilities repository. Placing business logic or helper functions here ensures every project can draw from a single, reliable source, reducing code duplication and complexity.
 
-### JSopX.WebAPI
+### `JSopX.`WebAPI
 A RESTful API backend that ties the ecosystem together. By providing consistent endpoints and data services, it empowers both server-side and client-side solutions to operate cohesively and securely.
 
-### JSopX.SharedResources
+### `JSopX.`SharedResources
 A hub for common resources—images, fonts, scripts, localizations—that feed into multiple projects. Initially a central class library, it highlights the benefits of having a single source for shared assets.
 
-### JSopX.RCLxAssets
+### `JSopX.`RCLxAssets
 Evolving from the SharedResources concept, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
 
-### JSopX.RCLxProper
+### `JSopX.`RCLxProper
 A production-ready Razor Class Library offering structured components, pages, and views. These can be reused across the JSopX™ environment, simplifying UI consistency and accelerating development.
 
-### JSopX.RCLxComponents
+### `JSopX.`RCLxComponents
 Another Razor Class Library dedicated to reusable UI elements. By standardizing UI components, it ensures a consistent look and feel throughout the suite.
 
-[`Back to Top`](#table-of-contents) 
 
 ---
+ 
+[`Introduction`](./Introduction.md) » **`JSopX™ Visual Studio Projects`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxProjectsFamilies.md)
+
+---
+
 
 ## **Postrequisites**  
 After reviewing these projects:
@@ -133,6 +151,8 @@ The JSopX™ Visual Studio Projects form the essential building blocks of a unif
 1. Move on to the [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md) to see how these individual projects group together into logical patterns.
 2. Begin experimenting with the configurations, testing how these projects interoperate to solidify your understanding and drive meaningful refinements to your own workflows.
 
+---
+ 
 [`Introduction`](./Introduction.md) » **`JSopX™ Visual Studio Projects`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxProjectsFamilies.md)
 
 ---

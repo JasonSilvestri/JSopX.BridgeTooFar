@@ -24,6 +24,8 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 - [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md)
 - [JSopX™ Visual Studio Project Checks and Balances](./JSopxProjectChecksBalances.md)
 - [JSopX™ Visual Studio Projects GitHub Basics](./JSopxProjectsGitHubBasics.md)
+- [JSopX™ Visual Studio Projects GitHub Advanced](./JSopxProjectsGitHubAdvanced.md)
+
 
 ---
 

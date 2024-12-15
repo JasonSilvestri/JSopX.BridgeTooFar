@@ -75,9 +75,12 @@ Not the path of least resistance, oh no. Instead, JSopX™ leans into complexity
 
 Ultimately, the impact is a more resilient, scalable, and maintainable ecosystem that values pragmatism and adaptability over rigid theoretical ideals.
 
-[`Back to Top`](#table-of-contents) 
+---
+
+[`Introduction`](./Introduction.md) » **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxProjects.md)
 
 ---
+
 
 ## **Postrequisites**  
 After learning about JSopX™’s overarching goals and business requirements, consider:
@@ -110,10 +113,12 @@ JSopX™ is about embracing complexity and transforming it into a cohesive, ente
 1. Dive into the [JSopX™ Visual Studio Projects](./JSopxProjects.md) document to understand how project structures come together in practical scenarios.
 2. Begin exploring specific solution files and testing the integration points that bridge client-side and server-side codebases, ensuring that the theory meets reality.
 
+---
+
 [`Introduction`](./Introduction.md) » **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxProjects.md)
 
 ---
 
 ##### [JSopX.com](https://www.jsopx.com/) | [Jason's Official Website](https://www.jsilvestri.com/) | [X](https://www.x.com/JasonSilvestri) | [LinkedIn](http://www.linkedin.com/in/JasonSilvestri) | [GitHub](https://github.com/JasonSilvestri) | [Gmail](mailto:therealjasonsilvestri@gmail.com) | [Phone : 508-851-9445](phoneto:508-851-9445)
 
-###### Copyright © 2025 - All Rights Reserved by Jason Silvestri
+###### Copyright © 2024 - All Rights Reserved by Jason Silvestri
