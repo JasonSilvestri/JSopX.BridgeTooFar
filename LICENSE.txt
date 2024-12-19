@@ -1,4 +1,5 @@
-﻿jSilvestri.com BETA v 2024 JSopX™ OpenX Demo Collection Project: 
+﻿jSilvestri.com BETA v 2025
+ JSopX™ OpenX Demo Collection Project: 
 [JSopX™ Asp.NET Core Class Library Project](https://github.com/JasonSilvestri/JSopX.ClassLibrary)
 
 Phase 1 of 4:

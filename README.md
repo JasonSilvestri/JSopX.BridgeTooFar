@@ -1,7 +1,8 @@
 
 # JSopX™ Bridge Too Far
 
-**From the ﻿jSilvestri.com BETA v 2024 JSopX™ Open Project EXperiences Collection of Projects**
+**From Jason Silvestri’s BETA v 2025 Open Project EXperiences (JSopX™)**
+
 
 
 > [!CAUTION]
@@ -12,7 +13,8 @@
 
 ## Overview
 ﻿
-The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
+The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2025
+ JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 
 ![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
@@ -306,7 +308,8 @@ Don't forget that the **`JSopX.BridgeTooFar`** Project requires certain technolo
 ## In Conclusion
 
 ﻿
-The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2024 JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
+The `JSopX.BridgeTooFar` Project (i.e., _jSilvestri.com BETA v 2025
+ JSopX™ Bridge Too Far Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
 
 By centralizing project documents with this approach to mark down will be very helpful, especially with referencing the `JSopX.BridgeTooFar` Read Me docs across projects.
 
