@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/CommonTechnologiesIncluded/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/CommonTechnologiesIncluded/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -15,22 +15,22 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### Common Technologies Included : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/CommonTechnologiesIncluded/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/CommonTechnologiesIncluded/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/CommonTechnologiesIncluded/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/CommonTechnologiesIncluded/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## Common Technologies Included: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/CommonTechnologiesIncluded/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/CommonTechnologiesIncluded/JsopxDependencies.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/CommonTechnologiesIncluded/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/CommonTechnologiesIncluded/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

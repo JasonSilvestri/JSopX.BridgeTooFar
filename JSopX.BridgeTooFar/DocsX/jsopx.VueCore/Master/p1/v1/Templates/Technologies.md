@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -14,7 +14,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Overview.md)}}
 
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
@@ -24,37 +24,37 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Prerequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Prerequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Prerequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Corequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Corequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Postrequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Postrequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Concomitants.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Concomitants.md)}}
 
 [Back to Top](#table-of-contents)
 
 # All JSopX™ Project Technology Requirements
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/BodyContent.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

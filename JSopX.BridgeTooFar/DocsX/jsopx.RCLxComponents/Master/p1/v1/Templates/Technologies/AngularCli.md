@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -14,36 +14,36 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### Angular CLI : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## Angular CLI: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/JsopxDependencies.md)}}
 
 
 ## Angular CLI: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/CheckingVersions.md)}}
 
 
 ## Angular CLI: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/Installation.md)}}
 
 ## Angular CLI: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AngularCli/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AngularCli/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

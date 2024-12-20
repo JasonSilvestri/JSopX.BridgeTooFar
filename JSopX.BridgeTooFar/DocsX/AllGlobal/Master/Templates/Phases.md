@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -14,7 +14,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/Overview.md)}}
 
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
@@ -24,37 +24,37 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Prerequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/Prerequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/Prerequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/Corequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/Corequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/Postrequisites.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/Postrequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/Concomitants.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/Concomitants.md)}}
 
 [Back to Top](#table-of-contents)
 
 # All Project Development Phases
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/BodyContent.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Phases/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Phases/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

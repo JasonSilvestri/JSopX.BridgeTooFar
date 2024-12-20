@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -15,36 +15,36 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### npm : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## npm: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/JsopxDependencies.md)}}
 
 
 ## npm: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/CheckingVersions.md)}}
 
 
 ## npm: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/Installation.md)}}
 
 ## npm: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/npm/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/npm/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

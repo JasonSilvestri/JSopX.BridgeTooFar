@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/GitHubRepositories/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/GitHubRepositories/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -15,27 +15,27 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### Git Hub Repositories : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/GitHubRepositories/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/GitHubRepositories/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/GitHubRepositories/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/GitHubRepositories/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## JSopX™ GitHub Repositories Cloning
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/GitHubRepositories/JsopxGitHubRepositoriesCloning.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/GitHubRepositories/JsopxGitHubRepositoriesCloning.md)}}
 
 
 ## JSopX™ GitHub Repositories Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/GitHubRepositories/JsopxGitHubRepositoriesDocumentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/GitHubRepositories/JsopxGitHubRepositoriesDocumentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/GitHubRepositories/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/GitHubRepositories/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

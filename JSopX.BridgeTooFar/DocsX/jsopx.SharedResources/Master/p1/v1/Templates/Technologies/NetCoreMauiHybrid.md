@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -15,36 +15,36 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### .Net Core Maui Hybrid : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## .Net Core Maui Hybrid: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/JsopxDependencies.md)}}
 
 
 ## .Net Core Maui Hybrid: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/CheckingVersions.md)}}
 
 
 ## .Net Core Maui Hybrid: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/Installation.md)}}
 
 ## .Net Core Maui Hybrid: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreMauiHybrid/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreMauiHybrid/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

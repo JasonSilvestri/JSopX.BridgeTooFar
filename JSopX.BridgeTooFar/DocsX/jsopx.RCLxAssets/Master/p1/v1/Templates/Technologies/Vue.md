@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -15,36 +15,36 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### Vue : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## Vue: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/JsopxDependencies.md)}}
 
 
 ## Vue: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/CheckingVersions.md)}}
 
 
 ## Vue: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/Installation.md)}}
 
 ## Vue: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/Vue/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

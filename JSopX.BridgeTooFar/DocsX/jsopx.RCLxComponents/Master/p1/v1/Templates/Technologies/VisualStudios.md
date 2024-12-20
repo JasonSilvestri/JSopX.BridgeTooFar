@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -15,36 +15,36 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### Visual Studio : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## Visual Studio: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/JsopxDependencies.md)}}
 
 
 ## Visual Studio: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/CheckingVersions.md)}}
 
 
 ## Visual Studio: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/Installation.md)}}
 
 ## Visual Studio: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/VisualStudio/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/VisualStudio/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

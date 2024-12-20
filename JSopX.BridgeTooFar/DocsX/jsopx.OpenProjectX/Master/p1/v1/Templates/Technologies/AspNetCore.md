@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -14,36 +14,36 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### Asp.Net Core : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## Asp.Net Core: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/JsopxDependencies.md)}}
 
 
 ## Asp.Net Core: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/CheckingVersions.md)}}
 
 
 ## Asp.Net Core: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/Installation.md)}}
 
 ## Asp.Net Core: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/AspNetCore/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

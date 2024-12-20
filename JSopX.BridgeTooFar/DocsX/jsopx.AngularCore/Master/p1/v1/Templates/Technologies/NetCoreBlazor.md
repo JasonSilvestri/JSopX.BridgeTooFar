@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/Header.md)}}
+﻿{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -15,36 +15,36 @@ END JSOPX NOVA DOCX HEADER -->
 
 ### .Net Core Blazor : Overview
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/Overview.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/BodyContent.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/BodyContent.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
 ## .Net Core Blazor: `JSopX.` Dependencies
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/JsopxDependencies.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/JsopxDependencies.md)}}
 
 
 ## .Net Core Blazor: Checking Versions
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/CheckingVersions.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/CheckingVersions.md)}}
 
 
 ## .Net Core Blazor: Installation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/Installation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/Installation.md)}}
 
 ## .Net Core Blazor: Documentation
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/Documentation.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/Documentation.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](AllGlobal/Master/Includes/Template/Technologies/NetCoreBlazor/InConclusion.md)}}
+{{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 

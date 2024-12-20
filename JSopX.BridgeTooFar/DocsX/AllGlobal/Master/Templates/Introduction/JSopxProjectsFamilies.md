@@ -54,7 +54,7 @@ To maximize the value of this document:
 
 ## **Knowing JSopX™ Visual Studio Project Families**
 
-One unique aspect of JSopX™ is the way its projects and solutions are categorized into unofficial **Project Families**. These categories guide the design and organization of projects before their physical creation in Visual Studio, using official Visual Studio Project Templates:  
+One unique aspect of JSopX™ is the way its projects and solutions are categorized into unofficial **Project Families**. These categories guide the design and organization of projects before their physical creation in Visual Studio, using official Visual Studio Project Sectionss:  
 
 ---
 

@@ -1,4 +1,4 @@
-﻿{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/Header.md)}}
+﻿{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/Header.md)}}
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER
@@ -14,7 +14,7 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Overview
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/Overview.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/Overview.md)}}
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Current-Phase.md)}}
 
@@ -27,9 +27,9 @@ END JSOPX NOVA DOCX HEADER -->
 5. [Concomitants](#concomitants)
 6. [Getting Started](#getting-started)
 7. [Step-by-Step Instructions](#step-by-step-instructions)
-   1. [Step 1: Create the Parent Basic Markdown Page Template](#step-1-create-the-parent-basic-markdown-page-template)
-   2. [Step 2: Create the Child Basic Markdown Page Template Content Includes](#step-2-create-the-parent-basic-markdown-page-template-content-includes)
-   3. [Step 3: Double Check the Parent Basic Markdown Page Template for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
+   1. [Step 1: Create the Parent Basic Markdown Page Sections](#step-1-create-the-parent-basic-markdown-page-template)
+   2. [Step 2: Create the Child Basic Markdown Page Sections Content Includes](#step-2-create-the-parent-basic-markdown-page-template-content-includes)
+   3. [Step 3: Double Check the Parent Basic Markdown Page Sections for all Includes](#step-3-double-check-the-parent-basic-markdown-page-template-for-all-includes)
 7. [Usage](#usage)
 8. [In Conclusion](#in-conclusion)
 
@@ -41,47 +41,47 @@ END JSOPX NOVA DOCX HEADER -->
 
 ## Prerequisites
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/Prerequisites.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/Prerequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Corequisites
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/Corequisites.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/Corequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Postrequisites
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/Postrequisites.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/Postrequisites.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Concomitants
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/Concomitants.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/Concomitants.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Getting Started
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/GettingStarted.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/GettingStarted.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Step-by-Step Instructions
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/StepByStepInstructions.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/StepByStepInstructions.md)}}
 
 [Back to Top](#table-of-contents)
 
 ## Usage
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/Usage.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/Usage.md)}}
 
 ## In Conclusion
 
-{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Template/README/InConclusion.md)}}
+{{[jsopx-includes](jsopx.WebAPI/Master/p1/v1/Includes/Sections/README/InConclusion.md)}}
 
 [Back to Top](#table-of-contents)
 
