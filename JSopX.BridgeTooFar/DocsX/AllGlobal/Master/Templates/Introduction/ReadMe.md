@@ -26,7 +26,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 - [JSopX™ Technology Requirements](./JSopxTechnologyRequirements.md)
 - [JSopX™ Visual Studio Projects GitHub Basics](./JSopxProjectsGitHubBasics.md)
 - [JSopX™ Visual Studio Projects GitHub Advanced](./JSopxProjectsGitHubAdvanced.md)
-
+- [JSopX™ & Nova Code Snippet Design Patterns](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 
