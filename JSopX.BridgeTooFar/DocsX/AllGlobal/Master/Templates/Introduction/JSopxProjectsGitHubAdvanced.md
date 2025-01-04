@@ -13,7 +13,7 @@ By delving into the advanced GitHub practices outlined in this document, you wil
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Advanced`**  · · · [`« Previous`](./JSopxProjectsGitHubBasics.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Advanced`**  · · · [`« Previous`](./JSopxProjectsGitHubBasics.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 
@@ -218,7 +218,7 @@ Advanced GitHub practices empower JSopX™ developers to manage complexity with 
 
 ---
 
-[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Advanced`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubBasics.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`JSopX™ GitHub Advanced`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubBasics.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 
