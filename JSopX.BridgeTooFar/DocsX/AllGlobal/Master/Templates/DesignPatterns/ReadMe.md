@@ -22,6 +22,7 @@ The documentation found here discusses the design patterns that almost all JSopX
 - [Overview](#overview)
 - [JSopX™ & Nova Code Snippet Design Patterns](./JSopxNovaCodeSnippetDesignPatterns.md)
 - [JSopX™ & Nova Document Section Design Patterns](./JSopxNovaDocumentSectionDesignPatterns.md)
+- [JSopX™ & Nova Less Common Document Section Design Patterns](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 

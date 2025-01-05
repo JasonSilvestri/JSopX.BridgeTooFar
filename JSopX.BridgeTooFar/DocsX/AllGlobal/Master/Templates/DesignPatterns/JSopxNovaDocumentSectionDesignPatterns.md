@@ -2,44 +2,11 @@
 
 ---
 
-
 **From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection of Projects**
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/Introduction.md)
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Heading Section](#heading-section)
-- [Custom Breadcrumbs Section](#custom-breadcrumbs-section)
-  - [Common Top Document Breadcrumb](#common-top-document-breadcrumb)
-  - [Common Bottom Document Breadcrumb](#common-bottom-document-breadcrumb)
-- [Overview Excerpt Section](#overview-excerpt-section)
-- [Overview Section](#overview-section)
-- [Prerequisites Section](#prerequisites-section)
-- [Corequisites Section](#corequisites-section)
-- [Main Content Section](#main-content-section)
-- [Postrequisites Section](#postrequisites-section)
-- [Concomitants Section](#concomitants-section)
-- [In Conclusion Section](#in-conclusion-section)
-- [Next Steps Section](#next-steps-section)
-- [Footer Section](#footer-section)
-
----
-
-# Most Common JSopX™ Document Section(s) Design Patterns
-
----
-
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection of Projects**
-
----
-
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) »  **`Markdown Document Section Design Patterns`**  · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./Introduction.md)
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) »  **`Markdown Document Section Design Patterns`**  · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 
@@ -569,10 +536,13 @@ The following snippet is a `Footer` in a Template, wrapped in comments (we do th
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/Introduction.md)
+
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) »  **`Markdown Document Section Design Patterns`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 
-##### [JSopX.com](https://www.jsopx.com/) | [Jason's Official Website](https://www.jsilvestri.com/) | [X](https://www.x.com/JasonSilvestri) | [LinkedIn](http://www.linkedin.com/in/JasonSilvestri) | [GitHub](https://github.com/JasonSilvestri) | [Gmail](mailto\:therealjasonsilvestri@gmail.com) | [Phone : 508-851-9445](phoneto:508-851-9445)
+
+##### [JSopX.com](https://www.jsopx.com/) | [Jason's Official Website](https://www.jsilvestri.com/) | [X](https://www.x.com/JasonSilvestri) | [LinkedIn](http://www.linkedin.com/in/JasonSilvestri) | [GitHub](https://github.com/JasonSilvestri) | [Gmail](mailto:therealjasonsilvestri@gmail.com) | [Phone : 508-851-9445](phoneto:508-851-9445)
 
 ###### Copyright © 2025 - All Rights Reserved by Jason Silvestri
+

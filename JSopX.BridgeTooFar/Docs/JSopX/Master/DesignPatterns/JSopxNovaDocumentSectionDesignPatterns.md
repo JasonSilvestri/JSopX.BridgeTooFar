@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) »  **`Markdown Document Section Design Patterns`**  · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./Introduction.md)
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) »  **`Markdown Document Section Design Patterns`**  · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 
@@ -537,7 +537,7 @@ The following snippet is a `Footer` in a Template, wrapped in comments (we do th
 ---
 
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) »  **`Markdown Document Section Design Patterns`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](../Introduction/Introduction.md)
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) »  **`Markdown Document Section Design Patterns`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 
