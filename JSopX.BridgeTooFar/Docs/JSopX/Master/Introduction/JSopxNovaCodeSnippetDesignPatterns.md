@@ -6,7 +6,7 @@ By exploring the [Overview](#overview), you’ll discover various code snippet s
 
 ---
 
-[`Introduction`](./Introduction.md) » **`Code Snippet Design Patterns`**  · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`Code Snippet Design Patterns`**  · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaDocumentSectionDesignPatterns.md)
 
 ---
 
@@ -650,7 +650,7 @@ Each **code snippet example section** demonstrates a realistic, functional snipp
 
 ---
 
-[`Introduction`](./Introduction.md) » **`Code Snippets Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./Introduction.md)
+[`Introduction`](./Introduction.md) » **`Code Snippets Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaDocumentSectionDesignPatterns.md)
 
 ---
 
