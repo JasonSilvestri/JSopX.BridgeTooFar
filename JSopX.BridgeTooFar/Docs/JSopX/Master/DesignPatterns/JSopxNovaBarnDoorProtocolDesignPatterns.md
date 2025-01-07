@@ -110,9 +110,11 @@ Here's a breakdown of the most commonly supported types:
 
 ## **Step 1. Basic Development Environment Documentation**
   
-1. We will never "_Initiate Barn Door Protocol_" on code or documentation that does not have an example listed below.
-2. All code and/or documentation should have at the very least basic ongoing updates to documentation (i.e., _comments, code snippets, etc._) to continue to conform to our strict-but-easy-to-follow Enterprise-Level Disciplines.
-3. The code languages we currently support are as follows:
+1. **We will never "_Initiate Barn Door Protocol_" on code or documentation that does not have an example listed below.**
+2. **We "_Initiate Barn Door Protocol_" on code or documentation that has a found example listed below?** If there is a match to technology, see if the code or documentation has basic documentation required in `Development` Environments that is similar to below example(s).
+3. All code and/or documentation should have basic ongoing updates to documentation (i.e., _comments, code snippets, etc._) to continue to conform to our strict-but-easy-to-follow Enterprise-Level Disciplines.
+4. Create comments for missing or low quality comments and/documentation. 
+5. The code languages we currently support are as follows:
 
 ### **JavaScript JSopX™ Docs Basic Example**
 
@@ -881,9 +883,11 @@ clean:
 
 ## **Step 2. Advanced Production Environment Documentation**
 
-1. We will never "_Initiate Barn Door Protocol_" on code or documentation that does not have an example listed below.
-2. All code and/or documentation **MUST** have advanced documentation (i.e., _comments, code snippets, etc._) before the release of any code or documentation to a production-ready enviroment.
-3. The code languages we currently support are as follows:
+1. **We will never "_Initiate Barn Door Protocol_" on code or documentation that does not have an example listed below.**
+2. **We "_Initiate Barn Door Protocol_" on code or documentation that has a found example listed below?** If there is a match to technology, see if the code or documentation has advanced documentation required in `Production` Environments that is similar to below example(s).
+3. All code and/or documentation **MUST** have advanced documentation (i.e., _comments, code snippets, etc._) before the release of any code or documentation to a production-ready enviroment.
+4. Create comments for missing or low quality comments and/documentation. 
+5. The code languages we currently support are as follows:
 
 ### **JavaScript JSopX™ Docs Advanced Example**
 
@@ -1659,6 +1663,10 @@ clean:
 ## **Step 3. Security & Identity**
 
 Security, Identity, Authentication and Authorization are the #1 Design Patterns all Projects and Phases must implement before final releases of all code. These rules, however, are relaxed while brainstorming code ideas, throwing first draft code together, etc. (much like documentation). Moreover, some phases will put more focus in these areas than others. Still, we should show consist care and progress in these areas indefinitely. The more we do, the more the final mature standards are all but finished by release.
+
+1. Based on the code or documentation we are evaluating, we must check for each vulnerability listed below.
+2. If issue is found, we need to create samples showing step-by-step instructions on how to replicate and/or exploit the issue in the code.
+3. Then, we need to be sure we create sample showing step-by-step instructions on how to fix the vulnerability.
 
 **The following Design Patterns and Best Practices target Asp.NET Core (v 9.0) & Visual Studio 2022 (v 17.12.3), due to the crucial role they play in all applications, as well as the wide support they have out-of-the-box.** 
 
