@@ -6,7 +6,7 @@ By exploring the [Overview](#overview), you’ll discover effective ways to docu
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`File & Directory Design Patterns`**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsGitHubAdvanced.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md)
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 
@@ -190,7 +190,7 @@ Documenting file and directory structures effectively is more than just listing 
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`File & Directory Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsGitHubAdvanced.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md)
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 

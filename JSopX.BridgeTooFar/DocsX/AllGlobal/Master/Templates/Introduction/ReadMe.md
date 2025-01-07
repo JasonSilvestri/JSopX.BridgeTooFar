@@ -24,10 +24,13 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 - [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md)
 - [JSopX™ Visual Studio Project Checks and Balances](./JSopxProjectChecksBalances.md)
 - [JSopX™ Technology Requirements](./JSopxTechnologyRequirements.md)
-- [JSopX™ Visual Studio Projects GitHub Basics](./JSopxProjectsGitHubBasics.md)
-- [JSopX™ Visual Studio Projects GitHub Advanced](./JSopxProjectsGitHubAdvanced.md)
-- [JSopX™ & Nova Code Snippet Design Patterns](./JSopxNovaCodeSnippetDesignPatterns.md)
-- [JSopX™ & Nova Document Section Design Patterns](./JSopxNovaDocumentSectionDesignPatterns.md)
+- [JSopX™ Visual Studio Projects GitHub Basics](../GitHub/JSopxProjectsGitHubBasics.md)
+- [JSopX™ Visual Studio Projects GitHub Advanced](../GitHub/JSopxProjectsGitHubAdvanced.md)
+- [JSopX™ Document ﻿File & Directory Design Patterns](../DesignPatterns/JSopxNovaFileandDirectoryDesignPatterns.md)
+- [JSopX™ & Nova Code Snippet Design Patterns](../DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md)
+- [JSopX™ & Nova Barn Door Protocol Design Patterns](../DesignPatterns/JSopxNovaBarnDoorProtocolDesignPatterns.md)
+- [JSopX™ & Nova Document Section Design Patterns](../DesignPatterns/JSopxNovaDocumentSectionDesignPatterns.md)
+- [JSopX™ & Nova Less Common Document Section Design Patterns](../DesignPatterns/JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 

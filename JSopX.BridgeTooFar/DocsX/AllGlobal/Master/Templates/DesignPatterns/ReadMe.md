@@ -4,7 +4,7 @@ JSopX™ acts as a blueprint for consistent, scalable, and maintainable creation
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » **`Design Patterns`** · · · [`Get Started »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaFileandDirectoryDesignPatterns.md)
+[`Introduction`](../Introduction/) » **`Design Patterns`** · · · [`Get Started »`](./JSopxNovaFileandDirectoryDesignPatterns.md)
 
 ---
 
@@ -22,12 +22,13 @@ The documentation found here discusses the design patterns that almost all JSopX
 - [Overview](#overview)
 - [JSopX™ Document ﻿File & Directory Design Patterns](./JSopxNovaFileandDirectoryDesignPatterns.md)
 - [JSopX™ & Nova Code Snippet Design Patterns](./JSopxNovaCodeSnippetDesignPatterns.md)
+- [JSopX™ & Nova Barn Door Protocol Design Patterns](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
 - [JSopX™ & Nova Document Section Design Patterns](./JSopxNovaDocumentSectionDesignPatterns.md)
 - [JSopX™ & Nova Less Common Document Section Design Patterns](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » **`Design Patterns`** · · · [`Get Started »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaFileandDirectoryDesignPatterns.md)
+[`Introduction`](../Introduction/) » **`Design Patterns`** · · · [`Get Started »`](./JSopxNovaFileandDirectoryDesignPatterns.md)
 
 ---
 

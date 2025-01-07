@@ -6,7 +6,7 @@ By exploring the [Overview](#overview), you’ll discover various code snippet s
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`Code Snippet Design Patterns`**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaDocumentSectionDesignPatterns.md)
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
 
 ---
 
@@ -64,23 +64,30 @@ Here's a breakdown of the most commonly supported types:
     - [Diff Code Example](#diff-code-example)
     - [Dockerfile Code Example](#dockerfile-code-example)
     - [Makefile Code Example](#makefile-code-example)
-
+    - [Blazor Code Example](#blazor-code-example)
+    - [.NET MAUI Code Example](#net-maui-code-example)
+    - [.NET MAUI XAML Code Example](#net-maui-xaml-example)
 ---
 
-## Expanded Language Code Snippets
+## **Expanded Language Code Snippets**
 
 ### **1. Common Programming Languages**
 
-| Language      | Snippet Type      | Syntax Example       | Code Example Link                  |
-|---------------|-------------------|----------------------|-------------------------------------|
-| JavaScript    | `javascript`      | ```` ```javascript ```` | [JavaScript Code Example](#javascript-code-example) |
-| TypeScript    | `typescript`      | ```` ```typescript ```` | [TypeScript Code Example](#typescript-code-example) |
-| Python        | `python`          | ```` ```python ````   | [Python Code Example](#python-code-example)         |
-| C#            | `csharp`          | ```` ```csharp ````   | [C# Code Example](#csharp-code-example)             |
-| Java          | `java`            | ```` ```java ````     | [Java Code Example](#java-code-example)             |
-| PHP           | `php`             | ```` ```php  ````     | [PHP Code Example](#php-code-example)               |
-| Ruby          | `ruby`            | ```` ```ruby ````     | [Ruby Code Example](#ruby-code-example)             |
-| Go            | `go`              | ```` ```go  ````      | [Go Code Example](#go-code-example)                 |
+| Framework      | Snippet Type      | Syntax Example       | Code Example Link                  |
+|----------------|-------------------|----------------------|-------------------------------------|
+| JavaScript     | `javascript`      | ```` ```javascript ```` | [JavaScript Code Example](#javascript-code-example) |
+| TypeScript     | `typescript`      | ```` ```typescript ```` | [TypeScript Code Example](#typescript-code-example) |
+| Python         | `python`          | ```` ```python ````   | [Python Code Example](#python-code-example)         |
+| C#             | `csharp`          | ```` ```csharp ````   | [C# Code Example](#csharp-code-example)             |
+| Java           | `java`            | ```` ```java ````     | [Java Code Example](#java-code-example)             |
+| PHP            | `php`             | ```` ```php  ````     | [PHP Code Example](#php-code-example)               |
+| Ruby           | `ruby`            | ```` ```ruby ````     | [Ruby Code Example](#ruby-code-example)             |
+| Go             | `go`              | ```` ```go  ````      | [Go Code Example](#go-code-example)                 |
+| Angular        | `angular`         | ```` ```angular  ```` | [Angular Code Example](#angular-code-example)       |
+| React          | `jsx`             | ```` ```jsx    ````   | [React Code Example](#react-code-example)           |
+| Vue.js         | `vue`             | ```` ```vue   ````    | [Vue Code Example](#vue-code-example)               |
+| **Blazor**     | `csharp`          | ```` ```csharp ````   | [Blazor Code Example](#blazor-code-example)         |
+| **.NET MAUI**  | `csharp`          | ```` ```csharp ````   | [MAUI Code Example](#net-maui-code-example)             |
 
 
 [`Back to Top`](#table-of-contents)
@@ -89,10 +96,11 @@ Here's a breakdown of the most commonly supported types:
 
 ### **2. Markup Languages**
 
-| Language      | Snippet Type      | Syntax Example       | Code Example Link                  |
-|---------------|-------------------|----------------------|-------------------------------------|
+| Language      | Snippet Type      | Syntax Example        | Code Example Link                  |
+|---------------|-------------------|-----------------------|-------------------------------------|
 | HTML          | `html`            | ```` ```html ````     | [HTML Code Example](#html-code-example)             |
 | XML           | `xml`             | ```` ```xml  ````     | [XML Code Example](#xml-code-example)               |
+| **XAML**      | `xaml`            | ```` ```xml  ````     | [.NET MAUI XAML Code Example](#net-maui-xaml-example)               |
 | SVG           | `svg`             | ```` ```svg  ````     | [SVG Code Example](#svg-code-example)               |
 
 
@@ -189,8 +197,21 @@ The code laguages we currently support are as follows:
 ### **JavaScript Code Example**
 
 ```javascript
-// JSopX™ Example: DOM Manipulation
-document.getElementById("example").innerHTML = "Hello, JSopX™!";
+
+/**
+ * Dynamically updates the inner HTML of an element.
+ * @param {string} elementId - The ID of the HTML element.
+ * @param {string} content - The new content to set.
+ */
+function updateContent(elementId, content) {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.innerHTML = content;
+    }
+}
+
+updateContent("example", "Hello, JSopX™!");
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -200,16 +221,28 @@ document.getElementById("example").innerHTML = "Hello, JSopX™!";
 ### **TypeScript Code Example**
 
 ```typescript
-// Nova Example: Strongly Typed API Call
+
+/**
+ * JSopX™ Nova Example: Strongly Typed API Call: Represents a user object with an ID and name.
+ */
 type User = {
     id: number;
     name: string;
 };
 
-async function fetchUser(id: number): Promise<User> {
-    const response = await fetch(`/api/users/${id}`);
+/**
+ * Fetches a user by ID.
+ * @param {string} url - The API endpoint URL.
+ * @returns {Promise<User[]>} A promise resolving to an array of users.
+ */
+async function fetchUsers(url: string): Promise<User[]> {
+    const response = await fetch(url);
     return response.json();
 }
+
+fetchUsers("https://api.example.com/users")
+    .then(users => console.log(users));
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -219,13 +252,20 @@ async function fetchUser(id: number): Promise<User> {
 ### **Python Code Example**
 
 ```python
-# Open Project EXperiences Example: Fibonacci Sequence
+
+"""
+JSopX™ Nova Example: Calculates the nth Fibonacci number.
+
+:param n: The position in the Fibonacci sequence.
+:return: The Fibonacci number at position n.
+"""
 def fibonacci(n):
     if n <= 1:
         return n
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 print([fibonacci(x) for x in range(10)])
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -235,15 +275,140 @@ print([fibonacci(x) for x in range(10)])
 ### **C# Code Example**
 
 ```csharp
-// Nova Example: LINQ Filtering
 using System.Linq;
 
-var numbers = new[] { 1, 2, 3, 4, 5 };
-var evenNumbers = numbers.Where(x => x % 2 == 0);
-
-foreach (var number in evenNumbers) {
-    Console.WriteLine(number);
+namespace Jsopx.Library
+{
+    /// <summary>
+    /// Example of LINQ filtering in C#.
+    /// </summary>
+    public static class LinqExample
+    {
+        /// <summary>
+        /// Filters even numbers from a list.
+        /// </summary>
+        /// <param name="numbers">An array of integers.</param>
+        /// <returns>An array of even integers.</returns>
+        public static int[] FilterEvenNumbers(int[] numbers)
+        {
+            return numbers.Where(x => x % 2 == 0).ToArray();
+        }
+    }
 }
+
+// Usage Example
+var numbers = new[] { 1, 2, 3, 4, 5 };
+var evenNumbers = Jsopx.Library.LinqExample.FilterEvenNumbers(numbers);
+evenNumbers.ToList().ForEach(Console.WriteLine);
+
+```
+
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Blazor Code Example**
+
+```csharp
+
+@page "/counter"
+@using System.Linq
+
+<h3>Counter</h3>
+
+<p>Current count: @currentCount</p>
+
+<button @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    ///<summary>
+    /// Increments the counter value by 1.
+    ///</summary>
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
+
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **.NET MAUI Code Example**
+
+```csharp
+
+using Microsoft.Maui.Controls;
+
+namespace Jsopx.MauiApp;
+
+/// <summary>
+/// Represents the main page of the JSopX™ MAUI Hybrid application.
+/// </summary>
+public partial class MainPage : ContentPage
+{
+    /// <summary>
+    /// Tracks the number of times the button is clicked.
+    /// </summary>
+    private int count = 0;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="MainPage"/> class.
+    /// </summary>
+    public MainPage()
+    {
+        InitializeComponent();
+    }
+
+    /// <summary>
+    /// Handles the button click event and updates the label with the click count.
+    /// </summary>
+    /// <param name="sender">The source of the button click event.</param>
+    /// <param name="e">The event data associated with the button click.</param>
+    private void OnCounterClicked(object sender, EventArgs e)
+    {
+        count++;
+        CounterLabel.Text = $"Clicked {count} time{(count == 1 ? "" : "s")}";
+
+        // Announces the updated text for accessibility
+        SemanticScreenReader.Announce(CounterLabel.Text);
+    }
+}
+
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **.NET MAUI XAML Example**
+
+```xml
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jsopx.MauiApp.MainPage">
+
+    <VerticalStackLayout Padding="30">
+        <Label x:Name="CounterLabel"
+               Text="Click the button"
+               FontSize="18"
+               HorizontalOptions="Center" />
+
+        <Button Text="Click Me"
+                FontSize="18"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+    </VerticalStackLayout>
+
+</ContentPage>
+
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -253,12 +418,20 @@ foreach (var number in evenNumbers) {
 ### **Java Code Example**
 
 ```java
-// JSopX™ Example: Hello World
+
+/**
+ * JSopX™ Nova Example: Demonstrates a simple Java application that prints "Hello, JSopX™!".
+ */
 public class HelloWorld {
+    /**
+     * The main method serves as the entry point for the application.
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
         System.out.println("Hello, JSopX™!");
     }
 }
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -268,13 +441,28 @@ public class HelloWorld {
 ### **PHP Code Example**
 
 ```php
-// Nova Example: Associative Array
+
+// JSopX™ Nova Example: Associative Array
+<?php
+/**
+ * Represents a user with an ID and name.
+ */
 $user = [
     "id" => 1,
     "name" => "Nova"
 ];
 
-echo "Hello, " . $user['name'] . "!";
+/**
+ * Prints a greeting message to the user.
+ * @param array $user An associative array containing user details.
+ */
+function greetUser($user) {
+    echo "Hello, " . $user['name'] . "!";
+}
+
+greetUser($user);
+?>
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -284,10 +472,17 @@ echo "Hello, " . $user['name'] . "!";
 ### **Ruby Code Example**
 
 ```ruby
-# JSopX™ Example: Array Map
+
+# JSopX™ Nova Example: Array Map: Represents an array and maps each number to its square.
+# @param numbers [Array<Integer>] The array of integers.
+# @return [Array<Integer>] The array of squared integers.
+def square_numbers(numbers)
+  numbers.map { |n| n * n }
+end
+
 numbers = [1, 2, 3, 4, 5]
-squares = numbers.map { |n| n * n }
-puts squares
+puts square_numbers(numbers)
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -297,22 +492,29 @@ puts squares
 ### **Go Code Example**
 
 ```go
-// Nova Example: Hello World Server
+
+JSopX™ Nova Example: Hello World Server
 package main
 
 import (
-	"fmt"
-	"net/http"
+    "fmt"
+    "net/http"
 )
 
+/**
+ * Handles HTTP requests and responds with "Hello, JSopX™!".
+ * @param w The HTTP response writer.
+ * @param r The HTTP request.
+ */
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, JSopX™!")
+    fmt.Fprintln(w, "Hello, JSopX™!")
 }
 
 func main() {
-	http.HandleFunc("/", helloHandler)
-	http.ListenAndServe(":8080", nil)
+    http.HandleFunc("/", helloHandler)
+    http.ListenAndServe(":8080", nil)
 }
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -322,12 +524,16 @@ func main() {
 ### **HTML Code Example**
 
 ```html
-<!-- JSopX™ Example: Simple Form -->
+
+<!--
+JSopX™ Nova Example: Creates a simple HTML form with a text input and submit button.
+-->
 <form action="/submit" method="POST">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name">
     <button type="submit">Submit</button>
 </form>
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -337,12 +543,19 @@ func main() {
 ### **XML Code Example**
 
 ```xml
-<!-- Nova Example: Configuration -->
+
+<!--
+JSopX™ Nova Example: Defines application configuration settings.
+-->
 <config>
+    <!-- Application settings -->
     <appSettings>
+        <!-- Specifies the environment for the application -->
         <add key="Environment" value="Production" />
     </appSettings>
 </config>
+
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -352,10 +565,14 @@ func main() {
 ### **SVG Code Example**
 
 ```svg
-<!-- JSopX™ Example: Circle -->
-<svg width="100" height="100">
+<!-- JSopX™ Nova Example: Creates a simple SVG circle. -->
+
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+    <!-- A blue circle centered at (50, 50) with radius 40 -->
     <circle cx="50" cy="50" r="40" fill="blue" />
 </svg>
+
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -365,13 +582,16 @@ func main() {
 ### **JSON Code Example**
 
 ```json
+
 {
     "project": "JSopX™",
+    "description": "Demonstrates JSON structure for a project configuration.",
     "version": "1.0.0",
     "dependencies": {
-        "typescript": "^4.5.4"
+        "typescript": "^4.5.4" # Specifies the TypeScript version.
     }
 }
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -381,10 +601,12 @@ func main() {
 ### **YAML Code Example**
 
 ```yaml
-# Nova Example: Application Settings
+
+# JSopX™ Nova Example: Application Settings
 app:
   name: Nova
   environment: Production
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -394,10 +616,13 @@ app:
 ### **TOML Code Example**
 
 ```toml
-# JSopX™ Example: Configuration
+
+# JSopX™ Nova Example: Application Configuration
 [app]
 name = "JSopX™"
 version = "1.0.0"
+
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -407,8 +632,12 @@ version = "1.0.0"
 ### **SQL Code Example**
 
 ```sql
--- Nova Example: Get Active Users
-SELECT * FROM Users WHERE IsActive = 1;
+
+-- Retrieves JSopX™ active users from the Users table
+SELECT * 
+FROM Users 
+WHERE IsActive = 1;
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -418,13 +647,15 @@ SELECT * FROM Users WHERE IsActive = 1;
 ### **GraphQL Code Example**
 
 ```graphql
-# JSopX™ Example: Query Users
-query {
+
+# Retrieves JSopX™ user details including ID and name.
+query GetUsers {
     users {
-        id
-        name
+        id # Unique identifier for the user.
+        name # Name of the user.
     }
 }
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -434,9 +665,11 @@ query {
 ### **Bash Code Example**
 
 ```bash
+
 #!/bin/bash
-# Nova Example: Directory Listing
+# Lists all JSopX™ files in the current directory
 ls -la
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -446,8 +679,10 @@ ls -la
 ### **PowerShell Code Example**
 
 ```powershell
-# JSopX™ Example: Get Processes
+
+# Retrieves all JSopX™ processes consuming more than 100 CPU units
 Get-Process | Where-Object { $_.CPU -gt 100 }
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -469,14 +704,28 @@ echo "Hello, JSopX™!"
 ### **CSS Code Example**
 
 ```css
-/* JSopX™ Example: Button Styling */
+
+
+/* 
+JSopX™ Nova Example: Button Styling: Styles a button with rounded corners, padding, and a hover effect.
+*/
 .button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Space around button text */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
 }
+
+/* 
+Changes the button color on hover.
+*/
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -486,13 +735,24 @@ echo "Hello, JSopX™!"
 ### **SCSS Code Example**
 
 ```scss
-// Nova Example: Button Mixin
-@mixin button($color) {
+
+// Styles a JSopX™ MiXIN button with dynamic colors using a SCSS mixin.
+@mixin button-styling($color) {
     background-color: $color;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($color, 10%);
+    }
 }
+
+.button {
+    @include button-styling(#007BFF);
+}
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -502,13 +762,22 @@ echo "Hello, JSopX™!"
 ### **LESS Code Example**
 
 ```less
-// JSopX™ Example: Button Variables
+
+// Defines a JSopX™ primary color variable.
 @primary-color: #007BFF;
 
+// Styles a button using the primary color.
 .button {
     background-color: @primary-color;
     color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: darken(@primary-color, 10%);
+    }
 }
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -518,9 +787,12 @@ echo "Hello, JSopX™!"
 ### **CSV Code Example**
 
 ```csv
+
+# Demonstrates tabular data structure
 id,name,email
-1,John Doe,john@example.com
-2,Jane Doe,jane@example.com
+1,John Doe,john.doe@example.com
+2,Jane Doe,jane.doe@example.com
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -530,10 +802,16 @@ id,name,email
 ### **Markdown Code Example**
 
 ```markdown
-# Nova Project
 
-- **Feature 1**: Dynamic Markdown Builder
-- **Feature 2**: Code Snippet Examples
+# JSopX™ Example Project
+
+This project demonstrates **markdown documentation** with headings, lists, and links.
+
+- **Feature 1**: Provides a consistent structure for documentation.
+- **Feature 2**: Supports rich formatting like **bold** and _italic_.
+
+Learn more: [JSopX™ Documentation](https://www.jsopx.com)
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -543,7 +821,10 @@ id,name,email
 ### **Text Code Example**
 
 ```
-Hello, this is a plain text file with no formatting.
+This is a plain text file.
+
+It contains unformatted text, suitable for logs or simple documentation.
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -553,12 +834,21 @@ Hello, this is a plain text file with no formatting.
 ### **Angular Code Example**
 
 ```typescript
-// JSopX™ Example: Angular Component
+
+/**
+ * Represents an Angular component displaying a welcome message.
+ */
 @Component({
   selector: 'app-root',
-  template: `<h1>Hello, JSopX™!</h1>`,
+  template: `<h1>{{ title }}</h1>`
 })
-export class AppComponent {}
+export class AppComponent {
+  /**
+   * The title displayed in the component.
+   */
+  title = 'Welcome to JSopX™!';
+}
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -568,11 +858,17 @@ export class AppComponent {}
 ### **React Code Example**
 
 ```jsx
-// Nova Example: React Component
+
+/**
+ * A simple React component that displays a welcome message.
+ * @returns {JSX.Element} The JSX markup for the component.
+ */
 function App() {
-    return <h1>Hello, JSopX™!</h1>;
+    return <h1>Welcome to JSopX™!</h1>;
 }
+
 export default App;
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -582,15 +878,25 @@ export default App;
 ### **Vue Code Example**
 
 ```vue
-<!-- JSopX™ Example: Vue Component -->
+
+<!--
+Represents a Vue component that displays a welcome message.
+-->
 <template>
-    <h1>Hello, JSopX™!</h1>
+    <h1>{{ message }}</h1>
 </template>
+
 <script>
 export default {
-    name: "App"
+    name: "WelcomeComponent",
+    data() {
+        return {
+            message: "Welcome to JSopX™!"
+        };
+    }
 };
 </script>
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -600,8 +906,11 @@ export default {
 ### **Diff Code Example**
 
 ```diff
-- const oldValue = 5;
-+ const newValue = 10;
+
+# Demonstrates changes in a codebase
+- const version = "1.0.0"; # Old version
++ const version = "2.0.0"; # Updated version
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -611,12 +920,26 @@ export default {
 ### **Dockerfile Code Example**
 
 ```dockerfile
-# JSopX™ Example: Node.js Dockerfile
+
+# Specifies the base image for the Node.js application.
 FROM node:20
+
+# Sets the working directory in the container.
 WORKDIR /app
-COPY . .
+
+# Copies package files and installs dependencies.
+COPY package*.json ./
 RUN npm install
+
+# Copies application code to the container.
+COPY . .
+
+# Exposes port 3000 for the application.
+EXPOSE 3000
+
+# Defines the command to run the application.
 CMD ["npm", "start"]
+
 
 ```
 
@@ -627,9 +950,15 @@ CMD ["npm", "start"]
 ### **Makefile Code Example**
 
 ```makefile
-# Nova Example: Build Command
+
+# Compiles the source code into an executable.
 build:
 	gcc main.c -o main
+
+# Cleans up compiled files.
+clean:
+	rm -f main
+
 ```
 
 [`Back to Top`](#table-of-contents)
@@ -650,7 +979,7 @@ Each **code snippet example section** demonstrates a realistic, functional snipp
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaDocumentSectionDesignPatterns.md)
+[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
 
 ---
 
