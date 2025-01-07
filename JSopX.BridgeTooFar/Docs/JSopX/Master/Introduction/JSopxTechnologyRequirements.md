@@ -65,74 +65,92 @@ To get the most out of this document:
 
 ## **Current JSopX™ Technology Requirements**  
 
-### **Visual Studio (v 17.12.3)**
+
+### Windows (v 10)
+- Platform Compatibility: JSopX™ projects' ability to work across Windows, Mac, and Linux, but the recommendation to primarily code on Windows (v 10 Pro).
+- Backward Compatibility: Acknowledging that JSopX™ projects have worked on Windows (v 8) but recommending staying current with Windows (v 10).
+
+---
+
+### Visual Studio (v 17.12.3)
 - Download: [Visual Studio](https://visualstudio.microsoft.com/)
+- JSopX™ BridgeTooFar GitHub: [Visual Studio (v 17.12.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudios.md)
 - JSopX™ projects require Visual Studio to build and manage solutions efficiently.
 - Ensure you have all necessary workloads installed, including ASP.NET and web development, desktop development with .NET, and Azure development.
 
 ---
 
-### **.NET Framework (v 9.0.0)**
+### .NET Framework (v 9.0.0)
 - Download: [.NET Framework](https://dotnet.microsoft.com/download/dotnet-framework)
+- JSopX™ BridgeTooFar GitHub: [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
 - Used for building server-side logic and managing shared libraries.
 
 ---
 
-### **ASP.NET Core (v 9.0.0)**
+### ASP.NET Core (v 9.0.0)
 - Download: [ASP.NET Core](https://dotnet.microsoft.com/download/dotnet/9.0)
+- JSopX™ BridgeTooFar GitHub: [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
 - Powers the backends of many JSopX™ projects, providing the security, routing, and scalability features needed for enterprise-level applications.
 
 ---
 
-### **.NET Core Blazor (v 9.0.0)**
+### .NET Core Blazor (v 9.0.0)
 - Download: [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+- JSopX™ BridgeTooFar GitHub: [.NET Core Blazor (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
 - Enables the development of interactive web UIs, integrating seamlessly with other JSopX™ technologies.
 
 ---
 
-### **.Net Core Maui Hybrid (v 9.0.0)**
+### .Net Core Maui Hybrid (v 9.0.0)
 - Download: [.NET MAUI](https://dotnet.microsoft.com/apps/maui)
+- JSopX™ BridgeTooFar GitHub: [.Net Core Maui Hybrid (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
 - Combines Razor components with .NET MAUI to create cross-platform applications.
 
 ---
 
-### **Node (v 20.14.0)**
+### Node (v 20.14.0)
 - Download: [Node.js](https://nodejs.org/)
+- JSopX™ BridgeTooFar GitHub: [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Node.md)
 - Facilitates package management and JavaScript tooling, integral to JSopX™ front-end projects.
 
 ---
 
-### **npm (v 10.8.1)**
+### npm (v 10.8.1)
 - Download: [npm](https://www.npmjs.com/)
+- JSopX™ BridgeTooFar GitHub: [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/npm.md)
 - Manages dependencies and scripts for JavaScript frameworks such as Angular, React, and Vue.
 
 ---
 
-### **Angular CLI (v 18.0.3)**
+### Angular CLI (v 18.0.3)
 - Download: [Angular CLI](https://angular.io/cli)
+- JSopX™ BridgeTooFar GitHub: [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AngularCli.md)
 - Provides scaffolding, development, and build tools for Angular-based projects.
 
 ---
 
-### **React (v 18.2.0)**
+### React (v 18.2.0)
 - Download: [React](https://reactjs.org/)
+- JSopX™ BridgeTooFar GitHub: [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/React.md)
 - Enables the creation of dynamic, component-based UIs for JSopX™ client-side solutions.
 
 ---
 
-### **Vue (v 10.8.1)**
+### Vue (v 10.8.1)
 - Download: [Vue.js](https://vuejs.org/)
+- JSopX™ BridgeTooFar GitHub: [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
 - A framework for building progressive front-end applications with a focus on simplicity and integration.
 
 ---
 
-### **Vite (v 3.4.21)**
+### Vite (v 3.4.21)
 - Download: [Vite](https://vitejs.dev/)
+- JSopX™ BridgeTooFar GitHub: [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
 - A build tool optimized for speed and modern front-end workflows, utilized in Vue and React projects.
 
 ---
 
-### **Bash**
+### Bash
 - Download: [Bash](https://www.gnu.org/software/bash/)
 - Used for command-line operations, such as cloning repositories, initializing projects, and managing dependencies.
 
