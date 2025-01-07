@@ -12,17 +12,33 @@ By exploring the [Overview](#overview), you’ll discover the power of JSopX™'
 
 ## Overview
 
-Please commit to memory. The `JSopX™ & Nova Barn Door Protocol` is a special set of the most important Design Patterns found anywhere in our documentation. It is absoluely imperative that any code and/or documentation target we initiate the command on, must then pass all `Barn Door Protocols` described in this document. 
+The `JSopX™ & Nova Barn Door Protocol` is a special set of the most important Design Patterns found anywhere in our documentation. It is absolutely imperative that any code and/or documentation target we initiate the command on must pass all `Barn Door Protocols` described in this document.
 
-Most importantly, these design patterns superceed all other design patterns and best practices, with respects to priority and security.
-
-The automated "_Initiate Barn Door Protocol_" command, is used to initiate Barn Door Protocols on the most recently request and/or response.
+Most importantly, these design patterns supersede all other design patterns and best practices, with respect to priority and security.
 
 Here's a breakdown of the most commonly supported types:
 
 ---
 
 ## Table of Contents
+
+- [Overview](#overview)
+  - [Initiate Barn Door Protocol Checklist](#initiate-barn-door-protocol-checklist)
+    - [Step 1: Basic Development Environment Documentation](#step-1-basic-development-environment-documentation)
+    - [Step 2: Advanced Production Environment Documentation](#step-2-advanced-production-environment-documentation)
+    - [Step 3: Security & Identity](#step-3-security--identity)
+  - [Technology Documentation Checks](#technology-documentation-checks)
+    - [1. Programming Languages](#1-programming-languages)
+    - [2. Markup Languages](#2-markup-languages)
+    - [3. Configuration Languages & Query Languages](#3-configuration-and-query-languages)
+    - [4. Shell & Scripting](#4-scripting-and-shell-languages)
+    - [5. Web & Styling](#5-web-and-styling)
+    - [6. Data Formats](#6-data-formats)
+    - [7. Framework-Specific](#7-framework-specific)
+    - [8. Miscellaneous](#8-miscellaneous)
+- [In Conclusion](#in-conclusion)
+
+<!-- 
 
 - [Overview](#overview)
   - [Initiate Barn Door Protocol CheckList](#initiate-barn-door-protocol-checklist)
@@ -99,22 +115,176 @@ Here's a breakdown of the most commonly supported types:
     - [Blazor JSopX™ Docs Advanced Example](#blazor-jsopx-docs-advanced-example)
     - [.NET MAUI JSopX™ Docs Advanced Example](#net-maui-jsopx-docs-advanced-example)
     - [.NET MAUI XAML JSopX™ Docs Advanced Example](#net-maui-xaml-example)
+-->
+---
+
+## **Initiate Barn Door Protocol Checklist**
+
+### Step 1: Basic Development Environment Documentation
+
+#### Key Principles:
+
+- Ensure **all code and documentation** includes clear examples that match the technologies listed below.
+- Use consistent commenting and adhere to **Enterprise-Level Disciplines**.
+- Identify and address **missing or low-quality comments/documentation**.
+
+#### Key Symbols:
+
+- ✅ Fully compliant.
+- ⚠️ Needs review.
+
+#### Initiate:
+
+[Initiate Barn Door Protocol Step 1](#initiate-barn-door-protocol-step-1)
 
 ---
 
-## **Initiate Barn Door Protocol CheckList**
+### Step 2: Advanced Production Environment Documentation
 
-- [Step 1. Basic Development Environment Documentation](#step-1-basic-development-environment-documentation)
-- [Step 2. Advanced Production Environment Documentation](#step-2-advanced-production-environment-documentation)
-- [Step 3. Security & Identity](#step-3-security--identity)
+#### Key Principles:
 
-## **Step 1. Basic Development Environment Documentation**
+- **All code and documentation** must undergo advanced review prior to production.
+- Incorporate in-depth documentation, robust commenting, and enterprise-level annotations.
+- Address **security vulnerabilities** as part of the process.
+
+#### Initiate:
+
+[Initiate Barn Door Protocol Step 2](#initiate-barn-door-protocol-step-2)
+
+---
+
+### Step 3: Security & Identity
+
+#### Highlights:
+
+- Follow **strict security protocols** (e.g., XSS prevention, HTTPS enforcement).
+- Document and resolve vulnerabilities with step-by-step guides.
+- Maintain logs and records of compliance checks.
+
+#### Initiate:
+
+[Initiate Barn Door Protocol Step 3](#initiate-barn-door-protocol-step-3)
+
+---
+
+## Technology Documentation Checks
+
+### **1. Programming Languages**
+
+| Language             | Basic Documentation                               | Advanced Documentation                                  |
+|:---------------------|:--------------------------------------------------|:--------------------------------------------------------|
+| JavaScript           | [Basic](#javascript-jsopx-docs-basic-example)     | [Advanced](#javascript-jsopx-docs-advanced-example)     |
+| TypeScript           | [Basic](#typescript-jsopx-docs-basic-example)     | [Advanced](#typescript-jsopx-docs-advanced-example)     |
+| Python               | [Basic](#python-jsopx-docs-basic-example)         | [Advanced](#python-jsopx-docs-advanced-example)         |
+| C#                   | [Basic](#c-jsopx-docs-basic-example)              | [Advanced](#c-jsopx-docs-advanced-example)              |
+| Java                 | [Basic](#java-jsopx-docs-basic-example)           | [Advanced](#java-jsopx-docs-advanced-example)           |
+| PHP                  | [Basic](#php-jsopx-docs-basic-example)            | [Advanced](#php-jsopx-docs-advanced-example)            |
+| Ruby                 | [Basic](#ruby-jsopx-docs-basic-example)           | [Advanced](#ruby-jsopx-docs-advanced-example)           |
+| Angular              | [Basic](#angular-jsopx-docs-basic-example)        | [Advanced](#angular-jsopx-docs-advanced-example)        |
+| React                | [Basic](#react-jsopx-docs-basic-example)          | [Advanced](#react-jsopx-docs-advanced-example)          |
+| Vue.js               | [Basic](#vue-jsopx-docs-basic-example)            | [Advanced](#vue-jsopx-docs-advanced-example)            |
+| Blazor               | [Basic](#blazor-jsopx-docs-basic-example)         | [Advanced](#blazor-jsopx-docs-advanced-example)         |
+| .NET MAUI Hybrid     | [Basic](#net-maui-jsopx-docs-basic-example)       | [Advanced](#net-maui-jsopx-docs-advanced-example)       |
+
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **2. Markup Languages**
+
+| Language       | Basic Documentation                                   | Advanced Documentation                                   |
+|:---------------|:------------------------------------------------------|:---------------------------------------------------------|
+| HTML           | [Basic](#html-jsopx-docs-basic-example)               | [Advanced](#html-jsopx-docs-advanced-example)            |
+| XML            | [Basic](#xml-jsopx-docs-basic-example)                | [Advanced](#xml-jsopx-docs-advanced-example)             |
+| SVG            | [Basic](#svg-jsopx-docs-basic-example)                | [Advanced](#svg-jsopx-docs-advanced-example)             |
+| **XAML**       | [Basic](#net-maui-xaml-jsopx-docs-basic-example)      | [Advanced](#net-maui-xaml-jsopx-docs-basic-example)      |
+
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **3. Configuration and Query Languages**
+
+| Language       | Basic Documentation                                   | Advanced Documentation                                   |
+|:---------------|:------------------------------------------------------|:---------------------------------------------------------|
+| JSON           | [Basic](#json-jsopx-docs-basic-example)               | [Advanced](#json-jsopx-docs-advanced-example)            |
+| YAML           | [Basic](#yaml-jsopx-docs-basic-example)               | [Advanced](#yaml-jsopx-docs-advanced-example)            |
+| TOML           | [Basic](#toml-jsopx-docs-basic-example)               | [Advanced](#toml-jsopx-docs-advanced-example)            |
+| SQL            | [Basic](#sql-jsopx-docs-basic-example)                | [Advanced](#sql-jsopx-docs-advanced-example)             |
+| GraphQL        | [Basic](#graphql-jsopx-docs-basic-example)            | [Advanced](#graphql-jsopx-docs-advanced-example)         |
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **4. Scripting and Shell Languages**
+
+| Language       | Basic Documentation                                   | Advanced Documentation                                   |
+|:---------------|:------------------------------------------------------|:---------------------------------------------------------|
+| Bash           | [Basic](#bash-jsopx-docs-basic-example)               | [Advanced](#bash-jsopx-docs-advanced-example)            |
+| PowerShell     | [Basic](#powershell-jsopx-docs-basic-example)         | [Advanced](#powershell-jsopx-docs-advanced-example)      |
+| Shell          | [Basic](#shell-jsopx-docs-basic-example)              | [Advanced](#shell-jsopx-docs-advanced-example)           |
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **5. Web and Styling**
+
+| Language       | Basic Documentation                                   | Advanced Documentation                                   |
+|:---------------|:------------------------------------------------------|:---------------------------------------------------------|
+| CSS            | [Basic](#css-jsopx-docs-basic-example)        | [Advanced](#css-jsopx-docs-advanced-example)                     |
+| SCSS           | [Basic](#scss-jsopx-docs-basic-example)       | [Advanced](#scss-jsopx-docs-advanced-example)                    |
+| LESS           | [Basic](#less-jsopx-docs-basic-example)       | [Advanced](#less-jsopx-docs-advanced-example)                    |
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **6. Data Formats**
+
+| Language       | Basic Documentation                                   | Advanced Documentation                                   |
+|:---------------|:------------------------------------------------------|:---------------------------------------------------------|
+| CSV            | [Basic](#csv-jsopx-docs-basic-example)          | [Advanced](#csv-jsopx-docs-advanced-example)                   |
+| Markdown       | [Basic](#markdown-jsopx-docs-basic-example)     | [Advanced](#markdown-jsopx-docs-advanced-example)              |
+| Text           | [Basic](#text-jsopx-docs-basic-example)         | [Advanced](#text-jsopx-docs-advanced-example)                  |
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **7. Framework-Specific**
+
+| Language           | Basic Documentation                                   | Advanced Documentation                                |
+|:-------------------|:------------------------------------------------------|:------------------------------------------------------|
+| C#                 | [Basic](#c-jsopx-docs-basic-example)                  | [Advanced](#c-jsopx-docs-advanced-example)            |
+| Angular            | [Basic](#angular-jsopx-docs-basic-example)            | [Advanced](#angular-jsopx-docs-advanced-example)      |
+| React              | [Basic](#react-jsopx-docs-basic-example)              | [Advanced](#react-jsopx-docs-advanced-example)        |
+| Vue.js             | [Basic](#vue-jsopx-docs-basic-example)                | [Advanced](#vue-jsopx-docs-advanced-example)          |
+| Blazor             | [Basic](#blazor-jsopx-docs-basic-example)             | [Advanced](#blazor-jsopx-docs-advanced-example)       |
+| .NET MAUI Hybrid   | [Basic](#net-maui-jsopx-docs-basic-example)           | [Advanced](#net-maui-jsopx-docs-advanced-example)     |
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **8. Miscellaneous**
+
+| Language           | Basic Documentation                                   | Advanced Documentation                                |
+|:-------------------|:------------------------------------------------------|:------------------------------------------------------|
+| Diff/Patch        | [Basic](#diff-jsopx-docs-basic-example)                | [Advanced](#diff-jsopx-docs-advanced-example)         |
+| Dockerfile        | [Basic](#dockerfile-jsopx-docs-basic-example)          | [Advanced](#dockerfile-jsopx-docs-advanced-example)   |
+| Makefile          | [Basic](#makefile-jsopx-docs-basic-example)            | [Advanced](#makefile-jsopx-docs-advanced-example)     |
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+
+## **Initiate Barn Door Protocol Step 1**
   
-1. **We will never "_Initiate Barn Door Protocol_" on code or documentation that does not have an example listed below.**
-2. **We "_Initiate Barn Door Protocol_" on code or documentation that has a found example listed below?** If there is a match to technology, see if the code or documentation has basic documentation required in `Development` Environments that is similar to below example(s).
-3. All code and/or documentation should have basic ongoing updates to documentation (i.e., _comments, code snippets, etc._) to continue to conform to our strict-but-easy-to-follow Enterprise-Level Disciplines.
-4. Create comments for missing or low quality comments and/documentation. 
-5. The code languages we currently support are as follows:
 
 ### **JavaScript JSopX™ Docs Basic Example**
 
@@ -281,7 +451,7 @@ public partial class MainPage : ContentPage
 
 ---
 
-### **.NET MAUI XAML Example**
+### **.NET MAUI XAML JSopX™ Docs Basic Example**
 
 ```xml
 
@@ -881,13 +1051,8 @@ clean:
 
 ---
 
-## **Step 2. Advanced Production Environment Documentation**
+## **Initiate Barn Door Protocol Step 2**
 
-1. **We will never "_Initiate Barn Door Protocol_" on code or documentation that does not have an example listed below.**
-2. **We "_Initiate Barn Door Protocol_" on code or documentation that has a found example listed below?** If there is a match to technology, see if the code or documentation has advanced documentation required in `Production` Environments that is similar to below example(s).
-3. All code and/or documentation **MUST** have advanced documentation (i.e., _comments, code snippets, etc._) before the release of any code or documentation to a production-ready enviroment.
-4. Create comments for missing or low quality comments and/documentation. 
-5. The code languages we currently support are as follows:
 
 ### **JavaScript JSopX™ Docs Advanced Example**
 
@@ -1081,7 +1246,7 @@ public partial class MainPage : ContentPage
 
 ---
 
-### **.NET MAUI XAML Example**
+### **.NET MAUI XAML JSopX™ Docs Advanced Example**
 
 ```xml
 
@@ -1660,7 +1825,7 @@ clean:
 
 ---
 
-## **Step 3. Security & Identity**
+## **Initiate Barn Door Protocol Step 3**
 
 Security, Identity, Authentication and Authorization are the #1 Design Patterns all Projects and Phases must implement before final releases of all code. These rules, however, are relaxed while brainstorming code ideas, throwing first draft code together, etc. (much like documentation). Moreover, some phases will put more focus in these areas than others. Still, we should show consist care and progress in these areas indefinitely. The more we do, the more the final mature standards are all but finished by release.
 
@@ -1703,15 +1868,15 @@ to secure all applications if the information above is missing something you fee
 
 ## In Conclusion
 
-Each **code snippet example section** demonstrates a realistic, functional snippet for the specified language or file type. The examples will grow in complexity as required for future iterations. Let me know if you'd like additional snippets or specific contexts!
+The `JSopX™ & Nova Barn Door Protocol` ensures the highest standards for security, documentation, and development practices. By following these protocols, you streamline workflows, ensure compliance, and foster confidence in every phase of development.
 
 ---
 
 ## **Next Steps**
 
-1. Experiment with GitHub Actions to automate builds and tests for your JSopX™ repositories.
-2. Explore documentation on integrating Docker for containerized deployments of JSopX™ projects.
-
+1. ✅ Set up automated checks using GitHub Actions.
+2. ⚠️ Integrate Docker for containerized deployments.
+3. ✅ Regularly review documentation for compliance with the latest standards.
 
 ---
 
