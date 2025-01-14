@@ -1,0 +1,78 @@
+│   JSopX.AngularCore.sln
+│
+├───jsopx.angularcore.client
+│   │   .editorconfig
+│   │   .gitignore
+│   │   angular.json
+│   │   aspnetcore-https.js
+│   │   CHANGELOG.md
+│   │   jsopx.angularcore.client.esproj
+│   │   karma.conf.js
+│   │   package.json
+│   │   README.md
+│   │   tsconfig.app.json
+│   │   tsconfig.json
+│   │   tsconfig.spec.json
+│   │
+│   ├───.vscode
+│   │       extensions.json
+│   │       launch.json
+│   │       tasks.json
+│   │
+│   ├───public
+│   │       favicon.ico
+│   │
+│   └───src
+│       │   index.html
+│       │   main.ts
+│       │   proxy.conf.js
+│       │   styles.css
+│       │
+│       └───app
+│               app-routing.module.ts
+│               app.component.css
+│               app.component.html
+│               app.component.spec.ts
+│               app.component.ts
+│               app.module.ts
+│
+└───JSopX.AngularCore.Server
+    │   appsettings.Development.json
+    │   appsettings.json
+    │   CHANGELOG.md
+    │   JSopX.AngularCore.Server.csproj
+    │   JSopX.AngularCore.Server.csproj.user
+    │   JSopX.AngularCore.Server.http
+    │   Program.cs
+    │   WeatherForecast.cs
+    │
+    ├───bin
+    │   └───Debug
+    │       └───net9.0
+    ├───Controllers
+    │       WeatherForecastController.cs
+    │
+    ├───obj
+    │   │   JSopX.AngularCore.Server.csproj.nuget.dgspec.json
+    │   │   JSopX.AngularCore.Server.csproj.nuget.g.props
+    │   │   JSopX.AngularCore.Server.csproj.nuget.g.targets
+    │   │   project.assets.json
+    │   │   project.nuget.cache
+    │   │
+    │   └───Debug
+    │       └───net9.0
+    │           │   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+    │           │   JSopX.AngularCore.Server.AssemblyInfo.cs
+    │           │   JSopX.AngularCore.Server.AssemblyInfoInputs.cache
+    │           │   JSopX.AngularCore.Server.assets.cache
+    │           │   JSopX.AngularCore.Server.csproj.AssemblyReference.cache
+    │           │   JSopX.AngularCore.Server.GeneratedMSBuildEditorConfig.editorconfig
+    │           │   JSopX.AngularCore.Server.GlobalUsings.g.cs
+    │           │   spa.proxy.json
+    │           │   staticwebassets.removed.txt
+    │           │
+    │           ├───ref
+    │           ├───refint
+    │           └───staticwebassets
+    └───Properties
+            launchSettings.json
