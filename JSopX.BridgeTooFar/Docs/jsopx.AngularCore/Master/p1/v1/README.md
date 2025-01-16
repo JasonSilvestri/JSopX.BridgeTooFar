@@ -113,43 +113,7 @@ Ensure the following technologies and versions are installed, if your objective 
 
 ---
 
-## JSopX.AngularCore Feature Highlights
-
-It is possible for Project Feature Highlights to be different here depending on the Phase we are currently in, so be sure to double-check documentation when newly released.
-
-**The `JSopX.AngularCore` features worth mentioning are as follows**:
-
-### General Assembly
-
-- **JSopX.AngularCore.sln**: The primary `JSopX.AngularCore` Visual Studio solution already supports an Angular Client-Side SPA project and an ASP.NET Core Server-Side Web API project.
-
-### Basic Documentation 
-
-- **ReadMe.md**: Even in these early Phases, as you can see while reading along, there is at least basic comments in code and samples, and a detailed, Step-by-Step Instructions set of documentation.
-
-### Basic Security 
-
-- **Type Script**: Love it or hate it, **TypeScript** is one of the first lines of defense with respects to data normalization and security when working client-side frameworks like Angular. Some basic implementation is present in this phase and version of the application. As each phase comes and goes, we expand on this implementation, as we extend functionality like register and login support, and more.
-
-### Source Code Repository
-
-- **JSopX.AngularCore.git**: The primary `JSopX.AngularCore` Visual Studio solution already has a GitHub Repository.
-
-
-### Multi-Platform Responsive Design
-
-- Although extremely primitive, even this version of the `JSopX.AngularCore` Visual Studio solution supports basic user experiences for most smartphones, tablets, laptops, & desktop computers. Conversely, these simple implementations are nothing compared to features available to you in upcoming phases (features already developed). 
-
-
-### Weather Forecast API Sample Data & End Points
-
-- **WeatherForecastController.cs**: The primary `JSopX.AngularCore` Visual Studio solution already supports basic, randomly generated, weather forecast sample data and endpoints. 
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## JSopX.AngularCore Feature Highlights
+## Feature Highlights
 
 It is possible for Project Feature Highlights to be different here depending on the Phase we are currently in, so be sure to double-check documentation when newly released.
 
@@ -188,14 +152,14 @@ It is possible for Project Feature Highlights to be different here depending on 
 ## Getting Started with `JSopX.AngularCore`
 
 > [!WARNING]
-> This section describes a typical cloning operation using GitHub Repositories, you can use to easily get the latest `JSopX.AngularCore` project and explore it independently! To mimic the custom configuration used in the JSopX project architecture, takes some extra effort to fully implement and is not recommened.
+> This section describes a typical cloning operation using GitHub Repositories, you can use to easily get the latest `JSopX.AngularCore` project and explore it independently from all other projects! 
 > 
-> **To mimic the advanced cloning operations we use to serve the `JSopX.OpenProjectX` project suite, as an `all-projects-in-one` project and/or `independent-projects` project installations, please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
+> **To mimic the advanced cloning operations we use to serve the `JSopX.OpenProjectX` project suite, as both, an `all-projects-in-one` project and/or `independent-projects` project installations, please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
 >
 
 ---
 
-### **Independent Installation & Exploration**
+## **Independent Project Installation & Exploration**
 
 The [JSopX™ Visual Studio Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjects.md) collectively form the backbone of the entire suite, each project serving a distinct yet complementary role.
 
@@ -206,8 +170,11 @@ The result is an environment that transforms a patchwork of independent solution
 As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve, adapt, and retain their own identity.
 
 
-### **Step-by-Step Instructions**
+[`Back to Top`](#table-of-contents)
 
+---
+
+## **Step-by-Step Instructions**
 
 ### Step 1: Clone the Repository
 
@@ -342,24 +309,24 @@ JSopX.AngularCore/
 
 Here’s the same structure for `JSopX.AngularCore` expanded on in table format:
 
-| **File/Directory**                   | **Description**                                                                  |
-|:-------------------------------------|:---------------------------------------------------------------------------------|
-| 📁 **JSopX.AngularCore**             | Root folder for the AngularCore project, containing both client and server code. |
-| 📁 **jsopx.angularcore.client**      | Angular client-side application folder, housing the front-end implementation.    |
-| 📝 `jsopx.angularcore.client.esproj` | Angular client-side Visual Studio project `.esproj` configuration file, housing the front-end implementation.    |
-| 📝 `angular.json`                    | Angular CLI configuration file for workspace and project settings.               |
-| 📝 `package.json`                    | NPM metadata file listing project dependencies and scripts.                      |
-| 📁 `src/`                            | Main source directory for Angular, containing app components and assets.         |
-| 📁 `src/app/`                        | Core Angular modules, components, and routing configurations.                    |
-| 📝 `src/index.html`                  | Root HTML file that bootstraps the Angular application.                          |
-| 📝 `src/main.ts`                     | Entry point file where Angular initializes and bootstraps the application.       |
-| 📁 **JSopX.AngularCore.Server**      | ASP.NET Core server-side folder for back-end logic and API endpoints.            |
-| 📝 `JSopX.AngularCore.Server.csproj` | Angular server-side Visual Studio project `.csproj` configuration file, housing the back-end implementation.    |
-| 📝 `Program.cs`                      | Main entry point for the ASP.NET Core application, initializing services.        |
-| 📁 `Controllers/`                    | Contains API controllers that handle HTTP requests and responses.                |
-| 📝 `appsettings.json`                | Configuration file for application settings like connection strings.             |
-| 📝 `WeatherForecast.cs`              | Example model class provided by ASP.NET Core templates for demonstration.        |
-| 📝 **JSopX.AngularCore.sln**         | Visual Studio solution file linking the client and server projects.              |
+| **File/Directory**                     | **Description**                                                                  |
+|:---------------------------------------|:---------------------------------------------------------------------------------|
+| 📁 **JSopX.AngularCore**               | Root folder for the AngularCore project, containing both client and server code. |
+| 📁 **jsopx.angularcore.client**        | Angular client-side application folder, housing the front-end implementation.    |
+| 📝 `jsopx.angularcore.client.esproj`   | Angular client-side Visual Studio project `.esproj` configuration file, housing the front-end implementation.    |
+| 📝 `angular.json`                      | Angular CLI configuration file for workspace and project settings.               |
+| 📝 `package.json`                      | NPM metadata file listing project dependencies and scripts.                      |
+| 📁 `src/`                              | Main source directory for Angular, containing app components and assets.         |
+| 📁 `src/app/`                          | Core Angular modules, components, and routing configurations.                    |
+| 📝 `src/index.html`                    | Root HTML file that bootstraps the Angular application.                          |
+| 📝 `src/main.ts`                       | Entry point file where Angular initializes and bootstraps the application.       |
+| 📁 **JSopX.AngularCore.Server**        | ASP.NET Core server-side folder for back-end logic and API endpoints.            |
+| 📝 `JSopX.AngularCore.Server.csproj`   | Angular server-side Visual Studio project `.csproj` configuration file, housing the back-end implementation.    |
+| 📝 `Program.cs`                        | Main entry point for the ASP.NET Core application, initializing services.        |
+| 📁 `Controllers/`                      | Contains API controllers that handle HTTP requests and responses.                |
+| 📝 `appsettings.json`                  | Configuration file for application settings like connection strings.             |
+| 📝 `WeatherForecast.cs`                | Example model class provided by ASP.NET Core templates for demonstration.        |
+| 📝 **JSopX.AngularCore.sln**           | Visual Studio solution file linking the client and server projects.              |
 
 
 [`Back to Top`](#table-of-contents)
@@ -381,11 +348,14 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
    - Import shared constants, enums, or utility methods from `JSopX.AngularCore`.
 
    Example:
+
    ```csharp
+
    using JSopX.AngularCore.Utilities;
 
    var utility = new ExampleUtility();
    var result = utility.PerformTask();
+
    ```
 
 [`Back to Top`](#table-of-contents)
