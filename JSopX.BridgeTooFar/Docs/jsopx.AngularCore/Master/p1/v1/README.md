@@ -288,12 +288,18 @@ JSopX.AngularCore/
 
 ## **Extended Usage**
 
-### Angular Client
+> [!TIP]
+> These particular `Extended Uasage` examples are not required.
+>
+
+---
+
+### Angular Client Project
 
 1. Modify the `proxy.conf.js` file to include the API URL.
 2. Use Angular services to consume APIs exposed by the server project.
 
-### ASP.NET Core Server
+### ASP.NET Core Server Project
 
 1. Add dependency injection for shared services in `Program.cs`:
 
@@ -314,35 +320,15 @@ JSopX.AngularCore/
 - Extend the Angular app with custom modules.
 - Configure CI/CD pipelines for automated builds.
 
----
-
-## Project Feature Highlights:
-
-### JSopX.AngularCore
-
-- **JSopX.AngularCore.sln**: The primary Visual Studio solution for the projects.
-
-### jsopx.angularcore.client
-
-- **jsopx.angularcore.client.esproj**: The primary Visual Studio Angular Client-Side SPA project.
-
-### JSopX.AngularCore.Server
-
-- **JSopX.AngularCore.Server.csproj**: The primary Visual Studio Asp.NET Core Server-Side "Existing" Web API project.
-
 [`Back to Top`](#table-of-contents)
 
-
 ---
-
 
 ## In Conclusion
 
 The `JSopX.AngularCore` Project (i.e., _jSilvestri.com BETA v 2025 JSopX™ Angular Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™` Enterprise-Level Application.
 
 By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.AngularCore` across projects.
-
-[`Back to Top`](#table-of-contents)
 
 ---
 
