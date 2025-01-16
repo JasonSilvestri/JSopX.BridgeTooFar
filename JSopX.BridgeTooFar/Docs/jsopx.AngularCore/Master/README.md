@@ -43,11 +43,12 @@ Explore the [Overview](#overview) section for more details on the JSopX™ Angul
 
 ## Overview
 
+
 The `JsopX.AngularCore` **JSopX™ Angular Core Open Project EXperience**  is a demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API, while anticipating it becoming part of a unified enterprise solution. 
 
-It highlights the integration of Angular for the client-side with ASP.NET Core for the server-side, providing a comprehensive example of a modern web application stack. More importantly, it's primary use-case in the JSopX™ Enterprise-Level Application is to simulate an ["Existing" Client-side Apps Example](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples), with its own Web API, and its own existing standards. 
+It highlights the integration of Angular for the client-side with ASP.NET Core for the server-side, providing a comprehensive example of a modern web application stack. More importantly, its primary use case in the JSopX™ Enterprise-Level Application is to simulate an ["Existing" Client-side Apps Example](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples), with its own Web API, and its own existing standards. 
 
-The end goal is seamlessly incorporating it into our collective enterprise suite, adopting its new parent's Web API, Assets, Standards, etc.
+The end goal is seamlessly incorporating it into our collective enterprise suite, adopting its new parent's Web API, assets, standards, etc.
 
 ![JSopX™ Angular Core Open Project EXperience](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/documentation/jsopx-angular-core/p1/v1/JSopX-Angular-Core-Splash.PNG)
 
@@ -68,7 +69,7 @@ The end goal is seamlessly incorporating it into our collective enterprise suite
 
 **Staying on course with `JSopX.AngularCore` Independent Exploration**?
 
-Ensure the following technologies and versions are installed, even if your only objective is to explore the `JSopX.AngularCore` project independent from all other projects:
+Ensure the following technologies and versions are installed, even if your only objective is to explore the `JSopX.AngularCore` project independently from all other projects:
 
 - [Visual Studio (v 17.12.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#visual-studio-v-17123).
 - [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-framework-v-900).
@@ -76,12 +77,11 @@ Ensure the following technologies and versions are installed, even if your only 
 - [Node.js (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#node-v-20140).
 - [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#angular-cli-v-1803).
 
-
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## **Corequisites﻿**
+## **Corequisites**
 
 **Plan to Eventually Explore ALL `JSopX.OpenProjectX` Projects**?
 
@@ -101,14 +101,13 @@ Ensure the following technologies and versions are installed, if your objective 
 - [Bash](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#bash)
 - [Powershell](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#powershell)
 
-
 [`Back to Top`](#table-of-contents)
 
 ---
 
 ## **Postrequisites**
 
-- I am still in discovery with [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#angular-cli-v-1803). If you find a bug, see something I may not be implementing correctly, or something else, please do not hesistate to call me out. 
+- I am still in discovery with [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#angular-cli-v-1803). If you find a bug, see something I may not be implementing correctly, or something else, please do not hesitate to call me out. 
 
 [`Back to Top`](#table-of-contents)
 
@@ -120,6 +119,41 @@ It is possible for Project Feature Highlights to be different here depending on 
 
 **The `JSopX.AngularCore` features worth mentioning are as follows**:
 
+### General Assembly
+
+- **JSopX.AngularCore.sln**: The primary `JSopX.AngularCore` Visual Studio solution already supports an Angular Client-Side SPA project and an ASP.NET Core Server-Side Web API project.
+
+### Basic Documentation 
+
+- **ReadMe.md**: Even in these early Phases, as you can see while reading along, there is at least basic comments in code and samples, and a detailed, Step-by-Step Instructions set of documentation.
+
+### Basic Security 
+
+- **Type Script**: Love it or hate it, **TypeScript** is one of the first lines of defense with respects to data normalization and security when working client-side frameworks like Angular. Some basic implementation is present in this phase and version of the application. As each phase comes and goes, we expand on this implementation, as we extend functionality like register and login support, and more.
+
+### Source Code Repository
+
+- **JSopX.AngularCore.git**: The primary `JSopX.AngularCore` Visual Studio solution already has a GitHub Repository.
+
+
+### Multi-Platform Responsive Design
+
+- Although extremely primitive, even this version of the `JSopX.AngularCore` Visual Studio solution supports basic user experiences for most smartphones, tablets, laptops, & desktop computers. Conversely, these simple implementations are nothing compared to features available to you in upcoming phases (features already developed). 
+
+
+### Weather Forecast API Sample Data & End Points
+
+- **WeatherForecastController.cs**: The primary `JSopX.AngularCore` Visual Studio solution already supports basic, randomly generated, weather forecast sample data and endpoints. 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## JSopX.AngularCore Feature Highlights
+
+It is possible for Project Feature Highlights to be different here depending on the Phase we are currently in, so be sure to double-check documentation when newly released.
+
+**The `JSopX.AngularCore` features worth mentioning are as follows**:
 
 ### General Assembly
 
@@ -151,7 +185,7 @@ It is possible for Project Feature Highlights to be different here depending on 
 
 ---
 
-## Getting Started
+## Getting Started with `JSopX.AngularCore`
 
 > [!WARNING]
 > This section describes a typical cloning operation using GitHub Repositories, you can use to easily get the latest `JSopX.AngularCore` project and explore it independently! To mimic the custom configuration used in the JSopX project architecture, takes some extra effort to fully implement and is not recommened.
@@ -161,17 +195,19 @@ It is possible for Project Feature Highlights to be different here depending on 
 
 ---
 
-### **Step-by-Step Instructions**
+### **Independent Installation & Exploration**
 
-The JSopX™ Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role.
+The [JSopX™ Visual Studio Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjects.md) collectively form the backbone of the entire suite, each project serving a distinct yet complementary role.
 
 By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 
-The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve, adapt, and retain their own identity.
+The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. 
 
-Case in Point...
+As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve, adapt, and retain their own identity.
 
----
+
+### **Step-by-Step Instructions**
+
 
 ### Step 1: Clone the Repository
 
@@ -180,6 +216,7 @@ Case in Point...
 2. _Clone_ the `JSopX.AngularCore` GitHub Repository:
  
     **2.1: Using `Bash`:**
+ 
     ```bash
 
     # Using Bash: Clone JSopX.AngularCore Git Repository
@@ -193,6 +230,7 @@ Case in Point...
     ```
     
     **2.2: Using `Powershell`:**
+
     ```powershell
 
     # Using PowerShell: Clone JSopX.AngularCore Git Repository
@@ -208,18 +246,22 @@ Case in Point...
     **2.3: Using `Node.js` or `npm` (degit):**
  
     ```shell
+
     # Using Node.js / npm : Clone JSopX.AngularCore Git Repository
     # 1. Navigate to the desired local directory where you plan to clone the repository
     cd path\to\local\repo\JSopX.AngularCore
     
     # 2. Using npx degit to clone without .git history
     npx degit JasonSilvestri/JSopX.AngularCore
+
     ```
 
 3. Navigate to the project directory:
 
    ```bash
+
    cd JSopX.AngularCore
+
    ```
 
 [`Back to Top`](#table-of-contents)
@@ -270,14 +312,12 @@ Case in Point...
 [`Back to Top`](#table-of-contents)
 
 ---
+
 ## **Project File Structure**
 
 The `JSopX.AngularCore` Project contains several files and directories, all with their own functionality & purpose for existing. Conversely, there are some core files and directories that have special consideration. They are as follows: 
 
 ### **File Tree**:
-
-
-Here’s the basic file tree structure for `JSopX.AngularCore` in plain text format:
 
 ```plaintext
 JSopX.AngularCore/
@@ -326,87 +366,112 @@ Here’s the same structure for `JSopX.AngularCore` expanded on in table format:
 
 ---
 
-## Usage
+## **Usage**
 
 ### Adding the JSopX™ Angular Core to Other Projects
 
-Even though the JSopX™ Angular Core `JSopX.AngularCore` Project isn't as widely used by all JSopX™ Projects, as say, the JSopX™ Class Library `JSopX.ClassLibrary` Project, it is a dependency of the `JSopX.OpenProjectX` Project just like all other JSopX Projects are, it was still designed to be portable and independently explored. 
-
-It's because of this, you being able to add the JSopX™ Angular Core to Other Projects is a practical exercise for you to understand. 
+Although the `JSopX.AngularCore` project is primarily designed as a self-contained demonstration project, it is fully capable of integration with other JSopX™ projects. Here's how to add it to your project:
 
 1. **Add Project Reference**:
-
-    - In the solution that requires the common library, right-click on the project in Solution Explorer.
-    - Select `Add` > `Reference`.
-    - Check the box for `JSopX.AngularCore` and click `OK`.
-
-2. **Use the Common Code**:
-
-    - You can now use the constants, enums, and helpers from the `JSopX.AngularCore` in your other projects.
-    
-[`Back to Top`](#table-of-contents)
-
----
-
-<!--
-## **Usage**
-
-### Adding `JSopX.AngularCore` to Other Projects
-
-1. **Add Project Reference**:
-
-   - In Visual Studio, right-click the target project in Solution Explorer.
-   - Select `Add > Project Reference`.
-   - Check `JSopX.AngularCore` and click `OK`.
+   - Open your solution in Visual Studio.
+   - Right-click the project that will use `JSopX.AngularCore` and select `Add > Project Reference`.
+   - Check the box for `JSopX.AngularCore` and click `OK`.
 
 2. **Use Shared Code**:
+   - Import shared constants, enums, or utility methods from `JSopX.AngularCore`.
 
-   - Import shared constants, enums, or helpers from `JSopX.AngularCore`.
+   Example:
+   ```csharp
+   using JSopX.AngularCore.Utilities;
+
+   var utility = new ExampleUtility();
+   var result = utility.PerformTask();
+   ```
 
 [`Back to Top`](#table-of-contents)
 
----
 
- -->
+---
 
 ## **Extended Usage**
 
 > [!TIP]
-> These particular `Extended Uasage` examples are not required.
+> These particular `Extended Usage` examples **are not** required to implement. They are just example extended usages for those of whom are new to projects like the `JSopX.AngularCore` Project.
 >
 
 ---
 
 ### Angular Client Project
 
-1. Modify the `proxy.conf.js` file to include the API URL.
+1. Modify the `proxy.conf.js` file to configure the API URL.
 2. Use Angular services to consume APIs exposed by the server project.
+
+   Example service file in Angular:
+   ```typescript
+   import { HttpClient } from '@angular/common/http';
+   import { Injectable } from '@angular/core';
+
+   @Injectable({
+     providedIn: 'root',
+   })
+   export class ExampleService {
+     private apiUrl = 'https://localhost:5001/api/example';
+
+     constructor(private http: HttpClient) {}
+
+     getExampleData() {
+       return this.http.get(`${this.apiUrl}`);
+     }
+   }
+   ```
+ 
+[`Back to Top`](#table-of-contents)
+
+---
 
 ### ASP.NET Core Server Project
 
 1. Add dependency injection for shared services in `Program.cs`:
 
    ```csharp
-   builder.Services.AddSingleton<MySharedService>();
+   builder.Services.AddScoped<ExampleService>();
    ```
 
-2. Create or modify controllers to expose new endpoints.
+2. Create or modify controllers to expose endpoints:
+
+   ```csharp
+   [ApiController]
+   [Route("api/[controller]")]
+   public class ExampleController : ControllerBase {
+       private readonly ExampleService _service;
+
+       public ExampleController(ExampleService service) {
+           _service = service;
+       }
+
+       [HttpGet]
+       public IActionResult GetExample() {
+           var data = _service.GetExampleData();
+           return Ok(data);
+       }
+   }
+   ```
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## JSopX™ Project References & Dependencies
+## **JSopX™ Project References & Dependencies**
 
-What makes the **`JSopX.AngularCore`** Project—and the entire Jason Silvestri Open Project EXperiences (JSopX™) collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
+The `JSopX.AngularCore` project leverages shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability.
 
-The _Project References_ included in the **`JSopX.AngularCore`** Project are as follows:
+1. **`JSopX.BridgeTooFar`**:
+   - Contains reusable static assets and project documentation.
+   - Repository: [JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)
 
-1. [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/):
-    - A new project being developed, containing base static reusable assets often derived by the primary Shared Resources, Class Libraries and Razor Class Libraries. However, documentation is currently its primary function.
-
-2. [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/):
-    - A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
+2. **`JSopX.ClassLibrary`**:
+   - Houses shared business logic and helper methods.
+   - Repository: [JSopX.ClassLibrary](https://github.com/JasonSilvestri/JSopX.ClassLibrary)
 
 [`Back to Top`](#table-of-contents)
 
@@ -414,10 +479,11 @@ The _Project References_ included in the **`JSopX.AngularCore`** Project are as 
 
 ## **Next Steps**
 
-- Document additional features.
-- Extend the Angular app with custom modules.
-- Configure CI/CD pipelines for automated builds.
+- Document additional features for subsequent phases.
+- Extend the Angular app by adding more advanced modules and reusable components.
+- Configure CI/CD pipelines for automated testing and deployment.
 
+[`Back to Top`](#table-of-contents)
 
 ---
 
@@ -428,4 +494,3 @@ The _Project References_ included in the **`JSopX.AngularCore`** Project are as 
 ##### [JSopX.com](https://www.jsopx.com/) | [Jason's Official Website](https://www.jsilvestri.com/) | [X](https://www.x.com/JasonSilvestri) | [LinkedIn](http://www.linkedin.com/in/JasonSilvestri) | [GitHub](https://github.com/JasonSilvestri) | [Gmail](mailto:therealjasonsilvestri@gmail.com) | [Phone : 508-851-9445](phoneto:508-851-9445)
 
 ###### Copyright © 2025 - All Rights Reserved by Jason Silvestri
-
