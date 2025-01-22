@@ -14,7 +14,7 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 - [Prerequisites](#prerequisites)
 - [Corequisites](#corequisites)
 - [Current JSopX™ Technology Requirements](#current-jsopx-technology-requirements)
-    - [Visual Studio (v 17.12.3)](#visual-studio-v-17123)
+    - [Visual Studio (v 17.12.4)](#visual-studio-v-17123)
     - [.NET Framework (v 9.0.0)](#net-framework-v-900)
     - [ASP.NET Core (v 9.0.0)](#aspnet-core-v-900)
     - [.NET Core Blazor (v 9.0.0)](#net-core-blazor-v-900)
@@ -72,9 +72,9 @@ To get the most out of this document:
 
 ---
 
-### Visual Studio (v 17.12.3)
+### Visual Studio (v 17.12.4)
 - Download: [Visual Studio](https://visualstudio.microsoft.com/)
-- JSopX™ BridgeTooFar GitHub: [Visual Studio (v 17.12.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudios.md)
+- JSopX™ BridgeTooFar GitHub: [Visual Studio (v 17.12.4)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudios.md)
 - JSopX™ projects require Visual Studio to build and manage solutions efficiently.
 - Ensure you have all necessary workloads installed, including ASP.NET and web development, desktop development with .NET, and Azure development.
 

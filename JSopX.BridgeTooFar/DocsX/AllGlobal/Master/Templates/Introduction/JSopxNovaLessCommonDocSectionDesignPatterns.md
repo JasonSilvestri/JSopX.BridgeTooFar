@@ -281,7 +281,7 @@ Visit the offical **`Visual Studios`** _site_ and/or _documentation_ if:
    
 #### Step-by-Step Instructions:
    
-Visit [Visual Studio v 17.12.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.12.3`** (_or higher_).
+Visit [Visual Studio v 17.12.4 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.12.3`** (_or higher_).
 
 
 ```
@@ -345,7 +345,7 @@ Let's picture we are a technology or project that requires one or more technolog
 The following Technologies are required for _JSopX™ Open Project EXperiences Collection_ Projects to work as expected:
 
 - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
-- [Visual Studio (v 17.12.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudios.md)
+- [Visual Studio (v 17.12.4)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudios.md)
 - [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
