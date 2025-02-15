@@ -14,7 +14,7 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 - [Prerequisites](#prerequisites)
 - [Corequisites](#corequisites)
 - [Current JSopX™ Technology Requirements](#current-jsopx-technology-requirements)
-    - [Visual Studio (v 17.13.0)](#visual-studio-v-17123)
+    - [Visual Studio (v 17.13.0)](#visual-studio-v-17130)
     - [.NET Framework (v 9.0.0)](#net-framework-v-900)
     - [ASP.NET Core (v 9.0.0)](#aspnet-core-v-900)
     - [.NET Core Blazor (v 9.0.0)](#net-core-blazor-v-900)
