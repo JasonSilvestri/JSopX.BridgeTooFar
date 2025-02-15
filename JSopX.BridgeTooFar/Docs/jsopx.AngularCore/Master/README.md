@@ -71,7 +71,7 @@ The end goal is seamlessly incorporating it into our collective enterprise suite
 
 Ensure the following technologies and versions are installed, even if your only objective is to explore the `JSopX.AngularCore` project independently from all other projects:
 
-- [Visual Studio (v 17.12.4)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#visual-studio-v-17123).
+- [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#visual-studio-v-17123).
 - [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-framework-v-900).
 - [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#aspnet-core-v-900).
 - [Node.js (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#node-v-20140).
@@ -87,7 +87,7 @@ Ensure the following technologies and versions are installed, even if your only 
 
 Ensure the following technologies and versions are installed, if your objective is to explore ALL projects that make up the `JSopX.OpenProjectX` enterprise-application suite:
 
-- [Visual Studio (v 17.12.4)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#visual-studio-v-17123)
+- [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#visual-studio-v-17123)
 - [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-framework-v-900)
 - [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#aspnet-core-v-900)
 - [.NET Core Blazor (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-core-blazor-v-900)
@@ -237,7 +237,7 @@ As you delve deeper, you’ll discover how each project type fits into this gran
 
 ### Step 2: Open the Solution
 
-1. Launch **Visual Studio (v 17.12.4)**.
+1. Launch **Visual Studio (v 17.13.0)**.
 2. Open the solution file: `JSopX.AngularCore.sln`.
 
 [`Back to Top`](#table-of-contents)
