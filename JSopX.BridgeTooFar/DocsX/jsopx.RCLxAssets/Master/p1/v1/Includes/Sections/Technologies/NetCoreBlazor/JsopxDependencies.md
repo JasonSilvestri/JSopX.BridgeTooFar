@@ -1,5 +1,5 @@
 ﻿
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core Blazor` **`8.0.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core Blazor` **`9.0.0`** (_or higher_) are as follows:
 
 - [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/README.md)
   - [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/README.md)

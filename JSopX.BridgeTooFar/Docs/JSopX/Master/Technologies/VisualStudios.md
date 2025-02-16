@@ -31,7 +31,7 @@ This section is dedicated to helping you ensure you have the correct `Visual Stu
     
 ## Visual Studio: `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.10.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.13.0`** (_or higher_) are as follows:
 
 
 - [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)

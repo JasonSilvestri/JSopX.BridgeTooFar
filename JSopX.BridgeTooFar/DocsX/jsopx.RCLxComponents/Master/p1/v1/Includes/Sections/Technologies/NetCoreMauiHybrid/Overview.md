@@ -1,7 +1,7 @@
 ﻿
-**.Net Core Maui Hybrid v `8.0.3` (_or higher_) Required**
+**.Net Core Maui Hybrid v `9.0.0` (_or higher_) Required**
 
-For cross-platform applications within the JSopX™ ecosystem, the JSopX™ Open Project EXperiences _require_ `.Net Core Maui Hybrid` v **`8.0.3`** (_or higher_). This framework allows you to build native apps for Android, iOS, macOS, and Windows with a single codebase. Ensure you have this version or newer installed to develop and run JSopX™ mobile and desktop applications.
+For cross-platform applications within the JSopX™ ecosystem, the JSopX™ Open Project EXperiences _require_ `.Net Core Maui Hybrid` v **`9.0.0`** (_or higher_). This framework allows you to build native apps for Android, iOS, macOS, and Windows with a single codebase. Ensure you have this version or newer installed to develop and run JSopX™ mobile and desktop applications.
 
 Ensure you have this version or newer installed to develop and run JSopX™ mobile and desktop applications.
 

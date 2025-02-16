@@ -1,9 +1,9 @@
 ﻿
-Install `.Net Core Maui Hybrid` v **`8.0.3`** (_or higher_) if it is not already installed or found on your device.
+Install `.Net Core Maui Hybrid` v **`9.0.0`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.Net Core Maui Hybrid` v `8.0.3` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.Net Core Maui Hybrid` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 

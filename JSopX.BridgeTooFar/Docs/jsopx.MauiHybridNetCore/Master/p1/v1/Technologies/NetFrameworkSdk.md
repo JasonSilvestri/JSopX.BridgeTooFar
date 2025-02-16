@@ -1,7 +1,7 @@
 ﻿# .NET Framework SDK:
-###### .NET Framework SDK v `8.0.3` (_or higher_) Required
+###### .NET Framework SDK v `9.0.0` (_or higher_) Required
 
-Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`8.0.3`** (_or higher_).
+Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`9.0.0`** (_or higher_).
 
 ### .NET Framework SDK : Table of Contents
 
@@ -17,7 +17,7 @@ Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **
 ---
 
 ### .NET Framework SDK : Overview
-Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`8.0.3`** (_or higher_), and is is essential for developing JSopX™ projects. This SDK provides the tools and libraries necessary for building, running, and managing .NET applications.
+Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`9.0.0`** (_or higher_), and is is essential for developing JSopX™ projects. This SDK provides the tools and libraries necessary for building, running, and managing .NET applications.
 
 Make sure you have this version or later to take full advantage of the features and improvements in the .NET ecosystem.
 
@@ -32,7 +32,7 @@ This section is dedicated to helping you ensure you have the correct `.NET Frame
     
 ## .NET Framework SDK: `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Framework SDK` **`8.0.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Framework SDK` **`9.0.0`** (_or higher_) are as follows:
 
 
 - [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
@@ -60,11 +60,11 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
 
 ## .NET Framework SDK: Checking Versions
 
-Check if `.NET Framework SDK` v **`8.0.3`** (_or higher_) is installed on your device.
+Check if `.NET Framework SDK` v **`9.0.0`** (_or higher_) is installed on your device.
 
 #### Step-by-Step Instructions:
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Framework SDK` v `8.0.3` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Framework SDK` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -77,9 +77,9 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
    
 2. This command checks the `version` of `.NET Framework SDK` on your device, and then prints back your version to the `Powershell` Command Line dialog output.
    
-3. If you have version `.NET Framework SDK` v **`8.0.3`** (_or higher_), you are _good to go_, and no further action is needed!
+3. If you have version `.NET Framework SDK` v **`9.0.0`** (_or higher_), you are _good to go_, and no further action is needed!
    
-If you do not have .NET Framework SDK installed or you version is **`lower`** than `.NET Framework SDK` v **`8.0.3`**, it is recommended that you install it _immediately_ to avoid unexpected results.
+If you do not have .NET Framework SDK installed or you version is **`lower`** than `.NET Framework SDK` v **`9.0.0`**, it is recommended that you install it _immediately_ to avoid unexpected results.
    
 
 
@@ -90,11 +90,11 @@ If you do not have .NET Framework SDK installed or you version is **`lower`** th
 
 ## .NET Framework SDK: Installation:
 
-Install `.NET Framework SDK` v **`8.0.3`** (_or higher_) if it is not already installed or found on your device.
+Install `.NET Framework SDK` v **`9.0.0`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Framework SDK` v `8.0.3` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Framework SDK` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
@@ -119,12 +119,12 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 Visit the offical **`.NET Framework SDKs`** _site_ and/or _documentation_ if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`.NET Framework SDK`** v **`8.0.3`**
+2. You would rather manually install **`.NET Framework SDK`** v **`9.0.0`**
 3. You prefer some documentation first
    
 #### Step-by-Step Instructions:
    
-Visit [.NET Framework SDK v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `.NET Framework SDK` or `.NET Framework SDK Code` v **`8.0.3`** (_or higher_).
+Visit [.NET Framework SDK v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `.NET Framework SDK` or `.NET Framework SDK Code` v **`9.0.0`** (_or higher_).
    
 
 
@@ -134,7 +134,7 @@ Visit [.NET Framework SDK v 8.0.3 Documentation](https://learn.microsoft.com/en-
 
 
 ## .NET Framework SDK : In Conclusion
-It would not be under selling it by saying that installing `.NET Framework SDK` v **`8.0.3`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
+It would not be under selling it by saying that installing `.NET Framework SDK` v **`9.0.0`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 
 

@@ -1,5 +1,5 @@
 ﻿
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.Net Core Maui Hybrid` **`8.0.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.Net Core Maui Hybrid` **`9.0.0`** (_or higher_) are as follows:
 
 - [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/README.md)
   - [`JSopX.RCLxComponents`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxComponents/Master/p1/v1/README.md)

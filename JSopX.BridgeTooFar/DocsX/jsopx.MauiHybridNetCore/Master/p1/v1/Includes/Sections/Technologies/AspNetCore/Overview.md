@@ -1,8 +1,8 @@
 ﻿
 
-**ASP.NET Core v `8.0.3` (_or higher_) Required**
+**ASP.NET Core v `9.0.0` (_or higher_) Required**
  
-Almost all JSopX™ Open Project EXperiences _require_ `ASP.NET Core` v **`8.0.3`** (_or higher_), and is required to `build`, `run`, and `deploy` the server-side components of JSopX™ projects. 
+Almost all JSopX™ Open Project EXperiences _require_ `ASP.NET Core` v **`9.0.0`** (_or higher_), and is required to `build`, `run`, and `deploy` the server-side components of JSopX™ projects. 
 
 This version provides enhanced performance, security features, and support for modern development practices, ensuring that your applications are efficient and secure.
 

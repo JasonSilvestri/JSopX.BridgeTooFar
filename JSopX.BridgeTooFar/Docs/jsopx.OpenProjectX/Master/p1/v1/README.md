@@ -523,7 +523,7 @@ This section is dedicated to helping you ensure you have the correct `Visual Stu
     
 ## Visual Studio: `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.10.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.13.0`** (_or higher_) are as follows:
 
 - [`JSopX.OpenProjectX`](#jsopxopenprojectx)
   - [`JSopX.BridgeTooFar`](#jsopxbridgetoofar)
@@ -643,9 +643,9 @@ It would not be under selling it by saying that installing `Visual Studio` v **`
 <br/>
 
 # .NET Framework SDK:
-###### .NET Framework SDK v `8.0.3` (_or higher_) Required
+###### .NET Framework SDK v `9.0.0` (_or higher_) Required
 
-Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`8.0.3`** (_or higher_).
+Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`9.0.0`** (_or higher_).
 
 ### .NET Framework SDK : Table of Contents
 
@@ -661,7 +661,7 @@ Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **
 ---
 
 ### .NET Framework SDK : Overview
-Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`8.0.3`** (_or higher_), and is is essential for developing JSopX™ projects. This SDK provides the tools and libraries necessary for building, running, and managing .NET applications.
+Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`9.0.0`** (_or higher_), and is is essential for developing JSopX™ projects. This SDK provides the tools and libraries necessary for building, running, and managing .NET applications.
 
 Make sure you have this version or later to take full advantage of the features and improvements in the .NET ecosystem.
 
@@ -676,7 +676,7 @@ This section is dedicated to helping you ensure you have the correct `.NET Frame
     
 ## .NET Framework SDK: `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Framework SDK` **`8.0.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Framework SDK` **`9.0.0`** (_or higher_) are as follows:
 
 - [`JSopX.OpenProjectX`](#jsopxopenprojectx)
   - [`JSopX.BridgeTooFar`](#jsopxbridgetoofar)
@@ -708,11 +708,11 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
 
 ## .NET Framework SDK: Checking Versions
 
-Check if `.NET Framework SDK` v **`8.0.3`** (_or higher_) is installed on your device.
+Check if `.NET Framework SDK` v **`9.0.0`** (_or higher_) is installed on your device.
 
 #### Step-by-Step Instructions:
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Framework SDK` v `8.0.3` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Framework SDK` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -725,9 +725,9 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
    
 2. This command checks the `version` of `.NET Framework SDK` on your device, and then prints back your version to the `Powershell` Command Line dialog output.
    
-3. If you have version `.NET Framework SDK` v **`8.0.3`** (_or higher_), you are _good to go_, and no further action is needed!
+3. If you have version `.NET Framework SDK` v **`9.0.0`** (_or higher_), you are _good to go_, and no further action is needed!
    
-If you do not have .NET Framework SDK installed or you version is **`lower`** than `.NET Framework SDK` v **`8.0.3`**, it is recommended that you install it _immediately_ to avoid unexpected results.
+If you do not have .NET Framework SDK installed or you version is **`lower`** than `.NET Framework SDK` v **`9.0.0`**, it is recommended that you install it _immediately_ to avoid unexpected results.
    
 <br/>
 
@@ -738,11 +738,11 @@ If you do not have .NET Framework SDK installed or you version is **`lower`** th
 
 ## .NET Framework SDK: Installation:
 
-Install `.NET Framework SDK` v **`8.0.3`** (_or higher_) if it is not already installed or found on your device.
+Install `.NET Framework SDK` v **`9.0.0`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Framework SDK` v `8.0.3` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Framework SDK` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
@@ -767,12 +767,12 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 Visit the offical **`.NET Framework SDKs`** _site_ and/or _documentation_ if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`.NET Framework SDK`** v **`8.0.3`**
+2. You would rather manually install **`.NET Framework SDK`** v **`9.0.0`**
 3. You prefer some documentation first
    
 #### Step-by-Step Instructions:
    
-Visit [.NET Framework SDK v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `.NET Framework SDK` or `.NET Framework SDK Code` v **`8.0.3`** (_or higher_).
+Visit [.NET Framework SDK v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `.NET Framework SDK` or `.NET Framework SDK Code` v **`9.0.0`** (_or higher_).
    
 
 <br/>
@@ -782,7 +782,7 @@ Visit [.NET Framework SDK v 8.0.3 Documentation](https://learn.microsoft.com/en-
 <br/>
 
 ## .NET Framework SDK : In Conclusion
-It would not be under selling it by saying that installing `.NET Framework SDK` v **`8.0.3`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
+It would not be under selling it by saying that installing `.NET Framework SDK` v **`9.0.0`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 <br/>
 
@@ -795,9 +795,9 @@ It would not be under selling it by saying that installing `.NET Framework SDK` 
 <br/>
 
 # ASP.NET Core:
-###### ASP.NET Core v `8.0.3` (_or higher_) Required
+###### ASP.NET Core v `9.0.0` (_or higher_) Required
 
-Almost all JSopX™ Open Project EXperiences _require_ `ASP.NET Core` v **`8.0.3`** (_or higher_).
+Almost all JSopX™ Open Project EXperiences _require_ `ASP.NET Core` v **`9.0.0`** (_or higher_).
 
 ### ASP.NET Core : Table of Contents
 
@@ -809,7 +809,7 @@ Almost all JSopX™ Open Project EXperiences _require_ `ASP.NET Core` v **`8.0.3
 - [In Conclusion](#aspnet-core--in-conclusion)
 
 ### ASP.NET Core : Overview
-Almost all JSopX™ Open Project EXperiences _require_ `ASP.NET Core` v **`8.0.3`** (_or higher_), and is required to `build`, `run`, and `deploy` the server-side components of JSopX™ projects. 
+Almost all JSopX™ Open Project EXperiences _require_ `ASP.NET Core` v **`9.0.0`** (_or higher_), and is required to `build`, `run`, and `deploy` the server-side components of JSopX™ projects. 
 
 This version provides enhanced performance, security features, and support for modern development practices, ensuring that your applications are efficient and secure.
 
@@ -824,7 +824,7 @@ This section is dedicated to helping you ensure you have the correct `ASP.NET Co
     
 ## ASP.NET Core: `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `ASP.NET Core` **`8.0.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `ASP.NET Core` **`9.0.0`** (_or higher_) are as follows:
 
 - [`JSopX.OpenProjectX`](#jsopxopenprojectx)
   - [`JSopX.BridgeTooFar`](#jsopxbridgetoofar)
@@ -856,11 +856,11 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
 
 ## ASP.NET Core: Checking Versions
 
-Check if `ASP.NET Core` v **`8.0.3`** (_or higher_) is installed on your device.
+Check if `ASP.NET Core` v **`9.0.0`** (_or higher_) is installed on your device.
 
 #### Step-by-Step Instructions:
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `ASP.NET Core` v `8.0.3` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `ASP.NET Core` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -873,9 +873,9 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
    
 2. This command checks the `version` of `ASP.NET Core` on your device, and then prints back your version to the `Powershell` Command Line dialog output.
    
-3. If you have version `ASP.NET Core` v **`8.0.3`** (_or higher_), you are _good to go_, and no further action is needed!
+3. If you have version `ASP.NET Core` v **`9.0.0`** (_or higher_), you are _good to go_, and no further action is needed!
    
-If you do not have ASP.NET Core installed or you version is **`lower`** than `ASP.NET Core` v **`8.0.3`**, it is recommended that you install it _immediately_ to avoid unexpected results.
+If you do not have ASP.NET Core installed or you version is **`lower`** than `ASP.NET Core` v **`9.0.0`**, it is recommended that you install it _immediately_ to avoid unexpected results.
    
 <br/>
 
@@ -886,11 +886,11 @@ If you do not have ASP.NET Core installed or you version is **`lower`** than `AS
 
 ## ASP.NET Core: Installation:
 
-Install `ASP.NET Core` v **`8.0.3`** (_or higher_) if it is not already installed or found on your device.
+Install `ASP.NET Core` v **`9.0.0`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `ASP.NET Core` v `8.0.3` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `ASP.NET Core` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
@@ -915,12 +915,12 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 Visit the offical **`ASP.NET Cores`** _site_ and/or _documentation_ if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`ASP.NET Core`** v **`8.0.3`**
+2. You would rather manually install **`ASP.NET Core`** v **`9.0.0`**
 3. You prefer some documentation first
    
 #### Step-by-Step Instructions:
    
-Visit [ASP.NET Core v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `ASP.NET Core` v **`8.0.3`** (_or higher_).
+Visit [ASP.NET Core v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `ASP.NET Core` v **`9.0.0`** (_or higher_).
    
 
 <br/>
@@ -930,7 +930,7 @@ Visit [ASP.NET Core v 8.0.3 Documentation](https://learn.microsoft.com/en-us/asp
 <br/>
 
 ## ASP.NET Core : In Conclusion
-It would not be under selling it by saying that installing `ASP.NET Core` v **`8.0.3`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
+It would not be under selling it by saying that installing `ASP.NET Core` v **`9.0.0`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 <br/>
 
@@ -943,9 +943,9 @@ It would not be under selling it by saying that installing `ASP.NET Core` v **`8
 <br/>
 
 # .NET Core Blazor:
-###### .NET Core Blazor v `8.0.3` (_or higher_) Required
+###### .NET Core Blazor v `9.0.0` (_or higher_) Required
 
-The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`8.0.3`** (_or higher_) for projects that use `Blazor`.
+The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`9.0.0`** (_or higher_) for projects that use `Blazor`.
 
 ### .NET Core Blazor : Table of Contents
 
@@ -957,7 +957,7 @@ The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`8.0.3`**
 - [In Conclusion](#net-core-blazor--in-conclusion)
 
 ### .NET Core Blazor : Overview
-The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`8.0.3`** (_or higher_) for projects that use `.NET Core Blazor`. This version supports building interactive web UIs with C# instead of JavaScript, enabling full-stack development with a unified technology stack. 
+The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`9.0.0`** (_or higher_) for projects that use `.NET Core Blazor`. This version supports building interactive web UIs with C# instead of JavaScript, enabling full-stack development with a unified technology stack. 
 
 Ensure your `.NET Core Blazor` environment is updated to this version for optimal performance and compatibility.
 
@@ -972,7 +972,7 @@ This section is dedicated to helping you ensure you have the correct `.NET Core 
     
 ## .NET Core Blazor: `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core Blazor` **`8.0.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core Blazor` **`9.0.0`** (_or higher_) are as follows:
 
 - [`JSopX.OpenProjectX`](#jsopxopenprojectx)
   - [`JSopX.AspNetCore`](#jsopxaspnetcore)
@@ -988,11 +988,11 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
 
 ## .NET Core Blazor: Checking Versions
 
-Check if `.NET Core Blazor` v **`8.0.3`** (_or higher_) is installed on your device.
+Check if `.NET Core Blazor` v **`9.0.0`** (_or higher_) is installed on your device.
 
 #### Step-by-Step Instructions:
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Core Blazor` v `8.0.3` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Core Blazor` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -1005,9 +1005,9 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
    
 2. This command checks the `version` of `.NET Core Blazor` on your device, and then prints back your version to the `Powershell` Command Line dialog output.
    
-3. If you have version `.NET Core Blazor` v **`8.0.3`** (_or higher_), you are _good to go_, and no further action is needed!
+3. If you have version `.NET Core Blazor` v **`9.0.0`** (_or higher_), you are _good to go_, and no further action is needed!
    
-If you do not have .NET Core Blazor installed or you version is **`lower`** than `.NET Core Blazor` v **`8.0.3`**, it is recommended that you install it _immediately_ to avoid unexpected results.
+If you do not have .NET Core Blazor installed or you version is **`lower`** than `.NET Core Blazor` v **`9.0.0`**, it is recommended that you install it _immediately_ to avoid unexpected results.
    
 <br/>
 
@@ -1018,11 +1018,11 @@ If you do not have .NET Core Blazor installed or you version is **`lower`** than
 
 ## .NET Core Blazor: Installation:
 
-Install `.NET Core Blazor` v **`8.0.3`** (_or higher_) if it is not already installed or found on your device.
+Install `.NET Core Blazor` v **`9.0.0`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Core Blazor` v `8.0.3` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Core Blazor` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
@@ -1047,12 +1047,12 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 Visit the offical **`.NET Core Blazors`** _site_ and/or _documentation_ if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`.NET Core Blazor`** v **`8.0.3`**
+2. You would rather manually install **`.NET Core Blazor`** v **`9.0.0`**
 3. You prefer some documentation first
    
 #### Step-by-Step Instructions:
    
-Visit [.NET Core Blazor v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/blazor/) for more information about `.NET Core Blazor` v **`8.0.3`** (_or higher_).
+Visit [.NET Core Blazor v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/blazor/) for more information about `.NET Core Blazor` v **`9.0.0`** (_or higher_).
    
 
 <br/>
@@ -1062,7 +1062,7 @@ Visit [.NET Core Blazor v 8.0.3 Documentation](https://learn.microsoft.com/en-us
 <br/>
 
 ## .NET Core Blazor : In Conclusion
-It would not be under selling it by saying that installing `.NET Core Blazor` v **`8.0.3`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
+It would not be under selling it by saying that installing `.NET Core Blazor` v **`9.0.0`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 <br/>
 
@@ -1075,9 +1075,9 @@ It would not be under selling it by saying that installing `.NET Core Blazor` v 
 <br/>
 
 # .NET Core MAUI Hybrid:
-###### .NET Core MAUI Hybrid v `8.0.3` (_or higher_) Required
+###### .NET Core MAUI Hybrid v `9.0.0` (_or higher_) Required
 
-The JSopX™ Open Project EXperiences _require_ `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_). 
+The JSopX™ Open Project EXperiences _require_ `.NET Core MAUI Hybrid` v **`9.0.0`** (_or higher_). 
 
 ### .NET Core MAUI Hybrid : Table of Contents
 
@@ -1089,7 +1089,7 @@ The JSopX™ Open Project EXperiences _require_ `.NET Core MAUI Hybrid` v **`8.0
 - [In Conclusion](#net-core-maui-hybrid--in-conclusion)
 
 ### .NET Core MAUI Hybrid : Overview
-For cross-platform applications within the JSopX™ ecosystem, the JSopX™ Open Project EXperiences _require_ `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_). This framework allows you to build native apps for Android, iOS, macOS, and Windows with a single codebase. Ensure you have this version or newer installed to develop and run JSopX™ mobile and desktop applications.
+For cross-platform applications within the JSopX™ ecosystem, the JSopX™ Open Project EXperiences _require_ `.NET Core MAUI Hybrid` v **`9.0.0`** (_or higher_). This framework allows you to build native apps for Android, iOS, macOS, and Windows with a single codebase. Ensure you have this version or newer installed to develop and run JSopX™ mobile and desktop applications.
 
 Ensure you have this version or newer installed to develop and run JSopX™ mobile and desktop applications.
 
@@ -1104,7 +1104,7 @@ This section is dedicated to helping you ensure you have the correct `.NET Core 
     
 ## .NET Core MAUI Hybrid: `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core MAUI Hybrid` **`8.0.3`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core MAUI Hybrid` **`9.0.0`** (_or higher_) are as follows:
 
 - [`JSopX.OpenProjectX`](#jsopxopenprojectx)
   - [`JSopX.AspNetCore`](#jsopxaspnetcore)
@@ -1120,11 +1120,11 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
 
 ## .NET Core MAUI Hybrid: Checking Versions
 
-Check if `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_) is installed on your device.
+Check if `.NET Core MAUI Hybrid` v **`9.0.0`** (_or higher_) is installed on your device.
 
 #### Step-by-Step Instructions:
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Core MAUI Hybrid` v `8.0.3` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Core MAUI Hybrid` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -1137,9 +1137,9 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
    
 2. This command checks the `version` of `.NET Core MAUI Hybrid` on your device, and then prints back your version to the `Powershell` Command Line dialog output.
    
-3. If you have version `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_), you are _good to go_, and no further action is needed!
+3. If you have version `.NET Core MAUI Hybrid` v **`9.0.0`** (_or higher_), you are _good to go_, and no further action is needed!
    
-If you do not have .NET Core MAUI Hybrid installed or you version is **`lower`** than `.NET Core MAUI Hybrid` v **`8.0.3`**, it is recommended that you install it _immediately_ to avoid unexpected results.
+If you do not have .NET Core MAUI Hybrid installed or you version is **`lower`** than `.NET Core MAUI Hybrid` v **`9.0.0`**, it is recommended that you install it _immediately_ to avoid unexpected results.
    
 <br/>
 
@@ -1150,11 +1150,11 @@ If you do not have .NET Core MAUI Hybrid installed or you version is **`lower`**
 
 ## .NET Core MAUI Hybrid: Installation:
 
-Install `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_) if it is not already installed or found on your device.
+Install `.NET Core MAUI Hybrid` v **`9.0.0`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Core MAUI Hybrid` v `8.0.3` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Core MAUI Hybrid` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
@@ -1178,12 +1178,12 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 Visit the offical **`.NET Core MAUI Hybrids`** _site_ and/or _documentation_ if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`.NET Core MAUI Hybrid`** v **`8.0.3`**
+2. You would rather manually install **`.NET Core MAUI Hybrid`** v **`9.0.0`**
 3. You prefer some documentation first
    
 #### Step-by-Step Instructions:
    
-Visit [.NET Core MAUI Hybrid v 8.0.3 Documentation](https://learn.microsoft.com/en-us/dotnet/maui/) for more information about `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_).
+Visit [.NET Core MAUI Hybrid v 8.0.3 Documentation](https://learn.microsoft.com/en-us/dotnet/maui/) for more information about `.NET Core MAUI Hybrid` v **`9.0.0`** (_or higher_).
    
 
 <br/>
@@ -1193,7 +1193,7 @@ Visit [.NET Core MAUI Hybrid v 8.0.3 Documentation](https://learn.microsoft.com/
 <br/>
 
 ## .NET Core MAUI Hybrid : In Conclusion
-It would not be under selling it by saying that installing `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
+It would not be under selling it by saying that installing `.NET Core MAUI Hybrid` v **`9.0.0`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 <br/>
 

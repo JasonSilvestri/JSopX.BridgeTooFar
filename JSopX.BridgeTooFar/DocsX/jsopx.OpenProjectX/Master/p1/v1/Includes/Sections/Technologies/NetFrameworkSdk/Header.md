@@ -1,9 +1,9 @@
 ﻿
 # .NET Framework SDK:
 
-**.NET Framework SDK v `8.0.3` (_or higher_) Required**
+**.NET Framework SDK v `9.0.0` (_or higher_) Required**
 
-Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`8.0.3`** (_or higher_).
+Almost all JSopX™ Open Project EXperiences _require_ `.NET Framework SDK` v **`9.0.0`** (_or higher_).
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER

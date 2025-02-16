@@ -1,9 +1,9 @@
 ﻿
 
-**.NET Core Blazor v `8.0.3` (_or higher_) Required**
+**.NET Core Blazor v `9.0.0` (_or higher_) Required**
 
 
-The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`8.0.3`** (_or higher_) for projects that use `.NET Core Blazor`. This version supports building interactive web UIs with C# instead of JavaScript, enabling full-stack development with a unified technology stack. 
+The JSopX™ Open Project EXperiences _require_ `.NET Core Blazor` v **`9.0.0`** (_or higher_) for projects that use `.NET Core Blazor`. This version supports building interactive web UIs with C# instead of JavaScript, enabling full-stack development with a unified technology stack. 
 
 Ensure your `.NET Core Blazor` environment is updated to this version for optimal performance and compatibility.
 

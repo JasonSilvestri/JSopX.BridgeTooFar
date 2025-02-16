@@ -1,9 +1,9 @@
 ﻿
 # .Net Core Maui Hybrid:
 
-**.Net Core Maui Hybrid v `8.0.3` (_or higher_) Required**
+**.Net Core Maui Hybrid v `9.0.0` (_or higher_) Required**
 
-The JSopX™ Open Project EXperiences _require_ `.Net Core Maui Hybrid` v **`8.0.3`** (_or higher_). 
+The JSopX™ Open Project EXperiences _require_ `.Net Core Maui Hybrid` v **`9.0.0`** (_or higher_). 
 
 {{- start:comment -}}
 <!-- START JSOPX NOVA DOCX HEADER

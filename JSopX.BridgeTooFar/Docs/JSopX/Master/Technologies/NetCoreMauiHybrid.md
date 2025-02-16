@@ -1,5 +1,5 @@
 ﻿# .NET Core MAUI Hybrid:
-###### .NET Core MAUI Hybrid v `8.0.3` (_or higher_) Required
+###### .NET Core MAUI Hybrid v `9.0.0` (_or higher_) Required
 
 The JSopX™ Open Project EXperiences _require_ `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_). 
 
@@ -48,7 +48,7 @@ Check if `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_) is installed on you
 
 #### Step-by-Step Instructions:
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Core MAUI Hybrid` v `8.0.3` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `.NET Core MAUI Hybrid` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -78,7 +78,7 @@ Install `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_) if it is not already
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Core MAUI Hybrid` v `8.0.3` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `.NET Core MAUI Hybrid` v `9.0.0` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
