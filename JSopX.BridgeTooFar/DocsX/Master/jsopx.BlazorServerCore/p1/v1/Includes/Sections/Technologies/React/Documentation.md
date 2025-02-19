@@ -11,4 +11,4 @@ Visit [React v 18.2.0 Documentation](https://reactjs.org/docs/getting-started.ht
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**React**](#React)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**React**](#React)  »  [Back to Top](#table-of-contents)

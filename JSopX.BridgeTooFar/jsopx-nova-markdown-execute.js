@@ -34,7 +34,7 @@ console.log('Markdown processing complete. Output saved locally to AllGlobal in 
 
 // Save the processed markdown from 'Docs/AllGlobal' to official public documentation 'Docs/JSopX'
 // (no HTML conversion involved)
-fs.writeFileSync('./Docs/JSopX/Master/README.md', mainMarkdown);
+fs.writeFileSync('./Docs/Master/JSopX/README.md', mainMarkdown);
 
 console.log('Markdown processing complete. Output saved to JSopX in Docs as official README.md');
 

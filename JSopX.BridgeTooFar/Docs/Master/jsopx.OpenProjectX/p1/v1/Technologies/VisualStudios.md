@@ -6,7 +6,7 @@ Almost all JSopX™ Open Project EXperiences _require_ `Visual Studio` or `Visua
 ### Visual Studio : Table of Contents
 
 
-- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)
+- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)
   - [Visual Studio](#visual-studio--overview)
     - [Overview](#visual-studio--overview)
     - [JSopX™ Dependencies](#visual-studio-jsopx-dependencies)
@@ -24,7 +24,7 @@ This section is dedicated to helping you ensure you have the correct `Visual Stu
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -34,26 +34,26 @@ This section is dedicated to helping you ensure you have the correct `Visual Stu
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.13.0`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
-- [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/)    
-- [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/)  
-- [`JSopX.WebAPI`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.WebAPI/Master/p1/v1/)
-- [`JSopX.SharedResources`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.SharedResources/Master/p1/v1/)
-- [`JSopX.RCLxProper`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxProper/Master/p1/v1/)
-- [`JSopX.RCLxAssets`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxAssets/Master/p1/v1/) 
-- [`JSopX.RCLxComponets`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.RCLxComponents/Master/p1/v1/) 
-- [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/) 
-- [`JSopX.ReactCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ReactCore/Master/p1/v1/)  
-- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/)  
-- [`JSopX.AspNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AspNetCore/Master/p1/v1/)   
-- [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BlazorServerCore/Master/p1/v1/) 
-- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.MauiHybridNetCore/Master/p1/v1/)  
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)
+- [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.ClassLibrary/p1/v1/)    
+- [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BridgeTooFar/p1/v1/)  
+- [`JSopX.WebAPI`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.WebAPI/p1/v1/)
+- [`JSopX.SharedResources`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.SharedResources/p1/v1/)
+- [`JSopX.RCLxProper`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.RCLxProper/p1/v1/)
+- [`JSopX.RCLxAssets`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.RCLxAssets/p1/v1/) 
+- [`JSopX.RCLxComponets`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.RCLxComponents/p1/v1/) 
+- [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.AngularCore/p1/v1/) 
+- [`JSopX.ReactCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.ReactCore/p1/v1/)  
+- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.VueCore/p1/v1/)  
+- [`JSopX.AspNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.AspNetCore/p1/v1/)   
+- [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/) 
+- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.MauiHybridNetCore/p1/v1/)  
 
 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -82,7 +82,7 @@ If you do not have Visual Studio installed or you version is **`lower`** than `V
    
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -110,7 +110,7 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -129,7 +129,7 @@ Visit [Visual Studio v 17.10.3 Documentation](https://learn.microsoft.com/en-us/
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Visual Studio**](#visual-studio)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -138,7 +138,7 @@ It would not be under selling it by saying that installing `Visual Studio` v **`
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [Back to Top](#table-of-contents)
 
 
 ---

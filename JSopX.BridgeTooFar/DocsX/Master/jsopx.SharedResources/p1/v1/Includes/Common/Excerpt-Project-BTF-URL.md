@@ -1,1 +1,1 @@
-https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/jsopx.SharedResources/Master/p1/v1/README.md
+https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/jsopx.SharedResources/p1/v1/README.md

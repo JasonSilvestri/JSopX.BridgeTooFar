@@ -21,7 +21,7 @@ This section is dedicated to helping you ensure you have the correct `.NET Core 
 
 <br/>
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
 
 <br/>
 
@@ -31,15 +31,15 @@ This section is dedicated to helping you ensure you have the correct `.NET Core 
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core Blazor` **`9.0.0`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
-- [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BlazorServerCore/Master/p1/v1/) 
-- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.MauiHybridNetCore/Master/p1/v1/)  
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)
+- [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/) 
+- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.MauiHybridNetCore/p1/v1/)  
 
 
 
 <br/>
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
 
 <br/>
 
@@ -68,7 +68,7 @@ If you do not have .NET Core Blazor installed or you version is **`lower`** than
    
 <br/>
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
 
 <br/>
 
@@ -95,7 +95,7 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 
 <br/>
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
 
 <br/>
 
@@ -114,7 +114,7 @@ Visit [.NET Core Blazor v 8.0.3 Documentation](https://learn.microsoft.com/en-us
 
 <br/>
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core Blazor**](#net-core-blazor)   »   [Back to Top](#table-of-contents)
 
 <br/>
 
@@ -122,7 +122,7 @@ Visit [.NET Core Blazor v 8.0.3 Documentation](https://learn.microsoft.com/en-us
 It would not be under selling it by saying that installing `.NET Core Blazor` v **`9.0.0`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [Back to Top](#table-of-contents)
 
 
 ---

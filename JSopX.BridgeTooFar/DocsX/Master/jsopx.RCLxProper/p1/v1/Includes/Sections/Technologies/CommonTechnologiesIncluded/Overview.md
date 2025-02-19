@@ -17,4 +17,4 @@ The technologies that should be included and supported without any further actio
 > JSopX™ Open Project EXperiences significantly extend Bootstrap (v 5.3), providing a rich, interactive set of assets that you can also implement in your own projects. See the [JSopX.RCLxProper](https://github.com/JasonSilvestri/JSopX.RCLxProper) project for more details.
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Common Technologies Included**](#common-technologies-included)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Common Technologies Included**](#common-technologies-included)  »  [Back to Top](#table-of-contents)

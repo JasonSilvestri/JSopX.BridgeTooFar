@@ -9,4 +9,4 @@ This version provides enhanced performance, security features, and support for m
 This section is dedicated to helping you ensure you have the correct `ASP.NET Core` setup, by describing how to check versions, perform installations if necessary, check JSopX™ dependencies, get links to official documentation, and more!
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**ASP.NET Core**](#aspnet-core)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**ASP.NET Core**](#aspnet-core)  »  [Back to Top](#table-of-contents)

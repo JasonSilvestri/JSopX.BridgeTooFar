@@ -21,7 +21,7 @@ This section is dedicated to helping you ensure you have the correct `Vite` setu
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -32,13 +32,13 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
 
 
 
-- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
-- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/)  
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)
+- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.VueCore/p1/v1/)  
 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -66,7 +66,7 @@ If you do not have Vite installed or you version is **`lower`** than `Vite` v **
    
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -93,7 +93,7 @@ You can use **`npm`** Command Line dialog again to `install` the correct version
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -112,7 +112,7 @@ Visit [Vite v 5.2.8 Documentation](https://vitejs.dev/) for more information abo
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Vite**](#Vite)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -121,7 +121,7 @@ Installing `Vite` v **`5.2.8`** (_or higher_) is an important part in making sur
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [Back to Top](#table-of-contents)
 
 
 ---

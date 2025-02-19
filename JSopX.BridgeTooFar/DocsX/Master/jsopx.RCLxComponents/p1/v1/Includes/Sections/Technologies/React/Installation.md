@@ -18,4 +18,4 @@ You can use **`npm`** Command Line dialog again to `install` the correct version
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**React**](#React)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**React**](#React)  »  [Back to Top](#table-of-contents)

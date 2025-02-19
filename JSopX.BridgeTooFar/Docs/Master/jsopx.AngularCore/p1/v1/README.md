@@ -8,7 +8,7 @@ Explore the [Overview](#overview) section for more details on the JSopX™ Angul
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`JSopX Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjects.md) » [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.AngularCore)  » **[`Phase 1`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/)**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.AspNetCore) [`Next »`](https://github.com/JasonSilvestri/JSopX.ReactCore)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/) » [`JSopX Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjects.md) » [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.AngularCore)  » **[`Phase 1`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.AngularCore/p1/v1/)**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.AspNetCore) [`Next »`](https://github.com/JasonSilvestri/JSopX.ReactCore)
 
 ---
 
@@ -46,7 +46,7 @@ Explore the [Overview](#overview) section for more details on the JSopX™ Angul
 
 The `JsopX.AngularCore` **JSopX™ Angular Core Open Project EXperience**  is a demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API, while anticipating it becoming part of a unified enterprise solution. 
 
-It highlights the integration of Angular for the client-side with ASP.NET Core for the server-side, providing a comprehensive example of a modern web application stack. More importantly, its primary use case in the JSopX™ Enterprise-Level Application is to simulate an ["Existing" Client-side Apps Example](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples), with its own Web API, and its own existing standards. 
+It highlights the integration of Angular for the client-side with ASP.NET Core for the server-side, providing a comprehensive example of a modern web application stack. More importantly, its primary use case in the JSopX™ Enterprise-Level Application is to simulate an ["Existing" Client-side Apps Example](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples), with its own Web API, and its own existing standards. 
 
 The end goal is seamlessly incorporating it into our collective enterprise suite, adopting its new parent's Web API, assets, standards, etc.
 
@@ -61,7 +61,7 @@ The end goal is seamlessly incorporating it into our collective enterprise suite
 >
 > This document is currently aligned with **Phase 1** of development. As a result, the content may not be fully accurate or ready for production use. Treat it as reference material while the project evolves.
 > 
-> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases/Phase-1-Minimum-Viable-Product-MVP.md).
+> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases/Phase-1-Minimum-Viable-Product-MVP.md).
 
 ---
 
@@ -71,11 +71,11 @@ The end goal is seamlessly incorporating it into our collective enterprise suite
 
 Ensure the following technologies and versions are installed, even if your only objective is to explore the `JSopX.AngularCore` project independently from all other projects:
 
-- [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#visual-studio-v-17130).
-- [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-framework-v-900).
-- [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#aspnet-core-v-900).
-- [Node.js (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#node-v-20140).
-- [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#angular-cli-v-1803).
+- [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#visual-studio-v-17130).
+- [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#net-framework-v-900).
+- [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#aspnet-core-v-900).
+- [Node.js (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#node-v-20140).
+- [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#angular-cli-v-1803).
 
 [`Back to Top`](#table-of-contents)
 
@@ -87,19 +87,19 @@ Ensure the following technologies and versions are installed, even if your only 
 
 Ensure the following technologies and versions are installed, if your objective is to explore ALL projects that make up the `JSopX.OpenProjectX` enterprise-application suite:
 
-- [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#visual-studio-v-17130)
-- [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-framework-v-900)
-- [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#aspnet-core-v-900)
-- [.NET Core Blazor (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-core-blazor-v-900)
-- [.Net Core Maui Hybrid (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#net-core-maui-hybrid-v-900)
-- [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#node-v-20140)
-- [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#npm-v-1081)
-- [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#angular-cli-v-1803)
-- [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#react-v-1820)
-- [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#vue-v-1081)
-- [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#vite-v-3421)
-- [Bash](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#bash)
-- [Powershell](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#powershell)
+- [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#visual-studio-v-17130)
+- [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#net-framework-v-900)
+- [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#aspnet-core-v-900)
+- [.NET Core Blazor (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#net-core-blazor-v-900)
+- [.Net Core Maui Hybrid (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#net-core-maui-hybrid-v-900)
+- [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#node-v-20140)
+- [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#npm-v-1081)
+- [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#angular-cli-v-1803)
+- [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#react-v-1820)
+- [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#vue-v-1081)
+- [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#vite-v-3421)
+- [Bash](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#bash)
+- [Powershell](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#powershell)
 
 [`Back to Top`](#table-of-contents)
 
@@ -107,7 +107,7 @@ Ensure the following technologies and versions are installed, if your objective 
 
 ## **Postrequisites**
 
-- I am still in discovery with [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies#angular-cli-v-1803). If you find a bug, see something I may not be implementing correctly, or something else, please do not hesitate to call me out. 
+- I am still in discovery with [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies#angular-cli-v-1803). If you find a bug, see something I may not be implementing correctly, or something else, please do not hesitate to call me out. 
 
 [`Back to Top`](#table-of-contents)
 
@@ -154,14 +154,14 @@ It is possible for Project Feature Highlights to be different here depending on 
 > [!WARNING]
 > This section describes a typical cloning operation using GitHub Repositories, you can use to easily get the latest `JSopX.AngularCore` project and explore it independently from all other projects! 
 > 
-> **To mimic the advanced cloning operations we use to serve the `JSopX.OpenProjectX` project suite, as both, an `all-projects-in-one` project and/or `independent-projects` project installations, please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
+> **To mimic the advanced cloning operations we use to serve the `JSopX.OpenProjectX` project suite, as both, an `all-projects-in-one` project and/or `independent-projects` project installations, please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
 >
 
 ---
 
 ## **Independent Project Installation & Exploration**
 
-The [JSopX™ Visual Studio Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjects.md) collectively form the backbone of the entire suite, each project serving a distinct yet complementary role.
+The [JSopX™ Visual Studio Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjects.md) collectively form the backbone of the entire suite, each project serving a distinct yet complementary role.
 
 By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 
@@ -457,7 +457,7 @@ The `JSopX.AngularCore` project leverages shared resources and code from other p
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`JSopX Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjects.md) » [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.AngularCore)  » **[`Phase 1`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.AngularCore/Master/p1/v1/)**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.AspNetCore) [`Next »`](https://github.com/JasonSilvestri/JSopX.ReactCore)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/) » [`JSopX Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjects.md) » [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.AngularCore)  » **[`Phase 1`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.AngularCore/p1/v1/)**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.AspNetCore) [`Next »`](https://github.com/JasonSilvestri/JSopX.ReactCore)
 
 ---
 

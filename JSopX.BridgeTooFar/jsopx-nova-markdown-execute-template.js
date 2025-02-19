@@ -31,6 +31,6 @@ console.log('Markdown processing complete for BasicMarkdownPage.md. Output saved
 
 // Save the processed markdown from 'Docs/AllGlobal' to official public documentation 'Docs/JSopX'
 // (no HTML conversion involved)
-fs.writeFileSync('./Docs/JSopX/Master/BasicMarkdownPage.md', mainMarkdown);
+fs.writeFileSync('./Docs/Master/JSopX/BasicMarkdownPage.md', mainMarkdown);
 
 console.log('Markdown processing complete. Output saved to JSopX in Docs as official BasicMarkdownPage.md');

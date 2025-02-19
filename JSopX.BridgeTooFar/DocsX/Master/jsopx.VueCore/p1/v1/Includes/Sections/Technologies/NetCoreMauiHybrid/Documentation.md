@@ -11,4 +11,4 @@ Visit [.Net Core Maui Hybrid v 8.0.3 Documentation](https://learn.microsoft.com/
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**.Net Core Maui Hybrid**](#net-core-maui-hybrid)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**.Net Core Maui Hybrid**](#net-core-maui-hybrid)  »  [Back to Top](#table-of-contents)

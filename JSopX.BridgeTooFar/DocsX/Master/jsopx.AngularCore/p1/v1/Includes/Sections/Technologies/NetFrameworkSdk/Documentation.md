@@ -11,4 +11,4 @@ Visit [.NET Framework SDK v 8.0.3 Documentation](https://learn.microsoft.com/en-
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**.NET Framework SDK**](#net-framework-sdk)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**.NET Framework SDK**](#net-framework-sdk)  »  [Back to Top](#table-of-contents)

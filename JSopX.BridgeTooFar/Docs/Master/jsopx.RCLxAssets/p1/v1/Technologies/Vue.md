@@ -31,8 +31,8 @@ This section is dedicated to helping you ensure you have the correct `Vue` setup
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Vue` **`3.4.21`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
-- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.VueCore/Master/p1/v1/)  
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)
+- [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.VueCore/p1/v1/)  
 
 
 
@@ -119,7 +119,7 @@ Installing `Vue` v **`3.4.21`** (_or higher_) is an important part in making sur
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [Back to Top](#table-of-contents)
 
 
 ---

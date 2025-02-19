@@ -3,4 +3,4 @@ It would not be under selling it by saying that installing `.NET Core Blazor` v 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**.NET Core Blazor**](#net-core-blazor)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**.NET Core Blazor**](#net-core-blazor)  »  [Back to Top](#table-of-contents)

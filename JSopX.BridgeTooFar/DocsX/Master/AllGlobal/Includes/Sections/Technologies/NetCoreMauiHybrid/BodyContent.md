@@ -1,7 +1,7 @@
 ﻿
 ## Table of Contents
 
-- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)
+- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)
   - [.Net Core Maui Hybrid](#net-core-maui-hybrid--overview)
 	- [Overview](#net-core-maui-hybrid--overview)
 	- [JSopX™ Dependencies](#net-core-maui-hybrid-jsopx-dependencies)

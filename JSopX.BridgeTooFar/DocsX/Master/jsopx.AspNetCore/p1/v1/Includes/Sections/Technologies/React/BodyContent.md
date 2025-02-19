@@ -1,7 +1,7 @@
 ﻿
 ## Table of Contents
 
-- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)
+- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)
   - [React](#react--overview)
 	- [Overview](#react--overview)
 	- [JSopX™ Dependencies](#react-jsopx-dependencies)

@@ -41,7 +41,7 @@ The sole purpose of Project Development Steps in Phase 1 (Current Phase) is to c
 - Basic understanding of `JSopX Phases`.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 ## Corequisites﻿
@@ -49,7 +49,7 @@ The sole purpose of Project Development Steps in Phase 1 (Current Phase) is to c
 - Ensure you are pro-active in at least your own checklist of action items if you do not plan to follow the phases of development of Phase 1.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 ## Postrequisites
@@ -58,7 +58,7 @@ The sole purpose of Project Development Steps in Phase 1 (Current Phase) is to c
 - Clean and rebuild each project after making changes to ensure all changes are working as expected before starting a new phase.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 
@@ -68,7 +68,7 @@ The sole purpose of Project Development Steps in Phase 1 (Current Phase) is to c
 - As you see more projects being created, pay close attention to the instructions for Git SubTree and Visual Studio Project References. Special considerations had to be made to ensure all projects can be cloned in an `all-in-one` project (e.g., `JSopX.OpenProjectX`) or by independent project isolation for a unique educational user experience not common in most projects.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 # Project Development Phase 1: Minimum Viable Product (MVP)
@@ -102,7 +102,7 @@ The basic steps I am taking for this Phase is as follows:
     - Deploy the Web API project and frontend projects to the desired hosting environment. Ensure that all projects are configured correctly for production.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 
@@ -113,7 +113,7 @@ The basic steps I am taking for this Phase is as follows:
 The `Phase 1 Minimum Viable Product (MVP)` Phase is an important aspect of all applications being developed.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 

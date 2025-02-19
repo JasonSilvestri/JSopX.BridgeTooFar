@@ -5,7 +5,7 @@ All JSopX™ Open Project EXperiences live as `JSopX™ GitHub Repositories` on 
 
 ### JSopX™ GitHub Repositories : Table of Contents
 
-- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)
+- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)
   - [Overview](#jsopx-github-repositories--overview)
   - [JSopX™ GitHub Repositories: Cloning](#jsopx-github-repositories-cloning)
   - [Documentation](#jsopx-github-repositories-documentation)
@@ -22,7 +22,7 @@ It is important you at least get a glimpse at some of these tools, because you w
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**JSopX™ GitHub Repositories**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**JSopX™ GitHub Repositories**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
 
 
 
@@ -127,7 +127,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**JSopX™ GitHub Repositories**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**JSopX™ GitHub Repositories**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
 
 
 
@@ -146,7 +146,7 @@ Visit [JSopX™ GitHub Repositories v 1.0 Documentation](https://github.com/Jaso
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**JSopX™ GitHub Repositories**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**JSopX™ GitHub Repositories**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
 
 
 
@@ -155,7 +155,7 @@ Visit [JSopX™ GitHub Repositories v 1.0 Documentation](https://github.com/Jaso
 It would not be under selling it by saying that installing `JSopX™ GitHub Repositories` is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [Back to Top](#table-of-contents)
 
 
 

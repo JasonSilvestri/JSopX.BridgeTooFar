@@ -4,7 +4,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » **`JSopX™ Visual Studio Projects`**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsFamilies.md)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/) » **`JSopX™ Visual Studio Projects`**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjectsFamilies.md)
 
 ---
 
@@ -233,7 +233,7 @@ The JSopX™ Visual Studio Projects form the essential building blocks of a unif
 
 ---
  
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » **`JSopX™ Visual Studio Projects`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsFamilies.md)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/) » **`JSopX™ Visual Studio Projects`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjectsFamilies.md)
 
 ---
 

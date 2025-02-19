@@ -41,7 +41,7 @@ The purpose of Project Development Steps in Phase 2 is to create a Minimum Viabl
 - Basic understanding of `JSopX Phases`.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 ## Corequisites﻿
@@ -49,7 +49,7 @@ The purpose of Project Development Steps in Phase 2 is to create a Minimum Viabl
 - Ensure you are pro-active in at least your own checklist of action items if you do not plan to follow the phases of development of Phase 2.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 ## Postrequisites
@@ -58,7 +58,7 @@ The purpose of Project Development Steps in Phase 2 is to create a Minimum Viabl
 - Clean and rebuild each project after making changes to ensure all changes are working as expected before starting a new phase.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 
@@ -68,7 +68,7 @@ The purpose of Project Development Steps in Phase 2 is to create a Minimum Viabl
 - As you see more projects being created, pay close attention to the instructions for Git SubTree and Visual Studio Project References. Special considerations had to be made to ensure all projects can be cloned in an `all-in-one` project (e.g., `JSopX.OpenProjectX`) or by independent project isolation for a unique educational user experience not common in most projects.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 # Project Development Phase 2: Minimum Viable Refactor Product (MVRP)
@@ -110,7 +110,7 @@ The basic steps I am taking for this Phase is as follows:
     - Set up CI/CD pipelines to automate the build and deployment process for your solution.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 
@@ -121,7 +121,7 @@ The basic steps I am taking for this Phase is as follows:
 The `Phase 2: Minimum Viable Refactor Product (MVRP)` Phase is an important aspect of all applications being developed.
 
 
-[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Phases.md)
+[Back to Top](#table-of-contents) | [Back to Parent](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases.md)
 
 
 
@@ -131,4 +131,4 @@ The `Phase 2: Minimum Viable Refactor Product (MVRP)` Phase is an important aspe
 
 ###### Copyright © 2025 - All Rights Reserved by Jason Silvestri
 
-[Back to Parent](Docs/JSopX/Master/Phases)
+[Back to Parent](Docs/Master/JSopX/Phases)

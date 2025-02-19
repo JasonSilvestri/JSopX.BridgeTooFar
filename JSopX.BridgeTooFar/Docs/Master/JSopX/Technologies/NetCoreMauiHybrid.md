@@ -21,7 +21,7 @@ This section is dedicated to helping you ensure you have the correct `.NET Core 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -31,14 +31,14 @@ This section is dedicated to helping you ensure you have the correct `.NET Core 
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `.NET Core MAUI Hybrid` **`8.0.3`** (_or higher_) are as follows:
 
 
-- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.OpenProjectX/Master/p1/v1/)
-- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.MauiHybridNetCore/Master/p1/v1/)  
+- [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)
+- [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.MauiHybridNetCore/p1/v1/)  
 
 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -67,7 +67,7 @@ If you do not have .NET Core MAUI Hybrid installed or you version is **`lower`**
    
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -93,7 +93,7 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -112,7 +112,7 @@ Visit [.NET Core MAUI Hybrid v 8.0.3 Documentation](https://learn.microsoft.com/
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**.NET Core MAUI Hybrid**](#net-core-maui-hybrid)   »   [Back to Top](#table-of-contents)
 
 
 
@@ -120,7 +120,7 @@ Visit [.NET Core MAUI Hybrid v 8.0.3 Documentation](https://learn.microsoft.com/
 It would not be under selling it by saying that installing `.NET Core MAUI Hybrid` v **`8.0.3`** (_or higher_) is an extremely important part in making sure you have the correct technology requirements to run most JSopX™ Open Project EXperiences Collection Projects as expected.
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)   »   [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [Back to Top](#table-of-contents)
 
 
 ---

@@ -7,7 +7,7 @@
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaLessCommonDocSectionDesignPatterns.md)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/DesignPatterns/JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 
@@ -539,7 +539,7 @@ The following snippet is a `Footer` in a Template, wrapped in comments (we do th
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaLessCommonDocSectionDesignPatterns.md)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/DesignPatterns/JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/DesignPatterns/JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 

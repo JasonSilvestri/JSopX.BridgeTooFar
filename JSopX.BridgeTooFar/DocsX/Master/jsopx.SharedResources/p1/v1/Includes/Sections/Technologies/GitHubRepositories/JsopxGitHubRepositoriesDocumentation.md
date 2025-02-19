@@ -12,4 +12,4 @@ Visit [JSopX™ GitHub Repositories v 1.0 Documentation](https://github.com/Jaso
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Common Technologies Included**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Common Technologies Included**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)

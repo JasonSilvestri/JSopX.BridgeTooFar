@@ -11,4 +11,4 @@ Visit [Vite v 5.2.8 Documentation](https://vitejs.dev/) for more information abo
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Vite**](#vite)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Vite**](#vite)  »  [Back to Top](#table-of-contents)

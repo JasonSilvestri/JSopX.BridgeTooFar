@@ -3,4 +3,4 @@ Installing `Vue` v **`3.4.21`** (_or higher_) is an important part in making sur
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Vue**](#Vue)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Vue**](#Vue)  »  [Back to Top](#table-of-contents)

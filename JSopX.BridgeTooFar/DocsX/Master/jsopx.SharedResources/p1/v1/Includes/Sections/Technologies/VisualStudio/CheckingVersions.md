@@ -22,4 +22,4 @@ If you do not have Visual Studio installed or you version is **`lower`** than `V
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Visual Studio**](#visual-studio)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Visual Studio**](#visual-studio)  »  [Back to Top](#table-of-contents)

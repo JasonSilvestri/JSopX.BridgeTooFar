@@ -11,4 +11,4 @@ Visit [Vue v 3.4.21 Documentation](https://vuejs.org/guide/introduction.html) fo
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Vue**](#Vue)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Vue**](#Vue)  »  [Back to Top](#table-of-contents)

@@ -11,4 +11,4 @@ Visit [ASP.NET Core v 8.0.3 Documentation](https://learn.microsoft.com/en-us/asp
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**ASP.NET Core**](#aspnet-core)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**ASP.NET Core**](#aspnet-core)  »  [Back to Top](#table-of-contents)

@@ -74,7 +74,7 @@ To get the most out of this document:
 
 ### Visual Studio (v 17.13.0)
 - Download: [Visual Studio](https://visualstudio.microsoft.com/)
-- JSopX™ BridgeTooFar GitHub: [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudios.md)
+- JSopX™ BridgeTooFar GitHub: [Visual Studio (v 17.13.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/VisualStudios.md)
 - JSopX™ projects require Visual Studio to build and manage solutions efficiently.
 - Ensure you have all necessary workloads installed, including ASP.NET and web development, desktop development with .NET, and Azure development.
 
@@ -82,70 +82,70 @@ To get the most out of this document:
 
 ### .NET Framework (v 9.0.0)
 - Download: [.NET Framework](https://dotnet.microsoft.com/download/dotnet-framework)
-- JSopX™ BridgeTooFar GitHub: [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
+- JSopX™ BridgeTooFar GitHub: [.NET Framework (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetFrameworkSdk.md)
 - Used for building server-side logic and managing shared libraries.
 
 ---
 
 ### ASP.NET Core (v 9.0.0)
 - Download: [ASP.NET Core](https://dotnet.microsoft.com/download/dotnet/9.0)
-- JSopX™ BridgeTooFar GitHub: [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
+- JSopX™ BridgeTooFar GitHub: [ASP.NET Core (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/AspNetCore.md)
 - Powers the backends of many JSopX™ projects, providing the security, routing, and scalability features needed for enterprise-level applications.
 
 ---
 
 ### .NET Core Blazor (v 9.0.0)
 - Download: [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
-- JSopX™ BridgeTooFar GitHub: [.NET Core Blazor (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
+- JSopX™ BridgeTooFar GitHub: [.NET Core Blazor (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetCoreBlazor.md)
 - Enables the development of interactive web UIs, integrating seamlessly with other JSopX™ technologies.
 
 ---
 
 ### .Net Core Maui Hybrid (v 9.0.0)
 - Download: [.NET MAUI](https://dotnet.microsoft.com/apps/maui)
-- JSopX™ BridgeTooFar GitHub: [.Net Core Maui Hybrid (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
+- JSopX™ BridgeTooFar GitHub: [.Net Core Maui Hybrid (v 9.0.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetCoreMauiHybrid.md)
 - Combines Razor components with .NET MAUI to create cross-platform applications.
 
 ---
 
 ### Node (v 20.14.0)
 - Download: [Node.js](https://nodejs.org/)
-- JSopX™ BridgeTooFar GitHub: [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Node.md)
+- JSopX™ BridgeTooFar GitHub: [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Node.md)
 - Facilitates package management and JavaScript tooling, integral to JSopX™ front-end projects.
 
 ---
 
 ### npm (v 10.8.1)
 - Download: [npm](https://www.npmjs.com/)
-- JSopX™ BridgeTooFar GitHub: [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/npm.md)
+- JSopX™ BridgeTooFar GitHub: [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/npm.md)
 - Manages dependencies and scripts for JavaScript frameworks such as Angular, React, and Vue.
 
 ---
 
 ### Angular CLI (v 18.0.3)
 - Download: [Angular CLI](https://angular.io/cli)
-- JSopX™ BridgeTooFar GitHub: [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AngularCli.md)
+- JSopX™ BridgeTooFar GitHub: [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/AngularCli.md)
 - Provides scaffolding, development, and build tools for Angular-based projects.
 
 ---
 
 ### React (v 18.2.0)
 - Download: [React](https://reactjs.org/)
-- JSopX™ BridgeTooFar GitHub: [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/React.md)
+- JSopX™ BridgeTooFar GitHub: [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/React.md)
 - Enables the creation of dynamic, component-based UIs for JSopX™ client-side solutions.
 
 ---
 
 ### Vue (v 10.8.1)
 - Download: [Vue.js](https://vuejs.org/)
-- JSopX™ BridgeTooFar GitHub: [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
+- JSopX™ BridgeTooFar GitHub: [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vue.md)
 - A framework for building progressive front-end applications with a focus on simplicity and integration.
 
 ---
 
 ### Vite (v 3.4.21)
 - Download: [Vite](https://vitejs.dev/)
-- JSopX™ BridgeTooFar GitHub: [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
+- JSopX™ BridgeTooFar GitHub: [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vite.md)
 - A build tool optimized for speed and modern front-end workflows, utilized in Vue and React projects.
 
 ---

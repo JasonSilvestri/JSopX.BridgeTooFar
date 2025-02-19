@@ -11,4 +11,4 @@ Visit [Angular CLI v 18.0.3 Documentation](https://angular.io/cli) for more info
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Angular CLI**](#angular-cli)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Angular CLI**](#angular-cli)  »  [Back to Top](#table-of-contents)

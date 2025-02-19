@@ -4,4 +4,4 @@ Installing `npm` v **`10.8.1`** (_or higher_) is an important part in making sur
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**npm**](#npm)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**npm**](#npm)  »  [Back to Top](#table-of-contents)

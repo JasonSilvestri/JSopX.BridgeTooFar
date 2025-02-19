@@ -3,7 +3,7 @@
 > [!WARNING]
 > This section describes a typical cloning operaton. Conversely, to mimic the collective JSopX project architecture takes some extra effort to fully implement "AS-IS".
 > 
-> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite (how it is possible to have `all-projects-in-one` and `independent-projects` installations), please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
+> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite (how it is possible to have `all-projects-in-one` and `independent-projects` installations), please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
 >
 
 
@@ -53,11 +53,11 @@ What makes the **`JSopX.WebAPI`** Project—and the entire JSopX™ Open Project
 The _Project References_ included in the **`JSopX.WebAPI`** Project are as follows:
 
 
-1. **[`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.BridgeTooFar/Master/p1/v1/)**: 
+1. **[`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BridgeTooFar/p1/v1/)**: 
     - A new project being developed, containing base static reusable assets often derived by the primary RCL Assets Razor Class Library, Class Libraries and Razor Class Libraries.
    
 
-2. **[`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/jsopx.ClassLibrary/Master/p1/v1/)**
+2. **[`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.ClassLibrary/p1/v1/)**
     - A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
 
 

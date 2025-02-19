@@ -19,4 +19,4 @@ You can use **`Powershell`** Command Line dialog again to `install` the correct 
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Visual Studio**](#visual-studio)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Visual Studio**](#visual-studio)  »  [Back to Top](#table-of-contents)

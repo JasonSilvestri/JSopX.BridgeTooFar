@@ -95,4 +95,4 @@ So, typically when you see people trying to be GitHub cool, they will often prov
 
 
 
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies.md)  »  [**Common Technologies Included**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
+[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)  »  [**Common Technologies Included**](#jsopx-github-repositories)  »  [Back to Top](#table-of-contents)
