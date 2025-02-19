@@ -20,7 +20,7 @@ You can install the **`JSopX.RCLxProper`** Project **independently** by cloning 
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.RCLxProper
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxProper
     
        # 2. Clone JSopX.RCLxProper Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.RCLxProper.git

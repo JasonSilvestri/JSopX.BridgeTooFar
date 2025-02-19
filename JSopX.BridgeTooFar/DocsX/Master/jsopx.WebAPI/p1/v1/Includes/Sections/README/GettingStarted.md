@@ -20,7 +20,7 @@ You can install the **`JSopX.WebAPI`** Project **independently** by cloning the 
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.WebAPI
+       cd path\to\local\repo\JasonSilvestri\JSopX.WebAPI
     
        # 2. Clone JSopX.WebAPI Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.WebAPI.git

@@ -20,7 +20,7 @@ You can install the **`JSopX.BlazorServerCore`** Project **independently** by cl
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.BlazorServerCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.BlazorServerCore
     
        # 2. Clone JSopX.BlazorServerCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.BlazorServerCore.git

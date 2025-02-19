@@ -54,7 +54,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    - This most accurately depicts the correct example:
        ```bash
        # Navigate to local desired directory to the repository
-       $ cd path\to\local\repo\JSopX.RCLxComponents
+       $ cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        # Using Bash to clone JSopX.RCLxComponents Git Repository
        # Navigate to remote desired directory to the repository
@@ -68,7 +68,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
        
        ```powershell
        # Navigate to the desired local directory you plan to clone the repository to on your computer
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        # Using PowerShell to clone JSopX.RCLxComponents Git Repository
        git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
@@ -82,7 +82,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    
        ```node
        // Navigate to the desired directory
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        // Using npx to clone JSopX.RCLxComponents Git Repository
        npx degit JasonSilvestri/JSopX.RCLxComponents
@@ -97,7 +97,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    - **Vite** (After Cloning):
        ```bash
        # Navigate to the desired directory
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        # Clone the repository using Bash
        git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git

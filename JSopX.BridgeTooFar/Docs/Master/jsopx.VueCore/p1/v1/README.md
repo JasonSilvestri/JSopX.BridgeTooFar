@@ -141,7 +141,7 @@ You can install the **`JSopX.VueCore`** Project **independently** by cloning the
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.VueCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.VueCore
     
        # 2. Clone JSopX.VueCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.VueCore.git

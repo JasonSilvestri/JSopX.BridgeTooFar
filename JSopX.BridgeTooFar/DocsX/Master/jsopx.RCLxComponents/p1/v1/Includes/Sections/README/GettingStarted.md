@@ -20,7 +20,7 @@ You can install the **`JSopX.RCLxComponents`** Project **independently** by clon
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
     
        # 2. Clone JSopX.RCLxComponents Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git

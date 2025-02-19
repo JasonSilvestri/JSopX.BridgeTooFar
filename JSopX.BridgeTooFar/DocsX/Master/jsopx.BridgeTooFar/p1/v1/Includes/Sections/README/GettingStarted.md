@@ -20,7 +20,7 @@ You can install the **`JSopX.BridgeTooFar`** Project **independently** by clonin
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.BridgeTooFar
+       cd path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar
     
        # 2. Clone JSopX.BridgeTooFar Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git

@@ -189,7 +189,7 @@ As you delve deeper, you’ll discover how each project type fits into this gran
     # Using Bash: Clone JSopX.AngularCore Git Repository
 
     # 1. Navigate to the desired local directory where you plan to clone the repository
-    cd path\to\local\repo\JSopX.AngularCore
+    cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
 
     # 2. Clone JSopX.AngularCore Git Repository       
     git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
@@ -203,7 +203,7 @@ As you delve deeper, you’ll discover how each project type fits into this gran
     # Using PowerShell: Clone JSopX.AngularCore Git Repository
 
     # 1. Navigate to the desired local directory where you plan to clone the repository
-    cd path\to\local\repo\JSopX.AngularCore
+    cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
 
     # 2. Clone JSopX.AngularCore Git Repository       
     git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
@@ -216,7 +216,7 @@ As you delve deeper, you’ll discover how each project type fits into this gran
 
     # Using Node.js / npm : Clone JSopX.AngularCore Git Repository
     # 1. Navigate to the desired local directory where you plan to clone the repository
-    cd path\to\local\repo\JSopX.AngularCore
+    cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
     
     # 2. Using npx degit to clone without .git history
     npx degit JasonSilvestri/JSopX.AngularCore

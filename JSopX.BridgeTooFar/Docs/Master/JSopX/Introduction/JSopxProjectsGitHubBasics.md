@@ -127,7 +127,7 @@ JSopX™ embraces a variety of tools, allowing you to clone, manage, and build p
 **Bash Example:**
 ```bash
 # Navigate to your desired local directory
-cd path\to\local\repo\JSopX.RCLxComponents
+cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
 
 # Clone the repository
 git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
@@ -136,7 +136,7 @@ git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
 **PowerShell Example:**
 ```powershell
 # Navigate to the desired local directory
-cd path\to\local\repo\JSopX.RCLxComponents
+cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
 
 # Clone the repository using PowerShell
 git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
@@ -145,7 +145,7 @@ git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
 **Node.js & npm (Using degit) Example:**
 ```bash
 # Navigate to the desired directory
-cd path\to\local\repo\JSopX.RCLxComponents
+cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
 
 # Using npx degit to clone without .git history
 npx degit JasonSilvestri/JSopX.RCLxComponents

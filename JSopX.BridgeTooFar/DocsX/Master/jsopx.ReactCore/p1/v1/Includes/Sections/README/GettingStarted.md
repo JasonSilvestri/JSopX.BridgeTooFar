@@ -20,7 +20,7 @@ You can install the **`JSopX.ReactCore`** Project **independently** by cloning t
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.ReactCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.ReactCore
     
        # 2. Clone JSopX.ReactCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git

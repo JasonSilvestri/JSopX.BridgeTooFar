@@ -20,7 +20,7 @@ You can install the **`JSopX.AngularCore`** Project **independently** by cloning
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.AngularCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
     
        # 2. Clone JSopX.AngularCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git

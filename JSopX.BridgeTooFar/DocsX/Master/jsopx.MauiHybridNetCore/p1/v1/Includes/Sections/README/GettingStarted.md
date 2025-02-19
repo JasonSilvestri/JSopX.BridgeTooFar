@@ -20,7 +20,7 @@ You can install the **`JSopX.MauiHybridNetCore`** Project **independently** by c
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.MauiHybridNetCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.MauiHybridNetCore
     
        # 2. Clone JSopX.MauiHybridNetCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore.git

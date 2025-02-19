@@ -141,7 +141,7 @@ You can install the **`JSopX.AspNetCore`** Project **independently** by cloning 
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.AspNetCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.AspNetCore
     
        # 2. Clone JSopX.AspNetCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git

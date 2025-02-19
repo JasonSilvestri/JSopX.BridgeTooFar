@@ -24,7 +24,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    - This most accurately depicts the correct example:
        ```bash
        # Navigate to local desired directory to the repository
-       $ cd path\to\local\repo\JSopX.BridgeTooFar
+       $ cd path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar
    
        # Using Bash to clone JSopX.BridgeTooFar Git Repository
        # Navigate to remote desired directory to the repository
@@ -38,7 +38,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
        
        ```powershell
        # Navigate to the desired local directory you plan to clone the repository to on your computer
-       cd path\to\local\repo\JSopX.BridgeTooFar
+       cd path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar
    
        # Using PowerShell to clone JSopX.BridgeTooFar Git Repository
        git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
@@ -52,7 +52,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    
        ```node
        // Navigate to the desired directory
-       cd path\to\local\repo\JSopX.BridgeTooFar
+       cd path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar
    
        // Using npx to clone JSopX.BridgeTooFar Git Repository
        npx degit JasonSilvestri/JSopX.BridgeTooFar
@@ -67,7 +67,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    - **Vite** (After Cloning):
        ```bash
        # Navigate to the desired directory
-       cd path\to\local\repo\JSopX.BridgeTooFar
+       cd path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar
    
        # Clone the repository using Bash
        git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git

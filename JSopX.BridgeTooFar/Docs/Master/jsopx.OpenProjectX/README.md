@@ -309,7 +309,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    - This most accurately depicts the correct example:
        ```bash
        # Navigate to local desired directory to the repository
-       $ cd path\to\local\repo\JSopX.RCLxComponents
+       $ cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        # Using Bash to clone JSopX.RCLxComponents Git Repository
        # Navigate to remote desired directory to the repository
@@ -323,7 +323,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
        
        ```powershell
        # Navigate to the desired local directory you plan to clone the repository to on your computer
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        # Using PowerShell to clone JSopX.RCLxComponents Git Repository
        git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
@@ -337,7 +337,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    
        ```node
        // Navigate to the desired directory
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        // Using npx to clone JSopX.RCLxComponents Git Repository
        npx degit JasonSilvestri/JSopX.RCLxComponents
@@ -352,7 +352,7 @@ So, typically when you see people trying to be GitHub cool, they will often prov
    - **Vite** (After Cloning):
        ```bash
        # Navigate to the desired directory
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
    
        # Clone the repository using Bash
        git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
@@ -2151,7 +2151,7 @@ You can install the **`JSopX.BridgeTooFar`** Project **independently** by clonin
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.BridgeTooFar
+       cd path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar
     
        # 2. Clone JSopX.BridgeTooFar Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
@@ -2211,7 +2211,7 @@ You can install the **`JSopX.ClassLibrary`** Project **independently** by clonin
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.ClassLibrary
+       cd path\to\local\repo\JasonSilvestri\JSopX.ClassLibrary
     
        # 2. Clone JSopX.ClassLibrary Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
@@ -2274,7 +2274,7 @@ You can install the **`JSopX.WebAPI`** Project **independently** by cloning the 
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.WebAPI
+       cd path\to\local\repo\JasonSilvestri\JSopX.WebAPI
     
        # 2. Clone JSopX.WebAPI Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.WebAPI.git
@@ -2340,7 +2340,7 @@ You can install the **`JSopX.SharedResources`** Project **independently** by clo
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.SharedResources
+       cd path\to\local\repo\JasonSilvestri\JSopX.SharedResources
     
        # 2. Clone JSopX.SharedResources Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.SharedResources.git
@@ -2405,7 +2405,7 @@ You can install the **`JSopX.RCLxProper`** Project **independently** by cloning 
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.RCLxProper
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxProper
     
        # 2. Clone JSopX.RCLxProper Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.RCLxProper.git
@@ -2470,7 +2470,7 @@ You can install the **`JSopX.RCLxAssets`** Project **independently** by cloning 
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.RCLxAssets
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxAssets
     
        # 2. Clone JSopX.RCLxAssets Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.RCLxAssets.git
@@ -2534,7 +2534,7 @@ You can install the **`JSopX.RCLxComponents`** Project **independently** by clon
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.RCLxComponents
+       cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
     
        # 2. Clone JSopX.RCLxComponents Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
@@ -2605,7 +2605,7 @@ You can install the **`JSopX.AngularCore`** Project **independently** by cloning
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.AngularCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
     
        # 2. Clone JSopX.AngularCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
@@ -2685,7 +2685,7 @@ You can install the **`JSopX.ReactCore`** Project **independently** by cloning t
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.ReactCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.ReactCore
     
        # 2. Clone JSopX.ReactCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
@@ -2764,7 +2764,7 @@ You can install the **`JSopX.VueCore`** Project **independently** by cloning the
     
        # 1. Navigate to the desired local directory you plan to clone the repository
        # to on your computer
-       cd path\to\local\repo\JSopX.VueCore
+       cd path\to\local\repo\JasonSilvestri\JSopX.VueCore
     
        # 2. Clone JSopX.VueCore Git Repository       
        git clone https://github.com/JasonSilvestri/JSopX.VueCore.git
