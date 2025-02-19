@@ -37,11 +37,7 @@ The JSopX™ Open ProjectX Bridge Too Far Solution, is evolving into a centraliz
   </ItemGroup>-->
 
   <ItemGroup>
-    <Folder Include="DocsX\AllGlobal\Master\Includes\Excerpts\" />
-    <Folder Include="DocsX\AllGlobal\Master\Includes\Navigation\" />
-    <Folder Include="DocsX\Master\" />
-    <Folder Include="Docs\JSopX\Master\Phases\" />
-    <Folder Include="Docs\Master\" />
+    <Folder Include="DocsX\Master\AllGlobal\Master\Includes\Navigation\" />
   </ItemGroup>
 
 
