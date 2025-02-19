@@ -171,5 +171,5 @@ function processMarkdownFile(filePath) {
 }
 
 // Example usage
-const markdownFilePath = 'DocsX/jsopx.BridgeTooFar/Master/p1/v1/Includes/Templates/README.md'; // Example path for p1/v1/
+const markdownFilePath = 'DocsX/Master/jsopx.BridgeTooFar/p1/v1/Includes/Templates/README.md'; // Example path for p1/v1/
 processMarkdownFile(markdownFilePath);
