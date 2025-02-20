@@ -1,10 +1,10 @@
 # JSopX™ Current Phases
 
----
 
 **From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
 ---
+
 
 By exploring the [Overview](#overview), you’ll discover Phases and how they are used to construct projects, assets, documentation and why, 
 

@@ -1,10 +1,10 @@
 # JSopX™ Phase 2: Minimum Viable Refactor Product (MVRP)
 
----
 
 **From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
 ---
+
 
 > [!CAUTION]
 > **This is a DRAFT:**

@@ -1,10 +1,10 @@
 # JSopX™ Phase 1: Minimum Viable Product (MVP)
 
----
 
 **From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
 ---
+
 
 > [!CAUTION]
 > **This is a DRAFT:**

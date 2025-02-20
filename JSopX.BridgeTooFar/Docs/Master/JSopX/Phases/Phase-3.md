@@ -1,10 +1,10 @@
 # JSopX™ Phase 3: Advanced User Interface Connectivity and Re-Usability
 
----
 
 **From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
 ---
+
 
 > [!CAUTION]
 > **This is a DRAFT:**
