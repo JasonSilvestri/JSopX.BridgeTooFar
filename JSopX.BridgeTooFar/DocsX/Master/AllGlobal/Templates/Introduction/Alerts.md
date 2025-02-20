@@ -100,7 +100,7 @@ This ensures readers understand they’re viewing a work-in-progress and encoura
 > **CURRENT PHASE: Phase 1: Minimum Viable Product (MVP)**
 > This document is currently aligned with **Phase 1** of development. As a result, the content may not be fully accurate or ready for production use. Treat it as reference material while the project evolves.
 > 
-> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases/Phase-1-Minimum-Viable-Product-MVP.md).
+> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases/Phase-1.md).
 
 Such alerts help readers set expectations, knowing that content aligns with a specific development milestone and may change as the project advances.
 
@@ -117,7 +117,7 @@ Such alerts help readers set expectations, knowing that content aligns with a sp
 > 
 > The journey ahead is complex, unconventional, and potentially frustrating. Before proceeding, consider if this is essential to your goals. Continuing down this path means accepting increased risk, potential setbacks, and a higher investment of time and resources.
 > 
-> If you choose to continue, remember: you do so at your own risk. For more context, see [Rabbit Hole](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases/Phase-1-Minimum-Viable-Product-MVP.md).
+> If you choose to continue, remember: you do so at your own risk. For more context, see [Rabbit Hole](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases/Phase-1.md).
 
 While these alerts introduce a bit of humor, they also serve a practical purpose—helping readers recognize when they’re stepping outside of straightforward, well-documented territory.
 
