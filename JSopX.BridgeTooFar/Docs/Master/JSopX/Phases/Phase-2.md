@@ -1,4 +1,4 @@
-﻿# JSopX™ Phase 2: Minimum Viable Refactor Product (MVRP)
+# JSopX™ Phase 2: Minimum Viable Refactor Product (MVRP)
 
 ---
 

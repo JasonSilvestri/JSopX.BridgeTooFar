@@ -1,4 +1,4 @@
-﻿# JSopX™ Phase 1: Minimum Viable Product (MVP)
+# JSopX™ Phase 1: Minimum Viable Product (MVP)
 
 ---
 

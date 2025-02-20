@@ -1,4 +1,4 @@
-﻿# JSopX™ Phase 3: Advanced User Interface Connectivity and Re-Usability
+# JSopX™ Phase 3: Advanced User Interface Connectivity and Re-Usability
 
 ---
 
@@ -112,3 +112,4 @@ We will use JWT (_JSON Web Tokens_) for authentication and role-based authorizat
 ##### [JSopX.com](https://www.jsopx.com/) | [Jason's Official Website](https://www.jsilvestri.com/) | [X](https://www.x.com/JasonSilvestri) | [LinkedIn](http://www.linkedin.com/in/JasonSilvestri) | [GitHub](https://github.com/JasonSilvestri) | [Gmail](mailto:therealjasonsilvestri@gmail.com) | [Phone : 508-851-9445](phoneto:508-851-9445)
 
 ###### Copyright © 2025 - All Rights Reserved by Jason Silvestri
+

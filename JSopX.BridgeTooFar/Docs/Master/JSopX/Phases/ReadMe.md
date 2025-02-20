@@ -1,4 +1,4 @@
-﻿# JSopX™ Current Phases
+# JSopX™ Current Phases
 
 ---
 
@@ -20,7 +20,7 @@ These `Phases` also simplify understanding and enhance readability for developer
 
 ---
 
-[`Introduction`](./Introduction/) »  [`Phases`](./Phases.md) · · · [`Get Started »`](./Phases/Phase-1.md)
+[`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) · · · [`Get Started »`](./Phase-1.md)
 
 ---
 
@@ -58,7 +58,7 @@ This guide explores best practices for creating Visual Studio Projects, using ma
 
 The sole purpose of Project Development Steps in **`Phase 1`** is to create a Minimum Viable Product (MVP) that needs to similuate a real-world case where stakeholders have been promised a proof-of-concept as soon as possible, that showcases a basic multi-platform, full-stack, enterprise-level project suite of all their current Client-Side & Server-Side Projects (e.g., _Asp.NET Core, Angular, Blazor, React, Vue, .NET MAUI Hybrid, NodeJS & More!_). 
 
-Please see [Phase 1: Minimum Viable Product (MVP)](./Phases/Phase-1.md)
+Please see [Phase 1: Minimum Viable Product (MVP)](./Phase-1.md)
 
 [`Back to Top`](#table-of-contents)
 
@@ -68,7 +68,7 @@ Please see [Phase 1: Minimum Viable Product (MVP)](./Phases/Phase-1.md)
 
 The purpose of Project Development Steps in `Phase 2` is to create a Minimum Viable Refactor Product (MVRP) to similuate a real-world case where the developers should be quickly getting rid of creating more proof-of-concept features. The Minimum Viable Product did its job. Most importantly, it has already outlived its purpose. It is time to start refactoring some of the code and processes created this far, and start thinking about focusing on tying in re-usable Web APIs, assets, and other object oriented programming design patterns and best practices you would expect in a Multi-Plaform, Multi-Stack, Enterprise-Leval Application.
 
-Please see [Phase 2: Minimum Viable Refactor Product (MVRP)](./Phases/Phase-2.md)
+Please see [Phase 2: Minimum Viable Refactor Product (MVRP)](./Phase-2.md)
 
 [`Back to Top`](#table-of-contents)
 
@@ -78,7 +78,7 @@ Please see [Phase 2: Minimum Viable Refactor Product (MVRP)](./Phases/Phase-2.md
 
 The purpose of Project Development Steps in `Phase 3` is to dig in hard with some of the most advanced aspects of all parts of each project, across the entire project suite. Whatever base assets should be included. Primary Web API should be included. All Project Referenced should be configured. Even the start of Security Protocols should be developed hand-and-hand with areas of the projects that require it.
 
-Please see [Phase 3: Advanced User Interface Connectivity and Re-Usability](./Phases/Phase-3.md)
+Please see [Phase 3: Advanced User Interface Connectivity and Re-Usability](./Phase-3.md)
 
 [`Back to Top`](#table-of-contents)
 
@@ -88,7 +88,7 @@ Please see [Phase 3: Advanced User Interface Connectivity and Re-Usability](./Ph
 
 The purpose of Project Development Steps in `Phase 4` is to Implement Final Security Protocols, Deployment Strategies and any other major aspects of the applications you have not yet handled. This isn't a little pat on the back and lets do a good job. If you yet implemented or close to finishing Final Security Protocols you should be worried, along with any other related security design patterns and best practices you may have missed. I cannot stress enough about the importance of taking care of these things before your first release candidate.
 
-Please see [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](./Phases/Phase-4.md)
+Please see [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](./Phase-4.md)
 
 [`Back to Top`](#table-of-contents)
 
@@ -98,11 +98,11 @@ Please see [Phase 4: Implement Final Security Protocols, Deployment Strategies a
 
 We all know where we are: we are in the End Game now. The purpose of Project Development Steps in `Phase 5` is to perform absolute final QA, and to fully implement Final Release and Deployment Protocols to ensure first release candidate in time to market.
 
-Please see [Phase 5: Project Release & Deployment Protocols](./Phases/Phase-5.md)
+Please see [Phase 5: Project Release & Deployment Protocols](./Phase-5.md)
 	
 ---
 
-[`Introduction`](./Introduction/) »  [`Phases`](./Phases.md) · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Phases/Phase-1.md)
+[`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Phase-1.md)
 
 ---
 

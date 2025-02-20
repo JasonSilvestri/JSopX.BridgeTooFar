@@ -1,4 +1,4 @@
-﻿# JSopX™ Phase 4: Implement Final Security Protocols, Deployment Strategies and More
+# JSopX™ Phase 4: Implement Final Security Protocols, Deployment Strategies and More
 
 ---
 
