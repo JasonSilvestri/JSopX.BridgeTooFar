@@ -1833,7 +1833,7 @@ Security, Identity, Authentication and Authorization are the #1 Design Patterns 
 2. If issue is found, we need to create samples showing step-by-step instructions on how to replicate and/or exploit the issue in the code.
 3. Then, we need to be sure we create sample showing step-by-step instructions on how to fix the vulnerability.
 
-**The following Design Patterns and Best Practices target Asp.NET Core (v 9.0) & Visual Studio 2022 (v 17.13.0), due to the crucial role they play in all applications, as well as the wide support they have out-of-the-box.** 
+**The following Design Patterns and Best Practices target Asp.NET Core (v 9.0) & Visual Studio 2022 (v 17.13.1), due to the crucial role they play in all applications, as well as the wide support they have out-of-the-box.** 
 
 **However, most technologies we use have similar features we must also adopt for maximum coverage**.
 
