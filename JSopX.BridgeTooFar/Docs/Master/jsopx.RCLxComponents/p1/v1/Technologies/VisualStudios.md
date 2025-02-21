@@ -124,7 +124,7 @@ Visit the offical **`Visual Studios`** _site_ and/or _documentation_ if:
    
 #### Step-by-Step Instructions:
    
-Visit [Visual Studio v 17.10.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.13.1`** (_or higher_).
+Visit [Visual Studio v 17.13.1 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.13.1`** (_or higher_).
    
 
 
