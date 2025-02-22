@@ -85,7 +85,7 @@ All access the same server-side Web API, while using the same client-side, look-
 
 The one-to-one equivalent between the purpose for this project existing and the primary technology for which the project relies on.
 
-- `.NET 8.0.7 SDK` or higher installed.
+- `.NET 9.0.0 SDK` or higher installed.
 
 [Back to Top](#table-of-contents)
 
@@ -94,7 +94,7 @@ The one-to-one equivalent between the purpose for this project existing and the 
 ﻿The supporting technologies required for all features to work as expected.
 
 - `Visual Studio 2022 (17.12.0)` or higher installed.
-- `.NET 8.0.7 SDK` or higher installed..
+- `.NET 9.0.0 SDK` or higher installed..
 - `Node.js 20.14.0` or higher installed.
 - Basic understanding of `.csproj` and `.sln` file structures.
   
