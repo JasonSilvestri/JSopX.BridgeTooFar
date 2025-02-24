@@ -5,7 +5,12 @@ Visit the offical **`npms`** _site_ and/or _documentation_ if:
 2. You would rather manually install **`npm`** v **`10.8.1`**
 3. You prefer some documentation first
    
-#### Step-by-Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step-by-Step Instructions:
    
 Visit [npm v 10.8.1 Documentation](https://docs.npmjs.com/) for more information about `npm` v **`10.8.1`** (_or higher_).
 

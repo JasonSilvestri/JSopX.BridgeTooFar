@@ -1,5 +1,10 @@
 ﻿
-#### Adding the JSopX™ Bridge Too Far Docs to Other Projects
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Adding the JSopX™ Bridge Too Far Docs to Other Projects
 
 This is another one of those steps that I did for you, but you never know.
 

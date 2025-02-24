@@ -8,11 +8,21 @@
 
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.VueCore : Installation
 
 You can install the **`JSopX.VueCore`** Project **independently** by cloning the Git Repository.
 
-#### Step by Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step by Step Instructions:
 
 1. _Clone_ **`JSopX.VueCore`** Git Repository:
     ```powershell
@@ -39,6 +49,11 @@ You can install the **`JSopX.VueCore`** Project **independently** by cloning the
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.VueCore : Project References
 
 What makes the **`JSopX.VueCore`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
@@ -60,6 +75,11 @@ The _Project References_ included in the **`JSopX.VueCore`** Project are as foll
 4. [`JSopX.WebAPI`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.WebAPI/p1/v1/):
     - A project which implements an ASP.NET Core Web API, serving as the back-end for the various web, desktop & mobile applications which exist in the JSopX™ Open Project EXperiences Collection of Projects. It provides RESTful API endpoints for data retrieval and manipulation, showcasing best practices in API development and integration.
  
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.VueCore : Technology Requirements
 
 Don't forget that the **`JSopX.VueCore`** Project requires certain technologies installed to work as expected.

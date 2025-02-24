@@ -5,7 +5,12 @@ Visit the offical **`JSopX™ GitHub Repositories`** _site_ and/or _documentatio
 2. You would rather manually install **`JSopX™ GitHub Repositories`**
 3. You prefer some documentation first
    
-#### Step-by-Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step-by-Step Instructions:
    
 Visit [JSopX™ GitHub Repositories v 1.0 Documentation](https://github.com/JasonSilvestri/JSopX.BridgeTooFar) for more information about `JSopX™ Bridge Too Far` GitHub Repositories.
 

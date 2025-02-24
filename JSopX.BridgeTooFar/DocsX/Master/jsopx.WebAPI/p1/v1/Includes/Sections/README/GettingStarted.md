@@ -8,11 +8,21 @@
 
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.WebAPI : Installation
 
 You can install the **`JSopX.WebAPI`** Project **independently** by cloning the Git Repository.
 
-#### Step by Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step by Step Instructions:
 
 1. _Clone_ **`JSopX.WebAPI`** Git Repository:
     ```powershell
@@ -38,13 +48,28 @@ You can install the **`JSopX.WebAPI`** Project **independently** by cloning the 
 
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.WebAPI : Usage
 
 For detailed, _Step-by-Step Instructions_ on `Usage` of the **`JSopX.WebAPI`** Project, you will want to visit the **`JSopX.WebAPI`** repository directly.
 
-#### Step by Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step by Step Instructions:
 
 1. Visit the **`JSopX.WebAPI`** repository at [https://github.com/JasonSilvestri/JSopX.WebAPI](https://github.com/JasonSilvestri/JSopX.WebAPI) for _Usage_.
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## JSopX.WebAPI : Project References
 
@@ -60,6 +85,11 @@ The _Project References_ included in the **`JSopX.WebAPI`** Project are as follo
 2. **[`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.ClassLibrary/p1/v1/)**
     - A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
 
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## JSopX.WebAPI : Technology Requirements
 

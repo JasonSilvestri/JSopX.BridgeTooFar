@@ -8,11 +8,21 @@
 
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.SharedResources : Installation
 
 You can install the **`JSopX.SharedResources`** Project **independently** by cloning the Git Repository.
 
-#### Step by Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step by Step Instructions:
 
 1. _Clone_ **`JSopX.SharedResources`** Git Repository:
     ```powershell
@@ -39,6 +49,11 @@ You can install the **`JSopX.SharedResources`** Project **independently** by clo
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.SharedResources : Project References
 
 What makes the **`JSopX.SharedResources`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
@@ -51,6 +66,11 @@ The _Project References_ included in the **`JSopX.SharedResources`** Project are
 
 2. **[`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.ClassLibrary/p1/v1/)**
     - A shared library project containing reusable logic, utilities, or components that can be referenced by other projects. This is where you might place common business logic or helper functions.
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## JSopX.SharedResources : Technology Requirements
 

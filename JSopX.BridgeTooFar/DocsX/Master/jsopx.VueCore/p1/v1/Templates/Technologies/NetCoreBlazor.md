@@ -13,7 +13,12 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
 
 
-### .Net Core Blazor : Overview
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## .Net Core Blazor : Overview
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/Overview.md)}}
 
@@ -24,23 +29,48 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## .Net Core Blazor: `JSopX.` Dependencies
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/JsopxDependencies.md)}}
 
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## .Net Core Blazor: Checking Versions
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/CheckingVersions.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## .Net Core Blazor: Installation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/Installation.md)}}
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## .Net Core Blazor: Documentation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/NetCoreBlazor/Documentation.md)}}
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## In Conclusion
 

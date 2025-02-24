@@ -13,7 +13,12 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
 
 
-### Vite : Overview
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Vite : Overview
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vite/Overview.md)}}
 
@@ -24,23 +29,48 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Vite: `JSopX.` Dependencies
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vite/JsopxDependencies.md)}}
 
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## Vite: Checking Versions
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vite/CheckingVersions.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Vite: Installation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vite/Installation.md)}}
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Vite: Documentation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vite/Documentation.md)}}
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## In Conclusion
 

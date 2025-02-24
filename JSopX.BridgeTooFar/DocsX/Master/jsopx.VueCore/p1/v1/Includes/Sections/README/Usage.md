@@ -1,10 +1,20 @@
 ﻿
-#### Adding the JSopX™ Vue Core Projects
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Adding the JSopX™ Vue Core Projects
 
 This is another one of those steps that I did for you, but you never know. You may need to re-create these steps in custom situations.
 
 
-### Reference the Vue Core Project
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Reference the Vue Core Project
 
 1. **Add a project reference** to `JsopX.VueCore` in each client project:
     - Right-click on the client project (e.g., `JsopX.VueCore`, `JsopX.VueCore`, `JsopX.VueCore`, `JsopX.BlazorServerCore`).
@@ -14,7 +24,12 @@ This is another one of those steps that I did for you, but you never know. You m
 2. **Use the Common Code**:
    - You can now use the JSopX™ Vue Core from the `JSopX.VueCore` project in your other projects.
 
-### Example: Blazor Project
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Example: Blazor Project
 
 **In `JsopX.BlazorServerCore`**:
 
@@ -35,7 +50,12 @@ This is another one of those steps that I did for you, but you never know. You m
     <link rel="stylesheet" href="@($"{env.WebRootPath}/CSS/style.css")">
     ```
 
-### Example: Angular Project
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Example: Angular Project
 
 **In `JsopX.VueCore`**:
 
@@ -60,7 +80,12 @@ This is another one of those steps that I did for you, but you never know. You m
     <link rel="stylesheet" href="assets/CSS/style.css">
     ```
 
-### Example: Vue Project
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Example: Vue Project
 
 **In `JsopX.VueCore`**:
 
@@ -89,7 +114,12 @@ This is another one of those steps that I did for you, but you never know. You m
     </template>
     ```
 
-### Example: React Project
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Example: React Project
 
 **In `JsopX.VueCore`**:
 

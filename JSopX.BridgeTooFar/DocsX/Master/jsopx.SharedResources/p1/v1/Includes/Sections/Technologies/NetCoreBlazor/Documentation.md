@@ -5,7 +5,12 @@ Visit the offical **`.NET Core Blazor`** _site_ and/or _documentation_ if:
 2. You would rather manually install **`.NET Core Blazor`** v **`9.0.0`**
 3. You prefer some documentation first
    
-#### Step-by-Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step-by-Step Instructions:
    
 Visit [.NET Core Blazor v 8.0.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/blazor/) for more information about `.NET Core Blazor` v **`9.0.0`** (_or higher_).
 

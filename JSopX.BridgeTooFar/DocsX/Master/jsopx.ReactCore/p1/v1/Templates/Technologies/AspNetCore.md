@@ -12,7 +12,12 @@ END JSOPX NOVA DOCX HEADER -->
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
 
-### Asp.Net Core : Overview
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Asp.Net Core : Overview
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/Overview.md)}}
 
@@ -23,23 +28,48 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Asp.Net Core: `JSopX.` Dependencies
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/JsopxDependencies.md)}}
 
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## Asp.Net Core: Checking Versions
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/CheckingVersions.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Asp.Net Core: Installation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/Installation.md)}}
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Asp.Net Core: Documentation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/AspNetCore/Documentation.md)}}
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## In Conclusion
 

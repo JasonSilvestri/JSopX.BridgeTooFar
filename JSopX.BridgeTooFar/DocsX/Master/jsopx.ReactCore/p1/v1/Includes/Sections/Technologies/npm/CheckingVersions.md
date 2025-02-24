@@ -1,7 +1,12 @@
 ﻿
 Check if `npm` v **`10.8.1`** (_or higher_) is installed on your device.
 
-#### Step-by-Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step-by-Step Instructions:
 
 Use **`Node`** Command Line dialog to ensure you have the correct version of `npm` v `10.8.1` (_or higher_) on your device.
    

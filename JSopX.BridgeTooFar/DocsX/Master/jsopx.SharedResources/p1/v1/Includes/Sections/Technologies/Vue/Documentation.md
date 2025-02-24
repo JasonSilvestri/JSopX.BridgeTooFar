@@ -5,7 +5,12 @@ Visit the offical **`Vues`** _site_ and/or _documentation_ if:
 2. You would rather manually install **`Vue`** v **`3.4.21`**
 3. You prefer some documentation first
    
-#### Step-by-Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step-by-Step Instructions:
    
 Visit [Vue v 3.4.21 Documentation](https://vuejs.org/guide/introduction.html) for more information about `Vue` v **`3.4.21`** (_or higher_).
 

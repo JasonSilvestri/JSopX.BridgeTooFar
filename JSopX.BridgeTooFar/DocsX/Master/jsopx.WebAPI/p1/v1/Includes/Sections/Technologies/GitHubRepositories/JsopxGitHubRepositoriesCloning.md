@@ -1,13 +1,23 @@
 ﻿
 When you `clone` a JSopX™ GitHub Repository, you are essentially downloading a copy of the associated projects and/or solutions within that repository. I will use one of my projects as an example.
 
-### Using JSopX.BridgeTooFar Repository as Example Clone
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Using JSopX.BridgeTooFar Repository as Example Clone
 
 **`JSopX.BridgeTooFar.sln`**: The `JSopX.BridgeTooFar` Project (_JSopX™ Razor Class Library "xComponents" Project_) is a Razor Class Library focusing on reusable Blazor and MAUI components, with plans for experimental support for Vue, React, and Angular components.
 
 In this example, we know the `JSopX.BridgeTooFar` project is a very cool and helpful Razor Class Library we want to consume. It is time to `clone` it.
 
-#### Step by Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step by Step Instructions:
 So, typically when you see people trying to be GitHub cool, they will often provide you a one-liner `clone` example, which ultimately translates to using the `Bash` command line tool. 
 
 1. _Clone_ `JSopX.BridgeTooFar` Git Repository using `Bash` Command Line:
@@ -80,7 +90,12 @@ So, typically when you see people trying to be GitHub cool, they will often prov
        npm install
        ```
    
-      ### Summary:
+      #
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Summary:
     - **PowerShell** and **Bash** both use `git clone` after navigating to the local directory.
     - **npm** (or `npx`) can use the `degit` command to clone a repository directly.
     - **Vite** steps show initializing or installing the project after cloning.

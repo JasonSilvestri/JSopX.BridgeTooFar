@@ -1,7 +1,12 @@
 ﻿
 Check if `Angular CLI` v **`18.0.3`** (_or higher_) is installed on your device.
 
-#### Step-by-Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step-by-Step Instructions:
 
 Use **`Angular CLI`** Command Line dialog to ensure you have the correct version of `Angular CLI` v `18.0.3` (_or higher_) on your device.
    

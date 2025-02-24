@@ -8,11 +8,21 @@
 
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.ReactCore : Installation
 
 You can install the **`JSopX.ReactCore`** Project **independently** by cloning the Git Repository.
 
-#### Step by Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step by Step Instructions:
 
 1. _Clone_ **`JSopX.ReactCore`** Git Repository:
     ```powershell
@@ -39,6 +49,11 @@ You can install the **`JSopX.ReactCore`** Project **independently** by cloning t
     - **Click** on the `Run` button in `Visual Studio` to run the project.
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.ReactCore : Project References
 
 What makes the **`JSopX.ReactCore`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
@@ -60,6 +75,11 @@ The _Project References_ included in the **`JSopX.ReactCore`** Project are as fo
 4. [`JSopX.WebAPI`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.WebAPI/p1/v1/):
     - A project which implements an ASP.NET Core Web API, serving as the back-end for the various web, desktop & mobile applications which exist in the JSopX™ Open Project EXperiences Collection of Projects. It provides RESTful API endpoints for data retrieval and manipulation, showcasing best practices in API development and integration.
  
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## JSopX.ReactCore : Technology Requirements
 
 Don't forget that the **`JSopX.ReactCore`** Project requires certain technologies installed to work as expected.

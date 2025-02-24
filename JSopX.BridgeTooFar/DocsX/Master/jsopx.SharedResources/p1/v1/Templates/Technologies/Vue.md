@@ -13,7 +13,12 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Draft-Notice.md)}}
 
 
-### Vue : Overview
+#
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Vue : Overview
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/Overview.md)}}
 
@@ -24,23 +29,48 @@ END JSOPX NOVA DOCX HEADER -->
 {{[jsopx-includes](AllGlobal/Master/Includes/Common/Alerts-Current.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Vue: `JSopX.` Dependencies
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/JsopxDependencies.md)}}
 
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## Vue: Checking Versions
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/CheckingVersions.md)}}
 
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Vue: Installation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/Installation.md)}}
 
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Vue: Documentation
 
 {{[jsopx-includes](AllGlobal/Master/Includes/Sections/Technologies/Vue/Documentation.md)}}
+
+
+[`Back to Top`](#table-of-contents)
+
+---
 
 ## In Conclusion
 

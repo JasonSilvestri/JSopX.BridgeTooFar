@@ -1,7 +1,12 @@
 ﻿
 Install `npm` v **`10.8.1`** (_or higher_) if it is not already installed or found on your device.
 
-#### Step-by-Step Instructions:
+##
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step-by-Step Instructions:
 
 You can use **`Node`** Command Line dialog again to `install` the correct version of `npm` v `10.8.1` (_or higher_) on your device.
    
