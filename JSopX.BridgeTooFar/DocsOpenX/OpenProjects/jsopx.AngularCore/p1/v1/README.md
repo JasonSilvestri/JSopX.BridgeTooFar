@@ -116,6 +116,11 @@ Before we get started with the `JSopX.AngularCore` Project, lets double check an
 
 _Clone_ the `JSopX.AngularCore` GitHub Repository if you plan to explore it independently from the rest of the projects.
 
+Choose the approach below that fits your environment:  
+
+- **[Bash](#step-11-using-bash)** → Ideal for **Linux, macOS, and Windows (WSL/Git Bash)** users.  
+- **[PowerShell](#step-12-using-powershell)** → Best for **Windows** users.  
+- **[Node.js](#step-13-using-nodejs-or-npm-degit)** → A lightweight option for developers using **JavaScript-based workflows**.  
 
 ---
 
@@ -284,36 +289,38 @@ JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio
 
 A table structure of the same `JSopX.AngularCore` Project, files and resources.
 
+
 | **File/Directory**                     | **Description**                                                                                   |
-|:---------------------------------------|:--------------------------------------------------------------------------------------------------|
-| 📁 **JSopX.AngularCore**               | Parent `JSopX.AngularCore` Visual Studio Solution folder, containing both client and server code.|
-| ├ 📝 `.gitattributes`                | Git attributes file for repository metadata and configurations. |
-| ├ 📝 `.gitignore `                   | Specifies files and directories to ignore in version control. |
-| ├ 📝 `JSopX.AngularCore.sln`         | Visual Studio `.sln` solution file linking the client and server projects. |
-| ├ 📝 `LICENSE.txt`                   | Licensing information for the project (generally `MIT` open-source license). |
-| ├ 📝 `PathConfig.targets`            | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
-| 📁 **jsopx.angularcore.client**        | Angular client-side application folder, housing the front-end implementation. |
-| ├ 📝 `jsopx.angularcore.client.esproj`   | Angular client-side Visual Studio project `.esproj` configuration file. |
-| ├ 📝 `angular.json`                      | Angular CLI configuration file for workspace and project settings. |
-| ├ 📝 `package.json`                      | NPM metadata file listing project dependencies and scripts. |
-| 📁 `src/`                              | Main source directory for Angular, containing app components and assets. |
-| ├ 📁 `app/`                          | Core Angular modules, components, and routing configurations. |
-| │ ├ 📝 `app-routing.module.ts`     | Defines route configurations for Angular components. |
-| │ ├ 📝 `app.component.css`         | Styles for the main application component. |
-| │ ├ 📝 `app.component.html`        | HTML template for the main application component. |
-| │ ├ 📝 `app.component.spec.ts`     | Unit test file for the main application component. |
-| │ ├ 📝 `app.component.ts`          | TypeScript logic for the main application component. |
-| │ ├ 📝 `app.module.ts`             | Root Angular module that declares components and imports dependencies. |
-| │ ├ 📝 `index.html`                    | Root HTML file that bootstraps the Angular application. |
-| │ ├ 📝 `main.ts`                       | Entry point file where Angular initializes and bootstraps the application. |
-| │ ├ 📝 `proxy.conf.js`                 | Configuration file for setting up API proxying in Angular. |
-| │ ├ 📝 `styles.css`                    | Global stylesheet for Angular application. |
-| 📁 **JSopX.AngularCore.Server**        | ASP.NET Core server-side folder for back-end logic and API endpoints. |
-| ├ 📝 `JSopX.AngularCore.Server.csproj` | Angular server-side Visual Studio project `.csproj` configuration file. |
-| ├ 📝 `Program.cs`                    | Main entry point for the ASP.NET Core application, initializing services. |
-| ├ 📁 `Controllers/`                  | Contains API controllers that handle HTTP requests and responses. |
-| ├ 📝 `appsettings.json`              | Configuration file for application settings like connection strings. |
-| ├ 📝 `WeatherForecast.cs`            | Example model class provided by ASP.NET Core templates for demonstration. |
+|:----------------------------------------|:--------------------------------------------------------------------------------------------------|
+| 📁 **JSopX.AngularCore**                | Parent `JSopX.AngularCore` Visual Studio Solution folder, containing both client and server code.|
+| ├ 📝 `.gitattributes`                   | Git attributes file for repository metadata and configurations. |
+| ├ 📝 `.gitignore `                      | Specifies files and directories to ignore in version control. |
+| ├ 📝 `JSopX.AngularCore.sln`            | Visual Studio `.sln` solution file linking the client and server projects. |
+| ├ 📝 `LICENSE.txt`                      | Licensing information for the project (generally `MIT` open-source license). |
+| ├ 📝 `PathConfig.targets`               | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
+| 📁 **jsopx.angularcore.client**         | Angular client-side application folder, housing the front-end implementation. |
+| ├ `jsopx.angularcore.client.esproj`     | Angular client-side Visual Studio project `.esproj` configuration file. |
+| ├ 📝 `angular.json`                     | Angular CLI configuration file for workspace and project settings. |
+| ├ 📝 `package.json`                     | NPM metadata file listing project dependencies and scripts. |
+| 📁 `src/`                               | Main source directory for Angular, containing app components and assets. |
+| ├ 📁 `app/`                             | Core Angular modules, components, and routing configurations. |
+| │ ├ 📝 `app-routing.module.ts`          | Defines route configurations for Angular components. |
+| │ ├ 📝 `app.component.css`              | Styles for the main application component. |
+| │ ├ 📝 `app.component.html`             | HTML template for the main application component. |
+| │ ├ 📝 `app.component.spec.ts`          | Unit test file for the main application component. |
+| │ ├ 📝 `app.component.ts`               | TypeScript logic for the main application component. |
+| │ ├ 📝 `app.module.ts`                  | Root Angular module that declares components and imports dependencies. |
+| │ ├ 📝 `index.html`                     | Root HTML file that bootstraps the Angular application. |
+| │ ├ 📝 `main.ts`                        | Entry point file where Angular initializes and bootstraps the application. |
+| │ ├ 📝 `proxy.conf.js`                  | Configuration file for setting up API proxying in Angular. |
+| │ ├ 📝 `styles.css`                     | Global stylesheet for Angular application. |
+| 📁 **JSopX.AngularCore.Server**         | ASP.NET Core server-side folder for back-end logic and API endpoints. |
+| ├ `JSopX.AngularCore.Server.csproj`     | Angular server-side Visual Studio project `.csproj` configuration file. |
+| ├ 📝 `Program.cs`                       | Main entry point for the ASP.NET Core application, initializing services. |
+| ├ 📁 `Controllers/`                     | Contains API controllers that handle HTTP requests and responses. |
+| ├ 📝 `appsettings.json`                 | Configuration file for application settings like connection strings. |
+| ├ 📝 `WeatherForecast.cs`               | Example model class provided by ASP.NET Core templates for demonstration. |
+
 
 
 [`Back to Top`](#table-of-contents)

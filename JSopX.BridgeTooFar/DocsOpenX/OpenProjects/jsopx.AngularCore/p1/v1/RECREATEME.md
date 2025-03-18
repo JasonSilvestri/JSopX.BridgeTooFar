@@ -19,13 +19,16 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
 
 ---
 
-
 ## Table of Contents
 
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
-
-
+  - [Step 1: Recreate Using Angular and ASP.NET Core Template](#step-1-recreate-using-angular-and-aspnet-core-template)
+  - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
+  - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
+  - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+  - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  
 ---
 
 ## Current Phase

@@ -15,7 +15,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 
 ---
 
-[`Introduction`](../../../../Introduction/) » [`JSopX Projects`](../../../../OpenProjects/) » [`JSopX.BridgeTooFar`](../../../../OpenProjects/jsopx.BridgeTooFar/README.md) · · **`From Scratch`** · · · [`« Previous`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) » [`JSopX Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/) » [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) · · **`From Scratch`** · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
 
@@ -35,7 +35,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 
 > [!NOTE]
 >
->**Phases 1**: This document is currently aligned with **[Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md)** Business Requirements. 
+>**Phases 1**: This document is currently aligned with **[Phase 1: Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/Phases/Phase-1.md)** Business Requirements. 
 > 
 
 ---
@@ -56,12 +56,12 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
-- [Node (v 20.14.0)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/Node.md)
-- [npm (v 10.8.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/npm.md)
-- [Angular CLI (v 18.0.3)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AngularCli.md)
+- [Visual Studio (v 17.13.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
+- [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/p1/v1/Technologies/Node.md)
+- [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/p1/v1/Technologies/npm.md)
+- [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AngularCli.md)
 
 [`Back to Top`](#table-of-contents)
 
@@ -401,7 +401,7 @@ You have a few options moving forward:
 
 If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board, which includes across projects.
 
-[`Continue Course »`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/)
+[`Continue Course »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.OpenProjectX/p1/v1/)
 
 ---
 
@@ -409,7 +409,7 @@ If you want to be sure you are able to create all projects from scratch, it is h
 
 Although not recommended, if your pure focus is reverse engineering just the JSopX™ Angular Core project for one reason or another, it's cool. I totally get it. It is part of why I created this series of applications, and in the ways I did. We are developers. We develop. We explore. We ask the question, "What If?".
 
-[`Continue Evolving with JSopX™ Angular Core »`](../../../../OpenProjects/jsopx.AngularCore/p2/v1/)
+[`Continue Evolving with JSopX™ Angular Core »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/p2/v1/)
 
 
 ---
@@ -418,11 +418,11 @@ Although not recommended, if your pure focus is reverse engineering just the JSo
 
 You can always go back to the version of this application that is already created for you. No one is gonna bash you for starting from the beginning and regrouping.
 
-[`« Start From Beginning`](../../../../OpenProjects/jsopx.AngularCore/)
+[`« Start From Beginning`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/)
 
 ---
 
-[`Introduction`](../../../../Introduction/) » [`JSopX Projects`](../../../../OpenProjects/) » [`JSopX.BridgeTooFar`](../../../../OpenProjects/jsopx.BridgeTooFar/README.md) · · **`From Scratch`** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) » [`JSopX Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/) » [`JSopX.BridgeTooFar`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) · · **`From Scratch`** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
 
