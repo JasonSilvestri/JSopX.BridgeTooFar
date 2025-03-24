@@ -7,7 +7,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · · [`« Previous`](./JSopxNovaBarnDoorProtocolDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · · [`« Previous`](./JSopxNovaBarnDoorProtocolDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 
@@ -212,7 +212,7 @@ Details what you should know or have prepared beforehand to maximize understandi
 ```markdown
 ## **Prerequisites**  
 
-- `Visual Studio 2022 (v 17.13.3)` or higher installed.
+- `Visual Studio 2022 (v 17.13.4)` or higher installed.
 - Installed `.NET 9.0` SDK.
 - Installed `Node.js 20.14.0`.
 - Basic understanding of `.csproj` and `.sln` file structures.
@@ -539,7 +539,7 @@ The following snippet is a `Footer` in a Template, wrapped in comments (we do th
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaBarnDoorProtocolDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Most Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaBarnDoorProtocolDesignPatterns.md) [`Next »`](./JSopxNovaLessCommonDocSectionDesignPatterns.md)
 
 ---
 

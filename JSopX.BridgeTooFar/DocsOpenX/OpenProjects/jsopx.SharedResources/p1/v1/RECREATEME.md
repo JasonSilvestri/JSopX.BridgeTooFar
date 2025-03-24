@@ -1,73 +1,122 @@
-# Recreating JSopX™ Shared Resources Project: Start from Scratch
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-shared-resources-logo.svg" style="width: 28px; height: auto; margin-right:12px; margin-top:12px;!important;"> JSopX™ Shared Resources Project
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
-
----
-
-By exploring the [Overview](#overview), you’ll gain insights into how each Visual Studio project within JSopX™ fits into the larger ecosystem, contributing to a unified, scalable, and maintainable enterprise-level application suite. Recreating the `JSopX.SharedResources` project shows us how to simulate a traditional class library for sharing static assets (Bootstrap, CSS, JS, HTML).
+The **JSopX™ Shared Resources Project**, _code named_, `JSopX.SharedResources` is a totally **FREE**, open-source, Class Library, and a traditional hub for common resources—images, fonts, scripts, localizations—that feed into multiple projects. Initially a central class library, it highlights the benefits of having a single source for shared assets.
 
 ---
+
+## **From Scratch Variant:**
 
 > [!CAUTION]
-> **Phase 1: Minimum Viable Product (MVP):**
->
-> This document is currently aligned with **Phase 1** of development. As a result, the content may not be fully accurate or ready for production use. Treat it as reference material while the project evolves.
+> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **JSopX™ Shared Resources Project**. 
 > 
-> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md).
+> For more details, see [Getting Started](#getting-started) _below_.
 
 ---
 
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+
+```bash
+# For The Cool Kids: Clone JSopX.SharedResources Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.SharedResources.git
+```
 
 ---
+
+[`Home`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.SharedResources/) · [`By-Phase`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../../../OpenProjects/BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)
+
+---
+
 
 ## Table of Contents
 
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
+  - [Step 1: Recreate Using Shared Resources and ASP.NET Core Template](#step-1-recreate-using-aspnet-core-shared-resources-template)
+  - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
+  - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
+  - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+  - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  
+---
+
+## Current Phase
+
+> [!IMPORTANT]
+>
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
+> 
 
 ---
 
-## **Overview**  
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
+> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+
+---
+
+## Overview
+
+The **JSopX™ Shared Resources Project**, _code named_, `JSopX.SharedResources` is a totally **FREE**, open-source, Class Library, and a traditional hub for common resources—images, fonts, scripts, localizations—that feed into multiple projects. Initially a central class library, it highlights the benefits of having a single source for shared assets.
+
+We initially create the project to simulate a [Shared Assets & Resources Projects](../../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+
+As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
-
-Recreating the `JSopX.SharedResources` project shows us how to simulate a traditional class library for sharing static assets (Bootstrap, CSS, JS, HTML).
-
-[`Back to Top`](#table-of-contents)
 
 ---
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](../../../../OpenProjects/jsopx.SharedResources/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.SharedResources/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.SharedResources/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.13.4)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Step 1: Recreate Using Class Library Template
+## **Getting Started**
+
+Carefully _choose_ the variant approach below that fits your current objective:
+
+---
+
+### 1. **Continue Creating `JSopX.`SharedResources From Scratch**:
+
+- **[Continue](#step-1-recreate-using-aspnet-core-shared-resources-template)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.SharedResources` _From Scratch_ Variant.   
+
+---
+
+### 2. **Use Different Variant**:
+
+- **[Install Using Latest](../../../../OpenProjects/jsopx.SharedResources/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.SharedResources` _Using Latest_ Variant.  
+- **[Browse By-Phase](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.SharedResources` _By-Phase_ Variant.   
+- **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+## Step 1: Recreate Using ASP.NET Core Shared Resources Template
 
 **Goal**: Simulate a traditional class library for sharing static assets (Bootstrap, CSS, JS, HTML).
 
-1. **Open Visual Studio 2022 (v 17.13.3)**:
-   - Ensure .NET 9.0 SDK is installed.
+1. **Open Visual Studio 2022 (v 17.13.4)**:
+   - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
    - File > New > Project.
-   - Search for “Class Library (.NET Core)”.
+   - Search for “ASP.NET Core with React”.
    - Configure:
      - Project Name: `JSopX.SharedResources`.
-     - Location: `C:\JSopX\`.
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.SharedResources`.
      - Solution Name: `JSopX.SharedResources`.
-     - Framework: .NET 9.0.
+     - .NET Framework (v 9.0.1)
    - Click Create.
+
 
 3. **Set Up Initial Assets**:
    - Add folders: `Assets/CSS`, `Assets/JS`, `Assets/HTML`.
@@ -156,40 +205,23 @@ Recreating the `JSopX.SharedResources` project shows us how to simulate a tradit
 
 ---
 
-## `Phase 1` Tasks Finished! What's Next?
+## **Next Steps**
 
-You have **completed all** `Phase 1: Start from Scratch` tasks for the `JSopX.SharedResources` JSopX™ Shared Resources Project.
-
-You have a few options moving forward:
+Carefully choose the approach below that fits your current objective:
 
 ---
 
-### **1. Continue `Phase 1` Tasks (_Recommended_):**  
-
-If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board, which includes across projects.
-
-[`Continue Course »`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/)
+1. **[Continue](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.RCLxAssets` _From Scratch_ Variant.   
 
 ---
 
-### **2. Continue Focus on the Growth of just JSopX™ Shared Resources:**  
-
-Although not recommended, if your pure focus is reverse engineering just the JSopX™ Shared Resources project for one reason or another, it's cool. I totally get it. It is part of why I created this series of applications, and in the ways I did. We are developers. We develop. We explore. We ask the question, "What If?".
-
-[`Continue Evolving Class Library »`](../../../../OpenProjects/jsopx.SharedResources/p2/v1/)
-
+1. **[Install Using Latest](../../../../OpenProjects/jsopx.SharedResources/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.SharedResources` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.SharedResources` _By-Phase_ Variant.   
+3. **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-### **3. I Want My Blanky and Bubba:**  
-
-You can always go back to the version of this application that is already created for you. No one is gonna bash you for starting from the beginning and regrouping.
-
-[`« Start From Beginning`](../../../../OpenProjects/jsopx.SharedResources/)
-
----
-  
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.SharedResources/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)
 
 ---
 

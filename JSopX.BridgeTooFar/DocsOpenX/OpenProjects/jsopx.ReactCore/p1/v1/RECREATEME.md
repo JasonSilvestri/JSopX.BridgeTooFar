@@ -1,78 +1,133 @@
-# Recreating JSopX™ React Core Project: Start from Scratch
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-react-core-logo.svg" style="width: 28px; height: auto; padding-right:12px;!important;"> JSopX™ React Core Project
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
-
----
-
-By exploring the [Overview](#overview), you’ll gain insights into how each Visual Studio project within JSopX™ fits into the larger ecosystem, contributing to a unified, scalable, and maintainable enterprise-level application suite. Recreating the `JSopX.ReactCore` project shows us how to simulate an existing React app with weather data, Identity, and JWT already established.
+The **JSopX™ React Core Project**, _code named_, `JSopX.ReactCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. 
 
 ---
 
-> [!CAUTION]
-> **Phase 1: Minimum Viable Product (MVP):**
->
-> This document is currently aligned with **Phase 1** of development. As a result, the content may not be fully accurate or ready for production use. Treat it as reference material while the project evolves.
+## **Start From Scratch Variant:**
+
+> [!TIP]
+> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **JSopX™ React Core Project**. 
 > 
-> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md).
+> For more details, see [Getting Started](#getting-started) _below_.
 
 ---
 
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+
+```bash
+# For The Cool Kids: Clone JSopX.ReactCore Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
+```
 
 ---
 
+[`Home`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
+
+---
+
+  
 ## Table of Contents
 
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+      - [Step 1: Recreate Using React and ASP.NET Core Template](#step-1-recreate-jsopxreactcore-using-react--aspnet-core-template)
+      - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
+      - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
+      - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+      - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  - [Next Steps](#next-steps)
+  
+---
+
+## Current Phase
+
+> [!IMPORTANT]
+>
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../../../Phases/Phase-1.md) Business Requirements. 
+> 
 
 ---
 
-## **Overview**  
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
+> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+
+---
+
+## Overview
+
+The **JSopX™ React Core Project**, _code named_, `JSopX.ReactCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. As a whole, the project highlights the integration of _Angular_ for the client-side with _ASP.NET Core_ for the server-side, providing a comprehensive example of a modern web application stack. Conversely, the project has a much higher calling.
+
+It's one of over a dozen epic projects from the Jason Silvestri Open Project EXperiences (JSopX™) Collection, with its own _code name_, `JSopX.OpenProjectX`—a multi-platform, multi-stack, all-in-one enterprise application, featuring projects in [Angular](../../../../OpenProjects/jsopx.ReactCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.VueCore/README.md), [Asp.NET Core](../../../../OpenProjects/jsopx.AngularCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md).
+
+We initially create the project to simulate an ["Existing" Client-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Angular application, with its own Web API and existing standards, to conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+
+As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
-
+By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-Recreating the `JSopX.ReactCore` project shows us how to simulate an existing React app with weather data, Identity, and JWT already established.
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Prerequisites
+## **Prerequisites**
 
-- [Visual Studio (v 17.13.3)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/AspNetCore.md)
-- [npm (v 10.8.1)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/npm.md)
-- [React (v 18.2.0)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/React.md)
+Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.ReactCore` Project.
 
-[`Back to Top`](#table-of-contents)
+- [Visual Studio (v 17.13.4)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
+- [Node.js (v 20.14.0)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#node)
+- [npm (v 10.8.1)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#npm)
+- [React (v 18.2.0)](../../../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies#react)
 
 ---
 
-## Step 1: Recreate Using React and ASP.NET Core Template
+## **Getting Started**
+
+Carefully _choose_ the variant approach below that fits your current objective:
+
+---
+
+### 1. **Continue Creating `JSopX.`ReactCore From Scratch**:
+
+- **[Continue](#step-1-recreate-jsopxreactcore-using-react--aspnet-core-template)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.ReactCore` _From Scratch_ Variant.   
+
+---
+
+### 2. **Use Different Variant**:
+
+- **[Install Using Latest](../../../../OpenProjects/jsopx.ReactCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.ReactCore` _Using Latest_ Variant.  
+- **[Browse By-Phase](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.ReactCore` _By-Phase_ Variant.   
+- **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+## **Step 1: Recreate `JSopX.`ReactCore Using React & ASP.NET Core Template**
 
 **Goal**: Simulate an existing React app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.13.3)**:
-   - Ensure .NET 9.0 SDK, Node 20.14.0, and npm 10.8.1 are installed (React 18.2.0 comes with template).
+1. **Open Visual Studio 2022 (v 17.13.4)**:
+   - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
    - File > New > Project.
-   - Search for “ASP.NET Core with React.js”.
+   - Search for “ASP.NET Core with React”.
    - Configure:
      - Project Name: `JSopX.ReactCore`.
-     - Location: e.g., `C:\JSopX\`.
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.ReactCore`.
      - Solution Name: `JSopX.ReactCore`.
-     - Framework: .NET 9.0.
+     - .NET Framework (v 9.0.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
-   - In `ClientApp/src/components/FetchData.js`:
+   - In `JSopX.ReactCore/jsopx.reactcore.client/src/components/FetchData.js`:
 
      ```javascript
      import React, { useEffect, useState } from 'react';
@@ -102,7 +157,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
        );
      };
      ```
-   - Keep `Controllers/WeatherForecastController.cs` as default.
+   - Keep `JSopX.ReactCore/JSopX.ReactCore.Server/Controllers/WeatherForecastController.cs` as default.
 
 4. **Add Identity + JWT (Simulating Existing Setup)**:
    - Install NuGet: `Microsoft.AspNetCore.Authentication.JwtBearer`.
@@ -123,7 +178,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
                  IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
              };
          });
-     builder.Services.AddSpaStaticFiles(configuration => configuration.RootPath = "ClientApp/build");
+     builder.Services.AddSpaStaticFiles(configuration => configuration.RootPath = "JSopX.ReactCore/jsopx.reactcore.client/build");
      var app = builder.Build();
      app.UseAuthentication();
      app.UseAuthorization();
@@ -136,7 +191,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
        "Jwt": { "Key": "8f+2Kj9mPqL5xRtYvWnZcQwXjB3sM7hD9pN8uG4tA1o=", "Issuer": "JSopX", "Audience": "JSopX" }
      }
      ```
-   - Add `Controllers/AuthController.cs`:
+   - Add `JSopX.ReactCore/JSopX.ReactCore.Server/Controllers/AuthController.cs`:
 
      ```csharp
      [Route("api/[controller]")]
@@ -166,7 +221,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
      }
      public class LoginModel { public string Username { get; set; } public string Password { get; set; } }
      ```
-   - Add `ClientApp/src/components/Login.js`:
+   - Add `JSopX.ReactCore/jsopx.reactcore.client/src/components/Login.js`:
 
      ```javascript
      import React, { useState } from 'react';
@@ -197,7 +252,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
        );
      };
      ```
-   - Update `ClientApp/src/App.js`:
+   - Update `JSopX.ReactCore/jsopx.reactcore.client/src/App.js`:
 
      ```javascript
      import { Login } from './components/Login';
@@ -213,7 +268,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
      ```
 
 5. **Test the Base Setup**:
-   - Run `npm install` in `ClientApp/`.
+   - Run `npm install` in `JSopX.ReactCore/jsopx.reactcore.client/`.
    - Start the app (`F5`).
    - Go to `/login`, use `test/password`, then `/fetch-data`.
 
@@ -271,10 +326,10 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
 **Goal**: Use OIDC via `JSopX.AspNetCore`’s IdentityServer.
 
 1. **Install React OIDC Client**:
-   - In `ClientApp/`: `npm install oidc-client-ts`.
+   - In `JSopX.ReactCore/jsopx.reactcore.client/`: `npm install oidc-client-ts`.
 
 2. **Configure OIDC**:
-   - Add `ClientApp/src/auth.js`:
+   - Add `JSopX.ReactCore/jsopx.reactcore.client/src/auth.js`:
 
      ```javascript
      import { UserManager } from 'oidc-client-ts';
@@ -287,7 +342,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
        silentRenew: true
      });
      ```
-   - Add `ClientApp/src/components/Callback.js`:
+   - Add `JSopX.ReactCore/jsopx.reactcore.client/src/components/Callback.js`:
 
      ```javascript
      import { useEffect } from 'react';
@@ -366,7 +421,7 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
      ```
 
 2. **Reference JSopX.SharedResources**:
-   - Add `ClientApp/src/weatherUtils.js`:
+   - Add `JSopX.ReactCore/jsopx.reactcore.client/src/weatherUtils.js`:
 
      ```javascript
      export const getWeatherIcon = summary => summary === 'Cool' ? '❄️' : summary === 'Warm' ? '☀️' : '🔥';
@@ -384,40 +439,23 @@ Recreating the `JSopX.ReactCore` project shows us how to simulate an existing Re
 
 ---
 
-## `Phase 1` Tasks Finished! What's Next?
+## **Next Steps**
 
-You have **completed all** `Phase 1: Start from Scratch` tasks for the `JSopX.ReactCore` JSopX™ React Core Project.
-
-You have a few options moving forward:
+Carefully choose the approach below that fits your current objective:
 
 ---
 
-### **1. Continue `Phase 1` Tasks (_Recommended_):**  
-
-If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board, which includes across projects.
-
-[`Continue Course »`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/)
+1. **[Continue](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.VueCore` _From Scratch_ Variant.   
 
 ---
 
-### **2. Continue Focus on the Growth of just JSopX™ React Core:**  
-
-Although not recommended, if your pure focus is reverse engineering just the JSopX™ React Core project for one reason or another, it's cool. I totally get it. It is part of why I created this series of applications, and in the ways I did. We are developers. We develop. We explore. We ask the question, "What If?".
-
-[`Continue Evolving with JSopX™ React Core »`](../../../../OpenProjects/jsopx.ReactCore/p2/v1/)
-
+1. **[Install Using Latest](../../../../OpenProjects/jsopx.ReactCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.ReactCore` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.ReactCore` _By-Phase_ Variant.   
+3. **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-### **3. I Want My Blanky and Bubba:**  
-
-You can always go back to the version of this application that is already created for you. No one is gonna bash you for starting from the beginning and regrouping.
-
-[`« Start From Beginning`](../../../../OpenProjects/jsopx.ReactCore/)
-
----
-  
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
 
 ---
 

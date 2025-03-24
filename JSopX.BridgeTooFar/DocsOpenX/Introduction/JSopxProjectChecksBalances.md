@@ -4,7 +4,7 @@ By exploring the [Overview](#overview), you’ll understand how standardized nam
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](../Technologies/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](../Technologies/)
 
 ---
 
@@ -35,7 +35,7 @@ JSopX™ ensures order and consistency through standardized naming conventions, 
 
 Before applying these standards:
 
-1. Familiarize yourself with the [Introduction](./Introduction/) and [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md) to understand the ecosystem’s organizing principles.
+1. Familiarize yourself with the [Introduction](../Introduction/) and [JSopX™ Visual Studio Project Families](./JSopxProjectsFamilies.md) to understand the ecosystem’s organizing principles.
 2. Review the [JSopX™ Visual Studio Projects](../OpenProjects/) document to see how each project fits into the broader suite.
 3. Understand how centralized resources, shared APIs, and libraries contribute to a unified architecture.
 
@@ -190,7 +190,7 @@ JSopX.OpenProjectX (Solution Directory)
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](../Technologies/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](../Technologies/)
 
 ---
 

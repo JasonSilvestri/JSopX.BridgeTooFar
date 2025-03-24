@@ -15,7 +15,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../README.md) » [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 
@@ -54,7 +54,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetCoreBlazor.md)
@@ -63,8 +63,8 @@ The result is an environment that transforms a patchwork of independent solution
 - [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/AngularCli.md)
 - [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/React.md)
-- [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vue.md)
-- [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vite.md)
+- [Vue (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vue.md)
+- [Vite (v 5.2.8)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vite.md)
 
 [`Back to Top`](#table-of-contents)
 
@@ -177,7 +177,7 @@ The JSopX™ Shared Resources Project is a traditional hub for common resources�
 ---
 
 ## `JSopX.`RCLxAssets
-The JSopX™ RCL x Assets Razor Class Library Project is has evolved from the SharedResources concept, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
+The JSopX™ RCL x Assets Razor Class Library Project has evolved from the `SharedResources` Project, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
 
 [JSopX™ RCL x Assets Razor Class Library GitHub](./jsopx.RCLxAssets)
 
@@ -201,7 +201,7 @@ The JSopX™ RCL x Components Razor Class Library Project is another Razor Class
 
 ---
  
- [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
+ [`Home`](../../../README.md) » [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 

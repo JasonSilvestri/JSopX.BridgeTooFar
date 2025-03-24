@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Powershell`](./Powershell.md)** · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Powershell`](./Powershell.md)** · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
 
 ---
 
@@ -214,7 +214,7 @@ For convenience, you can check all technology versions **automatically** using s
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Powershell`](./Powershell.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Powershell`](./Powershell.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
 
 ---
 

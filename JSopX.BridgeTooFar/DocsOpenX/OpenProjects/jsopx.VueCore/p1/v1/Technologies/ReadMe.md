@@ -15,7 +15,7 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 ## Table of Contents
 
 - [Overview](#overview)
-- [Visual Studio (v 17.13.3)](#visual-studio)
+- [Visual Studio (v 17.13.4)](#visual-studio)
 - [.NET Framework (v 9.0.1)](#net-framework)
 - [ASP.NET Core (v 9.0.1)](#aspnet-core)
 - [.NET Core Blazor (v 9.0.1)](#net-core-blazor)
@@ -24,8 +24,8 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 - [npm (v 10.8.1)](#npm)
 - [Angular CLI (v 18.0.3)](#angular-cli)
 - [React (v 18.2.0)](#react)
-- [Vue (v 10.8.1)](#vue)
-- [Vite (v 3.4.21)](#vite)
+- [Vue (v 3.4.21)](#vue)
+- [Vite (v 5.2.8)](#vite)
 - [Bash (v 5.x+)](#bash)
 - [Powershell (v 7.x+)](#powershell)
 - [Check All Requirements Simotaniously](#check-all-requirements-simotaniously)
@@ -54,15 +54,15 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 ## Visual Studio
 
 > [!TIP]
-> Hypothetically speaking, if you start by installing/updating **Visual Studio (v 17.13.3)**, and choose your options carefully, you could retrieve most (_if not all_) remaining required stacks listed below. 
+> Hypothetically speaking, if you start by installing/updating **Visual Studio (v 17.13.4)**, and choose your options carefully, you could retrieve most (_if not all_) remaining required stacks listed below. 
 
 ---
 
-- **Version Required**: **`17.13.3`**
+- **Version Required**: **`17.13.4`**
 
 - JSopX™ projects require Visual Studio to build and manage solutions efficiently.
 - Ensure you have all necessary workloads installed, including ASP.NET and web development, desktop development with .NET, and Azure development.
-- **Explore GitHub**: [Visual Studio (v 17.13.3)](./VisualStudio.md)
+- **Explore GitHub**: [Visual Studio (v 17.13.4)](./VisualStudio.md)
 
 [`Back to Top`](#table-of-contents)
 

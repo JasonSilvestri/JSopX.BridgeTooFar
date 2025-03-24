@@ -4,7 +4,7 @@
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
 
 ---
 
@@ -120,7 +120,7 @@ Ultimately, the impact is a more resilient, scalable, and maintainable ecosystem
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
 
 ---
 

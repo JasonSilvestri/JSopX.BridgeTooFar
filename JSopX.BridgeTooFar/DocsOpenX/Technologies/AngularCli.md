@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Angular CLI`](./AngularCli.md)** · · · [`« Previous`](./npm.md) [`Next »`](./React.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Angular CLI`](./AngularCli.md)** · · · [`« Previous`](./npm.md) [`Next »`](./React.md)
 
 ---
 
@@ -140,7 +140,7 @@ Visit the official `Angular` vendor site for **`Angular CLI`** if:
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Angular CLI`](./AngularCli.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./npm.md) [`Next »`](./React.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Angular CLI`](./AngularCli.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./npm.md) [`Next »`](./React.md)
 
 ---
 

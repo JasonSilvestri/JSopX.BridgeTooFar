@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`.NET Core Blazor`](./NetCoreBlazor.md)** · · · [`« Previous`](./AspNetCore.md) [`Next »`](./NetCoreMauiHybrid.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`.NET Core Blazor`](./NetCoreBlazor.md)** · · · [`« Previous`](./AspNetCore.md) [`Next »`](./NetCoreMauiHybrid.md)
 
 ---
 
@@ -133,7 +133,7 @@ Visit the official `Microsoft` vendor site for **`.NET Core Blazor`** if:
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`.NET Core Blazor`](./NetCoreBlazor.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./AspNetCore.md) [`Next »`](./NetCoreMauiHybrid.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`.NET Core Blazor`](./NetCoreBlazor.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./AspNetCore.md) [`Next »`](./NetCoreMauiHybrid.md)
 
 ---
 

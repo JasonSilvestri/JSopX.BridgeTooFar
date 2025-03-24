@@ -44,7 +44,7 @@ Recreating the `JSopX.BlazorServerCore` project shows us how to  project shows u
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/NetCoreBlazor.md)
@@ -57,7 +57,7 @@ Recreating the `JSopX.BlazorServerCore` project shows us how to  project shows u
 
 **Goal**: Simulate an existing Blazor Server app with weather data, Identity, and JWT already in place.
 
-1. **Open Visual Studio 2022 (v 17.13.3)**:
+1. **Open Visual Studio 2022 (v 17.13.4)**:
    - Confirm .NET 9.0 SDK is installed.
 
 2. **Create the Project**:
@@ -67,7 +67,7 @@ Recreating the `JSopX.BlazorServerCore` project shows us how to  project shows u
      - Project Name: `JSopX.BlazorServerCore`.
      - Location: e.g., `C:\JSopX\`.
      - Solution Name: `JSopX.BlazorServerCore`.
-     - Framework: .NET 9.0.
+     - .NET Framework (v 9.0.1)
      - Authentication: Individual Accounts (sets up Identity).
    - Click Create.
 

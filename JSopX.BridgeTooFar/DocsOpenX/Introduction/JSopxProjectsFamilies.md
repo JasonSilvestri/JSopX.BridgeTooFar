@@ -8,7 +8,7 @@ By examining the [Overview](#overview), you’ll see how the concept of “Proje
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Project Families`**  · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Families`**  · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 
@@ -74,7 +74,7 @@ Whether [`JSopX.AngularCore`](../OpenProjects/ReadMe.md#jsopxangularcore), [`JSo
 
 ---
 
-[`Introduction`](./ReadMe.md) » `JSopX™ Project Families` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ Project Families` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 

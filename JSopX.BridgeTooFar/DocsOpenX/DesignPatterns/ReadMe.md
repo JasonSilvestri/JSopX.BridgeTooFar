@@ -4,7 +4,7 @@ JSopX™ acts as a blueprint for consistent, scalable, and maintainable creation
 
 ---
 
-[`Introduction`](../Introduction/) » **`Design Patterns`** · · · [`Get Started »`](./JSopxNovaFileandDirectoryDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`Design Patterns`** · · · [`Get Started »`](./JSopxNovaFileandDirectoryDesignPatterns.md)
 
 ---
 
@@ -28,7 +28,7 @@ The documentation found here discusses the design patterns that almost all JSopX
 
 ---
 
-[`Introduction`](../Introduction/) » **`Design Patterns`** · · · [`Get Started »`](./JSopxNovaFileandDirectoryDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`Design Patterns`** · · · [`Get Started »`](./JSopxNovaFileandDirectoryDesignPatterns.md)
 
 ---
 

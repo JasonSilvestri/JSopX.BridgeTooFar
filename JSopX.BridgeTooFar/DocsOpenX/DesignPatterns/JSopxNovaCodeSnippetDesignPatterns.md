@@ -6,7 +6,7 @@ By exploring the [Overview](#overview), you’ll discover various code snippet s
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
 
 ---
 
@@ -975,7 +975,7 @@ Each **code snippet example section** demonstrates a realistic, functional snipp
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
 
 ---
 

@@ -7,7 +7,7 @@
 ---
 
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**   · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**   · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
 
 ---
 
@@ -333,7 +333,7 @@ Use the following **Step-by-Step Instructions** to install the latest `JSopX.Ang
 
 ### Step 2: Open the Solution
 
-1. Launch **Visual Studio (v 17.13.3)**.
+1. Launch **Visual Studio (v 17.13.4)**.
 2. Open the solution file: `JSopX.AngularCore.sln`.
 
 [`Back to Top`](#table-of-contents)
@@ -404,7 +404,7 @@ Visit the offical **`Visual Studios`** _site_ and/or _documentation_ if:
    
 #### Step-by-Step Instructions:
    
-Visit [Visual Studio v 17.13.3 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.13.1`** (_or higher_).
+Visit [Visual Studio v 17.13.4 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.13.1`** (_or higher_).
 
 
 ```
@@ -468,7 +468,7 @@ Let's picture we are a technology or project that requires one or more technolog
 The following Technologies are required for _JSopX™ Open Project EXperiences Collection_ Projects to work as expected:
 
 - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
-- [Visual Studio (v 17.13.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
@@ -477,14 +477,14 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 - [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AngularCli.md)
 - [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/React.md)
-- [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
-- [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
+- [Vue (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
+- [Vite (v 5.2.8)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
 
 ```
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
 
 ---
 

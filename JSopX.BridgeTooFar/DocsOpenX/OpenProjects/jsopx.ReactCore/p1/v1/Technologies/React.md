@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`React`](./React.md)** · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`React`](./React.md)** · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
 
 ---
 
@@ -142,7 +142,7 @@ Visit the official `React` vendor site for **`React`** if:
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`React`](./React.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`React`](./React.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
 
 ---
 

@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`.NET Framework SDK`](./NetFrameworkSdk.md)** · · · [`« Previous`](./VisualStudio.md) [`Next »`](./AspNetCore.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`.NET Framework SDK`](./NetFrameworkSdk.md)** · · · [`« Previous`](./VisualStudio.md) [`Next »`](./AspNetCore.md)
 
 ---
 
@@ -177,7 +177,7 @@ Visit the official `Microsoft` vendor site for **`.NET Framework SDK`** if:
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`.NET Framework SDK`](./NetFrameworkSdk.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./VisualStudio.md) [`Next »`](./AspNetCore.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`.NET Framework SDK`](./NetFrameworkSdk.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./VisualStudio.md) [`Next »`](./AspNetCore.md)
 
 ---
 

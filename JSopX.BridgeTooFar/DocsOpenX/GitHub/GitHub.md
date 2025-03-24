@@ -4,7 +4,7 @@ Should be an excerpt from [Overview](#overview) section.
 
 ---
 
-[`Introduction`](../Introduction/) » `JSopX™ on GitHub` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/) [`Next »`](./JSopxProjectsGitHubBasics.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ on GitHub` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/) [`Next »`](./JSopxProjectsGitHubBasics.md)
 
 ---
 

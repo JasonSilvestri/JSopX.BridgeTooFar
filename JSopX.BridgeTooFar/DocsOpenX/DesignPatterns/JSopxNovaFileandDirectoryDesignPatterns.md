@@ -6,7 +6,7 @@ By exploring the [Overview](#overview), you’ll discover effective ways to docu
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 
@@ -190,7 +190,7 @@ Documenting file and directory structures effectively is more than just listing 
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 

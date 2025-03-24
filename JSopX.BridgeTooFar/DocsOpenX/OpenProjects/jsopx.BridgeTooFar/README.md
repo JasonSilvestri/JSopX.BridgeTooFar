@@ -1,60 +1,59 @@
 # <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-bridge-too-far-logo.svg" style="width: 28px; height: auto; margin-right:12px; margin-top:12px;!important;"> JSopX™ Bridge Too Far Project
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
-
-**`JSopX.BridgeTooFar` v `1.0` `"By-Phases" Edition`**
+The **JSopX™ Bridge Too Far Project**, _code named_, `JSopX.BridgeTooFar` is a totally **FREE**, open-source, Razor Class Library, and has evolved into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Projects, including all Class Libraries, RCLs, server-side and client-side projects. 
 
 ---
 
-The **JSopX™ Bridge Too Far Project**(`JSopX.BridgeTooFar`), is evolving into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Open Project EXperience Projects, including all Class Libraries, RCLs, server-side and client-side projects. 
+## **Use Latest Variant:**
+
+> [!TIP]
+> You are currently viewing the **"_Use Latest_" _Variant_** of the **JSopX™ Bridge Too Far Project**. 
+> 
+> For more details, see [Getting Started](#getting-started) _below_.
+
+---
 
 ```bash
-# For Cool Kids: Clone JSopX.BridgeTooFar Git Repository
+# For The Cool Kids: Clone JSopX.BridgeTooFar Git Repository
 $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 ```
 
 ---
 
-[`Introduction`](../../Introduction/) » [`JSopX Projects`](../../OpenProjects/) » **`JSopX.BridgeTooFar`** · · [`From Scratch`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) · · · [`« Previous`](../../OpenProjects/jsopx.VueCore) [`Next »`](../../OpenProjects/jsopx.SharedResources)
+[`Home`](../../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.WebAPI/) [`Next »`](../../OpenProjects/jsopx.SharedResources/)
 
 ---
 
 ## Table of Contents
 
-  - [Current Phase](#current-phase)
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
   - [Getting Started](#getting-started)
   - [Step 1: Clone the Repository](#step-1-clone-the-repository)
   - [Step 2: Open the Solution](#step-2-open-the-solution)
   - [Step 3: Configure the Project](#step-3-configure-the-project)
-  - [Step 4: Build and Run](#step-4-build-and-run)
+  - [Step 4: Build and Run](#step-4-be-sure-to-build-and-run)
   - [Step 5: Project File Structure](#step-5-project-file-structure)
   - [Step 6: JSopX™ Project References & Dependencies](#step-6-jsopx-project-references--dependencies)
   - [Step 7: Usage](#step-7-usage)
-  - [Step 8: Extended Usage](#step-7-extended-usage)
+  - [Step 8: Extended Usage](#step-8-extended-usage)
   - [Next Steps](#next-steps)
-
----
-
-## Current Phase
-
-> [!NOTE]
->
->**Phases 1**: This document is currently aligned with **[Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md)** Business Requirements. 
-> 
 
 ---
 
 ## Overview
 
-The **JSopX™ Bridge Too Far Project**, is evolving into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Open Project EXperience Projects, including all Class Libraries, RCLs, server-side and client-side projects. 
+The **JSopX™ Bridge Too Far Project**, _code named_, `JSopX.BridgeTooFar` is a totally **FREE**, open-source, Razor Class Library, and has evolved into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Projects, including all Class Libraries, RCLs, server-side and client-side projects.
 
-We initially create the project to simulate a [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) we began to use for documentation to conform to the basic business requirements set forth by the fictioanal stakeholders.
+We initially create the project to simulate a [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolved through each [Lifecycle Phase](../../Phases/ReadMe.md), we would extend the application by-way-of documentation creation, while anticipating we'll face a near-future, seamless migration request of the project into our `JSopX.OpenProjectX` Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
-Conversely, the `JSopX.BridgeTooFar` Project has since inadvertently taken on the real-world responsibility of housing and distributing documentation for almost all projects.
+The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
+
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
+
+The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
 ---
 
@@ -62,24 +61,31 @@ Conversely, the `JSopX.BridgeTooFar` Project has since inadvertently taken on th
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring just the `JSopX.BridgeTooFar` Project.
 
-- [Visual Studio (v 17.13.3)](../../Technologies/#visual-studio)
+- [Visual Studio (v 17.13.4)](../../Technologies/#visual-studio)
 - [.NET Framework (v 9.0.1)](../../Technologies/#net-framework)
 - [ASP.NET Core (v 9.0.1)](../../Technologies/#aspnet-core)
 - [Node (v 20.14.0)](../../Technologies/#node)
 - [npm (v 10.8.1)](../../Technologies/#npm)
-- [Check All Simotaniously (v 1.0)](../../Technologies/#check-all-requirements-simotaniously)
 
 ---
 
 ## **Getting Started**
 
-Before we get started with the `JSopX.BridgeTooFar` Project, lets double check and make sure we are on the same page.
+Carefully _choose_ the variant approach below that fits your current objective:
 
-1. You reviewed and/or have installed the technology requirements outlined in the [Prerequisites](#prerequisites) seciton.
-2. You realize you are currently working with `JSopX.BridgeTooFar` Project independently from the rest of the `JSopX.OpenProjectX` Projects.
-3. You have a general sense of `GitHub` respositories, and understand source control as a whole.
+---
 
-[`Back to Top`](#table-of-contents)
+### 1. **Continue Installing `JSopX.`BridgeTooFar**:
+
+- **[Continue](#step-1-clone-the-repository)** → **Continue** as **you were**, exploring and/or installing the `JSopX.BridgeTooFar` _Using Latest_ Variant.  
+
+---
+
+### 2. **Use Different Variant**:
+
+- **[Browse By-Phase](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BridgeTooFar` _By-Phase_ Variant.   
+- **[Start From Scratch](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.BridgeTooFar` _From Scratch_ Variant.
+- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -152,7 +158,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.BridgeTooFar` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.13.3)](../../Technologies#visual-studio)**.
+1. Launch **[Visual Studio (v 17.13.4)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.BridgeTooFar.sln`.
 
 [`Back to Top`](#table-of-contents)
@@ -163,7 +169,7 @@ Working with the `JSopX.BridgeTooFar` Project in Visual Studio is simple enough.
 
 > [!TIP]
 >
-> Latest versions of [Visual Studio](../../Technologies#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> Latest versions of [Visual Studio](../../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
 > 
 
 ---
@@ -192,27 +198,67 @@ Verify that all NuGet packages are up to date:
 
 ---
 
-## **Step 4: Build and Run**
+## **Step 4: Be Sure to Build and Run**
 
-Running the `JSopX.BridgeTooFar` Project in Visual Studio is also another simple task.
+Building and Running the `JSopX.BridgeToFar` Project in Visual Studio is also another simple task.
 
-1. Build the solution in [Visual Studio](../../Technologies#visual-studio).
+### **Step: 4.1: Build and Run**:
+
+1. Build the solution in [Visual Studio](../../../../OpenProjects/jsopx.BridgeToFar/p1/v1/Technologies/#visual-studio).
 2. Run the project:
-  - Use the **IIS Express** profile for local development.
+   - Use the **IIS Express** profile for local development.
+
+---
+
+### **Step: 4.2: And Now Your Done**:
+
+Assuming the `JSopX.BridgeToFar` Project is running as expected, **you are now done** with the **installation** and **execution** of the project!
+
+1. **Skip Remaining Steps**: 
+   - Technically, you could skip to the [Next Steps](#next-steps) section if you are on a project-by-project installation mission.
+2. **Conclude Remaining Steps**:
+   - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-##  **Step 5: Project File Structure**
+## **Step 5: Project File Structure**
 
-The `JSopX.BridgeTooFar` Project contains several files and directories, all with their own functionality & purpose for existing. Conversely, there are some core files and directories that have special consideration. 
+The `JSopX.BridgeTooFar` Project in particular, contains several files and directories, all with their own functionality & purpose for existing. 
 
-I provide two options below to ingest some of the high-level details.
+For brevity, samples will not have the complete file structure you get when installing, but there are some core files and directories that have special consideration you should get to know. 
 
 ---
 
-### **Step: 5.1: Structured File Tree**:
+### **Step: 5.1: Structured Project & Solution Considerations**:
+
+All `JSopX™ projects` follow a consistent directory structure. 
+
+1. I create a [Visual Studio](../../Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+2. I create a similar Server-Side Project Folder for `.csproj`, and related files.
+
+A common, plain-text file folder structure of the `JSopX.BridgeTooFar` Solution and Projects should look something like what follows:
+
+```plaintext
+# JSopX™ Bridge Too Far Solution and Projects
+
+JSopX.BridgeTooFar/                 # Root JSopX.BridgeTooFar Visual Studio Solution folder.
+├── JSopX.BridgeTooFar.sln          # Visual Studio solution file for Angular Core.
+├── PathConfig.targets              # Centralized MSBuild target configuration for project references.
+├── JSopX.BridgeTooFar/             # ASP.NET Core server-side application folder.
+│   ├── JSopX.BridgeTooFar.csproj   # Asp.NET Core Visual Studio Server Project configuration file.
+
+```
+
+There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 5.2: Structured File Tree**:
+
 
 A common, plain-text file structure of the `JSopX.BridgeTooFar` Project.
 
@@ -222,24 +268,27 @@ A common, plain-text file structure of the `JSopX.BridgeTooFar` Project.
 JSopX.BridgeTooFar/                          # Root JSopX™ Bridge Too Far Project Visual Studio Solution folder.
 ├── .gitattributes                           # Git attributes file for repository metadata and configurations.
 ├── .gitignore                               # Specifies files and directories to ignore in version control.
-├── JSopX.BridgeTooFar.sln                   # Visual Studio solution .sln file for JSopX™ Bridge Too Far Project.
+├── JSopX.BridgeTooFar.sln                   # Visual Studio solution '.sln' file for JSopX™ Bridge Too Far Project.
 ├── LICENSE.txt                              # Licensing information for the project.
 ├── PathConfig.targets                       # Centralized MSBuild target configuration for project references.
 ├── README.md                                # High-level project documentation.
 ├── JSopX.BridgeTooFar/                      # ASP.NET Core server-side application folder.
-│   ├── JSopX.BridgeTooFar.csproj            # Asp.NET Core Visual Studio Server Project configuration file.
-│   ├── doc-assets/                          # JSopX™ Bridge Too Far Project folder, housing all static assets used in applications. The amount of files was limited here for brevity, but the same assets and resources shown here, are available for all JSopX Projects.
-│   │   ├── jsopx-logo.png                   # Official JSopX.OpenProjectX logo in .PNG format.
-│   │   ├── jsopx-logo.svg                   # Official JSopX.OpenProjectX logo in .SVG format.
-│   ├── DocsOpenX/                           # Main source directory for all documentation currently available. The amount of files was limited here for brevity, but the same assets and resources shown here, are available for all JSopX Projects.
-│   │   ├── OpenProjects/                    # Main source directory for all project specific documentation currently available.
-│   │   │   ├── jsopx.AngularCore/           # Main source directory for all JSopX™ Angular Core Project specific documentation currently available.
-│   │   │   │   ├── README.md                # Primary JSopX™ Angular Core Project README file (default root project README.md).
-│   │   │   ├── jsopx.AspNetCore/            # Main source directory for all JSopX™ Asp.Net Core Project specific documentation currently available.
-│   │   │   │   ├── README.md                # Primary JSopX™ Asp.Net Core Project README file (default root project README.md).
-│   │   │   ├── jsopx.BridgeTooFar/          # Main source directory for all JSopX™ Bridge Too Far Project specific documentation currently available.
-│   │   │   │   ├── README.md                # Primary JSopX™ Bridge Too Far Project README file (default root project README.md).
-│   └── README.md                            # Primary Project README file (default root project README.md).
+│   ├── JSopX.BridgeTooFar.csproj            # Asp.NET Core Visual Studio Server Project '.csproj' configuration file.
+│   ├── doc-assets/                          # JSopX™ Bridge Too Far Project folder, housing all static assets used in documentation. The amount of files actually shown here is limited for brevity.
+│   │   ├── jsopx-logo.png                   # Official Jason Silvestri Open Project EXperiences (JSopX™) Collection 'JSopX.OpenProjectX' logo in .PNG format.
+│   │   ├── jsopx-logo.svg                   # Official Jason Silvestri Open Project EXperiences (JSopX™) Collection 'JSopX.OpenProjectX' logo in .SVG format.
+│   ├── DocsOpenX/                           # Main source directory for all documentation currently available. The amount of files actually shown here is limited for brevity.
+│   │   ├── OpenProjects/                    # Main source directory for all JSopX™ Project specific documentation currently available. The amount of files actually shown here is limited for brevity.
+│   │   │   ├── jsopx.AngularCore/           # JSopX™ Angular Core Project 'JSopX.AngularCore' specific documentation currently available.
+│   │   │   │   ├── README.md                # Most current JSopX™ Angular Core Project 'JSopX.AngularCore' Using Latest Variant README '.md' file, representing the current install instructions of the project.
+│   │   │   │   ├── RECREATEME.md            # Most current JSopX™ Angular Core Project 'JSopX.AngularCore' Start from Scratch Variant RECREATEME '.md' file, representing the Start from Scratch instructions of the project.
+│   │   │   ├── jsopx.AspNetCore/            # JSopX™ Asp.NET Core Project 'JSopX.AspNetCore' specific documentation currently available.
+│   │   │   │   ├── README.md                # Most current JSopX™ Asp.NET Core Project 'JSopX.AspNetCore' Using Latest Variant README '.md' file, representing the current install instructions of the project.
+│   │   │   │   ├── RECREATEME.md            # Most current JSopX™ Asp.Net Core Project 'JSopX.AspNetCore' Start from Scratch Variant RECREATEME '.md' file, representing the Start from Scratch instructions of the project.
+│   │   │   ├── jsopx.BridgeTooFar/          # JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' specific documentation currently available.
+│   │   │   │   ├── README.md                # Most current JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' Using Latest Variant README '.md' file, representing the current install instructions of the project.
+│   │   │   │   ├── RECREATEME.md            # Most current JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' Start from Scratch Variant RECREATEME '.md' file, representing the Start from Scratch instructions of the project.
+│   └── README.md                            # Primary Project JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' README '.md' file (default root project README.md).
 
 ```
 
@@ -247,33 +296,37 @@ JSopX.BridgeTooFar/                          # Root JSopX™ Bridge Too Far Proj
 
 ---
 
-### **Step: 5.2: Structured Table**:
+### **Step: 5.3: Structured Table**:
 
 A table structure of the same `JSopX.BridgeTooFar` Project, files and resources.
 
-| **File/Directory**                                     | **Description**                                                                                     |
-| :----------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| 📁 **JSopX.BridgeTooFar/**                              | Parent JSopX™ Bridge Too Far Project (`JSopX.BridgeTooFar`) Visual Studio Solution folder, containing both client and server code.|
-|  📝 `.gitattributes`                                  | Git attributes file for repository metadata and configurations. |
-|  📝 `.gitignore `                                     | Specifies files and directories to ignore in version control. |
-|  📝 `JSopX.BridgeTooFar.sln`                          | Visual Studio `.sln` solution file linking the client and server projects. |
-|  📝 `LICENSE.txt`                                     | Licensing information for the project (generally `MIT` open-source license). |
-|  📝 `PathConfig.targets`                              | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
-|  📁 **JSopX.BridgeTooFar/**                              | ASP.NET Core server-side folder for back-end logic and API endpoints. |
-|   📝`JSopX.BridgeTooFar.csproj`                          | Asp.NET Core server-side Visual Studio project `.csproj` configuration file. |
-|   📁 **doc-assets/**                                       | `JSopX.BridgeTooFar` Project folder, housing all static assets used in applications. The amount of files was limited here for brevity, but the same assets and resources shown here, are available for all JSopX Projects. |
-|    📝 `jsopx-logo.png`                                  | Official `JSopX.OpenProjectX` logo in `.PNG` format. |
-|    📝 `jsopx-logo.svg`                                  | Official `JSopX.OpenProjectX` logo in `.SVG` format. |
-|    📁 **DocsOpenX/**                                        | Main source directory for all documentation currently available. The amount of files was limited here for brevity, but the same assets and resources shown here, are available for all JSopX Projects. |
-|     📁 **OpenProjects/**                                   | Main source directory for all project specific documentation currently available. |
-|      📁 **jsopx.AngularCore/**                          | Main source directory for all `JSopX.AngularCore` Project specific documentation currently available. |
-|       📝 `README.md`                                   | Primary `JSopX.AngularCore` Root Directory Read Me `.md` file (e.g., README.md). |
-|      📁 **jsopx.AspNetCore/**                             | Main source directory for all `JSopX.AspNetCore` Project specific documentation currently available. |
-|       📝 `README.md`                                   | Primary `JSopX.AspNetCore` Root Directory Read Me `.md` file (e.g., README.md). |
-|      📁 **jsopx.BridgeTooFar/**                           | Main source directory for all `JSopX.BridgeTooFar` Project specific documentation currently available. |
-|       📝 `README.md`                                   | Primary `JSopX.BridgeTooFar` Root Directory Read Me `.md` file (e.g., README.md). |
-|  📝 `README.md`                                             | Primary Project Root Directory Read Me `.md` file (e.g., README.md). |
- 
+| File/Folder Name                        | Description                                                                 |
+|:----------------------------------------|:-----------------------------------------------------------------------------|
+| &nbsp;📁&nbsp;**JSopX.BridgeTooFar**&nbsp;            | Root folder for the JSopX™ Bridge Too Far Project Visual Studio Solution.   |
+| &nbsp;├&nbsp;📝&nbsp;`.gitattributes`&nbsp;                | Git attributes file for repository metadata and configurations.            |
+| &nbsp;├&nbsp;📝&nbsp;`.gitignore`&nbsp;                    | Specifies files and directories to ignore in version control.              |
+| &nbsp;├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.sln`&nbsp;        | Visual Studio solution `.sln` file for the JSopX™ Bridge Too Far Project.         |
+| &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                   | Licensing information for the project.                                     |
+| &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;            | Centralized MSBuild target configuration for project references.           |
+| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                     | High-level project documentation.                                          |
+| &nbsp;├&nbsp;📁&nbsp;**JSopX.BridgeTooFar/**&nbsp;            | ASP.NET Core server-side application folder.                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.csproj`&nbsp; | Asp.NET Core Visual Studio Server Project `.csproj` configuration file.                                 |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`doc-assets/`**&nbsp;             | JSopX™ Bridge Too Far Project folder, housing all static assets used in documentation. The amount of files actually shown here is limited for brevity.   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx-logo.png`&nbsp;   | Official Jason Silvestri Open Project EXperiences (JSopX™) Collection `JSopX.OpenProjectX` logo in `.PNG` format.                            |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx-logo.svg`&nbsp;   | Official Jason Silvestri Open Project EXperiences (JSopX™) Collection `JSopX.OpenProjectX` logo in `.SVG` format.                            |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`DocsOpenX/`**&nbsp;              | Main source directory for all documentation currently available. The amount of files actually shown here is limited for brevity.                     |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`OpenProjects/`**&nbsp;     | Main source directory for all JSopX™ Project specific documentation currently available. The amount of files actually shown here is limited for brevity.                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`jsopx.AngularCore/`**&nbsp; | JSopX™ Angular Core Project `JSopX.AngularCore` specific documentation currently available.                     |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp; | Most current JSopX™ Angular Core Project `JSopX.AngularCore` _Using Latest_ Variant README `.md` file, representing the "Using Latest" Install instructions of the project.                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEADME.md`&nbsp; | Most current JSopX™ Angular Core Project `JSopX.AngularCore` _Start from Scratch_ Variant README `.md` file, representing the "Start from Scratch" instructions of the project.                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`jsopx.AspNetCore/`**&nbsp; | JSopX™ Asp.Net Core Project `JSopX.AspNetCore` specific documentation currently available.                      |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp; | Most current JSopX™ Asp.NET Core Project `JSopX.AspNetCore` _Using Latest_ Variant README `.md` file, representing the "Using Latest" Install instructions of the project.                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md`&nbsp; | Most current JSopX™ Asp.NET Core Project `JSopX.AspNetCore` _Start from Scratch_ Variant RECREATEME `.md` file, representing the "Start from Scratch" instructions of the project.                     |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`jsopx.BridgeTooFar/`**&nbsp; | JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` specific documentation currently available.                    |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp; | Most current JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` _Using Latest_ Variant README `.md` file, representing the "Using Latest" Install instructions of the project.  |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md`&nbsp; | Most current JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` _Start from Scratch_ Variant RECREATEME `.md` file, representing the "Start from Scratch" instructions of the project.                     |
+| 📝&nbsp;`README.md`&nbsp;         | Primary Project JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` README `.md` file (_default root project repository README.md_).                           |
+| 📝&nbsp;`RECREATEME.md`&nbsp;     | Primary Project JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` RECREATEME `.md` file (_default root project repository RECREATEME.md_).                           |
 
 [`Back to Top`](#table-of-contents)
 
@@ -291,10 +344,10 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
 
 ## **Step 7: Usage**
 
-### **Step: 7.1: Referencing the `JSopX.BridgeTooFar` Project**
+### **Step: 7.1: Referencing the `JSopX.`BridgeTooFar Project**
 
 1. **Add a project reference** to `JSopX.BridgeTooFar` in each client-side and/or server-side projects that want to have consume the project's assets:
-   - _Right-click_ on a project, such as [`JSopX.AngularCore`](../../OpenProjects/jsopx.AngularCore/), [`JSopX.ReactCore`](../../OpenProjects/jsopx.ReactCore/), [`JSopX.VueCore`](../../OpenProjects/jsopx.VueCore/), [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/), etc.
+   - _Right-click_ on a project, such as [`JSopX.AngularCore`](#step-82-using-jsopxbridgetoofar-project-in-an-angular-project), [`JSopX.ReactCore`](#step-84-using-jsopxbridgetoofar-project-in-a-react-project), [`JSopX.VueCore`](#step-83-using-jsopxbridgetoofar-project-in-a-vue-project), [`JSopX.BlazorServerCore`](#step-81-using-jsopxbridgetoofar-project-in-a-blazor-project), etc.
    - Select **Add** > **Project Reference**.
    - Check `JSopX.BridgeTooFar` and click **OK**.
 
@@ -310,12 +363,12 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
 
 ---
 
-### **Step: 8.1: Using `JSopX.BridgeTooFar` Project in a Blazor Project**
+### **Step: 8.1: Using `JSopX.`BridgeTooFar Project in a Blazor Project**
 
 **In [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/)**:
 
 1. **Reference the JSopX™ Bridge Too Far Project**:
-   - Add a reference to `JSopX.BridgeTooFar` in [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/).
+   - Add a reference to `JSopX.BridgeTooFar` in [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1).
 
 2. **Use Static Files in `Razor` Components**:
    - Create a `Razor` component that wants to use the shared static files.
@@ -335,7 +388,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
 
 ---
 
-### **Step: 8.2: Using `JSopX.BridgeTooFar` Project in an Angular Project**
+### **Step: 8.2: Using `JSopX.`BridgeTooFar Project in an Angular Project**
 
 **In [`JSopX.AngularCore`](../../OpenProjects/jsopx.AngularCore/)**:
 
@@ -364,7 +417,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
 
 ---
 
-### **Step: 8.3: Using `JSopX.BridgeTooFar` Project in a Vue Project**
+### **Step: 8.3: Using `JSopX.`BridgeTooFar Project in a Vue Project**
 
 **In [`JSopX.VueCore`](../../OpenProjects/jsopx.VueCore/)**:
 
@@ -397,7 +450,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
 
 ---
 
-### **Step: 8.4: Using `JSopX.BridgeTooFar` Project in a React Project**
+### **Step: 8.4: Using `JSopX.`BridgeTooFar Project in a React Project**
 
 **In [`JSopX.ReactCore`](../../OpenProjects/jsopx.ReactCore/)**:
 
@@ -438,11 +491,21 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
 
 ## **Next Steps**
 
-1. **Continue Exploring Projects One-by-One**: If you plan to continue exploring and installing projects one-by-one, you can, and at your own pace. In this case, we will be moving on to the **JSopX™ Shared Resources Project** ([`JSopX.SharedResources`](../../OpenProjects/jsopx.SharedResources)), where we do very similar steps. 
-2. **Skip to Exploring All Projects All-in-One**: Alternatively, you can get all projects, and continue exploring and installing just that primary solution. In this case, move straight on to the **JSopX™ Open Project X ([`JSopX.OpenProjectX`](../../OpenProjects/jsopx.OpenProjectX))**.
+Carefully choose the approach below that fits your current objective:
+
 ---
 
-[`Introduction`](../../Introduction/) » [`JSopX Projects`](../../OpenProjects/) » **`JSopX.BridgeTooFar`** · · [`From Scratch`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../OpenProjects/jsopx.VueCore) [`Next »`](../../OpenProjects/jsopx.SharedResources)
+1. **[Continue](../../OpenProjects/jsopx.SharedResources/README.md)** → _Continue_ as **you were**, exploring and/or installing other projects like you did with **this project**. You'll move onto the next project, using the `JSopX.SharedResources` _Using Latest_ Variant.  
+
+---
+
+1. **[Browse By-Phase](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BridgeTooFar` _By-Phase_ Variant.   
+2. **[Start From Scratch](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.BridgeTooFar` _From Scratch_ Variant.
+3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+[`Home`](../../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.WebAPI/) [`Next »`](../../OpenProjects/jsopx.SharedResources/)
 
 ---
 

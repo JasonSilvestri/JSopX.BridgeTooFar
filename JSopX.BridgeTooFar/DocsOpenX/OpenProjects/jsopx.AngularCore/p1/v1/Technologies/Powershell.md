@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Powershell`](./Powershell.md)** · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Powershell`](./Powershell.md)** · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
 
 ---
 
@@ -177,7 +177,7 @@ Visit the official `Microsoft` vendor site for **`Powershell`** if:
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Powershell`](./Powershell.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Powershell`](./Powershell.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Bash.md) [`Next »`](./VisualStudio.md)
 
 ---
 

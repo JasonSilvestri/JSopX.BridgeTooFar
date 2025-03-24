@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`.NET Core MAUI Hybrid`](./NetCoreMauiHybrid.md)** · · · [`« Previous`](./NetCoreBlazor.md) [`Next »`](./Node.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`.NET Core MAUI Hybrid`](./NetCoreMauiHybrid.md)** · · · [`« Previous`](./NetCoreBlazor.md) [`Next »`](./Node.md)
 
 ---
 
@@ -132,7 +132,7 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid`** if:
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`.NET Core MAUI Hybrid`](./NetCoreMauiHybrid.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./NetCoreBlazor.md) [`Next »`](./Node.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`.NET Core MAUI Hybrid`](./NetCoreMauiHybrid.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./NetCoreBlazor.md) [`Next »`](./Node.md)
 
 ---
 

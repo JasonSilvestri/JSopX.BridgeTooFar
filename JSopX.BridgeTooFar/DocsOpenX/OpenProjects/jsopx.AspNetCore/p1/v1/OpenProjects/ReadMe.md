@@ -8,7 +8,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`« Previous`](../../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`« Previous`](../../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
 
 ---
 
@@ -196,7 +196,7 @@ The result is an environment that transforms a patchwork of independent solution
 - **Version**: **`v 1.0`**   
 
 
-- The **JSopX™ RCL x Assets Razor Class Library Project** is has evolved from the SharedResources concept, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
+- The **JSopX™ RCL x Assets Razor Class Library Project** has evolved from the `SharedResources` Project, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
 
 - **Explore GitHub**: [JSopX.RCLxAssets](../../../../../OpenProjects/jsopx.RCLxAssets)
 
@@ -228,7 +228,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ---
  
- [`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
+ [`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
 
 ---
 

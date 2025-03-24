@@ -1,23 +1,29 @@
 # <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-bridge-too-far-logo.svg" style="width: 28px; height: auto; margin-right:12px; margin-top:12px;!important;"> JSopX™ Bridge Too Far Project
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
-
-**`JSopX.BridgeTooFar` v `1.0` `"From Scratch" Edition`**
+The **JSopX™ Bridge Too Far Project**, _code named_, `JSopX.BridgeTooFar` is a totally **FREE**, open-source, Razor Class Library, and has evolved into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Projects, including all Class Libraries, RCLs, server-side and client-side projects. 
 
 ---
 
-The **JSopX™ Bridge Too Far Project**(`JSopX.BridgeTooFar`), is evolving into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Open Project EXperience Projects, including all Class Libraries, RCLs, server-side and client-side projects. 
+## **From Scratch Variant:**
+
+> [!CAUTION]
+> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **JSopX™ Bridge Too Far Project**. 
+> 
+> For more details, see [Getting Started](#getting-started) _below_.
+
+---
 
 ```bash
-# For Cool Kids: Clone JSopX.BridgeTooFar Git Repository
+# For The Cool Kids: Clone JSopX.BridgeTooFar Git Repository
 $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 ```
 
 ---
 
-[`Introduction`](../../Introduction/) » [`JSopX Projects`](../../OpenProjects/) » [`JSopX.BridgeTooFar`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · · **`From Scratch`** · · · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
+
 
 ## Table of Contents
 
@@ -33,22 +39,33 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 
 ## Current Phase
 
-> [!NOTE]
+> [!IMPORTANT]
 >
->**Phases 1**: This document is currently aligned with **[Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md)** Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
 > 
 
 ---
 
-## **Overview**  
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
+> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+
+---
+
+## Overview
+
+The **JSopX™ Bridge Too Far Project**, _code named_, `JSopX.BridgeTooFar` is a totally **FREE**, open-source, Razor Class Library, and has evolved into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Projects, including all Class Libraries, RCLs, server-side and client-side projects.
+
+We initially create the project to simulate a [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+
+As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
-
-Recreating the `JSopX.AngularCore` project shows us how to simulate an existing Angular app with weather data, Identity, and JWT already established.
 
 [`Back to Top`](#table-of-contents)
 
@@ -56,14 +73,33 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 - [Node (v 20.14.0)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/Node.md)
 - [npm (v 10.8.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/npm.md)
-- [Angular CLI (v 18.0.3)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AngularCli.md)
 
 [`Back to Top`](#table-of-contents)
+
+---
+
+## **Getting Started**
+
+Carefully _choose_ the variant approach below that fits your current objective:
+
+---
+
+### 1. **Continue Creating `JSopX.`BridgeTooFar From Scratch**:
+
+- **[Continue](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.BridgeTooFar` _From Scratch_ Variant.   
+
+---
+
+### 2. **Use Different Variant**:
+
+- **[Install Using Latest](../../OpenProjects/jsopx.BridgeTooFar/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BridgeTooFar` _Using Latest_ Variant.  
+- **[Browse By-Phase](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BridgeTooFar` _By-Phase_ Variant.   
+- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -71,17 +107,17 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
 
 **Goal**: Simulate an existing Angular app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.13.3)**:
-   - Ensure .NET 9.0 SDK, Node 20.14.0, npm 10.8.1, and Angular CLI 18.0.3 are installed.
+1. **Open Visual Studio 2022 (v 17.13.4)**:
+   - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
    - File > New > Project.
    - Search for “ASP.NET Core with Angular”.
    - Configure:
-     - Project Name: `JSopX.AngularCore`.
-     - Location: e.g., `C:\JSopX\`.
-     - Solution Name: `JSopX.AngularCore`.
-     - Framework: .NET 9.0.
+     - Project Name: `JSopX.BridgeTooFar`.
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar`.
+     - Solution Name: `JSopX.BridgeTooFar`.
+     - .NET Framework (v 9.0.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
@@ -389,40 +425,23 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
 
 ---
 
-## `Phase 1` Tasks Finished! What's Next?
+## **Next Steps**
 
-You have **completed all** `Phase 1: Start from Scratch` tasks for the `JSopX.AngularCore` JSopX™ Angular Core Project.
-
-You have a few options moving forward:
+Carefully choose the approach below that fits your current objective:
 
 ---
 
-### **1. Continue `Phase 1` Tasks (_Recommended_):**  
-
-If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board, which includes across projects.
-
-[`Continue Course »`](../../OpenProjects/jsopx.OpenProjectX/)
+1. **[Continue](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.SharedResources` _From Scratch_ Variant.   
 
 ---
 
-### **2. Continue Focus on the Growth of just JSopX™ Angular Core:**  
-
-Although not recommended, if your pure focus is reverse engineering just the JSopX™ Angular Core project for one reason or another, it's cool. I totally get it. It is part of why I created this series of applications, and in the ways I did. We are developers. We develop. We explore. We ask the question, "What If?".
-
-[`Continue Evolving with JSopX™ Angular Core »`](../../OpenProjects/jsopx.AngularCore/p2/v1/)
-
+1. **[Install Using Latest](../../OpenProjects/jsopx.BridgeTooFar/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BridgeTooFar` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BridgeTooFar` _By-Phase_ Variant.   
+3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-### **3. I Want My Blanky and Bubba:**  
-
-You can always go back to the version of this application that is already created for you. No one is gonna bash you for starting from the beginning and regrouping.
-
-[`« Start From Beginning`](../../OpenProjects/jsopx.AngularCore/)
-
----
-
-[`Introduction`](../../Introduction/) » [`JSopX Projects`](../../OpenProjects/) » [`JSopX.BridgeTooFar`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · · **`From Scratch`** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
 

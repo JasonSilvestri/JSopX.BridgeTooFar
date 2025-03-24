@@ -15,7 +15,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../README.md) » [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 
@@ -159,7 +159,7 @@ The JSopX™ Shared Resources Project is a traditional hub for common resources�
 ---
 
 ## `JSopX.`RCLxAssets
-The JSopX™ RCL x Assets Razor Class Library Project is has evolved from the SharedResources concept, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
+The JSopX™ RCL x Assets Razor Class Library Project has evolved from the `SharedResources` Project, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
 
 [JSopX™ RCL x Assets Razor Class Library GitHub](./jsopx.RCLxAssets)
 
@@ -183,7 +183,7 @@ The JSopX™ RCL x Components Razor Class Library Project is another Razor Class
 
 ---
  
- [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
+ [`Home`](../../../README.md) » [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 

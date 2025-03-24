@@ -12,7 +12,7 @@
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Disciplines & Standards`**  · · · [`« Previous`](./JSopxEnterpriseBusinessRequirements.md) [`Next »`](../OpenProjects/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Disciplines & Standards`**  · · · [`« Previous`](./JSopxEnterpriseBusinessRequirements.md) [`Next »`](../OpenProjects/)
 
 ---
 
@@ -256,7 +256,7 @@ Enterprise applications have a habit of challenging the best of us, whether you 
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxEnterpriseBusinessRequirements.md) [`Next »`](../OpenProjects/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxEnterpriseBusinessRequirements.md) [`Next »`](../OpenProjects/)
 
 ---
 

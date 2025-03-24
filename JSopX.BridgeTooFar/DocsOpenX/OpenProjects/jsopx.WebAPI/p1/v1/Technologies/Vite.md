@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Vite`](./Vite.md)** · · · [`« Previous`](./Vue.md) [`Next »`](./Bash.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Vite`](./Vite.md)** · · · [`« Previous`](./Vue.md) [`Next »`](./Bash.md)
 
 ---
 
@@ -141,7 +141,7 @@ Visit the official `Vite` vendor site for **`Vite`** if:
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Vite`](./Vite.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Vue.md) [`Next »`](./Bash.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Vite`](./Vite.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Vue.md) [`Next »`](./Bash.md)
 
 ---
 

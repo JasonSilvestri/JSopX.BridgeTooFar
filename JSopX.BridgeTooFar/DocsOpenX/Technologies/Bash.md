@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Bash`](./Bash.md)** · · · [`« Previous`](./Vite.md) [`Next »`](./Powershell.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Bash`](./Bash.md)** · · · [`« Previous`](./Vite.md) [`Next »`](./Powershell.md)
 
 ---
 
@@ -170,7 +170,7 @@ Visit the official `GNU Operating System` vendor site for **`Bash`** if:
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Bash`](./Bash.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Vite.md) [`Next »`](./Powershell.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Bash`](./Bash.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Vite.md) [`Next »`](./Powershell.md)
 
 ---
 

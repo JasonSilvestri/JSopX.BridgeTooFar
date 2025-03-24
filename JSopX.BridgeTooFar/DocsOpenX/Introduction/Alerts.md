@@ -4,7 +4,7 @@ JSopX™ documentation is constructed using `markdown` and leverages GitHub-styl
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Alerts`** · · · [`« Previous`](./Introduction/) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Alerts`** · · · [`« Previous`](../Introduction/) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
 
 ---
 
@@ -150,7 +150,7 @@ While these alerts introduce a bit of humor, they also serve a practical purpose
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Alerts`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Introduction/) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Alerts`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
 
 ---
 

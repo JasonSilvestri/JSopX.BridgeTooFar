@@ -21,7 +21,7 @@ These `Phases` also simplify understanding and enhance readability for developer
 
 ---
 
-[`Introduction`](../Introduction/) » **[`JSopX™ Lifecycle Phases`](./ReadMe.md)** · · · [`« Previous`](../Technologies/) [`Next »`](../GitHub/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **[`JSopX™ Lifecycle Phases`](./ReadMe.md)** · · · [`« Previous`](../Technologies/) [`Next »`](../GitHub/)
 
 ---
 
@@ -103,7 +103,7 @@ Please see [Phase 5: Project Release & Deployment Protocols](./Phase-5.md)
 
 ---
 
-[`Introduction`](../Introduction/) » **[`JSopX™ Lifecycle Phases`](./ReadMe.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Technologies/) [`Next »`](../GitHub/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **[`JSopX™ Lifecycle Phases`](./ReadMe.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Technologies/) [`Next »`](../GitHub/)
 
 ---
 

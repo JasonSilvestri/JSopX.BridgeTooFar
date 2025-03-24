@@ -4,7 +4,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**   · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**   · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
 
 ---
 
@@ -69,7 +69,7 @@ Review the Repositories found throughout the documentation of this page.
 | `JSopX.BridgeTooFar`             | The JSopX™ Bridge Too Far Project that Focused on static asset management, this project ensures a consistent distribution of documentation, CSS, JavaScript, images, and other shared files. By centralizing and streamlining asset handling, it prevents fragmentation and encourages better maintainability.   |
 | `JSopX.WebAPI`                   | The JSopX™ Web API Project is a RESTful API backend that ties the ecosystem together. By providing consistent endpoints and data services, it empowers both server-side and client-side solutions to operate cohesively and securely.   |
 | `JSopX.SharedResources`          | The JSopX™ Shared Resources Project is a traditional hub for common resources—images, fonts, scripts, localizations—that feed into multiple projects. Initially a central class library, it highlights the benefits of having a single source for shared assets.   |
-| `JSopX.RCLxAssets`               | The JSopX™ RCL x Assets Razor Class Library Project is has evolved from the SharedResources concept, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.   |
+| `JSopX.RCLxAssets`               | The JSopX™ RCL x Assets Razor Class Library Project has evolved from the `SharedResources` Project, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.   |
 | `JSopX.RCLxProper`               | The JSopX™ RCL x Proper Razor Class Library Project is a production-ready Razor Class Library offering structured components, pages, and views. These can be reused across the JSopX™ environment, simplifying UI consistency and accelerating development.   |
 | `JSopX.RCLxComponents`           | The JSopX™ RCL x Components Razor Class Library Project is another Razor Class Library dedicated to reusable UI elements. By standardizing UI components, it ensures a consistent look and feel throughout the suite.   |
 | `JSopX.AngularCore`              | The JSopX™ Angular Core Project is a client-side Angular project aimed at building dynamic single-page applications. It aligns seamlessly with ASP.NET Core backends and shared resources, illustrating how Angular fits into the JSopX™ architectural strategy. |
@@ -458,7 +458,7 @@ Here’s the same structure for `JSopX.AngularCore` expanded on in table format:
 | JSopX™ Bridge Too Far              | `JSopX.BridgeTooFar`             | The JSopX™ Bridge Too Far Project that Focused on static asset management, this project ensures a consistent distribution of documentation, CSS, JavaScript, images, and other shared files. By centralizing and streamlining asset handling, it prevents fragmentation and encourages better maintainability.   |
 | JSopX™ Web API                     | `JSopX.WebAPI`                   | The JSopX™ Web API Project is a RESTful API backend that ties the ecosystem together. By providing consistent endpoints and data services, it empowers both server-side and client-side solutions to operate cohesively and securely.   |
 | JSopX™ Shared Resources            | `JSopX.SharedResources`          | The JSopX™ Shared Resources Project is a traditional hub for common resources—images, fonts, scripts, localizations—that feed into multiple projects. Initially a central class library, it highlights the benefits of having a single source for shared assets.   |
-| JSopX™ RCL x Assets                | `JSopX.RCLxAssets`               | The JSopX™ RCL x Assets Razor Class Library Project is has evolved from the SharedResources concept, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.   |
+| JSopX™ RCL x Assets                | `JSopX.RCLxAssets`               | The JSopX™ RCL x Assets Razor Class Library Project has evolved from the `SharedResources` Project, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.   |
 | JSopX™ RCL x Proper                | `JSopX.RCLxProper`               | The JSopX™ RCL x Proper Razor Class Library Project is a production-ready Razor Class Library offering structured components, pages, and views. These can be reused across the JSopX™ environment, simplifying UI consistency and accelerating development.   |
 | JSopX™ RCL x Components            | `JSopX.RCLxComponents`           | The JSopX™ RCL x Components Razor Class Library Project is another Razor Class Library dedicated to reusable UI elements. By standardizing UI components, it ensures a consistent look and feel throughout the suite.   |
 | JSopX™ Angular Core                | `JSopX.AngularCore`              | The JSopX™ Angular Core Project is a client-side Angular project aimed at building dynamic single-page applications. It aligns seamlessly with ASP.NET Core backends and shared resources, illustrating how Angular fits into the JSopX™ architectural strategy. |
@@ -484,7 +484,7 @@ Let's picture we are a technology or project that requires one or more technolog
 The following Technologies are required for _JSopX™ Open Project EXperiences Collection_ Projects to work as expected:
 
 - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
-- [Visual Studio (v 17.13.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
@@ -493,8 +493,8 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 - [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AngularCli.md)
 - [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/React.md)
-- [Vue (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
-- [Vite (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
+- [Vue (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
+- [Vite (v 5.2.8)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
 
 ```
 
@@ -530,7 +530,7 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
 
 ---
 

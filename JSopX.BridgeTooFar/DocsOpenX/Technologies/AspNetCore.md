@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`ASP.NET Core`](./AspNetCore.md)** · · · [`« Previous`](./NetFrameworkSdk.md) [`Next »`](./NetCoreBlazor.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`ASP.NET Core`](./AspNetCore.md)** · · · [`« Previous`](./NetFrameworkSdk.md) [`Next »`](./NetCoreBlazor.md)
 
 ---
 
@@ -174,7 +174,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`ASP.NET Core`](./AspNetCore.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./NetFrameworkSdk.md) [`Next »`](./NetCoreBlazor.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`ASP.NET Core`](./AspNetCore.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./NetFrameworkSdk.md) [`Next »`](./NetCoreBlazor.md)
 
 ---
 

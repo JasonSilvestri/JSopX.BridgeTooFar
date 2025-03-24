@@ -15,7 +15,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Phases`](./ReadMe.md) » **`Phase 2`**  · · · [`« Previous`](./Phase-1.md) [`Next »`](./Phase-3.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 2`**  · · · [`« Previous`](./Phase-1.md) [`Next »`](./Phase-3.md)
 
 ---
 
@@ -111,7 +111,7 @@ Each frontend and backend project (_AngularJS_, _Vue_, _ReactJS_, _Blazor_, etc.
 
 ---
 
-[`Introduction`](../Introduction/) » [`Phases`](./ReadMe.md) » **`Phase 2`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-1.md) [`Next »`](./Phase-3.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 2`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-1.md) [`Next »`](./Phase-3.md)
 
 ---
 

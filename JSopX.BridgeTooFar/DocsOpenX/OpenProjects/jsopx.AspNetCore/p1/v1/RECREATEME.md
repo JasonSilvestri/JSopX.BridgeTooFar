@@ -17,7 +17,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 
@@ -44,7 +44,7 @@ Recreating the `JSopX.AspNetCore` project shows us how to simulate an existing A
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/NetCoreBlazor.md)
@@ -53,8 +53,8 @@ Recreating the `JSopX.AspNetCore` project shows us how to simulate an existing A
 - [npm (v 10.8.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/AngularCli.md)
 - [React (v 18.2.0)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/React.md)
-- [Vue (v 10.8.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/Vue.md)
-- [Vite (v 3.4.21)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/Vite.md)
+- [Vue (v 3.4.21)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/Vue.md)
+- [Vite (v 5.2.8)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/Vite.md)
 
 
 [`Back to Top`](#table-of-contents)
@@ -65,7 +65,7 @@ Recreating the `JSopX.AspNetCore` project shows us how to simulate an existing A
 
 **Goal**: Simulate an existing ASP.NET Core app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.13.3)**:
+1. **Open Visual Studio 2022 (v 17.13.4)**:
    - Ensure .NET 9.0 SDK is installed.
 
 2. **Create the Project**:
@@ -75,7 +75,7 @@ Recreating the `JSopX.AspNetCore` project shows us how to simulate an existing A
      - Project Name: `JSopX.AspNetCore`.
      - Location: e.g., `C:\JSopX\`.
      - Solution Name: `JSopX.AspNetCore`.
-     - Framework: .NET 9.0.
+     - .NET Framework (v 9.0.1)
      - Authentication: Individual Accounts (includes Identity).
    - Click Create.
 
@@ -436,7 +436,7 @@ You can always go back to the version of this application that is already create
 
 ---
   
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 

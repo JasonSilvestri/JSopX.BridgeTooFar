@@ -15,7 +15,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Phases`](./ReadMe.md) » **`Phase 4`**  · · · [`« Previous`](./Phase-3.md) [`Next »`](./Phase-5.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 4`**  · · · [`« Previous`](./Phase-3.md) [`Next »`](./Phase-5.md)
 
 ---
 
@@ -106,7 +106,7 @@ Update new ASP.NET Core project and solution that will handle common, static, as
 
 ---
 
-[`Introduction`](../Introduction/) » [`Phases`](./ReadMe.md) » **`Phase 4`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-3.md) [`Next »`](./Phase-5.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 4`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-3.md) [`Next »`](./Phase-5.md)
 
 ---
 

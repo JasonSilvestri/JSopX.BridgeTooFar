@@ -108,8 +108,8 @@ The **best place** you can **start** is the [JSopX™ Project Technology Require
       - [npm (v 10.8.1)](#npm)
       - [Angular CLI (v 18.0.3)](#angular-cli)
       - [React (v 18.2.0)](#react)
-      - [Vue (v 10.8.1)](#vue)
-      - [Vite (v 3.4.21)](#vite)
+      - [Vue (v 3.4.21)](#vue)
+      - [Vite (v 5.2.8)](#vite)
   - [JSopX™ Project Repositories](#jsopx-project-repositories)
      - [JSopX™ OpenProjectX](#jsopxopenprojectx)
      - [JSopX™ Bridge Too Far](#jsopxbridgetoofar)
@@ -199,8 +199,8 @@ I know the average developer loves to just `Rambo It!`, by jumping in, guns blaz
       - [npm (v 10.8.1)](#npm)
       - [Angular CLI (v 18.0.3)](#angular-cli)
       - [React (v 18.2.0)](#react)
-      - [Vue (v 10.8.1)](#vue)
-      - [Vite (v 3.4.21)](#vite)
+      - [Vue (v 3.4.21)](#vue)
+      - [Vite (v 5.2.8)](#vite)
   - [JSopX™ Project Repositories](#jsopx-project-repositories)
      - [JSopX™ OpenProjectX](#jsopxopenprojectx)
      - [JSopX™ Bridge Too Far](#jsopxbridgetoofar)
@@ -242,8 +242,8 @@ This section is to help in that area.
       - [npm (v 10.8.1)](#npm)
       - [Angular CLI (v 18.0.3)](#angular-cli)
       - [React (v 18.2.0)](#react)
-      - [Vue (v 10.8.1)](#vue)
-      - [Vite (v 3.4.21)](#vite)
+      - [Vue (v 3.4.21)](#vue)
+      - [Vite (v 5.2.8)](#vite)
 
 
 ---

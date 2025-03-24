@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`npm`](./npm.md)** · · · [`« Previous`](./Node.md) [`Next »`](./AngularCli.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`npm`](./npm.md)** · · · [`« Previous`](./Node.md) [`Next »`](./AngularCli.md)
 
 ---
 
@@ -151,7 +151,7 @@ Visit the official `npm` vendor site for **`npm`** if:
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » [`Technologies`](./ReadMe.md) » **[`npm`](./npm.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Node.md) [`Next »`](./AngularCli.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`npm`](./npm.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Node.md) [`Next »`](./AngularCli.md)
 
 ---
 

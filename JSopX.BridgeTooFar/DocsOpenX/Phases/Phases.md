@@ -25,7 +25,7 @@ These Phases also simplify understanding and enhance readability for developers 
 
 ---
 
-[`Introduction`](../Introduction/) »  [`Phases`](./Phases.md) » **`JSopX™ Phases`**  · · · [`« Previous`](../Introduction/) [`Next »`](./Phase-1.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »   [`Phases`](./Phases.md) » **`JSopX™ Phases`**  · · · [`« Previous`](../Introduction/) [`Next »`](./Phase-1.md)
 
 ---
 
@@ -108,7 +108,7 @@ Please see [Phase 5: Project Release & Deployment Protocols](./Phase-5.md)
 	
 ---
 
-[`Introduction`](../Introduction/) » [`JSopX™ Phases`](./ReadMe.md) » [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjects.md) [`Next »`](./JSopxProjectChecksBalances.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`JSopX™ Phases`](./ReadMe.md) » [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjects.md) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 

@@ -24,7 +24,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](./OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](./OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](./OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](./OpenProjects/jsopx.OpenProjectX)
 
 ---
 
@@ -67,7 +67,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](./Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](./Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](./Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](./Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](./Technologies/NetCoreBlazor.md)
@@ -76,8 +76,8 @@ The result is an environment that transforms a patchwork of independent solution
 - [npm (v 10.8.1)](./Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](./Technologies/AngularCli.md)
 - [React (v 18.2.0)](./Technologies/React.md)
-- [Vue (v 10.8.1)](./Technologies/Vue.md)
-- [Vite (v 3.4.21)](./Technologies/Vite.md)
+- [Vue (v 3.4.21)](./Technologies/Vue.md)
+- [Vite (v 5.2.8)](./Technologies/Vite.md)
 
 [`Back to Top`](#table-of-contents)
 
@@ -611,11 +611,11 @@ If you want to be sure you are able to create all projects from scratch, it is h
 
 You can start from the beginning if you would prefer to regroup.
 
-[`« Start From Beginning`](./Introduction/)
+[`« Start From Beginning`](../Introduction/)
 
 ---
  
- [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](./OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](./OpenProjects/jsopx.OpenProjectX)
+ [`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](./OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](./OpenProjects/jsopx.OpenProjectX)
 
 ---
 

@@ -17,7 +17,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 
@@ -44,7 +44,7 @@ Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an exi
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.3)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.4)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/NetCoreBlazor.md)
@@ -58,7 +58,7 @@ Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an exi
 
 **Goal**: Simulate an existing MAUI Hybrid app with weather data, Identity, and JWT already in place.
 
-1. **Open Visual Studio 2022 (v 17.13.3)**:
+1. **Open Visual Studio 2022 (v 17.13.4)**:
    - Ensure the .NET 9.0 SDK is installed (`dotnet --list-sdks`).
 
 2. **Create the Project**:
@@ -68,7 +68,7 @@ Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an exi
      - Project Name: `JSopX.MauiHybridNetCore`.
      - Location: e.g., `C:\JSopX\`.
      - Solution Name: `JSopX.MauiHybridNetCore` (we’ll add it to the main solution later).
-     - Framework: .NET 9.0.
+     - .NET Framework (v 9.0.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
@@ -464,7 +464,7 @@ You can always go back to the version of this application that is already create
 
 ---
   
-[`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
 
 ---
 

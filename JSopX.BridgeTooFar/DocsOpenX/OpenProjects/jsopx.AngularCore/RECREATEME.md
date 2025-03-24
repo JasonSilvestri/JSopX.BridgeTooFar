@@ -1,91 +1,135 @@
 # <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-angular-core-logo.svg" style="width: 28px; height: auto; padding-right:12px;!important;"> JSopX™ Angular Core Project
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
-
-**`JSopX.AngularCore` v `1.0` `"From Scratch" Edition`**
+The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. 
 
 ---
 
-The **JSopX™ Angular Core Project** is a demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. 
+## **Start From Scratch Variant:**
+
+> [!TIP]
+> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **JSopX™ Angular Core Project**. 
+> 
+> For more details, see [Getting Started](#getting-started) _below_.
+
+---
+
 
 ```bash
-# For Cool Kids: Clone JSopX.AngularCore Git Repository
+# For The Cool Kids: Clone JSopX.AngularCore Git Repository
 $ git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
 ```
 
 ---
 
-[`Introduction`](../../Introduction/) » [`JSopX Projects`](../../OpenProjects/) » [`JSopX.AngularCore`](../../OpenProjects/jsopx.AngularCore/README.md) · · **`From Scratch`** · · · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.AngularCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AngularCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
 
 ---
 
+  
 ## Table of Contents
 
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
-  - [Step 1: Recreate Using Angular and ASP.NET Core Template](#step-1-recreate-using-angular-and-aspnet-core-template)
-  - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
-  - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
-  - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
-  - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
-
+  - [Getting Started](#getting-started)
+      - [Step 1: Recreate Using Angular and ASP.NET Core Template](#step-1-recreate-jsopxangularcore-using-angular--aspnet-core-template)
+      - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
+      - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
+      - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+      - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  - [Next Steps](#next-steps)
+  
 ---
 
 ## Current Phase
 
-> [!NOTE]
+> [!IMPORTANT]
 >
->**Phases 1**: This document is currently aligned with **[Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md)** Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
 > 
 
 ---
 
-## **Overview**  
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
+> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+
+---
+
+## Overview
+
+The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. As a whole, the project highlights the integration of _Angular_ for the client-side with _ASP.NET Core_ for the server-side, providing a comprehensive example of a modern web application stack. Conversely, the project has a much higher calling.
+
+
+We initially create the project to simulate an ["Existing" Client-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Angular application, with its own Web API and existing standards, to conform to the initial [business requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+
+As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
-
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-Recreating the `JSopX.AngularCore` project shows us how to simulate an existing Angular app with weather data, Identity, and JWT already established.
+
+
+
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Prerequisites
+## **Prerequisites**
 
-- [Visual Studio (v 17.13.3)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
-- [Node (v 20.14.0)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/Node.md)
-- [npm (v 10.8.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/npm.md)
-- [Angular CLI (v 18.0.3)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AngularCli.md)
+Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AngularCore` Project.
 
-[`Back to Top`](#table-of-contents)
+- [Visual Studio (v 17.13.4)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#aspnet-core)
+- [Node.js (v 20.14.0)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#node)
+- [npm (v 10.8.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#angular-cli)
 
 ---
 
-## Step 1: Recreate Using Angular and ASP.NET Core Template
+## **Getting Started**
 
-**Goal**: Simulate an existing Angular app with weather data, Identity, and JWT already established.
+Carefully _choose_ the variant approach below that fits your current objective:
 
-1. **Open Visual Studio 2022 (v 17.13.3)**:
-   - Ensure .NET 9.0 SDK, Node 20.14.0, npm 10.8.1, and Angular CLI 18.0.3 are installed.
+---
+
+### 1. **Continue Creating `JSopX.`AngularCore From Scratch**:
+
+- **[Continue](#step-1-recreate-jsopxangularcore-using-angular--aspnet-core-template)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.AngularCore` _From Scratch_ Variant.   
+
+---
+
+### 2. **Use Different Variant**:
+
+- **[Install Using Latest](../../OpenProjects/jsopx.AngularCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AngularCore` _Using Latest_ Variant.  
+- **[Browse By-Phase](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AngularCore` _By-Phase_ Variant.   
+- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+## **Step 1: Recreate `JSopX.`AngularCore Using Angular & ASP.NET Core Template**
+
+**Goal**: Recreate `JSopX.AngularCore` to simulate an existing Angular app with weather data, Identity, and JWT already established.
+
+1. **Open Visual Studio 2022 (v 17.13.4)**:
+   - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
    - File > New > Project.
    - Search for “ASP.NET Core with Angular”.
    - Configure:
      - Project Name: `JSopX.AngularCore`.
-     - Location: e.g., `C:\JSopX\`.
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.AngularCore`.
      - Solution Name: `JSopX.AngularCore`.
-     - Framework: .NET 9.0.
+     - .NET Framework (v 9.0.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
-   - In `ClientApp/src/app/fetch-data/fetch-data.component.ts`:
+   - In `JSopX.AngularCore/jsopx.angularcore.client/src/app/fetch-data/fetch-data.component.ts`:
 
      ```typescript
      import { Component, inject } from '@angular/core';
@@ -124,7 +168,7 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
        </tbody>
      </table>
      ```
-   - Keep `Controllers/WeatherForecastController.cs` as default.
+   - Keep `JSopX.AngularCore/JSopX.AngularCore.Server/Controllers/WeatherForecastController.cs` as default.
 
 4. **Add Identity + JWT (Simulating Existing Setup)**:
    - Install NuGet: `Microsoft.AspNetCore.Authentication.JwtBearer`.
@@ -145,7 +189,7 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
                  IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
              };
          });
-     builder.Services.AddSpaStaticFiles(configuration => configuration.RootPath = "ClientApp/dist");
+     builder.Services.AddSpaStaticFiles(configuration => configuration.RootPath = "JSopX.AngularCore/jsopx.angularcore.client/dist");
      var app = builder.Build();
      app.UseAuthentication();
      app.UseAuthorization();
@@ -158,7 +202,7 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
        "Jwt": { "Key": "8f+2Kj9mPqL5xRtYvWnZcQwXjB3sM7hD9pN8uG4tA1o=", "Issuer": "JSopX", "Audience": "JSopX" }
      }
      ```
-   - Add `Controllers/AuthController.cs`:
+   - Add `JSopX.AngularCore/JSopX.AngularCore.Server/Controllers/AuthController.cs`:
 
      ```csharp
      [Route("api/[controller]")]
@@ -188,7 +232,7 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
      }
      public class LoginModel { public string Username { get; set; } public string Password { get; set; } }
      ```
-   - Add `ClientApp/src/app/login/login.component.ts`:
+   - Add `JSopX.AngularCore/jsopx.angularcore.client/src/app/login/login.component.ts`:
 
      ```typescript
      import { Component, inject } from '@angular/core';
@@ -219,7 +263,7 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
      ```
 
 5. **Test the Base Setup**:
-   - Run `npm install` in `ClientApp/`.
+   - Run `npm install` in `JSopX.AngularCore/jsopx.angularcore.client/`.
    - Start the app (`F5`).
    - Navigate to `/login`, use `test/password`, then hit `/fetch-data`.
 
@@ -282,7 +326,7 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
 **Goal**: Use OIDC via `JSopX.AspNetCore`’s IdentityServer.
 
 1. **Install Angular OIDC Client**:
-   - In `ClientApp/`: `npm install angular-auth-oidc-client`.
+   - In `JSopX.AngularCore/jsopx.angularcore.client/`: `npm install angular-auth-oidc-client`.
 
 2. **Configure OIDC**:
    - In `app.module.ts`:
@@ -368,7 +412,7 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
      ```
 
 2. **Reference JSopX.SharedResources**:
-   - Add `weather-utils.ts` to `ClientApp/src/app/`:
+   - Add `weather-utils.ts` to `JSopX.AngularCore/jsopx.angularcore.client/src/app/`:
 
      ```typescript
      export class WeatherUtils {
@@ -389,40 +433,23 @@ Recreating the `JSopX.AngularCore` project shows us how to simulate an existing 
 
 ---
 
-## `Phase 1` Tasks Finished! What's Next?
+## **Next Steps**
 
-You have **completed all** `Phase 1: Start from Scratch` tasks for the `JSopX.AngularCore` JSopX™ Angular Core Project.
-
-You have a few options moving forward:
+Carefully choose the approach below that fits your current objective:
 
 ---
 
-### **1. Continue `Phase 1` Tasks (_Recommended_):**  
-
-If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board, which includes across projects.
-
-[`Continue Course »`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/)
+1. **[Continue](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.ReactCore` _From Scratch_ Variant.   
 
 ---
 
-### **2. Continue Focus on the Growth of just JSopX™ Angular Core:**  
-
-Although not recommended, if your pure focus is reverse engineering just the JSopX™ Angular Core project for one reason or another, it's cool. I totally get it. It is part of why I created this series of applications, and in the ways I did. We are developers. We develop. We explore. We ask the question, "What If?".
-
-[`Continue Evolving with JSopX™ Angular Core »`](../../OpenProjects/jsopx.AngularCore/p2/v1/)
-
+1. **[Install Using Latest](../../OpenProjects/jsopx.AngularCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AngularCore` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AngularCore` _By-Phase_ Variant.   
+3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-### **3. I Want My Blanky and Bubba:**  
-
-You can always go back to the version of this application that is already created for you. No one is gonna bash you for starting from the beginning and regrouping.
-
-[`« Start From Beginning`](../../OpenProjects/jsopx.AngularCore/)
-
----
-
-[`Introduction`](../../Introduction/) » [`JSopX Projects`](../../OpenProjects/) » [`JSopX.AngularCore`](../../OpenProjects/jsopx.AngularCore/README.md) · · **`From Scratch`** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.AngularCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AngularCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
 
 ---
 

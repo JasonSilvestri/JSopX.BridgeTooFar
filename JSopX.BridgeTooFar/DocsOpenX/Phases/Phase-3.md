@@ -15,7 +15,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Phases`](./ReadMe.md) » **`Phase 3`**  · · · [`« Previous`](./Phase-2.md) [`Next »`](./Phase-4.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 3`**  · · · [`« Previous`](./Phase-2.md) [`Next »`](./Phase-4.md)
 
 ---
 
@@ -106,7 +106,7 @@ We will use JWT (_JSON Web Tokens_) for authentication and role-based authorizat
 
 ---
 
-[`Introduction`](../Introduction/) » [`Phases`](./ReadMe.md) » **`Phase 3`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-2.md) [`Next »`](./Phase-4.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 3`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-2.md) [`Next »`](./Phase-4.md)
 
 ---
 

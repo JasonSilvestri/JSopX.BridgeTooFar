@@ -12,7 +12,7 @@
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Business  Requirements`**  · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Business  Requirements`**  · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
 
 ---
 
@@ -254,7 +254,7 @@ In all my years, I’ve never seen a company regret fully supporting the discove
 
 ---
 
-[`Introduction`](./ReadMe.md) » **`JSopX™ Business Requirements`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Business Requirements`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JasonSilvestriOpenProjectExperiences.md) [`Next »`](./JSopxDisciplinesRequiredForEnterpriseDevelopment.md)
 
 ---
 

@@ -38,7 +38,7 @@ You can continue your course to the next section.
 
 You can start from the beginning if you would prefer to regroup.
 
-[`« Start From Beginning`](./Introduction/)
+[`« Start From Beginning`](../Introduction/)
 
 ---
 

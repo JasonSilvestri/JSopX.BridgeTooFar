@@ -6,7 +6,7 @@ By exploring the [Overview](#overview), you’ll discover the power of JSopX™'
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Barn Door Protocol`**  · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaDocumentSectionDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Barn Door Protocol`**  · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaDocumentSectionDesignPatterns.md)
 
 ---
 
@@ -160,6 +160,7 @@ Here's a breakdown of the most commonly supported types:
 - Follow **strict security protocols** (e.g., XSS prevention, HTTPS enforcement).
 - Document and resolve vulnerabilities with step-by-step guides.
 - Maintain logs and records of compliance checks.
+- No excuses on not having documentation. You can now even use [GitHub Copilot](https://devblogs.microsoft.com/visualstudio/introducing-automatic-documentation-comment-generation-in-visual-studio/) to generate summaries for you in code.
 
 #### Initiate:
 
@@ -1833,7 +1834,7 @@ Security, Identity, Authentication and Authorization are the #1 Design Patterns 
 2. If issue is found, we need to create samples showing step-by-step instructions on how to replicate and/or exploit the issue in the code.
 3. Then, we need to be sure we create sample showing step-by-step instructions on how to fix the vulnerability.
 
-**The following Design Patterns and Best Practices target Asp.NET Core (v 9.0) & Visual Studio 2022 (v 17.13.3), due to the crucial role they play in all applications, as well as the wide support they have out-of-the-box.** 
+**The following Design Patterns and Best Practices target Asp.NET Core (v 9.0) & Visual Studio 2022 (v 17.13.4), due to the crucial role they play in all applications, as well as the wide support they have out-of-the-box.** 
 
 **However, most technologies we use have similar features we must also adopt for maximum coverage**.
 
@@ -1880,7 +1881,7 @@ The `JSopX™ & Nova Barn Door Protocol` ensures the highest standards for secur
 
 ---
 
-[`Introduction`](../Introduction/) » [`Design Patterns`](../DesignPatterns/) » **`Barn Door Protocol`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaDocumentSectionDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Barn Door Protocol`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaCodeSnippetDesignPatterns.md) [`Next »`](./JSopxNovaDocumentSectionDesignPatterns.md)
 
 ---
 

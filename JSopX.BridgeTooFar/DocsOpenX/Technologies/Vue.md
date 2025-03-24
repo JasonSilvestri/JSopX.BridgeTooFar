@@ -6,7 +6,7 @@
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Vue`](./Vue.md)** · · · [`« Previous`](./React.md) [`Next »`](./Vite.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Vue`](./Vue.md)** · · · [`« Previous`](./React.md) [`Next »`](./Vite.md)
 
 ---
 
@@ -140,7 +140,7 @@ Visit the official `Vue` vendor site for **`Vue`** if:
 
 ---
 
-[`Introduction`](../Introduction/) » [`Technologies`](./ReadMe.md) » **[`Vue`](./Vue.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./React.md) [`Next »`](./Vite.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Vue`](./Vue.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./React.md) [`Next »`](./Vite.md)
 
 ---
 
