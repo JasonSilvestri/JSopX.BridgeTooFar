@@ -1,26 +1,26 @@
-# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-rcl-x-proper-logo.svg" style="width: 28px; height: auto; margin-right:12px; margin-top:12px;!important;"> JSopX™ RCL x Proper Project
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-rcl-x-components-logo.svg" style="width: 28px; height: auto; margin-right:12px; margin-top:12px;!important;"> JSopX™ RCL x Components Project
 
-The **JSopX™ RCL x Proper Project**, _code named_, `JSopX.RCLxProper` is a totally **FREE**, open-source, Razor Class Library, that evolved from the `SharedResources` Project, and is now the official _production-ready successor_ (by design). This Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline for development environments.
+The **JSopX™ RCL x Components Project**, _code named_, `JSopX.RCLxComponents` is a totally **FREE**, open-source, Razor Class Library, that evolved from the `SharedResources` Project, and is now the official _production-ready successor_ (by design). This Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline for development environments.
 
 ---
 
 ## **Use Latest Variant:**
 
 > [!TIP]
-> You are currently viewing the **"_Use Latest_" _Variant_** of the **JSopX™ RCL x Proper Project**. 
+> You are currently viewing the **"_Use Latest_" _Variant_** of the **JSopX™ RCL x Components Project**. 
 > 
 > For more details, see [Getting Started](#getting-started) _below_.
 
 ---
 
 ```bash
-# For The Cool Kids: Clone JSopX.RCLxProper Git Repository
-$ git clone https://github.com/JasonSilvestri/JSopX.RCLxProper.git
+# For The Cool Kids: Clone JSopX.RCLxComponents Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
 ```
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.RCLxProper/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.RCLxProper/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.RCLxAssets/) [`Next »`](../../OpenProjects/jsopx.AspNetCore/)
+[`Home`](../../OpenProjects/jsopx.RCLxComponents/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.RCLxAssets/) [`Next »`](../../OpenProjects/jsopx.AspNetCore/)
 
 ---
 
@@ -43,7 +43,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.RCLxProper.git
 
 ## Overview
 
-The **JSopX™ RCL x Proper Project**, _code named_, `JSopX.RCLxProper` is a totally **FREE**, open-source, Razor Class Library, that evolved from the `SharedResources` Project, and is now the official _production-ready successor_ (by design). This Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline for development environments.
+The **JSopX™ RCL x Components Project**, _code named_, `JSopX.RCLxComponents` is a totally **FREE**, open-source, Razor Class Library, that evolved from the `SharedResources` Project, and is now the official _production-ready successor_ (by design). This Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline for development environments.
 
 We initially create the project to simulate a [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
@@ -51,7 +51,7 @@ As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), w
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxComponents/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -59,11 +59,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## **Prerequisites**
 
-Be sure each technology is installed, with proper versioning, if your goal is to continue exploring just the `JSopX.RCLxProper` Project.
+Be sure each technology is installed, with Components versioning, if your goal is to continue exploring just the `JSopX.RCLxComponents` Project.
 
-- [Visual Studio (v 17.13.5)](../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#aspnet-core)
+- [Visual Studio (v 17.13.5)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#aspnet-core)
 
 ---
 
@@ -73,23 +73,23 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ---
 
-### 1. **Continue Installing `JSopX.`RCLxProper**:
+### 1. **Continue Installing `JSopX.`RCLxComponents**:
 
-- **[Continue](#step-1-clone-the-repository)** → **Continue** as **you were**, exploring and/or installing the `JSopX.RCLxProper` _Using Latest_ Variant.  
+- **[Continue](#step-1-clone-the-repository)** → **Continue** as **you were**, exploring and/or installing the `JSopX.RCLxComponents` _Using Latest_ Variant.  
 
 ---
 
 ### 2. **Use Different Variant**:
 
-- **[Browse By-Phase](../../OpenProjects/jsopx.RCLxProper/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxProper` _By-Phase_ Variant.   
-- **[Start From Scratch](../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxProper` _From Scratch_ Variant.
+- **[Browse By-Phase](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxComponents` _By-Phase_ Variant.   
+- **[Start From Scratch](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxComponents` _From Scratch_ Variant.
 - **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
 ## **Step 1: Clone the Repository**
 
-_Clone_ the `JSopX.RCLxProper` GitHub Repository if you plan to explore it independently from the rest of the projects.
+_Clone_ the `JSopX.RCLxComponents` GitHub Repository if you plan to explore it independently from the rest of the projects.
 
 Choose the approach below that fits your environment:  
 
@@ -103,13 +103,13 @@ Choose the approach below that fits your environment:
  
 ```bash
 
- # Using Bash: Clone JSopX.RCLxProper Git Repository
+ # Using Bash: Clone JSopX.RCLxComponents Git Repository
 
  # 1. Navigate to the desired local directory where you plan to clone the repository
- cd path\to\local\repo\JasonSilvestri\JSopX.RCLxProper
+ cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
 
- # 2. Clone JSopX.RCLxProper Git Repository       
- git clone https://github.com/JasonSilvestri/JSopX.RCLxProper.git
+ # 2. Clone JSopX.RCLxComponents Git Repository       
+ git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
     
 ```
 
@@ -121,13 +121,13 @@ Choose the approach below that fits your environment:
 
 ```powershell
 
- # Using PowerShell: Clone JSopX.RCLxProper Git Repository
+ # Using PowerShell: Clone JSopX.RCLxComponents Git Repository
 
  # 1. Navigate to the desired local directory where you plan to clone the repository
- cd path\to\local\repo\JasonSilvestri\JSopX.RCLxProper
+ cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
 
- # 2. Clone JSopX.RCLxProper Git Repository       
- git clone https://github.com/JasonSilvestri/JSopX.RCLxProper.git
+ # 2. Clone JSopX.RCLxComponents Git Repository       
+ git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
 
 ```
 
@@ -139,12 +139,12 @@ Choose the approach below that fits your environment:
  
 ```shell
 
- # Using Node.js / npm : Clone JSopX.RCLxProper Git Repository
+ # Using Node.js / npm : Clone JSopX.RCLxComponents Git Repository
  # 1. Navigate to the desired local directory where you plan to clone the repository
- cd path\to\local\repo\JasonSilvestri\JSopX.RCLxProper
+ cd path\to\local\repo\JasonSilvestri\JSopX.RCLxComponents
     
  # 2. Using npx degit to clone without .git history
- npx degit https://github.com/JasonSilvestri/JSopX.RCLxProper
+ npx degit https://github.com/JasonSilvestri/JSopX.RCLxComponents
 
 ```
 
@@ -154,10 +154,10 @@ Choose the approach below that fits your environment:
 
 ## **Step 2: Open the Solution**
 
-Working with the `JSopX.RCLxProper` Project in Visual Studio is simple enough.
+Working with the `JSopX.RCLxComponents` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.13.5)](../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#visual-studio)**.
-2. Open the solution file: `JSopX.RCLxProper.sln`.
+1. Launch **[Visual Studio (v 17.13.5)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio)**.
+2. Open the solution file: `JSopX.RCLxComponents.sln`.
 
 [`Back to Top`](#table-of-contents)
 
@@ -167,14 +167,14 @@ Working with the `JSopX.RCLxProper` Project in Visual Studio is simple enough.
 
 > [!TIP]
 >
-> Latest versions of [Visual Studio](../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> Latest versions of [Visual Studio](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
 > 
 
 ---
 
 ### **Step: 3.1: Ensure Dependencies Are Restored:**
 
-Ensure `JSopX.RCLxProper` Project dependencies are restored:
+Ensure `JSopX.RCLxComponents` Project dependencies are restored:
 
 ```bash
  npm install
@@ -202,7 +202,7 @@ Building and Running the `JSopX.BridgeToFar` Project in Visual Studio is also an
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
@@ -223,7 +223,7 @@ Assuming the `JSopX.BridgeToFar` Project is running as expected, **you are now d
 
 ## **Step 5: Project File Structure**
 
-The `JSopX.RCLxProper` Project in particular, contains several files and directories, all with their own functionality & purpose for existing. 
+The `JSopX.RCLxComponents` Project in particular, contains several files and directories, all with their own functionality & purpose for existing. 
 
 For brevity, samples will not have the complete file structure you get when installing, but there are some core files and directories that have special consideration you should get to know. 
 
@@ -233,19 +233,19 @@ For brevity, samples will not have the complete file structure you get when inst
 
 All `JSopX™ projects` follow a consistent directory structure. 
 
-1. I create a [Visual Studio](../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+1. I create a [Visual Studio](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 2. I create a similar Server-Side Project Folder for `.csproj`, and related files.
 
-A common, plain-text file folder structure of the `JSopX.RCLxProper` Solution and Projects should look something like what follows:
+A common, plain-text file folder structure of the `JSopX.RCLxComponents` Solution and Projects should look something like what follows:
 
 ```plaintext
-# JSopX™ RCL x Proper Solution and Projects
+# JSopX™ RCL x Components Solution and Projects
 
-JSopX.RCLxProper/                 # Root JSopX.RCLxProper Visual Studio Solution folder.
-├── JSopX.RCLxProper.sln          # Visual Studio solution file for Angular Core.
+JSopX.RCLxComponents/                 # Root JSopX.RCLxComponents Visual Studio Solution folder.
+├── JSopX.RCLxComponents.sln          # Visual Studio solution file for Angular Core.
 ├── PathConfig.targets            # Centralized MSBuild target configuration for project references.
-├── JSopX.RCLxProper/             # ASP.NET Core server-side application folder.
-│   ├── JSopX.RCLxProper.csproj   # Asp.NET Core Visual Studio Server Project configuration file.
+├── JSopX.RCLxComponents/             # ASP.NET Core server-side application folder.
+│   ├── JSopX.RCLxComponents.csproj   # Asp.NET Core Visual Studio Server Project configuration file.
 
 ```
 
@@ -257,20 +257,20 @@ There are a few reasons why I do this, but the primary reason is ensuring refere
 
 ### **Step: 5.2: Structured File Tree**:
 
-A common, plain-text file structure of the `JSopX.RCLxProper` Project.
+A common, plain-text file structure of the `JSopX.RCLxComponents` Project.
 
 ```plaintext
-# JSopX™ RCL x Proper Project
+# JSopX™ RCL x Components Project
 
-JSopX.RCLxProper/                          # Root JSopX™ RCL x Proper Project Visual Studio Solution folder.
+JSopX.RCLxComponents/                          # Root JSopX™ RCL x Components Project Visual Studio Solution folder.
 ├── .gitattributes                         # Git attributes file for repository metadata and configurations.
 ├── .gitignore                             # Specifies files and directories to ignore in version control.
-├── JSopX.RCLxProper.sln                   # Visual Studio solution '.sln' file for JSopX™ RCL x Proper Project.
+├── JSopX.RCLxComponents.sln                   # Visual Studio solution '.sln' file for JSopX™ RCL x Components Project.
 ├── LICENSE.txt                            # Licensing information for the project.
 ├── PathConfig.targets                     # Centralized MSBuild target configuration for project references.
 ├── README.md                              # High-level project documentation.
-├── JSopX.RCLxProper/                      # ASP.NET Core server-side application folder.
-│   ├── JSopX.RCLxProper.csproj            # Asp.NET Core Visual Studio Server Project '.csproj' configuration file.
+├── JSopX.RCLxComponents/                      # ASP.NET Core server-side application folder.
+│   ├── JSopX.RCLxComponents.csproj            # Asp.NET Core Visual Studio Server Project '.csproj' configuration file.
 
 
 ```
@@ -281,19 +281,19 @@ JSopX.RCLxProper/                          # Root JSopX™ RCL x Proper Project 
 
 ### **Step: 5.3: Structured Table**:
 
-A table structure of the same `JSopX.RCLxProper` Project, files and resources.
+A table structure of the same `JSopX.RCLxComponents` Project, files and resources.
 
 | File/Folder Name                        | Description                                                                 |
 |:----------------------------------------|:-----------------------------------------------------------------------------|
-| &nbsp;📁&nbsp;**JSopX.RCLxProper**&nbsp;            | Root folder for the JSopX™ RCL x Proper Project Visual Studio Solution.   |
+| &nbsp;📁&nbsp;**JSopX.RCLxComponents**&nbsp;            | Root folder for the JSopX™ RCL x Components Project Visual Studio Solution.   |
 | &nbsp;├&nbsp;📝&nbsp;`.gitattributes`&nbsp;                | Git attributes file for repository metadata and configurations.            |
 | &nbsp;├&nbsp;📝&nbsp;`.gitignore`&nbsp;                    | Specifies files and directories to ignore in version control.              |
-| &nbsp;├&nbsp;📝&nbsp;`JSopX.RCLxProper.sln`&nbsp;        | Visual Studio solution `.sln` file for the JSopX™ RCL x Proper Project.         |
+| &nbsp;├&nbsp;📝&nbsp;`JSopX.RCLxComponents.sln`&nbsp;        | Visual Studio solution `.sln` file for the JSopX™ RCL x Components Project.         |
 | &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                   | Licensing information for the project.                                     |
 | &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;            | Centralized MSBuild target configuration for project references.           |
 | &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                     | High-level project documentation.                                          |
-| &nbsp;├&nbsp;📁&nbsp;**JSopX.RCLxProper/**&nbsp;            | ASP.NET Core server-side application folder.                               |
-| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.RCLxProper.csproj`&nbsp; | Asp.NET Core Visual Studio Server Project `.csproj` configuration file.                                 |
+| &nbsp;├&nbsp;📁&nbsp;**JSopX.RCLxComponents/**&nbsp;            | ASP.NET Core server-side application folder.                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.RCLxComponents.csproj`&nbsp; | Asp.NET Core Visual Studio Server Project `.csproj` configuration file.                                 |
 
 [`Back to Top`](#table-of-contents)
 
@@ -303,7 +303,7 @@ A table structure of the same `JSopX.RCLxProper` Project, files and resources.
 
 Most **JSopX™ Projects** leverage shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability.
 
-The **`JSopX.RCLxProper` Project** is one of the highest-level resource libraries, hence, it has almost no natural dependencies, but have the majority of the projects that rely on it.
+The **`JSopX.RCLxComponents` Project** is one of the highest-level resource libraries, hence, it has almost no natural dependencies, but have the majority of the projects that rely on it.
 
 1. **`JSopX.OpenProjectX`**:
    - The [Flagship Project](../../Introduction/JSopxProjectsFamilies.md#1-flagship-projects) parent enterprise application solution.
@@ -339,12 +339,12 @@ The **`JSopX.RCLxProper` Project** is one of the highest-level resource librarie
 
 ## **Step 7: Usage**
 
-### **Step: 7.1: Referencing the `JSopX.`RCLxProper Project**
+### **Step: 7.1: Referencing the `JSopX.`RCLxComponents Project**
 
-1. **Add a project reference** to `JSopX.RCLxProper` in each client-side and/or server-side projects that want to have consume the project's assets:
-   - _Right-click_ on a project, such as [`JSopX.AngularCore`](#step-82-using-jsopxRCLxProper-project-in-an-angular-project), [`JSopX.ReactCore`](#step-84-using-jsopxRCLxProper-project-in-a-react-project), [`JSopX.VueCore`](#step-83-using-jsopxRCLxProper-project-in-a-vue-project), [`JSopX.BlazorServerCore`](#step-81-using-jsopxRCLxProper-project-in-a-blazor-project), etc.
+1. **Add a project reference** to `JSopX.RCLxComponents` in each client-side and/or server-side projects that want to have consume the project's assets:
+   - _Right-click_ on a project, such as [`JSopX.AngularCore`](#step-82-using-jsopxRCLxComponents-project-in-an-angular-project), [`JSopX.ReactCore`](#step-84-using-jsopxRCLxComponents-project-in-a-react-project), [`JSopX.VueCore`](#step-83-using-jsopxRCLxComponents-project-in-a-vue-project), [`JSopX.BlazorServerCore`](#step-81-using-jsopxRCLxComponents-project-in-a-blazor-project), etc.
    - Select **Add** > **Project Reference**.
-   - Check `JSopX.RCLxProper` and click **OK**.
+   - Check `JSopX.RCLxComponents` and click **OK**.
 
 [`Back to Top`](#table-of-contents)
 
@@ -353,17 +353,17 @@ The **`JSopX.RCLxProper` Project** is one of the highest-level resource librarie
 ## **Step 8: Extended Usage**
 
 > [!TIP]
-> These particular `Extended Usage` examples **are not** required to implement. They are just example extended usages for those of whom are new to projects like the `JSopX.RCLxProper` Project.
+> These particular `Extended Usage` examples **are not** required to implement. They are just example extended usages for those of whom are new to projects like the `JSopX.RCLxComponents` Project.
 >
 
 ---
 
-### **Step: 8.1: Using `JSopX.`RCLxProper Project in a Blazor Project**
+### **Step: 8.1: Using `JSopX.`RCLxComponents Project in a Blazor Project**
 
 **In [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/)**:
 
-1. **Reference the JSopX™ RCL x Proper Project**:
-   - Add a reference to `JSopX.RCLxProper` in [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1).
+1. **Reference the JSopX™ RCL x Components Project**:
+   - Add a reference to `JSopX.RCLxComponents` in [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1).
 
 2. **Use Static Files in `Razor` Components**:
    - Create a `Razor` component that wants to use the shared static files.
@@ -372,7 +372,7 @@ The **`JSopX.RCLxProper` Project** is one of the highest-level resource librarie
       @page "/example"
       @inject IWebHostEnvironment env
 
-      <h3>Re-Using JSopX™ RCL x Proper Project Assets Example Page</h3>
+      <h3>Re-Using JSopX™ RCL x Components Project Assets Example Page</h3>
 
       <img src="@($"{env.WebRootPath}/doc-assets/jsopx-logo.svg")" alt="Reusing Official JSopX™ Logo in Blazor Server Core Application">
       <script src="@($"{env.WebRootPath}/doc-assets/js/script.js")"></script>
@@ -383,18 +383,18 @@ The **`JSopX.RCLxProper` Project** is one of the highest-level resource librarie
 
 ---
 
-### **Step: 8.2: Using `JSopX.`RCLxProper Project in an Angular Project**
+### **Step: 8.2: Using `JSopX.`RCLxComponents Project in an Angular Project**
 
 **In [`JSopX.AngularCore`](../../OpenProjects/jsopx.AngularCore/)**:
 
 1. **Copy Files Using a `Build Script`**:
-   - Create a script to copy the shared resources from `JSopX.RCLxProper` to the `assets` folder of the Angular project during the build process.
+   - Create a script to copy the shared resources from `JSopX.RCLxComponents` to the `assets` folder of the Angular project during the build process.
 
      ```json
       
       "scripts": {
-          "postinstall": "npm run copy-rcl-x-proper",
-          "copy-rcl-x-proper": "cp -r ../JSopX.RCLxProper/* ./src/assets/"
+          "postinstall": "npm run copy-rcl-x-components",
+          "copy-rcl-x-components": "cp -r ../JSopX.RCLxComponents/* ./src/assets/"
       }
      ```
 
@@ -412,18 +412,18 @@ The **`JSopX.RCLxProper` Project** is one of the highest-level resource librarie
 
 ---
 
-### **Step: 8.3: Using `JSopX.`RCLxProper Project in a Vue Project**
+### **Step: 8.3: Using `JSopX.`RCLxComponents Project in a Vue Project**
 
 **In [`JSopX.VueCore`](../../OpenProjects/jsopx.VueCore/)**:
 
 1. **Copy Files Using a Build Script**:
-   - Create a script to copy the shared resources from `JSopX.RCLxProper` to the `assets` folder of the Vue project during the build process.
+   - Create a script to copy the shared resources from `JSopX.RCLxComponents` to the `assets` folder of the Vue project during the build process.
 
       ```json
       
       "scripts": {
-          "postinstall": "npm run copy-rcl-x-proper",
-          "copy-rcl-x-proper": "cp -r ../JSopX.RCLxProper/* ./public/assets/"
+          "postinstall": "npm run copy-rcl-x-components",
+          "copy-rcl-x-components": "cp -r ../JSopX.RCLxComponents/* ./public/assets/"
       }
       ```
 
@@ -445,18 +445,18 @@ The **`JSopX.RCLxProper` Project** is one of the highest-level resource librarie
 
 ---
 
-### **Step: 8.4: Using `JSopX.`RCLxProper Project in a React Project**
+### **Step: 8.4: Using `JSopX.`RCLxComponents Project in a React Project**
 
 **In [`JSopX.ReactCore`](../../OpenProjects/jsopx.ReactCore/)**:
 
 1. **Copy Files Using a Build Script**:
-   - Create a script to copy the shared resources from `JSopX.RCLxProper` to the `public` folder of the React project during the build process.
+   - Create a script to copy the shared resources from `JSopX.RCLxComponents` to the `public` folder of the React project during the build process.
 
      ```json
      // package.json
      "scripts": {
-         "postinstall": "npm run copy-rcl-x-proper",
-         "copy-rcl-x-proper": "cp -r ../JSopX.RCLxProper/* ./public/assets/"
+         "postinstall": "npm run copy-rcl-x-components",
+         "copy-rcl-x-components": "cp -r ../JSopX.RCLxComponents/* ./public/assets/"
      }
      ```
 
@@ -494,13 +494,13 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Browse By-Phase](../../OpenProjects/jsopx.RCLxProper/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxProper` _By-Phase_ Variant.   
-2. **[Start From Scratch](../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxProper` _From Scratch_ Variant.
+1. **[Browse By-Phase](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxComponents` _By-Phase_ Variant.   
+2. **[Start From Scratch](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxComponents` _From Scratch_ Variant.
 3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.RCLxProper/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.RCLxProper/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxAssets/) [`Next »`](../../OpenProjects/jsopx.AspNetCore/)
+[`Home`](../../OpenProjects/jsopx.RCLxComponents/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxAssets/) [`Next »`](../../OpenProjects/jsopx.AspNetCore/)
 
 ---
 
