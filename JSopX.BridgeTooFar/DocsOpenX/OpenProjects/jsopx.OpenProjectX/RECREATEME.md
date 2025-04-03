@@ -67,7 +67,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.4)](./Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.5)](./Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](./Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](./Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](./Technologies/NetCoreBlazor.md)

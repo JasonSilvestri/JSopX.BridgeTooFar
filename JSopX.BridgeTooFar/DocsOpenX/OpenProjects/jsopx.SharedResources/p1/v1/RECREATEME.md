@@ -72,7 +72,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.4)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
@@ -104,7 +104,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate a traditional class library for sharing static assets (Bootstrap, CSS, JS, HTML).
 
-1. **Open Visual Studio 2022 (v 17.13.4)**:
+1. **Open Visual Studio 2022 (v 17.13.5)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:

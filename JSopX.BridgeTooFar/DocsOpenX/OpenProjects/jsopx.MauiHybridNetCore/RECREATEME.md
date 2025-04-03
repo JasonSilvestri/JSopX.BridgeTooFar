@@ -44,7 +44,7 @@ Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an exi
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.4)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.5)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/NetCoreBlazor.md)
@@ -58,7 +58,7 @@ Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an exi
 
 **Goal**: Simulate an existing MAUI Hybrid app with weather data, Identity, and JWT already in place.
 
-1. **Open Visual Studio 2022 (v 17.13.4)**:
+1. **Open Visual Studio 2022 (v 17.13.5)**:
    - Ensure the .NET 9.0 SDK is installed (`dotnet --list-sdks`).
 
 2. **Create the Project**:

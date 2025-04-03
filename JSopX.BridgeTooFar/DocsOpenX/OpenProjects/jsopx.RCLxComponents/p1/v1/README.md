@@ -61,7 +61,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring just the `JSopX.RCLxProper` Project.
 
-- [Visual Studio (v 17.13.4)](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/)
+- [Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/)
 - [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#net-framework)
 - [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/#aspnet-core)
 
@@ -156,7 +156,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.RCLxProper` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.13.4)](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/)**.
+1. Launch **[Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/Technologies/)**.
 2. Open the solution file: `JSopX.RCLxProper.sln`.
 
 [`Back to Top`](#table-of-contents)

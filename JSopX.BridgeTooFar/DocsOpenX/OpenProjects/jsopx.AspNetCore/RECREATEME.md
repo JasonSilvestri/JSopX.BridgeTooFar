@@ -44,7 +44,7 @@ Recreating the `JSopX.AspNetCore` project shows us how to simulate an existing A
 
 ## Prerequisites
 
-- [Visual Studio (v 17.13.4)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.5)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsOpenX/OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/NetCoreBlazor.md)
@@ -65,7 +65,7 @@ Recreating the `JSopX.AspNetCore` project shows us how to simulate an existing A
 
 **Goal**: Simulate an existing ASP.NET Core app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.13.4)**:
+1. **Open Visual Studio 2022 (v 17.13.5)**:
    - Ensure .NET 9.0 SDK is installed.
 
 2. **Create the Project**:

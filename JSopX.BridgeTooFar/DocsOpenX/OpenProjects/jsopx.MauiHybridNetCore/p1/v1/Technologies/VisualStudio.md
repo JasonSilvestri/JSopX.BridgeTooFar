@@ -2,7 +2,7 @@
 
 **From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
 
-**`Visual Studio` or `Visual Studio Code` v `17.13.4` is `Required`**
+**`Visual Studio` or `Visual Studio Code` v `17.13.5` is `Required`**
 
 ---
 
@@ -23,7 +23,7 @@
 
 ## **Overview**  
 
-Almost all JSopX™ Open Project EXperiences _require_ `Visual Studio` or `Visual Studio Code` v **`17.13.4`**, to develop and run JSopX™ projects. Installing this version ensures compatibility with the latest .NET Core frameworks and modern web development tools. 
+Almost all JSopX™ Open Project EXperiences _require_ `Visual Studio` or `Visual Studio Code` v **`17.13.5`**, to develop and run JSopX™ projects. Installing this version ensures compatibility with the latest .NET Core frameworks and modern web development tools. 
 
 In addition, the IDE needs to be up-to-date to also leverage advanced debugging, code analysis, and project management features.
 
@@ -35,11 +35,11 @@ This section is dedicated to helping you ensure you have the correct `Visual Stu
 
 ## Visual Studio: Checking Versions
 
-Check if `Visual Studio` v **`17.13.4`** (_or higher_) is installed on your device.
+Check if `Visual Studio` v **`17.13.5`** (_or higher_) is installed on your device.
 
 ### Step-by-Step Instructions: Using Powershell
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `Visual Studio` v `17.13.4` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `Visual Studio` v `17.13.5` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -60,9 +60,9 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
      
  This command checks the `version` of `Visual Studio` on your device, and then prints back your version to the `Powershell` Command Line dialog output.
    
- If you have version `Visual Studio` v **`17.13.4`** (_or higher_), you are _good to go_, and no further action is needed!
+ If you have version `Visual Studio` v **`17.13.5`** (_or higher_), you are _good to go_, and no further action is needed!
    
- If you do not have Visual Studio installed or you version is **`lower`** than `Visual Studio` v **`17.13.4`**, it is recommended that you install it _immediately_ to avoid unexpected results.
+ If you do not have Visual Studio installed or you version is **`lower`** than `Visual Studio` v **`17.13.5`**, it is recommended that you install it _immediately_ to avoid unexpected results.
  
 
 [`Back to Top`](#table-of-contents)
@@ -71,11 +71,11 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
    
 ## Visual Studio: Installation:
 
-Install `Visual Studio` v **`17.13.4`** (_or higher_) if it is not already installed or found on your device.
+Install `Visual Studio` v **`17.13.5`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to _install_ the correct version of `Visual Studio` or `Visual Studio Code` v `17.13.4` on your device.
+You can use **`Powershell`** Command Line dialog again to _install_ the correct version of `Visual Studio` or `Visual Studio Code` v `17.13.5` on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
@@ -168,7 +168,7 @@ You can use **`Powershell`** Command Line dialog again to _install_ the correct 
 Visit the official `Microsoft` vendor site for **`Visual Studio`** if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`Visual Studio`** or **`Visual Studio Code`** v **`17.13.4`**
+2. You would rather manually install **`Visual Studio`** or **`Visual Studio Code`** v **`17.13.5`**
 3. You prefer some official vendor documentation first
    
 #### Step-by-Step Instructions:
