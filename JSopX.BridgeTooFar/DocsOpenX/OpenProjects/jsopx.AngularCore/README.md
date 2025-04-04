@@ -24,12 +24,10 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
 
 ---
 
-## Table of Contents
+## Table of Contents  
 
-  - [Overview](#overview)
+ - [Overview](#overview)
   - [Prerequisites](#prerequisites)
-  - [Corequisites](#corequisites)
-  - [Postrequisites](#postrequisites)
   - [Getting Started](#getting-started)
       - [Step 1: Clone the Repository](#step-1-clone-the-repository)
       - [Step 2: Open the Solution](#step-2-open-the-solution)
@@ -335,7 +333,7 @@ A table structure of the same with no tree legs `JSopX.AngularCore` Project, fil
 | &nbsp;├&nbsp;📝&nbsp;`JSopX.AngularCore.sln`&nbsp;            | Visual Studio `.sln` solution file linking the client and server projects. |
 | &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                      | Licensing information for the project (generally `MIT` open-source license). |
 | &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;               | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
-| &nbsp;├&nbsp;📝&nbsp;**`README.md`**&nbsp;                      | The current, most recent, primary project README `.md` file. |
+| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                      | The current, most recent, primary project README `.md` file. |
 | &nbsp;├&nbsp;📁&nbsp;**jsopx.angularcore.client**&nbsp;         | Angular client-side application folder, housing the front-end implementation. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx.angularcore.client.esproj`&nbsp;     | Angular client-side Visual Studio project `.esproj` configuration file. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`angular.json`&nbsp;                     | Angular CLI configuration file for workspace and project settings. |

@@ -24,7 +24,6 @@ $ git clone https://github.com/JasonSilvestri/JSopX.RCLxProper.git
 
 ---
 
-
 ## Table of Contents
 
   - [Overview](#overview)

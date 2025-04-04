@@ -1,209 +1,395 @@
-# JSopX™ Blazor Server Core
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-blazor-server-core-logo.svg" style="width: 28px; height: auto; padding-right:12px;!important;"> JSopX™ Blazor Server Core Project
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
+The **JSopX™ Blazor Server Core Project**, _code named_, `JSopX.BlazorServerCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Blazor and ASP.NET Core Web API. 
 
-> [!CAUTION]
-> **This is a DRAFT:**
+---
+
+## **Use Latest Variant:**
+
+> [!TIP]
+> You are currently viewing the **"_Use Latest_" _Variant_** of the **JSopX™ Blazor Server Core Project**. 
 > 
-> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+> For more details, see [Getting Started](#getting-started) _below_.
 
+---
+
+```bash
+# For The Cool Kids: Clone JSopX.BlazorServerCore Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.BlazorServerCore.git
+```
+
+---
+
+[`Home`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
+
+---
+
+
+## Table of Contents  
+
+ - [Overview](#overview)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+      - [Step 1: Clone the Repository](#step-1-clone-the-repository)
+      - [Step 2: Open the Solution](#step-2-open-the-solution)
+      - [Step 3: Configure the Project](#step-3-configure-the-project)
+      - [Step 4: Build and Run](#step-4-be-sure-to-build-and-run)
+      - [Step 5: Project File Structure](#step-5-project-file-structure)
+      - [Step 6: Project References & Dependencies](#step-6-jsopx-project-references--dependencies)
+      - [Step 7: Usage](#step-7-usage)
+   - [Next Steps](#next-steps)
+
+---
+
+## Current Phase
+
+> [!NOTE]
+>
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md) Business Requirements. 
+> 
+
+---
 
 ## Overview
 
-![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen-v-0.png)
+The **JSopX™ Blazor Server Core Project**, _code named_, `JSopX.BlazorServerCore` is a totally **FREE**, open-source, demonstration project showcasing how interactive web UIs can be built efficiently under the JSopX™ umbrella. By integrating with shared APIs and resources, it highlights the power and flexibility of Blazor’s real-time server-side model.
 
-The `JSopX.BlazorServerCore` Project (i.e., _jSilvestri.com BETA v 2025 JSopX™ Blazor Server Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
+Like the ["Existing" Client-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) projects, we do still initially create the project to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#6-server-side-existing-apps-examples) Weather Forecast Asp.NET Core Blazor application, with its own Web API and existing standards, to conform to the initial [business requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-This homogeneous suite of JSopX™ projects, uses some of the most advanced client-side and server-side technologies of today, such as Asp.NET Core, Blazor, .NET MAUI, Angular, React, Node.JS, Vue &amp; more! 
+As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
 
-![JSopX™ Open Project EXperiences Collection of Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/JsopX-Splash-Screen.png)
+The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-All access the same server-side Web API, while using the same client-side, look-and-feel resources and assets across all projects, constructed as a centeralized, unified, enterprise-level soluiton, and available as responsive web designs for most mobile, tablet, laptop & desktop web browsers, as a Windows, Linux and Mac desktop application, and as a native mobile app for Iphone, Android, Samsung Galaxy and Windows Phone.
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 
+The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-![JSopX™ Open Project EXperiences Assets Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/bootstrap-themes.png)
+[`Back to Top`](#table-of-contents)
 
+---
 
+## **Prerequisites**
 
+Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.BlazorServerCore` Project.
 
-> [!CAUTION]
-> **CURRENT PHASE: Phase 1: Minimum Viable Product (MVP):**
->
-> This document is currently aligned with **Phase 1** of development. As a result, the content may not be fully accurate or ready for production use. Treat it as reference material while the project evolves.
-> 
-> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Phases/Phase-1.md).
+- [Visual Studio (v 17.13.5)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.0.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-core-blazor)
 
+---
 
+## **Getting Started**
 
+Carefully _choose_ the variant approach below that fits your current objective:
 
+---
 
-## Table of Contents
+### 1. **Continue Installing `JSopX.`BlazorServerCore**:
 
-- [Overview](#overview)
-  - [Table of Contents](#table-of-contents)
-  - [Alerts](#alerts)
-    - [Current Alerts](#current-alerts)
-- [Prerequisites](#prerequisites)
-- [Corequisites](#corequisites)
-- [Postrequisites](#postrequisites)
-- [Concomitants](#concomitants)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [In Conclusion](#in-conclusion)
+- **[Continue](#step-1-clone-the-repository)** → **Continue** as **you were**, exploring and/or installing the `JSopX.BlazorServerCore` _Using Latest_ Variant.  
 
+---
 
-## Alerts
+### 2. **Use Different Variant**:
 
-**Please pay close attention to the `alerts` that appear in all documentation that look like the following:**
+- **[Browse By-Phase](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BlazorServerCore` _By-Phase_ Variant.   
+- **[Start From Scratch](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.BlazorServerCore` _From Scratch_ Variant.
+- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+---
+
+## **Step 1: Clone the Repository**
+
+_Clone_ the `JSopX.BlazorServerCore` GitHub Repository if you plan to explore it independently from the rest of the projects.
+
+Choose the approach below that fits your environment:  
+
+- **[Bash](#step-11-using-bash)** → Ideal for **Linux, macOS, and Windows (WSL/Git Bash)** users.  
+- **[PowerShell](#step-12-using-powershell)** → Best for **Windows** users.  
+- **[Node.js](#step-13-using-nodejs-or-npm-degit)** → A lightweight option for developers using **JavaScript-based workflows**.  
+
+---
+
+### **Step 1.1: Using `Bash`:**
+ 
+```bash
+
+ # Using Bash: Clone JSopX.BlazorServerCore Git Repository
+
+ # 1. Navigate to the desired local directory where you plan to clone the repository
+ cd path\to\local\repo\JasonSilvestri\JSopX.BlazorServerCore
+
+ # 2. Clone JSopX.BlazorServerCore Git Repository       
+ git clone https://github.com/JasonSilvestri/JSopX.BlazorServerCore.git
+    
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 1.2: Using `Powershell`:**
+
+```powershell
+
+ # Using PowerShell: Clone JSopX.BlazorServerCore Git Repository
+
+ # 1. Navigate to the desired local directory where you plan to clone the repository
+ cd path\to\local\repo\JasonSilvestri\JSopX.BlazorServerCore
+
+ # 2. Clone JSopX.BlazorServerCore Git Repository       
+ git clone https://github.com/JasonSilvestri/JSopX.BlazorServerCore.git
+    
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 1.3: Using `Node.js` or `npm` (degit):**
+ 
+```shell
+
+ # Using Node.js / npm : Clone JSopX.BlazorServerCore Git Repository
+ # 1. Navigate to the desired local directory where you plan to clone the repository
+ cd path\to\local\repo\JasonSilvestri\JSopX.BlazorServerCore
+    
+ # 2. Using npx degit to clone without .git history
+ npx degit https://github.com/JasonSilvestri/JSopX.BlazorServerCore
+
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## **Step 2: Open the Solution**
+
+Working with the `JSopX.BlazorServerCore` Project in Visual Studio is simple enough.
+
+1. Launch **[Visual Studio (v 17.13.5)](../../Technologies/#visual-studio)**.
+2. Open the solution file: `JSopX.BlazorServerCore.sln`.
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## **Step 3: Configure the Project**
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-
-### Current Alerts
-
-> [!IMPORTANT]
-> This document is still  **regularly being updated**. It is important to regularly check back for updates until this `Current Alert` is no longer visible.
-
-
-[Back to Top](#table-of-contents)
-
-## Prerequisites
-
-
-- Visual Studio 2022 (17.13.1) or higher installed.
-- Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.BlazorServerCore`, `JSopX.WebAPI`, etc.).
-- Installed .NET 9.0.0 SDK.
-- Installed Node.js 20.14.0
-- Basic understanding of `.csproj` and `.sln` file structures.
-
-
-[Back to Top](#table-of-contents)
-
-## Corequisites
-
-﻿
-- Ensure the latest Blazor Server Core `JSopX.BlazorServerCore` project stays update to date, by [pulling the latest from its repository](#getting-started).
-
-
-[Back to Top](#table-of-contents)
-
-## Postrequisites
-
-﻿
-- Clean and rebuild each project after making changes to ensure includes are properly configured.
-
-
-[Back to Top](#table-of-contents)
-
-## Concomitants
-
-﻿
-- You do not need to install technologies mentioned in the [Prerequisites](#prerequisites) section just to review the markdown files under `Docs`.
-
-
-[Back to Top](#table-of-contents)
-
-
-## Getting Started
-
-﻿
-
-> [!WARNING]
-> This section describes a typical cloning operaton. Conversely, to mimic the collective JSopX project architecture takes some extra effort to fully implement "AS-IS".
-> 
-> **To mimic the advanced cloning of the collective `JSopX.OpenProjectX` project suite (how it is possible to have `all-projects-in-one` and `independent-projects` installations), please see, [JSopX™ Visual Studio Projects GitHub Advanced](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Introduction/JSopxProjectsGitHubAdvanced.md) for details.**
 >
+> Latest versions of [Visual Studio](../../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> 
+
+---
+
+### **Step: 3.1: Ensure Dependencies Are Restored:**
+
+Ensure `JSopX.BlazorServerCore` Project dependencies are restored:
+
+   ```bash
+   npm install
+   ```
 
 
+[`Back to Top`](#table-of-contents)
 
-## JSopX.BlazorServerCore : Installation
+---
 
-You can install the **`JSopX.BlazorServerCore`** Project **independently** by cloning the Git Repository.
+### **Step: 3.2: Verify Nuget Packages:**
 
-#### Step by Step Instructions:
+Verify that all NuGet packages are up to date:
 
-1. _Clone_ **`JSopX.BlazorServerCore`** Git Repository:
-    ```powershell
-       # Using PowerShell: Clone JSopX.BlazorServerCore Git Repository
-    
-       # 1. Navigate to the desired local directory you plan to clone the repository
-       # to on your computer
-       cd path\to\local\repo\JasonSilvestri\JSopX.BlazorServerCore
-    
-       # 2. Clone JSopX.BlazorServerCore Git Repository       
-       git clone https://github.com/JasonSilvestri/JSopX.BlazorServerCore.git
-    ```
-    
-2. _Open_ the solution in `Visual Studio`:
+   ```bash
+   dotnet restore
+   ```
+   
+[`Back to Top`](#table-of-contents)
 
-    - **Open** **`JSopX.BlazorServerCore.sln`** in Visual Studio 2022 or higher.
+---
 
-3. _Build_ the `Project`:
+## **Step 4: Be Sure to Build and Run**
 
-    - **Right-click** on the solution in `Solution Explorer` and select `Build Solution`.
-      
-4. _Run_ the `Project`:
+Building and Running the `JSopX.BlazorServerCore` Project in Visual Studio is also another simple task.
 
-    - **Click** on the `Run` button in `Visual Studio` to run the project.
+### **Step: 4.1: Build and Run**:
 
-## JSopX.BlazorServerCore : Project References
+1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio).
+2. Run the project:
+   - Use the **IIS Express** profile for local development.
 
-What makes the **`JSopX.BlazorServerCore`** Project—and the entire JSopX™ Open Project EXperiences collection—so versatile, even as an enterprise-level suite, is each project's ability to include and reuse '_Project References_.' These references are shared resources that enhance collaboration and efficiency across projects.
+---
 
-The _Project References_ included in the **`JSopX.BlazorServerCore`** Project are as follows:
+### **Step: 4.2: And Now Your Done**:
 
+Assuming the `JSopX.BlazorServerCore` Project is running as expected, **you are now done** with the **installation** and **execution** of the project!
 
-1. [`JSopX.BridgeTooFar`](#jsopxbridgetoofar):
-    - A new project being developed, containing base static reusable assets often derived by the primary Shared Resources, Class Libraries and Razor Class Libraries.
+1. **Skip Remaining Steps**: 
+   - Technically, you could skip to the [Next Steps](#next-steps) section if you are on a project-by-project installation mission.
+2. **Conclude Remaining Steps**:
+   - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
+[`Back to Top`](#table-of-contents)
 
-## JSopX.BlazorServerCore : Technology Requirements
-
-Don't forget that the **`JSopX.BlazorServerCore`** Project requires certain technologies installed to work as expected.
+---
 
 
-[`JSopX`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  [`Visual Studio`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/Technologies/VisualStudio.md) [`Asp.NET Core`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/Technologies/AspNetCore.md) [`.NET Framework SDK`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/Technologies/NetFrameworkSdk.md) [`C#`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/Technologies/AspNetCore.md)  » 
-[`All Technology Requirements`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/Technologies.md)  »  [`All Project Repositories`](https://github.com/JasonSilvestri/JSopX.OpenProjectX)  »  [`Back to Top`](#table-of-contents)
+## **Step 5: Project File Structure**
+
+The `JSopX.BlazorServerCore` Project in particular, contains several files and directories, all with their own functionality & purpose for existing. 
+
+For brevity, samples will not have the complete file structure you get when installing, but there are some core files and directories that have special consideration you should get to know. 
+
+---
+
+### **Step: 5.1: Structured Project & Solution Considerations**:
+
+All `JSopX™ projects` follow a consistent directory structure, based on its [JSopX™ Project Family](../../Introduction/JSopxProjectsFamilies.md) (_relatively speaking_). 
+
+1. The `JSopX.BlazorServerCore` Project naming conventions include capital casing for `.Server` directories.
+2. I create a [Visual Studio](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+3. I create a Server-Side Project Folder for `.csproj`, and related files.
+
+A common, plain-text file folder structure of the `JSopX.BlazorServerCore` Solution and Projects should look something like what follows:
+
+```plaintext
+# JSopX™ Blazor Server Core Solution and Projects
+
+JSopX.BlazorServerCore/                 # Root JSopX.BlazorServerCore Visual Studio Solution folder.
+├── JSopX.BlazorServerCore.sln          # Visual Studio '.sln' solution file for Blazor Server Core.
+├── PathConfig.targets                  # Centralized MSBuild target configuration for project references.
+├── JSopX.BlazorServerCore/             # Asp.NET Core Blazor Server server-side application folder.
+│   ├── JSopX.BlazorServerCore.csproj   # Asp.NET Core Blazor Server Visual Studio Server Project '.csproj' configuration file.
+
+```
+
+There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 5.2: Structured File Tree**:
+
+A common, plain-text file structure of the `JSopX.BlazorServerCore` Project files and directories that matter.
+
+```plaintext
+# JSopX™ Blazor Server Core Project
+
+JSopX.BlazorServerCore/                        # Root JSopX.BlazorServerCore Visual Studio Solution folder.
+├── .gitattributes                             # Git attributes file for repository metadata and configurations.
+├── .gitignore                                 # Specifies files and directories to ignore in version control.
+├── JSopX.BlazorServerCore.sln                 # Visual Studio '.sln' solution file for Blazor Server Core.
+├── LICENSE.txt                                # Licensing information for the project.
+├── PathConfig.targets                         # Centralized MSBuild target configuration for project references.
+├── README.md                                  # High-level project documentation.
+├── JSopX.BlazorServerCore/                    # ASP.NET Core Blazor Server-side application folder.
+│   ├── JSopX.BlazorServerCore.csproj          # ASP.NET Core Blazor Server Visual Studio Project '.csproj' configuration file.
+│   ├── Program.cs                             # Main entry point for the ASP.NET Core server.
+│   ├── Controllers/                           # API controllers exposing server endpoints.
+│   ├── appsettings.json                       # Application settings file for configuration.
+│   └── WeatherForecast.cs                     # Example Weather Forecast model class (default template).
+
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 5.3: Structured Table**:
+
+A table structure of the same with no tree legs `JSopX.BlazorServerCore` Project, files and resources.
 
 
-[Back to Top](#table-of-contents)
+| **File/Directory**                        | **Description**                                                                                   |
+|:------------------------------------------|:--------------------------------------------------------------------------------------------------|
+| &nbsp;📁&nbsp;**JSopX.BlazorServerCore/**&nbsp;                | Parent `JSopX.BlazorServerCore` Visual Studio Solution folder, containing both client and server code.|
+| &nbsp;├&nbsp;📝&nbsp;`.gitattributes`&nbsp;                   | Git attributes file for repository metadata and configurations. |
+| &nbsp;├&nbsp;📝&nbsp;`.gitignore `&nbsp;                      | Specifies files and directories to ignore in version control. |
+| &nbsp;├&nbsp;📝&nbsp;`JSopX.BlazorServerCore.sln`&nbsp;            | Visual Studio `.sln` solution file linking the client and server projects. |
+| &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                      | Licensing information for the project (generally `MIT` open-source license). |
+| &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;               | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
+| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                      | The current, most recent, primary project README `.md` file. |
+| &nbsp;├&nbsp;📁&nbsp;**JSopX.BlazorServerCore**&nbsp;         | Asp.NET Core Blazor Server server-side folder for back-end logic and API endpoints. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.BlazorServerCore.csproj`&nbsp;     | Asp.NET Core Blazor Server server-side Visual Studio project `.csproj` configuration file. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`Program.cs`&nbsp;                       | Main entry point for the ASP.NET Core application, initializing services. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`Controllers/`**&nbsp;                     | Contains API controllers that handle HTTP requests and responses. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`appsettings.json`&nbsp;                 | Configuration file for application settings like connection strings. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## **Step 6: JSopX™ Project References & Dependencies**
+
+> [!TIP]
+>
+> The `JSopX.BlazorServerCore` Project should already have the JSopX™ Project References & Dependencies described below included!
+> 
+
+---
+
+Most `JSopX™ Projects` leverage shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability.
+
+The `JSopX.BlazorServerCore` Project has the following `JSopX` Project Dependencies:
+
+1. **`JSopX.BridgeTooFar`**:
+   - A [Shared Assets & Resources Projects](../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
+   - **Explore GitHub**: [JSopX.BridgeTooFar](../../OpenProjects/jsopx.BridgeTooFar)
+
+2. **`JSopX.ClassLibrary`**:
+   - A [Shared Data, Service & Function Project](../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
+   - **Explore GitHub**: [JSopX.ClassLibrary](../../OpenProjects/jsopx.ClassLibrary)
+
+3. **`JSopX.WebAPI`**:
+   - A [Shared Data, Service & Function Project](../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
+   - **Explore GitHub**: [JSopX.WebAPI](../../OpenProjects/jsopx.WebAPI)
+ 
+4. **`JSopX.RCLxProper`**:
+   - An extremely light-weight, [Shared Assets & Resources Projects](../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
+   - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
 
-## Usage
+[`Back to Top`](#table-of-contents)
 
-#### Adding the JSopX™ Blazor Server Core to Other Projects
+---
+
+## **Step 7: Usage**
+
+Although the `JSopX.BlazorServerCore` project is primarily designed as a self-contained demonstration project, it is fully capable of integration with other JSopX™ projects. Here's how to add it to your project:
+
+---
+
+### **Step 7.1: Adding the JSopX™ Blazor Server Core to Other Projects**
 
 1. **Add Project Reference**:
+   - Open your solution in Visual Studio.
+   - Right-click the project that will use `JSopX.BlazorServerCore` and select `Add > Project Reference`.
+   - Check the box for `JSopX.BlazorServerCore` and click `OK`.
 
-    - In the solution that requires the common library, right-click on the project in Solution Explorer.
-    - Select `Add` > `Reference`.
-    - Check the box for `JSopX.BlazorServerCore` and click `OK`.
+[`Back to Top`](#table-of-contents)
 
-2. **Use the Common Code**:
+---
 
-    - You can now use the constants, enums, and helpers from the `JSopX.BlazorServerCore` in your other projects.
+## **Next Steps**
 
-## In Conclusion
+Carefully choose the approach below that fits your current objective:
 
-The `JSopX.BlazorServerCore` Project (i.e., _jSilvestri.com BETA v 2025 JSopX™ Blazor Server Core Open Project EXperience_) is one of several, FREE, open-source projects, included in the first-of-its-kind, Multi-Platform, Multi-Stack, `JSopX™ Open Project EXperiences Collection` Enterprise-Level Application.
+---
 
-By centralizing project properties, filters, and other static, constants, this approach to basic object oriented coding should be one of the first things you do when extending your projects, especially with referencing the `JSopX.BlazorServerCore` across projects.
+1. **[Continue](../../OpenProjects/jsopx.MauiHybridNetCore/README.md)** → _Continue_ as **you were**, exploring and/or installing other projects like you did with **this project**. You'll move onto the next project, using the `JSopX.MauiHybridNetCore` _Using Latest_ Variant.  
 
-[Back to Top](#table-of-contents)
+---
 
+1. **[Browse By-Phase](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BlazorServerCore` _By-Phase_ Variant.   
+2. **[Start From Scratch](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.BlazorServerCore` _From Scratch_ Variant.
+3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+[`Home`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
 
 ---
 

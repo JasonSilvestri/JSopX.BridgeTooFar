@@ -24,12 +24,10 @@ $ git clone https://github.com/JasonSilvestri/JSopX.VueCore.git
 
 ---
 
-## Table of Contents
+## Table of Contents  
 
-  - [Overview](#overview)
+ - [Overview](#overview)
   - [Prerequisites](#prerequisites)
-  - [Corequisites](#corequisites)
-  - [Postrequisites](#postrequisites)
   - [Getting Started](#getting-started)
       - [Step 1: Clone the Repository](#step-1-clone-the-repository)
       - [Step 2: Open the Solution](#step-2-open-the-solution)
@@ -63,13 +61,9 @@ As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), w
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
-
-
-
-
 
 ---
 
@@ -359,7 +353,7 @@ A table structure of the same with no tree legs `JSopX.VueCore` Project, files a
 | &nbsp;├&nbsp;📝&nbsp;`JSopX.VueCore.sln`&nbsp;            | Visual Studio `.sln` solution file linking the client and server projects. |
 | &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                      | Licensing information for the project (generally `MIT` open-source license). |
 | &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;               | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
-| &nbsp;├&nbsp;📝&nbsp;**`README.md`**&nbsp;                      | The current, most recent, primary project README `.md` file. |
+| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                      | The current, most recent, primary project README `.md` file. |
 | &nbsp;├&nbsp;📁&nbsp;**jsopx.vuecore.client**&nbsp;         | Vue client-side application folder, housing the front-end implementation. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx.vuecore.client.esproj`&nbsp;     | Vue client-side Visual Studio project `.esproj` configuration file. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`vue.json`&nbsp;                     | Vue CLI configuration file for workspace and project settings. |

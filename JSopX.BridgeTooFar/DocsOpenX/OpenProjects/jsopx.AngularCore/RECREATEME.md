@@ -4,15 +4,14 @@ The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a to
 
 ---
 
-## **Start From Scratch Variant:**
+## **Use Latest Variant:**
 
 > [!TIP]
-> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **JSopX™ Angular Core Project**. 
+> You are currently viewing the **"_Use Latest_" _Variant_** of the **JSopX™ Angular Core Project**. 
 > 
 > For more details, see [Getting Started](#getting-started) _below_.
 
 ---
-
 
 ```bash
 # For The Cool Kids: Clone JSopX.AngularCore Git Repository
@@ -21,38 +20,33 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.AngularCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AngularCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.AngularCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/) [`Next »`](../../OpenProjects/jsopx.ReactCore/)
 
 ---
 
-  
-## Table of Contents
+## Table of Contents  
 
-  - [Overview](#overview)
+ - [Overview](#overview)
   - [Prerequisites](#prerequisites)
   - [Getting Started](#getting-started)
-      - [Step 1: Recreate Using Angular and ASP.NET Core Template](#step-1-recreate-jsopxangularcore-using-angular--aspnet-core-template)
-      - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
-      - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
-      - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
-      - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+      - [Step 1: Clone the Repository](#step-1-clone-the-repository)
+      - [Step 2: Open the Solution](#step-2-open-the-solution)
+      - [Step 3: Configure the Project](#step-3-configure-the-project)
+      - [Step 4: Build and Run](#step-4-be-sure-to-build-and-run)
+      - [Step 5: Project File Structure](#step-5-project-file-structure)
+      - [Step 6: Project References & Dependencies](#step-6-jsopx-project-references--dependencies)
+      - [Step 7: Usage](#step-7-usage)
+      - [Step 8: Extended Usage](#step-8-extended-usage)
   - [Next Steps](#next-steps)
-  
+
 ---
 
 ## Current Phase
 
-> [!IMPORTANT]
+> [!NOTE]
 >
->**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md) Business Requirements. 
 > 
-
----
-
-> [!CAUTION]
-> **This is a DRAFT:**
-> 
-> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
 
 ---
 
@@ -74,20 +68,18 @@ The result is an environment that transforms a patchwork of independent solution
 
 
 
-[`Back to Top`](#table-of-contents)
-
 ---
 
 ## **Prerequisites**
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AngularCore` Project.
 
-- [Visual Studio (v 17.13.5)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#aspnet-core)
-- [Node.js (v 20.14.0)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#node)
-- [npm (v 10.8.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#npm)
-- [Angular CLI (v 18.0.3)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#angular-cli)
+- [Visual Studio (v 17.13.5)](../../Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../Technologies/#aspnet-core)
+- [Node.js (v 20.14.0)](../../Technologies/#node)
+- [npm (v 10.8.1)](../../Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../../Technologies/#angular-cli)
 
 ---
 
@@ -97,337 +89,393 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ---
 
-### 1. **Continue Creating `JSopX.`AngularCore From Scratch**:
+### 1. **Continue Installing `JSopX.`AngularCore**:
 
-- **[Continue](#step-1-recreate-jsopxangularcore-using-angular--aspnet-core-template)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.AngularCore` _From Scratch_ Variant.   
+- **[Continue](#step-1-clone-the-repository)** → **Continue** as **you were**, exploring and/or installing the `JSopX.AngularCore` _Using Latest_ Variant.  
 
 ---
 
 ### 2. **Use Different Variant**:
 
-- **[Install Using Latest](../../OpenProjects/jsopx.AngularCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AngularCore` _Using Latest_ Variant.  
 - **[Browse By-Phase](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AngularCore` _By-Phase_ Variant.   
+- **[Start From Scratch](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.AngularCore` _From Scratch_ Variant.
 - **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-## **Step 1: Recreate `JSopX.`AngularCore Using Angular & ASP.NET Core Template**
+## **Step 1: Clone the Repository**
 
-**Goal**: Recreate `JSopX.AngularCore` to simulate an existing Angular app with weather data, Identity, and JWT already established.
+_Clone_ the `JSopX.AngularCore` GitHub Repository if you plan to explore it independently from the rest of the projects.
 
-1. **Open Visual Studio 2022 (v 17.13.5)**:
-   - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
+Choose the approach below that fits your environment:  
 
-2. **Create the Project**:
-   - File > New > Project.
-   - Search for “ASP.NET Core with Angular”.
-   - Configure:
-     - Project Name: `JSopX.AngularCore`.
-     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.AngularCore`.
-     - Solution Name: `JSopX.AngularCore`.
-     - .NET Framework (v 9.0.1)
-   - Click Create.
+- **[Bash](#step-11-using-bash)** → Ideal for **Linux, macOS, and Windows (WSL/Git Bash)** users.  
+- **[PowerShell](#step-12-using-powershell)** → Best for **Windows** users.  
+- **[Node.js](#step-13-using-nodejs-or-npm-degit)** → A lightweight option for developers using **JavaScript-based workflows**.  
 
-3. **Set Up Initial Weather Data**:
-   - In `JSopX.AngularCore/jsopx.angularcore.client/src/app/fetch-data/fetch-data.component.ts`:
+---
 
-     ```typescript
-     import { Component, inject } from '@angular/core';
-     import { HttpClient } from '@angular/common/http';
-     @Component({
-       selector: 'app-fetch-data',
-       templateUrl: './fetch-data.component.html'
-     })
-     export class FetchDataComponent {
-       public forecasts: WeatherForecast[] = [];
-       private http = inject(HttpClient);
-       ngOnInit() {
-         this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(result => {
-           this.forecasts = result;
-         });
-       }
-     }
-     interface WeatherForecast {
-       date: string;
-       temperatureC: number;
-       summary: string;
-     }
-     ```
-   - Update `fetch-data.component.html`:
+### **Step 1.1: Using `Bash`:**
+ 
+```bash
 
-     ```html
-     <h1>JSopX™ Weather</h1>
-     <table *ngIf="forecasts.length">
-       <thead><tr><th>Date</th><th>Temp (°C)</th><th>Summary</th></tr></thead>
-       <tbody>
-         <tr *ngFor="let forecast of forecasts">
-           <td>{{ forecast.date | date }}</td>
-           <td>{{ forecast.temperatureC }}</td>
-           <td>{{ forecast.summary }}</td>
-         </tr>
-       </tbody>
-     </table>
-     ```
-   - Keep `JSopX.AngularCore/JSopX.AngularCore.Server/Controllers/WeatherForecastController.cs` as default.
+ # Using Bash: Clone JSopX.AngularCore Git Repository
 
-4. **Add Identity + JWT (Simulating Existing Setup)**:
-   - Install NuGet: `Microsoft.AspNetCore.Authentication.JwtBearer`.
-   - Update `Program.cs`:
+ # 1. Navigate to the desired local directory where you plan to clone the repository
+ cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
 
-     ```csharp
-     builder.Services.AddAuthentication()
-         .AddJwtBearer(options =>
-         {
-             options.TokenValidationParameters = new TokenValidationParameters
-             {
-                 ValidateIssuer = true,
-                 ValidateAudience = true,
-                 ValidateLifetime = true,
-                 ValidateIssuerSigningKey = true,
-                 ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                 ValidAudience = builder.Configuration["Jwt:Audience"],
-                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-             };
-         });
-     builder.Services.AddSpaStaticFiles(configuration => configuration.RootPath = "JSopX.AngularCore/jsopx.angularcore.client/dist");
-     var app = builder.Build();
-     app.UseAuthentication();
-     app.UseAuthorization();
-     app.UseSpa(spa => spa.Options.SourcePath = "ClientApp");
-     ```
-   - Update `appsettings.json`:
+ # 2. Clone JSopX.AngularCore Git Repository       
+ git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
+    
+```
 
-     ```json
-     {
-       "Jwt": { "Key": "8f+2Kj9mPqL5xRtYvWnZcQwXjB3sM7hD9pN8uG4tA1o=", "Issuer": "JSopX", "Audience": "JSopX" }
-     }
-     ```
-   - Add `JSopX.AngularCore/JSopX.AngularCore.Server/Controllers/AuthController.cs`:
+[`Back to Top`](#table-of-contents)
 
-     ```csharp
-     [Route("api/[controller]")]
-     [ApiController]
-     public class AuthController : ControllerBase
-     {
-         private readonly IConfiguration _config;
-         public AuthController(IConfiguration config) => _config = config;
-         [HttpPost("login")]
-         public IActionResult Login([FromBody] LoginModel model)
-         {
-             if (model.Username == "test" && model.Password == "password") // Dummy check
-             {
-                 var token = GenerateJwtToken(model.Username);
-                 return Ok(new { token });
-             }
-             return Unauthorized();
-         }
-         private string GenerateJwtToken(string username)
-         {
-             var claims = new[] { new Claim(ClaimTypes.Name, username) };
-             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-             var token = new JwtSecurityToken(_config["Jwt:Issuer"], _config["Jwt:Audience"], claims, expires: DateTime.Now.AddMinutes(30), signingCredentials: creds);
-             return new JwtSecurityTokenHandler().WriteToken(token);
-         }
-     }
-     public class LoginModel { public string Username { get; set; } public string Password { get; set; } }
-     ```
-   - Add `JSopX.AngularCore/jsopx.angularcore.client/src/app/login/login.component.ts`:
+---
 
-     ```typescript
-     import { Component, inject } from '@angular/core';
-     import { HttpClient } from '@angular/common/http';
-     @Component({
-       selector: 'app-login',
-       template: `<input [(ngModel)]="username" placeholder="Username" /><input [(ngModel)]="password" type="password" /><button (click)="login()">Login</button><p>{{message}}</p>`
-     })
-     export class LoginComponent {
-       username = ''; password = ''; message = '';
-       private http = inject(HttpClient);
-       login() {
-         this.http.post<{ token: string }>('/api/auth/login', { username: this.username, password: this.password }).subscribe({
-           next: result => { localStorage.setItem('jwt', result.token); this.message = 'Logged in!'; },
-           error: () => this.message = 'Login failed'
-         });
-       }
-     }
-     ```
-   - Register in `app.module.ts`:
+### **Step: 1.2: Using `Powershell`:**
 
-     ```typescript
-     import { LoginComponent } from './login/login.component';
-     @NgModule({
-       declarations: [..., LoginComponent],
-       imports: [..., RouterModule.forRoot([... , { path: 'login', component: LoginComponent }])],
-     })
-     ```
+```powershell
 
-5. **Test the Base Setup**:
-   - Run `npm install` in `JSopX.AngularCore/jsopx.angularcore.client/`.
-   - Start the app (`F5`).
-   - Navigate to `/login`, use `test/password`, then hit `/fetch-data`.
+ # Using PowerShell: Clone JSopX.AngularCore Git Repository
+
+ # 1. Navigate to the desired local directory where you plan to clone the repository
+ cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
+
+ # 2. Clone JSopX.AngularCore Git Repository       
+ git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
+    
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 1.3: Using `Node.js` or `npm` (degit):**
+ 
+```shell
+
+ # Using Node.js / npm : Clone JSopX.AngularCore Git Repository
+ # 1. Navigate to the desired local directory where you plan to clone the repository
+ cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
+    
+ # 2. Using npx degit to clone without .git history
+ npx degit https://github.com/JasonSilvestri/JSopX.AngularCore
+
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## **Step 2: Open the Solution**
+
+Working with the `JSopX.AngularCore` Project in Visual Studio is simple enough.
+
+1. Launch **[Visual Studio (v 17.13.5)](../../Technologies/#visual-studio)**.
+2. Open the solution file: `JSopX.AngularCore.sln`.
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## **Step 3: Configure the Project**
+
+> [!TIP]
+>
+> Latest versions of [Visual Studio](../../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> 
+
+---
+
+### **Step: 3.1: Ensure Dependencies Are Restored:**
+
+Ensure `JSopX.AngularCore` Project dependencies are restored:
+
+   ```bash
+   npm install
+   ```
 
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Step 2: Extend Weather Data
+### **Step: 3.2: Verify Nuget Packages:**
 
-**Goal**: Add historical weather data.
+Verify that all NuGet packages are up to date:
 
-1. **Update Weather Interface**:
-   - In `fetch-data.component.ts`:
+   ```bash
+   dotnet restore
+   ```
+   
+[`Back to Top`](#table-of-contents)
 
-     ```typescript
-     interface WeatherForecast {
-       date: string;
-       temperatureC: number;
-       summary: string;
-       historicalTempC?: number;
-     }
-     ```
+---
 
-2. **Update Weather Controller**:
-   - In `WeatherForecastController.cs`:
+## **Step 4: Be Sure to Build and Run**
 
-     ```csharp
-     [Authorize]
-     [HttpGet]
-     public IEnumerable<WeatherForecast> Get()
-     {
-         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-         {
-             Date = DateTime.Now.AddDays(index),
-             TemperatureC = Random.Shared.Next(-20, 55),
-             Summary = Summaries[Random.Shared.Next(Summaries.Length)],
-             HistoricalTempC = Random.Shared.Next(-25, 50)
-         });
-     }
-     ```
+Building and Running the `JSopX.AngularCore` Project in Visual Studio is also another simple task.
 
-3. **Update Fetch Data Component**:
-   - In `fetch-data.component.html`:
+### **Step: 4.1: Build and Run**:
 
-     ```html
-     <tr><th>Date</th><th>Temp (°C)</th><th>Historical Temp (°C)</th><th>Summary</th></tr>
-     <td>{{ forecast.historicalTempC }}</td>
-     ```
+1. Build the solution in [Visual Studio](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#visual-studio).
+2. Run the project:
+   - Use the **IIS Express** profile for local development.
 
-4. **Test**: Reload `/fetch-data` and verify historical data.
+---
+
+### **Step: 4.2: And Now Your Done**:
+
+Assuming the `JSopX.AngularCore` Project is running as expected, **you are now done** with the **installation** and **execution** of the project!
+
+1. **Skip Remaining Steps**: 
+   - Technically, you could skip to the [Next Steps](#next-steps) section if you are on a project-by-project installation mission.
+2. **Conclude Remaining Steps**:
+   - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+
+## **Step 5: Project File Structure**
+
+The `JSopX.AngularCore` Project in particular, contains several files and directories, all with their own functionality & purpose for existing. 
+
+For brevity, samples will not have the complete file structure you get when installing, but there are some core files and directories that have special consideration you should get to know. 
+
+---
+
+### **Step: 5.1: Structured Project & Solution Considerations**:
+
+All `JSopX™ projects` follow a consistent directory structure. 
+
+1. The `JSopX.AngularCore` Project naming conventions include capital casing for `.Server` directories and lowercase for `.client` directories.
+2. I create a [Visual Studio](../../Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+3. I create a **Client-Side** Project Folder for `.esproj` project files, and related files
+4. I create a similar **Server-Side** Project Folder for `.csproj`, and related files.
+
+A common, plain-text file folder structure of the `JSopX.AngularCore` Solution and Projects should look something like what follows:
+
+```plaintext
+# JSopX™ Angular Core Solution and Projects
+
+JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio Solution folder.
+├── JSopX.AngularCore.sln                 # Visual Studio solution file for Angular Core.
+├── PathConfig.targets                    # Centralized MSBuild target configuration for project references.
+├── jsopx.angularcore.client/             # Angular client-side application folder.
+│   ├── jsopx.angularcore.client.esproj   # Angular CLI Visual Studio Client Project configuration file.
+├── JSopX.AngularCore.Server/             # ASP.NET Core server-side application folder.
+│   ├── JSopX.AngularCore.Server.csproj   # Angular CLI Visual Studio Server Project configuration file.
+
+```
+
+There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 5.2: Structured File Tree**:
+
+A common, plain-text file structure of the `JSopX.AngularCore` Project files and directories that matter.
+
+```plaintext
+# JSopX™ Angular Core Project
+
+JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio Solution folder.
+├── .gitattributes                        # Git attributes file for repository metadata and configurations.
+├── .gitignore                            # Specifies files and directories to ignore in version control.
+├── JSopX.AngularCore.sln                 # Visual Studio solution file for Angular Core.
+├── LICENSE.txt                           # Licensing information for the project.
+├── PathConfig.targets                    # Centralized MSBuild target configuration for project references.
+├── README.md                             # High-level project documentation.
+├── jsopx.angularcore.client/             # Angular client-side application folder.
+│   ├── jsopx.angularcore.client.esproj   # Angular CLI Visual Studio Client Project configuration file.
+│   ├── angular.json                      # Angular CLI workspace configuration file.
+│   ├── package.json                      # NPM dependencies and project metadata.
+│   ├── src/                              # Main source directory for the Angular app.
+│   │   ├── app/                          # Core Angular modules, components, and routing.
+│   │   │   ├── app-routing.module.ts     # Defines route configurations for Angular components.
+│   │   │   ├── app.component.css         # Styles for the main application component.
+│   │   │   ├── app.component.html        # HTML template for the main application component.
+│   │   │   ├── app.component.spec.ts     # Unit test file for the main application component.
+│   │   │   ├── app.component.ts          # TypeScript logic for the main application component.
+│   │   │   ├── app.module.ts             # Root Angular module that declares components and imports dependencies.
+│   │   ├── index.html                    # Root HTML file to bootstrap the Angular app.
+│   │   ├── main.ts                       # Main entry point for Angular application.
+│   │   ├── proxy.conf.js                 # Configuration file for setting up API proxying in Angular.
+│   │   ├── styles.css                    # Global stylesheet for Angular application.
+├── JSopX.AngularCore.Server/             # ASP.NET Core server-side application folder.
+│   ├── JSopX.AngularCore.Server.csproj   # Angular CLI Visual Studio Server Project configuration file.
+│   ├── Program.cs                        # Main entry point for the ASP.NET Core server.
+│   ├── Controllers/                      # API controllers exposing server endpoints.
+│   ├── appsettings.json                  # Application settings file for configuration.
+│   └── WeatherForecast.cs                # Example Weather Forecast model class (default template).
+
+```
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+### **Step: 5.3: Structured Table**:
+
+A table structure of the same with no tree legs `JSopX.AngularCore` Project, files and resources.
+
+
+| **File/Directory**                        | **Description**                                                                                   |
+|:------------------------------------------|:--------------------------------------------------------------------------------------------------|
+| &nbsp;📁&nbsp;**JSopX.AngularCore/**&nbsp;                | Parent `JSopX.AngularCore` Visual Studio Solution folder, containing both client and server code.|
+| &nbsp;├&nbsp;📝&nbsp;`.gitattributes`&nbsp;                   | Git attributes file for repository metadata and configurations. |
+| &nbsp;├&nbsp;📝&nbsp;`.gitignore `&nbsp;                      | Specifies files and directories to ignore in version control. |
+| &nbsp;├&nbsp;📝&nbsp;`JSopX.AngularCore.sln`&nbsp;            | Visual Studio `.sln` solution file linking the client and server projects. |
+| &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                      | Licensing information for the project (generally `MIT` open-source license). |
+| &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;               | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
+| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                      | The current, most recent, primary project README `.md` file. |
+| &nbsp;├&nbsp;📁&nbsp;**jsopx.angularcore.client**&nbsp;         | Angular client-side application folder, housing the front-end implementation. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx.angularcore.client.esproj`&nbsp;     | Angular client-side Visual Studio project `.esproj` configuration file. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`angular.json`&nbsp;                     | Angular CLI configuration file for workspace and project settings. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`package.json`&nbsp;                     | NPM metadata file listing project dependencies and scripts. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`src/`**&nbsp;                               | Main source directory for Angular, containing app components and assets. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`app/`**&nbsp;                             | Core Angular modules, components, and routing configurations. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`app-routing.module.ts`&nbsp;          | Defines route configurations for Angular components. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`app.component.css`&nbsp;              | Styles for the main application component. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`app.component.html`&nbsp;             | HTML template for the main application component. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`app.component.spec.ts`&nbsp;          | Unit test file for the main application component. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`app.component.ts`&nbsp;               | TypeScript logic for the main application component. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`app.module.ts`&nbsp;                  | Root Angular module that declares components and imports dependencies. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`index.html`&nbsp;                     | Root HTML file that bootstraps the Angular application. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`main.ts`&nbsp;                        | Entry point file where Angular initializes and bootstraps the application. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`proxy.conf.js`&nbsp;                  | Configuration file for setting up API proxying in Angular. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`styles.css`&nbsp;                     | Global stylesheet for Angular application. |
+| &nbsp;├&nbsp;📁&nbsp;**JSopX.AngularCore.Server**&nbsp;         | ASP.NET Core server-side folder for back-end logic and API endpoints. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.AngularCore.Server.csproj`&nbsp;     | Angular server-side Visual Studio project `.csproj` configuration file. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`Program.cs`&nbsp;                       | Main entry point for the ASP.NET Core application, initializing services. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`Controllers/`**&nbsp;                     | Contains API controllers that handle HTTP requests and responses. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`appsettings.json`&nbsp;                 | Configuration file for application settings like connection strings. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
 
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Step 3: Integrate OIDC
+## **Step 6: JSopX™ Project References & Dependencies**
 
-**Goal**: Use OIDC via `JSopX.AspNetCore`’s IdentityServer.
+> [!TIP]
+>
+> The `JSopX.AngularCore` Project should already have the JSopX™ Project References & Dependencies described below included!
+> 
 
-1. **Install Angular OIDC Client**:
-   - In `JSopX.AngularCore/jsopx.angularcore.client/`: `npm install angular-auth-oidc-client`.
+---
 
-2. **Configure OIDC**:
-   - In `app.module.ts`:
+Most `JSopX™ Projects` leverage shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability.
 
-     ```typescript
-     import { AuthModule, OidcConfigService } from 'angular-auth-oidc-client';
-     export function configureAuth(oidcConfigService: OidcConfigService) {
-       return () => oidcConfigService.withConfig({
-         authority: 'https://localhost:7235',
-         redirectUrl: window.location.origin,
-         clientId: 'angular',
-         scope: 'openid profile api',
-         responseType: 'code',
-         silentRenew: true,
-         useRefreshToken: true
-       });
+The `JSopX.AngularCore` Project has the following `JSopX` Project Dependencies:
+
+1. **`JSopX.BridgeTooFar`**:
+   - A [Shared Assets & Resources Projects](../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
+   - **Explore GitHub**: [JSopX.BridgeTooFar](../../OpenProjects/jsopx.BridgeTooFar)
+
+2. **`JSopX.ClassLibrary`**:
+   - A [Shared Data, Service & Function Project](../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
+   - **Explore GitHub**: [JSopX.ClassLibrary](../../OpenProjects/jsopx.ClassLibrary)
+
+3. **`JSopX.WebAPI`**:
+   - A [Shared Data, Service & Function Project](../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
+   - **Explore GitHub**: [JSopX.WebAPI](../../OpenProjects/jsopx.WebAPI)
+ 
+4. **`JSopX.RCLxProper`**:
+   - An extremely light-weight, [Shared Assets & Resources Projects](../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
+   - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
+
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## **Step 7: Usage**
+
+Although the `JSopX.AngularCore` project is primarily designed as a self-contained demonstration project, it is fully capable of integration with other JSopX™ projects. Here's how to add it to your project:
+
+---
+
+### **Step 7.1: Adding the JSopX™ Angular Core to Other Projects**
+
+1. **Add Project Reference**:
+   - Open your solution in Visual Studio.
+   - Right-click the project that will use `JSopX.AngularCore` and select `Add > Project Reference`.
+   - Check the box for `JSopX.AngularCore` and click `OK`.
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## **Step 8: Extended Usage**
+
+> [!TIP]
+> These particular `Extended Usage` examples **are not** required to implement. They are just example extended usages for those of whom are new to projects like the `JSopX.AngularCore` Project.
+>
+
+---
+
+## **Step 8:1. Extend Angular Client Project**
+
+1. Modify the `proxy.conf.js` file to configure the API URL.
+2. Use Angular services to consume APIs exposed by the server project.
+
+   **Example service file in `Angular`**:
+   ```typescript
+   import { HttpClient } from '@angular/common/http';
+   import { Injectable } from '@angular/core';
+
+   @Injectable({
+     providedIn: 'root',
+   })
+   export class ExampleService {
+     private apiUrl = 'https://localhost:5001/api/example';
+
+     constructor(private http: HttpClient) {}
+
+     getExampleData() {
+       return this.http.get(`${this.apiUrl}`);
      }
-     @NgModule({
-       imports: [AuthModule.forRoot()],
-       providers: [OidcConfigService, { provide: APP_INITIALIZER, useFactory: configureAuth, deps: [OidcConfigService], multi: true }],
-     })
-     ```
-   - Update `app.component.ts`:
+   }
+   ```
+ 
+[`Back to Top`](#table-of-contents)
 
-     ```typescript
-     import { OidcSecurityService } from 'angular-auth-oidc-client';
-     export class AppComponent {
-       private oidc = inject(OidcSecurityService);
-       ngOnInit() { this.oidc.checkAuth().subscribe(({ isAuthenticated }) => console.log('Authenticated:', isAuthenticated)); }
-     }
-     ```
+---
 
-3. **Secure API Calls**:
-   - In `fetch-data.component.ts`:
+### **Step 8:2. ASP.NET Core Server Project**
 
-     ```typescript
-     import { OidcSecurityService } from 'angular-auth-oidc-client';
-     export class FetchDataComponent {
-       private oidc = inject(OidcSecurityService);
-       ngOnInit() {
-         this.oidc.getAccessToken().subscribe(token => {
-           this.http.get<WeatherForecast[]>('/weatherforecast', { headers: { Authorization: `Bearer ${token}` } }).subscribe(result => {
-             this.forecasts = result;
-           });
-         });
+1. Add dependency injection for shared services in `Program.cs`:
+
+   ```csharp
+   builder.Services.AddScoped<ExampleService>();
+   ```
+
+2. Create or modify controllers to expose endpoints:
+
+   ```csharp
+   [ApiController]
+   [Route("api/[controller]")]
+   public class ExampleController : ControllerBase {
+       private readonly ExampleService _service;
+
+       public ExampleController(ExampleService service) {
+           _service = service;
        }
-     }
-     ```
 
-4. **Test**: Log in via OIDC, verify `/fetch-data` works.
-
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## Step 4: Decouple from Built-In API
-
-**Goal**: Use `JSopX.WebAPI`.
-
-1. **Update Fetch Data**:
-   - In `fetch-data.component.ts`:
-
-     ```typescript
-     this.http.get<WeatherForecast[]>('https://localhost:7234/api/weather', { headers: { Authorization: `Bearer ${token}` } }).subscribe(...)
-     ```
-
-2. **Test**: Ensure data comes from `JSopX.WebAPI`.
-
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## Step 5: Standardize with RCLs and Libraries
-
-1. **Reference JSopX.RCLxProper**:
-   - Angular can’t directly use Razor RCLs, so mimic style in `fetch-data.component.scss`:
-
-     ```scss
-     table { border-collapse: collapse; }
-     th, td { border: 1px solid #ddd; padding: 8px; }
-     ```
-
-2. **Reference JSopX.SharedResources**:
-   - Add `weather-utils.ts` to `JSopX.AngularCore/jsopx.angularcore.client/src/app/`:
-
-     ```typescript
-     export class WeatherUtils {
-       static getWeatherIcon(summary: string): string {
-         return summary === 'Cool' ? '❄️' : summary === 'Warm' ? '☀️' : '🔥';
+       [HttpGet]
+       public IActionResult GetExample() {
+           var data = _service.GetExampleData();
+           return Ok(data);
        }
-     }
-     ```
-   - Use in `fetch-data.component.html`:
-
-     ```html
-     <td>{{ WeatherUtils.getWeatherIcon(forecast.summary) }}</td>
-     ```
-
-3. **Test**: Verify icons appear.
+   }
+   ```
 
 [`Back to Top`](#table-of-contents)
 
@@ -439,17 +487,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.ReactCore` _From Scratch_ Variant.   
+1. **[Continue](../../OpenProjects/jsopx.ReactCore/README.md)** → _Continue_ as **you were**, exploring and/or installing other projects like you did with **this project**. You'll move onto the next project, using the `JSopX.ReactCore` _Using Latest_ Variant.  
 
 ---
 
-1. **[Install Using Latest](../../OpenProjects/jsopx.AngularCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AngularCore` _Using Latest_ Variant.  
-2. **[Browse By-Phase](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AngularCore` _By-Phase_ Variant.   
+1. **[Browse By-Phase](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AngularCore` _By-Phase_ Variant.   
+2. **[Start From Scratch](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.AngularCore` _From Scratch_ Variant.
 3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.AngularCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AngularCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.AngularCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/) [`Next »`](../../OpenProjects/jsopx.ReactCore/)
 
 ---
 

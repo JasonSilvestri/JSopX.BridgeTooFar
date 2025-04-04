@@ -1,58 +1,112 @@
-# Recreating JSopX™ MAUI Hybrid .NET Core Project: Start from Scratch
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-maui-hybrid-net-core-logo.svg" style="width: 28px; height: auto; padding-right:12px;!important;"> JSopX™ MAUI Hybrid .Net Core Project
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
-
----
-
-By exploring the [Overview](#overview), you’ll gain insights into how each Visual Studio project within JSopX™ fits into the larger ecosystem, contributing to a unified, scalable, and maintainable enterprise-level application suite. Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an existing MAUI Hybrid app with weather data, Identity, and JWT already in place.
+The **JSopX™ MAUI Hybrid .Net Core Project**, _code named_, `JSopX.MauiHybridNetCore` is a totally **FREE**, open-source, demonstration project showcasing a multi-platform, cross-platform hybrid application blending ASP.NET Core, Blazor, and .NET MAUI to manufacture desktop, native, and web experiences.
 
 ---
 
-> [!CAUTION]
-> **Phase 1: Minimum Viable Product (MVP):**
->
-> This document is currently aligned with **Phase 1** of development. As a result, the content may not be fully accurate or ready for production use. Treat it as reference material while the project evolves.
+## **Start From Scratch Variant:**
+
+> [!WARNING]
+> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **JSopX™ MAUI Hybrid .Net Core Project**. 
 > 
-> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md).
+> For more details, see [Getting Started](#getting-started) _below_.
 
 ---
 
-[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+
+```bash
+# For The Cool Kids: Clone JSopX.AspNetCore Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore.git
+```
 
 ---
 
+[`Home`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
+
+---
+
+
+  
 ## Table of Contents
 
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+      - [Step 1: Recreate Using ASP.NET Core Blazor Template](#step-1-recreate-using-aspnet-core-blazor-template)
+      - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
+      - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
+      - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+      - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  - [Next Steps](#next-steps)
+  
+---
+
+## Current Phase
+
+> [!IMPORTANT]
+>
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../../../Phases/Phase-1.md) Business Requirements. 
+> 
 
 ---
 
-## **Overview**  
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
+> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
+
+---
+
+## Overview
+
+The **JSopX™ MAUI Hybrid .Net Core Project**, _code named_, `JSopX.MauiHybridNetCore` is a totally **FREE**, open-source, demonstration project showcasing a multi-platform, cross-platform hybrid application blending ASP.NET Core, Blazor, and .NET MAUI. This project reveals how Razor components can unify desktop, native, and web experiences, reinforcing JSopX™’s commitment to versatility.
+
+Like the ["Existing" Client-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) projects, we do still initially create the project to simulate an ["Existing" Server-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#6-server-side-existing-apps-examples) Weather Forecast Asp.NET Core Blazor application, with its own Web API and existing standards, to conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+
+As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly.
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an existing MAUI Hybrid app with weather data, Identity, and JWT already in place.
-
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Prerequisites
+## **Prerequisites**
 
-- [Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/AspNetCore.md)
-- [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/NetCoreBlazor.md)
-- [.Net Core Maui Hybrid (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/NetCoreMauiHybrid.md)
+Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-[`Back to Top`](#table-of-contents)
+- [Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-maui-hybrid)
 
 ---
+
+## **Getting Started**
+
+Carefully _choose_ the variant approach below that fits your current objective:
+
+---
+
+### 1. **Continue Creating `JSopX.`MauiHybridNetCore From Scratch**:
+
+- **[Continue](#step-1-recreate-using-aspnet-core-blazor-template)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.MauiHybridNetCore` _From Scratch_ Variant.   
+
+---
+
+### 2. **Use Different Variant**:
+
+- **[Install Using Latest](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.MauiHybridNetCore` _Using Latest_ Variant.  
+- **[Browse By-Phase](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.MauiHybridNetCore` _By-Phase_ Variant.   
+- **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
 
 ## Step 1: Recreate Using .NET MAUI Blazor Hybrid Template
 
@@ -66,8 +120,8 @@ Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an exi
    - Search for “.NET MAUI Blazor Hybrid App”.
    - Configure:
      - Project Name: `JSopX.MauiHybridNetCore`.
-     - Location: e.g., `C:\JSopX\`.
-     - Solution Name: `JSopX.MauiHybridNetCore` (we’ll add it to the main solution later).
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.MauiHybridNetCore`.
+     - Solution Name: `JSopX.MauiHybridNetCore`.
      - .NET Framework (v 9.0.1)
    - Click Create.
 
@@ -431,40 +485,24 @@ Recreating the `JSopX.MauiHybridNetCore` project shows us how to simulate an exi
 
 ---
 
-## `Phase 1` Tasks Finished! What's Next?
+## **Next Steps**
 
-You have **completed all** `Phase 1: Start from Scratch` tasks for the `JSopX.MauiHybridNetCore` JSopX™ MAUI Hybrid .NET Core Project.
-
-You have a few options moving forward:
+Carefully choose the approach below that fits your current objective:
 
 ---
 
-### **1. Continue `Phase 1` Tasks (_Recommended_):**  
-
-If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board, which includes across projects.
-
-[`Continue Course »`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/)
+1. **[Continue](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.MauiHybridNetCore` _From Scratch_ Variant.   
 
 ---
 
-### **2. Continue Focus on the Growth of just JSopX™ MAUI Hybrid .NET Core:**  
-
-Although not recommended, if your pure focus is reverse engineering just the JSopX™ MAUI Hybrid .NET Core project for one reason or another, it's cool. I totally get it. It is part of why I created this series of applications, and in the ways I did. We are developers. We develop. We explore. We ask the question, "What If?".
-
-[`Continue Evolving with JSopX™ MAUI Hybrid .NET Core »`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p2/v1/)
+1. **[Install Using Latest](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.MauiHybridNetCore` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.MauiHybridNetCore` _By-Phase_ Variant.   
+3. **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 
 ---
 
-### **3. I Want My Blanky and Bubba:**  
-
-You can always go back to the version of this application that is already created for you. No one is gonna bash you for starting from the beginning and regrouping.
-
-[`« Start From Beginning`](../../../../OpenProjects/jsopx.MauiHybridNetCore/)
-
----
-  
-[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
 
 ---
 

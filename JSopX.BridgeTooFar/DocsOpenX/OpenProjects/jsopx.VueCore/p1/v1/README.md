@@ -24,12 +24,10 @@ $ git clone https://github.com/JasonSilvestri/JSopX.VueCore.git
 
 ---
 
-## Table of Contents
+## Table of Contents  
 
-  - [Overview](#overview)
+ - [Overview](#overview)
   - [Prerequisites](#prerequisites)
-  - [Corequisites](#corequisites)
-  - [Postrequisites](#postrequisites)
   - [Getting Started](#getting-started)
       - [Step 1: Clone the Repository](#step-1-clone-the-repository)
       - [Step 2: Open the Solution](#step-2-open-the-solution)
@@ -333,7 +331,7 @@ A table structure of the same with no tree legs `JSopX.VueCore` Project, files a
 | &nbsp;├&nbsp;📝&nbsp;`JSopX.VueCore.sln`&nbsp;            | Visual Studio `.sln` solution file linking the client and server projects. |
 | &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                      | Licensing information for the project (generally `MIT` open-source license). |
 | &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;               | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
-| &nbsp;├&nbsp;📝&nbsp;**`README.md`**&nbsp;                      | The current, most recent, primary project README `.md` file. |
+| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                      | The current, most recent, primary project README `.md` file. |
 | &nbsp;├&nbsp;📁&nbsp;**jsopx.vuecore.client**&nbsp;         | Vue client-side application folder, housing the front-end implementation. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx.vuecore.client.esproj`&nbsp;     | Vue client-side Visual Studio project `.esproj` configuration file. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`vue.json`&nbsp;                     | Vue CLI configuration file for workspace and project settings. |

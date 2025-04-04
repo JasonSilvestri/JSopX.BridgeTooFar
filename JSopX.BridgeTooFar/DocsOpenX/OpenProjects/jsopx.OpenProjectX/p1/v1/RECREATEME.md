@@ -1,10 +1,52 @@
-# Recreating JSopX™ Class Library From Scratch
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-logo.svg" style="width: 28px; height: auto; padding-right:12px;!important;"> Jason Silvestri Open Project EXperiences (JSopX™)
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
+**Jason Silvestri Open Project EXperiences (JSopX™)** is an Enterprise-Level Suite of Multi-Platform, Multi-Stack Applications that demonstrates how to unify disparate technologies under one cohesive, scalable, and maintainable ecosystem, closing an often unseen critical gap between front-end dynamism and back-end security. 
 
 ---
 
-By exploring the [Overview](#overview), you’ll gain insights into how each Visual Studio project within JSopX™ fits into the larger ecosystem, contributing to a unified, scalable, and maintainable enterprise-level application suite.
+## **Start From Scratch Variant:**
+
+> [!WARNING]
+> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **Jason Silvestri Open Project EXperiences (JSopX™) Project**. 
+> 
+> For more details, see [Getting Started](#getting-started) _below_.
+
+---
+
+
+```bash
+# For The Cool Kids: Clone JSopX.AspNetCore Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.OpenProjectX.git
+```
+
+---
+
+[`Home`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+
+---
+
+
+  
+## Table of Contents
+
+  - [Overview](#overview)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+      - [Step 1: Recreate Using ASP.NET Core Blazor Template](#step-1-recreate-using-aspnet-core-blazor-template)
+      - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
+      - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
+      - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+      - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  - [Next Steps](#next-steps)
+  
+---
+
+## Current Phase
+
+> [!IMPORTANT]
+>
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../../../Phases/Phase-1.md) Business Requirements. 
+> 
 
 ---
 
@@ -15,193 +57,458 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Home`](../../../README.md) » [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
+## Overview
 
----
+**Jason Silvestri Open Project EXperiences (JSopX™)** is an Enterprise-Level Suite of Multi-Platform, Multi-Stack Applications that demonstrates how to unify disparate technologies under one cohesive, scalable, and maintainable ecosystem, closing an often unseen critical gap between front-end dynamism and back-end security. 
 
-## Table of Contents
+Balancing client-side and server-side operations has become increasingly challenging in today's web development landscape. With the rise of powerful client-side JavaScript frameworks, many developers have gravitated towards these technologies, often at the expense of robust server-side security and best practices. This trend has led to significant concerns and vulnerabilities that need to be addressed to build secure, scalable, and maintainable applications.
 
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [JSopX™ Visual Studio Projects](#jsopx-visual-studio-projects)
-    - [`JSopX.`OpenProjectX](./JSopxProjects.md#jsopxopenprojectx)
-    - [`JSopX.`AngularCore](#jsopxangularcore)
-    - [`JSopX.`ReactCore](#jsopxreactcore)
-    - [`JSopX.`VueCore](#jsopxvuecore)
-    - [`JSopX.`AspNetCore](#jsopxaspnetcore)
-    - [`JSopX.`BlazorServerCore](#jsopxblazorservercore)
-    - [`JSopX.`MauiHybridNetCore](#jsopxmauihybridnetcore)
-    - [`JSopX.`BridgeTooFar](#jsopxbridgetoofar)
-    - [`JSopX.`ClassLibrary](#jsopxclasslibrary)
-    - [`JSopX.`WebAPI](#jsopxwebapi)
-    - [`JSopX.`SharedResources](#jsopxsharedresources)
-    - [`JSopX.`RCLxAssets](#jsopxrclxassets)
-    - [`JSopX.`RCLxProper](#jsopxrclxproper)
-    - [`JSopX.`RCLxComponents](#jsopxrclxcomponents)
+JSopX™ provides a unified framework of guidelines, organizational structures, and best practices designed to streamline project setup, enhance collaboration, and improve maintainability. 
 
----
+By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
 
-## **Overview**  
-The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
-
-By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
-
-The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
+As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, and much more! 
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Prerequisites
+## **Prerequisites**
 
-- [Visual Studio (v 17.13.5)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/AspNetCore.md)
-- [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetCoreBlazor.md)
-- [.Net Core Maui Hybrid (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/NetCoreMauiHybrid.md)
-- [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Node.md)
-- [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/npm.md)
-- [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/AngularCli.md)
-- [React (v 18.2.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/React.md)
-- [Vue (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vue.md)
-- [Vite (v 5.2.8)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies/Vite.md)
+Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing the `JSopX.OpenProjectX` Project.
+
+- [Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-maui-hybrid)
+- [Node (v 20.14.0)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#node)
+- [npm (v 10.8.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#angular-cli)
+- [React (v 18.2.0)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#react)
+- [Vue (v 3.4.21)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vue)
+- [Vite (v 5.2.8)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vite)
+- [Bash (v 5.x+)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#bash)
+- [Powershell (v 7.x+)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#powershell)
+
+---
+
+## **Getting Started**
+
+Carefully _choose_ the variant approach below that fits your current objective:
+
+---
+
+### 1. **Continue Creating `JSopX.`OpenProjectX From Scratch**:
+
+- **[Continue](#step-1-recreate-using-aspnet-core-blazor-template)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.OpenProjectX` _From Scratch_ Variant.   
+
+---
+
+### 2. **Use Different Variant**:
+
+- **[Install Using Latest](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
+- **[Browse By-Phase](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
+- **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+
+## Step 1: Recreate Using .NET MAUI Blazor Hybrid Template
+
+**Goal**: Simulate an existing MAUI Hybrid app with weather data, Identity, and JWT already in place.
+
+1. **Open Visual Studio 2022 (v 17.13.5)**:
+   - Ensure the .NET 9.0 SDK is installed (`dotnet --list-sdks`).
+
+2. **Create the Project**:
+   - File > New > Project.
+   - Search for “.NET MAUI Blazor Hybrid App”.
+   - Configure:
+     - Project Name: `JSopX.OpenProjectX`.
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.OpenProjectX`.
+     - Solution Name: `JSopX.OpenProjectX`.
+     - .NET Framework (v 9.0.1)
+   - Click Create.
+
+3. **Set Up Initial Weather Data**:
+   - In `Components/Pages/Home.razor`, replace the counter with a weather display:
+
+     ```razor
+     @page "/"
+     @inject HttpClient Http
+     <h1>JSopX™ Weather</h1>
+     @if (forecasts == null)
+     {
+         <p>Loading...</p>
+     }
+     else
+     {
+         <table>
+             <thead>
+                 <tr><th>Date</th><th>Temp (°C)</th><th>Summary</th></tr>
+             </thead>
+             <tbody>
+                 @foreach (var forecast in forecasts)
+                 {
+                     <tr>
+                         <td>@forecast.Date.ToShortDateString()</td>
+                         <td>@forecast.TemperatureC</td>
+                         <td>@forecast.Summary</td>
+                     </tr>
+                 }
+             </tbody>
+         </table>
+     }
+     @code {
+         private WeatherForecast[] forecasts;
+         protected override async Task OnInitializedAsync()
+         {
+             forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+         }
+         public class WeatherForecast
+         {
+             public DateTime Date { get; set; }
+             public int TemperatureC { get; set; }
+             public string Summary { get; set; }
+         }
+     }
+     ```
+   - This uses the default `weather.json` in `wwwroot/sample-data`.
+
+4. **Add Identity + JWT (Simulating Existing Setup)**:
+   - Install NuGet packages: `Microsoft.AspNetCore.Identity.EntityFrameworkCore`, `Microsoft.EntityFrameworkCore.SqlServer`, `Microsoft.AspNetCore.Authentication.JwtBearer`.
+   - Add `Models/ApplicationUser.cs`:
+
+     ```csharp
+     using Microsoft.AspNetCore.Identity;
+     public class ApplicationUser : IdentityUser { }
+     ```
+   - Add `Data/AppDbContext.cs`:
+
+     ```csharp
+     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+     using Microsoft.EntityFrameworkCore;
+     public class AppDbContext : IdentityDbContext<ApplicationUser>
+     {
+         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+     }
+     ```
+   - Update `MauiProgram.cs`:
+
+     ```csharp
+     builder.Services.AddDbContext<AppDbContext>(options =>
+         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+     builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+         .AddEntityFrameworkStores<AppDbContext>()
+         .AddDefaultTokenProviders();
+     builder.Services.AddAuthentication().AddJwtBearer(options =>
+     {
+         options.TokenValidationParameters = new TokenValidationParameters
+         {
+             ValidateIssuer = true,
+             ValidateAudience = true,
+             ValidateLifetime = true,
+             ValidateIssuerSigningKey = true,
+             ValidIssuer = builder.Configuration["Jwt:Issuer"],
+             ValidAudience = builder.Configuration["Jwt:Audience"],
+             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+         };
+     });
+     builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7234/") }); // Temp API URL
+     ```
+   - Update `appsettings.json`:
+
+     ```json
+     {
+       "ConnectionStrings": { "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=JSopXMauiDb;Trusted_Connection=True;" },
+       "Jwt": { "Key": "8f+2Kj9mPqL5xRtYvWnZcQwXjB3sM7hD9pN8uG4tA1o=", "Issuer": "JSopX", "Audience": "JSopX" }
+     }
+     ```
+   - Add `Components/Pages/Login.razor`:
+
+     ```razor
+     @page "/login"
+     @inject HttpClient Http
+     @inject NavigationManager Navigation
+     <h3>Login</h3>
+     <input @bind="username" placeholder="Email" />
+     <input @bind="password" type="password" placeholder="Password" />
+     <button @onclick="LoginAsync">Login</button>
+     <p>@message</p>
+     @code {
+         private string username = "", password = "", message = "";
+         private async Task LoginAsync()
+         {
+             var response = await Http.PostAsJsonAsync("api/auth/login", new { username, password });
+             if (response.IsSuccessStatusCode)
+             {
+                 var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+                 message = "Logged in!";
+                 await SecureStorage.SetAsync("jwt", result.token);
+                 Navigation.NavigateTo("/");
+             }
+             else { message = "Login failed."; }
+         }
+         private class LoginResponse { public string token { get; set; } }
+     }
+     ```
+   - Add a placeholder API in `Controllers/AuthController.cs`:
+
+     ```csharp
+     [Route("api/[controller]")]
+     [ApiController]
+     public class AuthController : ControllerBase
+     {
+         private readonly UserManager<ApplicationUser> _userManager;
+         private readonly IConfiguration _config;
+         public AuthController(UserManager<ApplicationUser> userManager, IConfiguration config)
+         {
+             _userManager = userManager; _config = config;
+         }
+         [HttpPost("login")]
+         public async Task<IActionResult> Login([FromBody] LoginModel model)
+         {
+             var user = await _userManager.FindByNameAsync(model.Username);
+             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
+             {
+                 var token = GenerateJwtToken(user);
+                 return Ok(new { token });
+             }
+             return Unauthorized();
+         }
+         private string GenerateJwtToken(ApplicationUser user)
+         {
+             var claims = new[] { new Claim(ClaimTypes.Name, user.UserName) };
+             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+             var token = new JwtSecurityToken(_config["Jwt:Issuer"], _config["Jwt:Audience"], claims, expires: DateTime.Now.AddMinutes(30), signingCredentials: creds);
+             return new JwtSecurityTokenHandler().WriteToken(token);
+         }
+     }
+     public class LoginModel { public string Username { get; set; } public string Password { get; set; } }
+     ```
+
+5. **Test the Base Setup**:
+   - Run migrations: `Add-Migration InitialCreate`, `Update-Database`.
+   - Start the app (`F5`, Windows Machine target).
+   - Register a user via a tool like Postman (`POST /api/auth/register`), then log in at `/login`.
+
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## **JSopX™ Visual Studio Projects**  
+## Step 2: Extend Weather Data
 
-There are over a dozen Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects that make up Jason Silvestri's Open Project EXperiences (JSopX™) Enterprise-Level Application.
+**Goal**: Enhance the weather feature with historical data.
 
----
+1. **Update Weather Model**:
+   - In `Home.razor`, modify `WeatherForecast`:
 
-## `JSopX.`OpenProjectX
-The JSopX™ Open Project EXperiences Project is an unified, enterprise-level solution orchestrates a broad range of technologies—Asp.NET Core, Blazor, .NET MAUI, Angular, React, Vue, and more—into a cohesive experience. It provides a blueprint for integrating multiple stacks, fostering synergy among client-side and server-side projects.
+     ```csharp
+     public class WeatherForecast
+     {
+         public DateTime Date { get; set; }
+         public int TemperatureC { get; set; }
+         public string Summary { get; set; }
+         public int? HistoricalTempC { get; set; } // New field
+     }
+     ```
 
-[JSopX™ Open Project EXperiences GitHub](./jsopx.OpenProjectX)
+2. **Add Historical Data Endpoint**:
+   - In `Controllers/WeatherController.cs` (add if not present):
+
+     ```csharp
+     [Route("api/[controller]")]
+     [ApiController]
+     public class WeatherController : ControllerBase
+     {
+         [HttpGet]
+         public ActionResult<IEnumerable<WeatherForecast>> Get()
+         {
+             var rng = new Random();
+             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+             {
+                 Date = DateTime.Now.AddDays(index),
+                 TemperatureC = rng.Next(-20, 55),
+                 Summary = new[] { "Cool", "Warm", "Hot" }[rng.Next(3)],
+                 HistoricalTempC = rng.Next(-25, 50)
+             }).ToArray();
+         }
+     }
+     ```
+
+3. **Update Home Page**:
+   - In `Home.razor`:
+
+     ```razor
+     <tr><th>Date</th><th>Temp (°C)</th><th>Historical Temp (°C)</th><th>Summary</th></tr>
+     ...
+     <td>@forecast.HistoricalTempC</td>
+     ...
+     @code {
+         protected override async Task OnInitializedAsync()
+         {
+             forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("api/weather");
+         }
+     }
+     ```
+
+4. **Test**: Run and verify historical temps show up.
+
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## `JSopX.`AngularCore
-The JSopX™ Angular Core Project is a client-side Angular project aimed at building dynamic single-page applications. It aligns seamlessly with ASP.NET Core backends and shared resources, illustrating how Angular fits into the JSopX™ architectural strategy.
+## Step 3: Integrate OIDC
 
-[JSopX™ Angular Core GitHub](./jsopx.AngularCore)
+**Goal**: Replace custom JWT with OIDC via Duende IdentityServer (hosted in `JSopX.AspNetCore` later).
+
+1. **Install Duende IdentityServer**:
+   - For now, simulate OIDC by adding `Microsoft.AspNetCore.Authentication.OpenIdConnect` via NuGet.
+
+2. **Configure OIDC**:
+   - Update `MauiProgram.cs`:
+
+     ```csharp
+     builder.Services.AddAuthentication(options =>
+     {
+         options.DefaultScheme = "Cookies";
+         options.DefaultChallengeScheme = "oidc";
+     })
+     .AddCookie("Cookies")
+     .AddOpenIdConnect("oidc", options =>
+     {
+         options.Authority = "https://localhost:5001"; // Temp IdentityServer URL
+         options.ClientId = "maui";
+         options.ClientSecret = "secret";
+         options.ResponseType = "code";
+         options.SaveTokens = true;
+         options.Scope.Add("openid");
+         options.Scope.Add("profile");
+         options.Scope.Add("api");
+     });
+     ```
+
+3. **Secure Weather API**:
+   - Add `[Authorize]` to `WeatherController`:
+
+     ```csharp
+     [Authorize]
+     [HttpGet]
+     public ActionResult<IEnumerable<WeatherForecast>> Get()
+     ```
+
+4. **Update Login**:
+   - In `Login.razor`:
+
+     ```razor
+     @inject AuthenticationStateProvider AuthState
+     @inject NavigationManager Navigation
+     <button @onclick="LoginAsync">Login with OIDC</button>
+     @code {
+         private async Task LoginAsync()
+         {
+             Navigation.NavigateTo("authentication/login", true);
+         }
+     }
+     ```
+   - Add `Components/App.razor`:
+
+     ```razor
+     <CascadingAuthenticationState>
+         <Router AppAssembly="@typeof(App).Assembly">
+             ...
+         </Router>
+     </CascadingAuthenticationState>
+     ```
+
+5. **Test**: Requires IdentityServer setup (coming in `JSopX.AspNetCore`).
+
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## `JSopX.`ReactCore
-The JSopX™ React Core Project is a React-based client-side project that demonstrates the flexibility and component-driven approach of React, working in harmony with ASP.NET Core services and shared assets.
+## Step 4: Decouple from Built-In API
 
-[JSopX™ React Core GitHub](./jsopx.ReactCore)
+**Goal**: Use `JSopX.WebAPI` instead.
+
+1. **Create JSopX.WebAPI (if not already)**:
+   - New Project > ASP.NET Core Web API > Name: `JSopX.WebAPI`.
+   - Add `WeatherController` mirroring the above.
+   - Update `Program.cs` with Identity and JWT.
+
+2. **Point MAUI to WebAPI**:
+   - In `Home.razor`:
+
+     ```razor
+     forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("https://localhost:7234/api/weather");
+     ```
+
+3. **Test**: Run both projects, ensure data pulls from `JSopX.WebAPI`.
+
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## `JSopX.`VueCore
-The JSopX™ Vue Core Project is a Vue.js client-side project crafted for reactive, component-focused development. Its seamless integration with ASP.NET Core and shared libraries exemplifies the framework-agnostic nature of JSopX™.
+## Step 5: Standardize with RCLs and Libraries
 
-[JSopX™ Vue Core GitHub](./jsopx.VueCore)
+1. **Reference JSopX.RCLxProper**:
+   - Add Project > New > Razor Class Library > `JSopX.RCLxProper`.
+   - Move `Login.razor` to `JSopX.RCLxProper/Pages/Login.razor`.
+   - Reference in `JSopX.OpenProjectX`: Right-click > Add Project Reference.
+   - Update `App.razor` to use RCL routes.
 
-[`Back to Top`](#table-of-contents)
+2. **Reference JSopX.SharedResources**:
+   - Add Project > Class Library > `JSopX.SharedResources`.
+   - Add a sample asset (e.g., `WeatherUtils.cs`):
 
----
+     ```csharp
+     public static class WeatherUtils
+     {
+         public static string GetWeatherIcon(string summary) => summary switch
+         {
+             "Cool" => "❄️",
+             "Warm" => "☀️",
+             "Hot" => "🔥",
+             _ => "🌧️"
+         };
+     }
+     ```
+   - Reference and use in `Home.razor`:
 
-## `JSopX.`AspNetCore
-The JSopX™ Asp.NET Core Project is a server-side version of the client-side "Existing" App Examples. While this ASP.NET Core project often looks and feels like a standard server-side solution, it underpins the security, routing, and scalability principles that define the JSopX™ environment.
+     ```razor
+     <td>@WeatherUtils.GetWeatherIcon(forecast.Summary)</td>
+     ```
 
-[JSopX™ Asp.NET Core GitHub](./jsopx.AspNetCore)
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## `JSopX.`BlazorServerCore
-The JSopX™ Blazor Server Core Project is a server-side Blazor project showcasing how interactive web UIs can be built efficiently under the JSopX™ umbrella. By integrating with shared APIs and resources, it highlights the power and flexibility of Blazor’s real-time server-side model.
-
-[JSopX™ Blazor Server Core GitHub](./jsopx.BlazorServerCore)
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## `JSopX.`MauiHybridNetCore
-The JSopX™ MAUI Hybrid .NET Core Project is a multi-platform, cross-platform hybrid application blending ASP.NET Core, Blazor, and .NET MAUI. This project reveals how Razor components can unify desktop, native, and web experiences, reinforcing JSopX™’s commitment to versatility.
-
-[JSopX™ MAUI Hybrid .NET Core GitHub](./jsopx.MauiHybridNetCore)
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## `JSopX.`BridgeTooFar
-The JSopX™ Bridge Too Far Project that Focused on static asset management, this project ensures a consistent distribution of documentation, CSS, JavaScript, images, and other shared files. By centralizing and streamlining asset handling, it prevents fragmentation and encourages better maintainability.
-
-[JSopX™ Bridge Too Far GitHub](./jsopx.BridgeTooFar)
+3. **Test**: Verify login from RCL and icons from shared library work.
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## `JSopX.`ClassLibrary
-The JSopX™ Class Library Core Project is a shared logic and utilities repository. Placing business logic or helper functions here ensures every project can draw from a single, reliable source, reducing code duplication and complexity.
+## **Next Steps**
 
-[JSopX™ Class Library GitHub](./jsopx.ClassLibrary)
-
-[`Back to Top`](#table-of-contents)
+Carefully choose the approach below that fits your current objective:
 
 ---
 
-## `JSopX.`WebAPI
-The JSopX™ Web API Project is a RESTful API backend that ties the ecosystem together. By providing consistent endpoints and data services, it empowers both server-side and client-side solutions to operate cohesively and securely.
-
-[JSopX™ Web API GitHub](./jsopx.WebAPI)
-
-[`Back to Top`](#table-of-contents)
+1. **[Continue](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.OpenProjectX` _From Scratch_ Variant.   
 
 ---
 
+1. **[Install Using Latest](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
+3. **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
-## `JSopX.`SharedResources
-The JSopX™ Shared Resources Project is a traditional hub for common resources—images, fonts, scripts, localizations—that feed into multiple projects. Initially a central class library, it highlights the benefits of having a single source for shared assets.
-
-[JSopX™ Shared Resources GitHub](./jsopx.SharedResources)
-
-[`Back to Top`](#table-of-contents)
 
 ---
 
-## `JSopX.`RCLxAssets
-The JSopX™ RCL x Assets Razor Class Library Project has evolved from the `SharedResources` Project, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
-
-[JSopX™ RCL x Assets Razor Class Library GitHub](./jsopx.RCLxAssets)
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## `JSopX.`RCLxProper
-The JSopX™ RCL x Proper Razor Class Library Project is a production-ready Razor Class Library offering structured components, pages, and views. These can be reused across the JSopX™ environment, simplifying UI consistency and accelerating development.
-
-[JSopX™ RCL x Proper Razor Class Library GitHub](./jsopx.RCLxProper)
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## `JSopX.`RCLxComponents
-The JSopX™ RCL x Components Razor Class Library Project is another Razor Class Library dedicated to reusable UI elements. By standardizing UI components, it ensures a consistent look and feel throughout the suite.
-
-[JSopX™ RCL x Proper Razor Class Library GitHub](./jsopx.RCLxComponents)
-
----
- 
- [`Home`](../../../README.md) » [`Introduction`](../../Introduction/) » [**`JSopX™ Projects`**](../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](../../OpenProjects/jsopx.OpenProjectX)
+[`Home`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 

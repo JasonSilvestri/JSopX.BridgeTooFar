@@ -1,10 +1,51 @@
-# JSopX™ RCL x Proper: Start from Scratch
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-logo.svg" style="width: 28px; height: auto; padding-right:12px;!important;"> Jason Silvestri Open Project EXperiences (JSopX™)
 
-**From the ﻿BETA v 2025 Jason Silvestri Open Project EXperiences (JSopX™) Collection**
+**Jason Silvestri Open Project EXperiences (JSopX™)** is an Enterprise-Level Suite of Multi-Platform, Multi-Stack Applications that demonstrates how to unify disparate technologies under one cohesive, scalable, and maintainable ecosystem, closing an often unseen critical gap between front-end dynamism and back-end security. 
 
 ---
 
-By exploring the [Overview](#overview), you’ll gain insights into how each Visual Studio project within JSopX™ fits into the larger ecosystem, contributing to a unified, scalable, and maintainable enterprise-level application suite.
+## **Start From Scratch Variant:**
+
+> [!WARNING]
+> You are currently viewing the **"_Start From Scratch_" _Variant_** of the **Jason Silvestri Open Project EXperiences (JSopX™) Project**. 
+> 
+> For more details, see [Getting Started](#getting-started) _below_.
+
+---
+
+
+```bash
+# For The Cool Kids: Clone JSopX.OpenProjectX Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.OpenProjectX.git
+```
+
+---
+
+[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+
+---
+
+  
+## Table of Contents
+
+  - [Overview](#overview)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+      - [Step 1: Recreate Using ASP.NET Core Blazor Template](#step-1-recreate-using-aspnet-core-blazor-template)
+      - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
+      - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
+      - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+      - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  - [Next Steps](#next-steps)
+  
+---
+
+## Current Phase
+
+> [!IMPORTANT]
+>
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
+> 
 
 ---
 
@@ -15,157 +56,133 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-> [!CAUTION]
-> **CURRENT PHASE: Phase 1: Minimum Viable Product (MVP):**
->
-> This document is currently aligned with **Phase 1** of development. As a result, the content may not be fully accurate or ready for production use. Treat it as reference material while the project evolves.
-> 
-> For more details, see [Phase 1 (Current Phase): Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md).
+## Overview
 
----
+**Jason Silvestri Open Project EXperiences (JSopX™)** is an Enterprise-Level Suite of Multi-Platform, Multi-Stack Applications that demonstrates how to unify disparate technologies under one cohesive, scalable, and maintainable ecosystem, closing an often unseen critical gap between front-end dynamism and back-end security. 
 
-[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](./OpenProjects/)  · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](./OpenProjects/jsopx.OpenProjectX)
+Balancing client-side and server-side operations has become increasingly challenging in today's web development landscape. With the rise of powerful client-side JavaScript frameworks, many developers have gravitated towards these technologies, often at the expense of robust server-side security and best practices. This trend has led to significant concerns and vulnerabilities that need to be addressed to build secure, scalable, and maintainable applications.
 
----
+JSopX™ provides a unified framework of guidelines, organizational structures, and best practices designed to streamline project setup, enhance collaboration, and improve maintainability. 
 
-## Table of Contents
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
 
-
-  - [Overview](#overview)
-  - [Prerequisites](#prerequisites)
-  - [Step 1: Set Up Your Development Environment](#step-1-set-up-your-development-environment)
-  - [Step 2: Create the .NET MAUI Blazor Hybrid Project](#step-2-create-the-net-maui-blazor-hybrid-project)
-  - [Step 3: Test the Default App](#step-3-test-the-default-app)
-  - [Step 4: Add Authentication with ASP.NET Core Identity](#step-4-add-authentication-with-aspnet-core-identity)
-    - [Part 1: Create a Backend API Project](#part-1-create-a-backend-api-project)
-    - [Part 2: Integrate Authentication in the MAUI App](#part-2-integrate-authentication-in-the-maui-app)
-  - [Step 5: Test the App with Authentication](#step-5-test-the-app-with-authentication)
-- [Step 6: JWT Key Generation - Your Super Secret Key](#step-6-jwt-key-generation---your-super-secret-key)
-    - [Question 1: Where do I get a key like "YourSuperSecretKey1234567890"?](#question-1-where-do-i-get-a-key-like-yoursupersecretkey1234567890)
-- [JWT and Identity Across JSopX™ Projects](#jwt-and-identity-across-jsopx-projects)
-    - [Question 2: Is JWT with Identity the best approach across projects like in the MAUI Auth App, given the interconnectivity of reusable projects and assets?](#question-2-is-jwt-with-identity-the-best-approach-across-projects-like-in-the-maui-auth-app-given-the-interconnectivity-of-reusable-projects-and-assets)
-    - [Why JWT with Identity Works Well](#why-jwt-with-identity-works-well)
-    - [Potential Challenges](#potential-challenges)
-    - [Alternatives to Consider](#alternatives-to-consider)
-    - [Recommendation for JSopX™ Developers](#recommendation-for-jsopx-developers)
-  - [JSopX™ Class Library `Phase 1` Tasks Finished! What's Next?](#jsopx-class-library-phase-1-tasks-finished-whats-next)
-    - [1. Continue `Phase 1` Tasks (_Recommended_):](#1-continue-phase-1-tasks-_recommended_)
-    - [2. Continue Focus on JSopX™ Class Library:](#2-continue-focus-on-jsopx-class-library)
-    - [3. I Want My Blanky and Bubba:](#3-i-want-my-blanky-and-bubba)
-
-
----
-
-## **Overview**  
-The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
-
-By aligning varied frameworks—ranging from ASP.NET Core to Angular, React, Vue, Blazor, and .NET MAUI—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
-
-The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
-
-[`Back to Top`](#table-of-contents)
-
-## Prerequisites
-
-- [Visual Studio (v 17.13.5)](./Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](./Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](./Technologies/AspNetCore.md)
-- [.NET Core Blazor (v 9.0.1)](./Technologies/NetCoreBlazor.md)
-- [.Net Core Maui Hybrid (v 9.0.1)](./Technologies/NetCoreMauiHybrid.md)
-- [Node (v 20.14.0)](./Technologies/Node.md)
-- [npm (v 10.8.1)](./Technologies/npm.md)
-- [Angular CLI (v 18.0.3)](./Technologies/AngularCli.md)
-- [React (v 18.2.0)](./Technologies/React.md)
-- [Vue (v 3.4.21)](./Technologies/Vue.md)
-- [Vite (v 5.2.8)](./Technologies/Vite.md)
+As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, and much more! 
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## Step 1: Set Up Your Development Environment
+## **Prerequisites**
 
-1. **Verify Visual Studio 2022 Installation**:
-   - Open Visual Studio Installer.
-   - Ensure you have Visual Studio 2022 (17.12 or later) installed with the ".NET Multi-platform App UI development" workload. If not, modify your installation to include it.
-   - Confirm .NET 9 SDK is installed (check via `dotnet --list-sdks` in a terminal; install from [dotnet.microsoft.com](https://dotnet.microsoft.com) if missing).
+Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing the `JSopX.OpenProjectX` Project.
 
-2. **Update Visual Studio**:
-   - Go to `Help > Check for Updates` and ensure you’re on the latest version to support .NET 9 and MAUI.
-
-3. **Enable Developer Mode (Windows)**:
-   - Go to `Settings > Privacy & Security > For Developers` and enable Developer Mode if not already active.
-   
-[`Back to Top`](#table-of-contents)
-
----
-
-## Step 2: Create the .NET MAUI Blazor Hybrid Project
-
-1. **Launch Visual Studio 2022**:
-   - Open Visual Studio and select `Create a new project`.
-
-2. **Select the Template**:
-   - In the search bar, type “MAUI Blazor”.
-   - Choose **.NET MAUI Blazor Hybrid App** and click `Next`.
-
-3. **Configure the Project**:
-   - **Project Name**: `MauiAuthApp`.
-   - **Location**: Choose a suitable directory (e.g., `C:\Projects`).
-   - **Solution Name**: Leave as `MauiAuthApp` or adjust as preferred.
-   - Click `Next`.
-
-4. **Additional Information**:
-   - **Framework**: Select `.NET 9.0` (ensure it’s available; if not, install the SDK).
-   - Click `Create`.
-
-5. **Wait for Setup**:
-   - Visual Studio will generate the project and restore dependencies. Watch the status bar or Solution Explorer for completion.
-   
-[`Back to Top`](#table-of-contents)
+- [Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-maui-hybrid)
+- [Node (v 20.14.0)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#node)
+- [npm (v 10.8.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#angular-cli)
+- [React (v 18.2.0)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#react)
+- [Vue (v 3.4.21)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vue)
+- [Vite (v 5.2.8)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vite)
+- [Bash (v 5.x+)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#bash)
+- [Powershell (v 7.x+)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#powershell)
 
 ---
 
-## Step 3: Test the Default App
+## **Getting Started**
 
-1. **Set Debug Target**:
-   - In the toolbar, select a target (e.g., `Windows Machine` for simplicity or an Android emulator).
-   - For Android, if prompted, install the Android SDK by following the on-screen instructions (accept licenses).
-
-2. **Run the App**:
-   - Press `F5` or the green “Start” button.
-   - Verify the default Blazor app loads with a counter button. This confirms your setup works.
-   
-[`Back to Top`](#table-of-contents)
+Carefully _choose_ the variant approach below that fits your current objective:
 
 ---
 
-## Step 4: Add Authentication with ASP.NET Core Identity
+### 1. **Continue Creating `JSopX.`OpenProjectX From Scratch**:
 
-### Part 1: Create a Backend API Project
+- **[Continue](#step-1-recreate-using-aspnet-core-blazor-template)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.OpenProjectX` _From Scratch_ Variant.   
 
-1. **Add a New Project to the Solution**:
-   - Right-click the solution in Solution Explorer > `Add > New Project`.
-   - Search for **ASP.NET Core Web API**.
-   - Name it `MauiAuthApp.Api`, click `Next`.
-   - Select `.NET 9.0`, enable “Configure for HTTPS”, and click `Create`.
+---
 
-2. **Install NuGet Packages**:
-   - In the API project, right-click > `Manage NuGet Packages`.
-   - Install:
-     - `Microsoft.AspNetCore.Identity.EntityFrameworkCore` (for Identity)
-     - `Microsoft.EntityFrameworkCore.SqlServer` (for database)
-     - `Microsoft.AspNetCore.Authentication.JwtBearer` (for JWT)
+### 2. **Use Different Variant**:
 
-3. **Set Up Identity and Database**:
-   - Add a new folder `Models` in the API project.
-   - Create a class `ApplicationUser.cs`:
+- **[Install Using Latest](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
+- **[Browse By-Phase](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
+- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+## Step 1: Recreate Using .NET MAUI Blazor Hybrid Template
+
+**Goal**: Simulate an existing MAUI Hybrid app with weather data, Identity, and JWT already in place.
+
+1. **Open Visual Studio 2022 (v 17.13.5)**:
+   - Ensure the .NET 9.0 SDK is installed (`dotnet --list-sdks`).
+
+2. **Create the Project**:
+   - File > New > Project.
+   - Search for “.NET MAUI Blazor Hybrid App”.
+   - Configure:
+     - Project Name: `JSopX.OpenProjectX`.
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.OpenProjectX`.
+     - Solution Name: `JSopX.OpenProjectX`.
+     - .NET Framework (v 9.0.1)
+   - Click Create.
+
+3. **Set Up Initial Weather Data**:
+   - In `Components/Pages/Home.razor`, replace the counter with a weather display:
+
+     ```razor
+     @page "/"
+     @inject HttpClient Http
+     <h1>JSopX™ Weather</h1>
+     @if (forecasts == null)
+     {
+         <p>Loading...</p>
+     }
+     else
+     {
+         <table>
+             <thead>
+                 <tr><th>Date</th><th>Temp (°C)</th><th>Summary</th></tr>
+             </thead>
+             <tbody>
+                 @foreach (var forecast in forecasts)
+                 {
+                     <tr>
+                         <td>@forecast.Date.ToShortDateString()</td>
+                         <td>@forecast.TemperatureC</td>
+                         <td>@forecast.Summary</td>
+                     </tr>
+                 }
+             </tbody>
+         </table>
+     }
+     @code {
+         private WeatherForecast[] forecasts;
+         protected override async Task OnInitializedAsync()
+         {
+             forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+         }
+         public class WeatherForecast
+         {
+             public DateTime Date { get; set; }
+             public int TemperatureC { get; set; }
+             public string Summary { get; set; }
+         }
+     }
+     ```
+   - This uses the default `weather.json` in `wwwroot/sample-data`.
+
+4. **Add Identity + JWT (Simulating Existing Setup)**:
+   - Install NuGet packages: `Microsoft.AspNetCore.Identity.EntityFrameworkCore`, `Microsoft.EntityFrameworkCore.SqlServer`, `Microsoft.AspNetCore.Authentication.JwtBearer`.
+   - Add `Models/ApplicationUser.cs`:
 
      ```csharp
      using Microsoft.AspNetCore.Identity;
      public class ApplicationUser : IdentityUser { }
      ```
-   - Add a `Data` folder and create `AppDbContext.cs`:
+   - Add `Data/AppDbContext.cs`:
 
      ```csharp
      using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -175,28 +192,15 @@ The result is an environment that transforms a patchwork of independent solution
          public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
      }
      ```
-
-4. **Configure Services in `Program.cs`**:
-   - Replace the content with:
+   - Update `MauiProgram.cs`:
 
      ```csharp
-     using Microsoft.AspNetCore.Authentication.JwtBearer;
-     using Microsoft.AspNetCore.Identity;
-     using Microsoft.EntityFrameworkCore;
-     using Microsoft.IdentityModel.Tokens;
-     using System.Text;
-     var builder = WebApplication.CreateBuilder(args);
-     builder.Services.AddControllers();
      builder.Services.AddDbContext<AppDbContext>(options =>
          options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
      builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
          .AddEntityFrameworkStores<AppDbContext>()
          .AddDefaultTokenProviders();
-     builder.Services.AddAuthentication(options =>
-     {
-         options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-         options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-     }).AddJwtBearer(options =>
+     builder.Services.AddAuthentication().AddJwtBearer(options =>
      {
          options.TokenValidationParameters = new TokenValidationParameters
          {
@@ -209,112 +213,17 @@ The result is an environment that transforms a patchwork of independent solution
              IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
          };
      });
-     builder.Services.AddAuthorization();
-     var app = builder.Build();
-     app.UseHttpsRedirection();
-     app.UseAuthentication();
-     app.UseAuthorization();
-     app.MapControllers();
-     app.Run();
+     builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7234/") }); // Temp API URL
      ```
-
-5. **Update `appsettings.json`**:
-   - Add:
+   - Update `appsettings.json`:
 
      ```json
      {
-       "ConnectionStrings": {
-         "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=MauiAuthDb;Trusted_Connection=True;"
-       },
-       "Jwt": {
-         "Key": "YourSuperSecretKey1234567890", // Replace with a strong key
-         "Issuer": "MauiAuthApp",
-         "Audience": "MauiAuthApp"
-       }
+       "ConnectionStrings": { "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=JSopXMauiDb;Trusted_Connection=True;" },
+       "Jwt": { "Key": "8f+2Kj9mPqL5xRtYvWnZcQwXjB3sM7hD9pN8uG4tA1o=", "Issuer": "JSopX", "Audience": "JSopX" }
      }
      ```
-
-6. **Create Auth Controller**:
-   - Add a `Controllers` folder and create `AuthController.cs`:
-
-     ```csharp
-     using Microsoft.AspNetCore.Identity;
-     using Microsoft.AspNetCore.Mvc;
-     using Microsoft.IdentityModel.Tokens;
-     using System.IdentityModel.Tokens.Jwt;
-     using System.Security.Claims;
-     using System.Text;
-     [Route("api/[controller]")]
-     [ApiController]
-     public class AuthController : ControllerBase
-     {
-         private readonly UserManager<ApplicationUser> _userManager;
-         private readonly SignInManager<ApplicationUser> _signInManager;
-         private readonly IConfiguration _configuration;
-         public AuthController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IConfiguration configuration)
-         {
-             _userManager = userManager;
-             _signInManager = signInManager;
-             _configuration = configuration;
-         }
-         [HttpPost("register")]
-         public async Task<IActionResult> Register(string username, string password)
-         {
-             var user = new ApplicationUser { UserName = username, Email = username };
-             var result = await _userManager.CreateAsync(user, password);
-             if (result.Succeeded) return Ok();
-             return BadRequest(result.Errors);
-         }
-         [HttpPost("login")]
-         public async Task<IActionResult> Login(string username, string password)
-         {
-             var user = await _userManager.FindByNameAsync(username);
-             if (user != null && await _userManager.CheckPasswordAsync(user, password))
-             {
-                 var claims = new[]
-                 {
-                     new Claim(ClaimTypes.Name, user.UserName)
-                 };
-                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
-                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-                 var token = new JwtSecurityToken(
-                     issuer: _configuration["Jwt:Issuer"],
-                     audience: _configuration["Jwt:Audience"],
-                     claims: claims,
-                     expires: DateTime.Now.AddMinutes(30),
-                     signingCredentials: creds);
-                 return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
-             }
-             return Unauthorized();
-         }
-     }
-     ```
-
-7. **Run Migrations**:
-   - Open Package Manager Console (Tools > NuGet Package Manager > Package Manager Console).
-   - Set the API project as the default project and run:
-     ```
-     Add-Migration InitialCreate
-     Update-Database
-     ```
-
-8. **Test the API**:
-   - Set `MauiAuthApp.Api` as the startup project and run it (`F5`).
-   - Use Postman or curl to test:
-     - `POST https://localhost:port/api/auth/register` with `username=test@test.com` and `password=Password123!`
-     - `POST https://localhost:port/api/auth/login` with the same credentials. Note the JWT token returned.
-
-[`Back to Top`](#table-of-contents)
-
----
-
-### Part 2: Integrate Authentication in the MAUI App
-
-1. **Install HttpClient Package**:
-   - In `MauiAuthApp`, install `System.Net.Http.Json` via NuGet.
-
-2. **Add Login/Register Pages**:
-   - In `Components/Pages`, create `Login.razor`:
+   - Add `Components/Pages/Login.razor`:
 
      ```razor
      @page "/login"
@@ -326,296 +235,277 @@ The result is an environment that transforms a patchwork of independent solution
      <button @onclick="LoginAsync">Login</button>
      <p>@message</p>
      @code {
-         private string username = "";
-         private string password = "";
-         private string message = "";
+         private string username = "", password = "", message = "";
          private async Task LoginAsync()
          {
-             var response = await Http.PostAsJsonAsync("https://localhost:port/api/auth/login", new { username, password });
+             var response = await Http.PostAsJsonAsync("api/auth/login", new { username, password });
              if (response.IsSuccessStatusCode)
              {
                  var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
-                 message = "Logged in! Token: " + result.token;
-                 // Store token (e.g., in SecureStorage) and navigate
+                 message = "Logged in!";
+                 await SecureStorage.SetAsync("jwt", result.token);
                  Navigation.NavigateTo("/");
              }
-             else
-             {
-                 message = "Login failed.";
-             }
+             else { message = "Login failed."; }
          }
          private class LoginResponse { public string token { get; set; } }
      }
      ```
-   - Create `Register.razor`:
+   - Add a placeholder API in `Controllers/AuthController.cs`:
 
-     ```razor
-     @page "/register"
-     @inject HttpClient Http
-     @inject NavigationManager Navigation
-     <h3>Register</h3>
-     <input @bind="username" placeholder="Email" />
-     <input @bind="password" type="password" placeholder="Password" />
-     <button @onclick="RegisterAsync">Register</button>
-     <p>@message</p>
-     @code {
-         private string username = "";
-         private string password = "";
-         private string message = "";
-         private async Task RegisterAsync()
+     ```csharp
+     [Route("api/[controller]")]
+     [ApiController]
+     public class AuthController : ControllerBase
+     {
+         private readonly UserManager<ApplicationUser> _userManager;
+         private readonly IConfiguration _config;
+         public AuthController(UserManager<ApplicationUser> userManager, IConfiguration config)
          {
-             var response = await Http.PostAsJsonAsync("https://localhost:port/api/auth/register", new { username, password });
-             if (response.IsSuccessStatusCode)
+             _userManager = userManager; _config = config;
+         }
+         [HttpPost("login")]
+         public async Task<IActionResult> Login([FromBody] LoginModel model)
+         {
+             var user = await _userManager.FindByNameAsync(model.Username);
+             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
              {
-                 message = "Registered! Please log in.";
-                 Navigation.NavigateTo("/login");
+                 var token = GenerateJwtToken(user);
+                 return Ok(new { token });
              }
-             else
+             return Unauthorized();
+         }
+         private string GenerateJwtToken(ApplicationUser user)
+         {
+             var claims = new[] { new Claim(ClaimTypes.Name, user.UserName) };
+             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+             var token = new JwtSecurityToken(_config["Jwt:Issuer"], _config["Jwt:Audience"], claims, expires: DateTime.Now.AddMinutes(30), signingCredentials: creds);
+             return new JwtSecurityTokenHandler().WriteToken(token);
+         }
+     }
+     public class LoginModel { public string Username { get; set; } public string Password { get; set; } }
+     ```
+
+5. **Test the Base Setup**:
+   - Run migrations: `Add-Migration InitialCreate`, `Update-Database`.
+   - Start the app (`F5`, Windows Machine target).
+   - Register a user via a tool like Postman (`POST /api/auth/register`), then log in at `/login`.
+
+
+[`Back to Top`](#table-of-contents)
+
+---
+
+## Step 2: Extend Weather Data
+
+**Goal**: Enhance the weather feature with historical data.
+
+1. **Update Weather Model**:
+   - In `Home.razor`, modify `WeatherForecast`:
+
+     ```csharp
+     public class WeatherForecast
+     {
+         public DateTime Date { get; set; }
+         public int TemperatureC { get; set; }
+         public string Summary { get; set; }
+         public int? HistoricalTempC { get; set; } // New field
+     }
+     ```
+
+2. **Add Historical Data Endpoint**:
+   - In `Controllers/WeatherController.cs` (add if not present):
+
+     ```csharp
+     [Route("api/[controller]")]
+     [ApiController]
+     public class WeatherController : ControllerBase
+     {
+         [HttpGet]
+         public ActionResult<IEnumerable<WeatherForecast>> Get()
+         {
+             var rng = new Random();
+             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
              {
-                 message = "Registration failed.";
-             }
+                 Date = DateTime.Now.AddDays(index),
+                 TemperatureC = rng.Next(-20, 55),
+                 Summary = new[] { "Cool", "Warm", "Hot" }[rng.Next(3)],
+                 HistoricalTempC = rng.Next(-25, 50)
+             }).ToArray();
          }
      }
      ```
 
-
-3. **Update Navigation**:
-   - In `Components/App.razor`, add routes:
-
-     ```razor
-     <Router AppAssembly="@typeof(App).Assembly">
-         <Found Context="routeData">
-             <RouteView RouteData="@routeData" DefaultLayout="@typeof(Layout.MainLayout)" />
-         </Found>
-         <NotFound>
-             <p>Page not found.</p>
-         </NotFound>
-     </Router>
-     ```
-   - In `Components/Layout/MainLayout.razor`, add nav links:
+3. **Update Home Page**:
+   - In `Home.razor`:
 
      ```razor
-     <div>
-         <nav>
-             <a href="/">Home</a> |
-             <a href="/login">Login</a> |
-             <a href="/register">Register</a>
-         </nav>
-         <main>
-             @Body
-         </main>
-     </div>
-     ```
-
-
-4. **Configure HttpClient**:
-   - In `MauiProgram.cs`, add:
-
-     ```csharp
-     builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:port/") });
-     ```
-
-[`Back to Top`](#table-of-contents)
-
----
-
-## Step 5: Test the App with Authentication
-
-1. **Run Both Projects**:
-   - Set multiple startup projects: Right-click solution > `Set Startup Projects` > Select `MauiAuthApp` and `MauiAuthApp.Api` as “Start”.
-   - Press `F5`.
-
-2. **Register a User**:
-   - Navigate to `/register`, enter `test@test.com` and `Password123!`, and click Register.
-
-3. **Login**:
-   - Go to `/login`, enter the same credentials, and verify the token appears.
-
-4. **Secure Pages (Optional)**:
-   - Add `[Authorize]` to controllers in the API and use the JWT token in HttpClient requests from MAUI by setting the `Authorization` header.
-
-
-[`Back to Top`](#table-of-contents)
-
----
-
-# Step 6: JWT Key Generation - Your Super Secret Key
-
-### Question 1: Where do I get a key like "YourSuperSecretKey1234567890"?
-
-The key `"YourSuperSecretKey1234567890"` in the sample was a placeholder to illustrate the concept of a **symmetric signing key** used in JWT authentication with HMAC-SHA256 (a common algorithm). In practice, you don’t "get" this key from somewhere external—it’s something **you generate and manage securely**. Here’s how to handle it properly:
-
-1. **Generating a Secure Key**:
-   - **Length Requirement**: For HMAC-SHA256, the key should be at least 256 bits (32 bytes) long to ensure cryptographic strength. A longer key (e.g., 64 bytes) is even better.
-   - **Manual Generation**: You can create a random string using a secure random generator. For example:
-     - Use an online tool like [random.org](https://www.random.org/bytes/) to generate 32+ random bytes, then encode it (e.g., Base64).
-     - Or, in C#, generate it programmatically:
-
-       ```csharp
-       using System.Security.Cryptography;
-       byte[] key = RandomNumberGenerator.GetBytes(64); // 64 bytes = 512 bits
-       string jwtKey = Convert.ToBase64String(key); // Produces a string like "8f+...=="
-       Console.WriteLine(jwtKey);
-       ```
-       Run this once, copy the output, and store it securely.
-   - **Example Output**: Something like `"8f+2Kj9mPqL5xRtYvWnZcQwXjB3sM7hD9pN8uG4tA1o="`.
-
-2. **Storing the Key**:
-   - **Development**: For now, paste it into your `appsettings.json` under `"Jwt:Key"`. Example:
-
-     ```json
-     "Jwt": {
-       "Key": "8f+2Kj9mPqL5xRtYvWnZcQwXjB3sM7hD9pN8uG4tA1o=",
-       "Issuer": "MauiAuthApp",
-       "Audience": "MauiAuthApp"
+     <tr><th>Date</th><th>Temp (°C)</th><th>Historical Temp (°C)</th><th>Summary</th></tr>
+     ...
+     <td>@forecast.HistoricalTempC</td>
+     ...
+     @code {
+         protected override async Task OnInitializedAsync()
+         {
+             forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("api/weather");
+         }
      }
      ```
-   - **Production**: Hardcoding in `appsettings.json` isn’t secure. Instead:
-     - Use **Azure Key Vault**, **AWS Secrets Manager**, or similar secret management services.
-     - Or, store it in an environment variable (e.g., `JWT_KEY`) and access it via `IConfiguration`:
 
-       ```csharp
-       var key = builder.Configuration["Jwt:Key"];
-       ```
-
-3. **Best Practices**:
-   - **Uniqueness**: Generate a unique key per application or environment (dev, staging, prod).
-   - **Security**: Never commit the key to source control (e.g., Git). Use `.gitignore` for local config files if needed.
-   - **Rotation**: Plan to rotate keys periodically (e.g., every 6-12 months) and implement token expiry/refresh to handle updates gracefully.
+4. **Test**: Run and verify historical temps show up.
 
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-# JWT and Identity Across JSopX™ Projects
+## Step 3: Integrate OIDC
 
-### Question 2: Is JWT with Identity the best approach across projects like in the MAUI Auth App, given the interconnectivity of reusable projects and assets?
+**Goal**: Replace custom JWT with OIDC via Duende IdentityServer (hosted in `JSopX.AspNetCore` later).
 
-Given the JSopX™ ecosystem—spanning MAUI Hybrid, Angular, React, Vue, Blazor Server, and ASP.NET Core projects with shared class libraries, Razor Class Libraries (RCLs), and a Web API—JWT paired with ASP.NET Core Identity is a **strong starting point**, but its suitability depends on your goals. Let’s break it down and consider alternatives to ensure it aligns with your interconnected architecture.
-[`Back to Top`](#table-of-contents)
+1. **Install Duende IdentityServer**:
+   - For now, simulate OIDC by adding `Microsoft.AspNetCore.Authentication.OpenIdConnect` via NuGet.
 
----
+2. **Configure OIDC**:
+   - Update `MauiProgram.cs`:
 
-### Why JWT with Identity Works Well
+     ```csharp
+     builder.Services.AddAuthentication(options =>
+     {
+         options.DefaultScheme = "Cookies";
+         options.DefaultChallengeScheme = "oidc";
+     })
+     .AddCookie("Cookies")
+     .AddOpenIdConnect("oidc", options =>
+     {
+         options.Authority = "https://localhost:5001"; // Temp IdentityServer URL
+         options.ClientId = "maui";
+         options.ClientSecret = "secret";
+         options.ResponseType = "code";
+         options.SaveTokens = true;
+         options.Scope.Add("openid");
+         options.Scope.Add("profile");
+         options.Scope.Add("api");
+     });
+     ```
 
-1. **Stateless Authentication (JWT)**:
-   - JWTs are self-contained tokens, making them ideal for distributed systems like yours. Your Web API (`JSopX.WebAPI`) can issue tokens that MAUI, Angular, React, Vue, and Blazor clients can use without server-side session state.
-   - This scales well across your multi-platform apps (desktop, web, mobile).
+3. **Secure Weather API**:
+   - Add `[Authorize]` to `WeatherController`:
 
-2. **Centralized User Management (Identity)**:
-   - ASP.NET Core Identity provides a robust framework for user registration, login, roles, and claims, all stored in a single database (e.g., via `JSopX.WebAPI`). This centralizes auth logic, which your shared `JSopX.ClassLibrary` can extend with custom utilities.
+     ```csharp
+     [Authorize]
+     [HttpGet]
+     public ActionResult<IEnumerable<WeatherForecast>> Get()
+     ```
 
-3. **Cross-Project Compatibility**:
-   - Your MAUI Hybrid (`JSopX.MauiHybridNetCore`), Angular (`JSopX.AngularCore`), React (`JSopX.ReactCore`), and Vue (`JSopX.VueCore`) apps can all make HTTP requests to `JSopX.WebAPI`, passing JWTs in the `Authorization` header. The sample MAUI app’s login/register flow can be adapted to these frameworks.
-   - Blazor Server (`JSopX.BlazorServerCore`) can also use JWTs for API calls, though it might lean on server-side auth too (more on this below).
+4. **Update Login**:
+   - In `Login.razor`:
 
-4. **Reusability**:
-   - You can encapsulate JWT generation/validation logic in `JSopX.ClassLibrary` and share it across projects.
-   - UI components for login/register (e.g., in `JSopX.RCLxComponents` or `JSopX.RCLxProper`) can be reused, with client-specific tweaks (Razor for Blazor/MAUI, TSX for React, etc.).
+     ```razor
+     @inject AuthenticationStateProvider AuthState
+     @inject NavigationManager Navigation
+     <button @onclick="LoginAsync">Login with OIDC</button>
+     @code {
+         private async Task LoginAsync()
+         {
+             Navigation.NavigateTo("authentication/login", true);
+         }
+     }
+     ```
+   - Add `Components/App.razor`:
 
-5. **Design Standards**:
-   - JWT’s flexibility lets you enforce consistent auth flows (e.g., token expiry, refresh tokens) across your ecosystem, aligning with your goal of standardized assets in `JSopX.RCLxProper`.
+     ```razor
+     <CascadingAuthenticationState>
+         <Router AppAssembly="@typeof(App).Assembly">
+             ...
+         </Router>
+     </CascadingAuthenticationState>
+     ```
 
-[`Back to Top`](#table-of-contents)
+5. **Test**: Requires IdentityServer setup (coming in `JSopX.AspNetCore`).
 
----
-
-### Potential Challenges
-
-1. **Blazor Server Nuance**:
-   - Blazor Server uses SignalR and server-side state, so JWTs are less critical for UI auth (Identity’s cookie-based auth might suffice). However, if it calls `JSopX.WebAPI`, JWTs remain relevant.
-
-2. **Single Sign-On (SSO) Confusion**:
-   - JWT alone doesn’t provide true SSO across apps unless paired with a centralized identity provider (IdP). Each app would need to authenticate separately against `JSopX.WebAPI`, potentially duplicating login prompts.
-
-3. **Token Management**:
-   - Clients (MAUI, Angular, etc.) must securely store and refresh JWTs. For MAUI, `SecureStorage` works; for web apps, you’ll need secure cookies or localStorage with CSRF protection.
-
-4. **Scalability**:
-   - If your user base grows, managing Identity’s database and token validation across all apps could strain `JSopX.WebAPI` unless load-balanced.
-
-[`Back to Top`](#table-of-contents)
-
----
-
-### Alternatives to Consider
-
-1. **OAuth 2.0 + OpenID Connect (OIDC) with IdentityServer or External IdP**:
-   - **Why**: Adds SSO and delegates auth to a dedicated service (e.g., IdentityServer4, Duende IdentityServer, or external providers like Azure AD, Auth0, Okta).
-   - **How**: Replace the MAUI app’s custom JWT logic with OIDC flows (e.g., Authorization Code + PKCE). `JSopX.WebAPI` becomes an OAuth-protected resource server.
-   - **Pros**: True SSO across all apps, standardized token issuance, refresh tokens out of the box.
-   - **Cons**: More setup complexity; external providers may incur costs.
-
-2. **Cookie-Based Auth for Web Apps**:
-   - **Why**: For Blazor Server and ASP.NET Core (`JSopX.AspNetCore`), cookies might simplify auth within the same domain.
-   - **How**: Use Identity’s default cookie auth alongside JWT for API access.
-   - **Pros**: Easier for server-side apps; no client-side token management.
-   - **Cons**: Less suited for SPA/mobile; no SSO unless paired with OIDC.
-
-3. **Hybrid Approach**:
-   - **Why**: Combine Identity + JWT for APIs and OIDC for SSO.
-   - **How**: Keep `JSopX.WebAPI` issuing JWTs for internal use, but integrate an OIDC provider for user-facing SSO.
-   - **Pros**: Balances simplicity and scalability; leverages your existing setup.
-   - **Cons**: Requires maintaining two auth systems initially.
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-### Recommendation for JSopX™ Developers
+## Step 4: Decouple from Built-In API
 
-Given your interconnectivity and reuse goals, **stick with JWT + Identity for now**, but plan for **OIDC integration** as you scale. Here’s why and how:
+**Goal**: Use `JSopX.WebAPI` instead.
 
-- **Short-Term (Current Cleanup)**:
-  - JWT + Identity is already working in the MAUI sample and can be replicated across your Angular, React, Vue, and Blazor projects with minimal changes.
-  - Add shared auth logic to `JSopX.ClassLibrary` (e.g., token validation, refresh token helpers).
-  - Use `JSopX.RCLxProper` for standardized login/register UI components, adapting them per framework (Razor, TSX, etc.).
-  - Secure `JSopX.WebAPI` endpoints with `[Authorize]` and validate JWTs as shown in the sample.
+1. **Create JSopX.WebAPI (if not already)**:
+   - New Project > ASP.NET Core Web API > Name: `JSopX.WebAPI`.
+   - Add `WeatherController` mirroring the above.
+   - Update `Program.cs` with Identity and JWT.
 
-- **Long-Term (Pre-Release)**:
-  - Introduce an OIDC provider (e.g., Duende IdentityServer hosted in `JSopX.AspNetCore` or an external service like Auth0).
-  - Update all apps to use OIDC flows, with `JSopX.WebAPI` validating tokens from the IdP.
-  - This gives you SSO across MAUI, web, and server apps, reducing login friction.
+2. **Point MAUI to WebAPI**:
+   - In `Home.razor`:
 
-- **Why This Works**:
-  - JWT + Identity is lightweight and fits your current reusable architecture.
-  - Transitioning to OIDC later builds on this foundation, reusing your Identity database and shared libraries while addressing SSO needs.
+     ```razor
+     forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("https://localhost:7234/api/weather");
+     ```
 
----
+3. **Test**: Run both projects, ensure data pulls from `JSopX.WebAPI`.
 
-## JSopX™ Class Library `Phase 1` Tasks Finished! What's Next?
 
-You have **completed all** `Phase 1: Start from Scratch` tasks for `My First JSopX™ MAUI Hybrid App Setup`.
+[`Back to Top`](#table-of-contents)
 
 ---
 
-### **1. Continue `Phase 1` Tasks (_Recommended_):**  
+## Step 5: Standardize with RCLs and Libraries
 
-If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board.
+1. **Reference JSopX.RCLxProper**:
+   - Add Project > New > Razor Class Library > `JSopX.RCLxProper`.
+   - Move `Login.razor` to `JSopX.RCLxProper/Pages/Login.razor`.
+   - Reference in `JSopX.OpenProjectX`: Right-click > Add Project Reference.
+   - Update `App.razor` to use RCL routes.
 
-[`Continue Course »`](../Introduction/JSopxProjectChecksBalances.md)
+2. **Reference JSopX.SharedResources**:
+   - Add Project > Class Library > `JSopX.SharedResources`.
+   - Add a sample asset (e.g., `WeatherUtils.cs`):
+
+     ```csharp
+     public static class WeatherUtils
+     {
+         public static string GetWeatherIcon(string summary) => summary switch
+         {
+             "Cool" => "❄️",
+             "Warm" => "☀️",
+             "Hot" => "🔥",
+             _ => "🌧️"
+         };
+     }
+     ```
+   - Reference and use in `Home.razor`:
+
+     ```razor
+     <td>@WeatherUtils.GetWeatherIcon(forecast.Summary)</td>
+     ```
+
+3. **Test**: Verify login from RCL and icons from shared library work.
+
+[`Back to Top`](#table-of-contents)
 
 ---
 
-### **2. Continue Focus on JSopX™ Class Library:**  
+## **Next Steps**
 
-If you want to be sure you are able to create all projects from scratch, it is highly recommended you stay the course, and complete all `Phase 1` tasks across the board.
-
-[`Continue Evolving Class Library »`](../Introduction/JSopxProjectChecksBalances.md)
-
+Carefully choose the approach below that fits your current objective:
 
 ---
 
-### **3. I Want My Blanky and Bubba:**  
-
-You can start from the beginning if you would prefer to regroup.
-
-[`« Start From Beginning`](../Introduction/)
+1. **[Continue](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.OpenProjectX` _From Scratch_ Variant.   
 
 ---
- 
- [`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [**`JSopX™ Projects`**](./OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../Introduction/JasonSilvestriOpenProjectExperiences.md) [`Next »`](./OpenProjects/jsopx.OpenProjectX)
+
+1. **[Install Using Latest](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
+3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+
+---
+
+[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 
