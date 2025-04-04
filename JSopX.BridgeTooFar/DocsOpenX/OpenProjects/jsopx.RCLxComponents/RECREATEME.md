@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.RCLxComponents/README.md) · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.RCLxComponents/README.md) · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 
@@ -217,7 +217,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.RCLxComponents/README.md) · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.RCLxComponents/README.md) · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 
