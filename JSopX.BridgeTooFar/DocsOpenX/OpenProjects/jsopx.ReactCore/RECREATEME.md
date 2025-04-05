@@ -44,7 +44,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
 
 > [!IMPORTANT]
 >
->**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md) Business Requirements. 
 > 
 
 ---
