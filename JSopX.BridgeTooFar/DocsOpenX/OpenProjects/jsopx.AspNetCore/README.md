@@ -216,7 +216,7 @@ Building and Running the `JSopX.AspNetCore` Project in Visual Studio is also ano
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
@@ -337,19 +337,19 @@ Most `JSopX™ Projects` leverage shared resources and code from other projects 
 The `JSopX.AspNetCore` Project has the following `JSopX` Project Dependencies:
 
 1. **`JSopX.BridgeTooFar`**:
-   - A [Shared Assets & Resources Projects](../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
+   - A [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
    - **Explore GitHub**: [JSopX.BridgeTooFar](../../OpenProjects/jsopx.BridgeTooFar)
 
 2. **`JSopX.ClassLibrary`**:
-   - A [Shared Data, Service & Function Project](../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
+   - A [Shared Data, Service & Function Project](../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
    - **Explore GitHub**: [JSopX.ClassLibrary](../../OpenProjects/jsopx.ClassLibrary)
 
 3. **`JSopX.WebAPI`**:
-   - A [Shared Data, Service & Function Project](../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
+   - A [Shared Data, Service & Function Project](../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
    - **Explore GitHub**: [JSopX.WebAPI](../../OpenProjects/jsopx.WebAPI)
  
 4. **`JSopX.RCLxProper`**:
-   - An extremely light-weight, [Shared Assets & Resources Projects](../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
+   - An extremely light-weight, [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
    - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
 

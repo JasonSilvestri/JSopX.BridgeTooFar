@@ -69,19 +69,19 @@ As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), w
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing the `JSopX.OpenProjectX` Project.
 
-- [Visual Studio (v 17.13.5)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.0.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-maui-hybrid)
-- [Node (v 20.14.0)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#node)
-- [npm (v 10.8.1)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#npm)
-- [Angular CLI (v 18.0.3)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#angular-cli)
-- [React (v 18.2.0)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#react)
-- [Vue (v 3.4.21)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vue)
-- [Vite (v 5.2.8)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vite)
-- [Bash (v 5.x+)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#bash)
-- [Powershell (v 7.x+)](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#powershell)
+- [Visual Studio (v 17.13.5)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.0.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.0.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-maui-hybrid)
+- [Node (v 20.14.0)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#node)
+- [npm (v 10.8.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#angular-cli)
+- [React (v 18.2.0)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#react)
+- [Vue (v 3.4.21)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vue)
+- [Vite (v 5.2.8)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vite)
+- [Bash (v 5.x+)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#bash)
+- [Powershell (v 7.x+)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#powershell)
 
 ---
 

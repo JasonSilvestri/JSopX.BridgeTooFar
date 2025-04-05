@@ -45,7 +45,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
 
 The **JSopX™ Class Library Project**, _code named_, `JSopX.ClassLibrary` is a totally **FREE**, open-source, Razor Class Library, and is a shared logic and utilities repository. Placing business logic or helper functions here ensures every project can draw from a single, reliable source, reducing code duplication and complexity.
 
-We initially create the project to simulate a [Shared Assets & Resources Projects](../../.Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+We initially create the project to simulate a [Shared Assets & Resources Projects](../../.Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
 As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
@@ -202,7 +202,7 @@ Building and Running the `JSopX.BridgeToFar` Project in Visual Studio is also an
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../../../../OpenProjects/jsopx.BridgeToFar/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.BridgeToFar/p1/v1/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
