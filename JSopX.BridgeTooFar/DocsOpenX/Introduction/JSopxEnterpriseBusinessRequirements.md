@@ -4,11 +4,11 @@
 
 ---
 
-> [!WARNING]
+> [!CAUTION]
+> **This is a DRAFT:**
+> 
+> The content before you is a draft version of the document. It **should not** be considered **accurate** and may contain placeholder information.
 >
-> I would not be over selling it by saying this page is one of the single, most important sections in the entire Bridge Too Far Documentation Project displayed before you.
->
-> **Following Disciplines & Standards for Sustainable Enterprise-Level Product Development Is Absolutely Imperative**
 
 ---
 
