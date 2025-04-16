@@ -212,7 +212,7 @@ Details what you should know or have prepared beforehand to maximize understandi
 ```markdown
 ## **Prerequisites**  
 
-- `Visual Studio 2022 (v 17.13.1)` or higher installed.
+- `Visual Studio 2022 (v 17.13.6)` or higher installed.
 - Installed `.NET 9.0` SDK.
 - Installed `Node.js 20.14.0`.
 - Basic understanding of `.csproj` and `.sln` file structures.

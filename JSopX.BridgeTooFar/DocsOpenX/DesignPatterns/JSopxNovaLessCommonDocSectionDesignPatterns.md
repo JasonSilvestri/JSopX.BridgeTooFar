@@ -198,11 +198,11 @@ Let's picture we are checking `Visual Studio` version.
 
 ## Checking Version 
 
-Check if `Visual Studio` v **`17.13.1`** (_or higher_) is installed on your device.
+Check if `Visual Studio` v **`17.13.6`** (_or higher_) is installed on your device.
 
 #### Step-by-Step Instructions:
 
-Use **`Powershell`** Command Line dialog to ensure you have the correct version of `Visual Studio` v `17.13.1` (_or higher_) on your device.
+Use **`Powershell`** Command Line dialog to ensure you have the correct version of `Visual Studio` v `17.13.6` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following command, and hit the `Enter` button on your `keyboard`:
    
@@ -215,9 +215,9 @@ Use **`Powershell`** Command Line dialog to ensure you have the correct version 
    
 2. This command checks the `version` of `Visual Studio` on your device, and then prints back your version to the `Powershell` Command Line dialog output.
    
-3. If you have version `Visual Studio` v **`17.13.1`** (_or higher_), you are _good to go_, and no further action is needed!
+3. If you have version `Visual Studio` v **`17.13.6`** (_or higher_), you are _good to go_, and no further action is needed!
    
-If you do not have Visual Studio installed or you version is **`lower`** than `Visual Studio` v **`17.13.1`**, it is recommended that you install it _immediately_ to avoid unexpected results.
+If you do not have Visual Studio installed or you version is **`lower`** than `Visual Studio` v **`17.13.6`**, it is recommended that you install it _immediately_ to avoid unexpected results.
 
 ```
 
@@ -237,11 +237,11 @@ Let's picture we are installing `Visual Studio` version.
 
 ## Install Visual Studio
 
-Install `Visual Studio` v **`17.13.1`** (_or higher_) if it is not already installed or found on your device.
+Install `Visual Studio` v **`17.13.6`** (_or higher_) if it is not already installed or found on your device.
 
 #### Step-by-Step Instructions:
 
-You can use **`Powershell`** Command Line dialog again to `install` the correct version of `Visual Studio` or `Visual Studio Code` v `17.13.1` (_or higher_) on your device.
+You can use **`Powershell`** Command Line dialog again to `install` the correct version of `Visual Studio` or `Visual Studio Code` v `17.13.6` (_or higher_) on your device.
    
 1. Open `Powershell`, type the following _command_, and hit the `Enter` button on your `keyboard`:
 
@@ -333,7 +333,7 @@ Use the following **Step-by-Step Instructions** to install the latest `JSopX.Ang
 
 ### Step 2: Open the Solution
 
-1. Launch **Visual Studio (v 17.13.5)**.
+1. Launch **Visual Studio (v 17.13.6)**.
 2. Open the solution file: `JSopX.AngularCore.sln`.
 
 [`Back to Top`](#table-of-contents)
@@ -399,12 +399,12 @@ Let's picture we are needing more from the `Visual Studio` sections we currently
 Visit the offical **`Visual Studios`** _site_ and/or _documentation_ if:
 
 1. You are having trouble with installs
-2. You would rather manually install **`Visual Studio`** or **`Visual Studio Code`** v **`17.13.1`**
+2. You would rather manually install **`Visual Studio`** or **`Visual Studio Code`** v **`17.13.6`**
 3. You prefer some official vendor documentation first
    
 #### Step-by-Step Instructions:
    
-Visit [Visual Studio v 17.13.5 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.13.1`** (_or higher_).
+Visit [Visual Studio v 17.13.6 Documentation](https://learn.microsoft.com/en-us/aspnet/core/) for more information about `Visual Studio` or `Visual Studio Code` v **`17.13.6`** (_or higher_).
 
 
 ```
@@ -425,7 +425,7 @@ Let's picture we are a technology document for `Visual Studio`.
 
 ## `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.13.1`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.13.6`** (_or higher_) are as follows:
 
 
 - [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)
@@ -468,7 +468,7 @@ Let's picture we are a technology or project that requires one or more technolog
 The following Technologies are required for _JSopX™ Open Project EXperiences Collection_ Projects to work as expected:
 
 - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
-- [Visual Studio (v 17.13.5)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.13.6)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
 - [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)

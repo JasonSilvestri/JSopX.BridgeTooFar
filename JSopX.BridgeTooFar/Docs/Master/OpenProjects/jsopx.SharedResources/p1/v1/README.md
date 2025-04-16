@@ -83,7 +83,7 @@ All access the same server-side Web API, while using the same client-side, look-
 ## Prerequisites
 
 
-- Visual Studio 2022 (17.13.1) or higher installed.
+- Visual Studio 2022 (17.13.6) or higher installed.
 - Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.SharedResources`, `JSopX.WebAPI`, etc.).
 - Installed .NET 9.0.0 SDK.
 - Installed Node.js 20.14.0
