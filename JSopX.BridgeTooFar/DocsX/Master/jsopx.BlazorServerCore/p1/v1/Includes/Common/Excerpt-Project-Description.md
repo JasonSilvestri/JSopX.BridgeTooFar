@@ -1,1 +1,0 @@
-A project for creating server-side Blazor applications. Similar to `JSopX.AspNetCore`, but only in look and function. Blazor is a game-changer. This project is focused on building interactive web UIs with Blazor's server-side rendering capabilities.

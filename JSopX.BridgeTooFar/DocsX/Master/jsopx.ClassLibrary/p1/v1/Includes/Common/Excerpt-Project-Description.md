@@ -1,1 +1,0 @@
-A project for building cross-platform applications using .NET MAUI with a hybrid approach, combining desktop, native and web-based technologies for a flexible, cross-platform experience.

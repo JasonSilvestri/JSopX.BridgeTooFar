@@ -1,1 +1,0 @@
-JSopX™ Shared Resources

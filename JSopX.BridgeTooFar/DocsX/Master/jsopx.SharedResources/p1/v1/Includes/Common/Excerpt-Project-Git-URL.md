@@ -1,1 +1,0 @@
-https://github.com/JasonSilvestri/JSopX.SharedResources

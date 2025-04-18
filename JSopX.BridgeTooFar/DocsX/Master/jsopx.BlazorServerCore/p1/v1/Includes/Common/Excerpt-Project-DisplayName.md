@@ -1,1 +1,0 @@
-JSopX™ Blazor Server Core

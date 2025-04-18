@@ -1,1 +1,0 @@
-The JSopX™ Open ProjectX Solution, is a first-of-its-kind, totally FREE, open-source, Enterprise-Level, Multi-Platform, Multi-Stack flagship Solution, used to house the complete suite of JSopX™ Open Project EXperience Projects. 

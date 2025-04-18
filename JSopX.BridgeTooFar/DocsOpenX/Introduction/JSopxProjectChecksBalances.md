@@ -4,7 +4,7 @@ By exploring the [Overview](#overview), you’ll understand how standardized nam
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](../Technologies/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · · [`« Previous`](../Introduction/JSopxProjectsFamilies.md) [`Next »`](../Introduction/JSopxDevelopmentStandards.md)
 
 ---
 
@@ -190,7 +190,7 @@ JSopX.OpenProjectX (Solution Directory)
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsFamilies.md) [`Next »`](../Technologies/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxProjectsFamilies.md) [`Next »`](../Introduction/JSopxDevelopmentStandards.md)
 
 ---
 

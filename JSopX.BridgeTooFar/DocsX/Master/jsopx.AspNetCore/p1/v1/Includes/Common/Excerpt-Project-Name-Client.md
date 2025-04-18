@@ -1,1 +1,0 @@
-jsopx.aspnetcore.client

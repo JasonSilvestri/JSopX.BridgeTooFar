@@ -1,1 +1,0 @@
-JSopX.BlazorServerCore.Server

@@ -1,1 +1,0 @@
-Another Razor Class Library focused on reusable UI components. These components can be utilized in various Blazor and ASP.NET Core applications to maintain consistency in the UI.

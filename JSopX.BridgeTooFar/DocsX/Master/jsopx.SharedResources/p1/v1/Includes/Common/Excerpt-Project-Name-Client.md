@@ -1,1 +1,0 @@
-jsopx.sharedresources.client

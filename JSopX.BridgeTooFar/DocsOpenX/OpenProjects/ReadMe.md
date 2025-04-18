@@ -8,7 +8,14 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [**`JSopX™ Projects`**](../OpenProjects/)  · · · [`« Previous`](../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md) [`Next »`](../Introduction/JSopxProjectsFamilies.md)
+> [!TIP]
+>
+> This page contains helpful information custom to Jason Silvestri Open Project EXperiences (JSopX™), not found in any how-to documentation provided by a supported technology.
+>
+
+---
+
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [**`JSopX™ Projects`**](../OpenProjects/)  · · · [`« Previous`](../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../Introduction/JSopxProjectsFamilies.md)
 
 ---
 
@@ -33,9 +40,9 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 ---
 
 ## **Overview**  
-The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
+The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role, each solving one or more business concerns outlined by the business requirements established by our stakeholder. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](#jsopxaspnetcore) to [Angular](#jsopxangularcore), [React](#jsopxreactcore), [Vue](#jsopxvuecore), [Blazor](#jsopxblazorservercore), and [.NET MAUI](#jsopxmauihybridnetcore)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly. 
+By aligning varied frameworks—ranging from [ASP.NET Core](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AspNetCore/README.md) to [Angular](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore/README.md), [Vue](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.VueCore/README.md), [React](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.ReactCore/README.md), [Blazor](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.WebAPI/README.md), [assets](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.RCLxProper/README.md), [documentation](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -45,14 +52,16 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## `JSopX.`OpenProjectX
 
-> [!IMPORTANT]
-> All **JSopX™ Open Project EXperiences** listed _below_, can be found in this unified, **all-in-one** enterprise-level solution. This solution is your best choice if you plan to continue exploration of the suite at an enterprise level. Otherwise, you can explore each project independently.
+> [!TIP]
+> All **JSopX™ Open Project EXperiences** listed _below_, can be found in this unified, **all-in-one** enterprise-level solution. [This Solution](./jsopx.OpenProjectX) is your best choice if you plan to continue exploration of the suite at an enterprise level (_all projects included_). Otherwise, you can explore each project independently.
+
+---
 
 
 - **Version**: **`v 1.0`**   
 
 
-- The **JSopX™ Open Project EXperiences Project** is an unified, **all-in-one** enterprise-level solution orchestrates a broad range of technologies—Asp.NET Core, Blazor, .NET MAUI, Angular, React, Vue, and more—into a cohesive experience. It provides a blueprint for integrating multiple stacks, fostering synergy among client-side and server-side projects.
+- The **JSopX™ Open Project EXperiences Project** is the [flag ship](../Introduction/JSopxProjectsFamilies.md#1-flagship-projects), **all-in-one** enterprise-level solution, which orchestrates a broad range of technologies—Asp.NET Core, Blazor, .NET MAUI, Angular, React, Vue, and more—into a cohesive experience. It provides a blueprint for integrating multiple stacks, fostering synergy among client-side and server-side projects.
 
 - **Explore GitHub**: [JSopX.OpenProjectX](./jsopx.OpenProjectX)
 
@@ -196,7 +205,7 @@ The result is an environment that transforms a patchwork of independent solution
 - **Version**: **`v 1.0`**   
 
 
-- The **JSopX™ RCL x Assets Razor Class Library Project** has evolved from the `SharedResources` Project, this Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
+- The **JSopX™ RCL x Assets Razor Class Library Project** evolves from the `SharedResources` Project, and is now the official _development-ready_ successor (by design). This Razor Class Library manages static assets with a more modern approach. It ensures that all projects benefit from a centralized, easily maintainable asset pipeline.
 
 - **Explore GitHub**: [JSopX.RCLxAssets](./jsopx.RCLxAssets)
 
@@ -209,7 +218,7 @@ The result is an environment that transforms a patchwork of independent solution
 - **Version**: **`v 1.0`**   
 
 
-- The **JSopX™ RCL x Proper Razor Class Library Project** is a production-ready Razor Class Library offering structured components, pages, and views. These can be reused across the JSopX™ environment, simplifying UI consistency and accelerating development.
+- The **JSopX™ RCL x Proper Razor Class Library Project** evolves from the `RCLxAssets` Project, and is now the official _production-ready_ successor (by design). This Razor Class Library offering structured components, pages, and views just like the other RCLs, but super light-weight with just the essentials. These can be reused across the JSopX™ environment, simplifying UI consistency and accelerating development.
 
 - **Explore GitHub**: [JSopX.RCLxProper](./jsopx.RCLxProper)
 
@@ -228,7 +237,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ---
  
- [`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [**`JSopX™ Projects`**](../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxDisciplinesRequiredForEnterpriseDevelopment.md) [`Next »`](../Introduction/JSopxProjectsFamilies.md)
+ [`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [**`JSopX™ Projects`**](../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../Introduction/JSopxProjectsFamilies.md)
 
 ---
 

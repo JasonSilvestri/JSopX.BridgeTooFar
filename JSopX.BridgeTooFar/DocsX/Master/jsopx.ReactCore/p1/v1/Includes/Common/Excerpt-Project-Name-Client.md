@@ -1,1 +1,0 @@
-jsopx.reactcore.client

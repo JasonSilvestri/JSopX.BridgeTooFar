@@ -1,1 +1,0 @@
-https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/README.md

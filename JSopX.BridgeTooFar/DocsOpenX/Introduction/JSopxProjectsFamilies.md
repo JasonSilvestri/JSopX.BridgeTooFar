@@ -8,6 +8,13 @@ By examining the [Overview](#overview), you’ll see how the concept of “Proje
 
 ---
 
+> [!TIP]
+>
+> This page contains helpful information custom to Jason Silvestri Open Project EXperiences (JSopX™), not found in any how-to documentation provided by a supported technology. **More than** a **skim preview** is **recommended**.
+>
+
+---
+
 [`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Families`**  · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
@@ -28,7 +35,11 @@ By examining the [Overview](#overview), you’ll see how the concept of “Proje
 ---
 
 ## **Overview**  
-The JSopX™ Project Families concept tackles the complexity of integrating multiple solutions and frameworks under one organizational umbrella. Instead of dealing with a jumble of projects scattered across different technologies, Project Families group them logically based on their role and function—be it flagship solutions, shared resource libraries, server-side services, or client-side applications. By doing so, developers can quickly understand each project’s place within the ecosystem, streamline decision-making, and simplify long-term maintenance. This structure provides a roadmap from the very start, transforming what could be chaotic growth into a deliberate, well-planned enterprise environment.
+The custom JSopX™ Project Families concept tackles the complexity of integrating multiple solutions and frameworks under one organizational umbrella. Instead of dealing with a jumble of projects scattered across different technologies, Project Families group them logically based on their role and function—be it flagship solutions, shared resource libraries, server-side services, or client-side applications. By doing so, developers can quickly understand each project’s place within the ecosystem, streamline decision-making, and simplify long-term maintenance. This structure provides a roadmap from the very start, transforming what could be chaotic growth into a deliberate, well-planned enterprise environment. 
+
+Best part? It's super simple to understand.
+
+![Jason Silvestri Open Project EXperiences (JSopX™)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/jsopx-splash-screen-aspnet-project-step-1-simulate-markdown.png)
 
 [`Back to Top`](#table-of-contents)
 
@@ -36,7 +47,9 @@ The JSopX™ Project Families concept tackles the complexity of integrating mult
 
 ## **Knowing JSopX™ Visual Studio Project Families**
 
-One unique aspect of JSopX™ is the way its projects and solutions are categorized into unofficial **Project Families**. These categories guide the design and organization of projects before their physical creation in Visual Studio, using official Visual Studio Project Templates:  
+One unique aspect of JSopX™ is the way its projects and solutions are categorized into unofficial **Project Families**. These categories guide the design and organization of projects before their physical creation in Visual Studio, whether we are using official Visual Studio Project Templates or empty projects.
+
+Not knowing about JSopX™ Project Families isn't the end of the world. However, you will see them used in the creaation of work through Lifecycle Phases, Project Checks and Balances and other areas of task grouping and may wonder why.
 
 ---
 

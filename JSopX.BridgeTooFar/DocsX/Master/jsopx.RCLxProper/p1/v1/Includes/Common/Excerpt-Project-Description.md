@@ -1,1 +1,0 @@
-A production-ready, lightweight Razor Class Library project that includes properly structured Razor components, pages, views, and more! These elements can be shared across different Blazor and Razor-based applications.

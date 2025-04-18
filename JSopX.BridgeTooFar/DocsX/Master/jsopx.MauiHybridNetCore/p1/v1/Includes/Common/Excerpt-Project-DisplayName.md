@@ -1,1 +1,0 @@
-JSopX™ Maui Hybrid .Net Core

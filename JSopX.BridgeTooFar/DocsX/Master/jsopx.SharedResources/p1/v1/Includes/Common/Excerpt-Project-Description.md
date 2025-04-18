@@ -1,1 +1,0 @@
-A traditional central Class Library repository for shared resources such as images, fonts, scripts, and localized strings. This project ensures that all other projects have consistent access to these resources in the initial phases of development you'll follow here, supporting both client-side applications and the server-side.

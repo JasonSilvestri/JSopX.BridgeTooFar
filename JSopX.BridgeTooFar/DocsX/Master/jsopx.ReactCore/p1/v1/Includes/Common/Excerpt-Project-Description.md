@@ -1,1 +1,0 @@
-A client-side project built with React. Similar to `JSopX.AngularCore`, it is used to create dynamic, component-based single-page applications.

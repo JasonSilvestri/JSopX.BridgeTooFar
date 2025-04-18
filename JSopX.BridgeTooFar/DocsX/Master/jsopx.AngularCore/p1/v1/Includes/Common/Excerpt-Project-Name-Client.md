@@ -1,1 +1,0 @@
-jsopx.angularcore.client

@@ -1,1 +1,0 @@
-JSopX™ RCL x Assets

@@ -39,19 +39,29 @@ These `Phases` also simplify understanding and enhance readability for developer
 
 ## **Overview**
 
-There is a plethora of factors that go into the creation of an Enterprise-Level Application, from conception to release to market. Conversely, from a developer and/or group of developers' perspective, that entire world becomes razor focused to a particular set of skills that we are masters at without a doubt. Still, it takes dicipline, set standards, and some form of broad-stroke design pattern that can tackle large parts of the development lifecycle and workflow states. I adopted an approach called, `Phases`.
+There is a plethora of factors that go into the creation of an Enterprise-Level Application, from conception to release to market. Conversely, from a developer and/or group of developers' perspective, that entire world becomes razor focused to a particular set of skills that we are masters at without a doubt. Still, it takes dicipline, set standards, and some form of broad-stroke design pattern that can tackle large parts of the development lifecycle and workflow states.
 
 [`Back to Top`](#table-of-contents)
 
 ---
 
-## **Current Lifecycle Phases**
+## **Lifecycle Phases**
 
-There is a plethora of factors that go into the creation of an Enterprise-Level Application, from conception to release to market. Conversely, from a developer and/or group of developers' perspective, that entire world becomes razor focused to a particular set of skills that we are masters at without a doubt. Still, it takes dicipline, set standards, and some form of broad-stroke design pattern that can tackle large parts of the development lifecycle and workflow states. I adopted an approach called, `Phases`.
+There is a plethora of factors that go into the creation of an Enterprise-Level Application, from conception to release to market. Conversely, from a developer and/or group of developers' perspective, that entire world becomes razor focused to a particular set of skills that we are masters at without a doubt. Still, it takes dicipline, set standards, and some form of broad-stroke design pattern that can tackle large parts of the development lifecycle and workflow states.
 
-Using `Phases` effectively is crucial for ensuring developers can quickly understand the purpose and layout of our projects. You can think of `Phases` as Phase Gates, Lifecycles and WorkflowStates which come from the world of PLM (Production Lifecycle Management). 
+Now, if you are unfamilar with [Phases](../Phases/) (also known as, [Lifecycle Phases](../Phases/) and in rare cases, you'll hear me use _PLM Tiles_), you are not alone. 
 
-This guide explores best practices for creating Visual Studio Projects, using many different technologies, to show how standards are created and mantained, introduction to file treesand Git Sub trees, how to extend new and existing project functionality, iterations of "Start from Scratch" and "Final Product" documentation based on Phase. These methods help maintain consistency and clarity, especially in complex enterprise-level ecosystems like JSopX™.
+Long ago, I adopted concepts such _Lifecycles_, _Lifecycle Phases_, _Lifecycle Gates_, _Workflows_, _Workflow States_, etc., from the world of PLM (_Product Lifecycle Management_), an industry where I spent the first 5 years of my professional career, working with Fortune 500 companies as a PLM consultant, integrating giant PLM products into giant business processes. This is before I ever became a developer (_or rather, the reason I spent the next 20 years becoming the developer I am today_).
+
+I am going to do my best not to go off the rails, but it is important for us to touch a little more on this subject before moving on. 
+
+When your projects and applications reach a point where they are handling millions of data artifacts, or perform management of products with millions of working parts, or even if you have a few products with millions of consumers, they will reach a point of evolution that requires a different set of mechanics, development standards, design patterns & process management best practices. Unfortunately, often times a business doesn't even know it until they have outgrown previous iterations of their projects and applications, and in many cases, to a point of decomissioning them entirely, in anticipation their next generation of applications will be robust enough to handle their present day supply and demand business concerns. Even with the best possible outcome, you can expect the finished product to be at least a year behind the latest version of technology used to develop your application(s). Done wrong, you can expect catestrophic failure. What's the worst part? In either case, your business would have spend hundreds of thousands of dollars, even millions, when large parts of what makes these problems could have been avoided. 
+
+So, think of [Lifecycle Phases](../Phases/) as a custom, mini version methodology I developed, which is a consolidation of all PLM concepts mentioned, for use with projects of a few or many applications, where project management methodologies, such as Scrum, Agile & Waterfall still retain their unique approaches to the completion of tasks, while doing large, spiral-development brush strokes of related work, across all projects of a given product suite, all performed in a single phase. Each phase thereafter, succeeds the previous phase, with the same approach, but often with more complexities that generally address larger and larger business concerns.
+
+I used [Lifecycle Phases](../Phases/) to develop the JSopX™ enterprise solution, and all its projects.
+
+This guide explores the Phases and best practices for creating Visual Studio Projects, using many different technologies, to show how standards are created and mantained, and how these methods help maintain consistency and clarity, especially in complex enterprise-level ecosystems like JSopX™.
 
 ---
 

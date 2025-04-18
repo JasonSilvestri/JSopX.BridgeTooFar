@@ -1,1 +1,0 @@
-The successor to `JSopX.SharedResources`, incorporating more modern approaches as a Razor Class Library dedicated to managing a heavy developer environment of all static assets like CSS, JavaScript, etc., including creative and other raw source that makes up the shared resources for all projects. It efficiently bundles and serves these assets across projects.

@@ -1,1 +1,0 @@
-A client-side project built with Vue.js, used for creating reactive, component-driven single-page applications, and integrated seamlessly with Asp.NET Core server-side, Web API and shared resources.
