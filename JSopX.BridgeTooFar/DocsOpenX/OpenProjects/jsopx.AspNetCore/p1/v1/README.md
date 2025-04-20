@@ -24,11 +24,14 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git
 
 ---
 
+![Jason Silvestri Open Project EXperiences (JSopX™) 0. JSopX™ Enterprise Solution Asp.NET Core Splash](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-0.png)
+
 ## Table of Contents  
 
  - [Overview](#overview)
   - [Prerequisites](#prerequisites)
-  - [Getting Started](#getting-started)
+  - [Corequisites](#corequisites)
+  - [Business Concerns Addressed](#business-concerns-addressed)
       - [Step 1: Clone the Repository](#step-1-clone-the-repository)
       - [Step 2: Open the Solution](#step-2-open-the-solution)
       - [Step 3: Configure the Project](#step-3-configure-the-project)
@@ -41,32 +44,23 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git
 
 ---
 
-## Current Phase
+## Overview
 
-> [!NOTE]
->
->**Phases 1**: This document is currently aligned with **[Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md)** Business Requirements. 
-> 
+The **JSopX™ Asp.NET Core Project** is a **FREE**, open-source demonstration project built in Visual Studio, _code named_, `JSopX.AspNetCore`. It showcases the transformation of an existing ASP.NET Core application—complete with its own assets, Web APIs, and standards—into a scalable solution for optimal enterprise application migration.
+
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+
+
+[`Back to Top`](#table-of-contents) 
 
 ---
 
-## Overview
+## Current Phase
 
-The **JSopX™ Asp.Net Core Project**, _code named_, `JSopX.AspNetCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using ASP.NET Core as the ["Existing" Server-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#6-server-side-existing-apps-examples) version of the ["Existing" Client-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples). 
-
-While this ASP.NET Core project often looks and feels like a standard server-side solution, it underpins the security, routing, and scalability principles that define the JSopX™ environment (_you need to start somewhere_). It is for this reason ONLY that we bend the [Rules of Engagement](../../../../Introduction/JSopxRulesOfEngagement.md) I follow just a tad, which are often strictly aligned with the [Business Requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) and [Standards](../../../../Introduction/JSopxRulesOfEngagement.md) that make up the marching orders of the collective JSopX™ enterprise application.
-
-Like the ["Existing" Client-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) projects, we do still initially create the project to simulate an ["Existing" Server-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#6-server-side-existing-apps-examples) Weather Forecast Asp.NET Core application, with its own Web API and existing standards, to conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
-
-As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
-
-The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
-
-By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
-
-The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
-
-[`Back to Top`](#table-of-contents)
+> [!CAUTION]
+>
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md) Business Requirements. 
+> 
 
 ---
 
@@ -74,12 +68,95 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.13.6)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#aspnet-core)
-- [Node.js (v 20.14.0)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#node)
-- [npm (v 10.8.1)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#npm)
-- [Angular CLI (v 18.0.3)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#angular-cli)
+- [Visual Studio (v 17.13.6)](../../../../Technologies/#visual-studio)
+- [.NET Framework (v 9.0.1)](../../../../Technologies/#net-framework)
+- [ASP.NET Core (v 9.0.1)](../../../../Technologies/#aspnet-core)
+
+---
+
+## Corequisites
+
+There are a few resourcees here that strongly align with this content. They should be strictly followed as you go. 
+
+- [Development Standards](../../../../Introduction/JSopxDevelopmentStandards)
+- [Business Requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements)
+
+---
+
+## Business Concerns Addressed
+
+The **JSopX™ Asp.Net Core Project** addresses **several** high-level **business concerns**, not only shown through design patterns and best practices within its own JSopX™ Project ecosystem, but ultimately as it evolves into a valuable project component of the Jason Silvestri Open Project EXperiences (JSopX™) Enterprise Application too. 
+
+While this ASP.NET Core project often looks and feels like a standard server-side solution, it underpins the security, routing, and scalability principles that define the JSopX™ environment.
+
+[`Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
+
+---
+
+## **1. Simulating an Existing Project**:
+
+We initially create the **JSopX™ Asp.NET Core Project** to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#6-server-side-existing-apps-examples) Weather Forecast Asp.NET Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 1. Simulating an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-1.png)
+
+[`Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
+
+---
+
+## **2. Create Our Development Standards**: 
+
+JSopX™ Enterprise application development isn't just about writing code—it's about creating scalable, maintainable, and secure solutions that stand the test of time. This takes a series of disciplines that provide the framework for sustainable success, ensuring every project delivers efficiency, performance, and an exceptional developer experience.
+
+> [!WARNING]
+>
+>The **biggest mistake** _businesses_ and/or their _developers_ make is not following some form of development standards.
+> 
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 2. Create Our Development Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-2.png)
+
+[`Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
+
+---
+
+## **3. Multi-Platform Creative Standards**: 
+
+A visually inconsistent application creates confusion. Every JSopX™ project must maintain standardized UI/UX elements. We quickly design and customize multi-platform, web, desktop & native mobile applications, using Bootstrap v 5.3, which we then extend as we go by creating RCLs (_Razor Class Libraries_). 
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 3. Multi-Platform Creative Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-3.png)
+
+[`Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
+
+---
+
+## **4. Using Object-Oriented Programming**:
+
+Enterprise applications must be **modular**, **reusable**, and **scalable** using **Object-Oriented Programming (OOP)**. 
+
+We create Classes, RCLs, Web APIs, and other Resource Libraries, sharing resources across the JSopX™ ecosystem seamlessly. More rewarding, because we put the work in up front with developing & following standards, developers get to work on cooler things they are more passionate about too, like _Feature Highlights_.
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 4. Using Object-Oriented Programming](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-4.png)
+
+[`Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
+
+---
+
+## **5. We Get to Extend Existing Project**:
+
+As the project evolves through each Lifecycle Phase, we extend the application by creating new user interfaces, such as dashboards, logins, registration, in addition to being able to apply the standardized assets and resources we took the time to develop, implement security and writing documentation a well oiled machine and team relies on, and more!
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 5. We Get to Extend Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-5.png)
+
+[`Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
+
+---
+
+## **6. We Become A Functioning Project of the JSopX™ Enterprise Solution**:
+
+The seamless integration into an enterprise-level application, adopting standardized Web API access, design patterns, and shared resources across the ecosystem.
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 6. We Become A Functioning Project of the JSopX™ Enterprise Solution](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-6.png)
+
+[`Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
 
 ---
 
@@ -89,7 +166,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ---
 
-### 1. **Continue Browsing By-Phase `JSopX.`AspNetCore**:
+### 1. **`Continue` Browsing `JSopX.AspNetCore` Project By-Phase**:
 
 - **[Continue](#step-1-clone-the-repository)** → **Continue** as **you were**, browsing **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.  
 
@@ -97,9 +174,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- **[Install Using Latest](../../../../OpenProjects/jsopx.AspNetCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
-- **[Start From Scratch](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.AspNetCore` _From Scratch_ Variant.
-- **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- [Install Using Latest](../../../../OpenProjects/jsopx.AspNetCore/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
+- [Start From Scratch](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md): **Create project** from scratch, step-by-step, using the `JSopX.AspNetCore` _From Scratch_ Variant.
+- [Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -450,13 +527,13 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Continue** as **you were**, exploring, installing or simply browsing **previous versions** of the application by **phases**. You'll move onto the next project, using the `JSopX.AngularCore` _By-Phase_ Variant.   
+- **[Continue](../../../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Continue** as **you were**, exploring, installing or simply browsing **previous versions** of the application by **phases**. You'll move onto the next project, using the `JSopX.AngularCore` _By-Phase_ Variant.   
 
 ---
 
-1. **[Install Using Latest](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
-2. **[Start From Scratch](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)** → **Create Project**, **step-by-step**, using the `JSopX.AspNetCore` _From Scratch_ Variant.
-3. **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- [Install Using Latest](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
+- [Start From Scratch](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md): **Create Project**, **step-by-step**, using the `JSopX.AspNetCore` _From Scratch_ Variant.
+- [Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
