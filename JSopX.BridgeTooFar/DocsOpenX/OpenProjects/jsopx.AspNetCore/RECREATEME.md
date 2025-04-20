@@ -76,8 +76,8 @@ Be sure each technology is installed, with proper versioning, if your goal is to
 
 There are a few resourcees here that strongly align with this content. They should be strictly followed as you go. 
 
-- [Development Standards](../../Introduction/JSopxDevelopmentStandards)
-- [Business Requirements](../../Introduction/JSopxEnterpriseBusinessRequirements)
+- [Development Standards](../../Introduction/JSopxDevelopmentStandards.md)
+- [Business Requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md)
 
 ---
 
