@@ -94,7 +94,7 @@ The **JSopX™ React Core Project** addresses **several** high-level **business 
 
 ## **1. Simulating an Existing Project**:
 
-We initially create the **JSopX™ React Core Project** to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#6-server-side-existing-apps-examples) Weather Forecast React Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
+We initially create the **JSopX™ React Core Project** to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) Weather Forecast React Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 1. Simulating an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-1.png)
 
