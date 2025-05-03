@@ -74,7 +74,7 @@ Be sure each technology is installed, with proper versioning, if your goal is to
 
 ## Corequisites
 
-There are a few resources here that strongly align with this content. They were strictly followed in the creation of all applications and related content. Still, you should review the resources from time-to-time, especially if you become confused on why I have implemented logic in the way I did. 
+These resources served as the primary references during the development of the applications and related content. I followed them closely throughout, but I recommend revisiting them periodically—especially if you need clarity on any implementation decisions. 
 
 - [Development Standards](../../../../Introduction/JSopxDevelopmentStandards.md)
 - [Business Requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md)
