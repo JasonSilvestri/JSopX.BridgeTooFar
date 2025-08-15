@@ -26,6 +26,7 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 - [React (v 18.2.0)](#react)
 - [Vue (v 3.4.21)](#vue)
 - [Vite (v 5.2.8)](#vite)
+- [Python (v 3.12.3x+)](#python)
 - [Bash (v 5.x+)](#bash)
 - [Powershell (v 7.x+)](#powershell)
 - [Check All Simotaniously (v 1.0)](#check-all-requirements-simotaniously)
@@ -178,6 +179,17 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 
 ---
 
+## Python
+
+- **Version Required**: **`v 3.12.3x+`**
+
+- Used for command-line operations, script building and parsing, initializing projects, and managing dependencies.
+- **Explore GitHub**: [Python (v 3.12.3x+)](./Python.md)
+
+[`Back to Top`](#table-of-contents)
+
+---
+
 ## Bash
 
 - **Version Required**: **`v 5.x+`**
@@ -188,6 +200,7 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 [`Back to Top`](#table-of-contents)
 
 ---
+
 
 ## **Powershell**
 
