@@ -66,7 +66,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.ReactCore` Project.
 
-- [Visual Studio (v 17.13.6)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
+- [Visual Studio (v 17.14.11)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
 - [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#net-framework)
 - [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#node)
@@ -248,7 +248,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.ReactCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.13.6)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.ReactCore.sln`.
 
 [`Back to Top`](#table-of-contents)
