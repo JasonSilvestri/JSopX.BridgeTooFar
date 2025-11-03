@@ -39,7 +39,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](#jsopxaspnetcore) to
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -56,7 +56,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.OpenProjectX](../../../../../OpenProjects/jsopx.OpenProjectX)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -69,7 +69,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.AngularCore](../../../../../OpenProjects/jsopx.AngularCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -82,7 +82,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.ReactCore](../../../../../OpenProjects/jsopx.ReactCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -95,7 +95,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.VueCore](../../../../../OpenProjects/jsopx.VueCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -108,7 +108,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.AspNetCore](../../../../../OpenProjects/jsopx.AspNetCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -121,7 +121,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.BlazorServerCore](../../../../../OpenProjects/jsopx.BlazorServerCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -134,7 +134,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.MauiHybridNetCore](../../../../../OpenProjects/jsopx.MauiHybridNetCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -148,7 +148,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.BridgeTooFar](../../../../../OpenProjects/jsopx.BridgeTooFar)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -161,7 +161,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.ClassLibrary](../../../../../OpenProjects/jsopx.ClassLibrary)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -174,7 +174,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.WebAPI](../../../../../OpenProjects/jsopx.WebAPI)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -187,7 +187,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.SharedResources](../../../../../OpenProjects/jsopx.SharedResources)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -200,7 +200,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.RCLxAssets](../../../../../OpenProjects/jsopx.RCLxAssets)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -213,7 +213,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 - **Explore GitHub**: [JSopX.RCLxProper](../../../../../OpenProjects/jsopx.RCLxProper)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -228,7 +228,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ---
  
- [`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
+ [`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
 
 ---
 

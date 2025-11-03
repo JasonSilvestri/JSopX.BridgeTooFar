@@ -83,7 +83,7 @@ Here's a breakdown of the most commonly supported types:
 | Go            | `go`              | ```` ```go ``` ```` | [Go Code Example](#go-code-example)                 |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -96,7 +96,7 @@ Here's a breakdown of the most commonly supported types:
 | SVG           | `svg`             | ```` ```svg  ``` ```` | [SVG Code Example](#svg-code-example)               |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -112,7 +112,7 @@ Here's a breakdown of the most commonly supported types:
 | GraphQL          | `graphql`         | ```` ```graphql ``` ```` | [GraphQL Code Example](#graphql-code-example)       |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -126,7 +126,7 @@ Here's a breakdown of the most commonly supported types:
 | Shell         | `sh` / `shell`    | ```` ```sh ``` ```` | [Shell Code Example](#shell-code-example)           |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -139,7 +139,7 @@ Here's a breakdown of the most commonly supported types:
 | LESS          | `less`            | ```` ```less ``` ```` | [LESS Code Example](#less-code-example)             |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -152,7 +152,7 @@ Here's a breakdown of the most commonly supported types:
 | Text         | `text`            | ```` ```text ``` ```` | [Text Code Example](#text-code-example)             |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -165,7 +165,7 @@ Here's a breakdown of the most commonly supported types:
 | Vue.js         | `vue`             | ```` ```vue ``` ```` | [Vue Code Example](#vue-code-example)               |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -178,7 +178,7 @@ Here's a breakdown of the most commonly supported types:
 | Makefile      | `makefile`        | ```` ```makefile  ``` ```` | [Makefile Code Example](#makefile-code-example)     |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -193,7 +193,7 @@ The code laguages we currently support are as follows:
 document.getElementById("example").innerHTML = "Hello, JSopX™!";
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -212,7 +212,7 @@ async function fetchUser(id: number): Promise<User> {
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -228,7 +228,7 @@ def fibonacci(n):
 print([fibonacci(x) for x in range(10)])
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -246,7 +246,7 @@ foreach (var number in evenNumbers) {
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -261,7 +261,7 @@ public class HelloWorld {
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -277,7 +277,7 @@ $user = [
 echo "Hello, " . $user['name'] . "!";
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -290,7 +290,7 @@ squares = numbers.map { |n| n * n }
 puts squares
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -315,7 +315,7 @@ func main() {
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -330,7 +330,7 @@ func main() {
 </form>
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -345,7 +345,7 @@ func main() {
 </config>
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -358,7 +358,7 @@ func main() {
 </svg>
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -374,7 +374,7 @@ func main() {
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -387,7 +387,7 @@ app:
   environment: Production
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -400,7 +400,7 @@ name = "JSopX™"
 version = "1.0.0"
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -411,7 +411,7 @@ version = "1.0.0"
 SELECT * FROM Users WHERE IsActive = 1;
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -427,7 +427,7 @@ query {
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -439,7 +439,7 @@ query {
 ls -la
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -450,7 +450,7 @@ ls -la
 Get-Process | Where-Object { $_.CPU -gt 100 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -462,7 +462,7 @@ Get-Process | Where-Object { $_.CPU -gt 100 }
 echo "Hello, JSopX™!"
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -479,7 +479,7 @@ echo "Hello, JSopX™!"
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -495,7 +495,7 @@ echo "Hello, JSopX™!"
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -511,7 +511,7 @@ echo "Hello, JSopX™!"
 }
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -523,7 +523,7 @@ id,name,email
 2,Jane Doe,jane@example.com
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -536,7 +536,7 @@ id,name,email
 - **Feature 2**: Code Snippet Examples
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -546,7 +546,7 @@ id,name,email
 Hello, this is a plain text file with no formatting.
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -561,7 +561,7 @@ Hello, this is a plain text file with no formatting.
 export class AppComponent {}
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -575,7 +575,7 @@ function App() {
 export default App;
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -593,7 +593,7 @@ export default {
 </script>
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -604,7 +604,7 @@ export default {
 + const newValue = 10;
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -620,7 +620,7 @@ CMD ["npm", "start"]
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -634,7 +634,7 @@ build:
 
 ---
 
-[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaDocumentSectionDesignPatterns.md)
+[`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Introduction/) » [`Design Patterns`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/DesignPatterns/JSopxNovaDocumentSectionDesignPatterns.md)
 
 ---
 

@@ -71,7 +71,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProj
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -79,11 +79,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.0.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-maui-hybrid)
+- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.2.1)](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-maui-hybrid)
 
 ---
 
@@ -112,7 +112,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate an existing MAUI Hybrid app with weather data, Identity, and JWT already in place.
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure the .NET 9.0 SDK is installed (`dotnet --list-sdks`).
 
 2. **Create the Project**:
@@ -122,7 +122,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.MauiHybridNetCore`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.MauiHybridNetCore`.
      - Solution Name: `JSopX.MauiHybridNetCore`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
@@ -289,7 +289,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Register a user via a tool like Postman (`POST /api/auth/register`), then log in at `/login`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -352,7 +352,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Run and verify historical temps show up.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -422,7 +422,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 5. **Test**: Requires IdentityServer setup (coming in `JSopX.AspNetCore`).
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -445,7 +445,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 3. **Test**: Run both projects, ensure data pulls from `JSopX.WebAPI`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -481,7 +481,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 3. **Test**: Verify login from RCL and icons from shared library work.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -502,7 +502,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
 
 ---
 

@@ -4,7 +4,7 @@
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDevelopmentStandards.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDevelopmentStandards.md)
 
 ---
 
@@ -31,7 +31,7 @@ More importantly, JSopX™ represents a blueprint for integrating multiple, dive
 
 The goal is to unify these applications through consistent project structures, shared design assets, centralized APIs, and robust best practices, all while maintaining flexibility and scalability. In essence, JSopX™ provides a reference point to streamline development, reduce friction, and ensure that no matter the starting point, each project can align with a common vision.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -41,7 +41,7 @@ In today’s fast-evolving landscape of web, desktop, and mobile development, bu
 
 The **Jason Silvestri Open Project EXperiences (JSopX™)** Collection is a bold, **free**, and **open-source** initiative designed to tackle these challenges head-on. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -56,7 +56,7 @@ JSopX™ offers a comprehensive set of enterprise-grade projects, each meticulou
 - **Platform Fragmentation**: Inconsistent UIs and functionality across web, desktop, and mobile platforms create confusion. JSopX™ uses Razor Components and .NET MAUI Hybrid to ensure seamless, responsive experiences everywhere.
 - **Lack of Standards**: Without a unified approach, projects spiral into chaos. JSopX™ provides a blueprint for disciplined development, from source control to lifecycle management, fostering accountability and long-term success.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -80,7 +80,7 @@ Designed as an enterprise-level solution, JSopX™ provides a responsive web exp
 
 Why should developers and organizations embrace JSopX™? Because it’s more than a collection of projects—it’s a movement to elevate development practices. JSopX™ is **freely accessible**, with no proprietary dependencies or hidden costs, making it a resource for the entire community to fork, extend, and improve. Whether you’re a solo developer seeking to sharpen your skills or an enterprise aiming to standardize your workflows, JSopX™ equips you with the tools, examples, and standards to build better software. Join us in beating to the same drum—adopt JSopX™ and transform the way you develop, one project at a time.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -88,7 +88,7 @@ Why should developers and organizations embrace JSopX™? Because it’s more th
 
 The journey towards building secure and effective applications starts with compromise and collaboration. Developers often choose technologies based on their comfort zones, sometimes ignoring best practices and security implications. It's time to bridge this gap by working together and compromising where necessary.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -96,7 +96,7 @@ The journey towards building secure and effective applications starts with compr
 
 While it’s easy to blame companies or individual developers for security breaches, the responsibility lies with all of us. Whether it’s the company allowing vulnerabilities to occur or developers choosing the easy path, we must all take responsibility and act on it. Producing secure applications is a collective effort, and even then, we must acknowledge that there are always hackers better than us. However, this doesn’t mean we leave my applications vulnerable.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -105,7 +105,7 @@ While it’s easy to blame companies or individual developers for security breac
 To ensure we do the right thing, we must engage in regular peer reviews. By sharing these projects for free, we encourage others to review my work, hold us accountable, and question my approaches. This collaborative spirit will help us improve my practices and build more secure applications.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -122,7 +122,7 @@ But let’s be clear—this isn’t just about creating yet another Angular, Rea
 
 Most importantly, all of this is attainable *and* imperative to deliver on your stakeholders’ perfectly reasonable expectation that their significant investment results in something seamless, powerful, and—dare we say—magical.
 
-[`Back to Top`](#table-of-contents) 
+[`⇧ Back to Top`](#table-of-contents) 
 
 ---
 
@@ -137,7 +137,7 @@ Ultimately, the impact is a more resilient, scalable, and maintainable ecosystem
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDevelopmentStandards.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./Alerts.md) [`Next »`](./JSopxDevelopmentStandards.md)
 
 ---
 

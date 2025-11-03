@@ -66,9 +66,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.ReactCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#node)
 - [npm (v 10.8.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#npm)
 - [React (v 18.2.0)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies#react)
@@ -88,7 +88,7 @@ These resources served as the primary references during the development of the a
 
 The **JSopX™ React Core Project** addresses **several** high-level **business concerns**, not only shown through design patterns and best practices within its own JSopX™ Project ecosystem, but ultimately as it evolves into a valuable project component of the Jason Silvestri Open Project EXperiences (JSopX™) Enterprise Application too. 
 
-[`Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
 
 ---
 
@@ -98,7 +98,7 @@ We initially create the **JSopX™ React Core Project** to simulate an ["Existin
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 1. Simulating an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-1.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
 
 ---
 
@@ -113,7 +113,7 @@ JSopX™ Enterprise application development isn't just about writing code—it's
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 2. Create Our Development Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-2.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
 
 ---
 
@@ -123,7 +123,7 @@ A visually inconsistent application creates confusion. Every JSopX™ project mu
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 3. Multi-Platform Creative Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-3.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
 
 ---
 
@@ -135,7 +135,7 @@ We create Classes, RCLs, Web APIs, and other Resource Libraries, sharing resourc
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 4. Using Object-Oriented Programming](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-4.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
 
 ---
 
@@ -145,7 +145,7 @@ As the project evolves through each Lifecycle Phase, we extend the application b
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 5. We Get to Extend Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-5.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
 
 ---
 
@@ -155,7 +155,7 @@ The seamless integration into an enterprise-level application, adopting standard
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 6. We Become A Functioning Project of the JSopX™ Enterprise Solution](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-6.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
 
 ---
 
@@ -205,7 +205,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -223,7 +223,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -240,7 +240,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -248,10 +248,10 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.ReactCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.ReactCore.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -273,7 +273,7 @@ Ensure `JSopX.ReactCore` Project dependencies are restored:
    ```
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -285,7 +285,7 @@ Verify that all NuGet packages are up to date:
    dotnet restore
    ```
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -310,7 +310,7 @@ Assuming the `JSopX.ReactCore` Project is running as expected, **you are now don
 2. **Conclude Remaining Steps**:
    - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -348,7 +348,7 @@ JSopX.ReactCore/                        # Root JSopX.ReactCore Visual Studio Sol
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -391,7 +391,7 @@ JSopX.ReactCore/                          # Root JSopX.ReactCore Visual Studio S
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -470,7 +470,7 @@ A table structure of the same with no tree legs `JSopX.ReactCore` Project, files
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`appsettings.json`&nbsp;                 | Configuration file for application settings like connection strings. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -504,7 +504,7 @@ The `JSopX.ReactCore` Project has the following `JSopX` Project Dependencies:
    - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -555,7 +555,7 @@ Although the `JSopX.ReactCore` project is primarily designed as a self-contained
    }
    ```
  
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -587,7 +587,7 @@ Although the `JSopX.ReactCore` project is primarily designed as a self-contained
    }
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -607,7 +607,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.ReactCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AngularCore/) [`Next »`](../../OpenProjects/jsopx.VueCore/)
+[`Home`](../../OpenProjects/jsopx.ReactCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AngularCore/) [`Next »`](../../OpenProjects/jsopx.VueCore/)
 
 ---
 

@@ -70,7 +70,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -78,10 +78,10 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.BlazorServerCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.0.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-core-blazor)
+- [Visual Studio (v 17.14.19)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-core-blazor)
 
 ---
 
@@ -109,7 +109,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate an existing Blazor Server app with weather data, Identity, and JWT already in place.
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Confirm .NET 9.0 SDK is installed.
 
 
@@ -120,7 +120,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.BlazorServerCore`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.BlazorServerCore`.
      - Solution Name: `JSopX.BlazorServerCore`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 
@@ -256,7 +256,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Register via `/Identity/Account/Register`, log in, and hit `/weather` to see data (requires auth).
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -306,7 +306,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Reload `/weather` and verify historical data appears.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -358,7 +358,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Requires IdentityServer setup (coming in `JSopX.AspNetCore`).
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -379,7 +379,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 3. **Test**: Run with `JSopX.WebAPI` and verify data pulls correctly.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -399,7 +399,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 3. **Test**: Verify weather page loads with icons.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -419,7 +419,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BlazorServerCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BlazorServerCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
 
 ---
 

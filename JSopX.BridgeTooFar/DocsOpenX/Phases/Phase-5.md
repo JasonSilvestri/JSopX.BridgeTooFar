@@ -24,7 +24,7 @@
 We all know where we are: we are in the End Game now.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -49,7 +49,7 @@ We all know where we are: we are in the End Game now. The purpose of Project Dev
    - Test the communication between the frontend projects and the Web API project.
    - Debug any issues that arise during development.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -57,7 +57,7 @@ We all know where we are: we are in the End Game now. The purpose of Project Dev
 
    - Deploy the Web API project and frontend projects to the desired hosting environment. Ensure that all projects are configured correctly for production.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -65,11 +65,11 @@ We all know where we are: we are in the End Game now. The purpose of Project Dev
 
    - Set up CI/CD pipelines to automate the build and deployment process for your solution.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 5`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-4.md) [`Next »`](../OpenProjects/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 5`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-4.md) [`Next »`](../OpenProjects/)
 
 ---
 

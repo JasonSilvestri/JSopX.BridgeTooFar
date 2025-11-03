@@ -28,7 +28,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../OpenProjects/jsop
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, however, how Visual Studio projects are managed in the overall enterprise solution is somewhat unique, due to the business requirements on the GitHub repositories. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -44,15 +44,15 @@ See, [JSopX Visual Studio Project Management using GitHub, Git Subtrees & Visual
 
 There has been some brainstorming, but nothing I want to introduce into all phases of the first versions of projects are completed.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## Adding Visual Studio Solutions to a Parent Solution
 
-In Visual Studio (e.g., v17.14.11), you can't directly add one `.sln` file to another, but you can include projects from sub-solutions into a parent solution like `OpenProjectX.sln`. Below are the best approaches, considering a folder structure where each solution has its own parent folder and projects live in subfolders (e.g., `JSopX.WebAPI/JSopX.WebAPI.csproj`).
+In Visual Studio (e.g., v17.14.19), you can't directly add one `.sln` file to another, but you can include projects from sub-solutions into a parent solution like `OpenProjectX.sln`. Below are the best approaches, considering a folder structure where each solution has its own parent folder and projects live in subfolders (e.g., `JSopX.WebAPI/JSopX.WebAPI.csproj`).
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -89,7 +89,7 @@ JSopX.AngularCore/
 ```
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -108,7 +108,7 @@ Add all projects to `OpenProjectX.sln` and use solution filters (`.slnf`) for fl
 - Keeps sub-solutions independent.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -137,7 +137,7 @@ Use **Option 1** for simplicity and compatibility with GitHub subtrees. Ensure d
 
 ---
  
- [`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [**`JSopX™ Projects`**](../OpenProjects/)  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../Introduction/JSopxProjectsFamilies.md)
+ [`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [**`JSopX™ Projects`**](../OpenProjects/)  · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../Introduction/JSopxProjectsFamilies.md)
 
 ---
 

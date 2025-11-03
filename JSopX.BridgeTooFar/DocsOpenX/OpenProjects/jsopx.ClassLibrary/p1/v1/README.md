@@ -62,9 +62,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring just the `JSopX.ClassLibrary` Project.
 
-- [Visual Studio (v 17.14.11)](../../../../Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../../../Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../../../Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](../../../../Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../../../Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../../../Technologies/#aspnet-core)
 
 ---
 
@@ -114,7 +114,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -132,7 +132,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -149,7 +149,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -157,10 +157,10 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.ClassLibrary` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.11)](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.ClassLibrary.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -181,7 +181,7 @@ Ensure `JSopX.ClassLibrary` Project dependencies are restored:
  npm install
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -193,7 +193,7 @@ Verify that all NuGet packages are up to date:
  dotnet restore
 ```
       
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -218,7 +218,7 @@ Assuming the `JSopX.BridgeTooFar` Project is running as expected, **you are now 
 2. **Conclude Remaining Steps**:
    - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -252,7 +252,7 @@ JSopX.ClassLibrary/                 # Root JSopX.ClassLibrary Visual Studio Solu
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -276,7 +276,7 @@ JSopX.ClassLibrary/                          # Root JSopX™ Class Library Proje
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -296,7 +296,7 @@ A table structure of the same `JSopX.ClassLibrary` Project, files and resources.
 | &nbsp;├&nbsp;📁&nbsp;**JSopX.ClassLibrary/**&nbsp;            | ASP.NET Core server-side application folder.                               |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.ClassLibrary.csproj`&nbsp; | Asp.NET Core Visual Studio Server Project `.csproj` configuration file.                                 |
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -354,7 +354,7 @@ The **`JSopX.ClassLibrary` Project** is one of the highest-level resource librar
     - A **Vue Core** [Client-Side “Existing” Apps Examples](../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) created to simulate an existing Vue Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
     - **Explore GitHub**: [JSopX.VueCore](../../../../OpenProjects/jsopx.VueCore)
   
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -367,7 +367,7 @@ The **`JSopX.ClassLibrary` Project** is one of the highest-level resource librar
    - Select **Add** > **Project Reference**.
    - Check `JSopX.ClassLibrary` and click **OK**.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -400,7 +400,7 @@ The **`JSopX.ClassLibrary` Project** is one of the highest-level resource librar
       <link rel="stylesheet" href="@($"{env.WebRootPath}/doc-assets/css/style.css")">
      ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -429,7 +429,7 @@ The **`JSopX.ClassLibrary` Project** is one of the highest-level resource librar
       <link rel="stylesheet" href="assets/doc-assets/css/style.css">
      ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -462,7 +462,7 @@ The **`JSopX.ClassLibrary` Project** is one of the highest-level resource librar
       </template>
       ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -501,7 +501,7 @@ The **`JSopX.ClassLibrary` Project** is one of the highest-level resource librar
       export default App;
      ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -521,7 +521,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ClassLibrary/README.md) · `By-Phase` · [`From Scratch`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/)
+[`Home`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ClassLibrary/README.md) · `By-Phase` · [`From Scratch`](../../../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/)
 
 ---
 

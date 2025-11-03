@@ -6,7 +6,7 @@ By following this guide, you’ll verify that all required technologies are inst
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **`Check All Versions`** · · · [`« Previous`](./ReadMe.md) [`Next »`](./VisualStudio.md)
+[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) »  [`Technologies`](./ReadMe.md) » **`Check All Versions`** · · · [`« Previous`](./ReadMe.md) [`Next »`](./VisualStudio.md)
 
 ---
 
@@ -37,11 +37,11 @@ If you want a quick overview of all technology versions using a command-line int
 
 | **Technology**           | **Version**   | **Check Command**                      | **Detailed Guide** |
 |:-------------------------|:--------------|:-----------------------------------------|:--------------------|
-| Visual Studio            | `v 17.14.11`   | _Manual check required_                | [Visual Studio](#visual-studio) |
-| .NET Framework           | `v 9.0.1`     | `dotnet --list-sdks`                   | [.NET Framework](#net-framework) |
-| ASP.NET Core             | `v 9.0.1`     | `dotnet --version`                     | [ASP.NET Core](#aspnet-core) |
-| .NET Core Blazor         | `v 9.0.1`     | `dotnet --list-sdks`                   | [Blazor](#net-core-blazor) |
-| .NET Core MAUI           | `v 9.0.1`     | `dotnet --list-sdks`                   | [.NET MAUI](#net-core-maui-hybrid) |
+| Visual Studio            | `v 17.14.19`   | _Manual check required_                | [Visual Studio](#visual-studio) |
+| .NET Framework           | `v 9.2.1`     | `dotnet --list-sdks`                   | [.NET Framework](#net-framework) |
+| ASP.NET Core             | `v 9.2.1`     | `dotnet --version`                     | [ASP.NET Core](#aspnet-core) |
+| .NET Core Blazor         | `v 9.2.1`     | `dotnet --list-sdks`                   | [Blazor](#net-core-blazor) |
+| .NET Core MAUI           | `v 9.2.1`     | `dotnet --list-sdks`                   | [.NET MAUI](#net-core-maui-hybrid) |
 | Node.js                  | `v 20.14.0`   | `node -v`                              | [Node.js](#nodejs) |
 | npm                      | `v 10.8.1`    | `npm -v`                               | [npm](#npm) |
 | Angular CLI              | `v 18.0.3`    | `ng version`                           | [Angular CLI](#angular-cli) |
@@ -51,7 +51,7 @@ If you want a quick overview of all technology versions using a command-line int
 | Bash                     | `v 5.x+`      | `bash --version`                       | [Bash](#bash) |
 | PowerShell               | `v 7.x+`      | `$PSVersionTable.PSVersion`            | [PowerShell](#powershell) |
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -67,14 +67,14 @@ As you go, use `« Previous` and `Next »` to quickly navigate to the previous o
 
 **Purpose:** Checks the installed [`Visual Studio`](./VisualStudio.md) version.
 
-- **Version:** `v 17.14.11`  
+- **Version:** `v 17.14.19`  
 - **Verification:**
   - Open Visual Studio.
   - Navigate to **Help > About Microsoft Visual Studio**.
   - Confirm the version is correct.
   - Alternatively, check via **Visual Studio Installer** under the **Installed** tab.
 
-[`« Previous`](#table-of-contents) [`Next »`](#net-framework) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#table-of-contents) [`Next »`](#net-framework) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -91,7 +91,7 @@ dotnet --list-sdks
 9.0.100 [C:\Program Files\dotnet\sdk]
 ```
 
-[`« Previous`](#visual-studio) [`Next »`](#aspnet-core) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#visual-studio) [`Next »`](#aspnet-core) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -107,7 +107,7 @@ dotnet --version
 9.0.1
 ```
 
-[`« Previous`](#net-framework) [`Next »`](#net-core-blazor) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#net-framework) [`Next »`](#net-core-blazor) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -123,7 +123,7 @@ dotnet --list-sdks
 9.0.100 [C:\Program Files\dotnet\sdk]
 ```
 
-[`« Previous`](#aspnet-core) [`Next »`](#net-core-maui-hybrid) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#aspnet-core) [`Next »`](#net-core-maui-hybrid) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -139,7 +139,7 @@ dotnet --list-sdks
 9.0.100 [C:\Program Files\dotnet\sdk]
 ```
 
-[`« Previous`](#net-core-blazor) [`Next »`](#nodejs) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#net-core-blazor) [`Next »`](#nodejs) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -156,7 +156,7 @@ node -v
 v20.14.0
 ```
 
-[`« Previous`](#net-core-maui-hybrid) [`Next »`](#npm) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#net-core-maui-hybrid) [`Next »`](#npm) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -174,7 +174,7 @@ npm -v
 ```
 
 
-[`« Previous`](#nodejs) [`Next »`](#angular-cli) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#nodejs) [`Next »`](#angular-cli) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -190,7 +190,7 @@ ng version
 Angular CLI: 18.0.3
 ```
 
-[`« Previous`](#npm) [`Next »`](#react) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#npm) [`Next »`](#react) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -208,7 +208,7 @@ react@18.2.0
 ```
 
 
-[`« Previous`](#angular-cli) [`Next »`](#vue) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#angular-cli) [`Next »`](#vue) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -225,7 +225,7 @@ npm list vue
 vue@3.4.21
 ```
 
-[`« Previous`](#react) [`Next »`](#vite) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#react) [`Next »`](#vite) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -241,7 +241,7 @@ npm list vite
 vite@5.2.8
 ```
 
-[`« Previous`](#vue) [`Next »`](#bash) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#vue) [`Next »`](#bash) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -257,7 +257,7 @@ bash --version
 GNU bash, version 5.x
 ```
 
-[`« Previous`](#vite) [`Next »`](#powershell) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#vite) [`Next »`](#powershell) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -275,7 +275,7 @@ Major  Minor  Patch
 7      x      x
 ```
 
-[`« Previous`](#bash) · · · [`Back to Top`](#table-of-contents)
+[`« Previous`](#bash) · · · [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -289,7 +289,7 @@ Choose the script that fits your environment:
 - **[PowerShell](./CheckingAllJSopxTechnologyRequirements.md#32-powershell-script-for-windows-users)** → Best for **Windows** users.  
 - **[Node.js](./CheckingAllJSopxTechnologyRequirements.md#33-nodejs-script)** → A lightweight option for developers using **JavaScript-based workflows**.  
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -321,7 +321,7 @@ echo "=== Check Complete ==="
    bash check-jsopx-versions.sh
    ```
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -351,7 +351,7 @@ Write-Output "=== Check Complete ==="
    .\check-jsopx-versions.ps1
    ```
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -394,7 +394,7 @@ console.log("=== Check Complete ===");
    node check-jsopx-versions.js
    ```
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -405,7 +405,7 @@ console.log("=== Check Complete ===");
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **`Check All Versions`** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./ReadMe.md) [`Next »`](./VisualStudio.md)
+[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) »  [`Technologies`](./ReadMe.md) » **`Check All Versions`** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./ReadMe.md) [`Next »`](./VisualStudio.md)
 
 ---
 

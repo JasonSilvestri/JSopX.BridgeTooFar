@@ -67,17 +67,17 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.11)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.14.19)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -105,7 +105,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Build a shared utility library with properties and helpers (e.g., cryptography, JWT utilities).
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
@@ -115,7 +115,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.ClassLibrary`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.ClassLibrary`.
      - Solution Name: `JSopX.ClassLibrary`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 3. **Set Up Initial Utilities**:
@@ -189,7 +189,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - No runtime test yet—meant for referencing.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -212,7 +212,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Build and ensure no errors.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -256,7 +256,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Build—runtime testing happens in referencing projects.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -265,7 +265,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 **Goal**: N/A—pure utility library, no API dependency.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -286,7 +286,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Build solution after referencing.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -306,7 +306,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ClassLibrary/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ClassLibrary/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md)
 
 ---
 

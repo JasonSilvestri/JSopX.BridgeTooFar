@@ -8,20 +8,22 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » **[`JSopX™ Technology Requirements`](./ReadMe.md)** · · · [`« Previous`](../../../../../Introduction/JSopxProjectChecksBalances.md) [`Next »`](../../../../../Phases/)
+[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) »  **[`JSopX™ Technology Requirements`](./ReadMe.md)** · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectChecksBalances.md) [`Next »`](../Phases/)
 
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Visual Studio (v 17.14.11)](#visual-studio)
-- [.NET Framework (v 9.0.1)](#net-framework)
-- [ASP.NET Core (v 9.0.1)](#aspnet-core)
-- [.NET Core Blazor (v 9.0.1)](#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.0.1)](#net-core-maui-hybrid)
+- [**Windows (v 10+)**](#windows)
+- [Visual Studio (v 17.14.19)](#visual-studio)
+- [.NET Framework (v 9.2.1)](#net-framework)
+- [ASP.NET Core (v 9.2.1)](#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.2.1)](#net-core-maui-hybrid)
 - [Node (v 20.14.0)](#node)
 - [npm (v 10.8.1)](#npm)
+- [Bootstrap (v 5.3.8)](#bootstrap)
 - [Angular CLI (v 18.0.3)](#angular-cli)
 - [React (v 18.2.0)](#react)
 - [Vue (v 3.4.21)](#vue)
@@ -29,7 +31,7 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 - [Python (v 3.12.3x+)](#python)
 - [Bash (v 5.x+)](#bash)
 - [Powershell (v 7.x+)](#powershell)
-- [Check All Requirements Simotaniously](#check-all-requirements-simotaniously)
+- [Check All Simotaniously (v 1.0)](#check-all-requirements-simotaniously)
 
 ---
 
@@ -38,78 +40,92 @@ JSopX™ relies on a carefully curated stack of technologies, each chosen to ens
 
 From development frameworks like ASP.NET Core to front-end build tools such as Angular CLI and Vite, each plays a vital role in creating a unified and powerful ecosystem. By adhering to these requirements, you’ll eliminate friction and maximize productivity.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## Windows
+
+> [!TIP]
+> **Asp.NET Core**, the **.NET Framework**, and my **Visual Studio** projects are specifically designed for **cross-platform** environments, including **Windows, macOS, and Linux**.
+
+---
+
 - **Version Required**: `v 10`
-- **Platform Compatibility**: JSopX™ projects' ability to work across Windows, Mac, and Linux, but the recommendation to primarily code on Windows (v 10 Pro).
-- **Backward Compatibility**: Acknowledging that JSopX™ projects have worked on Windows (v 8) but recommending staying current with Windows (v 10).
 
+- Various **_hidden characters_**, **_encodings_**, and **_line endings_** can creep into the files, especially when working across different operating systems, and using scripting technologies like `Python`, `Powershell`, `Node`, etc. 
+  
+  **It is these operations that introduce inconsistencies that lead to build failures, runtime errors, or unexpected behavior.**
 
-[`Back to Top`](#table-of-contents)
+-  **To avoid conflicts**, run all scripts on **Windows 10+**  
+- **CRLF** enforced by `normalizing` tools whenever possible.  
+- **Encoding**: UTF-8 without BOM encoding enforced
+- **.gitattributes**: enforce CRLF, protect binaries
+
+- **Read More**: [Windows (v 10+)](./Windows.md)
+
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## Visual Studio
 
 > [!TIP]
-> Hypothetically speaking, if you start by installing/updating **Visual Studio (v 17.14.11)**, and choose your options carefully, you could retrieve most (_if not all_) remaining required stacks listed below. 
+> Hypothetically speaking, if you start by installing/updating **Visual Studio (v 17.14.19)**, and choose your options carefully, you could retrieve most (_if not all_) remaining required stacks listed below. 
 
 ---
 
-- **Version Required**: **`17.14.11`**
+- **Version Required**: **`17.14.19`**
 
 - JSopX™ projects require Visual Studio to build and manage solutions efficiently.
 - Ensure you have all necessary workloads installed, including ASP.NET and web development, desktop development with .NET, and Azure development.
-- **Explore GitHub**: [Visual Studio (v 17.14.11)](./VisualStudio.md)
+- **Read More**: [Visual Studio (v 17.14.19)](./VisualStudio.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## .NET Framework
 
-- **Version Required**: **`v 9.0.1`**
+- **Version Required**: **`v 9.2.1`**
 
 - Used for building server-side logic and managing shared libraries.
-- **Explore GitHub**: [.NET Framework (v 9.0.1)](./NetFrameworkSdk.md)
+- **Read More**: [.NET Framework (v 9.2.1)](./NetFrameworkSdk.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## ASP.NET Core
 
-- **Version Required**: **`v 9.0.1`**
+- **Version Required**: **`v 9.2.1`**
 
 - Powers the backends of many JSopX™ projects, providing the security, routing, and scalability features needed for enterprise-level applications.
-- **Explore GitHub**: [ASP.NET Core (v 9.0.1)](./AspNetCore.md)
+- **Read More**: [ASP.NET Core (v 9.2.1)](./AspNetCore.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## .NET Core Blazor
 
-- **Version Required**: **`v 9.0.1`**
+- **Version Required**: **`v 9.2.1`**
 
 - Enables the development of interactive web UIs, integrating seamlessly with other JSopX™ technologies.
-- **Explore GitHub**: [.NET Core Blazor (v 9.0.1)](./NetCoreBlazor.md)
+- **Read More**: [.NET Core Blazor (v 9.2.1)](./NetCoreBlazor.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## .Net Core Maui Hybrid
 
-- **Version Required**: **`v 9.0.1`**
+- **Version Required**: **`v 9.2.1`**
 
 - Combines Razor components with .NET MAUI to create cross-platform applications.
-- **Explore GitHub**: [.Net Core Maui Hybrid (v 9.0.1)](./NetCoreMauiHybrid.md)
+- **Read More**: [.Net Core Maui Hybrid (v 9.2.1)](./NetCoreMauiHybrid.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -118,9 +134,9 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 - **Version Required**: **`v 20.14.0`**
 
 - Facilitates package management and JavaScript tooling, integral to JSopX™ front-end projects.
-- **Explore GitHub**: [Node (v 20.14.0)](./Node.md)
+- **Read More**: [Node (v 20.14.0)](./Node.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -129,20 +145,30 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 - **Version Required**: **`v 10.8.1`**
 
 - Manages dependencies and scripts for JavaScript frameworks such as Angular, React, and Vue.
-- **Explore GitHub**: [npm (v 10.8.1)](./npm.md)
+- **Read More**: [npm (v 10.8.1)](./npm.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
+## Bootstrap
+
+- **Version Required**: **`v 5.3.8`**
+
+- Provides responsive design components and utilities for building mobile-first web applications.
+- **Read More**: [Bootstrap (v 5.3.8)](./Bootstrap.md)
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
 ## Angular CLI
 
 - **Version Required**: **`v 18.0.3`**
 
 - Provides scaffolding, development, and build tools for Angular-based projects.
-- **Explore GitHub**: [Angular CLI (v 18.0.3)](./AngularCli.md)
+- **Read More**: [Angular CLI (v 18.0.3)](./AngularCli.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -151,9 +177,9 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 - **Version Required**: **`v 18.2.0`**
 
 - Enables the creation of dynamic, component-based UIs for JSopX™ client-side solutions.
-- **Explore GitHub**: [React (v 18.2.0)](./React.md)
+- **Read More**: [React (v 18.2.0)](./React.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -162,9 +188,9 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 - **Version Required**: **`v 3.4.21`**
 
 - A framework for building progressive front-end applications with a focus on simplicity and integration.
-- **Explore GitHub**: [Vue (v 3.4.21)](./Vue.md)
+- **Read More**: [Vue (v 3.4.21)](./Vue.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -173,9 +199,9 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 - **Version Required**: **`v 5.2.8`**
 
 - A build tool optimized for speed and modern front-end workflows, utilized in Vue and React projects.
-- **Explore GitHub**: [Vite (v 5.2.8)](./Vite.md)
+- **Read More**: [Vite (v 5.2.8)](./Vite.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -184,9 +210,9 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 - **Version Required**: **`v 3.12.3x+`**
 
 - Used for command-line operations, script building and parsing, initializing projects, and managing dependencies.
-- **Explore GitHub**: [Python (v 3.12.3x+)](./Python.md)
+- **Read More**: [Python (v 3.12.3x+)](./Python.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -195,12 +221,23 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 - **Version Required**: **`v 5.x+`**
 
 - Used for command-line operations, such as cloning repositories, initializing projects, and managing dependencies.
-- **Explore GitHub**: [Bash (v 5.x+)](./Bash.md)
+- **Read More**: [Bash (v 5.x+)](./Bash.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
+
+## **Powershell**
+
+- **Version Required**: **`v 7.x+`**
+ 
+- Essential for Windows-based command-line operations, offering powerful scripting capabilities.
+- **Read More**: [Powershell (v 7.x+)](./Powershell.md)
+ 
+[`⇧ Back to Top`](#table-of-contents)
+
+---
 
 ## **Check All Requirements Simotaniously**
 
@@ -215,7 +252,7 @@ You can now check all project technology & version requirements simotaniously, u
 
 ---
 
-[`Introduction`](../../../../../Introduction/) » **[`JSopX™ Technology Requirements`](./ReadMe.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../../Introduction/JSopxProjectChecksBalances.md) [`Next »`](../../../../../Phases/)
+[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) »  **[`JSopX™ Technology Requirements`](./ReadMe.md)** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectChecksBalances.md) [`Next »`](../Phases/)
 
 ---
 

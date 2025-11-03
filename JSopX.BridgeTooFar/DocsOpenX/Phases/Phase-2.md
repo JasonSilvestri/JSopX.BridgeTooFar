@@ -23,7 +23,7 @@
 
 The purpose of Project Development Steps in `Phase 2` is to create a Minimum Viable Refactor Product (MVRP) to similuate a real-world case where the developers should be quickly getting rid of creating more proof-of-concept features.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -54,7 +54,7 @@ The Minimum Viable Product did its job. Most importantly, it has already outlive
 
 Clone all projects and add them to the jSilvestri.com BETA v2025 Web API Demo Collection project for full access and testing of all projects in one, unified, location.
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -62,7 +62,7 @@ Clone all projects and add them to the jSilvestri.com BETA v2025 Web API Demo Co
 
 Update ASP.NET Core Class Library project and solution parts we want to use across all applications, such as Constants, Enums, Helpers, etc.
       
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -70,7 +70,7 @@ Update ASP.NET Core Class Library project and solution parts we want to use acro
 
 Update ASP.NET Core Web API project and solution. This project will serve as the backend API that the frontend projects will communicate with.
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -78,14 +78,14 @@ Update ASP.NET Core Web API project and solution. This project will serve as the
    
 Update new ASP.NET Core project and solution that will handle common, static, assets and resources, shared across all applications. This project will serve as the resource project with all HTML, CSS, JS, Images and other creative all projects will use to carry the same theme, look and feel across applications.
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ### 5. **Setup Communication**:
 Each frontend and backend project (_AngularJS_, _Vue_, _ReactJS_, _Blazor_, etc.) will make HTTP requests to the Web API project to fetch data or perform operations. For the first iteration of data, we will use some static weather data. 
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -94,14 +94,14 @@ Each frontend and backend project (_AngularJS_, _Vue_, _ReactJS_, _Blazor_, etc.
    - We will define appropriate routes in our Web API project to handle incoming requests from the frontend projects.
    - We will implement controllers and actions to handle these routes and interact with our data layer.
       
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ### 7. **Web API Shared Models and Services**:
    - We will consider creating shared models and services that can be used across both the Web API project and the frontend projects. This will help in maintaining consistency and reducing duplication of code.
       
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -111,7 +111,7 @@ Each frontend and backend project (_AngularJS_, _Vue_, _ReactJS_, _Blazor_, etc.
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 2`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-1.md) [`Next »`](./Phase-3.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 2`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-1.md) [`Next »`](./Phase-3.md)
 
 ---
 

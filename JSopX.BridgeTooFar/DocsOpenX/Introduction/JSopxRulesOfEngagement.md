@@ -31,7 +31,7 @@
 - [In Conclusion](#in-conclusion)
 - [Next Steps](#next-steps)
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -41,7 +41,7 @@
 
 Sometimes, it takes more than skills, solid business requirements, or disciplines & standards for sustainable enterprise product development. Sometimes, **it takes being human**. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -53,7 +53,7 @@ Outside of all the negative business politics, collaborating with team members, 
 
 Even in some extreme cases, like, when a bad actor once known for getting a complete thrill by sabotaging your team whenever possible, can become your team's greatest ally if under the right circumstances. Eventually, its going to be you and them against a zombie horde. What then? What if the whole reason for his bad acts against your kind was because he didn't appreciate you not inviting him to the Wednesday afternoon meeting. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -67,7 +67,7 @@ So, when it is sometimes, I feel one of the best things you can do is extend an 
 
 "_We are still talking about building enterprise applications, right?_" **You damn, right, we are!**
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -75,7 +75,7 @@ So, when it is sometimes, I feel one of the best things you can do is extend an 
 
 While it’s easy to blame companies or individual developers for security breaches, the responsibility lies with all of us. Whether it’s the company allowing vulnerabilities to occur or developers choosing the easy path, we must all take responsibility and act on it. Producing secure applications is a collective effort, and even then, we must acknowledge that there are always hackers better than us. However, this doesn’t mean we leave my applications vulnerable.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -84,7 +84,7 @@ While it’s easy to blame companies or individual developers for security breac
 To ensure we do the right thing, we must engage in regular peer reviews. By sharing these projects for free, we encourage others to review my work, hold us accountable, and question my approaches. This collaborative spirit will help us improve my practices and build more secure applications.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -93,7 +93,7 @@ To ensure we do the right thing, we must engage in regular peer reviews. By shar
 🔹 Ensure that **all project components** are correctly configured and validated before moving to the next phase.  
 🔹 **Conduct peer reviews** to validate documentation, architecture, and implementation.  
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -102,7 +102,7 @@ To ensure we do the right thing, we must engage in regular peer reviews. By shar
 🔹 Ensure that **JSopX™ solutions** remain adaptable for **future enhancements and integrations**.  
 🔹 Validate compatibility with **third-party integrations and dependencies**.  
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -111,12 +111,12 @@ To ensure we do the right thing, we must engage in regular peer reviews. By shar
 1. **Review all implementations** to ensure adherence to JSopX™ standards.  
 2. **Prepare for Phase 1 of project integration**.  
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Rules of Engagement`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxEnterpriseBusinessRequirements.md) [`Next »`](../OpenProjects/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Rules of Engagement`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxEnterpriseBusinessRequirements.md) [`Next »`](../OpenProjects/)
 
 ---
 

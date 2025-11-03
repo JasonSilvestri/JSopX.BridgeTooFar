@@ -73,13 +73,13 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.11)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 - [Node (v 20.14.0)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/Node.md)
 - [npm (v 10.8.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/npm.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -107,7 +107,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate an existing Angular app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
@@ -117,7 +117,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.BridgeTooFar`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar`.
      - Solution Name: `JSopX.BridgeTooFar`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
@@ -260,7 +260,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Navigate to `/login`, use `test/password`, then hit `/fetch-data`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -309,7 +309,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Reload `/fetch-data` and verify historical data.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -371,7 +371,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Log in via OIDC, verify `/fetch-data` works.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -389,7 +389,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Ensure data comes from `JSopX.WebAPI`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -421,7 +421,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 3. **Test**: Verify icons appear.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -441,7 +441,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
 

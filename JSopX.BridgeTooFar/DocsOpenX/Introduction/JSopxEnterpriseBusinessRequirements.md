@@ -59,7 +59,7 @@ The **good news is** that almost all business concerns addressed on this page ca
 
 And sure, **nothing** is **ever guaranteed**. Still, **I can't stress** it **enough**. Any other alternative increases your risks of compromising the integratity of one or more of your applications, and across all major facets of your web, mobile & desktop application development platforms.
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -113,7 +113,7 @@ We need to create an **Enterprise Solution** to house all projects, including ne
 
 🔹 **Jason Silvestri Open Project EXperiences (JSopX™)**: [JSopX.OpenProjectX](./jsopx.OpenProjectX)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -138,7 +138,7 @@ So, these, **client-side** and **server-side** applications in Asp.NET Core, Bla
 
 - [Object-Oriented Architecture & Scalability](../Introduction/JSopxDevelopmentStandards.md#object-oriented-architecture--scalability)
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -146,7 +146,7 @@ So, these, **client-side** and **server-side** applications in Asp.NET Core, Bla
 
 🔹 **Jason Silvestri Open Project EXperiences (JSopX™)**: [JSopX.OpenProjectX](./jsopx.OpenProjectX)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -166,7 +166,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **We put it on GitHub**: [JSopX.AspNetCore](./jsopx.JSopX.AspNetCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -179,7 +179,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.AngularCore](./jsopx.AngularCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -192,7 +192,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.ReactCore](./jsopx.ReactCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -205,7 +205,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.VueCore](./jsopx.VueCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -218,7 +218,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.AspNetCore](./jsopx.AspNetCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -231,7 +231,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.BlazorServerCore](./jsopx.BlazorServerCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -244,7 +244,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.MauiHybridNetCore](./jsopx.MauiHybridNetCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -258,7 +258,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.BridgeTooFar](./jsopx.BridgeTooFar)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -271,7 +271,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.ClassLibrary](./jsopx.ClassLibrary)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -284,7 +284,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.WebAPI](./jsopx.WebAPI)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -297,7 +297,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.SharedResources](./jsopx.SharedResources)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -310,7 +310,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.RCLxAssets](./jsopx.RCLxAssets)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -323,7 +323,7 @@ We need to manage, extend and eventually migrate an existing Angular SPA applica
 
 - **Explore GitHub**: [JSopX.RCLxProper](./jsopx.RCLxProper)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -344,7 +344,7 @@ This business requirement isn’t **optional**—it's the **#1 business requirem
 
 The whole reason I made myself responsible for the creation of all aspects of project, from documentation, to every line of code, graphic & feature, using over a dozen epic technologies included in our projects, is to show fellow developers that with the correct business requirements, development standards and strong, honorable, rules of engagements established—please believe me when I say you totally have this with proper disciplines!
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -353,7 +353,7 @@ The whole reason I made myself responsible for the creation of all aspects of pr
 🔹 Ensure that **all project components** are correctly configured and validated before moving to the next phase.  
 🔹 **Conduct peer reviews** to validate documentation, architecture, and implementation.  
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -362,7 +362,7 @@ The whole reason I made myself responsible for the creation of all aspects of pr
 🔹 Ensure that **JSopX™ solutions** remain adaptable for **future enhancements and integrations**.  
 🔹 Validate compatibility with **third-party integrations and dependencies**.  
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -389,7 +389,7 @@ It's going to begin with some basic business requirements.
 - **Face Your Standards' Guilt** 
 > **"Discipline in coding creates discipline in application success."**  
 
-[`Back to Top`](#table-of-contents)  
+[`⇧ Back to Top`](#table-of-contents)  
 
 ---
 
@@ -399,7 +399,7 @@ It's going to begin with some basic business requirements.
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » **[`JSopX™ Business Requirements Lifecycle`](../Introduction/JSopxBusinessRequirementsLifecycle.md)** » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxSkepticalAnalysisBusinessRequirements.md) [`Next »`](../Introduction/JSopxRulesOfEngagement.md)
+[`Introduction`](../Introduction/Introduction/) » **[`JSopX™ Business Requirements Lifecycle`](../Introduction/JSopxBusinessRequirementsLifecycle.md)** » [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxSkepticalAnalysisBusinessRequirements.md) [`Next »`](../Introduction/JSopxRulesOfEngagement.md)
 
 ---
 

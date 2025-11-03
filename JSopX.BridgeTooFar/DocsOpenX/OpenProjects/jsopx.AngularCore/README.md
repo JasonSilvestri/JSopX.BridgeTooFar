@@ -75,9 +75,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AngularCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../Technologies/#node)
 - [npm (v 10.8.1)](../../Technologies/#npm)
 - [Angular CLI (v 18.0.3)](../../Technologies/#angular-cli)
@@ -130,7 +130,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -148,7 +148,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -165,7 +165,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -173,10 +173,10 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.AngularCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.AngularCore.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -198,7 +198,7 @@ Ensure `JSopX.AngularCore` Project dependencies are restored:
    ```
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -210,7 +210,7 @@ Verify that all NuGet packages are up to date:
    dotnet restore
    ```
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -235,7 +235,7 @@ Assuming the `JSopX.AngularCore` Project is running as expected, **you are now d
 2. **Conclude Remaining Steps**:
    - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -274,7 +274,7 @@ JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -317,7 +317,7 @@ JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -359,7 +359,7 @@ A table structure of the same with no tree legs `JSopX.AngularCore` Project, fil
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -393,7 +393,7 @@ The `JSopX.AngularCore` Project has the following `JSopX` Project Dependencies:
    - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -410,7 +410,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
    - Right-click the project that will use `JSopX.AngularCore` and select `Add > Project Reference`.
    - Check the box for `JSopX.AngularCore` and click `OK`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -446,7 +446,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
    }
    ```
  
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -478,7 +478,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
    }
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -498,7 +498,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AngularCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/) [`Next »`](../../OpenProjects/jsopx.ReactCore/)
+[`Home`](../../OpenProjects/jsopx.AngularCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/) [`Next »`](../../OpenProjects/jsopx.ReactCore/)
 
 ---
 

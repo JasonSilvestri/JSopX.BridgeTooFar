@@ -41,7 +41,7 @@ Best part? It's super simple to understand.
 
 ![Jason Silvestri Open Project EXperiences (JSopX™)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/jsopx-splash-screen-aspnet-project-step-1-simulate-markdown.png)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -54,40 +54,40 @@ Not knowing about JSopX™ Project Families isn't the end of the world. However,
 ---
 
 ### **1. Flagship Projects:**  
-These official “flagship” or parent solutions (*e.g.*, [`JSopX.OpenProjectX`](../OpenProjects/ReadMe.md#jsopxopenprojectx)) define the enterprise-level backbone, setting standards for the rest of the suite.
+These official “flagship” or parent solutions (*e.g.*, [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.OpenProjectX) define the enterprise-level backbone, setting standards for the rest of the suite.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ### **2. Shared Assets & Resources Projects:**  
-Projects like [`JSopX.SharedResources`](../OpenProjects/ReadMe.md#jsopxsharedresources) and [`JSopX.RCLxAssets`](../OpenProjects/ReadMe.md#jsopxrclxassets) unify cross-cutting assets—CSS, JavaScript, HTML, images, and Razor components—ensuring a consistent look and feel across the ecosystem.
+Projects like [`JSopX.SharedResources`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.SharedResources) and [`JSopX.RCLxAssets`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.RCLxAssets) unify cross-cutting assets—CSS, JavaScript, HTML, images, and Razor components—ensuring a consistent look and feel across the ecosystem.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ### **3. Shared Data, Service & Function Projects:**  
-These handle server-side logic, data services, and common functionalities (*e.g.*, [`JSopX.ClassLibrary`](../OpenProjects/ReadMe.md#jsopxclasslibrary), [`JSopX.WebAPI`](../OpenProjects/ReadMe.md#jsopxwebapi)) to promote reuse and reduce duplication.
+These handle server-side logic, data services, and common functionalities (*e.g.*, [`JSopX.ClassLibrary`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.ClassLibrary), [`JSopX.WebAPI`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.WebAPI) to promote reuse and reduce duplication.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ### **4. Server-Side “Existing” Apps Examples:**  
-Projects like [`JSopX.AspNetCore`](../OpenProjects/ReadMe.md#jsopxaspnetcore) and [`JSopX.BlazorServerCore`](../OpenProjects/ReadMe.md#jsopxblazorservercore) simulate existing server-side applications brought into the enterprise fold. They integrate with shared resources and APIs, demonstrating how older or isolated solutions can align with modern standards.
+Projects like [`JSopX.AspNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AspNetCore) and [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BlazorServerCore) simulate existing server-side applications brought into the enterprise fold. They integrate with shared resources and APIs, demonstrating how older or isolated solutions can align with modern standards.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ### **5. Client-Side “Existing” Apps Examples:**  
-Whether [`JSopX.AngularCore`](../OpenProjects/ReadMe.md#jsopxangularcore), [`JSopX.ReactCore`](../OpenProjects/ReadMe.md#jsopxreactcore), or [`JSopX.VueCore`](../OpenProjects/ReadMe.md#jsopxvuecore), these SPAs show how diverse client-side stacks can coexist in one environment, all benefiting from centralized logic and consistent asset management.
+Whether [`JSopX.AngularCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.AngularCore), [`JSopX.ReactCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.ReactCore), or [`JSopX.VueCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.VueCore), these SPAs show how diverse client-side stacks can coexist in one environment, all benefiting from centralized logic and consistent asset management.
 
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ Project Families` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ Project Families` » [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 

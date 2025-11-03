@@ -87,7 +87,7 @@ Here's a breakdown of the most commonly supported types:
 | Go            | `go`              | ```` ```go ``` ```` | [Go Code Example](#go-code-example)                 |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -100,7 +100,7 @@ Here's a breakdown of the most commonly supported types:
 | SVG           | `svg`             | ```` ```svg  ``` ```` | [SVG Code Example](#svg-code-example)               |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -116,7 +116,7 @@ Here's a breakdown of the most commonly supported types:
 | GraphQL          | `graphql`         | ```` ```graphql ``` ```` | [GraphQL Code Example](#graphql-code-example)       |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -130,7 +130,7 @@ Here's a breakdown of the most commonly supported types:
 | Shell         | `sh` / `shell`    | ```` ```sh ``` ```` | [Shell Code Example](#shell-code-example)           |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -143,7 +143,7 @@ Here's a breakdown of the most commonly supported types:
 | LESS          | `less`            | ```` ```less ``` ```` | [LESS Code Example](#less-code-example)             |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -156,7 +156,7 @@ Here's a breakdown of the most commonly supported types:
 | Text         | `text`            | ```` ```text ``` ```` | [Text Code Example](#text-code-example)             |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -169,7 +169,7 @@ Here's a breakdown of the most commonly supported types:
 | Vue.js         | `vue`             | ```` ```vue ``` ```` | [Vue Code Example](#vue-code-example)               |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -182,7 +182,7 @@ Here's a breakdown of the most commonly supported types:
 | Makefile      | `makefile`        | ```` ```makefile  ``` ```` | [Makefile Code Example](#makefile-code-example)     |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -210,7 +210,7 @@ updateContent("example", "Hello, JSopX™!");
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -241,7 +241,7 @@ fetchUsers("https://api.example.com/users")
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -264,7 +264,7 @@ print([fibonacci(x) for x in range(10)])
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -300,7 +300,7 @@ evenNumbers.ToList().ForEach(Console.WriteLine);
 ```
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -331,7 +331,7 @@ evenNumbers.ToList().ForEach(Console.WriteLine);
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -378,7 +378,7 @@ public partial class MainPage : ContentPage
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -407,7 +407,7 @@ public partial class MainPage : ContentPage
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -430,7 +430,7 @@ public class HelloWorld {
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -461,7 +461,7 @@ greetUser($user);
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -481,7 +481,7 @@ puts square_numbers(numbers)
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -513,7 +513,7 @@ func main() {
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -532,7 +532,7 @@ JSopX™ Nova Example: Creates a simple HTML form with a text input and submit b
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -554,7 +554,7 @@ JSopX™ Nova Example: Defines application configuration settings.
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -571,7 +571,7 @@ JSopX™ Nova Example: Defines application configuration settings.
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -590,7 +590,7 @@ JSopX™ Nova Example: Defines application configuration settings.
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -605,7 +605,7 @@ app:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -621,7 +621,7 @@ version = "1.0.0"
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -636,7 +636,7 @@ WHERE IsActive = 1;
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -654,7 +654,7 @@ query GetUsers {
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -668,7 +668,7 @@ ls -la
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -681,7 +681,7 @@ Get-Process | Where-Object { $_.CPU -gt 100 }
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -693,7 +693,7 @@ Get-Process | Where-Object { $_.CPU -gt 100 }
 echo "Hello, JSopX™!"
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -724,7 +724,7 @@ Changes the button color on hover.
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -751,7 +751,7 @@ Changes the button color on hover.
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -776,7 +776,7 @@ Changes the button color on hover.
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -791,7 +791,7 @@ id,name,email
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -810,7 +810,7 @@ Learn more: [JSopX™ Documentation](https://www.jsopx.com)
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -823,7 +823,7 @@ It contains unformatted text, suitable for logs or simple documentation.
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -847,7 +847,7 @@ export class AppComponent {
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -867,7 +867,7 @@ export default App;
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -895,7 +895,7 @@ export default {
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -909,7 +909,7 @@ export default {
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -939,7 +939,7 @@ CMD ["npm", "start"]
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -957,7 +957,7 @@ clean:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -975,7 +975,7 @@ Each **code snippet example section** demonstrates a realistic, functional snipp
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Code Snippet Design Patterns`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaFileandDirectoryDesignPatterns.md) [`Next »`](./JSopxNovaBarnDoorProtocolDesignPatterns.md)
 
 ---
 

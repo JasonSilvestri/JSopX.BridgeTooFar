@@ -41,7 +41,7 @@ You'll notice a section at the top of most primary project pages—typically the
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) Vairants](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/introduction/in-markdown/jsopx-splash-screen-variants-latest-variant-markdown.png)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -59,7 +59,7 @@ The bare minimum requirements that must be available to Developers are as follow
 
 Developers must be able to `explore`, `install` and `run` all available projects under one, [Flagship Project](../Introduction/JSopxProjectsFamilies.md#1-flagship-projects). This is the recommended approach, because the end goal should be to ensure you have general working knowledge under one enterprise solution, because JSopX™ is in fact an enterprise solution.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -71,7 +71,7 @@ Manhandling the projects these ways are less than ideal. There is room to argue 
 
 For example, the team may be fully aware of all [Client-Side “Existing” Apps Example](../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) and [Server-Side “Existing” Apps Example](../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) projects inside and out (_as you should_). What if one of the new guys just needs documentation or needs to brush up on the latest creative standards? They'll need access to the [Shared Assets & Resources Projects](../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects). Whether every project is in source control or not, someone is going to be playing revert games at some point. I hate to say it, but leaving the option available has its benefits.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -79,7 +79,7 @@ For example, the team may be fully aware of all [Client-Side “Existing” Apps
 
 A unique, and beneficial approach to the development of all the projects, was done by [JSopX™ Lifecycle Phases](../Phases/). Almost equal in usefulness, to be able to explore previous versions of Projects at the [JSopX™ Lifecycle Phase](../Phases/) level, gives a broad brush-stroke view of how an entire phase of action tems were developed (as opposed to any tasks). This approach can also better help existing and new developers better predict what needs to be done, project-by-project, with features of the same nature, and/or to better understand how each technology handles the same tasks. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -87,7 +87,7 @@ A unique, and beneficial approach to the development of all the projects, was do
 
 Some Developers must tear things apart and/or re-create features step-by-step, from Scratch, in order for certain things to sink in more effectively. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -95,7 +95,7 @@ Some Developers must tear things apart and/or re-create features step-by-step, f
 
 It is quite possible you are the only one on your team hammering this beast. I know for sure that the client stakeholder only had one developer managing all their projects from his laptop. No sources control. No way for others to do things without the gatekeeper. Whether you are that guy or not, you need to be able to have access to the origin projects, while using some form of source control, and all projects need to be fed by those same origin projects, regardless of it being done, project-by-project or by the all in one Enterprise Solution. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -105,7 +105,7 @@ If this suite is to really be for all developer skill levels, they must have all
 
 With all that said, you can think of `Project Variants` as a way to explore all these options, looking at the project content, regardless of whether you are installing projects or just exploring them. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 ## JSopX™ Project Variant Options
@@ -118,7 +118,7 @@ The default for every project, the `Using Latest` **Project Variant** is largely
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) Uss Latest Vairants](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/introduction/in-markdown/jsopx-splash-screen-variants-latest-variant-focused-markdown.png)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -128,7 +128,7 @@ The `By-Phase` **`Project Variant`** allows you to browse previous versions of t
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) By-Phase Vairants](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/introduction/in-markdown/jsopx-splash-screen-variants-by-phase-focused-markdown.png)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -138,7 +138,7 @@ The `Start from Scratch` **Project Variant** allows you to re-create your own cu
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) Start from Scratch Vairants](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/introduction/in-markdown/jsopx-splash-screen-variants-from-scratch-focused-markdown.png)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -154,7 +154,7 @@ The `Start from Scratch` **Project Variant** allows you to re-create your own cu
 
 Projects like [`JSopX.AspNetCore`](../OpenProjects/ReadMe.md#jsopxaspnetcore) and [`JSopX.BlazorServerCore`](../OpenProjects/ReadMe.md#jsopxblazorservercore) simulate existing server-side applications brought into the enterprise fold. They integrate with shared resources and APIs, demonstrating how older or isolated solutions can align with modern standards.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -164,7 +164,7 @@ Whether [`JSopX.AngularCore`](../OpenProjects/ReadMe.md#jsopxangularcore), [`JSo
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ Project Variants` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ Project Variants` » [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../OpenProjects/) [`Next »`](./JSopxProjectChecksBalances.md)
 
 ---
 

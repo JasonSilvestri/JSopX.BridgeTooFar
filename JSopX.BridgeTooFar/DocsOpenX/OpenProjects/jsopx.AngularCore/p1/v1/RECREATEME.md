@@ -71,7 +71,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProj
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -79,9 +79,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AngularCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#node)
 - [npm (v 10.8.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#npm)
 - [Angular CLI (v 18.0.3)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#angular-cli)
@@ -112,7 +112,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Recreate `JSopX.AngularCore` to simulate an existing Angular app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
@@ -122,7 +122,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.AngularCore`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.AngularCore`.
      - Solution Name: `JSopX.AngularCore`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
@@ -265,7 +265,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Navigate to `/login`, use `test/password`, then hit `/fetch-data`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -314,7 +314,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Reload `/fetch-data` and verify historical data.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -376,7 +376,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Log in via OIDC, verify `/fetch-data` works.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -394,7 +394,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Ensure data comes from `JSopX.WebAPI`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -426,7 +426,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 3. **Test**: Verify icons appear.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -446,7 +446,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.AngularCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.AngularCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/RECREATEME.md)
 
 ---
 

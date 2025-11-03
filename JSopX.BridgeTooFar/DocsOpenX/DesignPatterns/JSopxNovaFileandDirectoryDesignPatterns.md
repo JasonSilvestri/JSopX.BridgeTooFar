@@ -28,7 +28,7 @@ By exploring the [Overview](#overview), you’ll discover effective ways to docu
 
 Documenting file and directory structures effectively is crucial for ensuring developers can quickly understand the purpose and layout of your projects. This guide explores best practices for presenting file trees, describing their purposes, and incorporating relative and absolute paths into your documentation. These methods help maintain consistency and clarity, especially in complex enterprise-level ecosystems like JSopX™.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -38,7 +38,7 @@ Documenting file and directory structures effectively is crucial for ensuring de
 2. **Relative and Absolute Paths** are clearly delineated and contextualized.
 3. The ability to **zoom in** or **focus on specific parts** of the file structure, allowing granular explanations for particular use cases or scenarios, is emphasized.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -179,7 +179,7 @@ Each variation is tied to a use case:
 - **Include Relative and Absolute Paths:** Help developers locate files in different environments.  
 - **Update Regularly:** As the project evolves, ensure the documentation reflects the latest structure.  
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -190,7 +190,7 @@ Documenting file and directory structures effectively is more than just listing 
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`File & Directory Design Patterns`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](./JSopxNovaCodeSnippetDesignPatterns.md)
 
 ---
 

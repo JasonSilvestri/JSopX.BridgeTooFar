@@ -27,7 +27,7 @@ By exploring the [Overview](#overview), you’ll understand how standardized nam
 
 JSopX™ ensures order and consistency through standardized naming conventions, directory structures, and file organization across all projects. These checks and balances streamline onboarding, minimize confusion, and enhance collaboration by creating a predictable and scalable framework. Whether integrating diverse stacks or onboarding new developers, this system reduces complexity and reinforces the long-term integrity of the ecosystem.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -39,7 +39,7 @@ Before applying these standards:
 2. Review the [JSopX™ Visual Studio Projects](../OpenProjects/) document to see how each project fits into the broader suite.
 3. Understand how centralized resources, shared APIs, and libraries contribute to a unified architecture.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -146,7 +146,7 @@ JSopX.AngularCore (Solution Directory)
 ```
 
 
-[`Back to Top`](#table-of-contents) 
+[`⇧ Back to Top`](#table-of-contents) 
 
 
 ---
@@ -190,7 +190,7 @@ JSopX.OpenProjectX (Solution Directory)
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxProjectsFamilies.md) [`Next »`](../Introduction/JSopxDevelopmentStandards.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Project Checks & Balances`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxProjectsFamilies.md) [`Next »`](../Introduction/JSopxDevelopmentStandards.md)
 
 ---
 

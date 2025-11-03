@@ -171,7 +171,7 @@ GitHub doesn’t allow direct interaction with AI tools as repository collaborat
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Get Forked!`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](../Introduction/Introduction/)
+[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Get Forked!`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubAdvanced.md) [`Next »`](../Introduction/Introduction/)
 
 ---
 

@@ -4,7 +4,7 @@ Should be an excerpt from [Overview](#overview) section.
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ on GitHub` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Phases/) [`Next »`](./JSopxProjectsGitHubBasics.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  `JSopX™ on GitHub` » [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Phases/) [`Next »`](./JSopxProjectsGitHubBasics.md)
 
 ---
 
@@ -23,7 +23,7 @@ Should be an excerpt from [Overview](#overview) section.
 
 - Please add some content. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -85,7 +85,7 @@ Ensure the following concepts make sense before diving into this section: at som
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » `JSopX™ on GitHub` » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Phases/) [`Next »`](./JSopxProjectsGitHubBasics.md)
+[`Introduction`](../Introduction/Introduction/) » `JSopX™ on GitHub` » [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Phases/) [`Next »`](./JSopxProjectsGitHubBasics.md)
 
 ---
 

@@ -49,7 +49,7 @@ The **JSopX™ Asp.NET Core Project** is a **FREE**, open-source demonstration p
 By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 
-[`Back to Top`](#table-of-contents) 
+[`⇧ Back to Top`](#table-of-contents) 
 
 ---
 
@@ -66,9 +66,9 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../Technologies/#aspnet-core)
 
 ---
 
@@ -87,7 +87,7 @@ The **JSopX™ Asp.Net Core Project** addresses **several** high-level **busines
 
 While this ASP.NET Core project often looks and feels like a standard server-side solution, it underpins the security, routing, and scalability principles that define the JSopX™ environment.
 
-[`Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
 
 ---
 
@@ -97,7 +97,7 @@ We initially create the **JSopX™ Asp.NET Core Project** to simulate an ["Exist
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 1. Simulating an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-1.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
 
 ---
 
@@ -112,7 +112,7 @@ JSopX™ Enterprise application development isn't just about writing code—it's
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 2. Create Our Development Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-2.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
 
 ---
 
@@ -122,7 +122,7 @@ A visually inconsistent application creates confusion. Every JSopX™ project mu
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 3. Multi-Platform Creative Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-3.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
 
 ---
 
@@ -134,7 +134,7 @@ We create Classes, RCLs, Web APIs, and other Resource Libraries, sharing resourc
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 4. Using Object-Oriented Programming](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-4.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
 
 ---
 
@@ -144,7 +144,7 @@ As the project evolves through each Lifecycle Phase, we extend the application b
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 5. We Get to Extend Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-5.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
 
 ---
 
@@ -154,7 +154,7 @@ The seamless integration into an enterprise-level application, adopting standard
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 6. We Become A Functioning Project of the JSopX™ Enterprise Solution](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-6.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
 
 ---
 
@@ -183,7 +183,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate an existing ASP.NET Core app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure .NET 9.0 SDK is installed.
 
 2. **Create the Project**:
@@ -193,7 +193,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.AspNetCore`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.AspNetCore`.
      - Solution Name: `JSopX.AspNetCore`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
@@ -321,7 +321,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Register at `/Identity/Account/Register`, log in, and visit `/Weather`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -365,7 +365,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Visit `/Weather` and confirm historical data shows.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -444,7 +444,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 4. **Test**: Run and log in via IdentityServer UI (auto-generated at `/connect/authorize`).
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -479,7 +479,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Ensure data pulls from `JSopX.WebAPI`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -516,7 +516,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 3. **Test**: Verify RCL component and icons work.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -536,7 +536,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.AspNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AspNetCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.AspNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AspNetCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)
 
 ---
 

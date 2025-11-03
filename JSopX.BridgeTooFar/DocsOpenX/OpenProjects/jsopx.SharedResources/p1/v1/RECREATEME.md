@@ -72,11 +72,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.11)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -104,7 +104,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate a traditional class library for sharing static assets (Bootstrap, CSS, JS, HTML).
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
@@ -114,7 +114,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.SharedResources`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.SharedResources`.
      - Solution Name: `JSopX.SharedResources`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 
@@ -141,7 +141,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Build the project—assets are static, no runtime test yet.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -160,7 +160,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Build—no runtime impact yet.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -169,7 +169,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 **Goal**: N/A—static asset library, no auth logic.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -178,7 +178,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 **Goal**: N/A—no API dependency.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -201,7 +201,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 2. **Test**: Build and verify assets load in referencing projects.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -221,7 +221,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.SharedResources/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.SharedResources/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)
 
 ---
 

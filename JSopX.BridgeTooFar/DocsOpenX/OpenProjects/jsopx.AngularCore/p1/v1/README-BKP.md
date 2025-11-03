@@ -61,7 +61,7 @@ The **_JSopX™ Angular Core Project_** (`JSopX.AngularCore`) is a demonstration
 
 We initially create `JSopX.AngularCore` (*JSopX™ Angular Core Project*) to simulate an ["Existing" Client-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples), with its own Web API and existing standards—anticipating a future, seamless migration into our *[JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/)* enterprise application suite!
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -69,13 +69,13 @@ We initially create `JSopX.AngularCore` (*JSopX™ Angular Core Project*) to sim
 
 Ensure the following technologies and versions are installed, even if your only objective is to explore the `JSopX.AngularCore` project independently from all other projects:
 
-- [Visual Studio (v 17.14.11)](./Technologies#visual-studio)
-- [.NET Framework (v 9.0.1)](./Technologies#net-framework)
-- [ASP.NET Core (v 9.0.1)](./Technologies#aspnet-core)
+- [Visual Studio (v 17.14.19)](./Technologies#visual-studio)
+- [.NET Framework (v 9.2.1)](./Technologies#net-framework)
+- [ASP.NET Core (v 9.2.1)](./Technologies#aspnet-core)
 - [Node.js (v 20.14.0)](./Technologies#node)
 - [Angular CLI (v 18.0.3)](./Technologies#angular-cli)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -83,11 +83,11 @@ Ensure the following technologies and versions are installed, even if your only 
 
 Ensure the following technologies and versions are installed, if your objective is to explore ALL projects that make up the `JSopX.OpenProjectX` enterprise-application suite:
 
-- [Visual Studio (v 17.14.11)](./Technologies#visual-studio)
-- [.NET Framework (v 9.0.1)](./Technologies#net-framework)
-- [ASP.NET Core (v 9.0.1)](./Technologies#aspnet-core)
-- [.NET Core Blazor (v 9.0.1)](./Technologies#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.0.1)](./Technologies#net-core-maui-hybrid)
+- [Visual Studio (v 17.14.19)](./Technologies#visual-studio)
+- [.NET Framework (v 9.2.1)](./Technologies#net-framework)
+- [ASP.NET Core (v 9.2.1)](./Technologies#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](./Technologies#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.2.1)](./Technologies#net-core-maui-hybrid)
 - [Node (v 20.14.0)](./Technologies#node)
 - [npm (v 10.8.1)](./Technologies#npm)
 - [Angular CLI (v 18.0.3)](./Technologies#angular-cli)
@@ -97,7 +97,7 @@ Ensure the following technologies and versions are installed, if your objective 
 - [Bash (v 5.x+)](./Technologies#bash)
 - [Powershell (v 7.x+)](./Technologies#powershell)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -106,7 +106,7 @@ Ensure the following technologies and versions are installed, if your objective 
 - I am still in discovery with [Angular CLI (v 18.0.3)](./Technologies#angular-cli). If you find a bug, see something I may not be implementing correctly, or something else, please do not hesitate to call me out. 
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -190,7 +190,7 @@ The `JsopX.AngularCore` **JSopX™ Angular Core Project** provides a wealth of r
 
 - We take steps to fully migrate and integrate the `JSopX.AngularCore` Project into our enterprise `JSopX.OpenProjectX` Project, adopting the new parents Web API, Standards, and more!
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -226,7 +226,7 @@ It is possible for Project Feature Highlights to be different here depending on 
 
 - **WeatherForecastController.cs**: The primary `JSopX.AngularCore` Visual Studio solution already supports basic, randomly generated, weather forecast sample data and end points. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -251,7 +251,7 @@ The result is an environment that transforms a patchwork of independent solution
 As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve, adapt, and retain their own identity.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -310,16 +310,16 @@ As you delve deeper, you’ll discover how each project type fits into this gran
 
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## Step 2: Open the Solution
 
-1. Launch **Visual Studio (v 17.14.11)**.
+1. Launch **Visual Studio (v 17.14.19)**.
 2. Open the solution file: `JSopX.AngularCore.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -342,7 +342,7 @@ As you delve deeper, you’ll discover how each project type fits into this gran
    dotnet restore
    ```
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -352,7 +352,7 @@ As you delve deeper, you’ll discover how each project type fits into this gran
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -551,7 +551,7 @@ A table structure of the same `JSopX.AngularCore` Project, files and resources.
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -615,7 +615,7 @@ A table structure of the same `JSopX.AngularCore` Project, files and resources.
     - A **Vue Core** [Client-Side “Existing” Apps Examples](../../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) created to simulate an existing Vue Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
     - **Explore GitHub**: [JSopX.VueCore](../../../../OpenProjects/jsopx.VueCore)
   
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -644,7 +644,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
 
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 
 ---
@@ -681,7 +681,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
    }
    ```
  
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -713,7 +713,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
    }
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -723,11 +723,11 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
 - Extend the Angular app by adding more advanced modules and reusable components.
 - Configure CI/CD pipelines for automated testing and deployment.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [`JSopX Projects`](../../../../OpenProjects/) » [`JSopX.AngularCore`](./ReadMe.md)  » **[`Phase 1`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/)**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/)
+[`Home`](../../../../../README.md) » [`Introduction`](../../../../Introduction/) » [`JSopX Projects`](../../../../OpenProjects/) » [`JSopX.AngularCore`](./ReadMe.md)  » **[`Phase 1`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/)**  · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/)
 
 ---
 

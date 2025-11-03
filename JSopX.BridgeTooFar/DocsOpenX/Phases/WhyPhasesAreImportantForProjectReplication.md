@@ -21,7 +21,7 @@ Should be an excerpt from [Overview](#overview) section.
 
 - Please add some content. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -44,7 +44,7 @@ Should be an excerpt from [Overview](#overview) section.
 
 - Please add some content. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -52,7 +52,7 @@ Should be an excerpt from [Overview](#overview) section.
 
 - Please add some content. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -70,7 +70,7 @@ Proper organization prevents issues with references and dependencies:
 
 2. Store each solution (`.sln`) in the root of its corresponding project folder. This ensures all references resolve consistently.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -87,7 +87,7 @@ git subtree add --prefix=JSopX.ClassLibrary https://github.com/JasonSilvestri/JS
 
 Ensure the `.sln` and `.csproj` files are intact and functional after adding subtrees. Test builds in Visual Studio to confirm references work.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -105,7 +105,7 @@ To avoid circular dependencies:
 
 - Use `PathConfig.targets` for consistent reference management.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -118,7 +118,7 @@ git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
 
 Ensure all references are properly added to the parent solution in Visual Studio.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -161,7 +161,7 @@ Add logic to adjust paths based on nesting depth:
 
 ---
 
-[`Phases`](./Phases.md) » **`Why Phases Are Important`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phases.md) [`Next »`](./DisciplinesRequiredForSustainableEnterpriseLevelDevelopment.md)
+[`Phases`](./Phases.md) » **`Why Phases Are Important`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./Phases.md) [`Next »`](./DisciplinesRequiredForSustainableEnterpriseLevelDevelopment.md)
 
 ---
 
@@ -170,7 +170,7 @@ Add logic to adjust paths based on nesting depth:
 
 - Please add some content. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -178,7 +178,7 @@ Add logic to adjust paths based on nesting depth:
 
 - Please add some content. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -186,7 +186,7 @@ Add logic to adjust paths based on nesting depth:
 
 - Please add some content. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -198,7 +198,7 @@ Add logic to adjust paths based on nesting depth:
 
 ---
 
-[`Phases`](./Phases.md) » **`Why Phases Are Important`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phases.md) [`Next »`](./DisciplinesRequiredForSustainableEnterpriseLevelDevelopment.md)
+[`Phases`](./Phases.md) » **`Why Phases Are Important`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./Phases.md) [`Next »`](./DisciplinesRequiredForSustainableEnterpriseLevelDevelopment.md)
 
 ---
 

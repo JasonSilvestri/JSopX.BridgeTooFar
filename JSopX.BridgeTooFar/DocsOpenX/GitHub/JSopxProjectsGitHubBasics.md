@@ -5,7 +5,7 @@ By exploring the [Overview](#overview), you’ll gain a clear understanding of h
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/Introduction/) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
+[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Basics`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/Introduction/) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
 
 ---
 
@@ -28,7 +28,7 @@ By exploring the [Overview](#overview), you’ll gain a clear understanding of h
 
 This guide helps both newcomers and experienced developers streamline their interaction with JSopX™ projects in GitHub. It provides step-by-step instructions on initializing new repositories, pushing existing code, and cloning projects using various command-line tools. By following these best practices, you’ll ensure a smoother onboarding process, maintain consistency across multiple technologies, and seamlessly integrate Git workflows into your development routine.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -47,11 +47,11 @@ Before working with JSopX™ projects on GitHub, ensure you have:
 
 For a fully functional JSopX™ environment, confirm that the following technologies are installed and compatible with your system:
 
-- [Visual Studio (v 17.14.11)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
-- [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
-- [.NET Core Maui Hybrid (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
+- [Visual Studio (v 17.14.19)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
+- [.NET Core Blazor (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
+- [.NET Core Maui Hybrid (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
 - [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Node.md)
 - [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AngularCli.md)
@@ -59,7 +59,7 @@ For a fully functional JSopX™ environment, confirm that the following technolo
 - [Vue (v 3.4.21)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vue.md)
 - [Vite (v 5.2.8)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Vite.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -71,7 +71,7 @@ For seamless GitHub operations within the JSopX™ ecosystem:
 - Confirm your project references are correctly set in `.sln` and `.csproj` files, reducing friction when pushing or pulling changes.
 - Consider reviewing previous documents like [JSopX™ Project Checks & Balances](./JSopxProjectChecksBalances.md) for organizational consistency and best practices before branching out into Git workflows.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -96,7 +96,7 @@ git push -u origin master
 
 This workflow initializes a local repository, adds a remote, and publishes your initial commit, establishing a fresh GitHub repo for the JSopX™ project.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -112,7 +112,7 @@ git push -u origin master
 
 This quickly associates your local project with a remote repository and pushes your work online, making it accessible to collaborators.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -165,7 +165,7 @@ After cloning, simply open `RCLxComponents.sln` in Visual Studio and build the s
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/Introduction/) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
+[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Basics`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/Introduction/) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
 
 ---
 
@@ -178,7 +178,7 @@ After you’ve set up and pushed your repositories, consider:
 - Evaluating your CI/CD pipeline to automate builds and tests whenever code is pushed to GitHub.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -190,7 +190,7 @@ In parallel with managing your GitHub basics:
 - Consult [JSopX™ Visual Studio Projects](./JSopxProjects.md) or related guides to align repository structure with the intended architecture.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -199,7 +199,7 @@ In parallel with managing your GitHub basics:
 Mastering GitHub basics for JSopX™ projects ensures that you can confidently create new repositories, push changes, clone code, and integrate various tooling workflows. As a result, you streamline your development process, reduce onboarding friction, and maintain cleaner, more consistent project ecosystems.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -210,7 +210,7 @@ Mastering GitHub basics for JSopX™ projects ensures that you can confidently c
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Basics`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxTechnologyRequirements.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
+[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Basics`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxTechnologyRequirements.md) [`Next »`](./JSopxProjectsGitHubAdvanced.md)
 
 ---
 

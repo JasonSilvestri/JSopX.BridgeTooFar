@@ -61,9 +61,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring just the `JSopX.BridgeTooFar` Project.
 
-- [Visual Studio (v 17.14.11)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#aspnet-core)
 - [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#node)
 - [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#npm)
 
@@ -115,7 +115,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -133,7 +133,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -150,7 +150,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -158,10 +158,10 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.BridgeTooFar` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.11)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.19)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.BridgeTooFar.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -182,7 +182,7 @@ Ensure `JSopX.BridgeTooFar` Project dependencies are restored:
  npm install
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -194,7 +194,7 @@ Verify that all NuGet packages are up to date:
  dotnet restore
 ```
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -219,7 +219,7 @@ Assuming the `JSopX.BridgeTooFar` Project is running as expected, **you are now 
 2. **Conclude Remaining Steps**:
    - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -253,7 +253,7 @@ JSopX.BridgeTooFar/                 # Root JSopX.BridgeTooFar Visual Studio Solu
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -292,7 +292,7 @@ JSopX.BridgeTooFar/                          # Root JSopX™ Bridge Too Far Proj
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -328,7 +328,7 @@ A table structure of the same `JSopX.BridgeTooFar` Project, files and resources.
 | 📝&nbsp;`README.md`&nbsp;         | Primary Project JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` README `.md` file (_default root project repository README.md_).                           |
 | 📝&nbsp;`RECREATEME.md`&nbsp;     | Primary Project JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` RECREATEME `.md` file (_default root project repository RECREATEME.md_).                           |
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -338,7 +338,7 @@ A table structure of the same `JSopX.BridgeTooFar` Project, files and resources.
 
 However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource libraries, hence, it has almost no natural dependencies.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -351,7 +351,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
    - Select **Add** > **Project Reference**.
    - Check `JSopX.BridgeTooFar` and click **OK**.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -384,7 +384,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
       <link rel="stylesheet" href="@($"{env.WebRootPath}/doc-assets/css/style.css")">
      ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -413,7 +413,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
       <link rel="stylesheet" href="assets/doc-assets/css/style.css">
      ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -446,7 +446,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
       </template>
       ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -485,7 +485,7 @@ However, the `JSopX.BridgeTooFar` Project is one of the highest-level resource l
       export default App;
      ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -505,7 +505,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) » [`Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · [`From Scratch`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.WebAPI/) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.SharedResources/)
+[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) » [`Projects`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · [`From Scratch`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.WebAPI/) [`Next »`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.SharedResources/)
 
 ---
 

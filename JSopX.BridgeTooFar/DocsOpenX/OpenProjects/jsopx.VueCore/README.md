@@ -71,9 +71,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.VueCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../Technologies/#node)
 - [npm (v 10.8.1)](../../Technologies/#npm)
 - [Vue (v 3.4.21)](../../Technologies/#vue)
@@ -127,7 +127,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -145,7 +145,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -162,7 +162,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -170,10 +170,10 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.VueCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.VueCore.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -195,7 +195,7 @@ Ensure `JSopX.VueCore` Project dependencies are restored:
    ```
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -207,7 +207,7 @@ Verify that all NuGet packages are up to date:
    dotnet restore
    ```
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -232,7 +232,7 @@ Assuming the `JSopX.VueCore` Project is running as expected, **you are now done*
 2. **Conclude Remaining Steps**:
    - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -270,7 +270,7 @@ JSopX.VueCore/                        # Root JSopX.VueCore Visual Studio Solutio
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -293,7 +293,7 @@ JSopX.VueCore/                            # Root JSopX.VueCore Visual Studio Sol
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -336,7 +336,7 @@ JSopX.VueCore/                            # Root JSopX.VueCore Visual Studio Sol
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -377,7 +377,7 @@ A table structure of the same with no tree legs `JSopX.VueCore` Project, files a
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`appsettings.json`&nbsp;                 | Configuration file for application settings like connection strings. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -411,7 +411,7 @@ The `JSopX.VueCore` Project has the following `JSopX` Project Dependencies:
    - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -428,7 +428,7 @@ Although the `JSopX.VueCore` project is primarily designed as a self-contained d
    - Right-click the project that will use `JSopX.VueCore` and select `Add > Project Reference`.
    - Check the box for `JSopX.VueCore` and click `OK`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -464,7 +464,7 @@ Although the `JSopX.VueCore` project is primarily designed as a self-contained d
    }
    ```
  
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -496,7 +496,7 @@ Although the `JSopX.VueCore` project is primarily designed as a self-contained d
    }
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -516,7 +516,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.VueCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.VueCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.ReactCore/) [`Next »`](../../OpenProjects/jsopx.BlazorServerCore/)
+[`Home`](../../OpenProjects/jsopx.VueCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.VueCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.ReactCore/) [`Next »`](../../OpenProjects/jsopx.BlazorServerCore/)
 
 ---
 

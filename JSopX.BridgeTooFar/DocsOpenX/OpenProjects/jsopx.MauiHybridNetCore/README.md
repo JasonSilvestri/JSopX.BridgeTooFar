@@ -64,7 +64,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -72,11 +72,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.MauiHybridNetCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.0.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.0.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-maui-hybrid)
+- [Visual Studio (v 17.14.19)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.2.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-maui-hybrid)
 
 ---
 
@@ -126,7 +126,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -144,7 +144,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -161,7 +161,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -169,10 +169,10 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.MauiHybridNetCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.MauiHybridNetCore.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -194,7 +194,7 @@ Ensure `JSopX.MauiHybridNetCore` Project dependencies are restored:
    ```
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -206,7 +206,7 @@ Verify that all NuGet packages are up to date:
    dotnet restore
    ```
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -231,7 +231,7 @@ Assuming the `JSopX.MauiHybridNetCore` Project is running as expected, **you are
 2. **Conclude Remaining Steps**:
    - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -267,7 +267,7 @@ JSopX.MauiHybridNetCore/                 # Root JSopX.MauiHybridNetCore Visual S
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -294,7 +294,7 @@ JSopX.MauiHybridNetCore/                        # Root JSopX.MauiHybridNetCore V
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -319,7 +319,7 @@ A table structure of the same with no tree legs `JSopX.MauiHybridNetCore` Projec
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`appsettings.json`&nbsp;                 | Configuration file for application settings like connection strings. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -353,7 +353,7 @@ The `JSopX.MauiHybridNetCore` Project has the following `JSopX` Project Dependen
    - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -370,7 +370,7 @@ Although the `JSopX.MauiHybridNetCore` project is primarily designed as a self-c
    - Right-click the project that will use `JSopX.MauiHybridNetCore` and select `Add > Project Reference`.
    - Check the box for `JSopX.MauiHybridNetCore` and click `OK`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -390,7 +390,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
 
 ---
 

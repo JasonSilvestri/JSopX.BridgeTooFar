@@ -37,13 +37,13 @@ A common issue we encounter is broken or misdirected project links, especially i
 ## Prerequisites
 
 - Visual Studio 2022 (v 17.3.0) or higher installed.
-- .NET SDK (v 9.0.1) or higher installed.
+- .NET SDK (v 9.2.1) or higher installed.
 - Node.js (v 20.14.0) or higher installed.
 - Existing JSopX™ projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ClassLibrary`, `JSopX.WebAPI`, etc.).
 - Basic understanding of `.csproj` and `.sln` file structures.
 - Basic understanding of `.md` and markdown files.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -51,7 +51,7 @@ A common issue we encounter is broken or misdirected project links, especially i
 
 Although the focus of this document is not the `JSopX™ Visual Studio Projects`, the core concepts discussed here align closely with a 1:1 relationship between repositories and the projects they house.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -80,7 +80,7 @@ Review the Repositories found throughout the documentation of this page.
 | `JSopX.MauiHybridNetCore`        | The JSopX™ MAUI Hybrid .NET Core Project is a multi-platform, cross-platform hybrid application blending ASP.NET Core, Blazor, and .NET MAUI. This project reveals how Razor components can unify desktop, native, and web experiences, reinforcing JSopX™’s commitment to versatility.   |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -128,7 +128,7 @@ The `JSopX.AngularCore` JSopX™ Angular Core Project is a client-side Angular p
 - **Lifecycle Phase**: 1
 - **Technology Requirements**:
   - Visual Studio 2022 (v 17.3.0) or higher
-  - .NET SDK (v 9.0.1) or higher
+  - .NET SDK (v 9.2.1) or higher
   - Node.js (v 20.14.0) or higher
 
 ---
@@ -175,7 +175,7 @@ The `JSopX.AngularCore` JSopX™ Angular Core Project is a client-side Angular p
      https://github.com/JasonSilvestri/JSopX.AngularCore/blob/master
     ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -183,7 +183,7 @@ They are as follows:
 
 [See how we handle Bridge Too Far file structures](https://github.com/JasonSilvestri/JSopX.RazorClassLibraryDraft/blob/master/DocsJSopxNovaOrionDocEngine/BrandProjects/JSopX/Master/DocsDrafts/Static/Advanced/JsopxNovaOnly/JsopxNovaMarkdownBuilder/BusinessRequirements.md#7-typical-file-tree-structure).
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -298,7 +298,7 @@ Here is a version Nova suggestion when dealing with nested folders:
 | ├── 📝 `WeatherForecast.cs`            | Example model class provided by ASP.NET Core templates for demonstration. |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -316,7 +316,7 @@ Most importantly, this project has become a sandboxing location for features and
 - **Lifecycle Phase**: 1
 - **Technology Requirements**:
   - Visual Studio 2022 (v 17.3.0) or higher
-  - .NET SDK (v 9.0.1) or higher
+  - .NET SDK (v 9.2.1) or higher
   - Node.js (v 20.14.0) or higher
 
 ---
@@ -363,7 +363,7 @@ Most importantly, this project has become a sandboxing location for features and
      https://github.com/JasonSilvestri/JSopX.AngularCore/blob/master
     ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -445,7 +445,7 @@ Here’s the same structure for `JSopX.AngularCore` expanded on in table format:
 | 📝 `WeatherForecast.cs`                | Example model class provided by ASP.NET Core templates for demonstration. |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -484,11 +484,11 @@ Let's picture we are a technology or project that requires one or more technolog
 The following Technologies are required for _JSopX™ Open Project EXperiences Collection_ Projects to work as expected:
 
 - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
-- [Visual Studio (v 17.14.11)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
-- [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
-- [.Net Core Maui Hybrid (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
+- [Visual Studio (v 17.14.19)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
+- [.NET Core Blazor (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
+- [.Net Core Maui Hybrid (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
 - [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Node.md)
 - [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AngularCli.md)
@@ -498,7 +498,7 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -507,7 +507,7 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 - Verify that Scrollspy accurately highlights the correct sections while scrolling.
 - Test the layout in various screen sizes to ensure responsiveness.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -515,7 +515,7 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 
 - You can combine Bootstrap Scrollspy with additional interactive features like tooltips or smooth scrolling for a better user experience.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -526,11 +526,11 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 - Confirm the link and section targeting is correct.
 - Apply custom CSS adjustments if necessary to fix layout issues.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
 
 ---
 
@@ -592,7 +592,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ---
 
-**`Introduction`** · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
+**`Introduction`** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
 
 ---
 
@@ -646,7 +646,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ---
 
-**`Introduction`** · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
+**`Introduction`** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
 
 ---
 
@@ -759,7 +759,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ## `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.14.11`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.14.19`** (_or higher_) are as follows:
 
 
 - [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)

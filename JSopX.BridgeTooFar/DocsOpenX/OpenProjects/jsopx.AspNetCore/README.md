@@ -52,7 +52,7 @@ The **JSopX™ Asp.NET Core Project** is a **FREE**, open-source demonstration p
 By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 
-[`Back to Top`](#table-of-contents) 
+[`⇧ Back to Top`](#table-of-contents) 
 
 ---
 
@@ -69,9 +69,9 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)
-- [.NET Framework (v 9.0.1)](../../Technologies/#net-framework)
-- [ASP.NET Core (v 9.0.1)](../../Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../../Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../../Technologies/#aspnet-core)
 
 ---
 
@@ -91,7 +91,7 @@ The **JSopX™ Asp.Net Core Project** addresses **several** high-level **busines
 
 While this ASP.NET Core project often looks and feels like a standard server-side solution, it underpins the security, routing, and scalability principles that define the JSopX™ environment.
 
-[`Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
 
 ---
 
@@ -101,7 +101,7 @@ We initially create the **JSopX™ Asp.NET Core Project** to simulate an ["Exist
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 1. Simulating an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-1.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
 
 ---
 
@@ -116,7 +116,7 @@ JSopX™ Enterprise application development isn't just about writing code—it's
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 2. Create Our Development Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-2.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
 
 ---
 
@@ -126,7 +126,7 @@ A visually inconsistent application creates confusion. Every JSopX™ project mu
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 3. Multi-Platform Creative Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-3.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
 
 ---
 
@@ -138,7 +138,7 @@ We create Classes, RCLs, Web APIs, and other Resource Libraries, sharing resourc
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 4. Using Object-Oriented Programming](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-4.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
 
 ---
 
@@ -148,7 +148,7 @@ As the project evolves through each Lifecycle Phase, we extend the application b
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 5. We Get to Extend Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-5.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
 
 ---
 
@@ -158,7 +158,7 @@ The seamless integration into an enterprise-level application, adopting standard
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 6. We Become A Functioning Project of the JSopX™ Enterprise Solution](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-6.png)
 
-[`Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
 
 ---
 
@@ -208,7 +208,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -226,7 +226,7 @@ Choose the approach below that fits your environment:
     
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -243,7 +243,7 @@ Choose the approach below that fits your environment:
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -251,10 +251,10 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.AspNetCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.11)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.AspNetCore.sln`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -276,7 +276,7 @@ Ensure `JSopX.AspNetCore` Project dependencies are restored:
    ```
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -288,7 +288,7 @@ Verify that all NuGet packages are up to date:
    dotnet restore
    ```
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -313,7 +313,7 @@ Assuming the `JSopX.AspNetCore` Project is running as expected, **you are now do
 2. **Conclude Remaining Steps**:
    - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -349,7 +349,7 @@ JSopX.AspNetCore/                 # Root JSopX.AspNetCore Visual Studio Solution
 
 There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -376,7 +376,7 @@ JSopX.AspNetCore/                            # Root JSopX.AspNetCore Visual Stud
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -401,7 +401,7 @@ A table structure of the same with no tree legs `JSopX.AspNetCore` Project, file
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`appsettings.json`&nbsp;                 | Configuration file for application settings like connection strings. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`WeatherForecast.cs`&nbsp;               | Example Weather Forecast model class provided by ASP.NET Core templates for demonstration. |
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -435,7 +435,7 @@ The `JSopX.AspNetCore` Project has the following `JSopX` Project Dependencies:
    - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -452,7 +452,7 @@ Although the `JSopX.AspNetCore` project is primarily designed as a self-containe
    - Right-click the project that will use `JSopX.AspNetCore` and select `Add > Project Reference`.
    - Check the box for `JSopX.AspNetCore` and click `OK`.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -488,7 +488,7 @@ Although the `JSopX.AspNetCore` project is primarily designed as a self-containe
    }
    ```
  
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -520,7 +520,7 @@ Although the `JSopX.AspNetCore` project is primarily designed as a self-containe
    }
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -540,7 +540,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AspNetCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/) [`Next »`](../../OpenProjects/jsopx.AngularCore/)
+[`Home`](../../OpenProjects/jsopx.AspNetCore/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/) [`Next »`](../../OpenProjects/jsopx.AngularCore/)
 
 ---
 

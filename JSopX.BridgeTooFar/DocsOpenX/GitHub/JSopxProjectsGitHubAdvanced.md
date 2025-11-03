@@ -21,7 +21,7 @@ By delving into the advanced GitHub practices outlined in this document, you wil
 
 This document is designed for developers who want to elevate their GitHub skills to manage the intricacies of JSopX™ projects. By mastering the steps in this guide, you'll streamline project organization, handle complex interdependencies, and ensure your repositories remain cohesive and scalable as your enterprise solution evolves.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -61,7 +61,7 @@ Ensure the following before diving into advanced GitHub practices:
 
 To ensure compatibility, install the required tools and SDKs as listed in the [Prerequisites](./JSopxProjectsGitHubBasics.md#prerequisites) of the GitHub Basics document.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -71,7 +71,7 @@ To ensure compatibility, install the required tools and SDKs as listed in the [P
 - Familiarize yourself with the [JSopX™ Visual Studio Projects](./JsopxProjects.md) to understand the interdependencies between projects.
 - Review the [JSopX™ GitHub Basics](./JSopxProjectsGitHubBasics.md) document to ensure a solid foundation before tackling advanced topics.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -89,7 +89,7 @@ Proper organization prevents issues with references and dependencies:
 
 2. Store each solution (`.sln`) in the root of its corresponding project folder. This ensures all references resolve consistently.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -149,7 +149,7 @@ To add a repository as a subtree, perform the following command, where we will u
 
 This command adds the `JSopX.WebAPI` repository as a subtree in the `JSopX.OpenProjectX` repository, under the `path/to/local/repo/JasonSilvestri/JSopX.OpenProjectX` directory.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -163,7 +163,7 @@ git subtree pull --prefix=path/to/local/repo/JasonSilvestri/JSopX.WebAPI https:/
 
 This pulls the latest changes from the `master` branch of the `JSopX.WebAPI` repository and merges them into your local project.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -177,7 +177,7 @@ git subtree push --prefix=path/to/local/repo/JasonSilvestri/JSopX.WebAPI https:/
 
 This command pushes any changes made in the `path/to/local/repo/JasonSilvestri/JSopX.WebAPI` directory back to the `master` branch of the `JSopX.WebAPI` repository.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -193,7 +193,7 @@ git commit -m "Removed JSopX.WebAPI subtree"
 
 This will remove the subtree and commit the changes to your repository.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 
 ---
@@ -243,7 +243,7 @@ To remove a subtree like `JSopX.ClassLibrary` from your parent repo (`JSopX.Open
 - **Simple Approach:** Use this if you just want the files gone without rewriting history.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -293,7 +293,7 @@ To erase all traces of multiple subtrees (e.g., `JSopX.ClassLibrary`, `JSopX.Uti
    git push origin master --force
    ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -318,7 +318,7 @@ To avoid circular dependencies:
 
 - Use `PathConfig.targets` for consistent reference management.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -331,7 +331,7 @@ git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
 
 Ensure all references are properly added to the parent solution in Visual Studio.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -378,7 +378,7 @@ Add logic to adjust paths based on nesting depth:
 - Validate repository integrity and dependency resolution.
 - Push changes to GitHub with a clean commit history.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -386,7 +386,7 @@ Add logic to adjust paths based on nesting depth:
 
 - Explore related JSopX™ documents for complementary workflows, such as asset management and CI/CD pipeline setups.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -394,7 +394,7 @@ Add logic to adjust paths based on nesting depth:
 
 Advanced GitHub practices empower JSopX™ developers to manage complexity with precision. By organizing folders, leveraging subtrees, and resolving dynamic paths, your projects will be more robust, maintainable, and scalable.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -406,7 +406,7 @@ Advanced GitHub practices empower JSopX™ developers to manage complexity with 
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Advanced`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubBasics.md) [`Next »`](./JSopxProjectsGitHubGetForked.md)
+[`Introduction`](../Introduction/Introduction/) » **`JSopX™ GitHub Advanced`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxProjectsGitHubBasics.md) [`Next »`](./JSopxProjectsGitHubGetForked.md)
 
 ---
 

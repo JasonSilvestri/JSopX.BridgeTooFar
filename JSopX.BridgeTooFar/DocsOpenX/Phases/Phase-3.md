@@ -23,7 +23,7 @@
 
 The purpose of Project Development Steps in `Phase 3` is to dig in hard with some of the most advanced aspects of all parts of each project, across the entire project suite. 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -53,7 +53,7 @@ Whatever base assets should be included. Primary Web API should be included. All
 
 Update ASP.NET Core Class Library project and solution parts we want to use across all applications, such as Constants, Enums, Helpers, etc.
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -61,7 +61,7 @@ Update ASP.NET Core Class Library project and solution parts we want to use acro
 
 Update ASP.NET Core Web API project and solution. This project will serve as the backend API that the frontend projects will communicate with.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -69,7 +69,7 @@ Update ASP.NET Core Web API project and solution. This project will serve as the
 
 Update new ASP.NET Core project and solution that will handle common, static, assets and resources, shared across all applications. This project will serve as the resource project with all HTML, CSS, JS, Images and other creative all projects will use to carry the same theme, look and feel across applications.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -78,7 +78,7 @@ Update new ASP.NET Core project and solution that will handle common, static, as
    - Each frontend project (_AngularJS_, _Vue_, _ReactJS_, _Blazor_, etc.) will make HTTP requests to the Web API project to fetch data or perform operations. The final version will access real-time weather data from one or more weather APIs available today.
    - Ensure that CORS (_Cross-Origin Resource Sharing_) is properly configured in the Web API project to allow requests from the frontend projects.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -87,7 +87,7 @@ Update new ASP.NET Core project and solution that will handle common, static, as
    - We will define appropriate routes in our Web API project to handle incoming requests from the frontend projects.
    - We will implement controllers and actions to handle these routes and interact with our data layer.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -96,7 +96,7 @@ Update new ASP.NET Core project and solution that will handle common, static, as
    - We will consider creating shared models and services in their own project, as opposed to housing them in the Web API project that can be used across both the Web API project and the frontend projects. This will help in maintaining consistency and reducing duplication of code.
    - An eventual version of this approach will leverage a structure where we have specific repositories for each service along with a generic repository to handle common CRUD operations, following a design pattern like the Repository Pattern.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -106,7 +106,7 @@ We will use JWT (_JSON Web Tokens_) for authentication and role-based authorizat
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 3`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-2.md) [`Next »`](./Phase-4.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 3`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./Phase-2.md) [`Next »`](./Phase-4.md)
 
 ---
 

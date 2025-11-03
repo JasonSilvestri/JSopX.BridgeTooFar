@@ -64,13 +64,13 @@ A common issue we encounter is broken or misdirected project links, especially i
 ## Prerequisites
 
 - Visual Studio 2022 (v 17.3.0) or higher installed.
-- .NET SDK (v 9.0.1) or higher installed.
+- .NET SDK (v 9.2.1) or higher installed.
 - Node.js (v 20.14.0) or higher installed.
 - Existing JSopX projects (e.g., `JSopX.BridgeTooFar`, `JSopX.ClassLibrary`, `JSopX.WebAPI`, etc.).
 - Basic understanding of `.csproj` and `.sln` file structures.
 - Basic understanding of `.md` and markdown files.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -78,7 +78,7 @@ A common issue we encounter is broken or misdirected project links, especially i
 
 Although the focus of this document is not the `JSopX Nova Markdown Builder`, the core concepts discussed here align closely with its functionality.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -103,7 +103,7 @@ Currently, we have two competing approaches for creating and storing markdown do
 1. **Using the `JSopX Nova Markdown Builder`:**  
    Before we made it a habit to manually create markdown documents, we used a primitive version of the `JSopX Nova Markdown Builder` tool. While the tool needs refinement, it was originally designed to dynamically create markdown documents using features like `Includes`. However, this approach is not practical for manual markdown creation.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -224,7 +224,7 @@ To align with broader development practices, **use `ReadMe.md`** as the root ind
 By combining both approaches, we can optimize the structure and maintain flexibility. This hybrid method helps manage the complexity of dynamic and static markdown document generation.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -247,7 +247,7 @@ They are as follows:
 
 ---
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -279,7 +279,7 @@ JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio
 │   └── WeatherForecast.cs                # Example model class (default template).
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -311,7 +311,7 @@ Here’s the same structure for `JSopX.AngularCore` expanded on in table format:
 | 📝 `WeatherForecast.cs`                | Example model class provided by ASP.NET Core templates for demonstration. |
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -322,7 +322,7 @@ The `JSopX.RazorClassLibraryDraft` Project, is a little known, private repositor
 In addition, the project has become a sandboxing location for features and resources that will often find their way into public JSopX Projects, like, `JSopX.SharedResources`, `JSopX.RCLxAssets`, `JSopX.RCLxProper`, etc.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -369,7 +369,7 @@ Each variation is tied to a use case:
 - **Absolute public paths** when documenting system-specific configurations or providing setup instructions.
 
 ---
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -393,7 +393,7 @@ Each variation is tied to a use case:
     </div>
     ```
     
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -423,7 +423,7 @@ Set a `max-height` for the drop-down menu to limit its height and allow scrollin
     </div>
     ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -466,7 +466,7 @@ Use custom scrollbar styling to ensure the drop-down menu remains styled when ov
     </div>
     ```
     
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -507,7 +507,7 @@ Dynamically adjust the max-height of the drop-down menu based on the viewport he
     </div>
     ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -527,11 +527,11 @@ Let's picture we are a technology or project that requires one or more technolog
 The following Technologies are required for _JSopX™ Open Project EXperiences Collection_ Projects to work as expected:
 
 - [Common Technologies Included](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/CommonTechnologiesIncluded.md)
-- [Visual Studio (v 17.14.11)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
-- [.NET Core Blazor (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
-- [.Net Core Maui Hybrid (v 9.0.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
+- [Visual Studio (v 17.14.19)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AspNetCore.md)
+- [.NET Core Blazor (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreBlazor.md)
+- [.Net Core Maui Hybrid (v 9.2.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/NetCoreMauiHybrid.md)
 - [Node (v 20.14.0)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/Node.md)
 - [npm (v 10.8.1)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/npm.md)
 - [Angular CLI (v 18.0.3)](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/JSopX/Master/Technologies/AngularCli.md)
@@ -541,7 +541,7 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 
 ```
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -550,7 +550,7 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 - Verify that Scrollspy accurately highlights the correct sections while scrolling.
 - Test the layout in various screen sizes to ensure responsiveness.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -558,7 +558,7 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 
 - You can combine Bootstrap Scrollspy with additional interactive features like tooltips or smooth scrolling for a better user experience.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -569,11 +569,11 @@ The following Technologies are required for _JSopX™ Open Project EXperiences C
 - Confirm the link and section targeting is correct.
 - Apply custom CSS adjustments if necessary to fix layout issues.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Design Patterns`](../DesignPatterns/) » **`Less Common Doc Section Design Patterns`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./JSopxNovaDocumentSectionDesignPatterns.md) [`Next »`](../DesignPatterns/)
 
 ---
 
@@ -635,7 +635,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ---
 
-**`Introduction`** · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
+**`Introduction`** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
 
 ---
 
@@ -689,7 +689,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ---
 
-**`Introduction`** · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
+**`Introduction`** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
 
 ---
 
@@ -802,7 +802,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ## `JSopX.` Dependencies
 
-The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.14.11`** (_or higher_) are as follows:
+The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on `Visual Studio` or `Visual Studio Code` **`17.14.19`** (_or higher_) are as follows:
 
 
 - [`JSopX.OpenProjectX`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.OpenProjectX/p1/v1/)

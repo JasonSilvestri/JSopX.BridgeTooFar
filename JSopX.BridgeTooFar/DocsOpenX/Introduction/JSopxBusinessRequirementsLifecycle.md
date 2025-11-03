@@ -21,7 +21,7 @@ By exploring the [Overview](#overview), you’ll start to understand that it tak
 
 In a lot of cases, Business Requirements are simply presented and we all take the steps to complete. Conversely, I wanted to share a unique business case, that can give you a rare look into why using a series of disciplines, design patterns, best practices and standards, specifically designed for sustainable enterprise product development is not only crucial, but how when done correctly, can help you tackle some of the most daunting Business Requirements.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -34,7 +34,7 @@ Before engaging with an existing project, conduct a thorough evaluation to under
 
 See, [Client Stakeholder Sourced Business Requirements](../Introduction/JSopxClientStakeholderBusinessRequirements.md) for more details.
 
-[`Back to Top`](#table-of-contents) · · · [`Read More »`](../Introduction/JSopxClientStakeholderBusinessRequirements.md).
+[`⇧ Back to Top`](#table-of-contents) · · · [`Read More »`](../Introduction/JSopxClientStakeholderBusinessRequirements.md).
 
 ---
 
@@ -50,7 +50,7 @@ Before engaging with an existing project, we need to carfully review client stak
 
 See, [Skeptical Analysis & Pre-Existing Project Evaluation](../Introduction/JSopxSkepticalAnalysisBusinessRequirements.md) for more details.
 
-[`Back to Top`](#table-of-contents) · · · [`Read More »`](../Introduction/JSopxSkepticalAnalysisBusinessRequirements.md)
+[`⇧ Back to Top`](#table-of-contents) · · · [`Read More »`](../Introduction/JSopxSkepticalAnalysisBusinessRequirements.md)
 
 
 ---
@@ -66,7 +66,7 @@ The end goal of this section is to create finalized business requirements.
 
 See, [JSopX™ Business Requirements](../Introduction/JSopxSkepticalAnalysisBusinessRequirements.md) for more details.
 
-[`Back to Top`](#table-of-contents) · · · [`Read More »`](../Introduction/JSopxEnterpriseBusinessRequirements.md)
+[`⇧ Back to Top`](#table-of-contents) · · · [`Read More »`](../Introduction/JSopxEnterpriseBusinessRequirements.md)
 
 ---
 
@@ -76,7 +76,7 @@ See, [JSopX™ Business Requirements](../Introduction/JSopxSkepticalAnalysisBusi
 
 ---
 
-[`Introduction`](../Introduction/Introduction/) » **[`JSopX™ Business Requirements Lifecycle`](../Introduction/JSopxBusinessRequirementsLifecycle.md)** » [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../Introduction/JSopxClientStakeholderBusinessRequirements.md)
+[`Introduction`](../Introduction/Introduction/) » **[`JSopX™ Business Requirements Lifecycle`](../Introduction/JSopxBusinessRequirementsLifecycle.md)** » [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../Introduction/JSopxClientStakeholderBusinessRequirements.md)
 
 ---
 

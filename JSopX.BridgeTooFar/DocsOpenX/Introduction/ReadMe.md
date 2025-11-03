@@ -59,7 +59,7 @@ Why should developers and organizations embrace JSopX™? Because it’s more th
 
 ---
 
-**`Introduction`** · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
+**`Introduction`** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
 
 ---
 

@@ -6,7 +6,7 @@ It is assumed that all JSopX™ Open Project EXperiences _require_ some common t
 ### Common Technologies Included : Table of Contents
 
 
-- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)
+- [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Technologies)
   - [Overview](#common-technologies-included--overview)
   - [JSopX™ Dependencies](#common-technologies-included-jsopx-dependencies)
   - [In Conclusion](#common-technologies-included--in-conclusion)
@@ -23,13 +23,8 @@ The technologies that should be included and supported without any further actio
 - JS (JavaScript)
 - TypeScript 5
 
+---
 
-
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Common Technologies Included**](#common-technologies-included)   »   [Back to Top](#table-of-contents)
-
-
-
-    
 ## Common Technologies Included: `JSopX.` Dependencies
 
 The following _JSopX™ Open Project EXperiences Collection_ Projects that depend on these `Common Technologies Included` are as follows:
@@ -50,17 +45,13 @@ The following _JSopX™ Open Project EXperiences Collection_ Projects that depen
 - [`JSopX.BlazorServerCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.BlazorServerCore/p1/v1/) 
 - [`JSopX.MauiHybridNetCore`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/jsopx.MauiHybridNetCore/p1/v1/)  
 
-
-
-[All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [**Common Technologies Included**](#common-technologies-included)   »   [Back to Top](#table-of-contents)
-
+---
 
 ## Common Technologies Included: In Conclusion
 
 The _JSopX™ Open Project EXperiences Collection_ Project `Common Technologies Included` don't need to be installed, and will be included indefinitely.
 
 [All Technology Requirements](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/Docs/Master/JSopX/Technologies.md)   »   [Back to Top](#table-of-contents)
-
 
 
 ---

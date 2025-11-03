@@ -41,7 +41,7 @@ These `Phases` also simplify understanding and enhance readability for developer
 
 There is a plethora of factors that go into the creation of an Enterprise-Level Application, from conception to release to market. Conversely, from a developer and/or group of developers' perspective, that entire world becomes razor focused to a particular set of skills that we are masters at without a doubt. Still, it takes dicipline, set standards, and some form of broad-stroke design pattern that can tackle large parts of the development lifecycle and workflow states.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -71,7 +71,7 @@ The sole purpose of Project Development Steps in **`Phase 1`** is to create a Mi
 
 Please see [Phase 1: Minimum Viable Product (MVP)](./Phase-1.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -81,7 +81,7 @@ The purpose of Project Development Steps in `Phase 2` is to create a Minimum Via
 
 Please see [Phase 2: Minimum Viable Refactor Product (MVRP)](./Phase-2.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -91,7 +91,7 @@ The purpose of Project Development Steps in `Phase 3` is to dig in hard with som
 
 Please see [Phase 3: Advanced User Interface Connectivity and Re-Usability](./Phase-3.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -101,7 +101,7 @@ The purpose of Project Development Steps in `Phase 4` is to Implement Final Secu
 
 Please see [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](./Phase-4.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -113,7 +113,7 @@ Please see [Phase 5: Project Release & Deployment Protocols](./Phase-5.md)
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **[`JSopX™ Lifecycle Phases`](./ReadMe.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Technologies/) [`Next »`](../GitHub/)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **[`JSopX™ Lifecycle Phases`](./ReadMe.md)** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Technologies/) [`Next »`](../GitHub/)
 
 ---
 

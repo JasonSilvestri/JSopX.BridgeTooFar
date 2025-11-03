@@ -72,11 +72,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.11)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -104,7 +104,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Build a centralized API with weather data, Identity, and JWT, serving all JSopX™ apps.
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
@@ -114,7 +114,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.WebAPI`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.WebAPI`.
      - Solution Name: `JSopX.WebAPI`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 3. **Set Up Initial Weather Data**:
@@ -256,7 +256,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Use Postman: `POST /api/auth/register` (`test@test.com`, `Password123!`), then `POST /api/auth/login`, and `GET /api/weather` with the token.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -291,7 +291,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 3. **Test**: Hit `/api/weather` with a token and verify historical data.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -314,7 +314,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Use an OIDC token from `JSopX.AspNetCore` to access `/api/weather`.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -327,7 +327,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Confirm all prior apps (`Maui`, `Blazor`, etc.) pull data from here.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -343,7 +343,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 2. **Test**: Verify iconic summaries in API responses.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -363,7 +363,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.WebAPI/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.WebAPI/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/ClassLibrary/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md)
 
 ---
 

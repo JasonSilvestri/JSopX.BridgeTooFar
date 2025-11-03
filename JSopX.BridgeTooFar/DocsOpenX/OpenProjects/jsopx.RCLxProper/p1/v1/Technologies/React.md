@@ -6,7 +6,7 @@
 
 ---
 
-[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`React`](./React.md)** · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
+[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) »  [`Technologies`](./ReadMe.md) » **[`React`](./React.md)** · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
 
 ---
 
@@ -30,7 +30,7 @@ This section is dedicated to helping you ensure you have the correct `React` set
 
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -61,7 +61,7 @@ If you have version `React` v **`18.2.0`** (_or higher_), you are _good to go_, 
 If you do not have React installed or you version is **`lower`** than `React` v **`18.2.0`**, it is recommended that you install it _immediately_ to avoid unexpected results.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -85,39 +85,39 @@ You can use **`Node`** Command Line dialog again to `install` the correct versio
     
 3. This command should _install_ all necessary `React` dependencies and features, and then prints the results of the installation to the `React` Command Line dialog output.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
 ## **React: `JSopX.` Project Dependencies**
 
-`JSopX` projects leverages shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability. Yeah, well, it also adds dependency.
+`JSopX` projects leverages shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability. 
 
 1. **`JSopX.OpenProjectX`**:
-   - The [Flagship Project](../../../../../Introduction/JSopxProjectsFamilies.md#1-flagship-projects) parent enterprise application solution.
-   - **Explore GitHub**: [JSopX.OpenProjectX](../../../../../OpenProjects/jsopx.OpenProjectX)
+   - The [Flagship Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#1-flagship-projects) parent enterprise application solution.
+   - **Explore GitHub**: [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.OpenProjectX)
 
 2. **`JSopX.SharedResources`**:
-   - A [Shared Assets & Resources Projects](../../../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets, docs, code, and all the source one would want in a development sand box environment, while using a more traditional approach to **Class Libraries**.
-   - **Explore GitHub**: [JSopX.SharedResources](../../../../../OpenProjects/jsopx.SharedResources)
+   - A [Shared Assets & Resources Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets, docs, code, and all the source one would want in a development sand box environment, while using a more traditional approach to **Class Libraries**.
+   - **Explore GitHub**: [JSopX.SharedResources](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.SharedResources)
  
 3. **`JSopX.RCLxAssets`**:
-   - The direct [Shared Assets & Resources Projects](../../../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) successor of `JSopX.SharedResources` that contains most of the same reusable static assets, docs, code, and all the source, but now instead uses a more modern **Razor Class Library**. 
-   - **Explore GitHub**: [JSopX.RCLxAssets](../../../../../OpenProjects/jsopx.RCLxAssets)
+   - The direct [Shared Assets & Resources Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) successor of `JSopX.SharedResources` that contains most of the same reusable static assets, docs, code, and all the source, but now instead uses a more modern **Razor Class Library**. 
+   - **Explore GitHub**: [JSopX.RCLxAssets](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.RCLxAssets)
 
 4. **`JSopX.RCLxProper`**:
-   - An extremely light-weight, [Shared Assets & Resources Projects](../../../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
-   - **Explore GitHub**: [JSopX.RCLxProper](../../../../../OpenProjects/jsopx.RCLxProper)
+   - An extremely light-weight, [Shared Assets & Resources Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
+   - **Explore GitHub**: [JSopX.RCLxProper](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.RCLxProper)
 
 5. **`JSopX.RCLxComponents`**:
-   - Although there is not much traction is the project as of yet, don't let it fool you. This epic [Shared Assets & Resources Projects](../../../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) Razor Class Library, Combines Razor components with **.NET MAUI** to create cross-platform applications.
-   - **Explore GitHub**: [JSopX.RCLxComponents](../../../../../OpenProjects/jsopx.RCLxComponents)
+   - Although there is not much traction is the project as of yet, don't let it fool you. This epic [Shared Assets & Resources Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) Razor Class Library, Combines Razor components with **.NET MAUI** to create cross-platform applications.
+   - **Explore GitHub**: [JSopX.RCLxComponents](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.RCLxComponents)
 
 6. **`JSopX.ReactCore`**:
-    - A **React Core** [Client-Side “Existing” Apps Examples](../../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing React Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
-    - **Explore GitHub**: [JSopX.ReactCore](../../../../../OpenProjects/jsopx.ReactCore)
+    - A **React Core** [Client-Side “Existing” Apps Examples](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing React Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
+    - **Explore GitHub**: [JSopX.ReactCore](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.ReactCore)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -142,7 +142,7 @@ Visit the official `React` vendor site for **`React`** if:
 
 ---
 
-[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`React`](./React.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
+[`Home`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/) »  [`Technologies`](./ReadMe.md) » **[`React`](./React.md)** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./AngularCli.md) [`Next »`](./Vue.md)
 
 ---
 

@@ -33,7 +33,7 @@ JSopX™ offers a comprehensive set of enterprise-grade projects, each meticulou
 Why should developers and organizations embrace JSopX™? Because it’s more than a collection of projects—it’s a movement to elevate development practices. JSopX™ is **freely accessible**, with no proprietary dependencies or hidden costs, making it a resource for the entire community to fork, extend, and improve. Whether you’re a solo developer seeking to sharpen your skills or an enterprise aiming to standardize your workflows, JSopX™ equips you with the tools, examples, and standards to build better software. Join us in beating to the same drum—adopt JSopX™ and transform the way you develop, one project at a time.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -57,7 +57,7 @@ This homogeneous suite of **JSopX™** projects leverages cutting-edge client-si
 ![Jason Silvestri Open Project EXperiences (JSopX™) Assets](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/bootstrap-themes.png)
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -82,7 +82,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../OpenProjects/jsop
 Designed as an enterprise-level solution, it provides a responsive web experience on mobile, tablet, laptop, and desktop browsers, while also being available as a desktop application for **Windows**, **Linux**, and **Mac**, and as a native mobile app for **iPhone**, **Android**, **Samsung Galaxy**, and **Windows Phone**.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -106,7 +106,7 @@ Designed as an enterprise-level solution, it provides a responsive web experienc
 
 ---
 
-**`Introduction`** · · · [`Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
+**`Introduction`** · · · [`⇧ Back to Top`](#table-of-contents) · · · [`Get Started »`](./Alerts.md)
 
 ---
 

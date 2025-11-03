@@ -23,7 +23,7 @@
 
 The sole purpose of Project Development Steps in **`Phase 1`** is to create a Minimum Viable Product (MVP) that needs to similuate a real-world case where stakeholders have been promised a proof-of-concept as soon as possible, that showcases a basic multi-platform, full-stack, enterprise-level project suite of all their current Client-Side & Server-Side Projects (e.g., _Asp.NET Core, Angular, Blazor, React, Vue, .NET MAUI Hybrid, NodeJS & More!_). 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -49,7 +49,7 @@ The sole purpose of Project Development Steps in **`Phase 1`** is to create a Mi
 
 Add a new ASP.NET Core Class Library project and solution. This project will serve as the common place where we share the most common class and interface parts we want to use across all applications, such as Constants, Enums, Helpers, etc.
    
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -57,7 +57,7 @@ Add a new ASP.NET Core Class Library project and solution. This project will ser
 
 Add a new ASP.NET Core Web API project and solution. This project will serve as the backend API that the frontend projects will communicate with.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -65,7 +65,7 @@ Add a new ASP.NET Core Web API project and solution. This project will serve as 
 
 Add a new ASP.NET Core project and solution that will handle common, static, assets and resources, shared across all applications. This project will serve as the resource project with all HTML, CSS, JS, Images and other creative all projects will use to carry the same theme, look and feel across applications. For now, all projects will use the basic, out-of-the-box vanilla assets.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -75,7 +75,7 @@ Add a new ASP.NET Core project and solution that will handle common, static, ass
    - For AngularJS, Vue, and ReactJS, we will consider creating separate ASP.NET Core Web Application projects and choosing the respective frontend frameworks (i.e., _Angular_, _Vue.js_, _React.js_) during project creation.
    - For Blazor, we will create a Blazor WebAssembly or Blazor Server project, depending on time. If I have bandwidth, I may also create a MAUI Hybrid Project, which is relatively new to the scene.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -84,11 +84,11 @@ Add a new ASP.NET Core project and solution that will handle common, static, ass
    - Each frontend and backend project (_AngularJS_, _Vue_, _ReactJS_, _Blazor_, etc.) will use the Class Library containing constants, DTOs, and helper classes to perform other common operations. 
    - Each frontend and backend project (_AngularJS_, _Vue_, _ReactJS_, _Blazor_, etc.) will use the Shared Resources Library to share common themes, such as common CSS, JS, HTML. etc...).
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 1`**  · · ·  [`Back to Top`](#table-of-contents) · · · [`« Previous`](./ReadMe.md) [`Next »`](./Phase-2.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Phases`](./ReadMe.md) » **`Phase 1`**  · · ·  [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](./ReadMe.md) [`Next »`](./Phase-2.md)
 
 ---
 

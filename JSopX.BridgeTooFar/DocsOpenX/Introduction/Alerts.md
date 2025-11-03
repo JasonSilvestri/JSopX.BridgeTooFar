@@ -30,7 +30,7 @@ JSopX™ documentation is constructed using `markdown` and leverages GitHub-styl
 
 As you encounter different _alert types_ across the JSopX™ documentation, you’ll gain a clear understanding of when and why to use each style, ensuring a more consistent and user-friendly experience.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -47,7 +47,7 @@ Provides useful information.
 > Provides useful information that readers should know, even when skimming content.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -58,7 +58,7 @@ Offers helpful advice.
 > [!TIP]
 > Offers helpful advice to improve efficiency, clarity, or ease-of-use.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -69,7 +69,7 @@ Highlights Key Information.
 > [!IMPORTANT]
 > Highlights key information essential for achieving the reader’s goals.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -80,7 +80,7 @@ Signals urgent issues.
 > [!WARNING]
 > Signals urgent issues requiring immediate attention to avoid serious problems.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -91,7 +91,7 @@ Advises about potential risks.
 > [!CAUTION]
 > Advises about potential risks or negative outcomes, encouraging careful consideration.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -111,7 +111,7 @@ The `This is a Draft` alert is often placed near the top of new or in-progress d
 >
 > The following content is a preliminary version and may contain placeholders or inaccuracies. Please do not treat it as final. This draft is subject to change or removal as the document matures.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -127,7 +127,7 @@ The `Current Phase` alerts indicate the project’s developmental stage, helping
 > 
 > For more details, see [Phase 1: Minimum Viable Product (MVP)](../Phases/Phase-1.md).
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -142,7 +142,7 @@ The `Rabbit Hole` alerts serve as a playful yet serious warning that the upcomin
 > The journey ahead is complex, unconventional, and potentially frustrating.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -150,7 +150,7 @@ While these alerts introduce a bit of humor, they also serve a practical purpose
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Alerts`**  · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
+[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  **`JSopX™ Alerts`**  · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../Introduction/) [`Next »`](./JasonSilvestriOpenProjectExperiences.md)
 
 ---
 

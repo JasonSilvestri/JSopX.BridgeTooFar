@@ -6,16 +6,16 @@
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Python`](./Python.md)** · · · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Python`](./Python.md)** · · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
 
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [JSopX™ Project Dependencies](#python-jsopx-project-dependencies)
 - [Check Versions](#python-checking-versions)
 - [Installation](#python-installation)
+- [JSopX™ Project Dependencies](#python-jsopx-project-dependencies)
 - [Downloads & Documentation](#python-official-downloads--documentation)
 
 ---
@@ -26,7 +26,7 @@ All JSopX™ Open Project EXperiences _can use_ `Python` v **`3.12.3x+`** (_or h
 
 This section is dedicated to helping you ensure you have the correct `Python` setup, by describing how to check versions, perform installations if necessary, check JSopX™ dependencies, get links to official documentation, and more!
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -56,8 +56,7 @@ If you have version `Python` v **`3.12.3x+`** (_or higher_), you are _good to go
    
 If you do not have Python installed or you version is **`lower`** than `Python` v **`3.12.3x+`**, it is recommended that you install it _immediately_ to avoid unexpected results.
 
-
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents) · [`« Previous`](#overview) [`Next »`](#python-installation)
 
 ---
 
@@ -198,23 +197,29 @@ python --version
 * Use **Windows Installer** for system-wide availability (PowerShell + Node.js Command Prompt will both work immediately).
 * Use **`pyenv-win`** if you want to **switch Python versions easily** without messing with your system installation.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents) · [`« Previous`](#python-checking-versions) [`Next »`](#python-jsopx-project-dependencies)
 
 ---
 
 ## **Python: `JSopX.` Project Dependencies**
 
-`JSopX` projects leverages shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability. Yeah, well, it also adds dependency.
+`JSopX` projects leverages shared resources and code from other projects within the JSopX™ ecosystem. This ensures modularity, maintainability, and scalability. 
 
 1. **`JSopX.OpenProjectX`**:
-   - The [Flagship Project](../Introduction/JSopxProjectsFamilies.md#1-flagship-projects) parent enterprise application solution.
-   - **Explore GitHub**: [JSopX.OpenProjectX](../OpenProjects/jsopx.OpenProjectX)
+   - The [Flagship Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#1-flagship-projects) parent enterprise application solution.
+   - **Explore GitHub**: [JSopX.OpenProjectX](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.OpenProjectX)
 
 2. **`JSopX.BridgeTooFar`**:
-   - A [Shared Assets & Resources Projects](../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
-   - **Explore GitHub**: [JSopX.BridgeTooFar](../OpenProjects/jsopx.BridgeTooFar)
+   - A [Shared Assets & Resources Projects](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
+   - **Explore GitHub**: [JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/tree/master/JSopX.BridgeTooFar/DocsOpenX/OpenProjects/jsopx.BridgeTooFar)
 
-[`Back to Top`](#table-of-contents)
+- [Overview](#overview)
+- [Check Versions](#python-checking-versions)
+- [Installation](#python-installation)
+- [JSopX™ Project Dependencies](#python-jsopx-project-dependencies)
+- [Downloads & Documentation](#python-official-downloads--documentation)
+
+[`⇧ Back to Top`](#table-of-contents) · [`« Previous`](#python-installation) [`Next »`](#python-official-downloads--documentation)
 
 ---
 
@@ -266,7 +271,7 @@ Or
 
 ---
 
-[`Home`](../OpenProjects/jsopx.BridgeTooFar/README.md) » [`Introduction`](../Introduction/) »  [`Technologies`](./ReadMe.md) » **[`Python`](./Python.md)** · · · [`Back to Top`](#table-of-contents) · · · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Python`](./Python.md)** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
 
 ---
 

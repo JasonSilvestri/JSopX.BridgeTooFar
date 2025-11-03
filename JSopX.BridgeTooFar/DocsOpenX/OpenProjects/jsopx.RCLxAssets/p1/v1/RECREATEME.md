@@ -72,11 +72,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.11)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.0.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -104,7 +104,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Modern successor to `JSopX.SharedResources` with static assets for newer frameworks.
 
-1. **Open Visual Studio 2022 (v 17.14.11)**:
+1. **Open Visual Studio 2022 (v 17.14.19)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
@@ -114,7 +114,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      - Project Name: `JSopX.RCLxAssets`.
      - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.RCLxAssets`.
      - Solution Name: `JSopX.RCLxAssets`.
-     - .NET Framework (v 9.0.1)
+     - .NET Framework (v 9.2.1)
    - Click Create.
 
 3. **Set Up Initial Assets**:
@@ -136,7 +136,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
    - Build—assets and Razor component ready for reference.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -155,7 +155,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 2. **Test**: Build—no runtime yet.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -164,7 +164,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 **Goal**: N/A—asset-focused, no auth.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -173,7 +173,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 **Goal**: N/A—no API.
 
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -196,7 +196,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 2. **Test**: Verify assets and component usage.
 
-[`Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents)
 
 ---
 
@@ -216,7 +216,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.RCLxAssets/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/README.md) · **`From Scratch`** · · [`Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/RCLxAssets/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.RCLxAssets/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.RCLxAssets/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/RCLxAssets/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.RCLxProper/p1/v1/RECREATEME.md)
 
 ---
 
