@@ -80,7 +80,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.VueCore` Project.
 
-- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.VueCore/p1/v1/Technologies/#visual-studio)
+- [Visual Studio (v 17.14.20)](../../../../OpenProjects/jsopx.VueCore/p1/v1/Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.VueCore/p1/v1/Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.VueCore/p1/v1/Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../../../OpenProjects/jsopx.VueCore/p1/v1/Technologies/#node)
@@ -116,7 +116,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 **Goal**: Simulate an existing Vue app with weather data, Identity, and JWT already established.
 
 
-1. **Open Visual Studio 2022 (v 17.14.19)**:
+1. **Open Visual Studio 2022 (v 17.14.20)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:

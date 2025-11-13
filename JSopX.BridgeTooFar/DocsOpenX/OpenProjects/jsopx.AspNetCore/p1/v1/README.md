@@ -68,7 +68,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.14.19)](../../../../Technologies/#visual-studio)
+- [Visual Studio (v 17.14.20)](../../../../Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../../../Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../../../Technologies/#aspnet-core)
 
@@ -249,7 +249,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.AspNetCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.20)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.AspNetCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)
