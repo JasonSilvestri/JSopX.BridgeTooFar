@@ -69,7 +69,7 @@ We initially create `JSopX.AngularCore` (*JSopX™ Angular Core Project*) to sim
 
 Ensure the following technologies and versions are installed, even if your only objective is to explore the `JSopX.AngularCore` project independently from all other projects:
 
-- [Visual Studio (v 17.14.20)](./Technologies#visual-studio)
+- [Visual Studio (v 17.14.21)](./Technologies#visual-studio)
 - [.NET Framework (v 9.2.1)](./Technologies#net-framework)
 - [ASP.NET Core (v 9.2.1)](./Technologies#aspnet-core)
 - [Node.js (v 20.14.0)](./Technologies#node)
@@ -83,7 +83,7 @@ Ensure the following technologies and versions are installed, even if your only 
 
 Ensure the following technologies and versions are installed, if your objective is to explore ALL projects that make up the `JSopX.OpenProjectX` enterprise-application suite:
 
-- [Visual Studio (v 17.14.20)](./Technologies#visual-studio)
+- [Visual Studio (v 17.14.21)](./Technologies#visual-studio)
 - [.NET Framework (v 9.2.1)](./Technologies#net-framework)
 - [ASP.NET Core (v 9.2.1)](./Technologies#aspnet-core)
 - [.NET Core Blazor (v 9.2.1)](./Technologies#net-core-blazor)
@@ -316,7 +316,7 @@ As you delve deeper, you’ll discover how each project type fits into this gran
 
 ## Step 2: Open the Solution
 
-1. Launch **Visual Studio (v 17.14.20)**.
+1. Launch **Visual Studio (v 17.14.21)**.
 2. Open the solution file: `JSopX.AngularCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)

@@ -78,7 +78,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.BlazorServerCore` Project.
 
-- [Visual Studio (v 17.14.20)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
+- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#aspnet-core)
 - [.NET Core Blazor (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-core-blazor)
@@ -109,7 +109,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate an existing Blazor Server app with weather data, Identity, and JWT already in place.
 
-1. **Open Visual Studio 2022 (v 17.14.20)**:
+1. **Open Visual Studio 2022 (v 17.14.21)**:
    - Confirm .NET 9.0 SDK is installed.
 
 

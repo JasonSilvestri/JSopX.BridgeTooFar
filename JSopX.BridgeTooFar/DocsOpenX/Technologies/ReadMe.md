@@ -16,7 +16,7 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 
 - [Overview](#overview)
 - [**Windows (v 10+)**](#windows)
-- [Visual Studio (v 17.14.20)](#visual-studio)
+- [Visual Studio (v 17.14.21)](#visual-studio)
 - [.NET Framework (v 9.2.1)](#net-framework)
 - [ASP.NET Core (v 9.2.1)](#aspnet-core)
 - [.NET Core Blazor (v 9.2.1)](#net-core-blazor)
@@ -71,15 +71,15 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 ## Visual Studio
 
 > [!TIP]
-> Hypothetically speaking, if you start by installing/updating **Visual Studio (v 17.14.20)**, and choose your options carefully, you could retrieve most (_if not all_) remaining required stacks listed below. 
+> Hypothetically speaking, if you start by installing/updating **Visual Studio (v 17.14.21)**, and choose your options carefully, you could retrieve most (_if not all_) remaining required stacks listed below. 
 
 ---
 
-- **Version Required**: **`17.14.20`**
+- **Version Required**: **`17.14.21`**
 
 - JSopX™ projects require Visual Studio to build and manage solutions efficiently.
 - Ensure you have all necessary workloads installed, including ASP.NET and web development, desktop development with .NET, and Azure development.
-- **Read More**: [Visual Studio (v 17.14.20)](./VisualStudio.md)
+- **Read More**: [Visual Studio (v 17.14.21)](./VisualStudio.md)
 
 [`⇧ Back to Top`](#table-of-contents)
 

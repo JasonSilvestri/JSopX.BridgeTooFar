@@ -67,7 +67,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.14.20)](../../../../Technologies/#visual-studio)
+- [Visual Studio (v 17.14.21)](../../../../Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../../../Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../../../Technologies/#aspnet-core)
 
@@ -185,7 +185,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate an existing ASP.NET Core app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.14.20)**:
+1. **Open Visual Studio 2022 (v 17.14.21)**:
    - Ensure .NET 9.0 SDK is installed.
 
 2. **Create the Project**:

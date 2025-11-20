@@ -72,7 +72,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.MauiHybridNetCore` Project.
 
-- [Visual Studio (v 17.14.20)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
+- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#aspnet-core)
 - [.NET Core Blazor (v 9.2.1)](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-blazor)
@@ -169,7 +169,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.MauiHybridNetCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.20)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.MauiHybridNetCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)
