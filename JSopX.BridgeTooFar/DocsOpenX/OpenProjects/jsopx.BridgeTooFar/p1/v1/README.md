@@ -223,109 +223,403 @@ Assuming the `JSopX.BridgeTooFar` Project is running as expected, **you are now 
 
 ---
 
+
 ## **Step 5: Project File Structure**
 
-The `JSopX.BridgeTooFar` Project in particular, contains several files and directories, all with their own functionality & purpose for existing. 
+The file structure shown below is a high-level overview of the main files and folders within the `JSopX.BridgeTooFar` Visual Studio Solution. Some files and folders may be omitted for brevity.
 
-For brevity, samples will not have the complete file structure you get when installing, but there are some core files and directories that have special consideration you should get to know. 
-
----
-
-### **Step: 5.1: Structured Project & Solution Considerations**:
-
-All `JSopX™ projects` follow a consistent directory structure. 
-
-1. I create a [Visual Studio](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
-2. I create a similar Server-Side Project Folder for `.csproj`, and related files.
-
-A common, plain-text file folder structure of the `JSopX.BridgeTooFar` Solution and Projects should look something like what follows:
-
-```plaintext
-# JSopX™ Bridge Too Far Solution and Projects
-
-JSopX.BridgeTooFar/                 # Root JSopX.BridgeTooFar Visual Studio Solution folder.
-├── JSopX.BridgeTooFar.sln          # Visual Studio solution file for Angular Core.
-├── PathConfig.targets              # Centralized MSBuild target configuration for project references.
-├── JSopX.BridgeTooFar/             # ASP.NET Core server-side application folder.
-│   ├── JSopX.BridgeTooFar.csproj   # Asp.NET Core Visual Studio Server Project configuration file.
-
-```
-
-There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
 
 [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-### **Step: 5.2: Structured File Tree**:
 
-A common, plain-text file structure of the `JSopX.BridgeTooFar` Project.
+### **Step: 5.1: Visual Studio Project and Solution Structure**:
 
-```plaintext
-# JSopX™ Bridge Too Far Project
+All `JSopX™ projects` follow a consistent directory structure. The most common project and solution structure for the `JSopX.BridgeTooFar` Visual Studio Solution is as follows:
 
-JSopX.BridgeTooFar/                          # Root JSopX™ Bridge Too Far Project Visual Studio Solution folder.
-├── .gitattributes                           # Git attributes file for repository metadata and configurations.
-├── .gitignore                               # Specifies files and directories to ignore in version control.
-├── JSopX.BridgeTooFar.sln                   # Visual Studio solution '.sln' file for JSopX™ Bridge Too Far Project.
-├── LICENSE.txt                              # Licensing information for the project.
-├── PathConfig.targets                       # Centralized MSBuild target configuration for project references.
-├── README.md                                # High-level project documentation.
-├── JSopX.BridgeTooFar/                      # ASP.NET Core server-side application folder.
-│   ├── JSopX.BridgeTooFar.csproj            # Asp.NET Core Visual Studio Server Project '.csproj' configuration file.
-│   ├── doc-assets/                          # JSopX™ Bridge Too Far Project folder, housing all static assets used in documentation. The amount of files actually shown here is limited for brevity.
-│   │   ├── jsopx-logo.png                   # Official Jason Silvestri Open Project EXperiences (JSopX™) Collection 'JSopX.OpenProjectX' logo in .PNG format.
-│   │   ├── jsopx-logo.svg                   # Official Jason Silvestri Open Project EXperiences (JSopX™) Collection 'JSopX.OpenProjectX' logo in .SVG format.
-│   ├── DocsOpenX/                           # Main source directory for all documentation currently available. The amount of files actually shown here is limited for brevity.
-│   │   ├── OpenProjects/                    # Main source directory for all JSopX™ Project specific documentation currently available. The amount of files actually shown here is limited for brevity.
-│   │   │   ├── jsopx.AngularCore/           # JSopX™ Angular Core Project 'JSopX.AngularCore' specific documentation currently available.
-│   │   │   │   ├── README.md                # Most current JSopX™ Angular Core Project 'JSopX.AngularCore' Using Latest Variant README '.md' file, representing the current install instructions of the project.
-│   │   │   │   ├── RECREATEME.md            # Most current JSopX™ Angular Core Project 'JSopX.AngularCore' Start from Scratch Variant RECREATEME '.md' file, representing the Start from Scratch instructions of the project.
-│   │   │   ├── jsopx.AspNetCore/            # JSopX™ Asp.NET Core Project 'JSopX.AspNetCore' specific documentation currently available.
-│   │   │   │   ├── README.md                # Most current JSopX™ Asp.NET Core Project 'JSopX.AspNetCore' Using Latest Variant README '.md' file, representing the current install instructions of the project.
-│   │   │   │   ├── RECREATEME.md            # Most current JSopX™ Asp.Net Core Project 'JSopX.AspNetCore' Start from Scratch Variant RECREATEME '.md' file, representing the Start from Scratch instructions of the project.
-│   │   │   ├── jsopx.BridgeTooFar/          # JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' specific documentation currently available.
-│   │   │   │   ├── README.md                # Most current JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' Using Latest Variant README '.md' file, representing the current install instructions of the project.
-│   │   │   │   ├── RECREATEME.md            # Most current JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' Start from Scratch Variant RECREATEME '.md' file, representing the Start from Scratch instructions of the project.
-│   └── README.md                            # Primary Project JSopX™ Bridge Too Far Project 'JSopX.BridgeTooFar' README '.md' file (default root project README.md).
+| File/Folder | Description |
+|:------------|:-------------|
+| 📁&nbsp;**`JSopX.BridgeTooFar`** | *Root* folder for the JSopX™ Bridge Too Far Project Visual Studio Solution. |
+| ├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.sln` | Visual Studio solution `.sln` *file* for the JSopX™ Bridge Too Far Project. |
+| ├&nbsp;📁&nbsp;**`JSopX.BridgeTooFar/`** | *Root* folder for the JSopX™ Bridge Too Far Project Visual Studio Project. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.csproj` | Asp.NET Core Visual Studio Server Project `.csproj` configuration file. |
 
-```
 
 [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-### **Step: 5.3: Structured Table**:
 
-A table structure of the same `JSopX.BridgeTooFar` Project, files and resources.
+## Step 5.2: Visual Studio Solution Files
 
-| File/Folder Name                        | Description                                                                 |
-|:----------------------------------------|:-----------------------------------------------------------------------------|
-| &nbsp;📁&nbsp;**JSopX.BridgeTooFar**&nbsp;            | Root folder for the JSopX™ Bridge Too Far Project Visual Studio Solution.   |
-| &nbsp;├&nbsp;📝&nbsp;`.gitattributes`&nbsp;                | Git attributes file for repository metadata and configurations.            |
-| &nbsp;├&nbsp;📝&nbsp;`.gitignore`&nbsp;                    | Specifies files and directories to ignore in version control.              |
-| &nbsp;├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.sln`&nbsp;        | Visual Studio solution `.sln` file for the JSopX™ Bridge Too Far Project.         |
-| &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                   | Licensing information for the project.                                     |
-| &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;            | Centralized MSBuild target configuration for project references.           |
-| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                     | High-level project documentation.                                          |
-| &nbsp;├&nbsp;📁&nbsp;**JSopX.BridgeTooFar/**&nbsp;            | ASP.NET Core server-side application folder.                               |
-| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.csproj`&nbsp; | Asp.NET Core Visual Studio Server Project `.csproj` configuration file.                                 |
-| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`doc-assets/`**&nbsp;             | JSopX™ Bridge Too Far Project folder, housing all static assets used in documentation. The amount of files actually shown here is limited for brevity.   |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx-logo.png`&nbsp;   | Official Jason Silvestri Open Project EXperiences (JSopX™) Collection `JSopX.OpenProjectX` logo in `.PNG` format.                            |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx-logo.svg`&nbsp;   | Official Jason Silvestri Open Project EXperiences (JSopX™) Collection `JSopX.OpenProjectX` logo in `.SVG` format.                            |
-| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`DocsOpenX/`**&nbsp;              | Main source directory for all documentation currently available. The amount of files actually shown here is limited for brevity.                     |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`OpenProjects/`**&nbsp;     | Main source directory for all JSopX™ Project specific documentation currently available. The amount of files actually shown here is limited for brevity.                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`jsopx.AngularCore/`**&nbsp; | JSopX™ Angular Core Project `JSopX.AngularCore` specific documentation currently available.                     |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp; | Most current JSopX™ Angular Core Project `JSopX.AngularCore` _Using Latest_ Variant README `.md` file, representing the "Using Latest" Install instructions of the project.                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEADME.md`&nbsp; | Most current JSopX™ Angular Core Project `JSopX.AngularCore` _Start from Scratch_ Variant README `.md` file, representing the "Start from Scratch" instructions of the project.                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`jsopx.AspNetCore/`**&nbsp; | JSopX™ Asp.Net Core Project `JSopX.AspNetCore` specific documentation currently available.                      |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp; | Most current JSopX™ Asp.NET Core Project `JSopX.AspNetCore` _Using Latest_ Variant README `.md` file, representing the "Using Latest" Install instructions of the project.                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md`&nbsp; | Most current JSopX™ Asp.NET Core Project `JSopX.AspNetCore` _Start from Scratch_ Variant RECREATEME `.md` file, representing the "Start from Scratch" instructions of the project.                     |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;**`jsopx.BridgeTooFar/`**&nbsp; | JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` specific documentation currently available.                    |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp; | Most current JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` _Using Latest_ Variant README `.md` file, representing the "Using Latest" Install instructions of the project.  |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md`&nbsp; | Most current JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` _Start from Scratch_ Variant RECREATEME `.md` file, representing the "Start from Scratch" instructions of the project.                     |
-| 📝&nbsp;`README.md`&nbsp;         | Primary Project JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` README `.md` file (_default root project repository README.md_).                           |
-| 📝&nbsp;`RECREATEME.md`&nbsp;     | Primary Project JSopX™ Bridge Too Far Project `JSopX.BridgeTooFar` RECREATEME `.md` file (_default root project repository RECREATEME.md_).                           |
+The most common `JSopX.BridgeTooFar` Visual Studio Solution files are as follows:
+
+| File/Folder | Description |
+|:------------|:-------------|
+| 📁&nbsp;**`JSopX.BridgeTooFar`** | *Root* folder for the JSopX™ Bridge Too Far Project Visual Studio Solution. |
+| ├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.sln` | Visual Studio solution `.sln` *file* for the JSopX™ Bridge Too Far Project. |
+| ├&nbsp;📝&nbsp;`.gitattributes` | *Git* attributes file that defines how Git should handle certain files and directories in the repository. The first iteration of this file is created automatically when we create a new origin repository on GitHub for the corresponding project. |
+| ├&nbsp;📝&nbsp;`.gitignore` | Specifies *files* and *directories* that should be ignored by Git when committing changes to the repository. The first iteration of this file is created automatically when we create a new origin repository on GitHub for the corresponding project. |
+| ├&nbsp;📝&nbsp;`LICENSE.txt` | *Licensing* information for the project (generally `MIT` open-source license). |
+| ├&nbsp;📝&nbsp;`PathConfig.targets` | Centralized MSBuild target configuration for project references. |
+| ├&nbsp;📝&nbsp;`README.md` | The *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| ├&nbsp;📝&nbsp;`REINSTALLME.md` | The *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| ├&nbsp;📝&nbsp;`REDEBRIEFME.md` | The *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| ├&nbsp;📝&nbsp;`RECREATEME.md` | The *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| ├&nbsp;📝&nbsp;`SECURITY.md` | The *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| ├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | The *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| ├&nbsp;📝&nbsp;`CONTRIBUTING.md` | The *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| ├&nbsp;📝&nbsp;`CHANGELOG.md` | The *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+> **Heads Up!**  
+>
+> Many of the preceding `.md` files shown in the *Solution Files structure*, such as `README.md`, `REINSTALLME.md`, `REDEBRIEFME.md`, `RECREATEME.md`, etc., just so happen to be the types of documentation the `JSopX.BridgeTooFar` handles for all projects.
+
+
+---
+
+### **Step: 5.3: Visual Studio Project Files**
+
+The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project is as follows:
+
+### Project Root
+
+| File/Folder | Description |
+|:------------|:-------------|
+| 📁&nbsp;**`JSopX.BridgeTooFar/`** | *Root* folder for the JSopX™ Bridge Too Far Project Visual Studio Project. |
+| ├&nbsp;📝&nbsp;`JSopX.BridgeTooFar.csproj` | Asp.NET Core Visual Studio Server Project `.csproj` configuration file. |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `doc-assets/` Folder
+
+| File/Folder                                             | Description                                |
+|:---------------------------------------------------------|:------------------------------------------|
+| ├&nbsp;📁&nbsp;`doc-assets/`                      | *Assets* for docs specifically, housing all static assets used in documentation. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx-logo.png` | Official JSopX™ `JSopX.OpenProjectX` logo in `.PNG` format. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx-logo.svg` | Official JSopX™ `JSopX.OpenProjectX` logo in `.SVG` format. |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `DocsOpenX/` Folder (Global Docs Categories)
+
+| File/Folder | Description |
+|:------------|:-------------|
+| ├&nbsp;📁&nbsp;`DocsOpenX/` | Main source directory for all documentation currently available. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`Introduction/` | Main source directory for the introduction to all projects. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`DesignPatterns/` | Main source directory for the design patterns we use throughout all projects. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`GitHub/` | Main source directory for the minimal GitHub documentation we have to use with any (or all) projects. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`Technologies/` | Main source directory for all the technologies we support and the detailed docs we have available. |
+| &nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`OpenProjects/` | Main source directory for all JSopX™ Project specific documentation currently available. |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.OpenProjectX/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.OpenProjectX/` | **All JSopX™ Open Project X [JSopX.OpenProjectX](../jsopx-open-project-x/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.OpenProjectX` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.OpenProjectX` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.OpenProjectX` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.OpenProjectX` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.OpenProjectX` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.OpenProjectX` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.OpenProjectX` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.OpenProjectX` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.OpenProjectX` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.AngularCore/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.AngularCore/` | **All JSopX™ Angular Core [JSopX.AngularCore](../jsopx-angular-core/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.AngularCore` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.AngularCore` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.AngularCore` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.AngularCore` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.AngularCore` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.AngularCore` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.AngularCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.AngularCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.AngularCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.AspNetCore/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.AspNetCore/` | **All JSopX™ Asp.NET Core [JSopX.AspNetCore](../jsopx-angular-core/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.AspNetCore` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.AspNetCore` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.AspNetCore` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.AspNetCore` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.AspNetCore` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.AspNetCore` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.AspNetCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.AspNetCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.AspNetCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.BlazorServerCore/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.BlazorServerCore/` | **All JSopX™ Blazor Server Core [JSopX.BlazorServerCore](../jsopx-blazor-server-core/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.BlazorServerCore` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.BlazorServerCore` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.BlazorServerCore` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.BlazorServerCore` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.BlazorServerCore` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.BlazorServerCore` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.BlazorServerCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.BlazorServerCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.BlazorServerCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.BridgeTooFar/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.BridgeTooFar/` | **All JSopX™ Bridge Too Far [JSopX.BridgeTooFar](../jsopx-bridge-too-far/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.BridgeTooFar` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.BridgeTooFar` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.BridgeTooFar` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.BridgeTooFar` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.BridgeTooFar` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.BridgeTooFar` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.BridgeTooFar` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.BridgeTooFar` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.BridgeTooFar` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.ClassLibrary/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.ClassLibrary/` | **All JSopX™ Class Library [JSopX.ClassLibrary](../jsopx-class-library/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.ClassLibrary` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.ClassLibrary` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.ClassLibrary` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.ClassLibrary` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.ClassLibrary` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.ClassLibrary` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.ClassLibrary` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.ClassLibrary` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.ClassLibrary` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.MauiHybridNetCore/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.MauiHybridNetCore/` | **All JSopX™ Maui Hybrid Net Core [JSopX.MauiHybridNetCore](../jsopx-maui-hybrid-net-core/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.MauiHybridNetCore` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.MauiHybridNetCore` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.MauiHybridNetCore` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.MauiHybridNetCore` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.MauiHybridNetCore` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.MauiHybridNetCore` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.MauiHybridNetCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.MauiHybridNetCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.MauiHybridNetCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.ReactCore/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.ReactCore/` | **All JSopX™ React Core [JSopX.ReactCore](../jsopx-react-core/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.ReactCore` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.ReactCore` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.ReactCore` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.ReactCore` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.ReactCore` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.ReactCore` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.ReactCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.ReactCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.ReactCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.VueCore/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.VueCore/` | **All JSopX™ Vue Core [JSopX.VueCore](../jsopx-vue-core/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.VueCore` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.VueCore` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.VueCore` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.VueCore` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.VueCore` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.VueCore` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.VueCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.VueCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.VueCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.WebAPI/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.WebAPI/` | **All JSopX™ RCL x Assets [JSopX.WebAPI](../jsopx-web-api/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.WebAPI` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.WebAPI` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.WebAPI` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.WebAPI` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.WebAPI` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.WebAPI` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.WebAPI` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.WebAPI` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.WebAPI` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+### `jsopx.RCLxAssets/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.RCLxAssets/` | **All JSopX™ RCL x Assets [JSopX.RCLxAssets](../jsopx-rcl-x-assets/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.RCLxAssets` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`).**Please Note:** The `JSopX.RCLxAssets` project will be phased out in future releases, in favor of it's successor, **`JSopX.Assets.RCL`**, which is a project now managed by the new **`JSopX.Presentation`** Project.|
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.RCLxProper/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.RCLxProper/` | **All JSopX™ RCL x Proper [JSopX.RCLxProper](../jsopx-rcl-x-proper/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.RCLxProper` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`).**Please Note:** The `JSopX.RCLxProper` project will be phased out in future releases, in favor of it's successor, **`JSopX.Proper.RCL`**, which is a project now managed by the new **`JSopX.Presentation`** Project.|
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.RCLxComponents/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.RCLxComponents/` | **All JSopX™ RCL x Components [JSopX.RCLxComponents](../jsopx-rcl-x-components/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.RCLxComponents` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`).**Please Note:** The `JSopX.RCLxComponents` project will be phased out in future releases, in favor of it's successor, **`JSopX.Components.RCL`**, which is a project now managed by the new **`JSopX.Presentation`** Project.|
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.Presentation/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.Presentation/` | **All JSopX™ Presentation [JSopX.Presentation](../jsopx-rcl-x-components/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.Presentation` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`).**Please Note:** The `JSopX.Presentation` project is **NEW**, still being developed, and will be where successors of previous RCLs live, such a `JSopX.Assets.RCL`, `JSopX.Proper.RCL`, `JSopX.Lazy.RCL` and `JSopX.Components.RCL`.|
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.SaaS/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.SaaS/` | **All JSopX™ SaaS [JSopX.SaaS](../jsopx-saas/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.SaaS` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`).**Please Note:** The `JSopX.SaaS` project is **NEW**, still being developed, and will be available soon.|
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.Core/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.Core/` | **All JSopX™ Core [JSopX.Core](../jsopx-core/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.Core` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`).**Please Note:** The `JSopX.Core` project is **NEW**, still being developed, and will be available soon.|
+
+
+[`⇧ Back to Top`](#table-of-contents)
+
+---
+
+
+### `jsopx.Data/` Documentation
+
+| File/Folder | Description |
+|:------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📁&nbsp;`jsopx.Data/` | **All JSopX™ Data [JSopX.Data](../jsopx-data/index.html) specific documentation currently available.** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.Data` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`).Please Note: The `JSopX.Data` project is **NEW**, still being developed, and will be available soon.|
 
 [`⇧ Back to Top`](#table-of-contents)
 
