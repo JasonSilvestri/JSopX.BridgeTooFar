@@ -37,7 +37,7 @@ If you want a quick overview of all technology versions using a command-line int
 
 | **Technology**           | **Version**   | **Check Command**                      | **Detailed Guide** |
 |:-------------------------|:--------------|:-----------------------------------------|:--------------------|
-| Visual Studio            | `v 17.14.21`   | _Manual check required_                | [Visual Studio](#visual-studio) |
+| Visual Studio            | `v 17.14.19`   | _Manual check required_                | [Visual Studio](#visual-studio) |
 | .NET Framework           | `v 9.2.1`     | `dotnet --list-sdks`                   | [.NET Framework](#net-framework) |
 | ASP.NET Core             | `v 9.2.1`     | `dotnet --version`                     | [ASP.NET Core](#aspnet-core) |
 | .NET Core Blazor         | `v 9.2.1`     | `dotnet --list-sdks`                   | [Blazor](#net-core-blazor) |
@@ -67,7 +67,7 @@ As you go, use `« Previous` and `Next »` to quickly navigate to the previous o
 
 **Purpose:** Checks the installed [`Visual Studio`](./VisualStudio.md) version.
 
-- **Version:** `v 17.14.21`  
+- **Version:** `v 17.14.19`  
 - **Verification:**
   - Open Visual Studio.
   - Navigate to **Help > About Microsoft Visual Studio**.

@@ -50,7 +50,7 @@ There has been some brainstorming, but nothing I want to introduce into all phas
 
 ## Adding Visual Studio Solutions to a Parent Solution
 
-In Visual Studio (e.g., v17.14.21), you can't directly add one `.sln` file to another, but you can include projects from sub-solutions into a parent solution like `OpenProjectX.sln`. Below are the best approaches, considering a folder structure where each solution has its own parent folder and projects live in subfolders (e.g., `JSopX.WebAPI/JSopX.WebAPI.csproj`).
+In Visual Studio (e.g., v17.14.19), you can't directly add one `.sln` file to another, but you can include projects from sub-solutions into a parent solution like `OpenProjectX.sln`. Below are the best approaches, considering a folder structure where each solution has its own parent folder and projects live in subfolders (e.g., `JSopX.WebAPI/JSopX.WebAPI.csproj`).
 
 [`⇧ Back to Top`](#table-of-contents)
 
