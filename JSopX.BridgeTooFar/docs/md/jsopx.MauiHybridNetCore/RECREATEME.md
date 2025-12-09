@@ -78,11 +78,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.MauiHybridNetCore` Project.
 
-- [Visual Studio (v 17.14.21)](../jsopx.MauiHybridNetCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../jsopx.MauiHybridNetCore/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.2.1)](../jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.2.1)](../jsopx.MauiHybridNetCore/p1/v1/Technologies/#net-core-maui-hybrid)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../jsopx.Global/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.2.1)](../jsopx.Global/Technologies/#net-core-maui-hybrid)
 
 ---
 

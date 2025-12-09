@@ -72,10 +72,10 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.BlazorServerCore` Project.
 
-- [Visual Studio (v 17.14.21)](../jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../jsopx.BlazorServerCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../jsopx.BlazorServerCore/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.2.1)](../jsopx.BlazorServerCore/p1/v1/Technologies/#net-core-blazor)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../jsopx.Global/Technologies/#net-core-blazor)
 
 ---
 
@@ -215,7 +215,7 @@ Building and Running the `JSopX.BlazorServerCore` Project in Visual Studio is al
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../jsopx.Global/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
@@ -248,7 +248,7 @@ For brevity, samples will not have the complete file structure you get when inst
 All `JSopX™ projects` follow a consistent directory structure, based on its [JSopX™ Project Family](../jsopx.Global/Introduction/JSopxProjectsFamilies.md) (_relatively speaking_). 
 
 1. The `JSopX.BlazorServerCore` Project naming conventions include capital casing for `.Server` directories.
-2. I create a [Visual Studio](../jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+2. I create a [Visual Studio](../jsopx.Global/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 3. I create a Server-Side Project Folder for `.csproj`, and related files.
 
 A common, plain-text file folder structure of the `JSopX.BlazorServerCore` Solution and Projects should look something like what follows:
