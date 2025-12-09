@@ -73,7 +73,7 @@ Thank you for helping keep the JSopX™ ecosystem safe.
 [GitHub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "GitHub Repository"
 
 <!-- Root Lexicon -->
-[Lexicon]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/Lexicon.md "Project Lexicon"
+[Lexicon]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/Lexicon.md "Project Lexicon"
 
 <!-- Root Navigation -->
 [`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Project Home"
