@@ -21,7 +21,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.ReactCore/README.md) · [`By-Phase`](../jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../jsopx.VueCore/p1/v1/RECREATEME.md)
 
 ---
 
@@ -44,7 +44,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
 
 The **JSopX™ React Core Project** is a **FREE**, open-source demonstration project built in Visual Studio, _code named_, `JSopX.ReactCore`. It showcases the transformation of an existing React-based client-side project that demonstrates the flexibility and component-driven approach of React, working in harmony with ASP.NET Core services—complete with its own assets, Web APIs, and standards—into a scalable solution for optimal enterprise application migration.
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/README.md) to [Angular](../jsopx.AngularCore/README.md), [Vue](../jsopx.VueCore/README.md), [React](../jsopx.ReactCore/README.md), [Blazor](../jsopx.BlazorServerCore/README.md), [MAUI](../jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../jsopx.WebAPI/README.md), [assets](../jsopx.RCLxProper/README.md), [documentation](../jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -63,12 +63,12 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.ReactCore` Project.
 
-- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
-- [Node.js (v 20.14.0)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#node)
-- [npm (v 10.8.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#npm)
-- [React (v 18.2.0)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies#react)
+- [Visual Studio (v 17.14.21)](../jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.ReactCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
+- [Node.js (v 20.14.0)](../jsopx.ReactCore/p1/v1/Technologies/#node)
+- [npm (v 10.8.1)](../jsopx.ReactCore/p1/v1/Technologies/#npm)
+- [React (v 18.2.0)](../jsopx.ReactCore/p1/v1/Technologies#react)
 
 ---
 
@@ -170,9 +170,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- [Install Using Latest](../../OpenProjects/jsopx.ReactCore/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.ReactCore` _Using Latest_ Variant.  
-- [Browse By-Phase](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.ReactCore` _By-Phase_ Variant.   
-- [Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- [Install Using Latest](../jsopx.ReactCore/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.ReactCore` _Using Latest_ Variant.  
+- [Browse By-Phase](../jsopx.ReactCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.ReactCore` _By-Phase_ Variant.   
+- [Get All Projects](../jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -513,17 +513,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.VueCore` _From Scratch_ Variant.   
+1. **[Continue](../jsopx.VueCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.VueCore` _From Scratch_ Variant.   
 
 ---
 
-- [Install Using Latest](../../OpenProjects/jsopx.ReactCore/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.ReactCore` _Using Latest_ Variant.  
-- [Browse By-Phase](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.ReactCore` _By-Phase_ Variant.   
-- [Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- [Install Using Latest](../jsopx.ReactCore/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.ReactCore` _Using Latest_ Variant.  
+- [Browse By-Phase](../jsopx.ReactCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.ReactCore` _By-Phase_ Variant.   
+- [Get All Projects](../jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.ReactCore/README.md) · [`By-Phase`](../jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../jsopx.VueCore/p1/v1/RECREATEME.md)
 
 ---
 

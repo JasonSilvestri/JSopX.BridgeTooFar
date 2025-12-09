@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.RCLxComponents/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.RCLxProper/) [`Next »`](../../OpenProjects/jsopx.AspNetCore/)
+[`Home`](../jsopx.RCLxComponents/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../jsopx.RCLxComponents/p1/v1/README.md) · [`From Scratch`](../jsopx.RCLxComponents/p1/v1/RECREATEME.md) · · [`« Previous`](../jsopx.RCLxProper/) [`Next »`](../jsopx.AspNetCore/)
 
 ---
 
@@ -47,11 +47,11 @@ The **JSopX™ RCL x Components Project**, _code named_, `JSopX.RCLxComponents` 
 
 We initially create the project to simulate a [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../jsopx.OpenProjectX/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/README.md) to [Angular](../jsopx.AngularCore/README.md), [Vue](../jsopx.VueCore/README.md), [React](../jsopx.ReactCore/README.md), [Blazor](../jsopx.BlazorServerCore/README.md), [MAUI](../jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../jsopx.WebAPI/README.md), [assets](../jsopx.RCLxProper/README.md), [documentation](../jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -61,9 +61,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with Components versioning, if your goal is to continue exploring just the `JSopX.RCLxComponents` Project.
 
-- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.21)](../jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.RCLxComponents/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.RCLxComponents/p1/v1/Technologies/#aspnet-core)
 
 ---
 
@@ -81,9 +81,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- **[Browse By-Phase](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxComponents` _By-Phase_ Variant.   
-- **[Start From Scratch](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxComponents` _From Scratch_ Variant.
-- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- **[Browse By-Phase](../jsopx.RCLxComponents/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxComponents` _By-Phase_ Variant.   
+- **[Start From Scratch](../jsopx.RCLxComponents/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxComponents` _From Scratch_ Variant.
+- **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -156,7 +156,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.RCLxComponents` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.RCLxComponents.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -167,7 +167,7 @@ Working with the `JSopX.RCLxComponents` Project in Visual Studio is simple enoug
 
 > [!TIP]
 >
-> Latest versions of [Visual Studio](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> Latest versions of [Visual Studio](../jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
 > 
 
 ---
@@ -202,7 +202,7 @@ Building and Running the `JSopX.BridgeTooFar` Project in Visual Studio is also a
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
@@ -233,7 +233,7 @@ For brevity, samples will not have the complete file structure you get when inst
 
 All `JSopX™ projects` follow a consistent directory structure. 
 
-1. I create a [Visual Studio](../../OpenProjects/jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+1. I create a [Visual Studio](../jsopx.RCLxComponents/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 2. I create a similar Server-Side Project Folder for `.csproj`, and related files.
 
 A common, plain-text file folder structure of the `JSopX.RCLxComponents` Solution and Projects should look something like what follows:
@@ -307,31 +307,31 @@ The **`JSopX.RCLxComponents` Project** is one of the highest-level resource libr
 
 1. **`JSopX.OpenProjectX`**:
    - The [Flagship Project](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#1-flagship-projects) parent enterprise application solution.
-   - **Explore GitHub**: [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX)
+   - **Explore GitHub**: [JSopX.OpenProjectX](../jsopx.OpenProjectX)
 
 2. **`JSopX.AspNetCore`**:
    - An **Asp.NET Core** [Server-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) project, created to simulate an existing Asp.NET Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
-   - **Explore GitHub**: [JSopX.AspNetCore](../../OpenProjects/jsopx.AspNetCore)
+   - **Explore GitHub**: [JSopX.AspNetCore](../jsopx.AspNetCore)
 
 3. **`JSopX.MauiHybridNetCore`**:
     - A **.NET MAUI Hyrbid** [Server-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) cross-platform applications, for desktop applications, native mobile applications, traditional web, while adopting our standards, API and more, and looking damn good doing it too.
-    - **Explore GitHub**: [JSopX.MauiHybridNetCore](../../OpenProjects/jsopx.MauiHybridNetCore)
+    - **Explore GitHub**: [JSopX.MauiHybridNetCore](../jsopx.MauiHybridNetCore)
 
 4. **`JSopX.BlazorServerCore`**:
     - A **Blazor Server .NET Core**  [Server-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) project, created to simulate an existing Asp.NET Core Blazor application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
-    - **Explore GitHub**: [JSopX.BlazorServerCore](../../OpenProjects/jsopx.BlazorServerCore)
+    - **Explore GitHub**: [JSopX.BlazorServerCore](../jsopx.BlazorServerCore)
 
 5. **`JSopX.AngularCore`**:
     - An **Angular Core** [Client-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing Angular Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
-    - **Explore GitHub**: [JSopX.AngularCore](../../OpenProjects/jsopx.AngularCore)
+    - **Explore GitHub**: [JSopX.AngularCore](../jsopx.AngularCore)
 
 6. **`JSopX.ReactCore`**:
     - A **React Core** [Client-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing React Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
-    - **Explore GitHub**: [JSopX.ReactCore](../../OpenProjects/jsopx.ReactCore)
+    - **Explore GitHub**: [JSopX.ReactCore](../jsopx.ReactCore)
   
 7. **`JSopX.VueCore`**:
     - A **Vue Core** [Client-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) created to simulate an existing Vue Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
-    - **Explore GitHub**: [JSopX.VueCore](../../OpenProjects/jsopx.VueCore)
+    - **Explore GitHub**: [JSopX.VueCore](../jsopx.VueCore)
   
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -360,10 +360,10 @@ The **`JSopX.RCLxComponents` Project** is one of the highest-level resource libr
 
 ### **Step: 8.1: Using `JSopX.`RCLxComponents Project in a Blazor Project**
 
-**In [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/)**:
+**In [`JSopX.BlazorServerCore`](../jsopx.BlazorServerCore/)**:
 
 1. **Reference the JSopX™ RCL x Components Project**:
-   - Add a reference to `JSopX.RCLxComponents` in [`JSopX.BlazorServerCore`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1).
+   - Add a reference to `JSopX.RCLxComponents` in [`JSopX.BlazorServerCore`](../jsopx.BlazorServerCore/p1/v1).
 
 2. **Use Static Files in `Razor` Components**:
    - Create a `Razor` component that wants to use the shared static files.
@@ -385,7 +385,7 @@ The **`JSopX.RCLxComponents` Project** is one of the highest-level resource libr
 
 ### **Step: 8.2: Using `JSopX.`RCLxComponents Project in an Angular Project**
 
-**In [`JSopX.AngularCore`](../../OpenProjects/jsopx.AngularCore/)**:
+**In [`JSopX.AngularCore`](../jsopx.AngularCore/)**:
 
 1. **Copy Files Using a `Build Script`**:
    - Create a script to copy the shared resources from `JSopX.RCLxComponents` to the `assets` folder of the Angular project during the build process.
@@ -414,7 +414,7 @@ The **`JSopX.RCLxComponents` Project** is one of the highest-level resource libr
 
 ### **Step: 8.3: Using `JSopX.`RCLxComponents Project in a Vue Project**
 
-**In [`JSopX.VueCore`](../../OpenProjects/jsopx.VueCore/)**:
+**In [`JSopX.VueCore`](../jsopx.VueCore/)**:
 
 1. **Copy Files Using a Build Script**:
    - Create a script to copy the shared resources from `JSopX.RCLxComponents` to the `assets` folder of the Vue project during the build process.
@@ -447,7 +447,7 @@ The **`JSopX.RCLxComponents` Project** is one of the highest-level resource libr
 
 ### **Step: 8.4: Using `JSopX.`RCLxComponents Project in a React Project**
 
-**In [`JSopX.ReactCore`](../../OpenProjects/jsopx.ReactCore/)**:
+**In [`JSopX.ReactCore`](../jsopx.ReactCore/)**:
 
 1. **Copy Files Using a Build Script**:
    - Create a script to copy the shared resources from `JSopX.RCLxComponents` to the `public` folder of the React project during the build process.
@@ -490,17 +490,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../OpenProjects/jsopx.AspNetCore/README.md)** → _Continue_ as **you were**, exploring and/or installing other projects like you did with **this project**. You'll move onto the next project, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
+1. **[Continue](../jsopx.AspNetCore/README.md)** → _Continue_ as **you were**, exploring and/or installing other projects like you did with **this project**. You'll move onto the next project, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
 
 ---
 
-1. **[Browse By-Phase](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxComponents` _By-Phase_ Variant.   
-2. **[Start From Scratch](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxComponents` _From Scratch_ Variant.
-3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+1. **[Browse By-Phase](../jsopx.RCLxComponents/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.RCLxComponents` _By-Phase_ Variant.   
+2. **[Start From Scratch](../jsopx.RCLxComponents/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.RCLxComponents` _From Scratch_ Variant.
+3. **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.RCLxComponents/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxProper/) [`Next »`](../../OpenProjects/jsopx.AspNetCore/)
+[`Home`](../jsopx.RCLxComponents/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../jsopx.RCLxComponents/p1/v1/README.md) · [`From Scratch`](../jsopx.RCLxComponents/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../jsopx.RCLxProper/) [`Next »`](../jsopx.AspNetCore/)
 
 ---
 

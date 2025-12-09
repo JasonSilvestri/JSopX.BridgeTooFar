@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.SharedResources.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.SharedResources/README.md) · [`By-Phase`](../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.SharedResources/README.md) · [`By-Phase`](../jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../jsopx.BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../jsopx.RCLxAssets/p1/v1/RECREATEME.md)
 
 ---
 
@@ -59,11 +59,11 @@ The **JSopX™ Shared Resources Project**, _code named_, `JSopX.SharedResources`
 
 We initially create the project to simulate a [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../jsopx.OpenProjectX/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/README.md) to [Angular](../jsopx.AngularCore/README.md), [Vue](../jsopx.VueCore/README.md), [React](../jsopx.ReactCore/README.md), [Blazor](../jsopx.BlazorServerCore/README.md), [MAUI](../jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../jsopx.WebAPI/README.md), [assets](../jsopx.RCLxProper/README.md), [documentation](../jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -73,9 +73,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.14.21)](../jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](../jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](../jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -95,9 +95,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- **[Install Using Latest](../../OpenProjects/jsopx.SharedResources/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.SharedResources` _Using Latest_ Variant.  
-- **[Browse By-Phase](../../OpenProjects/jsopx.SharedResources/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.SharedResources` _By-Phase_ Variant.   
-- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- **[Install Using Latest](../jsopx.SharedResources/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.SharedResources` _Using Latest_ Variant.  
+- **[Browse By-Phase](../jsopx.SharedResources/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.SharedResources` _By-Phase_ Variant.   
+- **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -213,17 +213,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.RCLxAssets` _From Scratch_ Variant.   
+1. **[Continue](../jsopx.RCLxAssets/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.RCLxAssets` _From Scratch_ Variant.   
 
 ---
 
-1. **[Install Using Latest](../../OpenProjects/jsopx.SharedResources/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.SharedResources` _Using Latest_ Variant.  
-2. **[Browse By-Phase](../../OpenProjects/jsopx.SharedResources/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.SharedResources` _By-Phase_ Variant.   
-3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+1. **[Install Using Latest](../jsopx.SharedResources/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.SharedResources` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../jsopx.SharedResources/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.SharedResources` _By-Phase_ Variant.   
+3. **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.SharedResources/README.md) · [`By-Phase`](../../OpenProjects/jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.RCLxAssets/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.SharedResources/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.SharedResources/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.SharedResources/README.md) · [`By-Phase`](../jsopx.SharedResources/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../jsopx.BridgeTooFar/p1/v1/RECREATEME.md) [`Next »`](../jsopx.RCLxAssets/p1/v1/RECREATEME.md)
 
 ---
 

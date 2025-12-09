@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AngularCore/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.AspNetCore/) [`Next »`](../../OpenProjects/jsopx.ReactCore/)
+[`Home`](../jsopx.AngularCore/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../jsopx.AngularCore/p1/v1/README.md) · [`From Scratch`](../jsopx.AngularCore/p1/v1/RECREATEME.md) · · [`« Previous`](../jsopx.AspNetCore/) [`Next »`](../jsopx.ReactCore/)
 
 ---
 
@@ -54,7 +54,7 @@ The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a to
 
 We initially create the project to simulate an ["Existing" Client-side Apps Example](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Angular application, with its own Web API and existing standards, to conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../jsopx.OpenProjectX/) Enterprise Application.
 
 
 
@@ -441,17 +441,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.SharedResources` _From Scratch_ Variant.   
+1. **[Continue](../../../jsopx.SharedResources/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.SharedResources` _From Scratch_ Variant.   
 
 ---
 
-1. **[Install Using Latest](../../../../OpenProjects/jsopx.BridgeTooFar/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BridgeTooFar` _Using Latest_ Variant.  
-2. **[Browse By-Phase](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BridgeTooFar` _By-Phase_ Variant.   
-3. **[Get All Projects](../../../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+1. **[Install Using Latest](../../../jsopx.BridgeTooFar/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BridgeTooFar` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../../../jsopx.BridgeTooFar/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BridgeTooFar` _By-Phase_ Variant.   
+3. **[Get All Projects](../../../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../../jsopx.Global/Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Home`](../../../jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../../jsopx.Global/Introduction/) » [`Projects`](../../../jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../../jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../../jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../../jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
 

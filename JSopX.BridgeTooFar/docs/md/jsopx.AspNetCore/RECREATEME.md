@@ -21,7 +21,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.AspNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AspNetCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.AspNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.AspNetCore/README.md) · [`By-Phase`](../jsopx.AspNetCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../jsopx.AngularCore/p1/v1/RECREATEME.md)
 
 ---
 
@@ -46,7 +46,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git
 
 The **JSopX™ Asp.NET Core Project** is a **FREE**, open-source demonstration project built in Visual Studio, _code named_, `JSopX.AspNetCore`. It showcases the transformation of an existing ASP.NET Core application—complete with its own assets, Web APIs, and standards—into a scalable solution for optimal enterprise application migration.
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/README.md) to [Angular](../jsopx.AngularCore/README.md), [Vue](../jsopx.VueCore/README.md), [React](../jsopx.ReactCore/README.md), [Blazor](../jsopx.BlazorServerCore/README.md), [MAUI](../jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../jsopx.WebAPI/README.md), [assets](../jsopx.RCLxProper/README.md), [documentation](../jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 
 [`⇧ Back to Top`](#table-of-contents) 
@@ -172,9 +172,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- [Install Using Latest](../../OpenProjects/jsopx.AspNetCore/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
-- [Browse By-Phase](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
-- [Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- [Install Using Latest](../jsopx.AspNetCore/README.md): **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
+- [Browse By-Phase](../jsopx.AspNetCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
+- [Get All Projects](../jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -526,17 +526,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.AngularCore` _From Scratch_ Variant.   
+1. **[Continue](../jsopx.AngularCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.AngularCore` _From Scratch_ Variant.   
 
 ---
 
-1. **[Install Using Latest](../../OpenProjects/jsopx.AspNetCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
-2. **[Browse By-Phase](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
-3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+1. **[Install Using Latest](../jsopx.AspNetCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.AspNetCore` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../jsopx.AspNetCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
+3. **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.AspNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.AspNetCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.AspNetCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.AspNetCore/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.AspNetCore/README.md) · [`By-Phase`](../jsopx.AspNetCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../jsopx.AngularCore/p1/v1/RECREATEME.md)
 
 ---
 

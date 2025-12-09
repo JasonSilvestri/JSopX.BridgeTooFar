@@ -21,7 +21,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BlazorServerCore.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BlazorServerCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.BlazorServerCore/README.md) · [`By-Phase`](../jsopx.BlazorServerCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
 
 ---
 
@@ -62,11 +62,11 @@ The **JSopX™ Blazor Server Core Project**, _code named_, `JSopX.BlazorServerCo
 
 Like the ["Existing" Client-side Apps Example](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) projects, we do still initially create the project to simulate an ["Existing" Server-side Apps Example](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) Weather Forecast Asp.NET Core Blazor application, with its own Web API and existing standards, to conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../jsopx.OpenProjectX/p1/v1/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/README.md) to [Angular](../jsopx.AngularCore/README.md), [Vue](../jsopx.VueCore/README.md), [React](../jsopx.ReactCore/README.md), [Blazor](../jsopx.BlazorServerCore/README.md), [MAUI](../jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../jsopx.WebAPI/README.md), [assets](../jsopx.RCLxProper/README.md), [documentation](../jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -78,10 +78,10 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.BlazorServerCore` Project.
 
-- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.2.1)](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/Technologies/#net-core-blazor)
+- [Visual Studio (v 17.14.21)](../jsopx.BlazorServerCore/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.BlazorServerCore/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.BlazorServerCore/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../jsopx.BlazorServerCore/p1/v1/Technologies/#net-core-blazor)
 
 ---
 
@@ -99,9 +99,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- **[Install Using Latest](../../OpenProjects/jsopx.BlazorServerCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BlazorServerCore` _Using Latest_ Variant.  
-- **[Browse By-Phase](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BlazorServerCore` _By-Phase_ Variant.   
-- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- **[Install Using Latest](../jsopx.BlazorServerCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BlazorServerCore` _Using Latest_ Variant.  
+- **[Browse By-Phase](../jsopx.BlazorServerCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BlazorServerCore` _By-Phase_ Variant.   
+- **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -409,17 +409,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.MauiHybridNetCore` _From Scratch_ Variant.   
+1. **[Continue](../jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.MauiHybridNetCore` _From Scratch_ Variant.   
 
 ---
 
-1. **[Install Using Latest](../../OpenProjects/jsopx.BlazorServerCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BlazorServerCore` _Using Latest_ Variant.  
-2. **[Browse By-Phase](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BlazorServerCore` _By-Phase_ Variant.   
-3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+1. **[Install Using Latest](../jsopx.BlazorServerCore/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BlazorServerCore` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../jsopx.BlazorServerCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BlazorServerCore` _By-Phase_ Variant.   
+3. **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BlazorServerCore/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BlazorServerCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.BlazorServerCore/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.BlazorServerCore/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.BlazorServerCore/README.md) · [`By-Phase`](../jsopx.BlazorServerCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../jsopx.VueCore/p1/v1/RECREATEME.md) [`Next »`](../jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md)
 
 ---
 

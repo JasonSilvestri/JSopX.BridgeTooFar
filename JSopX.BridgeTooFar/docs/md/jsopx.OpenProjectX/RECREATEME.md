@@ -21,7 +21,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.OpenProjectX.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.OpenProjectX/README.md) · [`By-Phase`](../jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 
@@ -64,7 +64,7 @@ Balancing client-side and server-side operations has become increasingly challen
 
 JSopX™ provides a unified framework of guidelines, organizational structures, and best practices designed to streamline project setup, enhance collaboration, and improve maintainability. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security.  Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
+By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/README.md) to [Angular](../jsopx.AngularCore/README.md), [Vue](../jsopx.VueCore/README.md), [React](../jsopx.ReactCore/README.md), [Blazor](../jsopx.BlazorServerCore/README.md), [MAUI](../jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../jsopx.WebAPI/README.md), [assets](../jsopx.RCLxProper/README.md), [documentation](../jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security.  Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
 
 As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, and much more! 
 
@@ -76,19 +76,19 @@ As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/Rea
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing the `JSopX.OpenProjectX` Project.
 
-- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.2.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.2.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#net-core-maui-hybrid)
-- [Node (v 20.14.0)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#node)
-- [npm (v 10.8.1)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#npm)
-- [Angular CLI (v 18.0.3)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#angular-cli)
-- [React (v 18.2.0)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#react)
-- [Vue (v 3.4.21)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vue)
-- [Vite (v 5.2.8)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#vite)
-- [Bash (v 5.x+)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#bash)
-- [Powershell (v 7.x+)](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#powershell)
+- [Visual Studio (v 17.14.21)](../jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#net-core-maui-hybrid)
+- [Node (v 20.14.0)](../jsopx.OpenProjectX/p1/v1/Technologies/#node)
+- [npm (v 10.8.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../jsopx.OpenProjectX/p1/v1/Technologies/#angular-cli)
+- [React (v 18.2.0)](../jsopx.OpenProjectX/p1/v1/Technologies/#react)
+- [Vue (v 3.4.21)](../jsopx.OpenProjectX/p1/v1/Technologies/#vue)
+- [Vite (v 5.2.8)](../jsopx.OpenProjectX/p1/v1/Technologies/#vite)
+- [Bash (v 5.x+)](../jsopx.OpenProjectX/p1/v1/Technologies/#bash)
+- [Powershell (v 7.x+)](../jsopx.OpenProjectX/p1/v1/Technologies/#powershell)
 
 ---
 
@@ -106,9 +106,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- **[Install Using Latest](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
-- **[Browse By-Phase](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
-- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- **[Install Using Latest](../jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
+- **[Browse By-Phase](../jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
+- **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -495,17 +495,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-1. **[Continue](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.OpenProjectX` _From Scratch_ Variant.   
+1. **[Continue](../jsopx.ClassLibrary/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step. You'll move onto the next project, using the `JSopX.OpenProjectX` _From Scratch_ Variant.   
 
 ---
 
-1. **[Install Using Latest](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
-2. **[Browse By-Phase](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
-3. **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+1. **[Install Using Latest](../jsopx.OpenProjectX/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.OpenProjectX` _Using Latest_ Variant.  
+2. **[Browse By-Phase](../jsopx.OpenProjectX/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.OpenProjectX` _By-Phase_ Variant.   
+3. **[Get All Projects](../jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+[`Home`](../jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../jsopx.OpenProjectX/README.md) · [`By-Phase`](../jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 

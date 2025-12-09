@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AspNetCore/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/) [`Next »`](../../OpenProjects/jsopx.AngularCore/)
+[`Home`](../jsopx.AspNetCore/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../jsopx.AspNetCore/p1/v1/README.md) · [`From Scratch`](../jsopx.AspNetCore/p1/v1/RECREATEME.md) · · [`« Previous`](../jsopx.RCLxComponents/) [`Next »`](../jsopx.AngularCore/)
 
 ---
 
@@ -49,7 +49,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git
 
 The **JSopX™ Asp.NET Core Project** is a **FREE**, open-source demonstration project built in Visual Studio, _code named_, `JSopX.AspNetCore`. It showcases the transformation of an existing ASP.NET Core application—complete with its own assets, Web APIs, and standards—into a scalable solution for optimal enterprise application migration.
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/README.md) to [Angular](../jsopx.AngularCore/README.md), [Vue](../jsopx.VueCore/README.md), [React](../jsopx.ReactCore/README.md), [Blazor](../jsopx.BlazorServerCore/README.md), [MAUI](../jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../jsopx.WebAPI/README.md), [assets](../jsopx.RCLxProper/README.md), [documentation](../jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 
 [`⇧ Back to Top`](#table-of-contents) 
@@ -176,9 +176,9 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ### 2. **Use Different Variant**:
 
-- [Browse By-Phase](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
-- [Start From Scratch](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md): **Create project** from scratch, step-by-step, using the `JSopX.AspNetCore` _From Scratch_ Variant.
-- [Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- [Browse By-Phase](../jsopx.AspNetCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
+- [Start From Scratch](../jsopx.AspNetCore/p1/v1/RECREATEME.md): **Create project** from scratch, step-by-step, using the `JSopX.AspNetCore` _From Scratch_ Variant.
+- [Get All Projects](../jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
@@ -298,7 +298,7 @@ Building and Running the `JSopX.AspNetCore` Project in Visual Studio is also ano
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../jsopx.AspNetCore/p1/v1/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
@@ -331,7 +331,7 @@ For brevity, samples will not have the complete file structure you get when inst
 All `JSopX™ projects` follow a consistent directory structure, based on its [JSopX™ Project Family](../jsopx.Global/Introduction/JSopxProjectsFamilies.md) (_relatively speaking_). 
 
 1. The `JSopX.AspNetCore` Project naming conventions include capital casing for `.Server` directories.
-2. I create a [Visual Studio](../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+2. I create a [Visual Studio](../jsopx.AspNetCore/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 3. I create a Server-Side Project Folder for `.csproj`, and related files.
 
 A common, plain-text file folder structure of the `JSopX.AspNetCore` Solution and Projects should look something like what follows:
@@ -420,19 +420,19 @@ The `JSopX.AspNetCore` Project has the following `JSopX` Project Dependencies:
 
 1. **`JSopX.BridgeTooFar`**:
    - A [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
-   - **Explore GitHub**: [JSopX.BridgeTooFar](../../OpenProjects/jsopx.BridgeTooFar)
+   - **Explore GitHub**: [JSopX.BridgeTooFar](../jsopx.BridgeTooFar)
 
 2. **`JSopX.ClassLibrary`**:
    - A [Shared Data, Service & Function Project](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
-   - **Explore GitHub**: [JSopX.ClassLibrary](../../OpenProjects/jsopx.ClassLibrary)
+   - **Explore GitHub**: [JSopX.ClassLibrary](../jsopx.ClassLibrary)
 
 3. **`JSopX.WebAPI`**:
    - A [Shared Data, Service & Function Project](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
-   - **Explore GitHub**: [JSopX.WebAPI](../../OpenProjects/jsopx.WebAPI)
+   - **Explore GitHub**: [JSopX.WebAPI](../jsopx.WebAPI)
  
 4. **`JSopX.RCLxProper`**:
    - An extremely light-weight, [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
-   - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
+   - **Explore GitHub**: [JSopX.RCLxProper](../jsopx.RCLxProper)
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -530,17 +530,17 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-- **[Continue](../../OpenProjects/jsopx.AngularCore/README.md)** → _Continue_ as **you were**, exploring and/or installing other projects like you did with **this project**. You'll move onto the next project, using the `JSopX.AngularCore` _Using Latest_ Variant.  
+- **[Continue](../jsopx.AngularCore/README.md)** → _Continue_ as **you were**, exploring and/or installing other projects like you did with **this project**. You'll move onto the next project, using the `JSopX.AngularCore` _Using Latest_ Variant.  
 
 ---
 
-- [Browse By-Phase](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
-- [Start From Scratch](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md): **Create project** from scratch, step-by-step, using the `JSopX.AspNetCore` _From Scratch_ Variant.
-- [Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+- [Browse By-Phase](../jsopx.AspNetCore/p1/v1/README.md): **Browse** **previous versions** of the application by **phases** using the `JSopX.AspNetCore` _By-Phase_ Variant.   
+- [Start From Scratch](../jsopx.AspNetCore/p1/v1/RECREATEME.md): **Create project** from scratch, step-by-step, using the `JSopX.AspNetCore` _From Scratch_ Variant.
+- [Get All Projects](../jsopx.OpenProjectX/README.md): **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.AspNetCore/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.AspNetCore/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/) [`Next »`](../../OpenProjects/jsopx.AngularCore/)
+[`Home`](../jsopx.AspNetCore/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../jsopx.AspNetCore/p1/v1/README.md) · [`From Scratch`](../jsopx.AspNetCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../jsopx.RCLxComponents/) [`Next »`](../jsopx.AngularCore/)
 
 ---
 
