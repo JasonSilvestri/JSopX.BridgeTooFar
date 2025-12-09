@@ -69,19 +69,19 @@ As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/Rea
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing the `JSopX.OpenProjectX` Project.
 
-- [Visual Studio (v 17.14.21)](../jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#aspnet-core)
-- [.NET Core Blazor (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#net-core-blazor)
-- [.Net Core Maui Hybrid (v 9.2.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#net-core-maui-hybrid)
-- [Node (v 20.14.0)](../jsopx.OpenProjectX/p1/v1/Technologies/#node)
-- [npm (v 10.8.1)](../jsopx.OpenProjectX/p1/v1/Technologies/#npm)
-- [Angular CLI (v 18.0.3)](../jsopx.OpenProjectX/p1/v1/Technologies/#angular-cli)
-- [React (v 18.2.0)](../jsopx.OpenProjectX/p1/v1/Technologies/#react)
-- [Vue (v 3.4.21)](../jsopx.OpenProjectX/p1/v1/Technologies/#vue)
-- [Vite (v 5.2.8)](../jsopx.OpenProjectX/p1/v1/Technologies/#vite)
-- [Bash (v 5.x+)](../jsopx.OpenProjectX/p1/v1/Technologies/#bash)
-- [Powershell (v 7.x+)](../jsopx.OpenProjectX/p1/v1/Technologies/#powershell)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/#aspnet-core)
+- [.NET Core Blazor (v 9.2.1)](../jsopx.Global/Technologies/#net-core-blazor)
+- [.Net Core Maui Hybrid (v 9.2.1)](../jsopx.Global/Technologies/#net-core-maui-hybrid)
+- [Node (v 20.14.0)](../jsopx.Global/Technologies/#node)
+- [npm (v 10.8.1)](../jsopx.Global/Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../jsopx.Global/Technologies/#angular-cli)
+- [React (v 18.2.0)](../jsopx.Global/Technologies/#react)
+- [Vue (v 3.4.21)](../jsopx.Global/Technologies/#vue)
+- [Vite (v 5.2.8)](../jsopx.Global/Technologies/#vite)
+- [Bash (v 5.x+)](../jsopx.Global/Technologies/#bash)
+- [Powershell (v 7.x+)](../jsopx.Global/Technologies/#powershell)
 
 ---
 
@@ -221,7 +221,7 @@ Building and Running the `JSopX.OpenProjectX` Project in Visual Studio is also a
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../jsopx.Global/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
@@ -254,7 +254,7 @@ For brevity, samples will not have the complete file structure you get when inst
 All `JSopX™ projects` follow a consistent directory structure, based on its [JSopX™ Project Family](../jsopx.Global/Introduction/JSopxProjectsFamilies.md) (_relatively speaking_). 
 
 1. The `JSopX.OpenProjectX` Project naming conventions include capital casing for `.Server` directories.
-2. I create a [Visual Studio](../jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+2. I create a [Visual Studio](../jsopx.Global/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 3. I create a Server-Side Project Folder for `.csproj`, and related files.
 
 A common, plain-text file folder structure of the `JSopX.OpenProjectX` Solution and Projects should look something like what follows:
