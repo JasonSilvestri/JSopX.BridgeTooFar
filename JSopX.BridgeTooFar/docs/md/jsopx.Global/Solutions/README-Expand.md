@@ -23,7 +23,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
 - [JSopX.Data](#-jsopxdata)
 - [JSopX.ClassLibrary](#-jsopxutilities)
 - [JSopX.Vault](#-jsopxvault)
-- [JSopX.WebApi](#-jsopxwebapi)
+- [JSopX.WebAPI](#-jsopxwebapi)
 - [JSopX.ML](#-jsopxml)
 - [JSopX.Halos](#-jsopxhalos)
 - [JSopX.Presentation](#-jsopxpresentation)
@@ -266,7 +266,7 @@ dotnet ef database update --project ../JSopX.Data
 
 ---
 
-## 🌐 JSopX.WebApi
+## 🌐 JSopX.WebAPI
 
 **Purpose:** Public API gateway bridging Core, Data, and Presentation.  
 
@@ -278,12 +278,12 @@ dotnet ef database update --project ../JSopX.Data
 
 **Repository Locations**:
 
-* **GitHub:** [`<https://github.com/JasonSilvestri/JSopX.WebApi>`]
-* **Local:**  `E:\\JasonSilvestri\\JSopX.WebApi`
+* **GitHub:** [`<https://github.com/JasonSilvestri/JSopX.WebAPI>`]
+* **Local:**  `E:\\JasonSilvestri\\JSopX.WebAPI`
 
 **Continue Documentation**:
 
-* [JSopX.WebApi] Project
+* [JSopX.WebAPI] Project
 
 **Visual Studio Template**:
 
@@ -670,7 +670,7 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 [`<https://github.com/JasonSilvestri/JSopX.Core>`]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.ML>`]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Halos>`]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.WebApi>`]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ WebAPI SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.WebAPI>`]: https://github.com/JasonSilvestri/JSopX.WebAPI "JSopX™ WebAPI SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Data>`]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Vault>`]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Presentation>`]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
@@ -692,7 +692,7 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 [JSopX.Data GitHub]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [JSopX.ML GitHub]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
 [JSopX.Halos GitHub]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
-[JSopX.WebApi GitHub]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ Web API SaaS Project"
+[JSopX.WebAPI GitHub]: https://github.com/JasonSilvestri/JSopX.WebAPI "JSopX™ Web API SaaS Project"
 [JSopX.Vault GitHub]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [JSopX.Presentation GitHub]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
 [JSopX.ClassLibrary GitHub]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
@@ -708,12 +708,12 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX]: /JSopX.BridgeTooFar/docs/md/JSopX/README.md "JSopX™ Enterprise-Level Solution"
+[JSopX]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
 [JSopX.Core]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/README.md "JSopX™ Core SaaS Project"
 [JSopX.Data]: /JSopX.BridgeTooFar/docs/md/JSopX.Data/README.md "JSopX™ Data SaaS Project"
 [JSopX.ML]: /JSopX.BridgeTooFar/docs/md/JSopX.ML/README.md "JSopX™ ML SaaS Project"
 [JSopX.Halos]: /JSopX.BridgeTooFar/docs/md/JSopX.Halos/README.md "JSopX™ Halos SaaS Project"
-[JSopX.WebApi]: /JSopX.BridgeTooFar/docs/md/JSopX.WebApi/README.md "JSopX™ WebAPI SaaS Project"
+[JSopX.WebAPI]: /JSopX.BridgeTooFar/docs/md/JSopX.WebAPI/README.md "JSopX™ WebAPI SaaS Project"
 [JSopX.Vault]: /JSopX.BridgeTooFar/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
 [JSopX.Presentation]: /JSopX.BridgeTooFar/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
 [JSopX.ClassLibrary]: /JSopX.BridgeTooFar/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"

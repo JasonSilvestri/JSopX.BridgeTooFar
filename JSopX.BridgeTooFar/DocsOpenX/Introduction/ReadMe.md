@@ -39,7 +39,17 @@ Why should developers and organizations embrace JSopX™? Because it’s more th
 
 ---
 
-### Table of Contents
+#
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
+## Table of Contents
+
 
 1. [Overview](#overview)
 2. [Alerts](./Alerts.md)

@@ -12,7 +12,17 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
 - [Overview](#overview)
 - [**Windows (v 10+)**](#windows)

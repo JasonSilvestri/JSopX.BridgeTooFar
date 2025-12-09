@@ -28,7 +28,17 @@ We all know where we are: we are in the End Game now.
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
   - [Overview](#overview)
   - [Phase 5: Project Release & Deployment Protocols](#phase-5-project-release--deployment-protocols)

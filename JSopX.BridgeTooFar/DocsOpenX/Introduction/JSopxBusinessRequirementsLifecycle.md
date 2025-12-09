@@ -8,7 +8,17 @@ By exploring the [Overview](#overview), you’ll start to understand that it tak
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 - [Overview](#overview)
 - [1. Client Stakeholder Sourced Business Requirements](#1-client-stakeholder-sourced-business-requirements)
 - [2. Skeptical Analysis & Pre-Existing Project Evaluation](#2-skeptical-analysis--pre-existing-project-evaluation)

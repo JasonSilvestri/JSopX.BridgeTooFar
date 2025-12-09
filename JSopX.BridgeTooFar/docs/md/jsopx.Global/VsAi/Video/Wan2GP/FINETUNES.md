@@ -1,4 +1,4 @@
-# Self Health® using WanGP — FINETUNES
+# JSopX™ using WanGP — FINETUNES
 
 A Finetuned model is model that shares the same architecture of one specific model but has derived weights from this model. Some finetuned models have been created by combining multiple finetuned models.
 

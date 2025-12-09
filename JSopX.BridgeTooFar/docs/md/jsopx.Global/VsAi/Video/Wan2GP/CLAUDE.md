@@ -1,4 +1,4 @@
-# Self Health® using WanGP — Development Guide for Pinokio Projects
+# JSopX™ using WanGP — Development Guide for Pinokio Projects
 
 ## Non-Negotiable Execution Workflow
 

@@ -1,4 +1,4 @@
-# Self Health® using WanGP — Getting Started with WanGP
+# JSopX™ using WanGP — Getting Started with WanGP
 
 This guide will help you get started with WanGP video generation quickly and easily.
 

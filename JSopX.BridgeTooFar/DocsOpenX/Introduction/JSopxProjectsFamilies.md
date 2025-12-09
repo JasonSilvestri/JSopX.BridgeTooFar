@@ -19,7 +19,17 @@ By examining the [Overview](#overview), you’ll see how the concept of “Proje
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 - [Overview](#overview)
 - [Knowing JSopX™ Visual Studio Project Families](#knowing-jsopx-visual-studio-project-families)
     - [1. Flagship Projects](./JSopxProjectsFamilies.md#1-flagship-projects)

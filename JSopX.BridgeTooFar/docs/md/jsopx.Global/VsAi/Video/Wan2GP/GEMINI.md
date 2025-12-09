@@ -1,4 +1,4 @@
-# Self Health® using WanGP / Gemini — Development Guide for Pinokio Projects
+# JSopX™ using WanGP / Gemini — Development Guide for Pinokio Projects
 
 ## Non-Negotiable Execution Workflow
 

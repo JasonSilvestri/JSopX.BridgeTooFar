@@ -1,4 +1,4 @@
-# Self Health® using WanGP — `--vace-1-3B--vace-1-3B#` Command Line Reference
+# JSopX™ using WanGP — `--vace-1-3B--vace-1-3B#` Command Line Reference
 
 This document covers all available command line options for WanGP.
 

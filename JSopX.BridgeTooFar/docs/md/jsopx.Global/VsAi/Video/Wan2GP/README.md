@@ -1,4 +1,4 @@
-# Self Health® using WanGP — WanGP
+# JSopX™ using WanGP — WanGP
 
 -----
 

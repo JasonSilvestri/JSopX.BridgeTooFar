@@ -637,7 +637,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
 
    ```csharp
 
-   using JSopX.AngularCore.Utilities;
+   using JSopX.AngularCore.ClassLibrary;
 
    var utility = new ExampleUtility();
    var result = utility.PerformTask();

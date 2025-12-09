@@ -21,7 +21,17 @@ By advancing to the [Overview](#overview), you’ll also gain insights into how 
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
@@ -637,7 +647,7 @@ Although the `JSopX.AngularCore` project is primarily designed as a self-contain
 
    ```csharp
 
-   using JSopX.AngularCore.Utilities;
+   using JSopX.AngularCore.ClassLibrary;
 
    var utility = new ExampleUtility();
    var result = utility.PerformTask();

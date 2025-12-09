@@ -10,7 +10,17 @@ By exploring the [Overview](#overview), you’ll discover effective ways to docu
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
 - [Overview](#overview)
 - [Purpose of Documenting File Structures](#purpose-of-documenting-file-structures)

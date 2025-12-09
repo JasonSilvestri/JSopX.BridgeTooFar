@@ -12,7 +12,17 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
 - [Overview](#overview)
 - [How We Currently Handle Visual Studio Project Management](#how-we-currently-handle-visual-studio-project-management)

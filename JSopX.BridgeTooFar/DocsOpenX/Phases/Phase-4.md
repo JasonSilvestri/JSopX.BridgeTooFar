@@ -27,7 +27,17 @@ The purpose of Project Development Steps in `Phase 4` is to Implement Final Secu
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
   - [Overview](#overview)
   - [Phase 4: Implement Final Security Protocols, Deployment Strategies and More](#phase-4-implement-final-security-protocols-deployment-strategies-and-more)

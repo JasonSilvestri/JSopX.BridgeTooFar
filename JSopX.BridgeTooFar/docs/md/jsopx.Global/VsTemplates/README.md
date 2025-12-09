@@ -4,10 +4,6 @@
 
 ---
 
-By exploring the [Overview](#overview), you’ll gain insights into the technologies that power JSopX™, and the Visual Studio project templates used to create each initial project structure. 
-
----
-
 [`Home`] » [`JSopX.BridgeTooFar`] » [`Solutions`] ·· **[`VS Templates`]** ·· [`Technologies`]
 
 ---
@@ -72,27 +68,7 @@ To build and run the **Jason Silvestri Open Project EXperiences (JSopX™) JSopX
 
 **Tags**: `C#`, `ASP.NET Core`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Blank Solution
-
-JSopX.BlankSolution/              # Root JSopX ASP.NET Core Visual Studio Blank Solution folder.
-├── JSopX.BlankSolution.sln       # Visual Studio Solution file for Blank Solution.
-
-```
+**Read More:** [Blank Solution Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -104,26 +80,7 @@ JSopX.BlankSolution/              # Root JSopX ASP.NET Core Visual Studio Blank 
 
 **Tags**: `C#`, `ASP.NET Core`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.Halos]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Website Projects
-
-├── JSopX.WebSite/    # Any existing application folder (by right clicking > add existing website).
-
-```
+**Read More:** [Website App Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -135,32 +92,7 @@ JSopX.BlankSolution/              # Root JSopX ASP.NET Core Visual Studio Blank 
 
 **Tags**: `C#`, `ASP.NET Core`
 
-
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.Halos]
-- [JSopX.Vault]
-- [JSopX.Unitx]
-- [JSopX.SaaS]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ ASP.NET Core Web App Solution and Projects
-
-JSopX.AspNetCore/                 # Root JSopX ASP.NET Core Visual Studio Solution folder.
-├── JSopX.AspNetCore.sln          # Visual Studio Solution file for Asp.NET Core ASP.NET Core.
-├── JSopX.AspNetCore/             # ASP.NET Core server-side application folder.
-│   ├── JSopX.AspNetCore.csproj   # Asp.NET Core ASP.NET Core Visual Studio Server Project configuration file.
-
-```
+**Read More:** [ASP.NET Core Web App Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -172,30 +104,7 @@ JSopX.AspNetCore/                 # Root JSopX ASP.NET Core Visual Studio Soluti
 
 **Tags**: `C#`, `ASP.NET Core`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.Halos]
-- [JSopX.Vault]
-- [JSopX.Unitx]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Console App Solution and Projects
-
-JSopX.ConsoleApp/                 # Root JSopX Console App Visual Studio Solution folder.
-├── JSopX.ConsoleApp.sln          # Visual Studio Solution file for Asp.NET Core Console App.
-├── JSopX.ConsoleApp/             # ASP.NET Core server-side Console App application folder.
-│   ├── JSopX.ConsoleApp.csproj   # Asp.NET Core Console App Visual Studio Server Project configuration file.
-
-```
+**Read More:** [Console App Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -207,35 +116,8 @@ JSopX.ConsoleApp/                 # Root JSopX Console App Visual Studio Solutio
 
 **Tags**: `C#`, `ASP.NET Core`
 
-**Some JSopX™ Projects Using Template**:
+**Read More:** [Class Library Template]
 
-- [JSopX.BridgeTooFar]
-- [JSopX.Core]
-- [JSopX.Data]
-- [JSopX.Vault]
-- [JSopX.ClassLibrary]
-- [JSopX.ML]
-- [JSopX.Halos]
-- [JSopX.Unitx]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Class Library Solution and Projects
-
-JSopX.ClassLibrary/                 # Root JSopX Class Library Visual Studio Solution folder.
-├── JSopX.ClassLibrary.sln          # Visual Studio Solution file for Asp.NET Core Class Library.
-├── JSopX.ClassLibrary/             # ASP.NET Core server-side RCL application folder.
-│   ├── JSopX.ClassLibrary.csproj   # Asp.NET Core Class Library Visual Studio Server Project configuration file.
-
-```
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -247,32 +129,7 @@ JSopX.ClassLibrary/                 # Root JSopX Class Library Visual Studio Sol
 
 **Tags**: `C#`, `ASP.NET Core`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.Presentation]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Razor Class Library Solution and Projects
-
-JSopX.Presentation/          # Root JSopX.Presentation Blank Visual Studio Solution folder.
-├── JSopX.Presentation.sln   # Visual Studio solution file for Asp.NET Core RCL Class Library.
-├── Dev.RCL/                      # ASP.NET Core server-side RCL application folder for Developer Environment.
-│   ├── Dev.RCL.csproj            # Asp.NET Core RCL Visual Studio Server Project configuration file for Developer Environment.
-├── Prod.RCL/                     # ASP.NET Core server-side RCL application folder for Production Environment.
-│   ├── Prod.RCL.csproj           # Asp.NET Core RCL Visual Studio Server Project configuration file for Production Environment.
-├── Thor.RCL/                     # ASP.NET Core server-side RCL application folder extra creative design, samples and icons.
-│   ├── Thor.RCL.csproj           # Asp.NET Core RCL Visual Studio Server Project configuration file extra creative design, samples and icons.
-
-```
+**Read More:** [Razor Class Library Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -284,31 +141,7 @@ JSopX.Presentation/          # Root JSopX.Presentation Blank Visual Studio Solut
 
 **Tags**: `C#`, `ASP.NET Core`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.WebApi]
-- [JSopX.ML]
-- [JSopX.Halos]
-- [JSopX.Unitx]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Asp.NET Core Web API Solution and Projects
-
-JSopX.WebApi/                   # Root JSopX.WebApi Visual Studio Solution folder.
-├── JSopX.WebApi.sln            # Visual Studio solution file for Asp.NET Core Web API.
-├── JSopX.WebApi/               # ASP.NET Core server-side Web API application folder.
-│   ├── JSopX.WebApi.csproj     # Asp.NET Core Web API Visual Studio Server Project configuration file.
-
-```
+**Read More:** [Asp.NET Core Web API Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -320,37 +153,7 @@ JSopX.WebApi/                   # Root JSopX.WebApi Visual Studio Solution folde
 
 **Tags**: `C#`, `ASP.NET Core`, `TypeScript` `Angular CLI`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.AngularCore]
-- [JSopX.SaaS]
-- [JSopX.Unitx]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [Node (v 20.14.0)]
-- [npm (v 10.8.1)]
-- [Angular CLI (v 18.0.3)]
-- [Bash (v 5.x+)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Angular Core Solution and Projects
-
-JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio Solution folder.
-├── JSopX.AngularCore.sln                 # Visual Studio solution file for Angular Core.
-├── jsopx.angularcore.client/             # Angular client-side application folder.
-│   ├── jsopx.angularcore.client.esproj   # Angular CLI Visual Studio Client Project configuration file.
-├── JSopX.AngularCore.Server/             # ASP.NET Core server-side And Web API application folder.
-│   ├── JSopX.AngularCore.Server.csproj   # Angular CLI Visual Studio Server Project configuration file.
-
-```
+**Read More:** [Angular and ASP.NET Core Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -362,37 +165,7 @@ JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio
 
 **Tags**: `C#`, `ASP.NET Core`, `TypeScript` `React`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.SaaS]
-- [JSopX.Unitx]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [Node (v 20.14.0)]
-- [npm (v 10.8.1)]
-- [React (v 18.2.0)]
-- [Bash (v 5.x+)]
-- [Powershell (v 7.x+)]
-
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ React Core Solution and Projects
-
-JSopX.ReactCore/                        # Root JSopX.ReactCore Visual Studio Solution folder.
-├── JSopX.ReactCore.sln                 # Visual Studio solution file for React Core.
-├── jsopx.reactcore.client/             # React client-side application folder.
-│   ├── jsopx.reactcore.client.esproj   # React Visual Studio Client Project configuration file.
-├── JSopX.ReactCore.Server/             # ASP.NET Core server-side and Web API application folder.
-│   ├── JSopX.ReactCore.Server.csproj   # React Visual Studio Server Project configuration file.
-
-```
+**Read More:** [React and ASP.NET Core Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -404,37 +177,7 @@ JSopX.ReactCore/                        # Root JSopX.ReactCore Visual Studio Sol
 
 **Tags**: `C#`, `ASP.NET Core`, `TypeScript` `Vue`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.SaaS]
-- [JSopX.Unitx]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [Node (v 20.14.0)]
-- [npm (v 10.8.1)]
-- [Vue (v 3.4.21)]
-- [Vite (v 5.2.8)]
-- [Bash (v 5.x+)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Vue Core Solution and Projects
-
-JSopX.VueCore/                        # Root JSopX.VueCore Visual Studio Solution folder.
-├── JSopX.VueCore.sln                 # Visual Studio solution file for Vue Core.
-├── jsopx.vuecore.client/             # Vue client-side application folder.
-│   ├── jsopx.vuecore.client.esproj   # Vue Visual Studio Client Project configuration file.
-├── JSopX.VueCore.Server/             # ASP.NET Core server-side and Web API application folder.
-│   ├── JSopX.VueCore.Server.csproj   # Vue Visual Studio Server Project configuration file.
-
-```
+**Read More:** [Vue and ASP.NET Core Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -446,32 +189,7 @@ JSopX.VueCore/                        # Root JSopX.VueCore Visual Studio Solutio
 
 **Tags**: `C#`, `Linux`, `macOS` `Windows`, `Blazor`, `Cloud`, `Web`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.SaaS]
-- [JSopX.Unitx]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [.NET Core Blazor (v 9.2.1)]
-- [Bash (v 5.x+)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ Blazor Core Solution and Projects
-
-JSopX.BlazorCore/                   # Root JSopX.BlazorCore Visual Studio Solution folder.
-├── JSopX.BlazorCore.sln            # Visual Studio solution file for Blazor Core.
-├── JSopX.BlazorCore/               # ASP.NET Core server-side and Web API application folder.
-│   ├── JSopX.BlazorCore.csproj     # Blazor Visual Studio Server Project configuration file.
-
-```
+**Read More:** [Blazor Web App Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -481,44 +199,7 @@ JSopX.BlazorCore/                   # Root JSopX.BlazorCore Visual Studio Soluti
 
 **Purpose:** template is used for Cross-platform MAUI Hybrid App and Web Multi App Project Library (Windows, Android, iOS, macOS, and Web).
 
-**Tags**: `C#`, `Android`, `Blazor`, `Blazor Hybrid`, `iOS`, `Mac Catalyst`, `macOS`, `MAUI`, `Mobile`, `Windows`, `Tizen`
-
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.Unitx]
-- [JSopX.SaaS]
-- [JSopX.MauiHybridNetCore]
-- [JSopX.HealthTracker]
-- [JSopX.CRM]
-- [JSopX.PLM]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [.Net Core Maui Hybrid (v 9.2.1)]
-- [Bash (v 5.x+)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ .NET MAUI Blazor Hybrid and Web App Solution and Projects
-
-JSopX.Maui/                           # Root JSopX.BlazorCore Visual Studio Solution folder.
-├── JSopX.Maui.sln                    # Visual Studio solution file for Blazor Core.
-├── JSopX.Maui/                       # .NET Maui Server-side application folder.
-│   ├── JSopX.Maui.csproj             # .NET MAUI Visual Studio Project configuration file.
-├── JSopX.Maui.Shared/                # .Shared project folder for shared resources.
-│   ├── JSopX.Maui.Shared.csproj      # .NET MAUI Shared Visual Studio Project configuration file.
-├── JSopX.Maui.Web/                   # .Shared project folder for shared resources.
-│   ├── JSopX.Maui.Web.csproj         # .NET MAUI Web Visual Studio Project configuration file.
-├── JSopX.Maui.Web.Client/            # .Web Client project folder for web client resources. 
-│   ├── JSopX.Maui.Web.Client.csproj  # .NET MAUI Web Client Visual Studio Project configuration file.
-
-```
+**Read More:** [.NET MAUI Blazor Hybrid and Web App Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -530,29 +211,7 @@ JSopX.Maui/                           # Root JSopX.BlazorCore Visual Studio Solu
 
 **Tags**: `C#`, `Android`, `Blazor`, `Blazor Hybrid`, `iOS`, `Mac Catalyst`, `macOS`, `MAUI`, `Mobile`, `Windows`, `Tizen`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.Presentation]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [.Net Core Maui Hybrid (v 9.2.1)]
-- [Bash (v 5.x+)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ .NET MAUI Class Library Solution and Projects Files
-
-JSopX.Maui.CL/               # Root JSopX.Maui.MPA Visual Studio Solution folder.
-│   JSopX.Maui.CL.csproj     # Visual Studio solution file for MAUI Class Library.
-
-```
+**Read More:** [.NET MAUI Class Library Template]
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -564,41 +223,7 @@ JSopX.Maui.CL/               # Root JSopX.Maui.MPA Visual Studio Solution folder
 
 **Tags**: `C#`, `Android`, `iOS`, `Mac Catalyst`, `macOS`, `MAUI`, `Mobile`, `Windows`
 
-**Some JSopX™ Projects Using Template**:
-
-- [JSopX.Maui.MPA]
-
-**Minimum Technology Requirements**:
-
-- [Windows (v 10+)]
-- [Visual Studio (v 17.14.21)]
-- [.NET Framework (v 9.2.1)]
-- [ASP.NET Core (v 9.2.1)]
-- [.Net Core Maui Hybrid (v 9.2.1)]
-- [Bash (v 5.x+)]
-- [Powershell (v 7.x+)]
-
-**Default Project Structure**:
-
-```plaintext
-# JSopX™ .NET MAUI MPA Solution and Projects Files
-
-JSopX.Maui.MPA/                            # Root JSopX.Maui.MPA Visual Studio Solution folder.
-│   JSopX.Maui.MPA.sln                     # Visual Studio solution file for MAUI MPA.
-└───JSopX.Maui.MPA/                        # .NET MAUI Multi-Project App Project folder.
-    ├───JSopX.Maui.MPA                     # .NET MAUI Multi-Project App Visual Studio Project folder.
-    │   ├── JSopX.Maui.MPA.csproj          # .NET MAUI Multi-Project App Visual Studio Project configuration file.
-    ├───JSopX.Maui.MPA.Droid/              # Android Project Folder
-    │   ├── JSopX.Maui.MPA.Droid.csproj    # .NET MAUI Multi-Project App Android Visual Studio Project configuration file.
-    ├───JSopX.Maui.MPA.iOS/                # iOS Project Folder
-    │   ├── JSopX.Maui.MPA.iOS.csproj      # .NET MAUI Multi-Project App iOS Visual Studio Project configuration file.
-    ├───JSopX.Maui.MPA.Mac/                # Mac Catalyst Project Folder
-    │   ├── JSopX.Maui.MPA.Mac.csproj      # .NET MAUI Multi-Project App Mac Visual Studio Project configuration file.
-    └───JSopX.Maui.MPA.WinUI/              # Windows Project Folder
-        ├── JSopX.Maui.MPA.WinUI.csproj    # .NET MAUI Multi-Project App Windows Visual Studio Project configuration file.
-```
-
-[`⇧ Back to Top`](#table-of-contents)
+**Read More:** [.NET MAUI Multi-Project App Template]
 
 ---
 
@@ -610,25 +235,25 @@ JSopX.Maui.MPA/                            # Root JSopX.Maui.MPA Visual Studio S
 
 ###### Copyright © 2025 – All Rights Reserved by Jason Silvestri Open Project EXperiences (JSopX™)
 
-[jsopx.com]: http://jsopx.com "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Products, Services and SaaS Services"
-[Email]: mailto:therealjasonsilvestri@gmail.com "Jason Silvestri Open Project EXperiences (JSopX™) Email Contact for Mark Silvetri"
-[Phone]: phoneto:508-851-9445 "Jason Silvestri Open Project EXperiences (JSopX™) Phone Contact for Mark Silvetri"
-[therealjasonsilvestri@gmail.com]: mailto:therealjasonsilvestri@gmail.com "Jason Silvestri Open Project EXperiences (JSopX™) Email Contact for Mark Silvetri"
-[508-851-9445]: phoneto:508-851-9445 "Jason Silvestri Open Project EXperiences (JSopX™) Phone Contact for Mark Silvetri"
+[jsopx.com]: http://jsopx.com "Jason Silvestri Open Project EXperiences (JSopX™)"
+[Email]: mailto:therealjasonsilvestri@gmail.com "JSopX™ Email"
+[Phone]: phoneto:508-851-9445 "JSopX™ Phone"
+[therealjasonsilvestri@gmail.com]: mailto:therealjasonsilvestri@gmail.com "Email Contact"
+[508-851-9445]: phoneto:508-851-9445 "Phone Contact"
 
-[GitHub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (JSopX™) GitHub Repository"
+[GitHub]: https://github.com/InCareSys/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (JSopX™) GitHub Repository"
 
-[Current Git Hub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Document Management Project Solution GitHub Repository"
-[Current GitHub Home]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/README.md "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Document Management Project GitHub Home README.md"
+[Current Git Hub]: https://github.com/InCareSys/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Document Management Project Solution GitHub Repository"
+[Current GitHub Home]: https://github.com/InCareSys/JSopX.BridgeTooFar/blob/master/README.md "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Document Management Project GitHub Home README.md"
 
 <!--Root Lexicon -->
-[Lexicon]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
-[`Lexicon`]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
+[Lexicon]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
+[`Lexicon`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
 
 <!--Root Solution Home-->
-[`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management Project Home README.md"
+[`Home`]: https://github.com/InCareSys/JSopX.BridgeTooFar "JSopX™ Document Management Project Home README.md"
 <!--Root Solution Project -->
-[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution example README.md"
+[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution example README.md"
 
 
 <!--Install README.md - Often same as Root Solution-->
@@ -678,64 +303,64 @@ JSopX.Maui.MPA/                            # Root JSopX.Maui.MPA Visual Studio S
 [`⇧ Back to Top`]: #table-of-contents "Primary document table of contents"
 
 <!-- Long Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[`<https://github.com/JasonSilvestri/OpenProjectX>`]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Core>`]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.ML>`]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Halos>`]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.WebApi>`]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ WebAPI SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Data>`]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Vault>`]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Presentation>`]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.ClassLibrary>`]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Unitx>`]: https://github.com/JasonSilvestri/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.SaaS>`]: https://github.com/JasonSilvestri/JSopX.SaaS "JSopX™ SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore>`]: https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore "JSopX™ MAUI Titrate SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.EndGame>`]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.HealthTracker>`]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
-[`<https://github.com/JasonSilvestri/JSopX.Maui.MPA>`]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[`<https://github.com/JasonSilvestri/JSopX.BridgeTooFar>`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.CRM>`]: https://github.com/JasonSilvestri/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.PLM>`]: https://github.com/JasonSilvestri/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
+[`<https://github.com/InCareSys/JSopX>`]: https://github.com/InCareSys/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Core>`]: https://github.com/InCareSys/JSopX.Core "JSopX™ Core SaaS Project"
+[`<https://github.com/InCareSys/JSopX.ML>`]: https://github.com/InCareSys/JSopX.ML "JSopX™ ML SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Halos>`]: https://github.com/InCareSys/JSopX.Halos "JSopX™ Halos SaaS Project"
+[`<https://github.com/InCareSys/JSopX.WebAPI>`]: https://github.com/InCareSys/JSopX.WebAPI "JSopX™ WebAPI SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Data>`]: https://github.com/InCareSys/JSopX.Data "JSopX™ Data SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Vault>`]: https://github.com/InCareSys/JSopX.Vault "JSopX™ Vault SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Presentation>`]: https://github.com/InCareSys/JSopX.Presentation "JSopX™ Presentation SaaS Project"
+[`<https://github.com/InCareSys/JSopX.ClassLibrary>`]: https://github.com/InCareSys/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Unitx>`]: https://github.com/InCareSys/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
+[`<https://github.com/InCareSys/JSopX.SaaS>`]: https://github.com/InCareSys/JSopX.SaaS "JSopX™ SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Titrate>`]: https://github.com/InCareSys/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[`<https://github.com/InCareSys/JSopX.EndGame>`]: https://github.com/InCareSys/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
+[`<https://github.com/InCareSys/JSopX.HealthTracker>`]: https://github.com/InCareSys/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
+[`<https://github.com/InCareSys/JSopX.Maui.MPA>`]: https://github.com/InCareSys/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
+[`<https://github.com/InCareSys/JSopX.BridgeTooFar>`]: https://github.com/InCareSys/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
+[`<https://github.com/InCareSys/JSopX.CRM>`]: https://github.com/InCareSys/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
+[`<https://github.com/InCareSys/JSopX.PLM>`]: https://github.com/InCareSys/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
+[`<https://github.com/InCareSys/JSopX.AngularCore>`]: https://github.com/InCareSys/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX GitHub]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
-[JSopX.Core GitHub]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
-[JSopX.Data GitHub]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
-[JSopX.ML GitHub]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
-[JSopX.Halos GitHub]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
-[JSopX.WebApi GitHub]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ Web API SaaS Project"
-[JSopX.Vault GitHub]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
-[JSopX.Presentation GitHub]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[JSopX.ClassLibrary GitHub]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
-[JSopX.Unitx GitHub]: https://github.com/JasonSilvestri/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
-[JSopX.SaaS GitHub]: https://github.com/JasonSilvestri/JSopX.SaaS "JSopX™ SaaS Project"
-[JSopX.MauiHybridNetCore GitHub]: https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore "JSopX™ MAUI Titrate SaaS Project"
-[JSopX.EndGame GitHub]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
-[JSopX.HealthTracker GitHub]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
-[JSopX.Maui.MPA GitHub]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[JSopX.BridgeTooFar GitHub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
-[JSopX.CRM GitHub]: https://github.com/JasonSilvestri/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
-[JSopX.PLM GitHub]: https://github.com/JasonSilvestri/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
-[JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
+[JSopX GitHub]: https://github.com/InCareSys/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
+[JSopX.Core GitHub]: https://github.com/InCareSys/JSopX.Core "JSopX™ Core SaaS Project"
+[JSopX.Data GitHub]: https://github.com/InCareSys/JSopX.Data "JSopX™ Data SaaS Project"
+[JSopX.ML GitHub]: https://github.com/InCareSys/JSopX.ML "JSopX™ ML SaaS Project"
+[JSopX.Halos GitHub]: https://github.com/InCareSys/JSopX.Halos "JSopX™ Halos SaaS Project"
+[JSopX.WebAPI GitHub]: https://github.com/InCareSys/JSopX.WebAPI "JSopX™ Web API SaaS Project"
+[JSopX.Vault GitHub]: https://github.com/InCareSys/JSopX.Vault "JSopX™ Vault SaaS Project"
+[JSopX.Presentation GitHub]: https://github.com/InCareSys/JSopX.Presentation "JSopX™ Presentation SaaS Project"
+[JSopX.ClassLibrary GitHub]: https://github.com/InCareSys/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
+[JSopX.Unitx GitHub]: https://github.com/InCareSys/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
+[JSopX.SaaS GitHub]: https://github.com/InCareSys/JSopX.SaaS "JSopX™ SaaS Project"
+[JSopX.Titrate GitHub]: https://github.com/InCareSys/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.EndGame GitHub]: https://github.com/InCareSys/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
+[JSopX.HealthTracker GitHub]: https://github.com/InCareSys/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
+[JSopX.Maui.MPA GitHub]: https://github.com/InCareSys/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
+[JSopX.BridgeTooFar GitHub]: https://github.com/InCareSys/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
+[JSopX.CRM GitHub]: https://github.com/InCareSys/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
+[JSopX.PLM GitHub]: https://github.com/InCareSys/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX.AngularCore GitHub]: https://github.com/InCareSys/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX]: /JSopX.BridgeTooFar/docs/md/JSopX/README.md "JSopX™ Enterprise-Level Solution"
+[JSopX]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
 [JSopX.Core]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/README.md "JSopX™ Core SaaS Project"
 [JSopX.Data]: /JSopX.BridgeTooFar/docs/md/JSopX.Data/README.md "JSopX™ Data SaaS Project"
 [JSopX.ML]: /JSopX.BridgeTooFar/docs/md/JSopX.ML/README.md "JSopX™ ML SaaS Project"
 [JSopX.Halos]: /JSopX.BridgeTooFar/docs/md/JSopX.Halos/README.md "JSopX™ Halos SaaS Project"
-[JSopX.WebApi]: /JSopX.BridgeTooFar/docs/md/JSopX.WebApi/README.md "JSopX™ WebAPI SaaS Project"
+[JSopX.WebAPI]: /JSopX.BridgeTooFar/docs/md/JSopX.WebAPI/README.md "JSopX™ WebAPI SaaS Project"
 [JSopX.Vault]: /JSopX.BridgeTooFar/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
 [JSopX.Presentation]: /JSopX.BridgeTooFar/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
 [JSopX.ClassLibrary]: /JSopX.BridgeTooFar/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
 [JSopX.Unitx]: /JSopX.BridgeTooFar/docs/md/JSopX.Unitx/README.md "JSopX™ Unit Testing SaaS Project"
 [JSopX.SaaS]: /JSopX.BridgeTooFar/docs/md/JSopX.SaaS/README.md "JSopX™ SaaS Project"
-[JSopX.MauiHybridNetCore]: /JSopX.BridgeTooFar/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.Titrate]: /JSopX.BridgeTooFar/docs/md/JSopX.Titrate/README.md "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.EndGame]: /JSopX.BridgeTooFar/docs/md/JSopX.EndGame/README.md "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
+[JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
 [JSopX.CRM]: /JSopX.BridgeTooFar/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
 [JSopX.PLM]: /JSopX.BridgeTooFar/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
@@ -751,7 +376,7 @@ JSopX.Maui.MPA/                            # Root JSopX.Maui.MPA Visual Studio S
 [JSopX.ClassLibrary (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
 [JSopX.Unitx (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxunitx "JSopX™ Unit Testing SaaS Project"
 [JSopX.SaaS (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
-[JSopX.MauiHybridNetCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.Titrate (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.EndGame (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxendgame "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxmauimpa "The Original JSopX™ Maui Multi App SaaS Project by Mark"

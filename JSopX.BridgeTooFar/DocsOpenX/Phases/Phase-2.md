@@ -27,7 +27,17 @@ The purpose of Project Development Steps in `Phase 2` is to create a Minimum Via
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
   - [Overview](#overview)
   - [Phase 2: Minimum Viable Refactor Product (MVRP)](#phase-2-minimum-viable-refactor-product-mvrp)

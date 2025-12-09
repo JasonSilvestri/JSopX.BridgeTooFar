@@ -27,7 +27,17 @@ The sole purpose of Project Development Steps in **`Phase 1`** is to create a Mi
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
   - [Overview](#overview)
   - [Phase 1: Minimum Viable Product (MVP)](#phase-1-minimum-viable-product-mvp)

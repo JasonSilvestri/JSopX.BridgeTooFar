@@ -17,7 +17,17 @@ The documentation found here discusses the design patterns that almost all JSopX
 
 ---
 
-### Table of Contents
+#
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
+## Table of Contents
+
 
 - [Overview](#overview)
 - [JSopX™ Document ﻿File & Directory Design Patterns](./JSopxNovaFileandDirectoryDesignPatterns.md)

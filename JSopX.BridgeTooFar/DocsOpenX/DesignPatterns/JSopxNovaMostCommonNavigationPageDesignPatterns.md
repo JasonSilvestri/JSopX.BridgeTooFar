@@ -25,7 +25,17 @@ A common issue we encounter is broken or misdirected project links, especially i
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
 
   - [Overview](#overview)
@@ -615,7 +625,17 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ---
 
-### Table of Contents
+#
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
+## Table of Contents
+
 
 - [Overview](#overview)
 - [Alerts](Alerts.md)
@@ -669,7 +689,17 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 ---
 
-### Table of Contents
+#
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
+## Table of Contents
+
 
 - [Overview](#overview)
 - [Alerts](./Alerts.md)

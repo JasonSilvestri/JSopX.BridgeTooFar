@@ -1,4 +1,4 @@
-﻿# Self Health® using WanGP — **WanGP** support many diferent models. 
+﻿# JSopX™ using WanGP — **WanGP** support many diferent models. 
 
 Some of them are just better. You will find below a selection.
 

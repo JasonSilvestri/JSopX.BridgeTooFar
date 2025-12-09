@@ -1,4 +1,4 @@
-# Self Health® using WanGP — VACE ControlNet Guide
+# JSopX™ using WanGP — VACE ControlNet Guide
 
 VACE is a powerful ControlNet that enables Video-to-Video and Reference-to-Video generation. It allows you to inject your own images into output videos, animate characters, perform inpainting/outpainting, and continue existing videos.
 

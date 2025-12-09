@@ -28,7 +28,17 @@ $ git clone https://github.com/JasonSilvestri/JSopX.AspNetCore.git
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 0. JSopX™ Enterprise Solution Asp.NET Core Splash](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-0.png)
 
-## Table of Contents  
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
+## Table of Contents
+  
 
  - [Overview](#overview)
   - [Prerequisites](#prerequisites)

@@ -29,7 +29,17 @@ These Phases also simplify understanding and enhance readability for developers 
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
 - [Overview](#overview)
 - [Current Lifecycle Phases](#current-lifecycle-phases)

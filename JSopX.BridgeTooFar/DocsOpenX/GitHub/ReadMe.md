@@ -9,7 +9,17 @@ Should be an excerpt from [Overview](#overview) section.
 ---
 
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 - [Overview](#overview)
 - [JSopX™ GitHub](#jsopx-github)
     - [1. JSopX™ Visual Studio Projects GitHub Basics](./JSopxProjectsGitHubBasics.md)

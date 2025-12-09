@@ -12,13 +12,13 @@
 
 # JSopX™ — Web API Project Brief (v1)
 
-**WebApi (v1)**, codename, `JSopX.WebApi`, is an **Independent Care Systems Inc (_Jason Silvestri_)**, RESTful API gateway for JSopX™. Exposes secure endpoints, mediates between clients (MAUI, Presentation RCLs, third-party integrators) and the Core/Data layers.  
+**WebApi (v1)**, codename, `JSopX.WebAPI`, is an **Jason Silvestri Open Project EXperiences (_Jason Silvestri_)**, RESTful API gateway for JSopX™. Exposes secure endpoints, mediates between clients (MAUI, Presentation RCLs, third-party integrators) and the Core/Data layers.  
 
 ---
 
 ```bash
-# For The Cool Kids: Clone JSopX.WebApi Git Repository
-$ git clone https://github.com/JasonSilvestri/JSopX.WebApi.git
+# For The Cool Kids: Clone JSopX.WebAPI Git Repository
+$ git clone https://github.com/JasonSilvestri/JSopX.WebAPI.git
 ```
 
 ---
@@ -34,7 +34,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 ### **BETA:**
 
 > [!WARNING]
-> You are currently viewing the **"_BETA_" v 1 _Variant_** of this **JSopX.WebApi Project** section.
+> You are currently viewing the **"_BETA_" v 1 _Variant_** of this **JSopX.WebAPI Project** section.
 
 ---
 
@@ -57,7 +57,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 ---
 
 ## Overview
-`JSopX.WebApi` is the entry point for mobile apps, browsers, and other consumers. It provides standardized JSON endpoints, orchestrates validation and business rules, and enforces versioned contracts.  
+`JSopX.WebAPI` is the entry point for mobile apps, browsers, and other consumers. It provides standardized JSON endpoints, orchestrates validation and business rules, and enforces versioned contracts.  
 
 **Highlights**:  
 - Swagger/OpenAPI docs  
@@ -192,7 +192,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 
 
 ## Operations Runbook
-- `dotnet run --project JSopX.WebApi` for local.  
+- `dotnet run --project JSopX.WebAPI` for local.  
 - Swagger: `https://localhost:5001/swagger`.  
 - Health check: `/healthz`.  
 

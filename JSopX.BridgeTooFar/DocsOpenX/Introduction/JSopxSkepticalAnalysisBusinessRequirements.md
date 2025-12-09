@@ -19,7 +19,17 @@
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Tying Stakeholder Sourced Business Requirements to the Team's Development Standards](#tying-stakeholder-sourced-business-requirements-to-the-teams-development-standards)

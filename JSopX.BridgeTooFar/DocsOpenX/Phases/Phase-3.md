@@ -27,7 +27,17 @@ The purpose of Project Development Steps in `Phase 3` is to dig in hard with som
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
   - [Overview](#overview)
   - [Phase 3: Advanced User Interface Connectivity and Re-Usability](#phase-3-advanced-user-interface-connectivity-and-re-usability)

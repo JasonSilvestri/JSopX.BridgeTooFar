@@ -83,7 +83,7 @@ Need to create **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCo
 ---
  
 ### Goals & Non-Goals
-**Goals**: Create Sample project for future user `JSopX.WebApi` consumption + demonstration of extending the project, by resusing all relative projects.
+**Goals**: Create Sample project for future user `JSopX.WebAPI` consumption + demonstration of extending the project, by resusing all relative projects.
 **Non-Goals**: business logic, UI. 
  
 [`Back to Top`](#table-of-contents)
@@ -283,7 +283,7 @@ Before we create the [JSopX.AngularCore (v 1.0)] GitHub repository.
 
   * **MAUI** (from **“.NET MAUI Blazor Hybrid and Web App”** template).
   * Optional **Web** (Razor Pages consuming the same API/Presentation RCL).
-* **Server**: `JSopX.WebApi` endpoints `/crm/v1/...`
+* **Server**: `JSopX.WebAPI` endpoints `/crm/v1/...`
 * **Shared**: `JSopX.Core` models + `JSopX.Data` EF mappings.
 * **UI**: `JSopX.ProdRCL` components for list/detail panels, forms, tags.
 
@@ -351,7 +351,7 @@ JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio
 * `JSopX.CRM.Shared` → referenced by **Maui**, **Web**, **Web.Client**
 * `JSopX.ProdRCL` → referenced by **Maui**, **Web**, **Web.Client**
 * `JSopX.CRM.Web` → references **Web.Client** (so SSR + client interactivity works)
-* All dynamic data still flows through **JSopX.WebApi** (no secrets in clients)
+* All dynamic data still flows through **JSopX.WebAPI** (no secrets in clients)
 
 **Why this matters (your point, amplified):**
 
@@ -462,7 +462,7 @@ If you already have just `JSopX.CRM.Maui`, add the missing projects so you end u
 
 ```powershell
 # Web API (if your hosts call it)
-dotnet run --project ..\JSopX.WebApi\JSopX.WebApi.csproj
+dotnet run --project ..\JSopX.WebAPI\JSopX.WebAPI.csproj
 
 # Blazor Web (server)
 dotnet run --project .\JSopX.CRM.Web\JSopX.CRM.Web.csproj
@@ -483,13 +483,13 @@ dotnet build -t:Run -f net9.0-windows .\JSopX.CRM.Maui\JSopX.CRM.Maui.csproj
 
 ---
 
-> If using the central WebApi, create `/JSopX.WebApi/Areas/CRM` with controllers under `/Controllers/CRM`.
+> If using the central WebApi, create `/JSopX.WebAPI/Areas/CRM` with controllers under `/Controllers/CRM`.
 
 ---
  
 ## Operations Runbook
 
-* `dotnet run --project JSopX.WebApi`
+* `dotnet run --project JSopX.WebAPI`
 * MAUI: `dotnet build -t:Run -f net9.0-android` (or windows/maccatalyst)
 
 ---
@@ -954,13 +954,13 @@ Most `JSopX™ Projects` leverage shared resources and code from other projects 
 
 The `JSopX.AngularCore` Project has the following `JSopX` Project Dependencies:
 
-1. **`JSopX.DM`**:
+1. **`JSopX.BridgeTooFar`**:
    - Uses one or more [Razor Class Library VS Template] that contains reusable static assets and project documentation.
-   - **Explore GitHub**: [JSopX.DM]
+   - **Explore GitHub**: [JSopX.BridgeTooFar]
 
-2. **`JSopX.WebApi`**:
+2. **`JSopX.WebAPI`**:
    - Uses a [Asp.NET Core Web API VS Template] which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
-   - **Explore GitHub**: [JSopX.WebApi]
+   - **Explore GitHub**: [JSopX.WebAPI]
  
 3. **`JSopX.Presentation`**:
    - Uses one or more extremely light-weight, [Razor Class Library VS Template], specifically designed for Production-Ready environments.
@@ -1093,72 +1093,72 @@ Carefully choose the approach below that fits your current objective:
 
 ##### [JasonSilvestri.com] | [GitHub] | [Lexicon] | [Email] | Phone : 508-612-5021
 
-###### Copyright © 2025 – All Rights Reserved by Mark J. Silvestri & Independent Care Systems Inc (Jason Silvestri)
+###### Copyright © 2025 – All Rights Reserved by Mark J. Silvestri & Jason Silvestri Open Project EXperiences (Jason Silvestri)
 
-[JasonSilvestri.com]: https://jsopx.com "Independent Care Systems Inc (Jason Silvestri) JSopX™ Products, Services and SaaS Services"
-[Email]: mailto:marks@jsopx.com "Independent Care Systems Inc (Jason Silvestri) Email Contact for Mark Silvetri"
-[Phone]: phoneto:508-612-5021 "Independent Care Systems Inc (Jason Silvestri) Phone Contact for Mark Silvetri"
-[marks@jsopx.com]: mailto:marks@jsopx.com "Independent Care Systems Inc (Jason Silvestri) Email Contact for Mark Silvetri"
-[508-612-5021]: phoneto:508-612-5021 "Independent Care Systems Inc (Jason Silvestri) Phone Contact for Mark Silvetri"
+[JasonSilvestri.com]: https://jsopx.com "Jason Silvestri Open Project EXperiences (Jason Silvestri) JSopX™ Products, Services and SaaS Services"
+[Email]: mailto:marks@jsopx.com "Jason Silvestri Open Project EXperiences (Jason Silvestri) Email Contact for Mark Silvetri"
+[Phone]: phoneto:508-612-5021 "Jason Silvestri Open Project EXperiences (Jason Silvestri) Phone Contact for Mark Silvetri"
+[marks@jsopx.com]: mailto:marks@jsopx.com "Jason Silvestri Open Project EXperiences (Jason Silvestri) Email Contact for Mark Silvetri"
+[508-612-5021]: phoneto:508-612-5021 "Jason Silvestri Open Project EXperiences (Jason Silvestri) Phone Contact for Mark Silvetri"
 
-[GitHub]: https://github.com/JasonSilvestri/JSopX.DM "Independent Care Systems Inc (Jason Silvestri) GitHub Repository"
+[GitHub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (Jason Silvestri) GitHub Repository"
 
-[Current Git Hub]: https://github.com/JasonSilvestri/JSopX.DM "Independent Care Systems Inc (Jason Silvestri) JSopX™ Document Management Project Solution GitHub Repository"
-[Current GitHub Home]: https://github.com/JasonSilvestri/JSopX.DM/blob/master/README.md "Independent Care Systems Inc (Jason Silvestri) JSopX™ Document Management Project GitHub Home README.md"
+[Current Git Hub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (Jason Silvestri) JSopX™ Document Management Project Solution GitHub Repository"
+[Current GitHub Home]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/README.md "Jason Silvestri Open Project EXperiences (Jason Silvestri) JSopX™ Document Management Project GitHub Home README.md"
 
 <!--Root Lexicon -->
-[Lexicon]: https://github.com/JasonSilvestri/JSopX.DM/blob/master/JSopX.DM/docs/md/JSopX.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
-[`Lexicon`]: https://github.com/JasonSilvestri/JSopX.DM/blob/master/JSopX.DM/docs/md/JSopX.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
+[Lexicon]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
+[`Lexicon`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
 
 <!--Root Solution Home-->
-[`Home`]: https://github.com/JasonSilvestri/JSopX.DM "JSopX™ Document Management Project Home README.md"
+[`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management Project Home README.md"
 <!--Root Solution Project -->
-[`JSopX.AngularCore`]: /JSopX.DM/docs/md/JSopX.AngularCore/README.md "JSopX™ SaaS Angular Core Project Solution example README.md"
+[`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ SaaS Angular Core Project Solution example README.md"
 <!--Root Solution Previous -->
-[`« Previous`]: /JSopX.DM/docs/md/JSopX.DM/README.md "JSopX™ SaaS Document Management Project Solution README.md"
+[`« Previous`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution README.md"
 <!--Root Solution Next -->
-[`Next »`]: /JSopX.DM/docs/md/JSopX.DM/README.md "JSopX™ SaaS Document Management Project Solution README.md"
+[`Next »`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution README.md"
 
 <!--Install README.md - Often same as Root Solution-->
-[`Intro`]: /JSopX.DM/docs/md/JSopX.AngularCore/README.md "JSopX™ SaaS Project Solution Install README.md"
+[`Intro`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ SaaS Project Solution Install README.md"
 <!--Install README.md - Often same as Root Solution-->
-[`Install`]: /JSopX.DM/docs/md/JSopX.AngularCore/REINSTALLME.md "JSopX™ SaaS Project Solution Install README.md"
+[`Install`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/REINSTALLME.md "JSopX™ SaaS Project Solution Install README.md"
 <!--Briefing REDEBRIEFME.md - The briefing of the Solution-->
-[`Debrief`]: /JSopX.DM/docs/md/JSopX.AngularCore/REDEBRIEFME.md "JSopX™ SaaS Document Management Project Briefing REDEBRIEFME.md"
+[`Debrief`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/REDEBRIEFME.md "JSopX™ SaaS Document Management Project Briefing REDEBRIEFME.md"
 <!--Recreate RECREATEME.md - The step by step instructions to Create Solution - often from briefing -->
-[`Recreate`]: /JSopX.DM/docs/md/JSopX.AngularCore/RECREATEME.md "JSopX™ SaaS Document Management Project Step by Step HowTo Re-Create RECREATEME.md"
+[`Recreate`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/RECREATEME.md "JSopX™ SaaS Document Management Project Step by Step HowTo Re-Create RECREATEME.md"
 <!--Recreate CHANGELOG.md - The Changelogs of Solution - often from briefing -->
-[`Changelogs`]: /JSopX.DM/docs/md/JSopX.AngularCore/CHANGELOG.md "JSopX™ SaaS Document Management Project Change Logs CHANGELOG.md"
+[`Changelogs`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/CHANGELOG.md "JSopX™ SaaS Document Management Project Change Logs CHANGELOG.md"
 <!--Recreate CONTRIBUTING.md - The Contributing Guidelines of Solution - often from briefing -->
-[`Contributing`]: /JSopX.DM/docs/md/JSopX.AngularCore/CONTRIBUTING.md "JSopX™ SaaS Contributor Guidelines CONTRIBUTING.md"
+[`Contributing`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/CONTRIBUTING.md "JSopX™ SaaS Contributor Guidelines CONTRIBUTING.md"
 <!--Recreate CODE_OF_CONDUCT.md - The Code of Conduct of Solution - often from briefing -->
-[`Conduct`]: /JSopX.DM/docs/md/JSopX.AngularCore/CODE_OF_CONDUCT.md "JSopX™ SaaS Code of Conduct CODE_OF_CONDUCT.md"
+[`Conduct`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/CODE_OF_CONDUCT.md "JSopX™ SaaS Code of Conduct CODE_OF_CONDUCT.md"
 <!--Recreate SECURITY.md - The Security Policy of Solution - often from briefing -->
-[`Security`]: /JSopX.DM/docs/md/JSopX.AngularCore/SECURITY.md "JSopX™ SaaS Security Policy SECURITY.md"
+[`Security`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/SECURITY.md "JSopX™ SaaS Security Policy SECURITY.md"
 <!--Recreate LICENSE.txt - The LICENSE Policy of Solution - often from briefing -->
-[`License`]: /JSopX.DM/docs/md/JSopX.AngularCore/SECURITY.md "JSopX™ LICENSE Policy LICENSE.txt"
+[`License`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/SECURITY.md "JSopX™ LICENSE Policy LICENSE.txt"
 
 <!--Root Solution Project Solutions -->
-[`Solutions`]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md "JSopX™ SaaS Project Solutions README.md"
+[`Solutions`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md "JSopX™ SaaS Project Solutions README.md"
 <!--Root Solution Project Visual Studio Templates -->
-[`VS Templates`]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md "JSopX™ SaaS Visual Studio Project Solutions Templates README.md"
+[`VS Templates`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md "JSopX™ SaaS Visual Studio Project Solutions Templates README.md"
 <!--Root Solution Technologies -->
-[`Technologies`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md "JSopX™ Project Solution Technologies README.md"
+[`Technologies`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md "JSopX™ Project Solution Technologies README.md"
 
 <!--Root Solution Project Solutions -->
-[`Common`]: /JSopX.DM/docs/md/JSopX.Global/Common/README.md "JSopX™ SaaS Project Common README.md"
-[⚙️ Workflow State]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
-[⚙️ `Workflow State`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
-[Workflow States]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
-[`Workflow States`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
-[`Junction Rules`]: /JSopX.DM/docs/md/JSopX.Global/Common/JunctionRules.md "JSopX™ Project Common Junction Rules with Halos"
-[Junction Rules]: /JSopX.DM/docs/md/JSopX.Global/Common/JunctionRules.md "JSopX™ Project Common Junction Rules with Halos"
-[`Development Standards`]: /JSopX.DM/docs/md/JSopX.Global/Common/DevelopmentStandards.md "JSopX™ Project Common Development Standards"
-[Development Standards]: /JSopX.DM/docs/md/JSopX.Global/Common/DevelopmentStandards.md "JSopX™ Project Common Development Standards"
+[`Common`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/README.md "JSopX™ SaaS Project Common README.md"
+[⚙️ Workflow State]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[⚙️ `Workflow State`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[Workflow States]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[`Workflow States`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[`Junction Rules`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/JunctionRules.md "JSopX™ Project Common Junction Rules with Halos"
+[Junction Rules]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/JunctionRules.md "JSopX™ Project Common Junction Rules with Halos"
+[`Development Standards`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/DevelopmentStandards.md "JSopX™ Project Common Development Standards"
+[Development Standards]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/DevelopmentStandards.md "JSopX™ Project Common Development Standards"
 
 <!--Root Solution Project Solutions -->
-[`Database`]: /JSopX.DM/docs/md/JSopX.Global/Database/README.md "JSopX™ SaaS Project Common README.md"
-[`Schema`]: /JSopX.DM/docs/md/JSopX.Global/Database/Schema.md "JSopX™ SaaS Project Common Schema.md"
+[`Database`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Database/README.md "JSopX™ SaaS Project Common README.md"
+[`Schema`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Database/Schema.md "JSopX™ SaaS Project Common Schema.md"
 
 <!-- Back to Top links (all styles) found under most sections -->
 [Back to Top]: #table-of-contents "Primary document table of contents"
@@ -1171,7 +1171,7 @@ Carefully choose the approach below that fits your current objective:
 [`<https://github.com/JasonSilvestri/JSopX.Core>`]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.ML>`]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Halos>`]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.WebApi>`]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ WebAPI SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.WebAPI>`]: https://github.com/JasonSilvestri/JSopX.WebAPI "JSopX™ WebAPI SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Data>`]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Vault>`]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Presentation>`]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
@@ -1182,7 +1182,7 @@ Carefully choose the approach below that fits your current objective:
 [`<https://github.com/JasonSilvestri/JSopX.EndGame>`]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.HealthTracker>`]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [`<https://github.com/JasonSilvestri/JSopX.Maui.MPA>`]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[`<https://github.com/JasonSilvestri/JSopX.DM>`]: https://github.com/JasonSilvestri/JSopX.DM "JSopX™ Document Management SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.BridgeTooFar>`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.CRM>`]: https://github.com/JasonSilvestri/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.PLM>`]: https://github.com/JasonSilvestri/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
@@ -1192,7 +1192,7 @@ Carefully choose the approach below that fits your current objective:
 [JSopX.Data GitHub]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [JSopX.ML GitHub]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
 [JSopX.Halos GitHub]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
-[JSopX.WebApi GitHub]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ Web API SaaS Project"
+[JSopX.WebAPI GitHub]: https://github.com/JasonSilvestri/JSopX.WebAPI "JSopX™ Web API SaaS Project"
 [JSopX.Vault GitHub]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [JSopX.Presentation GitHub]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
 [JSopX.ClassLibrary GitHub]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
@@ -1202,207 +1202,207 @@ Carefully choose the approach below that fits your current objective:
 [JSopX.EndGame GitHub]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker GitHub]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA GitHub]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[JSopX.DM GitHub]: https://github.com/JasonSilvestri/JSopX.DM "JSopX™ Document Management SaaS Project"
+[JSopX.BridgeTooFar GitHub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
 [JSopX.CRM GitHub]: https://github.com/JasonSilvestri/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
 [JSopX.PLM GitHub]: https://github.com/JasonSilvestri/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX]: /JSopX.DM/docs/md/JSopX/README.md "JSopX™ Enterprise-Level Solution"
-[JSopX.Core]: /JSopX.DM/docs/md/JSopX.Core/README.md "JSopX™ Core SaaS Project"
-[JSopX.Data]: /JSopX.DM/docs/md/JSopX.Data/README.md "JSopX™ Data SaaS Project"
-[JSopX.ML]: /JSopX.DM/docs/md/JSopX.ML/README.md "JSopX™ ML SaaS Project"
-[JSopX.Halos]: /JSopX.DM/docs/md/JSopX.Halos/README.md "JSopX™ Halos SaaS Project"
-[JSopX.WebApi]: /JSopX.DM/docs/md/JSopX.WebApi/README.md "JSopX™ WebAPI SaaS Project"
-[JSopX.Vault]: /JSopX.DM/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
-[JSopX.Presentation]: /JSopX.DM/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
-[JSopX.ClassLibrary]: /JSopX.DM/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
-[JSopX.Unitx]: /JSopX.DM/docs/md/JSopX.Unitx/README.md "JSopX™ Unit Testing SaaS Project"
-[JSopX.SaaS]: /JSopX.DM/docs/md/JSopX.SaaS/README.md "JSopX™ SaaS Project"
-[JSopX.MauiHybridNetCore]: /JSopX.DM/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
-[JSopX.EndGame]: /JSopX.DM/docs/md/JSopX.EndGame/README.md "JSopX™ MAUI End Game SaaS Project"
-[JSopX.HealthTracker]: /JSopX.DM/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
-[JSopX.Maui.MPA]: /JSopX.DM/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[JSopX.DM]: /JSopX.DM/docs/md/JSopX.DM/README.md "JSopX™ Document Management SaaS Project"
-[JSopX.CRM]: /JSopX.DM/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
-[JSopX.PLM]: /JSopX.DM/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
-[JSopX.AngularCore]: /JSopX.DM/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
+[JSopX.Core]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/README.md "JSopX™ Core SaaS Project"
+[JSopX.Data]: /JSopX.BridgeTooFar/docs/md/JSopX.Data/README.md "JSopX™ Data SaaS Project"
+[JSopX.ML]: /JSopX.BridgeTooFar/docs/md/JSopX.ML/README.md "JSopX™ ML SaaS Project"
+[JSopX.Halos]: /JSopX.BridgeTooFar/docs/md/JSopX.Halos/README.md "JSopX™ Halos SaaS Project"
+[JSopX.WebAPI]: /JSopX.BridgeTooFar/docs/md/JSopX.WebAPI/README.md "JSopX™ WebAPI SaaS Project"
+[JSopX.Vault]: /JSopX.BridgeTooFar/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
+[JSopX.Presentation]: /JSopX.BridgeTooFar/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
+[JSopX.ClassLibrary]: /JSopX.BridgeTooFar/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
+[JSopX.Unitx]: /JSopX.BridgeTooFar/docs/md/JSopX.Unitx/README.md "JSopX™ Unit Testing SaaS Project"
+[JSopX.SaaS]: /JSopX.BridgeTooFar/docs/md/JSopX.SaaS/README.md "JSopX™ SaaS Project"
+[JSopX.MauiHybridNetCore]: /JSopX.BridgeTooFar/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.EndGame]: /JSopX.BridgeTooFar/docs/md/JSopX.EndGame/README.md "JSopX™ MAUI End Game SaaS Project"
+[JSopX.HealthTracker]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
+[JSopX.Maui.MPA]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
+[JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
+[JSopX.CRM]: /JSopX.BridgeTooFar/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
+[JSopX.PLM]: /JSopX.BridgeTooFar/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
 <!-- Short Form Decorated Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[`JSopX`]: /JSopX.DM/docs/md/JSopX/README.md "JSopX™ Enterprise-Level Solution"
-[`JSopX.Core`]: /JSopX.DM/docs/md/JSopX.Core/README.md "JSopX™ Core SaaS Project"
-[`JSopX.Data`]: /JSopX.DM/docs/md/JSopX.Data/README.md "JSopX™ Data SaaS Project"
-[`JSopX.ML`]: /JSopX.DM/docs/md/JSopX.ML/README.md "JSopX™ ML SaaS Project"
-[`JSopX.Halos`]: /JSopX.DM/docs/md/JSopX.Halos/README.md "JSopX™ Halos SaaS Project"
-[`JSopX.WebApi`]: /JSopX.DM/docs/md/JSopX.WebApi/README.md "JSopX™ WebAPI SaaS Project"
-[`JSopX.Vault`]: /JSopX.DM/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
-[`JSopX.Presentation`]: /JSopX.DM/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
-[`JSopX.ClassLibrary`]: /JSopX.DM/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
-[`JSopX.Unitx`]: /JSopX.DM/docs/md/JSopX.Unitx/README.md "JSopX™ Unit Testing SaaS Project"
-[`JSopX.SaaS`]: /JSopX.DM/docs/md/JSopX.SaaS/README.md "JSopX™ SaaS Project"
-[`JSopX.MauiHybridNetCore`]: /JSopX.DM/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
-[`JSopX.HealthTracker`]: /JSopX.DM/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
-[`JSopX.EndGame`]: /JSopX.DM/docs/md/JSopX.EndGame/README.md "The Original JSopX™ Maui End Game Project by Mark"
-[`JSopX.Maui.MPA`]: /JSopX.DM/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[`JSopX.DM`]: /JSopX.DM/docs/md/JSopX.DM/README.md "JSopX™ Document Management SaaS Project"
-[`JSopX.CRM`]: /JSopX.DM/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
-[`JSopX.PLM`]: /JSopX.DM/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
-[`JSopX.AngularCore`]: /JSopX.DM/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
+[`JSopX`]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
+[`JSopX.Core`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/README.md "JSopX™ Core SaaS Project"
+[`JSopX.Data`]: /JSopX.BridgeTooFar/docs/md/JSopX.Data/README.md "JSopX™ Data SaaS Project"
+[`JSopX.ML`]: /JSopX.BridgeTooFar/docs/md/JSopX.ML/README.md "JSopX™ ML SaaS Project"
+[`JSopX.Halos`]: /JSopX.BridgeTooFar/docs/md/JSopX.Halos/README.md "JSopX™ Halos SaaS Project"
+[`JSopX.WebAPI`]: /JSopX.BridgeTooFar/docs/md/JSopX.WebAPI/README.md "JSopX™ WebAPI SaaS Project"
+[`JSopX.Vault`]: /JSopX.BridgeTooFar/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
+[`JSopX.Presentation`]: /JSopX.BridgeTooFar/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
+[`JSopX.ClassLibrary`]: /JSopX.BridgeTooFar/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
+[`JSopX.Unitx`]: /JSopX.BridgeTooFar/docs/md/JSopX.Unitx/README.md "JSopX™ Unit Testing SaaS Project"
+[`JSopX.SaaS`]: /JSopX.BridgeTooFar/docs/md/JSopX.SaaS/README.md "JSopX™ SaaS Project"
+[`JSopX.MauiHybridNetCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
+[`JSopX.HealthTracker`]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
+[`JSopX.EndGame`]: /JSopX.BridgeTooFar/docs/md/JSopX.EndGame/README.md "The Original JSopX™ Maui End Game Project by Mark"
+[`JSopX.Maui.MPA`]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
+[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
+[`JSopX.CRM`]: /JSopX.BridgeTooFar/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
+[`JSopX.PLM`]: /JSopX.BridgeTooFar/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
+[`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solutions & Version All SaaS Projects -->
-[JSopX (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"
-[JSopX.Core (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxcore "JSopX™ Core SaaS Project"
-[JSopX.Data (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxdata "JSopX™ Data SaaS Project"
-[JSopX.ML (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxml "JSopX™ ML SaaS Project"
-[JSopX.Halos (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxhalos "JSopX™ WebAPI SaaS Project"
-[JSopX.Vault (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxvault "JSopX™ Vault SaaS Project"
-[JSopX.Presentation (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxpresentation "JSopX™ Presentation SaaS Project"
-[JSopX.ClassLibrary (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
-[JSopX.Unitx (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxunitx "JSopX™ Unit Testing SaaS Project"
-[JSopX.SaaS (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
-[JSopX.MauiHybridNetCore (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
-[JSopX.EndGame (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxendgame "JSopX™ MAUI End Game SaaS Project"
-[JSopX.HealthTracker (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "The Original JSopX™ Maui SaaS Project by Mark"
-[JSopX.Maui.MPA (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxmauimpa "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[JSopX.DM (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxdm "JSopX™ Document Management SaaS Project"
-[JSopX.CRM (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxcrm "JSopX™ Customer Relationship Management SaaS Project"
-[JSopX.PLM (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxplm "JSopX™ Product Lifecycle Management SaaS Project"
-[JSopX.AngularCore (v 1.0)]: /JSopX.DM/docs/md/JSopX.Global/Solutions/README.md#-jsopxangularcore "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"
+[JSopX.Core (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxcore "JSopX™ Core SaaS Project"
+[JSopX.Data (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxdata "JSopX™ Data SaaS Project"
+[JSopX.ML (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxml "JSopX™ ML SaaS Project"
+[JSopX.Halos (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxhalos "JSopX™ WebAPI SaaS Project"
+[JSopX.Vault (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxvault "JSopX™ Vault SaaS Project"
+[JSopX.Presentation (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxpresentation "JSopX™ Presentation SaaS Project"
+[JSopX.ClassLibrary (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
+[JSopX.Unitx (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxunitx "JSopX™ Unit Testing SaaS Project"
+[JSopX.SaaS (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
+[JSopX.MauiHybridNetCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.EndGame (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxendgame "JSopX™ MAUI End Game SaaS Project"
+[JSopX.HealthTracker (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "The Original JSopX™ Maui SaaS Project by Mark"
+[JSopX.Maui.MPA (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxmauimpa "The Original JSopX™ Maui Multi App SaaS Project by Mark"
+[JSopX.BridgeTooFar (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxbridgetoofar "JSopX™ Document Management SaaS Project"
+[JSopX.CRM (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxcrm "JSopX™ Customer Relationship Management SaaS Project"
+[JSopX.PLM (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxplm "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX.AngularCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxangularcore "JSopX™ Product Lifecycle Management SaaS Project"
 <!-- Short Form Local Document Management Links of all JSopX™ Visual Studio Templates-->
-[Blank Solution VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#blank-solution-visual-studio-template "JSopX™ Visual Studio Blank Solution Project Template"
-[ASP.NET Core Web App VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#aspnet-core-web-app-visual-studio-template "JSopX™ Visual Studio ASP.NET Core Web App Project Template"
-[Website App VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#website-visual-studio-template "JSopX™ Visual Studio Website Project Template"
-[Console App VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#console-app-visual-studio-template "JSopX™ Visual Studio Console App Project Template"
-[Class Library VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#class-library-visual-studio-template "JSopX™ Visual Studio Class Library Project Template"
-[Razor Class Library VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#razor-class-library-visual-studio-template "JSopX™ Visual Studio Razor Class Library Project Template"
-[Asp.NET Core Web API VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#aspnet-core-web-api-visual-studio-template "JSopX™ Visual Studio ASP.NET Core Web Api Project Template"
-[Angular and ASP.NET Core VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#angular-and-aspnet-core-visual-studio-template "JSopX™ Visual Studio Angular and ASP.NET Core Project Template"
-[React and ASP.NET Core VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#react-and-aspnet-core-visual-studio-template "JSopX™ Visual Studio React and ASP.NET Core Project Template"
-[Vue and ASP.NET Core VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#vue-and-aspnet-core-visual-studio-template "JSopX™ Visual Studio Vue and ASP.NET Core Project Template"
-[Blazor Web App VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#blazor-web-app-visual-studio-template "JSopX™ Visual Studio Blazor Web App Project Template"
-[.NET MAUI Blazor Hybrid and Web App VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#net-maui-blazor-hybrid-and-web-app-visual-studio-template "JSopX™ Visual Studio .NET MAUI Blazor Hybrid and Web App Project Template"
-[.NET MAUI Class Library VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#net-maui-class-library-visual-studio-template "JSopX™ Visual Studio .NET MAUI Class Library Project Template"
-[Website VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#website-visual-studio-template "JSopX™ Visual Studio Website Project Template"
-[.NET MAUI Multi-Project App VS Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/README.md#net-maui-multi-project-app-visual-studio-template "JSopX™ Visual Studio .NET MAUI Multi-Project App Project Template"
+[Blank Solution VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#blank-solution-visual-studio-template "JSopX™ Visual Studio Blank Solution Project Template"
+[ASP.NET Core Web App VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#aspnet-core-web-app-visual-studio-template "JSopX™ Visual Studio ASP.NET Core Web App Project Template"
+[Website App VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#website-visual-studio-template "JSopX™ Visual Studio Website Project Template"
+[Console App VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#console-app-visual-studio-template "JSopX™ Visual Studio Console App Project Template"
+[Class Library VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#class-library-visual-studio-template "JSopX™ Visual Studio Class Library Project Template"
+[Razor Class Library VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#razor-class-library-visual-studio-template "JSopX™ Visual Studio Razor Class Library Project Template"
+[Asp.NET Core Web API VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#aspnet-core-web-api-visual-studio-template "JSopX™ Visual Studio ASP.NET Core Web Api Project Template"
+[Angular and ASP.NET Core VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#angular-and-aspnet-core-visual-studio-template "JSopX™ Visual Studio Angular and ASP.NET Core Project Template"
+[React and ASP.NET Core VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#react-and-aspnet-core-visual-studio-template "JSopX™ Visual Studio React and ASP.NET Core Project Template"
+[Vue and ASP.NET Core VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#vue-and-aspnet-core-visual-studio-template "JSopX™ Visual Studio Vue and ASP.NET Core Project Template"
+[Blazor Web App VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#blazor-web-app-visual-studio-template "JSopX™ Visual Studio Blazor Web App Project Template"
+[.NET MAUI Blazor Hybrid and Web App VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#net-maui-blazor-hybrid-and-web-app-visual-studio-template "JSopX™ Visual Studio .NET MAUI Blazor Hybrid and Web App Project Template"
+[.NET MAUI Class Library VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#net-maui-class-library-visual-studio-template "JSopX™ Visual Studio .NET MAUI Class Library Project Template"
+[Website VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#website-visual-studio-template "JSopX™ Visual Studio Website Project Template"
+[.NET MAUI Multi-Project App VS Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/README.md#net-maui-multi-project-app-visual-studio-template "JSopX™ Visual Studio .NET MAUI Multi-Project App Project Template"
 <!-- Short Form Local Document Management Links of all JSopX™ Visual Studio Templates Page by Page -->
-[Blank Solution Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/BlankSolution.md "JSopX™ Visual Studio Blank Solution Project Template"
-[ASP.NET Core Web App Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/AspNetCoreWebApp.md "JSopX™ Visual Studio ASP.NET Core Web App Project Template"
-[Website App Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/Website.md "JSopX™ Visual Studio Website Project Template"
-[Console App Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/ConsoleApp.md "JSopX™ Visual Studio Console App Project Template"
-[Class Library Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/ClassLibrary.md "JSopX™ Visual Studio Class Library Project Template"
-[Razor Class Library Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/RazorClassLibrary.md "JSopX™ Visual Studio Razor Class Library Project Template"
-[Asp.NET Core Web API Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/AspNetCoreWebApi.md "JSopX™ Visual Studio ASP.NET Core Web Api Project Template"
-[Angular and ASP.NET Core Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/AngularAspNetCore.md "JSopX™ Visual Studio Angular and ASP.NET Core Project Template"
-[React and ASP.NET Core Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/ReactAspNetCore.md "JSopX™ Visual Studio React and ASP.NET Core Project Template"
-[Vue and ASP.NET Core Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/VueAspNetCore.md "JSopX™ Visual Studio Vue and ASP.NET Core Project Template"
-[Blazor Web App Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/BlazorWebApp.md "JSopX™ Visual Studio Blazor Web App Project Template"
-[.NET MAUI Blazor Hybrid and Web App Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/NetMauiBlazorHybridandWeb.md "JSopX™ Visual Studio .NET MAUI Blazor Hybrid and Web App Project Template"
-[.NET MAUI Class Library Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/NetMauiClassLibrary.md "JSopX™ Visual Studio .NET MAUI Class Library Project Template"
-[.NET MAUI Multi-Project App Template]: /JSopX.DM/docs/md/JSopX.Global/VsTemplates/NetMauiMultiProjectApp.md "JSopX™ Visual Studio .NET MAUI Multi-Project App Project Template"
+[Blank Solution Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/BlankSolution.md "JSopX™ Visual Studio Blank Solution Project Template"
+[ASP.NET Core Web App Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/AspNetCoreWebApp.md "JSopX™ Visual Studio ASP.NET Core Web App Project Template"
+[Website App Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/Website.md "JSopX™ Visual Studio Website Project Template"
+[Console App Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/ConsoleApp.md "JSopX™ Visual Studio Console App Project Template"
+[Class Library Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/ClassLibrary.md "JSopX™ Visual Studio Class Library Project Template"
+[Razor Class Library Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/RazorClassLibrary.md "JSopX™ Visual Studio Razor Class Library Project Template"
+[Asp.NET Core Web API Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/AspNetCoreWebApi.md "JSopX™ Visual Studio ASP.NET Core Web Api Project Template"
+[Angular and ASP.NET Core Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/AngularAspNetCore.md "JSopX™ Visual Studio Angular and ASP.NET Core Project Template"
+[React and ASP.NET Core Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/ReactAspNetCore.md "JSopX™ Visual Studio React and ASP.NET Core Project Template"
+[Vue and ASP.NET Core Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/VueAspNetCore.md "JSopX™ Visual Studio Vue and ASP.NET Core Project Template"
+[Blazor Web App Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/BlazorWebApp.md "JSopX™ Visual Studio Blazor Web App Project Template"
+[.NET MAUI Blazor Hybrid and Web App Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/NetMauiBlazorHybridandWeb.md "JSopX™ Visual Studio .NET MAUI Blazor Hybrid and Web App Project Template"
+[.NET MAUI Class Library Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/NetMauiClassLibrary.md "JSopX™ Visual Studio .NET MAUI Class Library Project Template"
+[.NET MAUI Multi-Project App Template]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/VsTemplates/NetMauiMultiProjectApp.md "JSopX™ Visual Studio .NET MAUI Multi-Project App Project Template"
 <!-- Short Form Local Document Management Links of all JSopX™ Technology Requirements and Versions -->
-[Windows]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#windows "JSopX™ SaaS Project Windows Technology Requirements"
-[Visual Studio]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#visual-studio "JSopX™ SaaS Project Visual Studio Technology Requirements"
-[.NET Framework]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#net-framework "JSopX™ SaaS Project .NET Framework Technology Requirements"
-[ASP.NET Core]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#aspnet-core "JSopX™ SaaS Project ASP.NET Core Technology Requirements"
-[.NET Core Blazor]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-blazor "JSopX™ SaaS Project Blazor Core Technology Requirements"
-[.Net Core Maui Hybrid]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-maui-hybrid "JSopX™ SaaS Project .NET MAUI Hybrid Blazor and Web Technology Requirements"
-[Node]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#node "JSopX™ SaaS Project Node Technology Requirements"
-[npm]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#npm "JSopX™ SaaS Project NPM Technology Requirements"
-[Bootstrap]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#bootstrap "JSopX™ SaaS Project Bootstrap Technology Requirements"
-[Angular CLI]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#angular-cli "JSopX™ SaaS Project Angular CLI Technology Requirements"
-[React]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#react "JSopX™ SaaS Project React Technology Requirements"
-[Vue]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#vue "JSopX™ SaaS Project Vue Technology Requirements"
-[Vite]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#vite "JSopX™ SaaS Project Vite Technology Requirements"
-[Python]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#python "JSopX™ SaaS Project Python Technology Requirements"
-[Bash]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#bash "JSopX™ SaaS Project Bash Technology Requirements"
-[Powershell]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#powershell "JSopX™ SaaS Project Powershell Technology Requirements"
+[Windows]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#windows "JSopX™ SaaS Project Windows Technology Requirements"
+[Visual Studio]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#visual-studio "JSopX™ SaaS Project Visual Studio Technology Requirements"
+[.NET Framework]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#net-framework "JSopX™ SaaS Project .NET Framework Technology Requirements"
+[ASP.NET Core]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#aspnet-core "JSopX™ SaaS Project ASP.NET Core Technology Requirements"
+[.NET Core Blazor]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-blazor "JSopX™ SaaS Project Blazor Core Technology Requirements"
+[.Net Core Maui Hybrid]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-maui-hybrid "JSopX™ SaaS Project .NET MAUI Hybrid Blazor and Web Technology Requirements"
+[Node]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#node "JSopX™ SaaS Project Node Technology Requirements"
+[npm]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#npm "JSopX™ SaaS Project NPM Technology Requirements"
+[Bootstrap]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#bootstrap "JSopX™ SaaS Project Bootstrap Technology Requirements"
+[Angular CLI]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#angular-cli "JSopX™ SaaS Project Angular CLI Technology Requirements"
+[React]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#react "JSopX™ SaaS Project React Technology Requirements"
+[Vue]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#vue "JSopX™ SaaS Project Vue Technology Requirements"
+[Vite]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#vite "JSopX™ SaaS Project Vite Technology Requirements"
+[Python]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#python "JSopX™ SaaS Project Python Technology Requirements"
+[Bash]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#bash "JSopX™ SaaS Project Bash Technology Requirements"
+[Powershell]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#powershell "JSopX™ SaaS Project Powershell Technology Requirements"
 <!-- Short Form Decorated Local Document Management Links of all JSopX™ Technology Requirements and Versions -->
-[`Windows`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#windows "JSopX™ SaaS Project Windows Technology Requirements"
-[`Visual Studio`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#visual-studio "JSopX™ SaaS Project Visual Studio Technology Requirements"
-[`.NET Framework`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#net-framework "JSopX™ SaaS Project .NET Framework Technology Requirements"
-[`ASP.NET Core`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#aspnet-core "JSopX™ SaaS Project ASP.NET Core Technology Requirements"
-[`.NET Core Blazor`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-blazor "JSopX™ SaaS Project Blazor Core Technology Requirements"
-[`.Net Core Maui Hybrid`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-maui-hybrid "JSopX™ SaaS Project .NET MAUI Hybrid Blazor and Web Technology Requirements"
-[`Node`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#node "JSopX™ SaaS Project Node Technology Requirements"
-[`npm`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#npm "JSopX™ SaaS Project NPM Technology Requirements"
-[`Bootstrap`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#bootstrap "JSopX™ SaaS Project Bootstrap Technology Requirements"
-[`Angular CLI`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#angular-cli "JSopX™ SaaS Project Angular CLI Technology Requirements"
-[`React`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#react "JSopX™ SaaS Project React Technology Requirements"
-[`Vue`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#vue "JSopX™ SaaS Project Vue Technology Requirements"
-[`Vite`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#vite "JSopX™ SaaS Project Vite Technology Requirements"
-[`Python`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#python "JSopX™ SaaS Project Python Technology Requirements"
-[`Bash`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#bash "JSopX™ SaaS Project Bash Technology Requirements"
-[`Powershell`]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Technologies.md#powershell "JSopX™ SaaS Project Powershell Technology Requirements"
+[`Windows`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#windows "JSopX™ SaaS Project Windows Technology Requirements"
+[`Visual Studio`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#visual-studio "JSopX™ SaaS Project Visual Studio Technology Requirements"
+[`.NET Framework`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#net-framework "JSopX™ SaaS Project .NET Framework Technology Requirements"
+[`ASP.NET Core`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#aspnet-core "JSopX™ SaaS Project ASP.NET Core Technology Requirements"
+[`.NET Core Blazor`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-blazor "JSopX™ SaaS Project Blazor Core Technology Requirements"
+[`.Net Core Maui Hybrid`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#net-core-maui-hybrid "JSopX™ SaaS Project .NET MAUI Hybrid Blazor and Web Technology Requirements"
+[`Node`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#node "JSopX™ SaaS Project Node Technology Requirements"
+[`npm`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#npm "JSopX™ SaaS Project NPM Technology Requirements"
+[`Bootstrap`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#bootstrap "JSopX™ SaaS Project Bootstrap Technology Requirements"
+[`Angular CLI`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#angular-cli "JSopX™ SaaS Project Angular CLI Technology Requirements"
+[`React`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#react "JSopX™ SaaS Project React Technology Requirements"
+[`Vue`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#vue "JSopX™ SaaS Project Vue Technology Requirements"
+[`Vite`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#vite "JSopX™ SaaS Project Vite Technology Requirements"
+[`Python`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#python "JSopX™ SaaS Project Python Technology Requirements"
+[`Bash`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#bash "JSopX™ SaaS Project Bash Technology Requirements"
+[`Powershell`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Technologies.md#powershell "JSopX™ SaaS Project Powershell Technology Requirements"
 <!-- Short Form Local Document Management Links of all JSopX™ Technology Requirements and Versions -->
-[Windows (v 10+)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Windows.md "JSopX™ SaaS Project Windows Technology Requirements"
-[Visual Studio (v 17.14.21)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/VisualStudio.md "JSopX™ SaaS Project Visual Studio Technology Requirements"
-[.NET Framework (v 9.2.1)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/NetFrameworkSdk.md "JSopX™ SaaS Project .NET Framework Technology Requirements"
-[ASP.NET Core (v 9.2.1)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/AspNetCore.md "JSopX™ SaaS Project ASP.NET Core Technology Requirements"
-[.NET Core Blazor (v 9.2.1)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/NetCoreBlazor.md "JSopX™ SaaS Project Blazor Core Technology Requirements"
-[.Net Core Maui Hybrid (v 9.2.1)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/NetCoreMauiHybrid.md "JSopX™ SaaS Project .NET MAUI Hybrid Blazor and Web Technology Requirements"
-[Node (v 20.14.0)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Node.md "JSopX™ SaaS Project Node Technology Requirements"
-[npm (v 10.8.1)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/npm.md "JSopX™ SaaS Project NPM Technology Requirements"
-[Bootstrap (v 5.3.8)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Bootstrap.md "JSopX™ SaaS Project Bootstrap Technology Requirements"
-[Angular CLI (v 18.0.3)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/AngularCli.md "JSopX™ SaaS Project Angular CLI Technology Requirements"
-[React (v 18.2.0)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/React.md "JSopX™ SaaS Project React Technology Requirements"
-[Vue (v 3.4.21)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Vue.md "JSopX™ SaaS Project Vue Technology Requirements"
-[Vite (v 5.2.8)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Vite.md "JSopX™ SaaS Project Vite Technology Requirements"
-[Python (v 3.12.3x+)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Python.md "JSopX™ SaaS Project Python Technology Requirements"
-[Bash (v 5.x+)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Bash.md "JSopX™ SaaS Project Bash Technology Requirements"
-[Powershell (v 7.x+)]: /JSopX.DM/docs/md/JSopX.Global/Technologies/Powershell.md "JSopX™ SaaS Project Powershell Technology Requirements"
+[Windows (v 10+)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Windows.md "JSopX™ SaaS Project Windows Technology Requirements"
+[Visual Studio (v 17.14.21)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/VisualStudio.md "JSopX™ SaaS Project Visual Studio Technology Requirements"
+[.NET Framework (v 9.2.1)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/NetFrameworkSdk.md "JSopX™ SaaS Project .NET Framework Technology Requirements"
+[ASP.NET Core (v 9.2.1)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/AspNetCore.md "JSopX™ SaaS Project ASP.NET Core Technology Requirements"
+[.NET Core Blazor (v 9.2.1)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/NetCoreBlazor.md "JSopX™ SaaS Project Blazor Core Technology Requirements"
+[.Net Core Maui Hybrid (v 9.2.1)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/NetCoreMauiHybrid.md "JSopX™ SaaS Project .NET MAUI Hybrid Blazor and Web Technology Requirements"
+[Node (v 20.14.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Node.md "JSopX™ SaaS Project Node Technology Requirements"
+[npm (v 10.8.1)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/npm.md "JSopX™ SaaS Project NPM Technology Requirements"
+[Bootstrap (v 5.3.8)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Bootstrap.md "JSopX™ SaaS Project Bootstrap Technology Requirements"
+[Angular CLI (v 18.0.3)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/AngularCli.md "JSopX™ SaaS Project Angular CLI Technology Requirements"
+[React (v 18.2.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/React.md "JSopX™ SaaS Project React Technology Requirements"
+[Vue (v 3.4.21)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Vue.md "JSopX™ SaaS Project Vue Technology Requirements"
+[Vite (v 5.2.8)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Vite.md "JSopX™ SaaS Project Vite Technology Requirements"
+[Python (v 3.12.3x+)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Python.md "JSopX™ SaaS Project Python Technology Requirements"
+[Bash (v 5.x+)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Bash.md "JSopX™ SaaS Project Bash Technology Requirements"
+[Powershell (v 7.x+)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Powershell.md "JSopX™ SaaS Project Powershell Technology Requirements"
 <!-- Short Form LocalWorkflow States Links of all JSopX™ Workflow States -->
-[Created]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#created
-[Queued]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#queued
-[In Progress]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#in-progress
-[Waiting]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#waiting
-[Passed]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#passed
-[Failed]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#failed
-[Rejected]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#rejected
-[Cancelled]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#cancelled
-[Skipped]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#skipped
-[Timeout]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#timeout
-[Network Error]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#network-error
-[Validation Error]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#validation-error
-[Retrying]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#retrying
-[Blocked]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#blocked
-[Completed]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#completed
-[To Do]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#to-do
-[Started]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#started
-[Pending]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#pending
-[Expired]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#expired
-[Approved]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#approved
-[Sent]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#sent
-[Received]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#received
-[Under Review]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#under-review
-[Soft Delete]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#soft-delete
-[Hard Delete]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#hard-delete
-[Unknown]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#unknown
-[Null or Empty]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#null-or-empty
-[Active]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#active
+[Created]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#created
+[Queued]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#queued
+[In Progress]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#in-progress
+[Waiting]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#waiting
+[Passed]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#passed
+[Failed]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#failed
+[Rejected]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#rejected
+[Cancelled]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#cancelled
+[Skipped]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#skipped
+[Timeout]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#timeout
+[Network Error]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#network-error
+[Validation Error]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#validation-error
+[Retrying]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#retrying
+[Blocked]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#blocked
+[Completed]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#completed
+[To Do]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#to-do
+[Started]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#started
+[Pending]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#pending
+[Expired]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#expired
+[Approved]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#approved
+[Sent]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#sent
+[Received]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#received
+[Under Review]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#under-review
+[Soft Delete]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#soft-delete
+[Hard Delete]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#hard-delete
+[Unknown]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#unknown
+[Null or Empty]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#null-or-empty
+[Active]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#active
 
 <!-- Short Form LocalWorkflow States Links of all JSopX™ Workflow States -->
-[`CREATED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#created
-[`QUEUED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#queued
-[`IN PROGRESS`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#in-progress
-[`WAITING`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#waiting
-[`PASSED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#passed
-[`FAILED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#failed
-[`REJECTED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#rejected
-[`CANCELLED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#cancelled
-[`SKIPPED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#skipped
-[`TIMEOUT`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#timeout
-[`NETWORK ERROR`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#network-error
-[`VALIDATION ERROR`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#validation-error
-[`RETRYING`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#retrying
-[`BLOCKED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#blocked
-[`COMPLETED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#completed
-[`TO DO`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#to-do
-[`STARTED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#started
-[`PENDING`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#pending
-[`EXPIRED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#expired
-[`APPROVED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#approved
-[`SENT`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#sent
-[`RECEIVED`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#received
-[`UNDER REVIEW`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#under-review
-[`SOFT DELETE`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#soft-delete
-[`HARD DELETE`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#hard-delete
-[`UNKNOWN`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#unknown
-[`NULL OR EMPTY`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#null-or-empty
-[`ACTIVE`]: /JSopX.DM/docs/md/JSopX.Global/Common/WorkflowStates.md#active
+[`CREATED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#created
+[`QUEUED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#queued
+[`IN PROGRESS`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#in-progress
+[`WAITING`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#waiting
+[`PASSED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#passed
+[`FAILED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#failed
+[`REJECTED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#rejected
+[`CANCELLED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#cancelled
+[`SKIPPED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#skipped
+[`TIMEOUT`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#timeout
+[`NETWORK ERROR`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#network-error
+[`VALIDATION ERROR`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#validation-error
+[`RETRYING`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#retrying
+[`BLOCKED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#blocked
+[`COMPLETED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#completed
+[`TO DO`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#to-do
+[`STARTED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#started
+[`PENDING`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#pending
+[`EXPIRED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#expired
+[`APPROVED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#approved
+[`SENT`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#sent
+[`RECEIVED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#received
+[`UNDER REVIEW`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#under-review
+[`SOFT DELETE`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#soft-delete
+[`HARD DELETE`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#hard-delete
+[`UNKNOWN`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#unknown
+[`NULL OR EMPTY`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#null-or-empty
+[`ACTIVE`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#active

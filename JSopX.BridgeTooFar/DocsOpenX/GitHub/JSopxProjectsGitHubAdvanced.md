@@ -25,7 +25,17 @@ This document is designed for developers who want to elevate their GitHub skills
 
 ---
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)

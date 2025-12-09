@@ -79,7 +79,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
  
 ---
 
-## 🌐 JSopX.WebApi
+## 🌐 JSopX.WebAPI
 
 **Purpose:** Public API gateway bridging Core, Data, and Presentation.  
 
@@ -91,7 +91,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
 
 **Repository Locations**:
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.WebApi](https://github.com/JasonSilvestri/JSopX.WebApi)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.WebAPI](https://github.com/JasonSilvestri/JSopX.WebAPI)
  
 ---
 

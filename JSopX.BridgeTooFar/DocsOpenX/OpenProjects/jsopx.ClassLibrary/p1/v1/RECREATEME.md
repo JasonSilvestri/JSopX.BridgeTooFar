@@ -26,7 +26,17 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
 ---
 
 
+
+> [!CAUTION]
+> **Deprecated:**
+> 
+> The content before you is deprecated. Visit **[https://github.com/JasonSilvestri/JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)** for the latest version.
+>
+
+---
+
 ## Table of Contents
+
 
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)

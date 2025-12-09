@@ -25,7 +25,7 @@ This repository is internal and proprietary. Security updates and reviews are ha
 This project is **not open to external reporting**. If you believe you have encountered a security concern with Jason Silvestri Open Project EXperiences (JSopX™) software:
 
 - Do not disclose publicly.
-- Directly contact Independent Care Systems Inc at [therealjasonsilvestri@gmail.com](mailto:therealjasonsilvestri@gmail.com).
+- Directly contact Jason Silvestri Open Project EXperiences at [therealjasonsilvestri@gmail.com](mailto:therealjasonsilvestri@gmail.com).
 
 ## Confidentiality
 All code, documentation, and artifacts within this repository are confidential.
