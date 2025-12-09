@@ -66,11 +66,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.ReactCore` Project.
 
-- [Visual Studio (v 17.14.21)](../jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../jsopx.ReactCore/p1/v1/Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
-- [Node.js (v 20.14.0)](../jsopx.ReactCore/p1/v1/Technologies/#node)
-- [npm (v 10.8.1)](../jsopx.ReactCore/p1/v1/Technologies/#npm)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/#aspnet-core)
+- [Node.js (v 20.14.0)](../jsopx.Global/Technologies/#node)
+- [npm (v 10.8.1)](../jsopx.Global/Technologies/#npm)
 - [React (v 18.2.0)](../jsopx.ReactCore/p1/v1/Technologies#react)
 
 ---
