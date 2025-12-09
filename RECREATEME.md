@@ -543,7 +543,7 @@ The [`License`] → `LICENSE.txt` file that specifies the licensing terms under 
 <!--Root Solution Project -->
 [`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ SaaS JSopX™ Angular Core Project Solution example README.md"
 <!--Root Solution Previous -->
-[`« Previous`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution README.md"
+[`« Previous`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution README.md"
 <!--Root Solution Next -->
 [`Next »`]: /JSopX.BridgeTooFar/docs/md/JSopX.Data/README.md "JSopX™ SaaS Data Project Solution README.md"
 
@@ -643,7 +643,7 @@ The [`License`] → `LICENSE.txt` file that specifies the licensing terms under 
 [JSopX.MauiHybridNetCore]: /JSopX.BridgeTooFar/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.HealthTracker]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
+[JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
 [JSopX.CRM]: /JSopX.BridgeTooFar/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
 [JSopX.PLM]: /JSopX.BridgeTooFar/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
@@ -662,7 +662,7 @@ The [`License`] → `LICENSE.txt` file that specifies the licensing terms under 
 [`JSopX.MauiHybridNetCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
 [`JSopX.HealthTracker`]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
 [`JSopX.Maui.MPA`]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
+[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
 [`JSopX.CRM`]: /JSopX.BridgeTooFar/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
 [`JSopX.PLM`]: /JSopX.BridgeTooFar/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
 [`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"

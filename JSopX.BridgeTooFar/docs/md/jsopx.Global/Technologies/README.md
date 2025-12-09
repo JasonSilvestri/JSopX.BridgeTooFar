@@ -300,26 +300,26 @@ You can now check all project technology & version requirements simotaniously, u
 <!--Root Solution Home-->
 [`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management Project Home README.md"
 <!--Root Solution Project -->
-[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution example README.md"
+[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ SaaS Document Management Project Solution example README.md"
 
 <!--Install README.md - Often same as Root Solution-->
-[`Intro`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ SaaS Project Solution Install README.md"
+[`Intro`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ SaaS Project Solution Install README.md"
 <!--Install README.md - Often same as Root Solution-->
-[`Install`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/REINSTALLME.md "JSopX™ SaaS Project Solution Install README.md"
+[`Install`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/REINSTALLME.md "JSopX™ SaaS Project Solution Install README.md"
 <!--Briefing REDEBRIEFME.md - The briefing of the Solution-->
-[`Debrief`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/REDEBRIEFME.md "JSopX™ SaaS Document Management Project Briefing REDEBRIEFME.md"
+[`Debrief`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/REDEBRIEFME.md "JSopX™ SaaS Document Management Project Briefing REDEBRIEFME.md"
 <!--Recreate RECREATEME.md - The step by step instructions to Create Solution - often from briefing -->
-[`Recreate`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/RECREATEME.md "JSopX™ SaaS Document Management Project Step by Step HowTo Re-Create RECREATEME.md"
+[`Recreate`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/RECREATEME.md "JSopX™ SaaS Document Management Project Step by Step HowTo Re-Create RECREATEME.md"
 <!--Recreate CHANGELOG.md - The Changelogs of Solution - often from briefing -->
-[`Changelogs`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/CHANGELOG.md "JSopX™ SaaS Document Management Project Change Logs CHANGELOG.md"
+[`Changelogs`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/CHANGELOG.md "JSopX™ SaaS Document Management Project Change Logs CHANGELOG.md"
 <!--Recreate CONTRIBUTING.md - The Contributing Guidelines of Solution - often from briefing -->
-[`Contributing`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/CONTRIBUTING.md "JSopX™ SaaS Contributor Guidelines CONTRIBUTING.md"
+[`Contributing`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/CONTRIBUTING.md "JSopX™ SaaS Contributor Guidelines CONTRIBUTING.md"
 <!--Recreate CODE_OF_CONDUCT.md - The Code of Conduct of Solution - often from briefing -->
-[`Conduct`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/CODE_OF_CONDUCT.md "JSopX™ SaaS Code of Conduct CODE_OF_CONDUCT.md"
+[`Conduct`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/CODE_OF_CONDUCT.md "JSopX™ SaaS Code of Conduct CODE_OF_CONDUCT.md"
 <!--Recreate SECURITY.md - The Security Policy of Solution - often from briefing -->
-[`Security`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/SECURITY.md "JSopX™ SaaS Security Policy SECURITY.md"
+[`Security`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/SECURITY.md "JSopX™ SaaS Security Policy SECURITY.md"
 <!--Recreate LICENSE.txt - The LICENSE Policy of Solution - often from briefing -->
-[`License`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/SECURITY.md "JSopX™ LICENSE Policy LICENSE.txt"
+[`License`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/SECURITY.md "JSopX™ LICENSE Policy LICENSE.txt"
 <!-- Long Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
 [`<https://github.com/JasonSilvestri/OpenProjectX>`]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Core>`]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
@@ -374,7 +374,7 @@ You can now check all project technology & version requirements simotaniously, u
 [JSopX.EndGame]: /JSopX.BridgeTooFar/docs/md/JSopX.EndGame/README.md "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
+[JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
 [JSopX.CRM]: /JSopX.BridgeTooFar/docs/md/JSopX.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
 [JSopX.PLM]: /JSopX.BridgeTooFar/docs/md/JSopX.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
