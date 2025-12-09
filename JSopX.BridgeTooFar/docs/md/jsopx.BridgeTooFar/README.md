@@ -61,11 +61,11 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring just the `JSopX.BridgeTooFar` Project.
 
-- [Visual Studio (v 17.14.21)](../../../../Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../../../../Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../../../../Technologies/#aspnet-core)
-- [Node (v 20.14.0)](../../../../Technologies/#node)
-- [npm (v 10.8.1)](../../../../Technologies/#npm)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/#aspnet-core)
+- [Node (v 20.14.0)](../jsopx.Global/Technologies/#node)
+- [npm (v 10.8.1)](../jsopx.Global/Technologies/#npm)
 
 ---
 
