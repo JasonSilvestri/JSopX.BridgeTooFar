@@ -84,8 +84,8 @@ Be sure each technology is installed, with proper versioning, if your goal is to
 - [ASP.NET Core (v 9.2.1)](../jsopx.VueCore/p1/v1/Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../jsopx.VueCore/p1/v1/Technologies/#node)
 - [npm (v 10.8.1)](../jsopx.VueCore/p1/v1/Technologies/#npm)
-- [Vue (v 3.4.21)](../Technologies/OpenProjects/jsopx.VueCore/p1/v1/Technologies/#vue)
-- [Vite (v 5.2.8)](../Technologies/OpenProjects/jsopx.VueCore/p1/v1/Technologies/#vite)
+- [Vue (v 3.4.21)](../jsopx.Global/Technologies/OpenProjects/jsopx.VueCore/p1/v1/Technologies/#vue)
+- [Vite (v 5.2.8)](../jsopx.Global/Technologies/OpenProjects/jsopx.VueCore/p1/v1/Technologies/#vite)
 
 ---
 

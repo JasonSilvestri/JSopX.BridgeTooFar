@@ -248,7 +248,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.ReactCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.21)](../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.ReactCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -259,7 +259,7 @@ Working with the `JSopX.ReactCore` Project in Visual Studio is simple enough.
 
 > [!TIP]
 >
-> Latest versions of [Visual Studio](../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> Latest versions of [Visual Studio](../jsopx.Global/Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
 > 
 
 ---
@@ -295,7 +295,7 @@ Building and Running the `JSopX.ReactCore` Project in Visual Studio is also anot
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../jsopx.Global/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
@@ -327,7 +327,7 @@ For brevity, samples will not have the complete file structure you get when inst
 All `JSopX™ projects` follow a consistent directory structure. 
 
 1. The `JSopX.ReactCore` Project naming conventions include capital casing for `.Server` directories and lowercase for `.client` directories.
-2. I create a [Visual Studio](../Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+2. I create a [Visual Studio](../jsopx.Global/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 3. I create a Client-Side Project Folder for `.esproj` project files, and related files
 4. I create a similar Server-Side Project Folder for `.csproj`, and related files.
 

@@ -69,9 +69,9 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../jsopx.AspNetCore/
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.14.21)](../Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/#aspnet-core)
 
 ---
 
@@ -251,7 +251,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.AspNetCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.21)](../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.AspNetCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -262,7 +262,7 @@ Working with the `JSopX.AspNetCore` Project in Visual Studio is simple enough.
 
 > [!TIP]
 >
-> Latest versions of [Visual Studio](../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> Latest versions of [Visual Studio](../jsopx.Global/Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
 > 
 
 ---

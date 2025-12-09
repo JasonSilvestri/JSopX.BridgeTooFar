@@ -72,12 +72,12 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AngularCore` Project.
 
-- [Visual Studio (v 17.14.21)](../Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../Technologies/#aspnet-core)
-- [Node.js (v 20.14.0)](../Technologies/#node)
-- [npm (v 10.8.1)](../Technologies/#npm)
-- [Angular CLI (v 18.0.3)](../Technologies/#angular-cli)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/#aspnet-core)
+- [Node.js (v 20.14.0)](../jsopx.Global/Technologies/#node)
+- [npm (v 10.8.1)](../jsopx.Global/Technologies/#npm)
+- [Angular CLI (v 18.0.3)](../jsopx.Global/Technologies/#angular-cli)
 
 ---
 
@@ -173,7 +173,7 @@ For brevity, samples will not have the complete file structure you get when inst
 All `JSopX™ projects` follow a consistent directory structure. 
 
 1. The `JSopX.AngularCore` Project naming conventions include capital casing for `.Server` directories and lowercase for `.client` directories.
-2. I create a [Visual Studio](../Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+2. I create a [Visual Studio](../jsopx.Global/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 3. I create a **Client-Side** Project Folder for `.esproj` project files, and related files
 4. I create a similar **Server-Side** Project Folder for `.csproj`, and related files.
 
