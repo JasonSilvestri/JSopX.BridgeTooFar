@@ -203,7 +203,7 @@ Building and Running the `JSopX.BridgeTooFar` Project in Visual Studio is also a
 
 ### **Step: 4.1: Build and Run**:
 
-1. Build the solution in [Visual Studio](../jsopx.BridgeTooFar/p1/v1/Technologies/#visual-studio).
+1. Build the solution in [Visual Studio](../jsopx.Global/Technologies/#visual-studio).
 2. Run the project:
    - Use the **IIS Express** profile for local development.
 
