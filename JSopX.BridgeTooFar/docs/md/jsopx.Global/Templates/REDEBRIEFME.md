@@ -62,7 +62,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 **Highlights**:  
 - Swagger/OpenAPI docs  
 - Versioned routes (`/jsopx/v1/...`)  
-- Vault integration for secretless DB access  
+- RCLxAssets integration for secretless DB access  
 - Controllers + minimal APIs for flexibility  
 
 
@@ -88,7 +88,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 - Consistent, discoverable, secure API.  
 - Swagger UI for developers.  
 - API versioning.  
-- Vault-backed config (no secrets in appsettings).  
+- RCLxAssets-backed config (no secrets in appsettings).  
 
 **Non-Goals**  
 - Direct UI rendering (Blazor lives in Presentation/Maui).  
@@ -104,7 +104,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 - ASP.NET Core 9 Web API.  
 - Controllers organized by aggregate (e.g., BodyWeight, Logs).  
 - Middleware: logging, exception handling, auth, CORS.  
-- Secret injection via Vault.  
+- Secret injection via RCLxAssets.  
 
 
 [`Back to Top`](#table-of-contents)
@@ -128,7 +128,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 - OAuth2 / JWT bearer (future).  
 - CORS locked to known client origins.  
 - HTTPS enforced.  
-- Secrets resolved via Vault at runtime.  
+- Secrets resolved via RCLxAssets at runtime.  
 
 
 [`Back to Top`](#table-of-contents)
@@ -172,7 +172,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 ## Acceptance Criteria / Definition of Done
 ✅ Endpoints documented in Swagger.  
 ✅ 200/400/500 status codes tested.  
-✅ Secrets pulled via Vault.  
+✅ Secrets pulled via RCLxAssets.  
 ✅ Auth required for sensitive endpoints.  
 
 
@@ -204,7 +204,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 
 ## Appendix — Glossary
 **Swagger/OpenAPI**: docs for REST endpoints.  
-**Vault**: secure secret store.  
+**RCLxAssets**: secure secret store.  
 
 
 [`Back to Top`](#table-of-contents)

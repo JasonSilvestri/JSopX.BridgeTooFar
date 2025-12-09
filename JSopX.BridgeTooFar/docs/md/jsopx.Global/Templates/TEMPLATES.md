@@ -100,10 +100,10 @@ JSopX/
 │  ├─ JSopX.Data.csproj
 ├─ JSopX.DocumentManagement/
 │  ├─ JSopX.DocumentManagement.csproj
-├─ JSopX.Vault/
-│  ├─ JSopX.Vault.csproj
-│  ├─ JSopX.Vault.FileSystem.csproj
-│  ├─ JSopX.Vault.Providers.Azure.csproj
+├─ JSopX.RCLxAssets/
+│  ├─ JSopX.RCLxAssets.csproj
+│  ├─ JSopX.RCLxAssets.FileSystem.csproj
+│  ├─ JSopX.RCLxAssets.Providers.Azure.csproj
 ├─ JSopX.SharedResources/
 │  ├─ JSopX.SharedResources.csproj
 ├─ JSopX.WebAPI/
@@ -113,8 +113,8 @@ JSopX/
 │  ├─ JSopX.HealthTracker.Shared.csproj
 │  ├─ JSopX.HealthTracker.Web.csproj
 │  ├─ JSopX.HealthTracker.Web.Client.csproj
-├─ JSopX.Unitx/
-│  ├─ JSopX.Unitx.csproj
+├─ JSopX.RCLxComponents/
+│  ├─ JSopX.RCLxComponents.csproj
 │  ├─ ...
 │  ├─ ...
 

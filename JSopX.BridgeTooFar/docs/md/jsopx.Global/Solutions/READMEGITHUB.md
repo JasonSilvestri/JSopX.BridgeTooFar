@@ -64,18 +64,18 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
  
 ---
 
-## 🔐 JSopX.Vault
+## 🔐 JSopX.RCLxAssets
 **Purpose:** Encrypted secret management (dev filesystem provider + Azure providers).  
 
 **Highlights**:
 
-- `IJSopXSecretVault` and versioned secrets.
+- `IJSopXSecretRCLxAssets` and versioned secrets.
 - Dev: filesystem encrypted blobs; Prod: Azure Blob + AKV key protection.
 - Prefer Managed Identity for DB auth.
 
 **Repository Locations**:
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.Vault](https://github.com/JasonSilvestri/JSopX.Vault)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.RCLxAssets](https://github.com/JasonSilvestri/JSopX.RCLxAssets)
  
 ---
 
@@ -87,7 +87,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
 
 - ASP.NET Core 9 Minimal APIs / Controllers.
 - JWT/OIDC ready, Swagger, health checks, telemetry.
-- Secretless DB connections via Vault.
+- Secretless DB connections via RCLxAssets.
 
 **Repository Locations**:
 
@@ -176,7 +176,7 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 
 ---
 
-## 🧪 JSopX.Unitx
+## 🧪 JSopX.RCLxComponents
 **Purpose:** Unified tests (xUnit) for Core, Data, WebApi.
 
 **Highlights**:
@@ -186,7 +186,7 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 **Repository Locations**:
 
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.Unitx](https://github.com/JasonSilvestri/JSopX.Unitx)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.RCLxComponents](https://github.com/JasonSilvestri/JSopX.RCLxComponents)
 
 ---
 
