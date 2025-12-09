@@ -41,7 +41,7 @@ By exploring the [Overview](#overview), you’ll gain insights into the technolo
 - [Python (v 3.12.3x+)](#python)
 - [Bash (v 5.x+)](#bash)
 - [Powershell (v 7.x+)](#powershell)
-- [Check All Simotaniously (v 1.0)](#check-all-requirements-simotaniously)
+- [Check All Simotaniously (v1)](#check-all-requirements-simotaniously)
 
 ---
 
