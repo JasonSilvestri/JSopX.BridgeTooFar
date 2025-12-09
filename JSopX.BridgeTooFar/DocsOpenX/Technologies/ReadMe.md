@@ -85,7 +85,7 @@ From development frameworks like ASP.NET Core to front-end build tools such as A
 
 ---
 
-- **Version Required**: **`17.14.19`**
+- **Version Required**: **`17.14.21`**
 
 - JSopX™ projects require Visual Studio to build and manage solutions efficiently.
 - Ensure you have all necessary workloads installed, including ASP.NET and web development, desktop development with .NET, and Azure development.
