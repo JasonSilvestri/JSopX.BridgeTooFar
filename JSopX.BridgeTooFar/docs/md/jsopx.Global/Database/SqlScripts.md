@@ -1380,10 +1380,10 @@ VALUES
 
 <!--Root Solution Project Solutions -->
 [`Common`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/README.md "JSopX™ SaaS Project Common README.md"
-[⚙️ Workflow State]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
-[⚙️ `Workflow State`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
-[Workflow States]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
-[`Workflow States`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[⚙️ Workflow State]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[⚙️ `Workflow State`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[Workflow States]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
+[`Workflow States`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md "JSopX™ Project Common Workflow States"
 [`Junction Rules`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/JunctionRules.md "JSopX™ Project Common Junction Rules with Halos"
 [Junction Rules]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/JunctionRules.md "JSopX™ Project Common Junction Rules with Halos"
 [`Development Standards`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/DevelopmentStandards.md "JSopX™ Project Common Development Standards"
@@ -1585,61 +1585,61 @@ VALUES
 [Bash (v 5.x+)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Bash.md "JSopX™ SaaS Project Bash Technology Requirements"
 [Powershell (v 7.x+)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Technologies/Powershell.md "JSopX™ SaaS Project Powershell Technology Requirements"
 <!-- Short Form LocalWorkflow States Links of all JSopX™ Workflow States -->
-[Created]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#created
-[Queued]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#queued
-[In Progress]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#in-progress
-[Waiting]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#waiting
-[Passed]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#passed
-[Failed]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#failed
-[Rejected]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#rejected
-[Cancelled]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#cancelled
-[Skipped]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#skipped
-[Timeout]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#timeout
-[Network Error]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#network-error
-[Validation Error]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#validation-error
-[Retrying]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#retrying
-[Blocked]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#blocked
-[Completed]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#completed
-[To Do]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#to-do
-[Started]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#started
-[Pending]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#pending
-[Expired]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#expired
-[Approved]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#approved
-[Sent]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#sent
-[Received]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#received
-[Under Review]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#under-review
-[Soft Delete]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#soft-delete
-[Hard Delete]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#hard-delete
-[Unknown]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#unknown
-[Null or Empty]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#null-or-empty
-[Active]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#active
+[Created]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#created
+[Queued]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#queued
+[In Progress]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#in-progress
+[Waiting]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#waiting
+[Passed]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#passed
+[Failed]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#failed
+[Rejected]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#rejected
+[Cancelled]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#cancelled
+[Skipped]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#skipped
+[Timeout]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#timeout
+[Network Error]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#network-error
+[Validation Error]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#validation-error
+[Retrying]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#retrying
+[Blocked]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#blocked
+[Completed]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#completed
+[To Do]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#to-do
+[Started]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#started
+[Pending]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#pending
+[Expired]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#expired
+[Approved]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#approved
+[Sent]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#sent
+[Received]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#received
+[Under Review]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#under-review
+[Soft Delete]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#soft-delete
+[Hard Delete]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#hard-delete
+[Unknown]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#unknown
+[Null or Empty]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#null-or-empty
+[Active]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#active
 
 <!-- Short Form LocalWorkflow States Links of all JSopX™ Workflow States -->
-[`CREATED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#created
-[`QUEUED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#queued
-[`IN PROGRESS`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#in-progress
-[`WAITING`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#waiting
-[`PASSED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#passed
-[`FAILED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#failed
-[`REJECTED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#rejected
-[`CANCELLED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#cancelled
-[`SKIPPED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#skipped
-[`TIMEOUT`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#timeout
-[`NETWORK ERROR`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#network-error
-[`VALIDATION ERROR`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#validation-error
-[`RETRYING`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#retrying
-[`BLOCKED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#blocked
-[`COMPLETED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#completed
-[`TO DO`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#to-do
-[`STARTED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#started
-[`PENDING`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#pending
-[`EXPIRED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#expired
-[`APPROVED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#approved
-[`SENT`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#sent
-[`RECEIVED`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#received
-[`UNDER REVIEW`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#under-review
-[`SOFT DELETE`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#soft-delete
-[`HARD DELETE`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#hard-delete
-[`UNKNOWN`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#unknown
-[`NULL OR EMPTY`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#null-or-empty
-[`ACTIVE`]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Common/WorkflowStates.md#active
+[`CREATED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#created
+[`QUEUED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#queued
+[`IN PROGRESS`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#in-progress
+[`WAITING`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#waiting
+[`PASSED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#passed
+[`FAILED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#failed
+[`REJECTED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#rejected
+[`CANCELLED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#cancelled
+[`SKIPPED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#skipped
+[`TIMEOUT`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#timeout
+[`NETWORK ERROR`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#network-error
+[`VALIDATION ERROR`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#validation-error
+[`RETRYING`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#retrying
+[`BLOCKED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#blocked
+[`COMPLETED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#completed
+[`TO DO`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#to-do
+[`STARTED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#started
+[`PENDING`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#pending
+[`EXPIRED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#expired
+[`APPROVED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#approved
+[`SENT`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#sent
+[`RECEIVED`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#received
+[`UNDER REVIEW`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#under-review
+[`SOFT DELETE`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#soft-delete
+[`HARD DELETE`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#hard-delete
+[`UNKNOWN`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#unknown
+[`NULL OR EMPTY`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#null-or-empty
+[`ACTIVE`]: /JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/WorkflowStates.md#active
