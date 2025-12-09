@@ -62,9 +62,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring just the `JSopX.WebAPI` Project.
 
-- [Visual Studio (v 17.14.21)](../../Technologies/#visual-studio)
-- [.NET Framework (v 9.2.1)](../../Technologies/#net-framework)
-- [ASP.NET Core (v 9.2.1)](../../Technologies/#aspnet-core)
+- [Visual Studio (v 17.14.21)](../Technologies/#visual-studio)
+- [.NET Framework (v 9.2.1)](../Technologies/#net-framework)
+- [ASP.NET Core (v 9.2.1)](../Technologies/#aspnet-core)
 
 ---
 
@@ -157,7 +157,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.WebAPI` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.21)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.WebAPI.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -168,7 +168,7 @@ Working with the `JSopX.WebAPI` Project in Visual Studio is simple enough.
 
 > [!TIP]
 >
-> Latest versions of [Visual Studio](../../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> Latest versions of [Visual Studio](../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
 > 
 
 ---
@@ -234,7 +234,7 @@ For brevity, samples will not have the complete file structure you get when inst
 
 All `JSopX™ projects` follow a consistent directory structure. 
 
-1. I create a [Visual Studio](../../Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
+1. I create a [Visual Studio](../Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
 2. I create a similar Server-Side Project Folder for `.csproj`, and related files.
 
 A common, plain-text file folder structure of the `JSopX.WebAPI` Solution and Projects should look something like what follows:

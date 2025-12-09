@@ -169,7 +169,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.MauiHybridNetCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.21)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.MauiHybridNetCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -180,7 +180,7 @@ Working with the `JSopX.MauiHybridNetCore` Project in Visual Studio is simple en
 
 > [!TIP]
 >
-> Latest versions of [Visual Studio](../../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+> Latest versions of [Visual Studio](../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
 > 
 
 ---
