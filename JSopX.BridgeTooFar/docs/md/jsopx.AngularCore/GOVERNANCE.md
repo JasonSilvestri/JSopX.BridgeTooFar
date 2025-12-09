@@ -1,4 +1,4 @@
-# JSopX™ — Security Policy (v1)
+# JSopX™ — Governance Model (v1)
 
 ---
 
@@ -6,53 +6,113 @@
 
 ---
 
-## Supported Versions
+## Overview
 
-The JSopX™ project family uses a rolling-release approach aligned with active development.  
-Security updates apply to:
+This Governance Model defines how decisions are made, how roles are structured, and how contributions are managed within the JSopX™ ecosystem.
 
-- The latest major and minor versions of each JSopX™ project.
-- Any version explicitly tagged as `LTS`.
+JSopX™ operates with transparency, responsibility, and a focus on long-term engineering stability.
 
-Older versions may receive security patches depending on severity and impact.
+---
 
-## Reporting a Vulnerability
+## Governance Principles
 
-If you discover a potential security issue, please **do not open a public GitHub issue.**  
-Instead, contact Jason Silvestri directly:
+- **Transparency** — Decisions should be clear, documented, and communicated.  
+- **Technical Integrity** — Quality, security, and maintainability are top priorities.  
+- **Community Collaboration** — Constructive input is welcomed from all contributors.  
+- **Stewardship** — Protecting the JSopX™ architecture, branding, and design standards.
 
+---
+
+## Roles
+
+### Project Owner
+
+The Project Owner oversees overall direction and strategy.
+
+**Current Project Owner:**  
+- **Jason Silvestri**  
 - GitHub: https://github.com/JasonSilvestri  
 - Website: [jsopx.com]  
 - Email: [therealjasonsilvestri@gmail.com]  
 - Phone: [508-851-9445]
 
-Provide as many details as possible:
+**Responsibilities include**:
 
-- A clear description of the vulnerability  
-- Steps to reproduce  
-- Affected project and version  
-- Severity assessment, if known  
+- Final approval on major features  
+- Architectural oversight  
+- Release direction  
+- Branding and licensing protections  
 
-We will confirm receipt within 72 hours and provide status updates during remediation.
+---
 
-## Disclosure Process
+### Maintainers
 
-1. Vulnerability is acknowledged privately.  
-2. A fix is developed and reviewed.  
-3. A coordinated disclosure date is scheduled.  
-4. A security advisory is published on GitHub.  
+Individuals with commit or merge privileges.
 
-## Security Philosophy
+Maintainers:
 
-JSopX™ prioritizes:
+- Review PRs  
+- Validate documentation  
+- Enforce coding standards  
+- Manage issues and discussions  
+- Help shape roadmap milestones  
 
-- Strong input validation and trust boundaries  
-- Secure configuration defaults  
-- Defense-in-depth architecture  
-- No silent failure of errors  
-- Clear communication during remediation efforts  
+---
 
-Thank you for helping keep the JSopX™ ecosystem safe.
+### Contributors
+
+Anyone who submits Ideas, Issues, Discussions, Pull Requests, or Documentation.
+
+Contributors provide essential collaboration but do not have merge authority.
+
+---
+
+## Decision-Making Process
+
+### Technical Decisions
+
+Most decisions occur through:
+
+- Pull requests  
+- PR review discussions  
+- Architecture RFCs  
+- GitHub Discussions  
+
+Consensus is preferred, but the Project Owner may make final decisions when necessary.
+
+---
+
+### Release Decisions
+
+Releases are based on:
+
+- Semantic Versioning  
+- Milestones  
+- Readiness of features  
+- Stability and regression testing  
+
+---
+
+### Security Decisions
+
+Security matters follow the secure reporting process in **SECURITY.md** and are handled privately until resolved.
+
+---
+
+## Conflict Resolution
+
+Steps, in order:
+
+1. Direct discussion between involved parties  
+2. Maintainer mediation  
+3. Final decision by the Project Owner  
+
+---
+
+## Amendments
+
+This Governance Model may be updated over time.  
+All changes will be logged in the project [`Changelogs`].
 
 ---
 

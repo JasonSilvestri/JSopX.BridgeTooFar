@@ -2,7 +2,7 @@
 
 ---
 
-[`Home`] » **[`JSopX.AngularCore`]**
+[`Home`] » **[`JSopX.OpenProjectX`]**
 
 ---
 
@@ -95,7 +95,7 @@ By contributing, you agree that your contributions will be licensed under the pr
 
 ---
 
-[`Home`] » **[`JSopX.AngularCore`]**
+[`Home`] » **[`JSopX.OpenProjectX`]**
 
 ---
 
@@ -116,7 +116,7 @@ By contributing, you agree that your contributions will be licensed under the pr
 
 <!-- Root Navigation -->
 [`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Project Home"
-[`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "Solution README.md"
+[`JSopX.OpenProjectX`]: /JSopX.BridgeTooFar/docs/md/jsopx.OpenProjectX/README.md "Solution README.md"
 
 <!-- README / Briefing / Install Paths -->
 [`Intro`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "Intro README.md"

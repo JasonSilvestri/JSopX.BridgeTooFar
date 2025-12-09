@@ -1,62 +1,58 @@
-# JSopX™ — Security Policy (v1)
+# JSopX™ — Contributor Code of Conduct (v1)
 
 ---
 
-[`Home`] » **[`JSopX.AngularCore`]**
+[`Home`] » **[`JSopX.RCLxProper`]**
 
 ---
 
-## Supported Versions
+## Our Commitment
 
-The JSopX™ project family uses a rolling-release approach aligned with active development.  
-Security updates apply to:
+JSopX™ is a collaborative engineering ecosystem that encourages creativity, learning, and professionalism.  
+Everyone participating in JSopX™—maintainers, contributors, and users—must follow this Code of Conduct.
 
-- The latest major and minor versions of each JSopX™ project.
-- Any version explicitly tagged as `LTS`.
+## Expected Behavior
 
-Older versions may receive security patches depending on severity and impact.
+Participants are expected to:
 
-## Reporting a Vulnerability
+- Communicate respectfully and honestly  
+- Provide and accept constructive feedback  
+- Focus on technical solutions  
+- Uphold security, quality, and ethical engineering values  
+- Respect differing technical viewpoints  
 
-If you discover a potential security issue, please **do not open a public GitHub issue.**  
-Instead, contact Jason Silvestri directly:
+## Unacceptable Behavior
+
+The following will not be tolerated:
+
+- Harassment or abuse  
+- Personal attacks or insults  
+- Discriminatory language or behavior  
+- Knowingly spreading misinformation  
+- Sabotage or intentionally harmful contributions  
+
+## Reporting Violations
+
+If you believe someone is violating this Code, please report it privately to:
 
 - GitHub: https://github.com/JasonSilvestri  
 - Website: [jsopx.com]  
 - Email: [therealjasonsilvestri@gmail.com]  
 - Phone: [508-851-9445]
 
-Provide as many details as possible:
+All reports will be reviewed promptly and confidentially.
 
-- A clear description of the vulnerability  
-- Steps to reproduce  
-- Affected project and version  
-- Severity assessment, if known  
+## Enforcement
 
-We will confirm receipt within 72 hours and provide status updates during remediation.
+Violations may result in:
 
-## Disclosure Process
-
-1. Vulnerability is acknowledged privately.  
-2. A fix is developed and reviewed.  
-3. A coordinated disclosure date is scheduled.  
-4. A security advisory is published on GitHub.  
-
-## Security Philosophy
-
-JSopX™ prioritizes:
-
-- Strong input validation and trust boundaries  
-- Secure configuration defaults  
-- Defense-in-depth architecture  
-- No silent failure of errors  
-- Clear communication during remediation efforts  
-
-Thank you for helping keep the JSopX™ ecosystem safe.
+1. Warning  
+2. Temporary or permanent removal from project activities  
+3. Escalation to GitHub or legal avenues if necessary  
 
 ---
 
-[`Home`] » **[`JSopX.AngularCore`]**
+[`Home`] » **[`JSopX.RCLxProper`]**
 
 ---
 
@@ -77,7 +73,7 @@ Thank you for helping keep the JSopX™ ecosystem safe.
 
 <!-- Root Navigation -->
 [`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Project Home"
-[`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "Solution README.md"
+[`JSopX.RCLxProper`]: /JSopX.BridgeTooFar/docs/md/jsopx.RCLxProper/README.md "Solution README.md"
 
 <!-- README / Briefing / Install Paths -->
 [`Intro`]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "Intro README.md"
