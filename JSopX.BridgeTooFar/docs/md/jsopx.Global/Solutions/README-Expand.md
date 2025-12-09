@@ -685,6 +685,8 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 [`<https://github.com/JasonSilvestri/JSopX.ReactCore>`]: https://github.com/JasonSilvestri/JSopX.ReactCore "JSopX™ React Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.VueCore>`]: https://github.com/JasonSilvestri/JSopX.VueCore "JSopX™ Vue Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.AspNetCore>`]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.BlazorServerCore>`]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->

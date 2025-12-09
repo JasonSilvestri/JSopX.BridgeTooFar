@@ -166,6 +166,9 @@ JSopX.VueCore/                        # Root JSopX.VueCore Visual Studio Solutio
 [JSopX.ReactCore GitHub]: https://github.com/JasonSilvestri/JSopX.ReactCore "JSopX™ React Core SaaS Project"
 [JSopX.VueCore GitHub]: https://github.com/JasonSilvestri/JSopX.VueCore "JSopX™ Product Lifecycle Management SaaS Project"
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore GitHub]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[JSopX.BlazorServerCore GitHub]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
+
 
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 

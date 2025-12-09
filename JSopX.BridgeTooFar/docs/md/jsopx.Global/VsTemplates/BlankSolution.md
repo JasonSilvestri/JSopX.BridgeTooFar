@@ -179,6 +179,9 @@ JSopX.BlankSolution/              # Root JSopX ASP.NET Core Visual Studio Blank 
 [JSopX.ReactCore]: /JSopX.BridgeTooFar/docs/md/jsopx.ReactCore/README.md "JSopX™ React Core SaaS Project"
 [JSopX.VueCore]: /JSopX.BridgeTooFar/docs/md/jsopx.VueCore/README.md "JSopX™ Vue Core SaaS Project"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AspNetCore/README.md "JSopX™ Asp.NET Core SaaS Project"
+[JSopX.BlazorServerCore]: /JSopX.BridgeTooFar/docs/md/jsopx.BlazorServerCore/README.md "JSopX™ Blazor Server Core SaaS Project"
+
 
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solutions & Version All SaaS Projects -->
 [JSopX.OpenProjectX (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"

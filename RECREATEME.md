@@ -593,6 +593,8 @@ The [`License`] → `LICENSE.txt` file that specifies the licensing terms under 
 <!-- Long Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
 [`<https://github.com/JasonSilvestri/OpenProjectX>`]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.AspNetCore>`]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.BlazorServerCore>`]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.SharedResources>`]: https://github.com/JasonSilvestri/JSopX.SharedResources "JSopX™ Shared Resources SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Halos>`]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.WebAPI>`]: https://github.com/JasonSilvestri/JSopX.WebAPI "JSopX™ WebAPI SaaS Project"
@@ -609,10 +611,15 @@ The [`License`] → `LICENSE.txt` file that specifies the licensing terms under 
 [`<https://github.com/JasonSilvestri/JSopX.ReactCore>`]: https://github.com/JasonSilvestri/JSopX.ReactCore "JSopX™ React Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.VueCore>`]: https://github.com/JasonSilvestri/JSopX.VueCore "JSopX™ Vue Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.AspNetCore>`]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.BlazorServerCore>`]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 <!-- Short Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
 [JSopX.OpenProjectX GitHub]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore GitHub]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[JSopX.BlazorServerCore GitHub]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
+
 [JSopX.Data GitHub]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [JSopX.SharedResources GitHub]: https://github.com/JasonSilvestri/JSopX.SharedResources "JSopX™ Shared Resources SaaS Project"
 [JSopX.Halos GitHub]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
@@ -629,11 +636,17 @@ The [`License`] → `LICENSE.txt` file that specifies the licensing terms under 
 [JSopX.ReactCore GitHub]: https://github.com/JasonSilvestri/JSopX.ReactCore "JSopX™ React Core SaaS Project"
 [JSopX.VueCore GitHub]: https://github.com/JasonSilvestri/JSopX.VueCore "JSopX™ Vue Core SaaS Project"
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore GitHub]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[JSopX.BlazorServerCore GitHub]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
+
 
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
 [JSopX.OpenProjectX]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AspNetCore/README.md "JSopX™ Asp.NET Core SaaS Project"
+[JSopX.BlazorServerCore]: /JSopX.BridgeTooFar/docs/md/jsopx.BlazorServerCore/README.md "JSopX™ Blazor Server Core SaaS Project"
+
 [JSopX.Data]: /JSopX.BridgeTooFar/docs/md/jsopx.Data/README.md "JSopX™ Data SaaS Project"
 [JSopX.SharedResources]: /JSopX.BridgeTooFar/docs/md/jsopx.SharedResources/README.md "JSopX™ Shared Resources SaaS Project"
 [JSopX.Halos]: /JSopX.BridgeTooFar/docs/md/jsopx.Halos/README.md "JSopX™ Halos SaaS Project"
@@ -650,6 +663,9 @@ The [`License`] → `LICENSE.txt` file that specifies the licensing terms under 
 [JSopX.ReactCore]: /JSopX.BridgeTooFar/docs/md/jsopx.ReactCore/README.md "JSopX™ React Core SaaS Project"
 [JSopX.VueCore]: /JSopX.BridgeTooFar/docs/md/jsopx.VueCore/README.md "JSopX™ Vue Core SaaS Project"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AspNetCore/README.md "JSopX™ Asp.NET Core SaaS Project"
+[JSopX.BlazorServerCore]: /JSopX.BridgeTooFar/docs/md/jsopx.BlazorServerCore/README.md "JSopX™ Blazor Server Core SaaS Project"
+
 <!-- Short Form Decorated Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
 [`JSopX`]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
 [`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"

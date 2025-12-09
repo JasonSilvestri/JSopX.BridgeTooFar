@@ -271,6 +271,8 @@ The most common `JSopX.BridgeTooFar` Visual Studio Solution files are as follows
 | ├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | The *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | ├&nbsp;📝&nbsp;`CONTRIBUTING.md` | The *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | ├&nbsp;📝&nbsp;`CHANGELOG.md` | The *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| ├&nbsp;📝&nbsp;`FUNDING.yml` | The *FUNDING* `.yml` file is the *funding* credits of the project. |
+
 
 > **Heads Up!**  
 >
@@ -341,7 +343,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.OpenProjectX` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.OpenProjectX` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.OpenProjectX` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
-
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.OpenProjectX` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -362,6 +364,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.AngularCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.AngularCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.AngularCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.AngularCore` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -383,6 +386,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.AspNetCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.AspNetCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.AspNetCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.AspNetCore` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -404,6 +408,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.BlazorServerCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.BlazorServerCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.BlazorServerCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.BlazorServerCore` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -425,6 +430,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.BridgeTooFar` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.BridgeTooFar` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.BridgeTooFar` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.BridgeTooFar` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -446,6 +452,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.ClassLibrary` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.ClassLibrary` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.ClassLibrary` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.ClassLibrary` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -467,6 +474,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.MauiHybridNetCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.MauiHybridNetCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.MauiHybridNetCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.MauiHybridNetCore` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -488,6 +496,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.ReactCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.ReactCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.ReactCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.ReactCore` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)
@@ -509,6 +518,7 @@ The most common project files for the `JSopX.BridgeTooFar` Visual Studio Project
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.VueCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.VueCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.VueCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`FUNDING.yml` | Most current `JSopX.VueCore` *FUNDING* `.yml` file is the *funding* credits of the project. |
 
 
 [`⇧ Back to Top`](#table-of-contents)

@@ -1184,6 +1184,8 @@ Carefully choose the approach below that fits your current objective:
 [`<https://github.com/JasonSilvestri/JSopX.ReactCore>`]: https://github.com/JasonSilvestri/JSopX.ReactCore "JSopX™ React Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.VueCore>`]: https://github.com/JasonSilvestri/JSopX.VueCore "JSopX™ Vue Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.AspNetCore>`]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.BlazorServerCore>`]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 <!-- Short Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
 [JSopX.OpenProjectX GitHub]: https://github.com/JasonSilvestri/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
@@ -1203,6 +1205,9 @@ Carefully choose the approach below that fits your current objective:
 [JSopX.ReactCore GitHub]: https://github.com/JasonSilvestri/JSopX.ReactCore "JSopX™ React Core SaaS Project"
 [JSopX.VueCore GitHub]: https://github.com/JasonSilvestri/JSopX.VueCore "JSopX™ Vue Core SaaS Project"
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore GitHub]: https://github.com/JasonSilvestri/JSopX.AspNetCore "JSopX™ ASP.NET Core SaaS Project"
+[JSopX.BlazorServerCore GitHub]: https://github.com/JasonSilvestri/JSopX.BlazorServerCore "JSopX™ Blazor Server Core SaaS Project"
+
 
 [JSopX.AngularCore GitHub]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
@@ -1223,6 +1228,9 @@ Carefully choose the approach below that fits your current objective:
 [JSopX.ReactCore]: /JSopX.BridgeTooFar/docs/md/jsopx.ReactCore/README.md "JSopX™ React Core SaaS Project"
 [JSopX.VueCore]: /JSopX.BridgeTooFar/docs/md/jsopx.VueCore/README.md "JSopX™ Vue Core SaaS Project"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"
+[JSopX.AspNetCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AspNetCore/README.md "JSopX™ Asp.NET Core SaaS Project"
+[JSopX.BlazorServerCore]: /JSopX.BridgeTooFar/docs/md/jsopx.BlazorServerCore/README.md "JSopX™ Blazor Server Core SaaS Project"
+
 <!-- Short Form Decorated Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
 [`JSopX`]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
 [`JSopX.Core`]: /JSopX.BridgeTooFar/docs/md/jsopx.Core/README.md "JSopX™ Core SaaS Project"
