@@ -395,7 +395,7 @@ To build and run the **Jason Silvestri Open Project EXperiences (JSopX™) JSopX
 
 ---
 
-## 🔄 JSopX.VueCore
+## <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-vue-core-logo.svg" style="width: auto; height: 36; padding-right:8px;!important;"> JSopX.VueCore
 
 **Purpose:** A first-party VueCore (Product Lifecycle Management) system for Jason Silvestri that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (MAUI + Web).
 
