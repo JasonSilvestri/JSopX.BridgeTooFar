@@ -12,7 +12,7 @@
 
 # JSopX™ — Web API Project Brief (v1)
 
-**WebApi (v1)**, codename, `JSopX.WebApi`, is an **Independent Care Systems Inc (_ICSI_)**, RESTful API gateway for JSopX™. Exposes secure endpoints, mediates between clients (MAUI, Presentation RCLs, third-party integrators) and the Core/Data layers.  
+**WebApi (v1)**, codename, `JSopX.WebApi`, is an **Independent Care Systems Inc (_Jason Silvestri_)**, RESTful API gateway for JSopX™. Exposes secure endpoints, mediates between clients (MAUI, Presentation RCLs, third-party integrators) and the Core/Data layers.  
 
 ---
 

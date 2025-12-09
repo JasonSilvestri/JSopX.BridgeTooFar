@@ -152,15 +152,15 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 
 ---
 
-### 💖 JSopX.Titrate 
+### 💖 JSopX.MauiHybridNetCore 
 **Purpose:** Cross-platform MAUI hybrid app for medication titration (Windows, Android, iOS, macOS, and Web).  
 
 **Version:** `v1.0`
 
 **Repository Locations**
 
-* **Origin GitHub:** [`<https://github.com/JasonSilvestri/JSopX.Titrate>`]
-* **Continue Local:**  [JSopX.Titrate] Project
+* **Origin GitHub:** [`<https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore>`]
+* **Continue Local:**  [JSopX.MauiHybridNetCore] Project
   
 [`⇧ Back to Top`]
 
@@ -214,7 +214,7 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 
 ### ☁️ JSopX.CRM
 
-**Purpose:** A first-party CRM for ICSI that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous**  (_Windows, Android, iOS, macOS, and Web_).
+**Purpose:** A first-party CRM for Jason Silvestri that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous**  (_Windows, Android, iOS, macOS, and Web_).
 
 **Version:** `v1.0`
 
@@ -229,7 +229,7 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 
 ### 🔄 JSopX.PLM
 
-**Purpose:** A first-party PLM (Product Lifecycle Management) system for ICSI that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (_Windows, Android, iOS, macOS, and Web_).
+**Purpose:** A first-party PLM (Product Lifecycle Management) system for Jason Silvestri that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (_Windows, Android, iOS, macOS, and Web_).
 
 **Version:** `v1.0`
 
@@ -345,7 +345,7 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 [`⇧ Back to Top`]: #table-of-contents "Primary document table of contents"
 
 <!-- Long Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[`<https://github.com/JasonSilvestri/JSopX>`]: https://github.com/JasonSilvestri/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
+[`<https://github.com/JasonSilvestri/OpenProjectX>`]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Core>`]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.ML>`]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Halos>`]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
@@ -353,10 +353,10 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 [`<https://github.com/JasonSilvestri/JSopX.Data>`]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Vault>`]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Presentation>`]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Utilities>`]: https://github.com/JasonSilvestri/JSopX.Utilities "JSopX™ Utilities SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.ClassLibrary>`]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Unitx>`]: https://github.com/JasonSilvestri/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.SaaS>`]: https://github.com/JasonSilvestri/JSopX.SaaS "JSopX™ SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Titrate>`]: https://github.com/JasonSilvestri/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore>`]: https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore "JSopX™ MAUI Titrate SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.EndGame>`]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.HealthTracker>`]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [`<https://github.com/JasonSilvestri/JSopX.Maui.MPA>`]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
@@ -366,7 +366,7 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX GitHub]: https://github.com/JasonSilvestri/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
+[JSopX GitHub]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
 [JSopX.Core GitHub]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
 [JSopX.Data GitHub]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [JSopX.ML GitHub]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
@@ -374,10 +374,10 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 [JSopX.WebApi GitHub]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ Web API SaaS Project"
 [JSopX.Vault GitHub]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [JSopX.Presentation GitHub]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[JSopX.Utilities GitHub]: https://github.com/JasonSilvestri/JSopX.Utilities "JSopX™ Utilities SaaS Project"
+[JSopX.ClassLibrary GitHub]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
 [JSopX.Unitx GitHub]: https://github.com/JasonSilvestri/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
 [JSopX.SaaS GitHub]: https://github.com/JasonSilvestri/JSopX.SaaS "JSopX™ SaaS Project"
-[JSopX.Titrate GitHub]: https://github.com/JasonSilvestri/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.MauiHybridNetCore GitHub]: https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.EndGame GitHub]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker GitHub]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA GitHub]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
@@ -395,10 +395,10 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 [JSopX.WebApi]: /JSopX.BridgeTooFar/docs/md/JSopX.WebApi/README.md "JSopX™ WebAPI SaaS Project"
 [JSopX.Vault]: /JSopX.BridgeTooFar/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
 [JSopX.Presentation]: /JSopX.BridgeTooFar/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
-[JSopX.Utilities]: /JSopX.BridgeTooFar/docs/md/JSopX.Utilities/README.md "JSopX™ Utilities SaaS Project"
+[JSopX.ClassLibrary]: /JSopX.BridgeTooFar/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
 [JSopX.Unitx]: /JSopX.BridgeTooFar/docs/md/JSopX.Unitx/README.md "JSopX™ Unit Testing SaaS Project"
 [JSopX.SaaS]: /JSopX.BridgeTooFar/docs/md/JSopX.SaaS/README.md "JSopX™ SaaS Project"
-[JSopX.Titrate]: /JSopX.BridgeTooFar/docs/md/JSopX.Titrate/README.md "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.MauiHybridNetCore]: /JSopX.BridgeTooFar/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.EndGame]: /JSopX.BridgeTooFar/docs/md/JSopX.EndGame/README.md "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
@@ -415,10 +415,10 @@ Visit the official `Microsoft` vendor site for **`.NET Core MAUI Hybrid and Web`
 [JSopX.Halos (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxhalos "JSopX™ WebAPI SaaS Project"
 [JSopX.Vault (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxvault "JSopX™ Vault SaaS Project"
 [JSopX.Presentation (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxpresentation "JSopX™ Presentation SaaS Project"
-[JSopX.Utilities (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
+[JSopX.ClassLibrary (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
 [JSopX.Unitx (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxunitx "JSopX™ Unit Testing SaaS Project"
 [JSopX.SaaS (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
-[JSopX.Titrate (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.MauiHybridNetCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.EndGame (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxendgame "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxmauimpa "The Original JSopX™ Maui Multi App SaaS Project by Mark"

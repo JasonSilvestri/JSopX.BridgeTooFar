@@ -23,7 +23,7 @@ Any unauthorized attempts to interact with, modify, or redistribute this reposit
 ```
 
 
-> 🛡️ The preceding code block is a template for creating a `CODE_OF_CONDUCT.md` markdown document, and uses a 4 x backtick fencing wrapper to ensure all syntax is properly wrapped in a single markdown snippet.
+> 🛡️ The preceding code block is a template for creating a `CODE_OF_CONDUCT.md` markdown document. You may want to use a 4 x backtick fencing wrapper to ensure all syntax is properly wrapped in a single markdown snippet.
 
 ---
 

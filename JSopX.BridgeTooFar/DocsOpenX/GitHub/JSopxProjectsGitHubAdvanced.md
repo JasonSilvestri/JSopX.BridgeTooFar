@@ -250,7 +250,7 @@ To remove a subtree like `JSopX.ClassLibrary` from your parent repo (`JSopX.Open
 ## Completely Removing Git Subtrees (Including History)
 
 ### Overview
-To erase all traces of multiple subtrees (e.g., `JSopX.ClassLibrary`, `JSopX.Utilities`) from your repo’s history, use `git filter-repo`. This rewrites history to remove both files and commits.
+To erase all traces of multiple subtrees (e.g., `JSopX.ClassLibrary`, `JSopX.ClassLibrary`) from your repo’s history, use `git filter-repo`. This rewrites history to remove both files and commits.
 
 ### Prerequisites
 1. **Install `git-filter-repo`:**
@@ -270,12 +270,12 @@ To erase all traces of multiple subtrees (e.g., `JSopX.ClassLibrary`, `JSopX.Uti
    ```
 
 2. **Identify Subtree Prefixes**
-   List all subtree directories to remove (e.g., `JSopX.ClassLibrary`, `JSopX.Utilities`).
+   List all subtree directories to remove (e.g., `JSopX.ClassLibrary`, `JSopX.ClassLibrary`).
 
 3. **Run `git filter-repo` to Remove Subtrees**
    Remove the specified subtrees and their history:
    ```bash
-   git filter-repo --path JSopX.ClassLibrary --path JSopX.Utilities --invert-paths --force
+   git filter-repo --path JSopX.ClassLibrary --path JSopX.ClassLibrary --invert-paths --force
    ```
    - `--path`: Targets the subtree directories.
    - `--invert-paths`: Removes those paths.
@@ -299,7 +299,7 @@ To erase all traces of multiple subtrees (e.g., `JSopX.ClassLibrary`, `JSopX.Uti
 
 ### Important Notes
 - **Collaboration Impact:** Others will need to rebase or re-clone after the force-push.
-- **Multiple Subtrees:** Add all prefixes in one command (e.g., `--path JSopX.ClassLibrary --path JSopX.Utilities`).
+- **Multiple Subtrees:** Add all prefixes in one command (e.g., `--path JSopX.ClassLibrary --path JSopX.ClassLibrary`).
 - **Undo:** Use your backup if needed.
 
 ---

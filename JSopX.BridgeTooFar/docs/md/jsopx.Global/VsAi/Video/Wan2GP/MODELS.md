@@ -1,4 +1,4 @@
-# Models Overview
+# Self Health® using WanGP — Models Overview
 
 WanGP supports multiple video generation models, each optimized for different use cases and hardware configurations. 
 

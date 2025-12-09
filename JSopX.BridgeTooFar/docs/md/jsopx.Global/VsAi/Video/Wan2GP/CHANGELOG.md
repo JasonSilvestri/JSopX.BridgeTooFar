@@ -1,4 +1,4 @@
-# Changelog
+# Self Health® using WanGP — Changelog
 
 ### October 6 2025: WanGP v8.999 - A few last things before the Big Unknown ...
 

@@ -1,6 +1,6 @@
-# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-bridge-too-far-logo.svg" style="width: 28px; height: auto; margin-right:12px; margin-top:12px;!important;"> JSopX™ Bridge Too Far Project
+# <img src="https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/jsopx-bridge-too-far-logo.svg" style="width: 28px; height: auto; margin-right:12px; margin-top:12px;!important;"> JSopX™ Angular Core Project
 
-The **JSopX™ Bridge Too Far Project**, _code named_, `JSopX.BridgeTooFar` is a totally **FREE**, open-source, Razor Class Library, and has evolved into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Projects, including all Class Libraries, RCLs, server-side and client-side projects. 
+The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API.
 
 ---
 
@@ -30,20 +30,12 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
   - [Overview](#overview)
   - [Prerequisites](#prerequisites)
   - [Step 1: Recreate Using Angular and ASP.NET Core Template](#step-1-recreate-using-angular-and-aspnet-core-template)
-  - [Step 2: Extend Weather Data](#step-2-extend-weather-data)
-  - [Step 3: Integrate OIDC](#step-3-integrate-oidc)
-  - [Step 4: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
-  - [Step 5: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
+  - [Step 2: Add Weather Data](#step-2-extend-weather-data)
+  - [Step 3: Extend Weather Data](#step-2-extend-weather-data)
+  - [Step 4: Integrate OIDC](#step-3-integrate-oidc)
+  - [Step 5: Decouple from Built-In API](#step-4-decouple-from-built-in-api)
+  - [Step 6: Standardize with RCLs and Libraries](#step-5-standardize-with-rcls-and-libraries)
   
----
-
-## Current Phase
-
-> [!IMPORTANT]
->
->**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
-> 
-
 ---
 
 > [!CAUTION]
@@ -55,17 +47,11 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 
 ## Overview
 
-The **JSopX™ Bridge Too Far Project**, _code named_, `JSopX.BridgeTooFar` is a totally **FREE**, open-source, Razor Class Library, and has evolved into a centralized hub for managing and sharing ALL assets and documentation, across all other JSopX™ Projects, including all Class Libraries, RCLs, server-side and client-side projects.
+The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. As a whole, the project highlights the integration of _Angular_ for the client-side with _ASP.NET Core_ for the server-side, providing a comprehensive example of a modern web application stack. Conversely, the project has a much higher calling.
 
-We initially create the project to simulate a [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+We initially create the project to simulate an ["Existing" Client-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Angular application, with its own Web API and existing standards, to conform to the initial [business requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
 As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
-
-The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
-
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
-
-The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -73,7 +59,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.19)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 - [Node (v 20.14.0)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/Node.md)
@@ -89,25 +75,11 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 ---
 
-### 1. **Continue Creating `JSopX.`BridgeTooFar From Scratch**:
-
-- **[Continue](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/RECREATEME.md)** → **Continue** as **you were**, **creating projects** from scratch, step-by-step, using the `JSopX.BridgeTooFar` _From Scratch_ Variant.   
-
----
-
-### 2. **Use Different Variant**:
-
-- **[Install Using Latest](../../OpenProjects/jsopx.BridgeTooFar/README.md)** → **Install** or **explore** the latest version of **this project**, using the `JSopX.BridgeTooFar` _Using Latest_ Variant.  
-- **[Browse By-Phase](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.BridgeTooFar` _By-Phase_ Variant.   
-- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
-
----
-
 ## Step 1: Recreate Using Angular and ASP.NET Core Template
 
 **Goal**: Simulate an existing Angular app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.14.19)**:
+1. **Open Visual Studio 2022 (v 17.14.21)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
@@ -162,7 +134,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      ```
    - Keep `Controllers/WeatherForecastController.cs` as default.
 
-4. **Add Identity + JWT (Simulating Existing Setup)**:
+4. **Add Identity + JWT (Recreate to Simulate Existing Setup)**:
    - Install NuGet: `Microsoft.AspNetCore.Authentication.JwtBearer`.
    - Update `Program.cs`:
 

@@ -13,27 +13,20 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 | Category                              |  Term                                        |   Description                                                                                      |
 |:--------------------------------------|:----------------------------------------------|:--------------------------------------------------------------------------------------------------|
 | Company & Brand                       | `Jason Silvestri Open Project EXperiences (JSopX™)`         |   The official company name.                                                                       |
-| Company & Brand                       | `ICSI`                                        |   The standard abbreviation and short name for Independent Care Systems Inc.                       |
+| Company & Brand                       | `Jason Silvestri`                                        |   The standard abbreviation and short name for Independent Care Systems Inc.                       |
 | Company & Brand                       | [`jsopx.com`]                           |   The official Independent Care Systems Inc. website                       |
-| Company & Brand                       | `JSopX™`                                 |   The brand name for ICSI's suite of SaaS products and services focused on patient self-management and wellness. |
+| Company & Brand                       | `JSopX™`                                 |   The brand name for Jason Silvestri's suite of SaaS products and services focused on patient self-management and wellness. |
 | Company & Brand                       | `SaaS`                                        |   Software as a Service delivery model utilized by the "Self Health" brand.                        |
 | JSopX Projects                   | 🛡️&nbsp;[`JSopX`]                               |   Parent enterprise-level Git Sub Tree project (each project also has its own origin repository).  |
 | JSopX Projects                   | 🗂&nbsp;[`JSopX.BridgeTooFar`]                             |   Document Management pipeline for markdown, PDF, Word conversion, Docs processing.                |
 | JSopX Projects                   | 🧩&nbsp;[`JSopX.Core`]                           |   Domain models, value objects, validation logic, shared abstractions.                             |
 | JSopX Projects                   | 💾&nbsp;[`JSopX.Data`]                           |   **_Code First_** EF Core 9 data access layer, DbContext, migrations.                             |
-| JSopX Projects                   | 🧮&nbsp;[`JSopX.Utilities`]                      |   Shared tooling, scripts, guard utilities, constants, enums.                                      |
-| JSopX Projects                   | 🔐&nbsp;[`JSopX.Vault`]                          |   Encrypted secret management (dev filesystem provider + Azure providers).                         |
+| JSopX Projects                   | 🧮&nbsp;[`JSopX.ClassLibrary`]                      |   Shared tooling, scripts, guard utilities, constants, enums.                                      |
 | JSopX Projects                   | 🌐&nbsp;[`JSopX.WebApi`]                         |   Public API gateway bridging Core, Data, and Presentation.                                        |
-| JSopX Projects                   | 🧠&nbsp;[`JSopX.ML`]                             |   Predictive analytics and ML services (pluggable).                                                |
 | JSopX Projects                   | 🧬&nbsp;[`JSopX.Halos`]                      |   **Halo{} is a Universal AI Design Pattern for Dual-Partner Incremental Redesign**, a 2025 modern **LLM + Quant** backbone pattern for rapid, *reproducible* AI-powered development (_including chat “cold-starts”_). |
 | JSopX Projects                   | 🎨&nbsp;[`JSopX.Presentation`]                   |   Razor Class Library (RCLs) and Maui Class Library (CLs) for shared UI components, styles, assets.|
-| JSopX Projects                   | 🩺&nbsp;[`JSopX.HealthTracker`]                  |   Cross-platform .NET MAUI hybrid and Web (v 9.0+) app for health tracking Height, Body Weight, Exercise, Food, Lab Results, Log Entry, Lookup Items, Medication Entry, User Targets, Vitals personalized custom entries and more (Windows, Android, iOS, macOS, and Web). |
-| JSopX Projects                   | 💖&nbsp;[`JSopX.Titrate`]                        |   Cross-platform MAUI hybrid app for medication titration (Windows, Android, iOS, macOS, and Web). |
-| JSopX Projects                   | 📊&nbsp;[`JSopX.Maui.MPA`]                   |   Cross-platform MAUI Hybrid App and Web Multi App Library (Windows, Android, iOS, macOS, and Web).|
-| JSopX Projects                   | 🧪&nbsp;[`JSopX.Unitx`]                          |   Unified tests (xUnit) for Core, Data, WebApi.                                                   |
+| JSopX Projects                   | 💖&nbsp;[`JSopX.MauiHybridNetCore`]                        |   Cross-platform MAUI hybrid app demonstration project (Windows, Android, iOS, macOS, and Web). |
 | JSopX Projects                   | 💻&nbsp;[`JSopX.SaaS`]                           |   A multi-host **starter portal** that showcases newly manufactured **JSopX™** **_SaaS_** services, in rapid succession, across our [`JSopX.SaaS[` SPA (HTML), ASP.NET Core (Razor), and MAUI (Blazor Hybrid and Web) Projects. |
-| JSopX Projects                   | ☁️&nbsp;[`JSopX.CRM`]                            |   A first-party CRM for ICSI that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI. |
-| JSopX Projects                   | 🔄&nbsp;[`JSopX.PLM`]                            |   A first-party PLM (Product Lifecycle Management) system for ICSI that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI. |
 | JSopX Common                     | ⚙️&nbsp;[`Workflow States`]                           |   A series of states in which any work item can be in, regardless of level of a unit of work. |
 | Operating Systems                     | [`Windows`]                                     |   The operating system used across the organization (version 10+).                                 |
 | Development Environments & Frameworks | [`Visual Studio`]                           |   The integrated development environment (IDE) for .NET development (v 17.14.21).                  |
@@ -152,7 +145,7 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 [`⇧ Back to Top`]: #table-of-contents "Primary document table of contents"
 
 <!-- Long Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[`<https://github.com/JasonSilvestri/JSopX>`]: https://github.com/JasonSilvestri/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
+[`<https://github.com/JasonSilvestri/OpenProjectX>`]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Core>`]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.ML>`]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Halos>`]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
@@ -160,10 +153,10 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 [`<https://github.com/JasonSilvestri/JSopX.Data>`]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Vault>`]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Presentation>`]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Utilities>`]: https://github.com/JasonSilvestri/JSopX.Utilities "JSopX™ Utilities SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.ClassLibrary>`]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.Unitx>`]: https://github.com/JasonSilvestri/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.SaaS>`]: https://github.com/JasonSilvestri/JSopX.SaaS "JSopX™ SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Titrate>`]: https://github.com/JasonSilvestri/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[`<https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore>`]: https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore "JSopX™ MAUI Titrate SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.EndGame>`]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
 [`<https://github.com/JasonSilvestri/JSopX.HealthTracker>`]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [`<https://github.com/JasonSilvestri/JSopX.Maui.MPA>`]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
@@ -173,7 +166,7 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 [`<https://github.com/JasonSilvestri/JSopX.AngularCore>`]: https://github.com/JasonSilvestri/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX GitHub]: https://github.com/JasonSilvestri/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
+[JSopX GitHub]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
 [JSopX.Core GitHub]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
 [JSopX.Data GitHub]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
 [JSopX.ML GitHub]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
@@ -181,10 +174,10 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 [JSopX.WebApi GitHub]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ Web API SaaS Project"
 [JSopX.Vault GitHub]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
 [JSopX.Presentation GitHub]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[JSopX.Utilities GitHub]: https://github.com/JasonSilvestri/JSopX.Utilities "JSopX™ Utilities SaaS Project"
+[JSopX.ClassLibrary GitHub]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
 [JSopX.Unitx GitHub]: https://github.com/JasonSilvestri/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
 [JSopX.SaaS GitHub]: https://github.com/JasonSilvestri/JSopX.SaaS "JSopX™ SaaS Project"
-[JSopX.Titrate GitHub]: https://github.com/JasonSilvestri/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.MauiHybridNetCore GitHub]: https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.EndGame GitHub]: https://github.com/JasonSilvestri/JSopX.EndGame "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker GitHub]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA GitHub]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
@@ -202,10 +195,10 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 [`JSopX.WebApi`]: /JSopX.BridgeTooFar/docs/md/JSopX.WebApi/README.md "JSopX™ WebAPI SaaS Project"
 [`JSopX.Vault`]: /JSopX.BridgeTooFar/docs/md/JSopX.Vault/README.md "JSopX™ Vault SaaS Project"
 [`JSopX.Presentation`]: /JSopX.BridgeTooFar/docs/md/JSopX.Presentation/README.md "JSopX™ Presentation SaaS Project"
-[`JSopX.Utilities`]: /JSopX.BridgeTooFar/docs/md/JSopX.Utilities/README.md "JSopX™ Utilities SaaS Project"
+[`JSopX.ClassLibrary`]: /JSopX.BridgeTooFar/docs/md/JSopX.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
 [`JSopX.Unitx`]: /JSopX.BridgeTooFar/docs/md/JSopX.Unitx/README.md "JSopX™ Unit Testing SaaS Project"
 [`JSopX.SaaS`]: /JSopX.BridgeTooFar/docs/md/JSopX.SaaS/README.md "JSopX™ SaaS Project"
-[`JSopX.Titrate`]: /JSopX.BridgeTooFar/docs/md/JSopX.Titrate/README.md "JSopX™ MAUI Titrate SaaS Project"
+[`JSopX.MauiHybridNetCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.MauiHybridNetCore/README.md "JSopX™ MAUI Titrate SaaS Project"
 [`JSopX.HealthTracker`]: /JSopX.BridgeTooFar/docs/md/JSopX.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
 [`JSopX.EndGame`]: /JSopX.BridgeTooFar/docs/md/JSopX.EndGame/README.md "The Original JSopX™ Maui End Game Project by Mark"
 [`JSopX.Maui.MPA`]: /JSopX.BridgeTooFar/docs/md/JSopX.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
@@ -222,10 +215,10 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 [JSopX.Halos (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxhalos "JSopX™ WebAPI SaaS Project"
 [JSopX.Vault (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxvault "JSopX™ Vault SaaS Project"
 [JSopX.Presentation (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxpresentation "JSopX™ Presentation SaaS Project"
-[JSopX.Utilities (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
+[JSopX.ClassLibrary (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
 [JSopX.Unitx (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxunitx "JSopX™ Unit Testing SaaS Project"
 [JSopX.SaaS (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
-[JSopX.Titrate (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.MauiHybridNetCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
 [JSopX.EndGame (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxendgame "JSopX™ MAUI End Game SaaS Project"
 [JSopX.HealthTracker (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxtitrate "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA (v 1.0)]: /JSopX.BridgeTooFar/docs/md/JSopX.Global/Solutions/README.md#-jsopxmauimpa "The Original JSopX™ Maui Multi App SaaS Project by Mark"

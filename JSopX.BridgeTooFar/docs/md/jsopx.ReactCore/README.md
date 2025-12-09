@@ -66,7 +66,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.ReactCore` Project.
 
-- [Visual Studio (v 17.14.19)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
+- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../OpenProjects/jsopx.ReactCore/p1/v1/Technologies/#node)
@@ -88,15 +88,15 @@ These resources served as the primary references during the development of the a
 
 The **JSopX™ React Core Project** addresses **several** high-level **business concerns**, not only shown through design patterns and best practices within its own JSopX™ Project ecosystem, but ultimately as it evolves into a valuable project component of the Jason Silvestri Open Project EXperiences (JSopX™) Enterprise Application too. 
 
-[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-recreate-to-simulate-an-existing-project)
 
 ---
 
-## **1. Simulating an Existing Project**:
+## **1. Recreate to Simulate an Existing Project**:
 
 We initially create the **JSopX™ React Core Project** to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) Weather Forecast React Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
 
-![Jason Silvestri Open Project EXperiences (JSopX™) 1. Simulating an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-1.png)
+![Jason Silvestri Open Project EXperiences (JSopX™) 1. Recreate to Simulate an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-1.png)
 
 [`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
 
@@ -113,7 +113,7 @@ JSopX™ Enterprise application development isn't just about writing code—it's
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 2. Create Our Development Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-2.png)
 
-[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-recreate-to-simulate-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
 
 ---
 
@@ -248,7 +248,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.ReactCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../../Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.ReactCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)

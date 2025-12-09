@@ -85,11 +85,11 @@ JSopX/
 ├─ SECURITY.md
 ├─ .gitignore
 ├─ JSopX.sln
-├─ JSopX.Utilities/
+├─ JSopX.ClassLibrary/
 │  ├─ JSopX.Abstractions.csproj
 │  ├─ JSopX.Common.csproj
 │  ├─ JSopX.Contracts.csproj
-│  ├─ JSopX.Utilities.csproj
+│  ├─ JSopX.ClassLibrary.csproj
 ├─ JSopX.Presentation/
 │  ├─ JSopX.Presentation.Dev.RCL.csproj
 │  ├─ JSopX.Presentation.Prod.RCL.csproj
@@ -201,7 +201,7 @@ Use Node.js and npm with `degit` to clone the repository without its `.git` hist
 [`Back to Top`](#clone-helix-git-repository)
 
 ---
-These files are more direct, and we tailor this repo’s “front matter” the way we do for each project, with **all the right ownership, tone, and restrictions for Mark & ICSI**. That way, when someone stumbles across the repo, there’s no ambiguity: it’s proprietary, private, and not open to contribution.
+These files are more direct, and we tailor this repo’s “front matter” the way we do for each project, with **all the right ownership, tone, and restrictions for Mark & Jason Silvestri**. That way, when someone stumbles across the repo, there’s no ambiguity: it’s proprietary, private, and not open to contribution.
 
 ---
 
@@ -227,7 +227,7 @@ It is not open to contributions, forks, or redistribution.
 - Web hosting logic lives in: `MAUI_Self_Health_Tracker.Web`
 - MAUI Hybrid application code lives in: `MAUI_Self_Health_Tracker`
 
-Future renames will follow the `ICSI.JSopX.*` namespace convention.  
+Future renames will follow the `Jason Silvestri.JSopX.*` namespace convention.  
 Public branding will use the **JSopX™** trademark.
 
 ---
@@ -295,7 +295,7 @@ This gives you:
 * **README.md**: clear project description, private notice, branding, attribution block.
 * **LICENSE**: strict proprietary + JSopX™ trademark.
 * **CODE_OF_CONDUCT.md**: blunt “not open, no forks, no contributions.”
-* **SECURITY.md**: directs everything through Mark/ICSI, no public disclosure.
+* **SECURITY.md**: directs everything through Mark/Jason Silvestri, no public disclosure.
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -320,7 +320,7 @@ Unauthorized use, modification, or distribution of this software is strictly pro
 [1]: http://jsopx.com "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Products, Services and SaaS Services"
 [2]: https://github.com/JasonSilvestri "Jason Silvestri Open Project EXperiences (JSopX™) GitHub Repository"
 [3]: mailto:therealjasonsilvestri@gmail.com "Jason Silvestri Open Project EXperiences (JSopX™) Email Contact for Mark Silvetri"
-[4]: https://github.com/JasonSilvestri/JSopX "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Solution GitHub Repository"
+[4]: https://github.com/JasonSilvestri/OpenProjectX "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Solution GitHub Repository"
 [5]: https://github.com/JasonSilvestri/JSopX/blob/master/README.md "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Solution GitHub Home README.md"
 [6]: ./README.md "JSopX™ Solution Home README.md"
 [7]: ./README.md "JSopX™ SaaS Solution Project README.md"

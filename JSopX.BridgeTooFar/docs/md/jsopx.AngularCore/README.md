@@ -66,16 +66,13 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
 
-
-
-
 ---
 
 ## **Prerequisites**
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AngularCore` Project.
 
-- [Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)
+- [Visual Studio (v 17.14.21)](../../Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../Technologies/#aspnet-core)
 - [Node.js (v 20.14.0)](../../Technologies/#node)
@@ -84,163 +81,86 @@ Be sure each technology is installed, with proper versioning, if your goal is to
 
 ---
 
-## **Getting Started**
+## **Project Highlights**
 
-Carefully _choose_ the variant approach below that fits your current objective:
+The **JSopX™ Angular Core Project** is designed to demonstrate best practices in building a modern web application using Angular for the front-end and ASP.NET Core for the back-end.
 
----
+### **Business Concerns Addressed**
 
-### 1. **Continue Installing `JSopX.`AngularCore**:
+The **JSopX™ Angular Core Project** addresses **several** high-level **business concerns**, not only shown through design patterns and best practices within its own JSopX™ Project ecosystem, but ultimately as it evolves into a valuable project component of the Jason Silvestri Open Project EXperiences (JSopX™) Enterprise Application too. 
 
-- **[Continue](#step-1-clone-the-repository)** → **Continue** as **you were**, exploring and/or installing the `JSopX.AngularCore` _Using Latest_ Variant.  
-
----
-
-### 2. **Use Different Variant**:
-
-- **[Browse By-Phase](../../OpenProjects/jsopx.AngularCore/p1/v1/README.md)** → **Browse** **previous versions** of the application by **phases** using the `JSopX.AngularCore` _By-Phase_ Variant.   
-- **[Start From Scratch](../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md)** → **Create project** from scratch, step-by-step, using the `JSopX.AngularCore` _From Scratch_ Variant.
-- **[Get All Projects](../../OpenProjects/jsopx.OpenProjectX/README.md)** → **Get all projects** instead, using the `JSopX.OpenProjectX` Enterprise Application.
+[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-recreate-to-simulate-an-existing-project)
 
 ---
 
-## **Step 1: Clone the Repository**
+### **1. Recreate to Simulate an Existing Project**:
 
-_Clone_ the `JSopX.AngularCore` GitHub Repository if you plan to explore it independently from the rest of the projects.
+We initially create the **JSopX™ React Core Project** to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) Weather Forecast React Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
 
-Choose the approach below that fits your environment:  
+![Jason Silvestri Open Project EXperiences (JSopX™) 1. Recreate to Simulate an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-angular-core/in-markdown/react-splash-simulate-container-markdown-step-1.png)
 
-- **[Bash](#step-11-using-bash)** → Ideal for **Linux, macOS, and Windows (WSL/Git Bash)** users.  
-- **[PowerShell](#step-12-using-powershell)** → Best for **Windows** users.  
-- **[Node.js](#step-13-using-nodejs-or-npm-degit)** → A lightweight option for developers using **JavaScript-based workflows**.  
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
 
 ---
 
-### **Step 1.1: Using `Bash`:**
- 
-```bash
+### **2. Create Our Development Standards**: 
 
- # Using Bash: Clone JSopX.AngularCore Git Repository
+JSopX™ Enterprise application development isn't just about writing code—it's about creating scalable, maintainable, and secure solutions that stand the test of time. This takes a series of disciplines that provide the framework for sustainable success, ensuring every project delivers efficiency, performance, and an exceptional developer experience.
 
- # 1. Navigate to the desired local directory where you plan to clone the repository
- cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
-
- # 2. Clone JSopX.AngularCore Git Repository       
- git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
-    
-```
-
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-### **Step: 1.2: Using `Powershell`:**
-
-```powershell
-
- # Using PowerShell: Clone JSopX.AngularCore Git Repository
-
- # 1. Navigate to the desired local directory where you plan to clone the repository
- cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
-
- # 2. Clone JSopX.AngularCore Git Repository       
- git clone https://github.com/JasonSilvestri/JSopX.AngularCore.git
-    
-```
-
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-### **Step: 1.3: Using `Node.js` or `npm` (degit):**
- 
-```shell
-
- # Using Node.js / npm : Clone JSopX.AngularCore Git Repository
- # 1. Navigate to the desired local directory where you plan to clone the repository
- cd path\to\local\repo\JasonSilvestri\JSopX.AngularCore
-    
- # 2. Using npx degit to clone without .git history
- npx degit https://github.com/JasonSilvestri/JSopX.AngularCore
-
-```
-
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-## **Step 2: Open the Solution**
-
-Working with the `JSopX.AngularCore` Project in Visual Studio is simple enough.
-
-1. Launch **[Visual Studio (v 17.14.19)](../../Technologies/#visual-studio)**.
-2. Open the solution file: `JSopX.AngularCore.sln`.
-
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-## **Step 3: Configure the Project**
-
-> [!TIP]
+> [!WARNING]
 >
-> Latest versions of [Visual Studio](../../Technologies/#visual-studio) performs this step regularly, dropping and restoring project dependencies, nuget packages and other resources between builds automatically (*by design*). Still, it is good practice to at least be aware of the commands outlined in this step.
+>The **biggest mistake** _businesses_ and/or their _developers_ make is not following some form of development standards.
 > 
 
----
+![Jason Silvestri Open Project EXperiences (JSopX™) 2. Create Our Development Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-2.png)
 
-### **Step: 3.1: Ensure Dependencies Are Restored:**
-
-Ensure `JSopX.AngularCore` Project dependencies are restored:
-
-   ```bash
-   npm install
-   ```
-
-
-[`⇧ Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-recreate-to-simulate-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
 
 ---
 
-### **Step: 3.2: Verify Nuget Packages:**
+### **3. Multi-Platform Creative Standards**: 
 
-Verify that all NuGet packages are up to date:
+A visually inconsistent application creates confusion. Every JSopX™ project must maintain standardized UI/UX elements. We quickly design and customize multi-platform, web, desktop & native mobile applications, using Bootstrap v 5.3, which we then extend as we go by creating RCLs (_Razor Class Libraries_). 
 
-   ```bash
-   dotnet restore
-   ```
-   
-[`⇧ Back to Top`](#table-of-contents)
+![Jason Silvestri Open Project EXperiences (JSopX™) 3. Multi-Platform Creative Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-3.png)
+
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#2-create-our-development-standards) [`Next »`](#4-using-object-oriented-programming)
 
 ---
 
-## **Step 4: Be Sure to Build and Run**
+### **4. Using Object-Oriented Programming**:
 
-Building and Running the `JSopX.AngularCore` Project in Visual Studio is also another simple task.
+Enterprise applications must be **modular**, **reusable**, and **scalable** using **Object-Oriented Programming (OOP)**. 
 
-### **Step: 4.1: Build and Run**:
+We create Classes, RCLs, Web APIs, and other Resource Libraries, sharing resources across the JSopX™ ecosystem seamlessly. More rewarding, because we put the work in up front with developing & following standards, developers get to work on cooler things they are more passionate about too, like _Feature Highlights_.
 
-1. Build the solution in [Visual Studio](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/#visual-studio).
-2. Run the project:
-   - Use the **IIS Express** profile for local development.
+![Jason Silvestri Open Project EXperiences (JSopX™) 4. Using Object-Oriented Programming](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-4.png)
 
----
-
-### **Step: 4.2: And Now Your Done**:
-
-Assuming the `JSopX.AngularCore` Project is running as expected, **you are now done** with the **installation** and **execution** of the project!
-
-1. **Skip Remaining Steps**: 
-   - Technically, you could skip to the [Next Steps](#next-steps) section if you are on a project-by-project installation mission.
-2. **Conclude Remaining Steps**:
-   - **Me personally?** I would continue on to the remaining steps _below_, starting at **[Step 5: Project Structure](#step-5-project-file-structure)**. There is just very useful information related to the project that I would find helpful.
-
-[`⇧ Back to Top`](#table-of-contents)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#3-multi-platform-creative-standards) [`Next »`](#5-we-get-to-extend-existing-project)
 
 ---
 
+### **5. We Get to Extend Existing Project**:
 
-## **Step 5: Project File Structure**
+As the project evolves through each Lifecycle Phase, we extend the application by creating new user interfaces, such as dashboards, logins, registration, in addition to being able to apply the standardized assets and resources we took the time to develop, implement security and writing documentation a well oiled machine and team relies on, and more!
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 5. We Get to Extend Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-5.png)
+
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#4-using-object-oriented-programming) [`Next »`](#6-we-become-a-functioning-project-of-the-jsopx-enterprise-solution)
+
+---
+
+### **6. We Become A Functioning Project of the JSopX™ Enterprise Solution**:
+
+The seamless integration into an enterprise-level application, adopting standardized Web API access, design patterns, and shared resources across the ecosystem.
+
+![Jason Silvestri Open Project EXperiences (JSopX™) 6. We Become A Functioning Project of the JSopX™ Enterprise Solution](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-6.png)
+
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#5-we-get-to-extend-existing-project) [`Next »`](#getting-started)
+
+---
+
+## **Project File Structure**
 
 The `JSopX.AngularCore` Project in particular, contains several files and directories, all with their own functionality & purpose for existing. 
 
@@ -248,7 +168,7 @@ For brevity, samples will not have the complete file structure you get when inst
 
 ---
 
-### **Step: 5.1: Structured Project & Solution Considerations**:
+### **Structured Project & Solution Considerations**:
 
 All `JSopX™ projects` follow a consistent directory structure. 
 
@@ -257,71 +177,23 @@ All `JSopX™ projects` follow a consistent directory structure.
 3. I create a **Client-Side** Project Folder for `.esproj` project files, and related files
 4. I create a similar **Server-Side** Project Folder for `.csproj`, and related files.
 
-A common, plain-text file folder structure of the `JSopX.AngularCore` Solution and Projects should look something like what follows:
+A common, file folder structure of the `JSopX.AngularCore` Solution and Projects should look something like what follows:
 
-```plaintext
-# JSopX™ Angular Core Solution and Projects
 
-JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio Solution folder.
-├── JSopX.AngularCore.sln                 # Visual Studio solution file for Angular Core.
-├── PathConfig.targets                    # Centralized MSBuild target configuration for project references.
-├── jsopx.angularcore.client/             # Angular client-side application folder.
-│   ├── jsopx.angularcore.client.esproj   # Angular CLI Visual Studio Client Project configuration file.
-├── JSopX.AngularCore.Server/             # ASP.NET Core server-side application folder.
-│   ├── JSopX.AngularCore.Server.csproj   # Angular CLI Visual Studio Server Project configuration file.
-
-```
-
-There are a few reasons why I do this, but the primary reason is ensuring references are managed effectively and circular dependencies are avoided.
+| **File/Directory**                        | **Description**                                                                                   |
+|:------------------------------------------|:--------------------------------------------------------------------------------------------------|
+| &nbsp;📁&nbsp;**JSopX.AngularCore/**&nbsp;                | Parent `JSopX.AngularCore` Visual Studio Solution folder, containing both client and server code.|
+| &nbsp;├&nbsp;📝&nbsp;`JSopX.AngularCore.sln`&nbsp;            | Visual Studio `.sln` solution file linking the client and server projects. |
+| &nbsp;├&nbsp;📁&nbsp;**jsopx.angularcore.client**&nbsp;         | Angular client-side application folder, housing the front-end implementation. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx.angularcore.client.esproj`&nbsp;     | Angular client-side Visual Studio project `.esproj` configuration file. |
+| &nbsp;├&nbsp;📁&nbsp;**JSopX.AngularCore.Server**&nbsp;         | ASP.NET Core server-side folder for back-end logic and API endpoints. |
+| &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`JSopX.AngularCore.Server.csproj`&nbsp;     | Angular server-side Visual Studio project `.csproj` configuration file. |
 
 [`⇧ Back to Top`](#table-of-contents)
 
 ---
 
-### **Step: 5.2: Structured File Tree**:
-
-A common, plain-text file structure of the `JSopX.AngularCore` Project files and directories that matter.
-
-```plaintext
-# JSopX™ Angular Core Project
-
-JSopX.AngularCore/                        # Root JSopX.AngularCore Visual Studio Solution folder.
-├── .gitattributes                        # Git attributes file for repository metadata and configurations.
-├── .gitignore                            # Specifies files and directories to ignore in version control.
-├── JSopX.AngularCore.sln                 # Visual Studio solution file for Angular Core.
-├── LICENSE.txt                           # Licensing information for the project.
-├── PathConfig.targets                    # Centralized MSBuild target configuration for project references.
-├── README.md                             # High-level project documentation.
-├── jsopx.angularcore.client/             # Angular client-side application folder.
-│   ├── jsopx.angularcore.client.esproj   # Angular CLI Visual Studio Client Project configuration file.
-│   ├── angular.json                      # Angular CLI workspace configuration file.
-│   ├── package.json                      # NPM dependencies and project metadata.
-│   ├── src/                              # Main source directory for the Angular app.
-│   │   ├── app/                          # Core Angular modules, components, and routing.
-│   │   │   ├── app-routing.module.ts     # Defines route configurations for Angular components.
-│   │   │   ├── app.component.css         # Styles for the main application component.
-│   │   │   ├── app.component.html        # HTML template for the main application component.
-│   │   │   ├── app.component.spec.ts     # Unit test file for the main application component.
-│   │   │   ├── app.component.ts          # TypeScript logic for the main application component.
-│   │   │   ├── app.module.ts             # Root Angular module that declares components and imports dependencies.
-│   │   ├── index.html                    # Root HTML file to bootstrap the Angular app.
-│   │   ├── main.ts                       # Main entry point for Angular application.
-│   │   ├── proxy.conf.js                 # Configuration file for setting up API proxying in Angular.
-│   │   ├── styles.css                    # Global stylesheet for Angular application.
-├── JSopX.AngularCore.Server/             # ASP.NET Core server-side application folder.
-│   ├── JSopX.AngularCore.Server.csproj   # Angular CLI Visual Studio Server Project configuration file.
-│   ├── Program.cs                        # Main entry point for the ASP.NET Core server.
-│   ├── Controllers/                      # API controllers exposing server endpoints.
-│   ├── appsettings.json                  # Application settings file for configuration.
-│   └── WeatherForecast.cs                # Example Weather Forecast model class (default template).
-
-```
-
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-### **Step: 5.3: Structured Table**:
+### **Structured Table**:
 
 A table structure of the same with no tree legs `JSopX.AngularCore` Project, files and resources.
 
@@ -332,9 +204,16 @@ A table structure of the same with no tree legs `JSopX.AngularCore` Project, fil
 | &nbsp;├&nbsp;📝&nbsp;`.gitattributes`&nbsp;                   | Git attributes file for repository metadata and configurations. |
 | &nbsp;├&nbsp;📝&nbsp;`.gitignore `&nbsp;                      | Specifies files and directories to ignore in version control. |
 | &nbsp;├&nbsp;📝&nbsp;`JSopX.AngularCore.sln`&nbsp;            | Visual Studio `.sln` solution file linking the client and server projects. |
-| &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt`&nbsp;                      | Licensing information for the project (generally `MIT` open-source license). |
 | &nbsp;├&nbsp;📝&nbsp;`PathConfig.targets`&nbsp;               | Centralized MSBuild target configuration for project references, used in conjunction with Git Sub Trees, to retain all files and references, while dynamically resetting reference paths if necessary. |
-| &nbsp;├&nbsp;📝&nbsp;`README.md`&nbsp;                      | The current, most recent, primary project README `.md` file. |
+| &nbsp;├&nbsp;📝&nbsp;`LICENSE.txt` | Most current `JSopX.AngularCore` *Licensing* information for the project (generally `MIT` open-source license). |
+| &nbsp;├&nbsp;📝&nbsp;`README.md` | Most current `JSopX.AngularCore` *README* `.md` file that provides an overview of the project, its purpose, and how to get started (*a.k.a.*, `Intro`). |
+| &nbsp;├&nbsp;📝&nbsp;`REINSTALLME.md` | Most current `JSopX.AngularCore` *REINSTALLME* `.md` file that describes installation guide that provides step-by-step instructions on how to install and set up the project (*a.k.a.*, `Install`). |
+| &nbsp;├&nbsp;📝&nbsp;`REDEBRIEFME.md` | Most current `JSopX.AngularCore` *REDEBRIEFME* `.md` file that describes the briefing document that outlines the purpose, goals, architecture, and key components of the project (*a.k.a.*, `Debrief`). |
+| &nbsp;├&nbsp;📝&nbsp;`RECREATEME.md` | Most current `JSopX.AngularCore` *RECREATEME* `.md` file is the step-by-step guide that provides detailed instructions on how to create the project from scratch (*a.k.a.*, `Recreate`). |
+| &nbsp;├&nbsp;📝&nbsp;`SECURITY.md` | Most current `JSopX.AngularCore` *SECURITY* `.md` file is the *security policy* that outlines how to report security vulnerabilities and the project's approach to security (*a.k.a.*, `Security`). |
+| &nbsp;├&nbsp;📝&nbsp;`CODE_OF_CONDUCT.md` | Most current `JSopX.AngularCore` *CODE_OF_CONDUCT* `.md` file is the *code of conduct* that sets the expectations for behavior within the project community (*a.k.a.*, `Conduct`). |
+| &nbsp;├&nbsp;📝&nbsp;`CONTRIBUTING.md` | Most current `JSopX.AngularCore` *CONTRIBUTING* `.md` file is the *contributing guidelines* that outline how developers can contribute to the project, including coding standards, pull request processes, and issue reporting (*a.k.a.*, `Contributing`). |
+| &nbsp;├&nbsp;📝&nbsp;`CHANGELOG.md` | Most current `JSopX.AngularCore` *CHANGELOG* `.md` file is the *changelog* that tracks changes, updates, and versions of the project over time (*a.k.a.*, `changelogs`). |
 | &nbsp;├&nbsp;📁&nbsp;**jsopx.angularcore.client**&nbsp;         | Angular client-side application folder, housing the front-end implementation. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`jsopx.angularcore.client.esproj`&nbsp;     | Angular client-side Visual Studio project `.esproj` configuration file. |
 | &nbsp;&nbsp;&nbsp;&nbsp;├&nbsp;📝&nbsp;`angular.json`&nbsp;                     | Angular CLI configuration file for workspace and project settings. |
@@ -363,7 +242,7 @@ A table structure of the same with no tree legs `JSopX.AngularCore` Project, fil
 
 ---
 
-## **Step 6: JSopX™ Project References & Dependencies**
+## **JSopX™ Project References & Dependencies**
 
 > [!TIP]
 >
@@ -392,91 +271,6 @@ The `JSopX.AngularCore` Project has the following `JSopX` Project Dependencies:
    - An extremely light-weight, [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
    - **Explore GitHub**: [JSopX.RCLxProper](../../OpenProjects/jsopx.RCLxProper)
 
-
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-## **Step 7: Usage**
-
-Although the `JSopX.AngularCore` project is primarily designed as a self-contained demonstration project, it is fully capable of integration with other JSopX™ projects. Here's how to add it to your project:
-
----
-
-### **Step 7.1: Adding the JSopX™ Angular Core to Other Projects**
-
-1. **Add Project Reference**:
-   - Open your solution in Visual Studio.
-   - Right-click the project that will use `JSopX.AngularCore` and select `Add > Project Reference`.
-   - Check the box for `JSopX.AngularCore` and click `OK`.
-
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-## **Step 8: Extended Usage**
-
-> [!TIP]
-> These particular `Extended Usage` examples **are not** required to implement. They are just example extended usages for those of whom are new to projects like the `JSopX.AngularCore` Project.
->
-
----
-
-## **Step 8:1. Extend Angular Client Project**
-
-1. Modify the `proxy.conf.js` file to configure the API URL.
-2. Use Angular services to consume APIs exposed by the server project.
-
-   **Example service file in `Angular`**:
-   ```typescript
-   import { HttpClient } from '@angular/common/http';
-   import { Injectable } from '@angular/core';
-
-   @Injectable({
-     providedIn: 'root',
-   })
-   export class ExampleService {
-     private apiUrl = 'https://localhost:5001/api/example';
-
-     constructor(private http: HttpClient) {}
-
-     getExampleData() {
-       return this.http.get(`${this.apiUrl}`);
-     }
-   }
-   ```
- 
-[`⇧ Back to Top`](#table-of-contents)
-
----
-
-### **Step 8:2. ASP.NET Core Server Project**
-
-1. Add dependency injection for shared services in `Program.cs`:
-
-   ```csharp
-   builder.Services.AddScoped<ExampleService>();
-   ```
-
-2. Create or modify controllers to expose endpoints:
-
-   ```csharp
-   [ApiController]
-   [Route("api/[controller]")]
-   public class ExampleController : ControllerBase {
-       private readonly ExampleService _service;
-
-       public ExampleController(ExampleService service) {
-           _service = service;
-       }
-
-       [HttpGet]
-       public IActionResult GetExample() {
-           var data = _service.GetExampleData();
-           return Ok(data);
-       }
-   }
-   ```
 
 [`⇧ Back to Top`](#table-of-contents)
 

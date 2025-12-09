@@ -1,4 +1,4 @@
-# Installation Guide
+# Self Health® using WanGP — Installation Guide
 
 This guide covers installation for specific RDNA3 and RDNA3.5 AMD CPUs (APUs) and GPUs
 running under Windows. 

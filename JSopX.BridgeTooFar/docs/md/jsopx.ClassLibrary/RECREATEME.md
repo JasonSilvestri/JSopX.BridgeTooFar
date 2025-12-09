@@ -73,7 +73,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.19)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.14.21)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.2.1)](../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 
@@ -105,7 +105,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Build a shared utility library with properties and helpers (e.g., cryptography, JWT utilities).
 
-1. **Open Visual Studio 2022 (v 17.14.19)**:
+1. **Open Visual Studio 2022 (v 17.14.21)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:

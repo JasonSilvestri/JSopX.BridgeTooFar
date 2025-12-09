@@ -50,7 +50,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
 
 ---
 
-## 🧮 JSopX.Utilities
+## 🧮 JSopX.ClassLibrary
 
 **Purpose:** Shared tooling, scripts, guard utilities, constants, enums.  
 **Highlights**
@@ -60,7 +60,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
 
 **Repository Locations**:
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.Utilities](https://github.com/JasonSilvestri/JSopX.Utilities)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.ClassLibrary](https://github.com/JasonSilvestri/JSopX.ClassLibrary)
  
 ---
 
@@ -143,7 +143,7 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 
 ---
 
-## 💖 JSopX.Titrate 
+## 💖 JSopX.MauiHybridNetCore 
 **Purpose:** Cross-platform MAUI hybrid app for medication titration (Windows, Android, iOS, macOS, and Web).  
 
 **Highlights**:
@@ -151,11 +151,11 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 - **MVP for titration workflows**: offline EF Core 9 DB, BlazorWebView hybrid UI.
 - **Caching and Automation**: Local caching, telemetry sync, reminders, titration generator.
 - **Future**: pill-bottle camera scanning, voice-to-schedule, OpenAI integrations.
-- **Multiple Projects**: `JSopX.Titrate.Maui`, `JSopX.Titrate.Maui.Shared`, `JSopX.Titrate.Maui.Web` and `JSopX.Titrate.Maui.Web.Client`.
+- **Multiple Projects**: `JSopX.MauiHybridNetCore.Maui`, `JSopX.MauiHybridNetCore.Maui.Shared`, `JSopX.MauiHybridNetCore.Maui.Web` and `JSopX.MauiHybridNetCore.Maui.Web.Client`.
  
 **Repository Locations**
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.Titrate](https://github.com/JasonSilvestri/JSopX.Titrate)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore](https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore)
 
 ---
 
@@ -208,7 +208,7 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 ---
 
 ## ☁️ JSopX.CRM
-**Purpose:** A first-party CRM for ICSI that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
+**Purpose:** A first-party CRM for Jason Silvestri that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
 
 **Highlights**:
 * **Entities**: Contact, Organization, Interaction (note/log), Tag.
@@ -228,7 +228,7 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 ---
 
 ## ⚙️ JSopX.PLM
-**Purpose:** A first-party PLM (Product Lifecycle Management) system for ICSI that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
+**Purpose:** A first-party PLM (Product Lifecycle Management) system for Jason Silvestri that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
 
 **Highlights**:
 

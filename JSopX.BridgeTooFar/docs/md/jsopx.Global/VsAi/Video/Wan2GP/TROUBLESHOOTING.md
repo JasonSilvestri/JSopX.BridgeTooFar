@@ -1,4 +1,4 @@
-# Troubleshooting Guide
+# Self Health® using WanGP — Troubleshooting Guide
 
 This guide covers common issues and their solutions when using WanGP.
 

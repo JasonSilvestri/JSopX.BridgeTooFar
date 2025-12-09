@@ -1,4 +1,4 @@
-# Loras Guide
+# Self Health® using WanGP — Loras Guide
 
 Loras (Low-Rank Adaptations) allow you to customize video generation models by adding specific styles, characters, or effects to your videos.
 

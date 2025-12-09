@@ -1,4 +1,4 @@
-# Manual Installation Guide For Windows & Linux
+# Self Health® using WanGP — Manual Installation Guide For Windows & Linux
 
 This guide covers installation for different GPU generations and operating systems.
 

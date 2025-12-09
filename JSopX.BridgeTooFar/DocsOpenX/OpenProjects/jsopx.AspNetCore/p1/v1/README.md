@@ -68,7 +68,7 @@ By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/j
 
 Be sure each technology is installed, with proper versioning, if your goal is to continue exploring and/or installing just the `JSopX.AspNetCore` Project.
 
-- [Visual Studio (v 17.14.19)](../../../../Technologies/#visual-studio)
+- [Visual Studio (v 17.14.21)](../../../../Technologies/#visual-studio)
 - [.NET Framework (v 9.2.1)](../../../../Technologies/#net-framework)
 - [ASP.NET Core (v 9.2.1)](../../../../Technologies/#aspnet-core)
 
@@ -89,15 +89,15 @@ The **JSopX™ Asp.Net Core Project** addresses **several** high-level **busines
 
 While this ASP.NET Core project often looks and feels like a standard server-side solution, it underpins the security, routing, and scalability principles that define the JSopX™ environment.
 
-[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-simulating-an-existing-project)
+[`⇧ Back to Top`](#table-of-contents) · · [`Next »`](#1-recreate-to-simulate-an-existing-project)
 
 ---
 
-## **1. Simulating an Existing Project**:
+## **1. Recreate to Simulate an Existing Project**:
 
 We initially create the **JSopX™ Asp.NET Core Project** to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) Weather Forecast Asp.NET Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
 
-![Jason Silvestri Open Project EXperiences (JSopX™) 1. Simulating an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-1.png)
+![Jason Silvestri Open Project EXperiences (JSopX™) 1. Recreate to Simulate an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-1.png)
 
 [`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#business-concerns-addressed) [`Next »`](#2-create-our-development-standards)
 
@@ -114,7 +114,7 @@ JSopX™ Enterprise application development isn't just about writing code—it's
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 2. Create Our Development Standards](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-aspnet-core/in-markdown/aspnet-splash-simulate-container-markdown-step-2.png)
 
-[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-simulating-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
+[`⇧ Back to Top`](#table-of-contents) · · [`« Previous`](#1-recreate-to-simulate-an-existing-project) [`Next »`](#3-multi-platform-creative-standards)
 
 ---
 
@@ -249,7 +249,7 @@ Choose the approach below that fits your environment:
 
 Working with the `JSopX.AspNetCore` Project in Visual Studio is simple enough.
 
-1. Launch **[Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio)**.
+1. Launch **[Visual Studio (v 17.14.21)](../../../../OpenProjects/jsopx.AspNetCore/p1/v1/Technologies/#visual-studio)**.
 2. Open the solution file: `JSopX.AspNetCore.sln`.
 
 [`⇧ Back to Top`](#table-of-contents)

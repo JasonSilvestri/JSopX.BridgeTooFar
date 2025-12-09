@@ -73,7 +73,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.19)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
+- [Visual Studio (v 17.14.21)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/VisualStudio.md)
 - [.NET Framework (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/NetFrameworkSdk.md)
 - [ASP.NET Core (v 9.2.1)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/AspNetCore.md)
 - [Node (v 20.14.0)](../../../../OpenProjects/jsopx.AngularCore/p1/v1/Technologies/Node.md)
@@ -107,18 +107,50 @@ Carefully _choose_ the variant approach below that fits your current objective:
 
 **Goal**: Simulate an existing Angular app with weather data, Identity, and JWT already established.
 
-1. **Open Visual Studio 2022 (v 17.14.19)**:
+1. **Open Visual Studio 2022 (v 17.14.21)**:
    - Ensure the proper technologies outlined in [Prerequisites](#prerequisites) are installed.
 
 2. **Create the Project**:
    - File > New > Project.
    - Search for “ASP.NET Core with Angular”.
    - Configure:
-     - Project Name: `JSopX.BridgeTooFar`.
-     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.BridgeTooFar`.
-     - Solution Name: `JSopX.BridgeTooFar`.
+     - Project Name: `JSopX.AngularCore`.
+     - Location: e.g., `path\to\local\repo\JasonSilvestri\JSopX.AngularCore`.
+     - Solution Name: `JSopX.AngularCore`.
      - .NET Framework (v 9.2.1)
    - Click Create.
+
+     The initial file structure will look like this:
+
+        ```plaintext
+        # JSopX™ Angular Core Project
+
+        JSopX.AngularCore/                           # Root JSopX.AngularCore Visual Studio Solution folder.
+        ├── JSopX.AngularCore.sln                    # Visual Studio solution file for JSopX™ Angular Core.
+        ├── jsopx.angularcore.client/                # Angular client-side application folder.
+        │   ├── jsopx.angularcore.client.esproj      # Angular CLI Visual Studio Client Project configuration file.
+        │   ├── angular.json                         # Angular CLI workspace configuration file.
+        │   ├── package.json                         # NPM dependencies and project metadata.
+        │   ├── src/                                 # Main source directory for the Angular app.
+        │   │   ├── app/                             # Core Angular modules, components, and routing.
+        │   │   │   ├── app-routing.module.ts        # Defines route configurations for Angular components.
+        │   │   │   ├── app.component.css            # Styles for the main application component.
+        │   │   │   ├── app.component.html           # HTML template for the main application component.
+        │   │   │   ├── app.component.spec.ts        # Unit test file for the main application component.
+        │   │   │   ├── app.component.ts             # TypeScript logic for the main application component.
+        │   │   │   ├── app.module.ts                # Root Angular module that declares components and imports dependencies.
+        │   │   ├── index.html                       # Root HTML file to bootstrap the Angular app.
+        │   │   ├── main.ts                          # Main entry point for Angular application.
+        │   │   ├── proxy.conf.js                    # Configuration file for setting up API proxying in Angular.
+        │   │   ├── styles.css                       # Global stylesheet for Angular application.
+        ├── JSopX.AngularCore.Server/                # ASP.NET Core server-side application folder.
+        │   ├── JSopX.AngularCore.Server.csproj      # Angular CLI Visual Studio Server Project configuration file.
+        │   ├── Program.cs                           # Main entry point for the ASP.NET Core server.
+        │   ├── Controllers/                         # API controllers exposing server endpoints.
+        │   ├── appsettings.json                     # Application settings file for configuration.
+        │   └── WeatherForecast.cs                   # Example Weather Forecast model class (default template).
+
+        ```
 
 3. **Set Up Initial Weather Data**:
    - In `ClientApp/src/app/fetch-data/fetch-data.component.ts`:
@@ -162,7 +194,7 @@ Carefully _choose_ the variant approach below that fits your current objective:
      ```
    - Keep `Controllers/WeatherForecastController.cs` as default.
 
-4. **Add Identity + JWT (Simulating Existing Setup)**:
+4. **Add Identity + JWT (Recreate to Simulate Existing Setup)**:
    - Install NuGet: `Microsoft.AspNetCore.Authentication.JwtBearer`.
    - Update `Program.cs`:
 

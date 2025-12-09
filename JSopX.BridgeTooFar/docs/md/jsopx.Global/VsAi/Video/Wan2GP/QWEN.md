@@ -1,4 +1,4 @@
-# Development Guide for Pinokio Projects
+# Self Health® using WanGP / QWEN — Development Guide for Pinokio Projects
 
 ## Non-Negotiable Execution Workflow
 

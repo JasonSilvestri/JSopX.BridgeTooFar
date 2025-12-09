@@ -1,4 +1,6 @@
-﻿**WanGP** support many diferent models. Some of them are just better. You will find below a selection.
+﻿# Self Health® using WanGP — **WanGP** support many diferent models. 
+
+Some of them are just better. You will find below a selection.
 
 Hit any link below to load that model in the Video Generator instantly.
 
