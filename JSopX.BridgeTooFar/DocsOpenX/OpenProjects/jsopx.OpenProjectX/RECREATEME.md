@@ -21,7 +21,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.OpenProjectX.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 
@@ -74,7 +74,7 @@ Balancing client-side and server-side operations has become increasingly challen
 
 JSopX™ provides a unified framework of guidelines, organizational structures, and best practices designed to streamline project setup, enhance collaboration, and improve maintainability. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security.  Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security.  Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
 
 As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, and much more! 
 
@@ -515,7 +515,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.OpenProjectX/README.md) · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.AspNetCore/p1/v1/RECREATEME.md)
 
 ---
 

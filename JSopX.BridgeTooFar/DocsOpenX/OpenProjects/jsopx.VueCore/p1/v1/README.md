@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.VueCore.git
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.VueCore/p1/v1/README.md) » [`Introduction`](../../../jsopx.Global/Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.VueCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.VueCore/README.md) · `By-Phase` · [`From Scratch`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) · · [`« Previous`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.BlazorServerCore/p1/v1/)
+[`Home`](../../../../OpenProjects/jsopx.VueCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.VueCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.VueCore/README.md) · `By-Phase` · [`From Scratch`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) · · [`« Previous`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.BlazorServerCore/p1/v1/)
 
 ---
 
@@ -65,13 +65,13 @@ $ git clone https://github.com/JasonSilvestri/JSopX.VueCore.git
 The **JSopX™ Vue Core Project**, _code named_, `JSopX.VueCore` is a totally **FREE**, open-source, demonstration project showcasing is a Vue.js client-side project crafted for reactive, component-focused development. Its seamless integration with ASP.NET Core and shared libraries exemplifies the framework-agnostic nature of JSopX™. Conversely, the project has a much higher calling.
 
 
-We initially create the project to simulate an ["Existing" Client-side Apps Example](../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Vue application, with its own Web API and existing standards, to conform to the initial [business requirements](../../../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+We initially create the project to simulate an ["Existing" Client-side Apps Example](../../../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Vue application, with its own Web API and existing standards, to conform to the initial [business requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
 As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -383,19 +383,19 @@ Most `JSopX™ Projects` leverage shared resources and code from other projects 
 The `JSopX.VueCore` Project has the following `JSopX` Project Dependencies:
 
 1. **`JSopX.BridgeTooFar`**:
-   - A [Shared Assets & Resources Projects](../../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
+   - A [Shared Assets & Resources Projects](../../../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
    - **Explore GitHub**: [JSopX.BridgeTooFar](../../../../OpenProjects/jsopx.BridgeTooFar)
 
 2. **`JSopX.ClassLibrary`**:
-   - A [Shared Data, Service & Function Project](../../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
+   - A [Shared Data, Service & Function Project](../../../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
    - **Explore GitHub**: [JSopX.ClassLibrary](../../../../OpenProjects/jsopx.ClassLibrary)
 
 3. **`JSopX.WebAPI`**:
-   - A [Shared Data, Service & Function Project](../../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
+   - A [Shared Data, Service & Function Project](../../../../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
    - **Explore GitHub**: [JSopX.WebAPI](../../../../OpenProjects/jsopx.WebAPI)
  
 4. **`JSopX.RCLxProper`**:
-   - An extremely light-weight, [Shared Assets & Resources Projects](../../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
+   - An extremely light-weight, [Shared Assets & Resources Projects](../../../../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
    - **Explore GitHub**: [JSopX.RCLxProper](../../../../OpenProjects/jsopx.RCLxProper)
 
 
@@ -505,7 +505,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.VueCore/p1/v1/README.md) » [`Introduction`](../../../jsopx.Global/Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.VueCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.VueCore/README.md) · `By-Phase` · [`From Scratch`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.BlazorServerCore/p1/v1/)
+[`Home`](../../../../OpenProjects/jsopx.VueCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.VueCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.VueCore/README.md) · `By-Phase` · [`From Scratch`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/) [`Next »`](../../../../OpenProjects/jsopx.BlazorServerCore/p1/v1/)
 
 ---
 

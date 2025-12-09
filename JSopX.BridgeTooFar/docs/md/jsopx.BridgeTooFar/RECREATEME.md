@@ -51,7 +51,7 @@ The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a to
 
 We initially create the project to simulate an ["Existing" Client-side Apps Example](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Angular application, with its own Web API and existing standards, to conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
 [`⇧ Back to Top`](#table-of-contents)
 

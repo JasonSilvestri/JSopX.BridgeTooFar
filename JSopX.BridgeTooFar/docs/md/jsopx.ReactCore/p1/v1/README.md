@@ -56,7 +56,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 > [!CAUTION]
 >
->**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md) Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../jsopx.Global/Phases/Phase-1.md) Business Requirements. 
 > 
 
 ---

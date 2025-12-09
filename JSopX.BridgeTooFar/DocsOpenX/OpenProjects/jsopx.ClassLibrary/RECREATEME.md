@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ClassLibrary/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ClassLibrary/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md)
 
 ---
 
@@ -67,13 +67,13 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
 
 The **JSopX™ Class Library Project**, _code named_, `JSopX.ClassLibrary` is a totally **FREE**, open-source, Razor Class Library, and is a shared logic and utilities repository. Placing business logic or helper functions here ensures every project can draw from a single, reliable source, reducing code duplication and complexity.
 
-We initially create the project to simulate a [Shared Data, Service & Function Project](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+We initially create the project to simulate a [Shared Data, Service & Function Project](../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
 As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -316,7 +316,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ClassLibrary/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.ClassLibrary/README.md) · [`By-Phase`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.MauiHybridNetCore/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md)
 
 ---
 

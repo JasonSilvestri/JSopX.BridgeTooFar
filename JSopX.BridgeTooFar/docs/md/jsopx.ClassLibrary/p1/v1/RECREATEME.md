@@ -42,7 +42,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ClassLibrary.git
 
 > [!IMPORTANT]
 >
->**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../Phases/Phase-1.md) Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../jsopx.Global/Phases/Phase-1.md) Business Requirements. 
 > 
 
 ---
@@ -60,7 +60,7 @@ The **JSopX™ Class Library Project**, _code named_, `JSopX.ClassLibrary` is a 
 
 We initially create the project to simulate a [Shared Data, Service & Function Project](../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that will need to be leveraged by the other new and existing client side and server side projects, which act as standards that conform to the initial [business requirements](../../../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../../../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../../../OpenProjects/jsopx.OpenProjectX/p1/v1/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 

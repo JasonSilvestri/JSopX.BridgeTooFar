@@ -45,7 +45,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.OpenProjectX.git
 
 > [!IMPORTANT]
 >
->**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../../../Phases/Phase-1.md) Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../../../../jsopx.Global/Phases/Phase-1.md) Business Requirements. 
 > 
 
 ---
@@ -67,7 +67,7 @@ JSopX™ provides a unified framework of guidelines, organizational structures, 
 
 By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security.  Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
 
-As the project evolves through each [Lifecycle Phase](../../../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, and much more! 
+As the project evolves through each [Lifecycle Phase](../../../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, and much more! 
 
 [`⇧ Back to Top`](#table-of-contents)
 

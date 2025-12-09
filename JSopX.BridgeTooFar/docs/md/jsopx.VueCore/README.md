@@ -45,7 +45,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.VueCore.git
 
 > [!NOTE]
 >
->**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../../Phases/Phase-1.md) Business Requirements. 
+>**Phases 1**: This document is currently aligned with [Phase 1: Minimum Viable Product (MVP)](../jsopx.Global/Phases/Phase-1.md) Business Requirements. 
 > 
 
 ---
@@ -57,7 +57,7 @@ The **JSopX™ Vue Core Project**, _code named_, `JSopX.VueCore` is a totally **
 
 We initially create the project to simulate an ["Existing" Client-side Apps Example](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Vue application, with its own Web API and existing standards, to conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
-As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
+As the project evolves through each [Lifecycle Phase](../jsopx.Global/Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
 The Jason Silvestri Open Project EXperiences (JSopX™) Visual Studio Projects collectively form the backbone of the entire suite, each project serving a distinct yet complementary role. 
 
