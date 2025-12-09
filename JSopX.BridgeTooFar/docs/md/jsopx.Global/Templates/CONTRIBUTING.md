@@ -57,26 +57,26 @@ If you have questions regarding the JSopX™ system, please contact Jason Silves
 <!--Root Solution Home-->
 [`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management Project Home README.md"
 <!--Root Solution Project -->
-[`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ SaaS JSopX™ Core Project Solution example README.md"
+[`JSopX.AngularCore`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ SaaS JSopX™ Core Project Solution example README.md"
 
 <!--Install README.md - Often same as Root Solution-->
-[`Intro`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/README.md "JSopX™ SaaS Project Solution Install README.md"
+[`Intro`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ SaaS Project Solution Install README.md"
 <!--Install README.md - Often same as Root Solution-->
-[`Install`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/REINSTALLME.md "JSopX™ SaaS Project Solution Install README.md"
+[`Install`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/REINSTALLME.md "JSopX™ SaaS Project Solution Install README.md"
 <!--Briefing REDEBRIEFME.md - The briefing of the Solution-->
-[`Debrief`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/REDEBRIEFME.md "JSopX™ SaaS Document Management Project Briefing REDEBRIEFME.md"
+[`Debrief`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/REDEBRIEFME.md "JSopX™ SaaS Document Management Project Briefing REDEBRIEFME.md"
 <!--Recreate RECREATEME.md - The step by step instructions to Create Solution - often from briefing -->
-[`Recreate`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/RECREATEME.md "JSopX™ SaaS Document Management Project Step by Step HowTo Re-Create RECREATEME.md"
+[`Recreate`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/RECREATEME.md "JSopX™ SaaS Document Management Project Step by Step HowTo Re-Create RECREATEME.md"
 <!--Recreate CHANGELOG.md - The Changelogs of Solution - often from briefing -->
-[`Changelogs`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/CHANGELOG.md "JSopX™ SaaS Document Management Project Change Logs CHANGELOG.md"
+[`Changelogs`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/CHANGELOG.md "JSopX™ SaaS Document Management Project Change Logs CHANGELOG.md"
 <!--Recreate CONTRIBUTING.md - The Contributing Guidelines of Solution - often from briefing -->
-[`Contributing`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/CONTRIBUTING.md "JSopX™ SaaS Contributor Guidelines CONTRIBUTING.md"
+[`Contributing`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/CONTRIBUTING.md "JSopX™ SaaS Contributor Guidelines CONTRIBUTING.md"
 <!--Recreate CODE_OF_CONDUCT.md - The Code of Conduct of Solution - often from briefing -->
-[`Conduct`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/CODE_OF_CONDUCT.md "JSopX™ SaaS Code of Conduct CODE_OF_CONDUCT.md"
+[`Conduct`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/CODE_OF_CONDUCT.md "JSopX™ SaaS Code of Conduct CODE_OF_CONDUCT.md"
 <!--Recreate SECURITY.md - The Security Policy of Solution - often from briefing -->
-[`Security`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/SECURITY.md "JSopX™ SaaS Security Policy SECURITY.md"
+[`Security`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/SECURITY.md "JSopX™ SaaS Security Policy SECURITY.md"
 <!--Recreate LICENSE.txt - The LICENSE Policy of Solution - often from briefing -->
-[`License`]: /JSopX.BridgeTooFar/docs/md/JSopX.AngularCore/SECURITY.md "JSopX™ LICENSE Policy LICENSE.txt"
+[`License`]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/SECURITY.md "JSopX™ LICENSE Policy LICENSE.txt"
 
 ````
 

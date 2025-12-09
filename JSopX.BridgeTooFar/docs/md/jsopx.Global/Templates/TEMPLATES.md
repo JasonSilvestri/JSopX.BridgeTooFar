@@ -104,8 +104,8 @@ JSopX/
 │  ├─ JSopX.Vault.csproj
 │  ├─ JSopX.Vault.FileSystem.csproj
 │  ├─ JSopX.Vault.Providers.Azure.csproj
-├─ JSopX.ML/
-│  ├─ JSopX.ML.csproj
+├─ JSopX.SharedResources/
+│  ├─ JSopX.SharedResources.csproj
 ├─ JSopX.WebAPI/
 │  ├─ JSopX.WebAPI.csproj
 ├─ JSopX.MAUI/

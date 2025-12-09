@@ -95,7 +95,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
  
 ---
 
-## 🧠 JSopX.ML
+## 🧠 JSopX.SharedResources
 **Purpose:** Predictive analytics and ML services (pluggable).  
 **Highlights**
 
@@ -104,7 +104,7 @@ JSopX™ Enterprise-Level Solution is a modular SaaS architecture designed to pr
 
 **Repository Locations**:
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.ML](https://github.com/JasonSilvestri/JSopX.ML)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.SharedResources](https://github.com/JasonSilvestri/JSopX.SharedResources)
 
 ---
 
