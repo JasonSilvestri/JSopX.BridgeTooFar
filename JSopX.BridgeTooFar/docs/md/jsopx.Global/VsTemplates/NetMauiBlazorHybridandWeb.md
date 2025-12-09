@@ -195,7 +195,7 @@ JSopX.Maui/                           # Root JSopX.BlazorCore Visual Studio Solu
 [JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
 [JSopX.CRM]: /JSopX.BridgeTooFar/docs/md/jsopx.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
 [JSopX.PLM]: /JSopX.BridgeTooFar/docs/md/jsopx.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
-[JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"
 
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solutions & Version All SaaS Projects -->
 [JSopX (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"
