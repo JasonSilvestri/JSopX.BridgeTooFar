@@ -124,7 +124,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** Document Management pipeline for markdown, PDF, Word conversion, Docs processing.  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -139,7 +139,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** Domain models, value objects, validation logic, shared abstractions.  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -154,7 +154,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** **_Code First_** EF Core 9 data access layer, DbContext, migrations.  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -169,7 +169,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** Shared tooling, scripts, guard utilities, constants, enums.  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -183,7 +183,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 ### 🔐 JSopX.RCLxAssets
 **Purpose:** Encrypted secret management (dev filesystem provider + Azure providers).  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -198,7 +198,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** Public API gateway bridging Core, Data, and Presentation.  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -212,7 +212,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 ### 🧠 JSopX.SharedResources
 **Purpose:** Predictive analytics and ML services (pluggable).  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -228,7 +228,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 **Purpose:** 
 **Halo\{\} is a Universal AI Design Pattern for Dual-Partner Incremental Redesign**, a 2025 modern **LLM + Quant** backbone pattern for rapid, *reproducible* AI-powered development (_including chat “cold-starts”_). 
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -242,7 +242,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 ### 🎨 JSopX.Presentation
 **Purpose:**  Razor Class Library (RCLs) and Maui Class Library (CLs) for shared UI components, styles, assets. 
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -257,7 +257,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** Cross-platform .NET MAUI hybrid and Web (v 9.0+) app for health tracking Height, Body Weight, Exercise, Food, Lab Results, Log Entry, Lookup Items, Medication Entry, User Targets, Vitals personalized custom entries and more.  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**
 
@@ -271,7 +271,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 ### 💖 JSopX.MauiHybridNetCore 
 **Purpose:** Cross-platform MAUI hybrid app for medication titration (Windows, Android, iOS, macOS, and Web).  
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**
 
@@ -288,7 +288,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** Cross-platform MAUI Hybrid App and Web Multi App Library (_Windows, Android, iOS, macOS, and Web_).
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 #### **Repository Locations**:
 
@@ -302,7 +302,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 ### 🧪 JSopX.RCLxComponents
 **Purpose:** Unified tests (xUnit) for Core, Data, WebApi.
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -317,7 +317,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** A multi-host **starter portal** that showcases newly manufactured **JSopX™** **_SaaS_** services, in rapid succession, across our `JSopX.SaaS` SPA (HTML), ASP.NET Core (Razor), and MAUI (Blazor Hybrid and Web) Projects.
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -332,7 +332,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** A first-party ReactCore for Jason Silvestri that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous**  (_Windows, Android, iOS, macOS, and Web_).
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -347,7 +347,7 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 
 **Purpose:** A first-party VueCore (Product Lifecycle Management) system for Jason Silvestri that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (_Windows, Android, iOS, macOS, and Web_).
 
-**Version:** `v1.0`
+**Version:** `v 1.0`
 
 **Repository Locations**:
 
@@ -522,22 +522,22 @@ Visit the official `Microsoft` vendor site for **`ASP.NET Core`** if:
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"
 
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solutions & Version All SaaS Projects -->
-[JSopX.OpenProjectX (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"
-[JSopX.Core (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxcore "JSopX™ Core SaaS Project"
-[JSopX.Data (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxdata "JSopX™ Data SaaS Project"
-[JSopX.SharedResources (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxsharedresources "JSopX™ Shared Resources SaaS Project"
-[JSopX.Halos (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxhalos "JSopX™ WebAPI SaaS Project"
-[JSopX.RCLxAssets (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxassets "JSopX™ RCL x Assets SaaS Project"
-[JSopX.Presentation (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxpresentation "JSopX™ Presentation SaaS Project"
-[JSopX.ClassLibrary (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxclasslibrary "JSopX™ Class Library SaaS Project"
-[JSopX.RCLxComponents (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxcomponents "JSopX™ RCL x Components SaaS Project"
-[JSopX.SaaS (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
-[JSopX.MauiHybridNetCore (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxmauihybridnetcore "JSopX™ MAUI Hybrid .NET Core SaaS Project"
-[JSopX.RCLxProper (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxproper "JSopX™ RCL x Proper SaaS Project"
-[JSopX.BridgeTooFar (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxbridgetoofar "JSopX™ Document Management SaaS Project"
-[JSopX.ReactCore (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxreactcore "JSopX™ React Core SaaS Project"
-[JSopX.VueCore (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxvuecore "JSopX™ Vue Core SaaS Project"
-[JSopX.AngularCore (v 1)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxangularcore "JSopX™ Vue Core SaaS Project"
+[JSopX.OpenProjectX (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"
+[JSopX.Core (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxcore "JSopX™ Core SaaS Project"
+[JSopX.Data (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxdata "JSopX™ Data SaaS Project"
+[JSopX.SharedResources (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxsharedresources "JSopX™ Shared Resources SaaS Project"
+[JSopX.Halos (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxhalos "JSopX™ WebAPI SaaS Project"
+[JSopX.RCLxAssets (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxassets "JSopX™ RCL x Assets SaaS Project"
+[JSopX.Presentation (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxpresentation "JSopX™ Presentation SaaS Project"
+[JSopX.ClassLibrary (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxclasslibrary "JSopX™ Class Library SaaS Project"
+[JSopX.RCLxComponents (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxcomponents "JSopX™ RCL x Components SaaS Project"
+[JSopX.SaaS (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
+[JSopX.MauiHybridNetCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxmauihybridnetcore "JSopX™ MAUI Hybrid .NET Core SaaS Project"
+[JSopX.RCLxProper (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxproper "JSopX™ RCL x Proper SaaS Project"
+[JSopX.BridgeTooFar (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxbridgetoofar "JSopX™ Document Management SaaS Project"
+[JSopX.ReactCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxreactcore "JSopX™ React Core SaaS Project"
+[JSopX.VueCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxvuecore "JSopX™ Vue Core SaaS Project"
+[JSopX.AngularCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxangularcore "JSopX™ Vue Core SaaS Project"
 
 
 <!-- Short Form Local Document Management Links of all JSopX™ Visual Studio Templates-->

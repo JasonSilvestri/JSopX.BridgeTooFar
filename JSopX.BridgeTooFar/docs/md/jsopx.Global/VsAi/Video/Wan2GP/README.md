@@ -88,7 +88,7 @@ In this release WanGP turns you into a Motion Master:
 
 - **Wan 2.2 i2v Time to Move**: a few brillant people (https://github.com/time-to-move/TTM) discovered that you could steer the motion of a model such as *Wan 2.2 i2v* without changing its weights. You just need to apply specific *Control* and *Mask* videos. The *Motion Designer* has an *i2v TTM* mode that will let you generate the videos in the right format. The way it works is that using a *Start Image* you are going to define objects and their corresponding trajectories. For best results, it is recommended to provide as well a *Background Image* which is the Start Image without the objects you are moving (use Qwen for that). TTM works with Loras Accelerators.
 
-*TTM Suggested Settings:  Lightning i2v v1.0 2 Phases (8 Steps), Video to Video, Denoising Strenght 0.9, Masking Strength 0.1*. I will upload Sample Settings later in the *Settings Channel* 
+*TTM Suggested Settings:  Lightning i2v v 1.0 2 Phases (8 Steps), Video to Video, Denoising Strenght 0.9, Masking Strength 0.1*. I will upload Sample Settings later in the *Settings Channel* 
 
 - **PainterI2V**: (https://github.com/princepainter/). You found that the i2v loras accelerators kill the motion ? This is an alternative to 3 phases guidance to restore motion, it is free as it doesnt require any extra processing or changing the weights. It works best in a scene where the background remains the same. In order to control the acceleration in i2v models, you will find a new *Motion Amplitude* slider in the *Quality* tab.
 
