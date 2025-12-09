@@ -1,4 +1,4 @@
-# JSopX™ — Changelog (v1)
+# JSopX™ — Support Guide (v1)
 
 ---
 
@@ -6,34 +6,81 @@
 
 ---
 
-This file documents all notable changes made to the JSopX.BridgeTooFar project.  
-The project follows Semantic Versioning and maintains clear release notes for transparency and consistency.
+## Overview
+
+This document outlines how to request help, report issues, ask questions, and receive guidance while working with JSopX™ projects.
+
+Support is provided with the goal of fostering clear communication, reliable expectations, and strong project stability.
 
 ---
 
-## [Unreleased]
+## Self-Help Resources
 
-### Added
-- Placeholder for upcoming features prior to official release.
+Before requesting support, please review:
 
-### Changed
-- Placeholder for improvements, refactors, and updates currently in progress.
-
-### Fixed
-- Placeholder for unresolved issues or pending bug fixes.
+- Project README  
+- Documentation under `/docs`  
+- CHANGELOG  
+- GitHub Issues  
+- GitHub Discussions  
 
 ---
 
-## [1.0.0] — Initial Release
+## Getting Support
 
-### Added
-- Base JSopX™ project foundation  
-- Core documentation structure  
-- Standardized header/footer navigation system  
-- Lexicon framework  
-- Initial README and conceptual architecture  
-- Full JSopX documentation navigation registry  
-- Initial Nova Markdown Builder integration hooks  
+### Bug Reports
+
+When reporting a bug, please include:
+
+- Steps to reproduce  
+- Expected behavior  
+- Actual behavior  
+- Environment details (OS, Framework versions, Node/.NET versions)  
+- Console logs, stack traces, or screenshots  
+
+### Feature Requests
+
+Feature ideas should be submitted via GitHub Discussion or an Issue marked `enhancement`.
+
+Include:
+
+- Purpose of the feature  
+- Problem it solves  
+- Example workflow or pseudo-code  
+- Any relevant context  
+
+### General Questions
+
+Use GitHub Discussions for Q&A.
+
+---
+
+## Security Issues
+
+Security concerns must **not** be posted publicly.  
+Follow the Security Policy and report via private channels.
+
+---
+
+## Enterprise or Premium Support
+
+For advanced consulting, architecture validation, or enterprise-level guidance, contact:
+
+- **Jason Silvestri**  
+- GitHub: https://github.com/JasonSilvestri  
+- Website: [jsopx.com]  
+- Email: [therealjasonsilvestri@gmail.com]  
+- Phone: [508-851-9445]
+
+---
+
+## Response Expectations
+
+Typical response times:
+
+- GitHub Discussions: within 1–7 days  
+- Issue triage: depending on severity  
+- Security vulnerabilities: acknowledgment within 72 hours  
 
 ---
 

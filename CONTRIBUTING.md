@@ -1,26 +1,101 @@
-# JSopX™ — Contributing Policy
+# JSopX™ — Contributor Guidelines (v1)
 
 ---
 
-[`Home`] » **[`JSopX.Core`]**
+[`Home`] » **[`JSopX.BridgeTooFar`]**
 
 ---
 
-This repository is **private** and **proprietary**.  
+## Contributing to JSopX™
 
-- Contributions from the public are **not accepted**.  
-- Forks, pull requests, and issues from unauthorized users will be closed without review.  
-- All work in this repository is conducted exclusively by authorized personnel of Jason Silvestri Open Project EXperiences (JSopX™).  
+Thank you for your interest in contributing to the JSopX™ ecosystem.  
+This document outlines how to participate in development, propose changes, and collaborate effectively.
 
-If you have questions regarding the JSopX™ system, please contact Jason Silvestri directly:
+## How to Contribute
 
-- Website: [jsopx.com]
-- Email: [therealjasonsilvestri@gmail.com] 
-- Phone: [508-851-9445]
+### Fork the Repository
+
+Begin by creating a personal fork of the project.  
+Work should always be performed in your fork before submitting contributions.
+
+### Create a Feature Branch
+
+Branch names should be descriptive and follow a consistent pattern such as:
+
+- `feature/add-new-template-engine`
+- `fix/include-path-resolution`
+- `docs/update-markdown-style-guide`
+
+### Commit Messages
+
+Commits should be concise, clear, and state both _what_ changed and _why_.  
+Examples:
+
+### Coding Standards
+
+Contributors are expected to follow the patterns and styles used throughout JSopX™, including:
+
+- Modern JavaScript, TypeScript, or .NET coding practices  
+- Strong object-oriented architecture  
+- Clean, readable code following SOLID principles  
+- Proper error handling with no silent exceptions  
+- Meaningful naming conventions  
+- Consistent documentation  
+
+If a project has its own style guide, that guide supersedes this document.
+
+### Testing Requirements
+
+Any change that impacts behavior must include tests, validation steps, or output samples that demonstrate the change is correct.
+
+### Opening a Pull Request
+
+Pull requests should include:
+
+- A clear description of the proposed change  
+- Links to any related issues or discussions  
+- Screenshots, logs, or outputs if relevant  
+- Verification steps where applicable  
+
+PRs will be reviewed by maintainers or the project owner.  
+Feedback may be requested before approval.
 
 ---
 
-[`Home`] » **[`JSopX.Core`]**
+## Communication Channels
+
+### Bug Reports
+
+Open an Issue and include:
+
+- Steps to reproduce  
+- Expected behavior  
+- Actual behavior  
+- Logs or screenshots  
+- Version information  
+
+### Feature Requests
+
+Use GitHub Issues or Discussions and provide:
+
+- The problem the feature solves  
+- The proposed solution  
+- Examples or pseudo-code if applicable  
+
+### Questions
+
+General questions should be posted to GitHub Discussions under the Q&A category.
+
+---
+
+## Licensing
+
+By contributing, you agree that your contributions will be licensed under the project’s MIT License and may be modified, redistributed, or incorporated into the project.
+
+
+---
+
+[`Home`] » **[`JSopX.BridgeTooFar`]**
 
 ---
 
@@ -28,64 +103,33 @@ If you have questions regarding the JSopX™ system, please contact Jason Silves
 
 ###### Copyright © 2025 – All Rights Reserved by Jason Silvestri Open Project EXperiences (JSopX™)
 
-[jsopx.com]: http://jsopx.com "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Products, Services and SaaS Services"
-[Email]: mailto:therealjasonsilvestri@gmail.com "Jason Silvestri Open Project EXperiences (JSopX™) Email Contact for Mark Silvetri"
-[Phone]: phoneto:508-851-9445 "Jason Silvestri Open Project EXperiences (JSopX™) Phone Contact for Mark Silvetri"
-[therealjasonsilvestri@gmail.com]: mailto:therealjasonsilvestri@gmail.com "Jason Silvestri Open Project EXperiences (JSopX™) Email Contact for Mark Silvetri"
-[508-851-9445]: phoneto:508-851-9445 "Jason Silvestri Open Project EXperiences (JSopX™) Phone Contact for Mark Silvetri"
+[jsopx.com]: http://jsopx.com "Jason Silvestri Open Project EXperiences (JSopX™)"
+[Email]: mailto:therealjasonsilvestri@gmail.com "JSopX™ Email"
+[Phone]: phoneto:508-851-9445 "JSopX™ Phone"
+[therealjasonsilvestri@gmail.com]: mailto:therealjasonsilvestri@gmail.com "Email Contact"
+[508-851-9445]: phoneto:508-851-9445 "Phone Contact"
 
-[GitHub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (JSopX™) GitHub Repository"
+[GitHub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "GitHub Repository"
 
-[Current Git Hub]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Document Management Project Solution GitHub Repository"
-[Current GitHub Home]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/README.md "Jason Silvestri Open Project EXperiences (JSopX™) JSopX™ Document Management Project GitHub Home README.md"
+<!-- Root Lexicon -->
+[Lexicon]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/Lexicon.md "Project Lexicon"
 
-<!--Root Lexicon -->
-[Lexicon]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
-[`Lexicon`]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Common/Lexicon.md "JSopX™ Project Common Lexicon.md"
+<!-- Root Navigation -->
+[`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "Project Home"
+[`JSopX.BridgeTooFar`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "Solution README.md"
 
-<!--Root Solution Home-->
-[`Home`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management Project Home README.md"
-<!--Root Solution Project -->
-[`JSopX.Core`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/README.md "JSopX™ SaaS JSopX™ Core Project Solution example README.md"
-
-<!--Install README.md - Often same as Root Solution-->
-[`Intro`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/README.md "JSopX™ SaaS Project Solution Install README.md"
-<!--Install README.md - Often same as Root Solution-->
-[`Install`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/REINSTALLME.md "JSopX™ SaaS Project Solution Install README.md"
-<!--Briefing REDEBRIEFME.md - The briefing of the Solution-->
-[`Debrief`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/REDEBRIEFME.md "JSopX™ SaaS Document Management Project Briefing REDEBRIEFME.md"
-<!--Recreate RECREATEME.md - The step by step instructions to Create Solution - often from briefing -->
-[`Recreate`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/RECREATEME.md "JSopX™ SaaS Document Management Project Step by Step HowTo Re-Create RECREATEME.md"
-<!--Recreate CHANGELOG.md - The Changelogs of Solution - often from briefing -->
-[`Changelogs`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/CHANGELOG.md "JSopX™ SaaS Document Management Project Change Logs CHANGELOG.md"
-<!--Recreate CONTRIBUTING.md - The Contributing Guidelines of Solution - often from briefing -->
-[`Contributing`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/CONTRIBUTING.md "JSopX™ SaaS Contributor Guidelines CONTRIBUTING.md"
-<!--Recreate CODE_OF_CONDUCT.md - The Code of Conduct of Solution - often from briefing -->
-[`Conduct`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/CODE_OF_CONDUCT.md "JSopX™ SaaS Code of Conduct CODE_OF_CONDUCT.md"
-<!--Recreate SECURITY.md - The Security Policy of Solution - often from briefing -->
-[`Security`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/SECURITY.md "JSopX™ SaaS Security Policy SECURITY.md"
-<!--Recreate LICENSE.txt - The LICENSE Policy of Solution - often from briefing -->
-[`License`]: /JSopX.BridgeTooFar/docs/md/JSopX.Core/SECURITY.md "JSopX™ LICENSE Policy LICENSE.txt"
+<!-- README / Briefing / Install Paths -->
+[`Intro`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/README.md "Intro README.md"
+[`Install`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/REINSTALLME.md "Install Guide"
+[`Debrief`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/REDEBRIEFME.md "Solution Briefing"
+[`Recreate`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/RECREATEME.md "Recreate Steps"
+[`Changelogs`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/CHANGELOG.md "Changelog"
+[`Contributing`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/CONTRIBUTING.md "Contributor Guide"
+[`Conduct`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/CODE_OF_CONDUCT.md "Code of Conduct"
+[`Security`]: /JSopX.BridgeTooFar/docs/md/JSopX.BridgeTooFar/SECURITY.md "Security Policy"
+[`License`]: /JSopX.BridgeTooFar/LICENSE.txt "License"
 
 <!-- Back to Top links (all styles) found under most sections -->
 [Back to Top]: #table-of-contents "Primary document table of contents"
 [`Back to Top`]: #table-of-contents "Primary document table of contents"
 [`⇧ Back to Top`]: #table-of-contents "Primary document table of contents"
-<!-- Long Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[`<https://github.com/JasonSilvestri/OpenProjectX>`]: https://github.com/JasonSilvestri/OpenProjectX "JSopX™ Enterprise-Level Solution SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Core>`]: https://github.com/JasonSilvestri/JSopX.Core "JSopX™ Core SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.ML>`]: https://github.com/JasonSilvestri/JSopX.ML "JSopX™ ML SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Halos>`]: https://github.com/JasonSilvestri/JSopX.Halos "JSopX™ Halos SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.WebApi>`]: https://github.com/JasonSilvestri/JSopX.WebApi "JSopX™ WebAPI SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Data>`]: https://github.com/JasonSilvestri/JSopX.Data "JSopX™ Data SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Vault>`]: https://github.com/JasonSilvestri/JSopX.Vault "JSopX™ Vault SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Presentation>`]: https://github.com/JasonSilvestri/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.ClassLibrary>`]: https://github.com/JasonSilvestri/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.Unitx>`]: https://github.com/JasonSilvestri/JSopX.Unitx "JSopX™ Unit Testing SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.SaaS>`]: https://github.com/JasonSilvestri/JSopX.SaaS "JSopX™ SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore>`]: https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore "JSopX™ MAUI Titrate SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.HealthTracker>`]: https://github.com/JasonSilvestri/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
-[`<https://github.com/JasonSilvestri/JSopX.Maui.MPA>`]: https://github.com/JasonSilvestri/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
-[`<https://github.com/JasonSilvestri/JSopX.BridgeTooFar>`]: https://github.com/JasonSilvestri/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.CRM>`]: https://github.com/JasonSilvestri/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
-[`<https://github.com/JasonSilvestri/JSopX.PLM>`]: https://github.com/JasonSilvestri/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
