@@ -8,7 +8,7 @@ By exploring the [Overview](#overview), you’ll gain insights into how each Vis
 
 ---
 
-[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`« Previous`](../../../../../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../jsopx.Global/Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`« Previous`](../../../../jsopx.Global/Introduction/JSopxDevelopmentStandards.md) [`Next »`](../../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md)
 
 ---
 
@@ -238,7 +238,7 @@ The result is an environment that transforms a patchwork of independent solution
 
 ---
  
- [`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../../Introduction/JSopxDevelopmentStandards.md) [`Next »`](../../../../../Introduction/JSopxProjectsFamilies.md)
+ [`Home`](../../../README.md) » [`Introduction`](../../../../jsopx.Global/Introduction/) » [**`JSopX™ Projects`**](../../../../../OpenProjects/)  · · · [`⇧ Back to Top`](#table-of-contents) · · · [`« Previous`](../../../../jsopx.Global/Introduction/JSopxDevelopmentStandards.md) [`Next »`](../../../../jsopx.Global/Introduction/JSopxProjectsFamilies.md)
 
 ---
 

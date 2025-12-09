@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
 
@@ -49,7 +49,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.BridgeTooFar.git
 
 The **JSopX™ Angular Core Project**, _code named_, `JSopX.AngularCore` is a totally **FREE**, open-source, demonstration project showcasing how to build a web application using Angular and ASP.NET Core Web API. As a whole, the project highlights the integration of _Angular_ for the client-side with _ASP.NET Core_ for the server-side, providing a comprehensive example of a modern web application stack. Conversely, the project has a much higher calling.
 
-We initially create the project to simulate an ["Existing" Client-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Angular application, with its own Web API and existing standards, to conform to the initial [business requirements](../../Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
+We initially create the project to simulate an ["Existing" Client-side Apps Example](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) Weather Forecast Angular application, with its own Web API and existing standards, to conform to the initial [business requirements](../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md) set forth by the fictional stakeholders.
 
 As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, while anticipating we'll face a near-future, seamless migration request of the project into our [JSopX.OpenProjectX](../../OpenProjects/jsopx.OpenProjectX/) Enterprise Application.
 
@@ -413,7 +413,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/OpenProjects/) · · [`Use Latest`](../../OpenProjects/jsopx.BridgeTooFar/README.md) · [`By-Phase`](../../OpenProjects/jsopx.BridgeTooFar/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.WebAPI/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.SharedResources/p1/v1/RECREATEME.md)
 
 ---
 

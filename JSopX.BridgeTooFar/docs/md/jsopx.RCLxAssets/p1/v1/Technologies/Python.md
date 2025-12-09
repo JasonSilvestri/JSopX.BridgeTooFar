@@ -6,7 +6,7 @@
 
 ---
 
-[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Python`](./Python.md)** · · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../jsopx.Global/Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Python`](./Python.md)** · · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
 
 ---
 
@@ -271,7 +271,7 @@ Or
 
 ---
 
-[`Home`](../../../README.md) » [`Introduction`](../../../../../Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Python`](./Python.md)** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
+[`Home`](../../../README.md) » [`Introduction`](../../../../jsopx.Global/Introduction/) » [`Technologies`](../../../../../Technologies/) » **[`Python`](./Python.md)** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](./Powershell.md) [`Next »`](./README.md)
 
 ---
 

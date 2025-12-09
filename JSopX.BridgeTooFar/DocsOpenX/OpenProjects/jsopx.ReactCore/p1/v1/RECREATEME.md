@@ -21,7 +21,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../../../jsopx.Global/Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`« Previous`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
 
 ---
 
@@ -54,7 +54,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.ReactCore.git
 
 The **JSopX™ React Core Project** is a **FREE**, open-source demonstration project built in Visual Studio, _code named_, `JSopX.ReactCore`. It showcases the transformation of an existing React-based client-side project that demonstrates the flexibility and component-driven approach of React, working in harmony with ASP.NET Core services—complete with its own assets, Web APIs, and standards—into a scalable solution for optimal enterprise application migration.
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
+By aligning varied frameworks—ranging from [ASP.NET Core](../../../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../../../OpenProjects/jsopx.VueCore/README.md), [React](../../../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../../../OpenProjects/jsopx.MauiHybridNetCore/README.md) and more, all using the same [Web API](../../../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security. 
 
 The result is an environment that transforms a patchwork of independent solutions into a cohesive enterprise ecosystem, making collaboration smoother and long-term maintenance more manageable. As you delve deeper, you’ll discover how each project type fits into this grand tapestry, ensuring uniform standards while preserving the flexibility needed to evolve and adapt.
 
@@ -86,8 +86,8 @@ Be sure each technology is installed, with proper versioning, if your goal is to
 
 These resources served as the primary references during the development of the applications and related content. I followed them closely throughout, but I recommend revisiting them periodically—especially if you need clarity on any implementation decisions. 
 
-- [Development Standards](../../../../Introduction/JSopxDevelopmentStandards.md)
-- [Business Requirements](../../../../Introduction/JSopxEnterpriseBusinessRequirements.md)
+- [Development Standards](../../../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)
+- [Business Requirements](../../../jsopx.Global/Introduction/JSopxEnterpriseBusinessRequirements.md)
 
 ---
 
@@ -101,7 +101,7 @@ The **JSopX™ React Core Project** addresses **several** high-level **business 
 
 ## **1. Recreate to Simulate an Existing Project**:
 
-We initially create the **JSopX™ React Core Project** to simulate an ["Existing" Server-side Apps Example](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) Weather Forecast React Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
+We initially create the **JSopX™ React Core Project** to simulate an ["Existing" Server-side Apps Example](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) Weather Forecast React Core application, with its own Web API and existing standards, to conform to the initial business requirements set forth by the fictional stakeholders.
 
 ![Jason Silvestri Open Project EXperiences (JSopX™) 1. Recreate to Simulate an Existing Project](https://github.com/JasonSilvestri/JSopX.BridgeTooFar/blob/master/JSopX.BridgeTooFar/doc-assets/for-docs/jsopx-react-core/in-markdown/react-splash-simulate-container-markdown-step-1.png)
 
@@ -532,7 +532,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../../../../Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
+[`Home`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) » [`Introduction`](../../../jsopx.Global/Introduction/) » [`Projects`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/OpenProjects/) · · [`Use Latest`](../../../../OpenProjects/jsopx.ReactCore/README.md) · [`By-Phase`](../../../../OpenProjects/jsopx.ReactCore/p1/v1/README.md) · **`From Scratch`** · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../../../OpenProjects/jsopx.AngularCore/p1/v1/RECREATEME.md) [`Next »`](../../../../OpenProjects/jsopx.VueCore/p1/v1/RECREATEME.md)
 
 ---
 

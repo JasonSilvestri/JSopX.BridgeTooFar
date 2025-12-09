@@ -20,7 +20,7 @@ $ git clone https://github.com/JasonSilvestri/JSopX.OpenProjectX.git
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/RECREATEME.md) · · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
 
 ---
 
@@ -57,7 +57,7 @@ Balancing client-side and server-side operations has become increasingly challen
 
 JSopX™ provides a unified framework of guidelines, organizational structures, and best practices designed to streamline project setup, enhance collaboration, and improve maintainability. 
 
-By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../../Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security.  Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
+By aligning varied frameworks—ranging from [ASP.NET Core](../../OpenProjects/jsopx.AspNetCore/README.md) to [Angular](../../OpenProjects/jsopx.AngularCore/README.md), [Vue](../../OpenProjects/jsopx.VueCore/README.md), [React](../../OpenProjects/jsopx.ReactCore/README.md), [Blazor](../../OpenProjects/jsopx.BlazorServerCore/README.md), [MAUI](../../OpenProjects/jsopx.OpenProjectX/README.md) and more, all using the same [Web API](../../OpenProjects/jsopx.WebAPI/README.md), [assets](../../OpenProjects/jsopx.RCLxProper/README.md), [documentation](../../OpenProjects/jsopx.BridgeTooFar/README.md), and [standards](../jsopx.Global/Introduction/JSopxDevelopmentStandards.md)—these projects create a consistent development landscape where code can be shared, extended, and integrated seamlessly, bridging-of-the-critical-gap, between front-end dynamism and back-end security.  Most importantly, it is proof it is possible for developers like us to develop enterprise level applications that takes no more time than your average 9-12 project, while gaining an enormus advantage in the long run.
 
 As the project evolves through each [Lifecycle Phase](../../Phases/ReadMe.md), we extend the application by creating new user interfaces, the integratation of standardized assets and resources commonly used across projects that comply to the stakeholder's brand standards we are tasked with creating, perform typical increase of security and documentation, and much more! 
 
@@ -251,7 +251,7 @@ For brevity, samples will not have the complete file structure you get when inst
 
 ### **Step: 5.1: Structured Project & Solution Considerations**:
 
-All `JSopX™ projects` follow a consistent directory structure, based on its [JSopX™ Project Family](../../Introduction/JSopxProjectsFamilies.md) (_relatively speaking_). 
+All `JSopX™ projects` follow a consistent directory structure, based on its [JSopX™ Project Family](../jsopx.Global/Introduction/JSopxProjectsFamilies.md) (_relatively speaking_). 
 
 1. The `JSopX.OpenProjectX` Project naming conventions include capital casing for `.Server` directories.
 2. I create a [Visual Studio](../../OpenProjects/jsopx.OpenProjectX/p1/v1/Technologies/#visual-studio) Solution Folder to house the primary `.sln` solution file.
@@ -342,55 +342,55 @@ Most `JSopX™ Projects` leverage shared resources and code from other projects 
 The `JSopX.OpenProjectX` Project has the following `JSopX` Project Dependencies:
 
 1. **`JSopX.BridgeTooFar`**:
-   - A [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
+   - A [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets and project documentation.
    - **Explore GitHub**: [JSopX.BridgeTooFar](https://github.com/JasonSilvestri/JSopX.BridgeTooFar)
 
 2. **`JSopX.ClassLibrary`**:
-   - A [Shared Data, Service & Function Project](../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
+   - A [Shared Data, Service & Function Project](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) that houses shared business logic and helper methods.
    - **Explore GitHub**: [JSopX.ClassLibrary](https://github.com/JasonSilvestri/JSopX.ClassLibrary)
 
 3. **`JSopX.WebAPI`**:
-   - A [Shared Data, Service & Function Project](../../Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
+   - A [Shared Data, Service & Function Project](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#3-shared-data-service--function-projects) which acts as the centrialized **Web API**, used by all projects that access data endpoints in the application.
    - **Explore GitHub**: [JSopX.WebAPI](https://github.com/JasonSilvestri/JSopX.WebAPI)
  
 4. **`JSopX.SharedResources`**:
-   - A [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets, docs, code, and all the source one would want in a development sand box environment, while using a more traditional approach to **Class Libraries**.
+   - A [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) that contains reusable static assets, docs, code, and all the source one would want in a development sand box environment, while using a more traditional approach to **Class Libraries**.
    - **Explore GitHub**: [JSopX.SharedResources](https://github.com/JasonSilvestri/JSopX.SharedResources)
  
 5. **`JSopX.RCLxAssets`**:
-   - The direct [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) successor of `JSopX.SharedResources` that contains most of the same reusable static assets, docs, code, and all the source, but now instead uses a more modern **Razor Class Library**. 
+   - The direct [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) successor of `JSopX.SharedResources` that contains most of the same reusable static assets, docs, code, and all the source, but now instead uses a more modern **Razor Class Library**. 
    - **Explore GitHub**: [JSopX.RCLxAssets](https://github.com/JasonSilvestri/JSopX.RCLxAssets)
 
 6. **`JSopX.RCLxProper`**:
-   - An extremely light-weight, [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
+   - An extremely light-weight, [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) version of the `JSopX.Assets` Razor Class Library, specifically designed for Production-Ready environments.
    - **Explore GitHub**: [JSopX.RCLxProper](https://github.com/JasonSilvestri/JSopX.RCLxProper)
 
 7. **`JSopX.RCLxComponents`**:
-   - Although there is not much traction is the project as of yet, don't let it fool you. This epic [Shared Assets & Resources Projects](../../Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) Razor Class Library, Combines Razor components with **.NET MAUI** to create cross-platform applications.
+   - Although there is not much traction is the project as of yet, don't let it fool you. This epic [Shared Assets & Resources Projects](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#2-shared-assets--resources-projects) Razor Class Library, Combines Razor components with **.NET MAUI** to create cross-platform applications.
    - **Explore GitHub**: [JSopX.RCLxComponents](https://github.com/JasonSilvestri/JSopX.RCLxComponents)
 
 8. **`JSopX.AspNetCore`**:
-   - An **Asp.NET Core** [Server-Side “Existing” Apps Examples](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) project, created to simulate an existing Asp.NET Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
+   - An **Asp.NET Core** [Server-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) project, created to simulate an existing Asp.NET Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
    - **Explore GitHub**: [JSopX.AspNetCore](https://github.com/JasonSilvestri/JSopX.AspNetCore)
 
 9. **`JSopX.MauiHybridNetCore`**:
-    - A **.NET MAUI Hyrbid** [Server-Side “Existing” Apps Examples](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) cross-platform applications, for desktop applications, native mobile applications, traditional web, while adopting our standards, API and more, and looking damn good doing it too.
+    - A **.NET MAUI Hyrbid** [Server-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) cross-platform applications, for desktop applications, native mobile applications, traditional web, while adopting our standards, API and more, and looking damn good doing it too.
     - **Explore GitHub**: [JSopX.MauiHybridNetCore](https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore)
 
 10. **`JSopX.BlazorServerCore`**:
-    - A **Blazor Server .NET Core**  [Server-Side “Existing” Apps Examples](../../Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) project, created to simulate an existing Asp.NET Core Blazor application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
+    - A **Blazor Server .NET Core**  [Server-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#4-server-side-existing-apps-examples) project, created to simulate an existing Asp.NET Core Blazor application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
     - **Explore GitHub**: [JSopX.BlazorServerCore](https://github.com/JasonSilvestri/JSopX.BlazorServerCore)
 
 11. **`JSopX.AngularCore`**:
-    - An **Angular Core** [Client-Side “Existing” Apps Examples](../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing Angular Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
+    - An **Angular Core** [Client-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing Angular Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
     - **Explore GitHub**: [JSopX.AngularCore](https://github.com/JasonSilvestri/JSopX.AngularCore)
 
 12. **`JSopX.ReactCore`**:
-    - A **React Core** [Client-Side “Existing” Apps Examples](../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing React Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
+    - A **React Core** [Client-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) project, created to simulate an existing React Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
     - **Explore GitHub**: [JSopX.ReactCore](https://github.com/JasonSilvestri/JSopX.ReactCore)
   
 13. **`JSopX.VueCore`**:
-    - A **Vue Core** [Client-Side “Existing” Apps Examples](../../Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) created to simulate an existing Vue Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
+    - A **Vue Core** [Client-Side “Existing” Apps Examples](../jsopx.Global/Introduction/JSopxProjectsFamilies.md#5-client-side-existing-apps-examples) created to simulate an existing Vue Core application we are now tasked with migrating into our enterprise application, adopting our standards, API and more.
     - **Explore GitHub**: [JSopX.VueCore](https://github.com/JasonSilvestri/JSopX.VueCore)
   
 [`⇧ Back to Top`](#table-of-contents)
@@ -413,7 +413,7 @@ Carefully choose the approach below that fits your current objective:
 
 ---
 
-[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../../Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
+[`Home`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) » [`Introduction`](../jsopx.Global/Introduction/) » [`Projects`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/OpenProjects/) · · **`Use Latest`** · [`By-Phase`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/README.md) · [`From Scratch`](../../OpenProjects/jsopx.OpenProjectX/p1/v1/RECREATEME.md) · · [`⇧ Back to Top`](#table-of-contents) · [`« Previous`](../../OpenProjects/jsopx.RCLxComponents/p1/v1/RECREATEME.md) [`Next »`](../../OpenProjects/jsopx.ClassLibrary/p1/v1/RECREATEME.md)
 
 ---
 
