@@ -22,8 +22,8 @@ Template is used for Cross-platform MAUI Hybrid App and Web Multi App Project Li
 - [JSopX.SaaS]
 - [JSopX.Titrate]
 - [JSopX.HealthTracker]
-- [JSopX.CRM]
-- [JSopX.PLM]
+- [JSopX.ReactCore]
+- [JSopX.VueCore]
 
 ## **Minimum Technology Requirements**:
 
@@ -143,20 +143,20 @@ JSopX.Maui/                           # Root JSopX.BlazorCore Visual Studio Solu
 [`<https://github.com/InCareSys/JSopX.Data>`]: https://github.com/InCareSys/JSopX.Data "JSopX™ Data SaaS Project"
 [`<https://github.com/InCareSys/JSopX.RCLxAssets>`]: https://github.com/InCareSys/JSopX.RCLxAssets "JSopX™ RCLxAssets SaaS Project"
 [`<https://github.com/InCareSys/JSopX.Presentation>`]: https://github.com/InCareSys/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[`<https://github.com/InCareSys/JSopX.ClassLibrary>`]: https://github.com/InCareSys/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
+[`<https://github.com/InCareSys/JSopX.ClassLibrary>`]: https://github.com/InCareSys/JSopX.ClassLibrary "JSopX™ Class Library SaaS Project"
 [`<https://github.com/InCareSys/JSopX.RCLxComponents>`]: https://github.com/InCareSys/JSopX.RCLxComponents "JSopX™ RCL x Components SaaS Project"
 [`<https://github.com/InCareSys/JSopX.SaaS>`]: https://github.com/InCareSys/JSopX.SaaS "JSopX™ SaaS Project"
-[`<https://github.com/InCareSys/JSopX.Titrate>`]: https://github.com/InCareSys/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[`<https://github.com/InCareSys/JSopX.Titrate>`]: https://github.com/InCareSys/JSopX.Titrate "JSopX™ MAUI Hybrid .NET Core SaaS Project"
 [`<https://github.com/InCareSys/JSopX.RCLxProper>`]: https://github.com/InCareSys/JSopX.RCLxProper "JSopX™ RCL x Proper SaaS Project"
 [`<https://github.com/InCareSys/JSopX.HealthTracker>`]: https://github.com/InCareSys/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [`<https://github.com/InCareSys/JSopX.Maui.MPA>`]: https://github.com/InCareSys/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
 [`<https://github.com/InCareSys/JSopX.BridgeTooFar>`]: https://github.com/InCareSys/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
-[`<https://github.com/InCareSys/JSopX.CRM>`]: https://github.com/InCareSys/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
-[`<https://github.com/InCareSys/JSopX.PLM>`]: https://github.com/InCareSys/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
+[`<https://github.com/InCareSys/JSopX.ReactCore>`]: https://github.com/InCareSys/JSopX.ReactCore "JSopX™ React Core SaaS Project"
+[`<https://github.com/InCareSys/JSopX.VueCore>`]: https://github.com/InCareSys/JSopX.VueCore "JSopX™ Vue Core SaaS Project"
 [`<https://github.com/InCareSys/JSopX.AngularCore>`]: https://github.com/InCareSys/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form External GitHub Repository Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX GitHub]: https://github.com/InCareSys/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
+[JSopX.OpenProjectX GitHub]: https://github.com/InCareSys/JSopX "JSopX™ Enterprise-Level Solution SaaS Project"
 [JSopX.Core GitHub]: https://github.com/InCareSys/JSopX.Core "JSopX™ Core SaaS Project"
 [JSopX.Data GitHub]: https://github.com/InCareSys/JSopX.Data "JSopX™ Data SaaS Project"
 [JSopX.SharedResources GitHub]: https://github.com/InCareSys/JSopX.SharedResources "JSopX™ ML SaaS Project"
@@ -164,20 +164,20 @@ JSopX.Maui/                           # Root JSopX.BlazorCore Visual Studio Solu
 [JSopX.WebAPI GitHub]: https://github.com/InCareSys/JSopX.WebAPI "JSopX™ Web API SaaS Project"
 [JSopX.RCLxAssets GitHub]: https://github.com/InCareSys/JSopX.RCLxAssets "JSopX™ RCLxAssets SaaS Project"
 [JSopX.Presentation GitHub]: https://github.com/InCareSys/JSopX.Presentation "JSopX™ Presentation SaaS Project"
-[JSopX.ClassLibrary GitHub]: https://github.com/InCareSys/JSopX.ClassLibrary "JSopX™ Utilities SaaS Project"
+[JSopX.ClassLibrary GitHub]: https://github.com/InCareSys/JSopX.ClassLibrary "JSopX™ Class Library SaaS Project"
 [JSopX.RCLxComponents GitHub]: https://github.com/InCareSys/JSopX.RCLxComponents "JSopX™ RCL x Components SaaS Project"
 [JSopX.SaaS GitHub]: https://github.com/InCareSys/JSopX.SaaS "JSopX™ SaaS Project"
-[JSopX.Titrate GitHub]: https://github.com/InCareSys/JSopX.Titrate "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.Titrate GitHub]: https://github.com/InCareSys/JSopX.Titrate "JSopX™ MAUI Hybrid .NET Core SaaS Project"
 [JSopX.RCLxProper GitHub]: https://github.com/InCareSys/JSopX.RCLxProper "JSopX™ RCL x Proper SaaS Project"
 [JSopX.HealthTracker GitHub]: https://github.com/InCareSys/JSopX.HealthTracker "The Original JSopX™ Maui SaaS Project by Mark"
 [JSopX.Maui.MPA GitHub]: https://github.com/InCareSys/JSopX.Maui.MPA "The Original JSopX™ Maui Multi App SaaS Project by Mark"
 [JSopX.BridgeTooFar GitHub]: https://github.com/InCareSys/JSopX.BridgeTooFar "JSopX™ Document Management SaaS Project"
-[JSopX.CRM GitHub]: https://github.com/InCareSys/JSopX.CRM "JSopX™ Customer Relationship Management SaaS Project"
-[JSopX.PLM GitHub]: https://github.com/InCareSys/JSopX.PLM "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX.ReactCore GitHub]: https://github.com/InCareSys/JSopX.ReactCore "JSopX™ React Core SaaS Project"
+[JSopX.VueCore GitHub]: https://github.com/InCareSys/JSopX.VueCore "JSopX™ Vue Core SaaS Project"
 [JSopX.AngularCore GitHub]: https://github.com/InCareSys/JSopX.AngularCore "JSopX™ Angular Core consumption SaaS Example Project"
 
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solution SaaS Projects -->
-[JSopX]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
+[JSopX.OpenProjectX]: /JSopX.BridgeTooFar/docs/md/OpenProjectX/README.md "JSopX™ Enterprise-Level Solution"
 [JSopX.Core]: /JSopX.BridgeTooFar/docs/md/jsopx.Core/README.md "JSopX™ Core SaaS Project"
 [JSopX.Data]: /JSopX.BridgeTooFar/docs/md/jsopx.Data/README.md "JSopX™ Data SaaS Project"
 [JSopX.SharedResources]: /JSopX.BridgeTooFar/docs/md/jsopx.SharedResources/README.md "JSopX™ Shared Resources SaaS Project"
@@ -185,37 +185,33 @@ JSopX.Maui/                           # Root JSopX.BlazorCore Visual Studio Solu
 [JSopX.WebAPI]: /JSopX.BridgeTooFar/docs/md/jsopx.WebAPI/README.md "JSopX™ WebAPI SaaS Project"
 [JSopX.RCLxAssets]: /JSopX.BridgeTooFar/docs/md/jsopx.RCLxAssets/README.md "JSopX™ RCLxAssets SaaS Project"
 [JSopX.Presentation]: /JSopX.BridgeTooFar/docs/md/jsopx.Presentation/README.md "JSopX™ Presentation SaaS Project"
-[JSopX.ClassLibrary]: /JSopX.BridgeTooFar/docs/md/jsopx.ClassLibrary/README.md "JSopX™ Utilities SaaS Project"
+[JSopX.ClassLibrary]: /JSopX.BridgeTooFar/docs/md/jsopx.ClassLibrary/README.md "JSopX™ Class Library SaaS Project"
 [JSopX.RCLxComponents]: /JSopX.BridgeTooFar/docs/md/jsopx.RCLxComponents/README.md "JSopX™ RCL x Components SaaS Project"
 [JSopX.SaaS]: /JSopX.BridgeTooFar/docs/md/jsopx.SaaS/README.md "JSopX™ SaaS Project"
-[JSopX.Titrate]: /JSopX.BridgeTooFar/docs/md/jsopx.Titrate/README.md "JSopX™ MAUI Titrate SaaS Project"
+[JSopX.Titrate]: /JSopX.BridgeTooFar/docs/md/jsopx.Titrate/README.md "JSopX™ MAUI Hybrid .NET Core SaaS Project"
 [JSopX.RCLxProper]: /JSopX.BridgeTooFar/docs/md/jsopx.RCLxProper/README.md "JSopX™ RCL x Proper SaaS Project"
-[JSopX.HealthTracker]: /JSopX.BridgeTooFar/docs/md/jsopx.HealthTracker/README.md "The Original JSopX™ Maui SaaS Project by Mark"
-[JSopX.Maui.MPA]: /JSopX.BridgeTooFar/docs/md/jsopx.Maui.MPA/README.md "The Original JSopX™ Maui Multi App SaaS Project by Mark"
 [JSopX.BridgeTooFar]: /JSopX.BridgeTooFar/docs/md/jsopx.BridgeTooFar/README.md "JSopX™ Document Management SaaS Project"
-[JSopX.CRM]: /JSopX.BridgeTooFar/docs/md/jsopx.CRM/README.md "JSopX™ Customer Relationship Management SaaS Project"
-[JSopX.PLM]: /JSopX.BridgeTooFar/docs/md/jsopx.PLM/README.md "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX.ReactCore]: /JSopX.BridgeTooFar/docs/md/jsopx.ReactCore/README.md "JSopX™ React Core SaaS Project"
+[JSopX.VueCore]: /JSopX.BridgeTooFar/docs/md/jsopx.VueCore/README.md "JSopX™ Vue Core SaaS Project"
 [JSopX.AngularCore]: /JSopX.BridgeTooFar/docs/md/jsopx.AngularCore/README.md "JSopX™ Angular Core SaaS Project"
 
 <!-- Short Form Local Document Management Links of all JSopX™ Enterprise-Level Solutions & Version All SaaS Projects -->
-[JSopX (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"
+[JSopX.OpenProjectX (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopx "JSopX™ Enterprise-Level Solution"
 [JSopX.Core (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxcore "JSopX™ Core SaaS Project"
 [JSopX.Data (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxdata "JSopX™ Data SaaS Project"
-[JSopX.SharedResources (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxml "JSopX™ ML SaaS Project"
+[JSopX.SharedResources (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxsharedresources "JSopX™ ML SaaS Project"
 [JSopX.Halos (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxhalos "JSopX™ WebAPI SaaS Project"
-[JSopX.RCLxAssets (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxvault "JSopX™ RCLxAssets SaaS Project"
+[JSopX.RCLxAssets (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxassets "JSopX™ RCLxAssets SaaS Project"
 [JSopX.Presentation (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxpresentation "JSopX™ Presentation SaaS Project"
-[JSopX.ClassLibrary (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxutilities "JSopX™ Utilities SaaS Project"
-[JSopX.RCLxComponents (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxunitx "JSopX™ RCL x Components SaaS Project"
+[JSopX.ClassLibrary (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxclasslibrary "JSopX™ Class Library SaaS Project"
+[JSopX.RCLxComponents (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxcomponents "JSopX™ RCL x Components SaaS Project"
 [JSopX.SaaS (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxsaas "JSopX™ SaaS Project"
-[JSopX.Titrate (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxtitrate "JSopX™ MAUI Titrate SaaS Project"
-[JSopX.RCLxProper (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxendgame "JSopX™ RCL x Proper SaaS Project"
-[JSopX.HealthTracker (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxtitrate "The Original JSopX™ Maui SaaS Project by Mark"
-[JSopX.Maui.MPA (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxmauimpa "The Original JSopX™ Maui Multi App SaaS Project by Mark"
+[JSopX.Titrate (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxmauihybridnetcore "JSopX™ MAUI Hybrid .NET Core SaaS Project"
+[JSopX.RCLxProper (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxrclxproper "JSopX™ RCL x Proper SaaS Project"
 [JSopX.BridgeTooFar (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxbridgetoofar "JSopX™ Document Management SaaS Project"
-[JSopX.CRM (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxcrm "JSopX™ Customer Relationship Management SaaS Project"
-[JSopX.PLM (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxplm "JSopX™ Product Lifecycle Management SaaS Project"
-[JSopX.AngularCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxangularcore "JSopX™ Product Lifecycle Management SaaS Project"
+[JSopX.ReactCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxreactcore "JSopX™ React Core SaaS Project"
+[JSopX.VueCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxvuecore "JSopX™ Vue Core SaaS Project"
+[JSopX.AngularCore (v 1.0)]: /JSopX.BridgeTooFar/docs/md/jsopx.Global/Solutions/README.md#-jsopxangularcore "JSopX™ Vue Core SaaS Project"
 
 
 <!-- Short Form Local Document Management Links of all JSopX™ Visual Studio Templates-->

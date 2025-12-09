@@ -64,7 +64,7 @@ There is a plethora of factors that go into the creation of an Enterprise-Level 
 
 There is a plethora of factors that go into the creation of an Enterprise-Level Application, from conception to release to market. Conversely, from a developer and/or group of developers' perspective, that entire world becomes razor focused to a particular set of skills that we are masters at without a doubt. Still, it takes dicipline, set standards, and some form of broad-stroke design pattern that can tackle large parts of the development lifecycle and workflow states. I adopted an approach called, `Phases`.
 
-Using `Phases` effectively is crucial for ensuring developers can quickly understand the purpose and layout of our projects. You can think of `Phases` as Phase Gates, Lifecycles and WorkflowStates which come from the world of PLM (Production Lifecycle Management). 
+Using `Phases` effectively is crucial for ensuring developers can quickly understand the purpose and layout of our projects. You can think of `Phases` as Phase Gates, Lifecycles and WorkflowStates which come from the world of VueCore (Production Lifecycle Management). 
 
 This guide explores best practices for creating Visual Studio Projects, using many different technologies, to show how standards are created and mantained, introduction to file treesand Git Sub trees, how to extend new and existing project functionality, iterations of "Start from Scratch" and "Final Product" documentation based on Phase. These methods help maintain consistency and clarity, especially in complex enterprise-level ecosystems like JSopX™.
 

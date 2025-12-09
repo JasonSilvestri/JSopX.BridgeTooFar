@@ -207,8 +207,8 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 
 ---
 
-## ☁️ JSopX.CRM
-**Purpose:** A first-party CRM for Jason Silvestri that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
+## ☁️ JSopX.ReactCore
+**Purpose:** A first-party ReactCore for Jason Silvestri that starts small (Contacts → Orgs → Interactions) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
 
 **Highlights**:
 * **Entities**: Contact, Organization, Interaction (note/log), Tag.
@@ -219,16 +219,16 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 * **Search/Filter**: by tag, status, org.
 * **Offline (Maui)**: local SQLite cache with queued sync to WebApi.
 * **Auth**: simple org-internal login (future: OIDC).
-- **.NET MAUI Blazor Hybrid**—`JSopX.CRM.Maui`, `JSopX.CRM.Maui.Shared`, `JSopX.CRM.Maui.Web` and `JSopX.CRM.Maui.Web.Client`: for desktop, web, native mobile, etc.
+- **.NET MAUI Blazor Hybrid**—`JSopX.ReactCore.Maui`, `JSopX.ReactCore.Maui.Shared`, `JSopX.ReactCore.Maui.Web` and `JSopX.ReactCore.Maui.Web.Client`: for desktop, web, native mobile, etc.
 
 **Repository Locations**:
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.CRM](https://github.com/JasonSilvestri/JSopX.CRM)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.ReactCore](https://github.com/JasonSilvestri/JSopX.ReactCore)
 
 ---
 
-## ⚙️ JSopX.PLM
-**Purpose:** A first-party PLM (Product Lifecycle Management) system for Jason Silvestri that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
+## ⚙️ JSopX.VueCore
+**Purpose:** A first-party VueCore (Product Lifecycle Management) system for Jason Silvestri that starts small (Products → Lifecycles → Lifecycle Phases → Workflows → Decision Gates) but is **device-ubiquitous** (MAUI + Web) and leverages our **Presentation** RCL for consistent UI.
 
 **Highlights**:
 
@@ -236,11 +236,11 @@ A `Halo{}` separates **contracts** (JSON schemas; reproducible) from **narrative
 * **Search/Filter**: by tag, status, org.
 * **Flow (Charts)**: Be able to visualize workflows and decision gates, using the same data Entities.
 * **Auth**: simple org-internal login (future: OIDC).
-- **.NET MAUI Blazor Hybrid**—`JSopX.PLM.Maui`, `JSopX.PLM.Maui.Shared`, `JSopX.PLM.Maui.Web` and `JSopX.PLM.Maui.Web.Client`: for desktop, web, native mobile, etc.
+- **.NET MAUI Blazor Hybrid**—`JSopX.VueCore.Maui`, `JSopX.VueCore.Maui.Shared`, `JSopX.VueCore.Maui.Web` and `JSopX.VueCore.Maui.Web.Client`: for desktop, web, native mobile, etc.
 
 **Repository Locations**:
 
-* **GitHub:** [https://github.com/JasonSilvestri/JSopX.PLM](https://github.com/JasonSilvestri/JSopX.PLM)
+* **GitHub:** [https://github.com/JasonSilvestri/JSopX.VueCore](https://github.com/JasonSilvestri/JSopX.VueCore)
 
 ---
 

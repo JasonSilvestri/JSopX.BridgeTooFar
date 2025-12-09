@@ -48,7 +48,7 @@ This repository is **strictly proprietary** and **not open for contributions**. 
 - [Key Components](#key-components)
 - [Platform Scope (v1)](#platform-scope-v1)
 - [Repository File Structure](#repository-file-structure)
-- [Clone `JSopX.{ProjectName}` Git Repository](#clone-jsopxml-git-repository)
+- [Clone `JSopX.{ProjectName}` Git Repository](#clone-jsopxsharedresources-git-repository)
   - [Option 1: Using `Bash`](#option-1-using-bash)
   - [Option 2: Using `Powershell`](#option-2-using-powershell)
   - [Option 3: Using `Node` or `npm` (degit)](#option-3-using-node-or-npm-degit)
