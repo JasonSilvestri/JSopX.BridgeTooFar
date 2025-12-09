@@ -72,9 +72,9 @@ The result is an environment that transforms a patchwork of independent solution
 
 ## Prerequisites
 
-- [Visual Studio (v 17.14.21)](../jsopx.RCLxProper/p1/v1/Technologies/VisualStudio.md)
-- [.NET Framework (v 9.2.1)](../jsopx.RCLxProper/p1/v1/Technologies/NetFrameworkSdk.md)
-- [ASP.NET Core (v 9.2.1)](../jsopx.RCLxProper/p1/v1/Technologies/AspNetCore.md)
+- [Visual Studio (v 17.14.21)](../jsopx.Global/Technologies/VisualStudio.md)
+- [.NET Framework (v 9.2.1)](../jsopx.Global/Technologies/NetFrameworkSdk.md)
+- [ASP.NET Core (v 9.2.1)](../jsopx.Global/Technologies/AspNetCore.md)
 
 [`⇧ Back to Top`](#table-of-contents)
 
