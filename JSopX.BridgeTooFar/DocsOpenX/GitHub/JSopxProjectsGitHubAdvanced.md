@@ -148,7 +148,7 @@ To add a repository as a subtree, perform the following command, where we will u
  # -- or --
  
  # 2. Add JSopX.WebAPI Git Repository Subtree to JSopX.OpenProjectX inline.       
- git subtree add --prefix=path/to/local/repo/JasonSilvestri/JSopX.OpenProjectX https://github.com/JasonSilvestri/JSopX.WebAPI.git master --squash
+ git subtree add --prefix=path/to/local/JasonSilvestri/JSopX.OpenProjectX https://github.com/JasonSilvestri/JSopX.WebAPI.git master --squash
  
  # -- For Clarity --
 
@@ -157,7 +157,7 @@ To add a repository as a subtree, perform the following command, where we will u
 
 ```
 
-This command adds the `JSopX.WebAPI` repository as a subtree in the `JSopX.OpenProjectX` repository, under the `path/to/local/repo/JasonSilvestri/JSopX.OpenProjectX` directory.
+This command adds the `JSopX.WebAPI` repository as a subtree in the `JSopX.OpenProjectX` repository, under the `path/to/local/JasonSilvestri/JSopX.OpenProjectX` directory.
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -168,7 +168,7 @@ This command adds the `JSopX.WebAPI` repository as a subtree in the `JSopX.OpenP
 To pull in updates from the remote subtree repository, use the following command:
 
 ```bash
-git subtree pull --prefix=path/to/local/repo/JasonSilvestri/JSopX.WebAPI https://github.com/JasonSilvestri/JSopX.WebAPI.git master --squash
+git subtree pull --prefix=path/to/local/JasonSilvestri/JSopX.WebAPI https://github.com/JasonSilvestri/JSopX.WebAPI.git master --squash
 ```
 
 This pulls the latest changes from the `master` branch of the `JSopX.WebAPI` repository and merges them into your local project.
@@ -182,10 +182,10 @@ This pulls the latest changes from the `master` branch of the `JSopX.WebAPI` rep
 To push changes made in the subtree back to the remote repository, use:
 
 ```bash
-git subtree push --prefix=path/to/local/repo/JasonSilvestri/JSopX.WebAPI https://github.com/JasonSilvestri/JSopX.WebAPI.git master
+git subtree push --prefix=path/to/local/JasonSilvestri/JSopX.WebAPI https://github.com/JasonSilvestri/JSopX.WebAPI.git master
 ```
 
-This command pushes any changes made in the `path/to/local/repo/JasonSilvestri/JSopX.WebAPI` directory back to the `master` branch of the `JSopX.WebAPI` repository.
+This command pushes any changes made in the `path/to/local/JasonSilvestri/JSopX.WebAPI` directory back to the `master` branch of the `JSopX.WebAPI` repository.
 
 [`⇧ Back to Top`](#table-of-contents)
 
@@ -196,7 +196,7 @@ This command pushes any changes made in the `path/to/local/repo/JasonSilvestri/J
 If you need to remove a subtree, you can simply delete the directory and clean up the Git history:
 
 ```bash
-rm -rf path/to/local/repo/JasonSilvestri/JSopX.WebAPI
+rm -rf path/to/local/JasonSilvestri/JSopX.WebAPI
 git add .
 git commit -m "Removed JSopX.WebAPI subtree"
 ```
