@@ -16,7 +16,7 @@ The **Jason Silvestri Open Project EXperiences (JSopX™) JSopX™** Enterprise-
 | Company & Brand                       | `Jason Silvestri`                                        |   The standard abbreviation and short name for Jason Silvestri Open Project EXperiences.                       |
 | Company & Brand                       | [`jsopx.com`]                           |   The official Jason Silvestri Open Project EXperiences. website                       |
 | Company & Brand                       | `JSopX™`                                 |   The brand name for Jason Silvestri's suite of SaaS products and services focused on patient self-management and wellness. |
-| Company & Brand                       | `SaaS`                                        |   Software as a Service delivery model utilized by the "Self Health" brand.                        |
+| Company & Brand                       | `SaaS`                                        |   Software as a Service delivery model utilized by the "JSopX" brand.                        |
 | JSopX Projects                   | 🛡️&nbsp;[`JSopX`]                               |   Parent enterprise-level Git Sub Tree project (each project also has its own origin repository).  |
 | JSopX Projects                   | 🗂&nbsp;[`JSopX.BridgeTooFar`]                             |   Document Management pipeline for markdown, PDF, Word conversion, Docs processing.                |
 | JSopX Projects                   | 🧩&nbsp;[`JSopX.Core`]                           |   Domain models, value objects, validation logic, shared abstractions.                             |

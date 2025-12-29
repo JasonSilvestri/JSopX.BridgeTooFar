@@ -208,9 +208,9 @@ These files are more direct, and we tailor this repo’s “front matter” the 
 ## 📄 `README.md`
 
 ```markdown
-# MAUI Self Health Tracker
+# MAUI JSopX Tracker
 
-**MAUI Self Health Tracker** is a cross-platform application prototype built with .NET 9, ASP.NET Core 9, and .NET MAUI Hybrid + Web. It leverages a shared project for models and data access (`TrackerDbContext`) and is designed as the foundation for **JSopX™**, a proprietary product of Jason Silvestri Open Project EXperiences (JSopX™).
+**MAUI JSopX Tracker** is a cross-platform application prototype built with .NET 9, ASP.NET Core 9, and .NET MAUI Hybrid + Web. It leverages a shared project for models and data access (`TrackerDbContext`) and is designed as the foundation for **JSopX™**, a proprietary product of Jason Silvestri Open Project EXperiences (JSopX™).
 
 ---
 

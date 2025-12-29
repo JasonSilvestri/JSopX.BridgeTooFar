@@ -58,7 +58,7 @@ To build and run the **Jason Silvestri Open Project EXperiences (JSopX™) JSopX
 
 ---
 
-> Anytime we use a template to create a Self Health project, we immediately need to perform any latest updates, by going to the Solution -> Right Click -> and choose `Manage Nuget Packages`
+> Anytime we use a template to create a JSopX project, we immediately need to perform any latest updates, by going to the Solution -> Right Click -> and choose `Manage Nuget Packages`
 
 ---
 

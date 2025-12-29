@@ -42,7 +42,7 @@ JSopX.WebAPI/                   # Root JSopX.WebAPI Visual Studio Solution folde
 
 ```
 
-> Anytime we use a template to create a Self Health project, it is recommeneded check for latest updates.
+> Anytime we use a template to create a JSopX project, it is recommeneded check for latest updates.
 >
 >Go to the **Solution** -> **_Right Click_** -> and choose **`Manage Nuget Packages`**.
 
